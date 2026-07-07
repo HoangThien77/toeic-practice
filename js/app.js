@@ -1203,7 +1203,7 @@
     const action = state.finished
       ? (state.keyOnly
         ? `<button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`
-        : `<button class="btn" onclick="App.exportAnswers()">Xuất đáp án</button>
+        : `<button class="btn" onclick="App.exportAnswers()">Xuất phiếu đáp án</button>
            <button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`)
       : `<button class="btn btn-primary" onclick="App.trySubmit()">Nộp bài</button>
          <button class="btn" onclick="App.goHome()">Huỷ</button>`;
@@ -1375,7 +1375,7 @@
       </div>
       <div style="display:flex; gap:10px; flex-wrap:wrap">
         <button class="btn btn-primary" onclick="App.reviewAnswers()">Xem lại từng câu + giải thích</button>
-        <button class="btn" onclick="App.exportAnswers()">Xuất đáp án đã chọn</button>
+        <button class="btn" onclick="App.exportAnswers()">Xuất phiếu đáp án</button>
         <button class="btn" onclick="${state.session ? "App.restartSession()" : `App.startTest('${t.id}','${state.mode}')`}">Làm lại</button>
         <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
@@ -1552,19 +1552,107 @@
     return lines.join("\n") + "\n";
   }
 
+  function buildAnswerSheetCanvas() {
+    // Phiếu đáp án kiểu bubble sheet TOEIC: tô đen đáp án đã chọn
+    const t = test();
+    const present = new Set(allQuestions(t).map((x) => x.q.n));
+    const hasL = [...present].some((n) => n <= 100);
+    const hasR = [...present].some((n) => n > 100);
+
+    const SCALE = 2;
+    const COL_W = 262, ROW_H = 31, COLS = 4, ROWS = 25;
+    const SEC_W = COL_W * COLS;
+    const M = 46;
+    const secH = 64 + ROWS * ROW_H + 18;
+    const headH = 118;
+    const W = SEC_W + M * 2;
+    const H = headH + (hasL ? secH : 0) + (hasR ? secH : 0) + 70;
+
+    const cv = document.createElement("canvas");
+    cv.width = W * SCALE; cv.height = H * SCALE;
+    const c = cv.getContext("2d");
+    c.scale(SCALE, SCALE);
+    c.fillStyle = "#ffffff"; c.fillRect(0, 0, W, H);
+    const FONT = "-apple-system, 'Segoe UI', Roboto, Arial, sans-serif";
+
+    c.fillStyle = "#111827";
+    c.font = "800 26px " + FONT;
+    c.fillText("PHIẾU ĐÁP ÁN — " + t.title, M, 46);
+    c.font = "400 15px " + FONT;
+    c.fillStyle = "#4b5563";
+    const answered = allQuestions(t).filter((x) => state.answers[x.q.n]).length;
+    c.fillText("Ngày làm: " + new Date(state.startedAt || Date.now()).toLocaleString("vi-VN")
+      + "   ·   Đã trả lời: " + answered + "/" + present.size + " câu   ·   TOEIC Practice", M, 74);
+    c.strokeStyle = "#111827"; c.lineWidth = 2;
+    c.strokeRect(M - 14, 20, SEC_W + 28, H - 40);
+
+    function drawSection(title, startN, topY) {
+      c.fillStyle = "#111827";
+      c.fillRect(M, topY, SEC_W, 34);
+      c.fillStyle = "#ffffff";
+      c.font = "800 16px " + FONT;
+      const tw = c.measureText(title).width;
+      c.fillText(title, M + (SEC_W - tw) / 2, topY + 23);
+      const gridY = topY + 46;
+      for (let col = 0; col < COLS; col++) {
+        const x0 = M + col * COL_W;
+        if (col % 2 === 1) {
+          c.fillStyle = "#eef1f6";
+          c.fillRect(x0, gridY - 8, COL_W, ROWS * ROW_H + 12);
+        }
+        for (let row = 0; row < ROWS; row++) {
+          const n = startN + col * ROWS + row;
+          const y = gridY + row * ROW_H + 14;
+          const inTest = present.has(n);
+          const user = state.answers[n];
+          c.font = "700 13.5px " + FONT;
+          c.fillStyle = inTest ? "#111827" : "#c3c9d6";
+          const numStr = String(n);
+          c.fillText(numStr, x0 + 34 - c.measureText(numStr).width, y + 5);
+          ["A", "B", "C", "D"].forEach((L, i) => {
+            const bx = x0 + 56 + i * 47;
+            const picked = user === L;
+            c.beginPath();
+            c.arc(bx, y, 9.5, 0, Math.PI * 2);
+            if (picked) {
+              c.fillStyle = "#111827"; c.fill();
+            }
+            c.lineWidth = 1.4;
+            c.strokeStyle = inTest ? "#3b4256" : "#d5dae4";
+            c.stroke();
+            c.font = "700 10.5px " + FONT;
+            c.fillStyle = picked ? "#ffffff" : (inTest ? "#3b4256" : "#d5dae4");
+            c.fillText(L, bx - 3.8, y + 3.8);
+          });
+        }
+      }
+      return topY + secH;
+    }
+
+    let y = headH;
+    if (hasL) y = drawSection("LISTENING SECTION (1–100)", 1, y);
+    if (hasR) y = drawSection("READING SECTION (101–200)", 101, y);
+    c.font = "400 12.5px " + FONT;
+    c.fillStyle = "#9aa2b3";
+    c.fillText("Ô mờ = câu không có trong phần đã làm · Ô tô đen = đáp án đã chọn", M, H - 26);
+    return cv;
+  }
+
   function exportAnswers() {
     const t = test();
     const d = new Date(state.startedAt || Date.now());
     const stamp = d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0")
       + "-" + String(d.getHours()).padStart(2, "0") + String(d.getMinutes()).padStart(2, "0");
-    const blob = new Blob(["﻿" + answerSheetText()], { type: "text/plain;charset=utf-8" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = `dap-an-${t.id}-${stamp}.txt`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    const cv = buildAnswerSheetCanvas();
+    cv.toBlob((blob) => {
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `phieu-dap-an-${t.id}-${stamp}.png`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    }, "image/png");
   }
 
   function reviewAnswers() {
@@ -1683,7 +1771,7 @@
   /* ---------------- public API ---------------- */
   window.App = {
     goHome, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
-    exportAnswers, answerSheetText, openHistory, openKeyView, showResult,
+    exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
