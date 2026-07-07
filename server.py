@@ -111,7 +111,9 @@ Nếu thất bại không khắc phục được: đặt "status": "error" và "
         "TERM": "dumb",
     }
     subprocess.Popen(
-        ["/bin/zsh", "-lc", cmd],
+        # zsh KHÔNG login (-c): tránh nạp profile người dùng (đụng dữ liệu app khác
+        # → macOS hỏi quyền mỗi lần). Env cần thiết đã khai báo tường minh ở trên.
+        ["/bin/zsh", "-c", cmd],
         cwd=ROOT, stdout=log, stderr=log, env=env,
         stdin=subprocess.DEVNULL, start_new_session=True,
     )
