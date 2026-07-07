@@ -1,5 +1,13 @@
 # TOEIC Practice — Web luyện thi TOEIC cá nhân
 
+🌐 **Bản online**: https://hoangthien77.github.io/toeic-practice/ (GitHub Pages — dùng được mọi tính năng trừ upload đề mới).
+
+**Cập nhật web sau khi có đề mới**: xử lý đề trên máy như bình thường (upload → Xử lý ngay), xong chạy:
+```bash
+cd toeic-app && git add -A && git commit -m "them de moi" && git push
+```
+Web tự cập nhật sau ~1 phút.
+
 Web app luyện thi TOEIC (Listening + Reading) dựng từ bộ đề của bạn:
 
 | Đề | Nội dung | Số câu |
