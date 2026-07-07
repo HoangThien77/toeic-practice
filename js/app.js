@@ -626,7 +626,7 @@
     const guide = cloud ? `
       <details class="up-guide">
         <summary>Xem hướng dẫn upload từng bước (40 giây)</summary>
-        <img src="assets/img/guide-upload.gif" alt="Hướng dẫn upload đề" loading="lazy">
+        <img src="assets/img/guide-upload.gif?v=2" alt="Hướng dẫn upload đề" loading="lazy">
         <ol>
           <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
           <li>Kéo thả (hoặc bấm chọn) file PDF đề; nếu đề có bài nghe thì thả thêm file MP3.</li>
