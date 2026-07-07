@@ -1,0 +1,905 @@
+{
+ "id": "mock-test-1-reading",
+ "kind": "reading",
+ "title": "Mock test 1 — Reading",
+ "desc": "Part 5–7, câu 101–167 (67 câu — file đề gốc chỉ có tới câu 167, thiếu 168–200). Đáp án do AI giải (2 lần độc lập, trùng 67/67).",
+ "timerMin": 50,
+ "custom": true,
+ "parts": [
+  {
+   "part": 5,
+   "directions": "Chọn từ/cụm từ phù hợp nhất để hoàn thành câu.",
+   "items": [
+    {
+     "n": 101,
+     "question": "According to the department head, _____ are ready to begin work on the Arborney Bridge project.",
+     "choices": {
+      "A": "us",
+      "B": "we",
+      "C": "our",
+      "D": "ours"
+     },
+     "answer": "B",
+     "explanation": "Cần đại từ chủ ngữ làm chủ ngữ cho động từ 'are' → 'we'. Loại 'us' (tân ngữ), 'our'/'ours' (sở hữu)."
+    },
+    {
+     "n": 102,
+     "question": "The policy prohibiting visitor access to the laboratory must be _____ followed.",
+     "choices": {
+      "A": "strictly",
+      "B": "bitterly",
+      "C": "sizably",
+      "D": "colorfully"
+     },
+     "answer": "A",
+     "explanation": "Cần trạng từ bổ nghĩa cho 'followed'; 'strictly followed' (tuân thủ nghiêm ngặt) hợp nghĩa nhất. Các lựa chọn khác sai nghĩa với quy định."
+    },
+    {
+     "n": 103,
+     "question": "Yoon-Hee Kim is the _____ graduate of Serrica University to lead a Fortune 500 company.",
+     "choices": {
+      "A": "most",
+      "B": "for",
+      "C": "first",
+      "D": "nearly"
+     },
+     "answer": "C",
+     "explanation": "Cấu trúc 'the first ... to do' (người đầu tiên làm gì); 'the first graduate ... to lead a Fortune 500 company'."
+    },
+    {
+     "n": 104,
+     "question": "Contact Frank Marilli in the IT department _____ you have any problems with the new database software.",
+     "choices": {
+      "A": "and",
+      "B": "then",
+      "C": "but",
+      "D": "if"
+     },
+     "answer": "D",
+     "explanation": "Câu điều kiện: 'Contact ... if you have any problems' (hãy liên hệ nếu gặp vấn đề). Các liên từ khác không hợp logic."
+    },
+    {
+     "n": 105,
+     "question": "A _____ efficiency expert will be visiting our work site in early November.",
+     "choices": {
+      "A": "led",
+      "B": "leader",
+      "C": "leading",
+      "D": "leads"
+     },
+     "answer": "C",
+     "explanation": "Cần tính từ đứng trước danh từ 'efficiency expert'; 'leading' (hàng đầu) làm định ngữ. Loại 'led'/'leader'/'leads'."
+    },
+    {
+     "n": 106,
+     "question": "At Gallant's Pet Store, customer _____ are accepted between 9:00 A.M. and 6:00 P.M.",
+     "choices": {
+      "A": "behaviors",
+      "B": "relations",
+      "C": "orders",
+      "D": "types"
+     },
+     "answer": "C",
+     "explanation": "Ngữ cảnh cửa hàng thú cưng nhận đơn hàng theo giờ → 'customer orders are accepted'. 'behaviors/relations/types' không hợp nghĩa."
+    },
+    {
+     "n": 107,
+     "question": "The management at Carette Industries _____ values the work of the research team.",
+     "choices": {
+      "A": "high",
+      "B": "highly",
+      "C": "highest",
+      "D": "higher"
+     },
+     "answer": "B",
+     "explanation": "Cần trạng từ bổ nghĩa động từ 'values'; 'highly values' (rất coi trọng). Loại tính từ 'high' và các dạng so sánh."
+    },
+    {
+     "n": 108,
+     "question": "Pentrexa Pharmacy is able to _____ most prescriptions within one business day.",
+     "choices": {
+      "A": "care",
+      "B": "earn",
+      "C": "fill",
+      "D": "lift"
+     },
+     "answer": "C",
+     "explanation": "Collocation 'fill a prescription' (bào chế/cấp thuốc theo đơn). 'care/earn/lift' không đi với prescriptions."
+    },
+    {
+     "n": 109,
+     "question": "The _____ of a parking structure for Huron General Hospital will begin on June 1.",
+     "choices": {
+      "A": "construct",
+      "B": "constructed",
+      "C": "construction",
+      "D": "constructs"
+     },
+     "answer": "C",
+     "explanation": "Sau mạo từ 'The' và trước 'of' cần danh từ → 'construction' (việc xây dựng). Loại động từ 'construct/constructs' và phân từ."
+    },
+    {
+     "n": 110,
+     "question": "Some of the flower beds surrounding Dale Valley Lodge had to be replanted _____ the recent rainstorm.",
+     "choices": {
+      "A": "after",
+      "B": "among",
+      "C": "opposite",
+      "D": "beside"
+     },
+     "answer": "A",
+     "explanation": "Ngữ cảnh phải trồng lại sau cơn mưa bão → 'after the recent rainstorm'. Các giới từ chỉ vị trí 'among/opposite/beside' không hợp."
+    },
+    {
+     "n": 111,
+     "question": "Several water stations _____ along the route of next week's marathon.",
+     "choices": {
+      "A": "being installed",
+      "B": "will be installed",
+      "C": "to install",
+      "D": "installed"
+     },
+     "answer": "B",
+     "explanation": "Câu thiếu động từ chính; nghĩa tương lai bị động → 'will be installed'. 'being installed/to install/installed' không thể làm động từ chính hoàn chỉnh."
+    },
+    {
+     "n": 112,
+     "question": "The Crown Lagoon Hotel has 150 rooms, each with a _____ view of the city.",
+     "choices": {
+      "A": "valid",
+      "B": "recent",
+      "C": "modern",
+      "D": "scenic"
+     },
+     "answer": "D",
+     "explanation": "'a scenic view of the city' (tầm nhìn đẹp/cảnh quan). 'valid/recent/modern' không hợp với 'view'."
+    },
+    {
+     "n": 113,
+     "question": "Overall, charitable donations rose last year, _____ specific dollar amounts are not yet available.",
+     "choices": {
+      "A": "although",
+      "B": "neither",
+      "C": "whenever",
+      "D": "so"
+     },
+     "answer": "A",
+     "explanation": "Cần liên từ chỉ tương phản: quyên góp tăng nhưng con số cụ thể chưa có → 'although'. 'so' chỉ kết quả, 'neither/whenever' sai."
+    },
+    {
+     "n": 114,
+     "question": "We strongly advise you to back up the data stored on your electronic device _____ turning it in for repairs.",
+     "choices": {
+      "A": "once",
+      "B": "both",
+      "C": "then",
+      "D": "before"
+     },
+     "answer": "D",
+     "explanation": "'back up the data before turning it in for repairs' (sao lưu trước khi đem đi sửa). 'once/then/both' không hợp logic thời gian."
+    },
+    {
+     "n": 115,
+     "question": "Because Ms. Garcia enjoys creating charts and graphs, her supervisor _____ asks her to make materials for presentations.",
+     "choices": {
+      "A": "frequent",
+      "B": "frequents",
+      "C": "frequenting",
+      "D": "frequently"
+     },
+     "answer": "D",
+     "explanation": "Cần trạng từ bổ nghĩa động từ 'asks'; 'frequently asks' (thường xuyên yêu cầu). Loại tính từ/động từ 'frequent/frequents/frequenting'."
+    },
+    {
+     "n": 116,
+     "question": "Manufacturers of high-end products are dealing with excess _____ because consumers are buying fewer luxury items.",
+     "choices": {
+      "A": "confidence",
+      "B": "inventory",
+      "C": "capacity",
+      "D": "energy"
+     },
+     "answer": "B",
+     "explanation": "Người tiêu dùng mua ít hàng xa xỉ nên tồn kho dư thừa → 'excess inventory'. 'confidence/capacity/energy' không hợp ngữ cảnh hàng hóa ế."
+    },
+    {
+     "n": 117,
+     "question": "The Hayle Group, _____ consists of business consultants and lawyers, advocates for tax policy reforms.",
+     "choices": {
+      "A": "themselves",
+      "B": "someone",
+      "C": "whoever",
+      "D": "which"
+     },
+     "answer": "D",
+     "explanation": "Mệnh đề quan hệ không xác định bổ nghĩa cho vật/tổ chức 'The Hayle Group' → 'which'. 'themselves/someone/whoever' không phải đại từ quan hệ phù hợp."
+    },
+    {
+     "n": 118,
+     "question": "Daishi Asayama is one of three applicants being _____ to oversee the Kingston franchises.",
+     "choices": {
+      "A": "decided",
+      "B": "corrected",
+      "C": "considered",
+      "D": "practiced"
+     },
+     "answer": "C",
+     "explanation": "'one of three applicants being considered' (một trong ba ứng viên đang được cân nhắc). 'decided/corrected/practiced' không hợp nghĩa với applicants."
+    },
+    {
+     "n": 119,
+     "question": "The reviewer of Ms. Chen's book noted that her research was _____.",
+     "choices": {
+      "A": "impressed",
+      "B": "impressive",
+      "C": "impress",
+      "D": "impression"
+     },
+     "answer": "B",
+     "explanation": "Sau động từ 'was' cần tính từ mô tả nghiên cứu → 'impressive' (ấn tượng). 'impressed' dùng cho người, 'impress/impression' là động từ/danh từ."
+    },
+    {
+     "n": 120,
+     "question": "Mr. Pereira has worked in our legal department _____ his transfer to the Atlanta office ten years ago.",
+     "choices": {
+      "A": "since",
+      "B": "between",
+      "C": "without",
+      "D": "like"
+     },
+     "answer": "A",
+     "explanation": "'has worked ... since his transfer ... ten years ago' — 'since' đi với thì hiện tại hoàn thành chỉ mốc thời gian bắt đầu. 'between/without/like' sai."
+    },
+    {
+     "n": 121,
+     "question": "Pennypack Markets soon plans to break ground on its largest _____ center in the area.",
+     "choices": {
+      "A": "distributive",
+      "B": "distribute",
+      "C": "distributable",
+      "D": "distribution"
+     },
+     "answer": "D",
+     "explanation": "Danh từ ghép 'distribution center' (trung tâm phân phối). Loại động từ 'distribute' và tính từ 'distributive/distributable'."
+    },
+    {
+     "n": 122,
+     "question": "Ms. Miller _____ welcomed the speakers who will be leading the workshops.",
+     "choices": {
+      "A": "accessibly",
+      "B": "abundantly",
+      "C": "briefly",
+      "D": "momentarily"
+     },
+     "answer": "C",
+     "explanation": "Trạng từ bổ nghĩa 'welcomed'; 'briefly welcomed the speakers' (chào đón ngắn gọn) hợp nghĩa nhất. 'accessibly/abundantly/momentarily' không hợp."
+    },
+    {
+     "n": 123,
+     "question": "Mr. Nayar _____ the need for enhanced safety protocols long before the government issued a report on the topic.",
+     "choices": {
+      "A": "stresses",
+      "B": "stressing",
+      "C": "will stress",
+      "D": "had stressed"
+     },
+     "answer": "D",
+     "explanation": "Hành động xảy ra trước một mốc quá khứ ('long before the government issued a report') → quá khứ hoàn thành 'had stressed'."
+    },
+    {
+     "n": 124,
+     "question": "Angelia Financial recently announced _____ changes to its benefits package that were greeted enthusiastically by its staff.",
+     "choices": {
+      "A": "judgmental",
+      "B": "substantial",
+      "C": "magnetic",
+      "D": "chaotic"
+     },
+     "answer": "B",
+     "explanation": "'substantial changes' (những thay đổi đáng kể) được nhân viên hoan nghênh. 'judgmental/magnetic/chaotic' không hợp nghĩa tích cực này."
+    },
+    {
+     "n": 125,
+     "question": "_____ poems written by Mike Hanover are included in the new edition of Merwyn's Anthology.",
+     "choices": {
+      "A": "Whichever",
+      "B": "Several",
+      "C": "Something",
+      "D": "None"
+     },
+     "answer": "B",
+     "explanation": "Định ngữ cho danh từ số nhiều 'poems' (đi với 'are') → 'Several poems'. 'Whichever/Something' không hợp; 'None' cần 'of the'."
+    },
+    {
+     "n": 126,
+     "question": "For a list of local farms that supply food to restaurants, please _____ to the Hueland Farm Association Web site.",
+     "choices": {
+      "A": "elect",
+      "B": "adapt",
+      "C": "present",
+      "D": "refer"
+     },
+     "answer": "D",
+     "explanation": "Collocation 'refer to a Web site' (tham khảo trang web). 'elect/adapt/present' không đi với 'to' theo nghĩa này."
+    },
+    {
+     "n": 127,
+     "question": "Samidu Communications is soliciting suggestions from its staff about ways of improving employee _____.",
+     "choices": {
+      "A": "produced",
+      "B": "productive",
+      "C": "productivity",
+      "D": "productively"
+     },
+     "answer": "C",
+     "explanation": "Sau 'employee' cần danh từ → 'productivity' (năng suất). Loại tính từ 'productive', trạng từ 'productively', phân từ 'produced'."
+    },
+    {
+     "n": 128,
+     "question": "Mr. Ben-Moshe always reserves the banquet room at Saitomi's Kitchen _____ the sales team has a holiday event.",
+     "choices": {
+      "A": "whenever",
+      "B": "regarding",
+      "C": "whether",
+      "D": "besides"
+     },
+     "answer": "A",
+     "explanation": "'always reserves ... whenever the sales team has a holiday event' (mỗi khi). 'regarding/besides' là giới từ, 'whether' không hợp logic thói quen."
+    },
+    {
+     "n": 129,
+     "question": "Annika Duljn _____ the marketing department at Tollason Industries' planning meeting tomorrow.",
+     "choices": {
+      "A": "will represent",
+      "B": "had represented",
+      "C": "to represent",
+      "D": "be representing"
+     },
+     "answer": "A",
+     "explanation": "Trạng từ 'tomorrow' báo hiệu tương lai → 'will represent'. Câu cần động từ chính; 'had represented/to represent/be representing' không phù hợp."
+    },
+    {
+     "n": 130,
+     "question": "Do not post any statements about the company on social media without prior _____.",
+     "choices": {
+      "A": "authorization",
+      "B": "supplement",
+      "C": "consequence",
+      "D": "responsibility"
+     },
+     "answer": "A",
+     "explanation": "'without prior authorization' (khi chưa được phép/ủy quyền trước). 'supplement/consequence/responsibility' không hợp ngữ cảnh cấm đăng bài."
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "directions": "Chọn từ, cụm từ hoặc câu phù hợp nhất cho mỗi chỗ trống trong đoạn văn.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 131,
+       "choices": {
+        "A": "succeed",
+        "B": "success",
+        "C": "successful",
+        "D": "successfully"
+       },
+       "answer": "B",
+       "explanation": "Sau mạo từ 'the' cần một danh từ làm tân ngữ: 'the success of our clients' (thành công của khách hàng). Các lựa chọn còn lại là động từ/tính từ/trạng từ."
+      },
+      {
+       "n": 132,
+       "choices": {
+        "A": "reward",
+        "B": "operate",
+        "C": "recall",
+        "D": "determine"
+       },
+       "answer": "D",
+       "explanation": "'determine the strengths and weaknesses' = xác định điểm mạnh, điểm yếu — hợp nghĩa nhất; reward/operate/recall đều không phù hợp ngữ cảnh đánh giá."
+      },
+      {
+       "n": 133,
+       "choices": {
+        "A": "We will then hire them as consultants.",
+        "B": "Therefore, we suggest the following changes.",
+        "C": "Our training modules are rigorous and varied.",
+        "D": "Few industries have grown as much as ours."
+       },
+       "answer": "C",
+       "explanation": "Câu sau 'They include Office Communication...' cần chủ ngữ số nhiều làm tiền ngữ cho 'They'. 'Our training modules are rigorous and varied' giới thiệu các module đào tạo mà câu tiếp theo liệt kê."
+      },
+      {
+       "n": 134,
+       "choices": {
+        "A": "Moreover",
+        "B": "However",
+        "C": "In spite of this",
+        "D": "For example"
+       },
+       "answer": "A",
+       "explanation": "Đoạn này bổ sung thêm quyền lợi trong gói dịch vụ, nên dùng từ nối thêm ý 'Moreover' (hơn nữa); không phải tương phản hay ví dụ."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q131.jpg",
+     "ptype": "advertisement",
+     "text": "Excellence in the Workplace\n\nAt Infinity Development and Training, Inc., we put the [131] of our clients first. As leaders in the professional development industry, our training facilitators have years of experience. We will work with your team to [132] the strengths and weaknesses of your department, whatever your specialization may be. [133] They include Office Communication, Nurturing Creativity, Customer Service and Care, and Community Integration.\n\n[134] our packages include fully-catered meals, audiovisual equipment rentals, setup and cleanup assistance, and follow-up surveys for client feedback.\n\nPlease visit www.IDTsuccess.com or call 555-0168 for more information."
+    },
+    {
+     "questions": [
+      {
+       "n": 135,
+       "choices": {
+        "A": "vacated",
+        "B": "multiplied",
+        "C": "qualified",
+        "D": "benefited"
+       },
+       "answer": "C",
+       "explanation": "'equally qualified applicants' = các ứng viên có trình độ ngang nhau — hợp ngữ cảnh cạnh tranh việc làm; vacated/multiplied/benefited không phù hợp."
+      },
+      {
+       "n": 136,
+       "choices": {
+        "A": "Instead",
+        "B": "Similarly",
+        "C": "Alternately",
+        "D": "Such as"
+       },
+       "answer": "A",
+       "explanation": "Tương phản với 'should no longer consider... a dry list', câu sau đề nghị hướng ngược lại nên dùng 'Instead' (thay vào đó)."
+      },
+      {
+       "n": 137,
+       "choices": {
+        "A": "have experienced",
+        "B": "experience",
+        "C": "will experience",
+        "D": "are experiencing"
+       },
+       "answer": "A",
+       "explanation": "Thì hiện tại hoàn thành 'a career challenge you have experienced' chỉ trải nghiệm đã có trong quá khứ còn liên quan hiện tại; phù hợp với 'utilized... to solve it' phía sau."
+      },
+      {
+       "n": 138,
+       "choices": {
+        "A": "Such difficulties are very common.",
+        "B": "The career counselor will then make edits.",
+        "C": "They must be confirmed by certification.",
+        "D": "This will be more memorable to a reader."
+       },
+       "answer": "D",
+       "explanation": "Cả đoạn nói về kể câu chuyện để hồ sơ nổi bật; câu chốt 'This will be more memorable to a reader' (điều này sẽ dễ nhớ hơn với người đọc) khép lại mạch ý một cách logic."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q135.jpg",
+     "ptype": "article",
+     "text": "Make Your Résumé Come to Life\n\nThis is a tough time for job hunters. Fewer positions are available and competition is stiff. Be aware that hundreds of equally [135] applicants might be sending in their résumés, along with yours.\n\nCareer counselor Hiroshi Tanaka explains that the key to getting organizations to notice you is to make sure your \"story\" stands out. \"Job applicants should no longer consider an application a dry list of achievements,\" he explains. \"[136], view this process as an opportunity to tell your story and stand out.\" Don't merely inform HR personnel that you have \"good organizational skills.\" Describe a career challenge you [137] and how you successfully utilized these abilities to solve it. [138]"
+    },
+    {
+     "questions": [
+      {
+       "n": 139,
+       "choices": {
+        "A": "head",
+        "B": "campaign",
+        "C": "results",
+        "D": "committee"
+       },
+       "answer": "B",
+       "explanation": "'winter advertising campaign' = chiến dịch quảng cáo mùa đông — cụm từ cố định và hợp ngữ cảnh email về quảng cáo; head/results/committee không hợp."
+      },
+      {
+       "n": 140,
+       "choices": {
+        "A": "in",
+        "B": "about",
+        "C": "between",
+        "D": "by"
+       },
+       "answer": "A",
+       "explanation": "Danh từ 'increase' đi với giới từ 'in': 'a dramatic increase in commercial costs' (sự tăng mạnh về chi phí)."
+      },
+      {
+       "n": 141,
+       "choices": {
+        "A": "have advised",
+        "B": "advisably",
+        "C": "to advise",
+        "D": "be advised"
+       },
+       "answer": "D",
+       "explanation": "Câu mệnh lệnh dạng bị động lịch sự 'Please be advised that...' = xin lưu ý rằng; các dạng khác sai cấu trúc sau 'Please'."
+      },
+      {
+       "n": 142,
+       "choices": {
+        "A": "You may reschedule it for later in the day.",
+        "B": "If it goes longer, lunch will be provided.",
+        "C": "Let's celebrate this major accomplishment.",
+        "D": "Most of this time will be used for taste-testing."
+       },
+       "answer": "B",
+       "explanation": "Câu trước nói cuộc họp dự kiến kéo dài ba tiếng; 'If it goes longer, lunch will be provided' (nếu kéo dài hơn sẽ có bữa trưa) nối tiếp mạch về thời lượng họp."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q139.jpg",
+     "ptype": "e-mail",
+     "text": "To: Toasty Oats Advertising Team\nFrom: Sales and Marketing Department\nDate: October 29\nSubject: Additional team meeting\n\nDue to some unexpected changes, there will be an additional meeting to fine-tune our winter advertising [139] for Toasty Oats cereal, despite the outcome of our meeting last Friday. All members of the team who are responsible for this contract should report to the conference room tomorrow at 9:30 A.M.\n\nThe following items will be on the agenda:\n• There has been a dramatic increase [140] commercial costs at the television network.\n• There is a possible copyright infraction regarding the use of the Toasty Oats mascot.\n\nThese complications must be ironed out before the ad package can be launched. Please [141] that the meeting is expected to take three hours. [142]\n\nContact Edward Paisano if you have questions: epaisano@telltaleads.com."
+    },
+    {
+     "questions": [
+      {
+       "n": 143,
+       "choices": {
+        "A": "asset",
+        "B": "memory",
+        "C": "proceeds",
+        "D": "expenditure"
+       },
+       "answer": "A",
+       "explanation": "'a valuable asset to the team' = một tài sản/nhân sự quý giá cho đội ngũ — thành ngữ chỉ người có giá trị; memory/proceeds/expenditure không hợp."
+      },
+      {
+       "n": 144,
+       "choices": {
+        "A": "Ms. Vincent and her family currently reside in Atlanta.",
+        "B": "This is a significant reordering of our corporate structure.",
+        "C": "She has already implemented several new strategies.",
+        "D": "We would like to keep your résumé on file as well."
+       },
+       "answer": "A",
+       "explanation": "Câu sau nói 'after she relocates to New York', nên câu chèn 'Ms. Vincent and her family currently reside in Atlanta' (hiện đang sống ở Atlanta) cung cấp bối cảnh chuyển nhà hợp lý; các lựa chọn khác mâu thuẫn (bà chưa nhậm chức)."
+      },
+      {
+       "n": 145,
+       "choices": {
+        "A": "our",
+        "B": "its",
+        "C": "her",
+        "D": "their"
+       },
+       "answer": "A",
+       "explanation": "Email do người của công ty Todder & Todder viết nên dùng sở hữu 'our company' (công ty chúng tôi) khi nói về nơi bà sẽ nhận việc."
+      },
+      {
+       "n": 146,
+       "choices": {
+        "A": "required",
+        "B": "had required",
+        "C": "would have required",
+        "D": "will require"
+       },
+       "answer": "D",
+       "explanation": "Câu điều kiện loại 1: mệnh đề if ở hiện tại ('arrives early') thì mệnh đề chính dùng tương lai 'will require early access'."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q143.jpg",
+     "ptype": "e-mail",
+     "text": "To: Melissa Mendez <m.mendez@relocate-assist.com>\nFrom: Norman Todder\nDate: July 17\nSubject: Moving arrangements\n\nDear Ms. Mendez,\n\nAs you may have heard, Todder & Todder Corporation has recently hired Andrea Vincent as our new vice president of sales. We believe she will be a valuable [143] to the team and will help to bring about great improvements at T&T.\n\n[144] We are expecting her to begin her new position with [145] company on August 1, after she relocates to New York.\n\nPlease contact the building manager of our temporary staff residence. If Ms. Vincent arrives early, she [146] early access to her unit.\n\nI'll be in touch with more instructions as the moving date approaches.\n\nRegards,\n\nNorman Todder"
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "directions": "Đọc đoạn văn và chọn đáp án đúng nhất cho mỗi câu hỏi.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 147,
+       "question": "On what floor would visitors most likely find personal care products?",
+       "choices": {
+        "A": "The 1st floor",
+        "B": "The 2nd floor",
+        "C": "The 3rd floor",
+        "D": "The 4th floor"
+       },
+       "answer": "B",
+       "explanation": "Sản phẩm chăm sóc cá nhân bán ở hiệu thuốc/cửa hàng tạp hóa, đều nằm ở tầng 2: \"2nd Floor ... Robinto Pharmacy ... Orea Grocers & Vitamins\"."
+      },
+      {
+       "n": 148,
+       "question": "Whom should visitors contact to rent office space?",
+       "choices": {
+        "A": "Misel Global Trading, Inc.",
+        "B": "Ohmes Consulting",
+        "C": "Building Services",
+        "D": "Wheatly Square"
+       },
+       "answer": "D",
+       "explanation": "Muốn thuê văn phòng phải liên hệ bên cho thuê: \"Leasing services provided by Wheatly Square\"."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q147.jpg",
+     "ptype": "building directory",
+     "text": "1st Floor\nInformation Desk\nBuilding Services\nMain Lobby\nCafé\n\n2nd Floor\nExamination Rooms\nRobinto Pharmacy\nWheatly Health Services\nOrea Grocers & Vitamins\n\n3rd Floor Business Suites\nLaw Offices of Smith & Hesson\nOhmes Consulting\nMisel Global Trading, Inc.\nPretton Press\n\n4th Floor Business Suites\nNera Marketing Advantage\nRapido Personal Trainers\nGSB Films\n\n5th Floor Restaurants\nThe Western Rooftop\nThe Wheatly Vine\nAjani's Caribbean Kitchen\nMary's Burgers and Fries\n\nElevators can be accessed from the north entrance of the lobby.\n\nLeasing services provided by Wheatly Square (202) 555-0198",
+     "title": "Building Directory"
+    },
+    {
+     "questions": [
+      {
+       "n": 149,
+       "question": "What part of a shoe does the sign NOT mention?",
+       "choices": {
+        "A": "The bottom",
+        "B": "The top",
+        "C": "The strings",
+        "D": "The toe"
+       },
+       "answer": "D",
+       "explanation": "Bảng chỉ nhắc soles (đế/bottom), tongues (lưỡi gà/top) và shoelaces (dây/strings): \"Slipped soles, torn tongues, or lost shoelaces\"; không đề cập mũi giày (toe)."
+      },
+      {
+       "n": 150,
+       "question": "When will the store be open?",
+       "choices": {
+        "A": "Thursday 9 A.M.",
+        "B": "Friday 10 A.M.",
+        "C": "Saturday 11 A.M.",
+        "D": "Sunday 12 noon"
+       },
+       "answer": "B",
+       "explanation": "Thứ Sáu mở cửa từ 10 A.M.: \"Monday to Friday 10 A.M. to 6 P.M.\", nên \"Friday 10 A.M.\" là lúc cửa hàng mở (các phương án khác đều ngoài giờ mở/đóng cửa)."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q149.jpg",
+     "ptype": "notice",
+     "text": "Slipped soles, torn tongues, or lost shoelaces — We can help!\n\nHours\nMonday to Friday 10 A.M. to 6 P.M.\nSaturday 12 noon to 6 P.M.\nSunday Closed",
+     "title": "Cain County Shoe Repair"
+    },
+    {
+     "questions": [
+      {
+       "n": 151,
+       "question": "According to Mr. Dunlap, what was the problem?",
+       "choices": {
+        "A": "A building material was out of stock.",
+        "B": "A light was not working properly.",
+        "C": "A kitchen was missing an appliance.",
+        "D": "A building's access code was unavailable."
+       },
+       "answer": "B",
+       "explanation": "Vấn đề là đèn hiên hỏng do dây điện cũ: \"I had to replace all the old wiring that was causing the house's porch light to keep going out\"."
+      },
+      {
+       "n": 152,
+       "question": "At 10:11 A.M., what does Mr. Mauro most likely mean when he writes, \"When can we go over to East Plaza?\"",
+       "choices": {
+        "A": "He wants to praise Mr. Dunlap for his work.",
+        "B": "He needs driving directions to a building.",
+        "C": "He needs permission to buy building materials.",
+        "D": "He wants to remind Mr. Dunlap about a task's urgency."
+       },
+       "answer": "D",
+       "explanation": "Ngay sau đó Mauro nhấn mạnh sự gấp gáp: \"Please. We have to finish up that job out there\", tức nhắc Dunlap về tính khẩn cấp của công việc ở East Plaza."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q151.jpg",
+     "ptype": "text-message chain",
+     "text": "Andy Mauro [10:08 A.M.]: Just checking in. How's it going with the Stoffel job?\nBrad Dunlap [10:09 A.M.]: We're set. I had to replace all the old wiring that was causing the house's porch light to keep going out.\nAndy Mauro [10:10 A.M.]: Really? That took care of the problem, right?\nBrad Dunlap [10:10 A.M.]: Right. I also put in a new fixture and an energy-saving bulb.\nAndy Mauro [10:11 A.M.]: Good deal. When can we go over to East Plaza?\nBrad Dunlap [10:12 A.M.]: By the weekend for sure.\nAndy Mauro [10:12 A.M.]: Please. We have to finish up that job out there.\nBrad Dunlap [10:13 A.M.]: Sure. I'll run to the building supply store today and pick up materials for the project.\nAndy Mauro [10:13 A.M.]: Super. Thanks for that. Talk again later."
+    },
+    {
+     "questions": [
+      {
+       "n": 153,
+       "question": "What is the purpose of the memo?",
+       "choices": {
+        "A": "To share business travel plans",
+        "B": "To inform staff of policy changes",
+        "C": "To describe a manager's business expenses",
+        "D": "To announce a new sales budget"
+       },
+       "answer": "B",
+       "explanation": "Memo thông báo thay đổi chính sách nộp báo cáo chi phí: \"we will be changing the due date for submission\" và \"we will accept expense reports via company e-mail only\"."
+      },
+      {
+       "n": 154,
+       "question": "What is suggested about the expense reports?",
+       "choices": {
+        "A": "Hard copies are currently accepted.",
+        "B": "They often have calculation inaccuracies.",
+        "C": "Receipts can be submitted within one week.",
+        "D": "They must be received once per quarter."
+       },
+       "answer": "A",
+       "explanation": "Vì phải đến 20/2 mới chỉ nhận qua email (\"Starting February 20 ... we will accept expense reports via company e-mail only\"), ngụ ý hiện tại vẫn nhận bản giấy."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q153.jpg",
+     "ptype": "memo",
+     "text": "February 4\n\nTo: All Departments\nFrom: Financing and Accounts\nRe: Expenses and Reimbursements\n\nDue to the frequency of expense reports being submitted beyond the deadline, we will be changing the due date for submission. Starting February 20, all personal expense reports must be received within three business days of the expenditure. Please include on your expense log all expenses you wish to have reimbursed as well as the time and date each one was incurred.\n\nFrom that same date onward, we will accept expense reports via company e-mail only. All paper receipts should be provided on the next working day.\n\nAs a reminder, personal expenses that can be reimbursed include dinners with clients, travel for business, and other unexpected spending related to the company. If you have any questions related to the personal expenses policy, please contact Ms. Sheffield.",
+     "title": "MEMO"
+    },
+    {
+     "questions": [
+      {
+       "n": 155,
+       "question": "What is required to join Every Car Club?",
+       "choices": {
+        "A": "A reference from an existing member",
+        "B": "Special driving insurance",
+        "C": "Payment of a membership fee",
+        "D": "A purchase of a new car"
+       },
+       "answer": "C",
+       "explanation": "Cần trả phí thành viên hằng tháng: \"Pay a simple monthly fee. Membership starts at $10/month\"."
+      },
+      {
+       "n": 156,
+       "question": "What is NOT mentioned as something Every Car Club customers can do?",
+       "choices": {
+        "A": "Rent a vehicle from multiple locations",
+        "B": "Reduce maintenance costs",
+        "C": "Hire a driver for short trips",
+        "D": "Use a car any day of the week"
+       },
+       "answer": "C",
+       "explanation": "Bài không nhắc việc thuê tài xế; các điểm khác đều có: nhiều địa điểm (\"over 30 locations\"), dùng xe mọi lúc (\"available to you 24/7\"), tiết kiệm chi phí bảo dưỡng (\"servicing charges all included\")."
+      },
+      {
+       "n": 157,
+       "question": "According to the advertisement, what is the most efficient way to use Every Car Club?",
+       "choices": {
+        "A": "Contacting a car owner",
+        "B": "Visiting a Web site",
+        "C": "Going to a rental office",
+        "D": "Using a mobile application"
+       },
+       "answer": "D",
+       "explanation": "Cách tiện lợi nhất là dùng ứng dụng điện thoại: \"Use the CarFinder app on your smartphone to locate the closest pick-up point ... It can't get any easier than this!\""
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q155.jpg",
+     "ptype": "advertisement",
+     "text": "Every Car Club is one of the top car sharing clubs in the country and has been trusted by customers for over 20 years. With over 800 vehicles for you to rent morning, noon, and night, you can always find a car when you need one. Choose between our sedans, trucks, hybrids, and more. Whichever kind of vehicle you need, it is available to you 24/7.\n\n* We have over 30 locations at airports and cities across the country. Drop off and pick up your rental car wherever you are. Use the CarFinder app on your smartphone to locate the closest pick-up point, see what cars are available, and at what time, without having to speak to a representative. It can't get any easier than this!\n\n* Pay a simple monthly fee. Membership starts at $10/month. Gas, insurance, and servicing charges all included. Save hundreds on car ownership fees per year!\n\nPlease call or reserve online one hour before your journey.\nPhone: 503-555-0194\nwww.everycarclub.com",
+     "title": "Every Car Club"
+    },
+    {
+     "questions": [
+      {
+       "n": 158,
+       "question": "What part of the Web site is most likely shown?",
+       "choices": {
+        "A": "Our Hiring Process",
+        "B": "Employee Benefits",
+        "C": "What Our Staff Say",
+        "D": "Meet Our New Staff"
+       },
+       "answer": "A",
+       "explanation": "Nội dung mô tả quy trình tuyển dụng từng bước: \"here is what you can expect at every step of the way\" (nộp hồ sơ, xét duyệt, phỏng vấn, nhận việc), tương ứng tab \"Our Hiring Process\"."
+      },
+      {
+       "n": 159,
+       "question": "What is indicated about the Talent Finding Team?",
+       "choices": {
+        "A": "It will be expanded in the future.",
+        "B": "It designs staff training programs.",
+        "C": "It was formed last year.",
+        "D": "It participates in job fairs."
+       },
+       "answer": "D",
+       "explanation": "TFT tham gia hội chợ việc làm: \"our Talent Finding Team takes part in national career fairs each year\"."
+      },
+      {
+       "n": 160,
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"It includes an interactive video presentation about the company's values and culture.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "D",
+       "explanation": "\"It\" chỉ chương trình định hướng nhân viên mới, nên câu chèn hợp ở [4]: \"you will start your Elecmak Ltd. career with our new employee orientation program. —[4]—\"."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q158.jpg",
+     "ptype": "Web page",
+     "text": "http://www.hc-ba.org\nOur Hiring Process / Employee Benefits / What Our Staff Say / Meet Our New Staff\n\nElecmak Ltd. always seeks top talent to join its team. If you are interested in a position at Elecmak Ltd., here is what you can expect at every step of the way:\n\nSearch openings and apply for positions of interest. You will be asked to submit a current résumé and create an online profile. —[1]—.\n\nA member of our Talent Finding Team (TFT) will personally review your application against the requirements for our open positions. If there is a good fit, then we will contact you. —[2]—. Note that our Talent Finding Team takes part in national career fairs each year, and students are encouraged to apply for internships.\n\nIf you are chosen for an interview, you will speak directly with your potential manager. You are encouraged to ask questions about life at Elecmak Ltd. —[3]—.\n\nIf you accept an employment offer with us, you will start your Elecmak Ltd. career with our new employee orientation program. —[4]—. In your first week, a mentor will also help you create a career development plan."
+    },
+    {
+     "questions": [
+      {
+       "n": 161,
+       "question": "What kind of facility are residents being surveyed about?",
+       "choices": {
+        "A": "A public sports complex",
+        "B": "A local government office",
+        "C": "A history museum",
+        "D": "A retail center"
+       },
+       "answer": "A",
+       "explanation": "Khảo sát về cơ sở thể thao công cộng thay cho hồ bơi cũ, gồm bể bơi và các sân thể thao: \"The Chrysalis outdoor pool and adjoining park are being demolished ... proposals for a new facility\" cùng danh sách Soccer/Baseball/Tennis..."
+      },
+      {
+       "n": 162,
+       "question": "When will the survey respondent most likely visit the facility?",
+       "choices": {
+        "A": "Before work",
+        "B": "After work",
+        "C": "During lunch breaks",
+        "D": "On weekends"
+       },
+       "answer": "B",
+       "explanation": "Người trả lời tick buổi tối (\"Evenings (6 P.M.–9 P.M.) [đã chọn]\") và ghi làm ca ngày ở văn phòng (\"I work a day shift in an office\"), tức dùng cơ sở sau giờ làm."
+      },
+      {
+       "n": 163,
+       "question": "What is the survey respondent concerned about?",
+       "choices": {
+        "A": "Construction noise",
+        "B": "Traffic congestion",
+        "C": "Opening hours",
+        "D": "Obstructed views"
+       },
+       "answer": "B",
+       "explanation": "Người trả lời lo về ùn tắc giao thông: \"there is going to be a serious influx of drivers in our area. How is this issue being accounted for?\""
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q161.jpg",
+     "ptype": "survey",
+     "text": "The Chrysalis outdoor pool and adjoining park are being demolished, and proposals for a new facility are being considered. We would like to ask you, the residents of our local area, to answer the following questions in order to help us understand how we can best service the community with this new facility.\n\n1. Would you prefer an indoor pool or outdoor pool (June/July/August operation only)?\n(a) Outdoor Pool [đã chọn]\n(b) Indoor Pool\n\n2. Please indicate which two of the following facilities you would like to be included in the facility.\n(a) Soccer Field\n(b) Baseball Field [đã chọn]\n(c) Football Field\n(d) Basketball Court\n(e) Tennis Court [đã chọn]\n\n3. During what time period will you most likely use the facility?\n(a) Early mornings (6 A.M.–9 A.M.)\n(b) Mornings (9 A.M.–11 A.M.)\n(c) Afternoons (12 P.M.–5 P.M.)\n(d) Evenings (6 P.M.–9 P.M.) [đã chọn]\n\n4. Do you think priority parking passes should be provided to residents who pay a membership fee?\n(a) Yes\n(b) No\n(c) Other (Please specify in comments) [đã chọn]\n\nComments: I work a day shift in an office, and I plan on using the facility on weekdays. It's near my house, which is already a busy part of town. With more visitors coming to use the facility, there is going to be a serious influx of drivers in our area. How is this issue being accounted for?",
+     "title": "City of Tobeko Study"
+    },
+    {
+     "questions": [
+      {
+       "n": 164,
+       "question": "What does Mr. Kropf suggest is causing heavy city traffic?",
+       "choices": {
+        "A": "A sporting event",
+        "B": "Road construction",
+        "C": "Poor weather",
+        "D": "A broken down vehicle"
+       },
+       "answer": "A",
+       "explanation": "Kropf cho rằng cuộc đua xe đạp (một sự kiện thể thao) gây kẹt xe: \"there's a cycling race passing through downtown. Traffic is getting backed up\"."
+      },
+      {
+       "n": 165,
+       "question": "Who most likely is Mr. Huffman?",
+       "choices": {
+        "A": "A receptionist",
+        "B": "A delivery driver",
+        "C": "A project manager",
+        "D": "A real estate salesperson"
+       },
+       "answer": "C",
+       "explanation": "Huffman phụ trách dự án xây dựng: \"He's overseeing the construction project there\", nên là quản lý dự án."
+      },
+      {
+       "n": 166,
+       "question": "What is probably true about Bostec Tower?",
+       "choices": {
+        "A": "Its name will be changed soon.",
+        "B": "Its parking area is underground.",
+        "C": "It has a gated entryway.",
+        "D": "It has two lobbies."
+       },
+       "answer": "C",
+       "explanation": "Bostec Tower có cổng rào: \"It's a fenced site, so just ask the attendant to open the gate doors for you\"."
+      },
+      {
+       "n": 167,
+       "question": "At 10:50 A.M., what does Mr. Kropf most likely mean when he writes, \"Craftac Ltd. is a regular customer\"?",
+       "choices": {
+        "A": "Craftac Ltd. is eligible for special discounts.",
+        "B": "Craftac Ltd. has priority over other clients.",
+        "C": "He is surprised that business is slow.",
+        "D": "He will handle an order for Ms. Latsky."
+       },
+       "answer": "B",
+       "explanation": "Khi Latsky đề nghị đi Dendar trước, Kropf đáp \"Craftac Ltd. is a regular customer\" để nói Craftac được ưu tiên hơn, phải giao trước (\"make the pick-up and delivery for Craftac Ltd. first\")."
+      }
+     ],
+     "img": "assets/img/custom/20260707-191120-mock-test-1/passage-q164.jpg",
+     "ptype": "text-message chain",
+     "text": "Brenda Latsky [10:44 A.M.]: Dan, I made the pick-up here at Arakx Graphics. Just to confirm — it's two tubes with blueprints in them, not one.\nDan Kropf [10:45 A.M.]: That's correct. One quick heads-up — there's a cycling race passing through downtown. Traffic is getting backed up, so try to detour around the city.\nBrenda Latsky [10:46 A.M.]: Will do. The delivery is going to Bostec Tower. Is that a new building?\nDan Kropf [10:46 A.M.]: It's a work site. Be sure to give the tubes to David Huffman. He's overseeing the construction project there and needs them right away.\nBrenda Latsky [10:47 A.M.]: OK. I'll be there by noon.\nDan Kropf [10:47 A.M.]: Great. It's a fenced site, so just ask the attendant to open the gate doors for you. You can park in any open space.\nBrenda Latsky [10:48 A.M.]: All right, sounds good.\nDan Kropf [10:48 A.M.]: Quick reminder. When you're done there, make the pick-up and delivery for Craftac Ltd. first. Then make your other afternoon pick-ups.\nBrenda Latsky [10:49 A.M.]: Sure. I saw that on my dispatch sheet. Actually, the Bostec Tower drop-off will put me closer to my pick-up at Dendar Industries. Shouldn't I head to Dendar first instead?\nDan Kropf [10:50 A.M.]: Craftac Ltd. is a regular customer.\nBrenda Latsky [10:50 A.M.]: Got it. OK, talk to you later."
+    }
+   ]
+  }
+ ]
+}
