@@ -616,83 +616,133 @@
     }
   }
 
+  function fmtBytes(n) {
+    if (n > 1e6) return (n / 1e6).toFixed(1) + " MB";
+    if (n > 1e3) return Math.round(n / 1e3) + " KB";
+    return n + " B";
+  }
+
+  function uploadFormHtml(cloud) {
+    const guide = cloud ? `
+      <details class="up-guide">
+        <summary>Xem hướng dẫn upload (ảnh động 30 giây)</summary>
+        <img src="assets/img/guide-upload.gif" alt="Hướng dẫn upload đề" loading="lazy">
+        <ol>
+          <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
+          <li>Kéo thả (hoặc bấm chọn) file PDF đề; nếu đề có bài nghe thì thả thêm file MP3.</li>
+          <li>Bấm "Gửi đề" — xong! Đề sẽ tự được số hóa và xuất hiện trên web này sau vài giờ.</li>
+        </ol>
+      </details>` : "";
+    return `
+      <div class="hero"><h1>${cloud ? "Gửi đề mới" : "Tải đề mới lên"}</h1>
+        <p class="home-sub">${cloud
+          ? "Chọn file đề PDF (kèm audio nếu có bài nghe) rồi gửi — hệ thống tự số hóa, tạo đáp án + giải thích tiếng Việt và đưa đề lên web này, thường trong vài giờ."
+          : 'Chọn file đề PDF (kèm audio nếu có bài nghe). Sau khi tải lên, bấm "Xử lý ngay" — Claude tự đọc đề, tạo đáp án + giải thích (~5–15 phút).'}</p>
+      </div>
+      ${guide}
+      <div class="up-card">
+        <div class="up-step">
+          <span class="step-n">1</span>
+          <div class="up-step-body">
+            <label class="up-label">Tên đề</label>
+            <input id="up-name" class="up-input" type="text" placeholder="VD: Đề cô Hoa tuần 3" maxlength="60">
+            <label class="up-label">Loại đề</label>
+            <select id="up-kind" class="up-input">
+              <option value="auto">Tự nhận diện (mặc định)</option>
+              <option value="reading">Chỉ Reading</option>
+              <option value="listening">Chỉ Listening</option>
+              <option value="both">Cả Listening + Reading</option>
+            </select>
+          </div>
+        </div>
+        <div class="up-step">
+          <span class="step-n">2</span>
+          <div class="up-step-body">
+            <label class="up-label">File đề (PDF)</label>
+            <div class="dropzone" id="dz-pdf">
+              ${ICONS.up}
+              <div class="dz-text"><b>Kéo thả file PDF vào đây</b><span>hoặc bấm để chọn — chọn được nhiều file</span></div>
+            </div>
+            <input id="up-pdf" type="file" accept=".pdf" multiple hidden>
+            <div class="file-chips" id="chips-pdf"></div>
+          </div>
+        </div>
+        <div class="up-step">
+          <span class="step-n">3</span>
+          <div class="up-step-body">
+            <label class="up-label">File audio <span class="opt">— chỉ cần nếu đề có bài nghe</span></label>
+            <div class="dropzone dz-slim" id="dz-audio">
+              ${ICONS.sound}
+              <div class="dz-text"><b>Kéo thả file MP3</b><span>hoặc bấm để chọn</span></div>
+            </div>
+            <input id="up-audio" type="file" accept=".mp3,.m4a,.wav" hidden>
+            <div class="file-chips" id="chips-audio"></div>
+          </div>
+        </div>
+        <div id="up-status"></div>
+        <div class="up-actions">
+          <button id="up-submit" class="btn btn-primary" onclick="App.${cloud ? "submitCloudUpload" : "submitUpload"}()">${cloud ? "Gửi đề" : "Tải lên"}</button>
+          <button class="btn" onclick="App.goHome()">Huỷ</button>
+        </div>
+      </div>`;
+  }
+
+  function renderChips(inputId, chipsId) {
+    const input = document.getElementById(inputId);
+    const box = document.getElementById(chipsId);
+    if (!input || !box) return;
+    box.innerHTML = [...input.files].map((f, i) =>
+      `<span class="file-chip">${esc(f.name)} <em>${fmtBytes(f.size)}</em><button type="button" onclick="App.upRemoveFile('${inputId}','${chipsId}',${i})" title="Bỏ file">×</button></span>`).join("");
+  }
+
+  function upRemoveFile(inputId, chipsId, idx) {
+    const input = document.getElementById(inputId);
+    const dt = new DataTransfer();
+    [...input.files].forEach((f, i) => { if (i !== idx) dt.items.add(f); });
+    input.files = dt.files;
+    renderChips(inputId, chipsId);
+  }
+
+  function initDropzones() {
+    [["dz-pdf", "up-pdf", "chips-pdf"], ["dz-audio", "up-audio", "chips-audio"]].forEach(([dz, inp, chips]) => {
+      const zone = document.getElementById(dz);
+      const input = document.getElementById(inp);
+      if (!zone || !input) return;
+      zone.addEventListener("click", () => input.click());
+      input.addEventListener("change", () => renderChips(inp, chips));
+      ["dragover", "dragenter"].forEach((ev) => zone.addEventListener(ev, (e) => { e.preventDefault(); zone.classList.add("drag"); }));
+      ["dragleave", "drop"].forEach((ev) => zone.addEventListener(ev, (e) => { e.preventDefault(); zone.classList.remove("drag"); }));
+      zone.addEventListener("drop", (e) => {
+        const ok = (f) => input.accept.split(",").some((ext) => f.name.toLowerCase().endsWith(ext.trim()));
+        const dt = new DataTransfer();
+        if (input.multiple) [...input.files].forEach((f) => dt.items.add(f));
+        for (const f of e.dataTransfer.files) {
+          if (!ok(f)) continue;
+          if (!input.multiple) { while (dt.items.length) dt.items.remove(0); }
+          dt.items.add(f);
+        }
+        input.files = dt.files;
+        renderChips(inp, chips);
+      });
+    });
+  }
+
   async function goUpload() {
     state.view = "upload";
     document.body.classList.remove("has-mbar");
+    screen.classList.remove("wide");
     $("#btn-exit").classList.add("hidden");
-    if (!(await probeApi()) && CLOUD_INBOX.url) {
-      // web deploy + có hộp thư cloud: form upload gửi thẳng vào hàng chờ
-      screen.innerHTML = `
-        <div class="hero"><h1>Gửi đề mới vào hàng chờ</h1>
-          <p>Dành cho giáo viên/học viên: chọn file đề PDF + audio (nếu có bài nghe) rồi gửi. Đề sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích) và xuất hiện trên web này — thường trong vài giờ, tuỳ lúc máy xử lý bật.</p>
-        </div>
-        <div class="test-card" style="max-width:640px">
-          <label class="up-label">Tên đề <span style="color:var(--red)">*</span></label>
-          <input id="up-name" class="up-input" type="text" placeholder="VD: Đề cô Hoa tuần 3" maxlength="60">
-          <label class="up-label">Loại đề</label>
-          <select id="up-kind" class="up-input">
-            <option value="auto">Tự nhận diện (mặc định)</option>
-            <option value="reading">Chỉ Reading</option>
-            <option value="listening">Chỉ Listening</option>
-            <option value="both">Cả Listening + Reading</option>
-          </select>
-          <label class="up-label">File đề (PDF — chọn được nhiều file) <span style="color:var(--red)">*</span></label>
-          <input id="up-pdf" class="up-input" type="file" accept=".pdf" multiple>
-          <label class="up-label">File audio (MP3 — nếu có bài nghe)</label>
-          <input id="up-audio" class="up-input" type="file" accept=".mp3,.m4a,.wav">
-          <div id="up-status" style="font-size:13.5px;color:var(--muted);min-height:20px"></div>
-          <div class="actions">
-            <button id="up-submit" class="btn btn-primary" onclick="App.submitCloudUpload()">Gửi vào hàng chờ</button>
-            <button class="btn" onclick="App.goHome()">Huỷ</button>
-          </div>
-        </div>`;
-      window.scrollTo(0, 0);
-      return;
-    }
-    if (!(await probeApi())) {
-      // bản deploy tĩnh: không có server nhận file → hướng dẫn thay vì form
+    const localApi = await probeApi();
+    if (!localApi && !CLOUD_INBOX.url) {
       screen.innerHTML = `
         <div class="hero"><h1>Upload đề mới</h1></div>
-        <div class="notice">Bạn đang dùng <b>bản web online</b> — bản này không có server xử lý đề nên không upload được tại đây. Việc số hóa đề cần Claude + Whisper chạy trên máy tính của bạn.</div>
-        <div class="test-card" style="max-width:640px">
-          <h3>Cách thêm đề mới (làm trên máy tính)</h3>
-          <div class="meta" style="line-height:2">
-            1. Mở app trên máy: nhấp đúp <b>Start TOEIC App.command</b> trong thư mục toeic-app<br>
-            2. Bấm <b>Tải đề mới lên</b> → chọn file PDF + audio → <b>Xử lý ngay</b> (~5–15 phút)<br>
-            3. Đẩy lên web bằng lệnh: <code>cd toeic-app && git add -A && git commit -m "them de" && git push</code><br>
-            4. ~1 phút sau, web online này tự có đề mới
-          </div>
-        </div>
-        <div style="margin-top:14px"><button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button></div>
-      `;
+        <div class="notice">Bạn đang dùng <b>bản web online</b> — bản này chưa cấu hình hộp thư nhận đề. Hãy upload trên app chạy tại máy.</div>
+        <div style="margin-top:14px"><button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button></div>`;
       window.scrollTo(0, 0);
       return;
     }
-    screen.innerHTML = `
-      <div class="hero"><h1>Tải đề mới lên</h1>
-        <p>Chọn file đề của cô giáo: PDF đề (Reading, Listening hoặc cả hai chung 1 file) và file audio nếu có bài nghe. Sau khi tải lên, bấm "Xử lý ngay" — Claude sẽ tự đọc đề, tạo đáp án + giải thích tiếng Việt và thêm vào danh sách đề (mất khoảng 5–15 phút).</p>
-      </div>
-      <div class="test-card" style="max-width:640px">
-        <label class="up-label">Tên đề <span style="color:var(--red)">*</span></label>
-        <input id="up-name" class="up-input" type="text" placeholder="VD: Đề cô Hoa tuần 3" maxlength="60">
-        <label class="up-label">Loại đề</label>
-        <select id="up-kind" class="up-input">
-          <option value="auto">Tự nhận diện (mặc định)</option>
-          <option value="reading">Chỉ Reading</option>
-          <option value="listening">Chỉ Listening</option>
-          <option value="both">Cả Listening + Reading</option>
-        </select>
-        <label class="up-label">File đề (PDF — chọn được nhiều file) <span style="color:var(--red)">*</span></label>
-        <input id="up-pdf" class="up-input" type="file" accept=".pdf" multiple>
-        <label class="up-label">File audio (MP3 — nếu có bài nghe)</label>
-        <input id="up-audio" class="up-input" type="file" accept=".mp3,.m4a,.wav">
-        <div id="up-status" style="font-size:13.5px;color:var(--muted);min-height:20px"></div>
-        <div class="actions">
-          <button id="up-submit" class="btn btn-primary" onclick="App.submitUpload()">Tải lên</button>
-          <button class="btn" onclick="App.goHome()">Huỷ</button>
-        </div>
-      </div>
-    `;
+    screen.innerHTML = uploadFormHtml(!localApi);
+    initDropzones();
     window.scrollTo(0, 0);
   }
 
@@ -1632,7 +1682,7 @@
   window.App = {
     goHome, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, openHistory, openKeyView, showResult,
-    goUpload, submitUpload, submitCloudUpload, processUpload, openQnavSheet,
+    goUpload, submitUpload, submitCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
