@@ -25,7 +25,10 @@ Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/i
 - Đọc `uploads/inbox/<id>/manifest.json` (tên đề, files, kind: auto/reading/listening/both).
 - PDF: thử trích text bằng pypdf; nếu trang không có text → là bản scan, phải đọc bằng vision.
 - Render toàn bộ trang PDF thành ảnh để khảo sát: `pdftoppm -jpeg -r 50 <file>.pdf <outdir>/p` (thumbnail), sau đó dùng 1 subagent đọc toàn bộ thumbnail để lập bản đồ trang: phần nào (Part 1-7), câu số mấy, trang nào có ảnh/biểu đồ, có answer key/transcript in sẵn không.
-- Nếu PDF có answer key in sẵn → dùng nó làm đáp án gốc (vẫn viết giải thích). Ghi chú trong desc là "đáp án theo đề gốc".
+- **QUAN TRỌNG — tìm trang ANSWER KEY**: nếu PDF có trang đáp án in sẵn → số hóa trang key đó và dùng làm ĐÁP ÁN GỐC (độ đúng 100%, bỏ qua bước giải 2 lần; AI chỉ viết giải thích và vẫn tự giải nhanh 1 lần để phát hiện key in sai — chỗ nào lệch key thì tin key nhưng đánh `uncertain: true`). Ghi trong desc: "đáp án theo key đề gốc".
+
+### 1b. Kiểm tra chéo số hóa (verify pass — BẮT BUỘC)
+Sau khi mỗi part số hóa xong: phóng 1 agent digitizer KHÁC (độc lập) cầm JSON + trang PDF gốc, đối chiếu TỪNG CÂU: số câu, nội dung stem, đủ 4 (hoặc 3) choices, đúng chữ. Sai đâu sửa đó. Chạy song song với việc số hóa các part khác — không chờ nhau.
 
 ### 2. Số hóa nội dung (subagent song song, chia theo part)
 - Mỗi subagent Read trực tiếp PDF theo trang (Read tool hỗ trợ `pages`), xuất JSON trung gian vào thư mục upload.
@@ -44,11 +47,13 @@ Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/i
   - **Bài đọc Reading P6/P7: crop NGUYÊN passage (kèm dòng "Questions X-Y refer to...") thành `passage-q<câuĐầu>.jpg`** — app hiển thị ảnh gốc thay vì chữ gõ lại (giống đề thật). KHÔNG gồm question stems/choices bên dưới, không gồm header/footer trang. Vẫn phải transcribe text passage (bước 2) để giải đề, nhưng UI sẽ dùng ảnh.
 
 ### 4. Audio (nếu có file nghe)
-- Convert + transcribe:
+- Convert + transcribe (ưu tiên model medium nếu có — nghe chính xác hơn):
   ```
   ffmpeg -y -i <audio> -ar 16000 -ac 1 /tmp/a16k.wav
-  whisper-cli -m tools/ggml-small.en.bin -f /tmp/a16k.wav -oj -of <outdir>/transcript -t 8
+  MODEL=tools/ggml-medium.en.bin; [ -f "$MODEL" ] || MODEL=tools/ggml-small.en.bin
+  whisper-cli -m "$MODEL" -f /tmp/a16k.wav -oj -of <outdir>/transcript -t 8
   ```
+- **Kiểm tra timestamp**: sau khi parse marker, PHẢI xác nhận đủ marker "number 1..100" và thời gian tăng dần; thiếu ≤3 marker → nội suy từ 2 marker kề; thiếu nhiều hơn → ghi cảnh báo vào manifest ("timingWarning").
 - Parse transcript JSON tìm marker thời gian (xem mẫu regex trong `data/source/` pipeline cũ):
   - `part one|two|three|four` → mốc part
   - `number N` (số hoặc chữ one..ten) → mốc từng câu; end = start của marker kế tiếp
@@ -56,9 +61,12 @@ Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/i
 - Sinh `timings` (schema dưới) + transcript group theo câu/block để subagent giải đề dùng.
 - Copy audio gốc vào `assets/audio/<upload-id>.mp3`.
 
-### 5. Giải đề + giải thích (subagent song song)
-- Nếu đề không có answer key: giải từng câu — Reading từ nội dung, Listening từ transcript (P1 phải Read ảnh đã crop).
-- Mỗi câu: `answer` (chữ cái) + `explanation` TIẾNG VIỆT ngắn gọn (1-3 câu; Reading P5/P6 nêu điểm ngữ pháp/từ vựng; P7 & Listening trích câu tiếng Anh làm bằng chứng). Câu không chắc chắn → `"uncertain": true`.
+### 5. Giải đề + giải thích (subagent song song, model mạnh)
+- Nếu đề CÓ answer key (bước 1): dùng key làm đáp án, chỉ viết giải thích.
+- Nếu KHÔNG có key: **GIẢI 2 LẦN ĐỘC LẬP** — phóng 2 agent song song cùng giải một part (không cho biết nhau), đối chiếu:
+  - 2 lần trùng đáp án → lấy, độ tin cậy cao.
+  - Lệch nhau → phóng agent TRỌNG TÀI (đưa cả 2 lập luận + đề) phân xử; nếu trọng tài vẫn phân vân → chọn khả năng cao nhất + `"uncertain": true`.
+- Mỗi câu: `answer` (chữ cái) + `explanation` TIẾNG VIỆT ngắn gọn (1-3 câu; Reading P5/P6 nêu điểm ngữ pháp/từ vựng; P7 & Listening trích câu tiếng Anh làm bằng chứng).
 - Listening: kèm transcript đã làm sạch cho từng câu (P1/P2 dạng spoken) / từng block (P3/P4).
 
 ### 6. Ghép thành test object và build
