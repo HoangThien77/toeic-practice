@@ -2,6 +2,10 @@
 
 Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/inbox/<upload-id>/`.
 
+**PHÂN CÔNG MODEL — bắt buộc:**
+- Khâu "nhìn & chép" (khảo sát trang, số hóa câu hỏi/passage, cắt ảnh): dùng subagent type **digitizer** (model nhanh — chất lượng chép tương đương, nhanh gấp đôi).
+- Khâu "tư duy" (GIẢI ĐỀ, viết giải thích, dịch): dùng agent mặc định (model mạnh) — KHÔNG hạ model ở khâu này vì ảnh hưởng trực tiếp độ đúng của đáp án.
+
 **TỐI ƯU THỜI GIAN — bắt buộc:** phóng subagent SONG SONG tối đa, không làm tuần tự:
 - Ngay sau bước khảo sát: phóng đồng thời TẤT CẢ agent số hóa (mỗi part 1 agent) + transcribe audio (nếu có) cùng lúc.
 - KHÔNG chờ mọi part số hóa xong mới giải: part nào có JSON xong thì phóng agent giải part đó ngay (pipeline, không barrier).
