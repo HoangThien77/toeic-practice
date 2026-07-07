@@ -457,6 +457,18 @@
     error: '<span class="badge" style="background:var(--red-soft);color:var(--red)">❌ Lỗi</span>',
   };
   let inboxTimer = null;
+  let apiOk = null; // null = chưa biết; false = đang chạy trên hosting tĩnh (GitHub Pages...)
+
+  async function probeApi() {
+    if (apiOk !== null) return apiOk;
+    try {
+      const r = await fetch("/api/uploads");
+      apiOk = r.ok && Array.isArray((await r.json()).uploads);
+    } catch {
+      apiOk = false;
+    }
+    return apiOk;
+  }
 
   async function refreshInbox() {
     const area = $("#inbox-area");
@@ -465,8 +477,10 @@
     try {
       const r = await fetch("/api/uploads");
       uploads = (await r.json()).uploads || [];
+      apiOk = true;
     } catch {
       // static hosting (GitHub Pages...): no upload API — show a gentle note instead of an error
+      apiOk = false;
       area.innerHTML = '<div class="history-empty">📤 Tính năng upload & xử lý đề mới chỉ hoạt động khi chạy app trên máy (mở bằng "Start TOEIC App.command"). Đề đã xử lý xong vẫn dùng đầy đủ trên web này.</div>';
       return;
     }
@@ -510,10 +524,29 @@
     refreshInbox();
   }
 
-  function goUpload() {
+  async function goUpload() {
     state.view = "upload";
     document.body.classList.remove("has-mbar");
     $("#btn-exit").classList.add("hidden");
+    if (!(await probeApi())) {
+      // bản deploy tĩnh: không có server nhận file → hướng dẫn thay vì form
+      screen.innerHTML = `
+        <div class="hero"><h1>📤 Upload đề mới</h1></div>
+        <div class="notice">Bạn đang dùng <b>bản web online</b> — bản này không có server xử lý đề nên không upload được tại đây. Việc số hóa đề cần Claude + Whisper chạy trên máy tính của bạn.</div>
+        <div class="test-card" style="max-width:640px">
+          <h3>Cách thêm đề mới (làm trên máy tính)</h3>
+          <div class="meta" style="line-height:2">
+            1️⃣ Mở app trên máy: nhấp đúp <b>Start TOEIC App.command</b> trong thư mục toeic-app<br>
+            2️⃣ Bấm <b>📤 Tải đề mới lên</b> → chọn file PDF + audio → <b>⚙️ Xử lý ngay</b> (~5–15 phút)<br>
+            3️⃣ Đẩy lên web bằng lệnh: <code>cd toeic-app && git add -A && git commit -m "them de" && git push</code><br>
+            4️⃣ ~1 phút sau, web online này tự có đề mới 🎉
+          </div>
+        </div>
+        <div style="margin-top:14px"><button class="btn btn-primary" onclick="App.goHome()">🏠 Về trang chủ</button></div>
+      `;
+      window.scrollTo(0, 0);
+      return;
+    }
     screen.innerHTML = `
       <div class="hero"><h1>📤 Tải đề mới lên</h1>
         <p>Chọn file đề của cô giáo: PDF đề (Reading, Listening hoặc cả hai chung 1 file) và file audio nếu có bài nghe. Sau khi tải lên, bấm "Xử lý ngay" — Claude sẽ tự đọc đề, tạo đáp án + giải thích tiếng Việt và thêm vào danh sách đề (mất khoảng 5–15 phút).</p>
@@ -569,7 +602,11 @@
         files.push({ name: all[i].name, data: await fileToB64(all[i]) });
       }
       status.textContent = "Đang tải lên server…";
-      const r = await fetch("/api/upload", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, kind, files }) });
+      const ctrl = new AbortController();
+      const timeout = setTimeout(() => ctrl.abort(), 120000);
+      const r = await fetch("/api/upload", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, kind, files }), signal: ctrl.signal });
+      clearTimeout(timeout);
+      if (!r.ok) { status.textContent = `❌ Server từ chối (HTTP ${r.status}) — bạn có đang chạy app trên máy không?`; btn.disabled = false; return; }
       const j = await r.json();
       if (j.error) { status.textContent = "❌ " + j.error; btn.disabled = false; return; }
       goHome();
