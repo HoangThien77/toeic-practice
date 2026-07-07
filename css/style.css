@@ -137,9 +137,11 @@ body.has-dock { padding-bottom: 96px; }
 .up-actions { display: flex; gap: 10px; }
 .upload-wrap { display: flex; flex-direction: column; gap: 20px; }
 .upload-wrap.has-guide {
-  display: grid; grid-template-columns: minmax(0, 1fr) 470px;
-  gap: 22px; align-items: start; max-width: 1180px;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 26px; align-items: start; max-width: 1400px;
 }
+.upload-wrap.has-guide .up-card { max-width: none; }
+.guide-panel video { max-height: none; }
 .guide-panel {
   position: sticky; top: 78px;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
