@@ -32,7 +32,7 @@ body.has-dock { padding-bottom: 96px; }
   border-bottom: 1px solid var(--line);
 }
 .topbar-inner {
-  max-width: 1280px; margin: 0 auto; padding: 12px 20px;
+  max-width: 1280px; margin: 0 auto; padding: 12px 24px;
   display: flex; align-items: center; justify-content: space-between;
 }
 .brand { font-weight: 800; font-size: 18px; color: var(--ink); text-decoration: none; letter-spacing: -.3px; display: inline-flex; align-items: center; gap: 9px; }
@@ -138,7 +138,7 @@ body.has-dock { padding-bottom: 96px; }
 .upload-wrap { display: flex; flex-direction: column; gap: 20px; }
 .upload-wrap.has-guide {
   display: grid; grid-template-columns: 1fr 1fr;
-  gap: 26px; align-items: start; max-width: 1400px;
+  gap: 26px; align-items: start;
 }
 .upload-wrap.has-guide .up-card { max-width: none; }
 .guide-panel video { max-height: none; }

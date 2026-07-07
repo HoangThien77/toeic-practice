@@ -744,7 +744,6 @@
       return;
     }
     screen.innerHTML = uploadFormHtml(!localApi);
-    screen.classList.toggle("wide", !localApi); // 2 cột bằng nhau cần khung rộng
     initDropzones();
     window.scrollTo(0, 0);
   }
