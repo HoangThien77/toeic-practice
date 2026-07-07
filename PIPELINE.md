@@ -11,6 +11,11 @@ Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/i
 - KHÔNG chờ mọi part số hóa xong mới giải: part nào có JSON xong thì phóng agent giải part đó ngay (pipeline, không barrier).
 - Cắt ảnh (P1/P6/P7/graphic) chạy song song với việc giải đề.
 - Không tự kiểm tra lại việc đã xong (agent con đã validate JSON); chỉ chạy sanity check cuối bằng assemble.py.
+- **CHIA NHỎ ĐỂ SONG SONG (giảm "long pole") — bắt buộc:** không dồn cả part lớn vào 1 agent. Mỗi agent GIẢI xử lý tối đa ~8–10 câu; part nào nhiều hơn thì tách thành nhiều chunk chạy đồng thời (vẫn giữ đủ 2 lần độc lập cho mỗi chunk — xem bước 5). Ví dụ P5 (30 câu) → 3–4 chunk song song thay vì 1 agent chạy 30 câu. Tương tự, agent số hóa cũng tách theo trang/passage nếu 1 part trải nhiều trang.
+- **KHÔNG đọc lại ảnh scan một cách dư thừa (vision là khâu chậm nhất) — bắt buộc:**
+  - Render PDF một lần vào `_render/`, mọi bước (số hóa, verify, crop) DÙNG LẠI ảnh đã render — không render lại cùng trang.
+  - Agent GIẢI ĐỀ làm việc trên TEXT trong `dig-*.json` (stem/choices/passage đã chép), KHÔNG mở lại PDF/ảnh trừ khi câu đó phụ thuộc biểu đồ/hình. Chỉ khi cần mới đọc đúng 1 ảnh trang liên quan.
+  - Verify pass (bước 1b) đối chiếu bằng ảnh trang đã render sẵn, không render lại.
 
 ## Bối cảnh app
 
@@ -63,7 +68,7 @@ Sau khi mỗi part số hóa xong: phóng 1 agent digitizer KHÁC (độc lập)
 
 ### 5. Giải đề + giải thích (subagent song song, model mạnh)
 - Nếu đề CÓ answer key (bước 1): dùng key làm đáp án, chỉ viết giải thích.
-- Nếu KHÔNG có key: **GIẢI 2 LẦN ĐỘC LẬP** — phóng 2 agent song song cùng giải một part (không cho biết nhau), đối chiếu:
+- Nếu KHÔNG có key: **GIẢI 2 LẦN ĐỘC LẬP** — với mỗi chunk ~8–10 câu (chia nhỏ part lớn, xem "TỐI ƯU THỜI GIAN") phóng 2 agent song song cùng giải chunk đó (không cho biết nhau). Tất cả các chunk × 2 lần chạy ĐỒNG THỜI (vd P5 30 câu = 3 chunk × 2 = 6 agent song song, không phải 2 agent giải tuần tự 30 câu). Đối chiếu từng câu:
   - 2 lần trùng đáp án → lấy, độ tin cậy cao.
   - Lệch nhau → phóng agent TRỌNG TÀI (đưa cả 2 lập luận + đề) phân xử; nếu trọng tài vẫn phân vân → chọn khả năng cao nhất + `"uncertain": true`.
 - Mỗi câu: `answer` (chữ cái) + `explanation` TIẾNG VIỆT ngắn gọn (1-3 câu; Reading P5/P6 nêu điểm ngữ pháp/từ vựng; P7 & Listening trích câu tiếng Anh làm bằng chứng).
