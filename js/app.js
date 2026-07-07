@@ -462,7 +462,7 @@
   // Hộp thư cloud (Cloudflare Worker): cho phép giáo viên upload đề ngay trên web deploy.
   // Máy Mac của học viên tự kéo về xử lý (poller.py) rồi tự đăng lên web.
   const CLOUD_INBOX = {
-    url: "", // điền sau khi deploy worker, vd: https://toeic-inbox.xxx.workers.dev
+    url: "https://toeic-inbox.hoangthien77.workers.dev",
     token: "toeic-d55c1e1787c9c904",
   };
 
