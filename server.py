@@ -77,6 +77,7 @@ Nhiệm vụ: số hóa đề TOEIC vừa được upload trong thư mục uploa
 Manifest của đề: uploads/inbox/{upload_id}/manifest.json (tên đề, danh sách file, loại đề nếu có).
 
 Khi hoàn tất: cập nhật manifest.json của đề với "status": "done" và "resultTestIds": [danh sách test id đã tạo].
+Sau đó, nếu thư mục project là git repo có remote: chạy `git add -A && git commit -m "Thêm đề: <tên đề>" && git push` để web online (GitHub Pages) tự cập nhật đề mới.
 Nếu thất bại không khắc phục được: đặt "status": "error" và "error": "<mô tả ngắn lý do bằng tiếng Việt>".
 """
     log = open(os.path.join(folder, "process.log"), "ab")
@@ -87,6 +88,7 @@ Nếu thất bại không khắc phục được: đặt "status": "error" và "
         "Bash(pdftoppm:*)", "Bash(pdfinfo:*)", "Bash(ffmpeg:*)", "Bash(whisper-cli:*)",
         "Bash(python3:*)", "Bash(node:*)",
         "Bash(mkdir:*)", "Bash(cp:*)", "Bash(mv:*)", "Bash(ls:*)", "Bash(rm:*)",
+        "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)",
     ]
     subprocess.Popen(
         [claude, "-p", prompt, "--permission-mode", "acceptEdits",

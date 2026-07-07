@@ -103,3 +103,4 @@ Lưu ý bắt buộc:
 - Cập nhật `uploads/inbox/<id>/manifest.json`: `"status": "done"`, `"resultTestIds": [...]`.
 - Nếu lỗi không khắc phục được: `"status": "error"`, `"error": "<lý do ngắn tiếng Việt>"`.
 - Dọn file trung gian (ảnh render tạm) khỏi thư mục upload, giữ lại file gốc + manifest + các JSON số hóa (để sửa sau nếu cần).
+- **Tự động đăng web online**: nếu project là git repo có remote → `git add -A && git commit -m "Thêm đề: <tên>" && git push` (GitHub Pages tự cập nhật sau ~1 phút; uploads/ và tools/ đã nằm trong .gitignore nên không bị đẩy lên).
