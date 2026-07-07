@@ -625,7 +625,7 @@
   function uploadFormHtml(cloud) {
     const guide = cloud ? `
       <details class="up-guide">
-        <summary>Xem hướng dẫn upload (ảnh động 30 giây)</summary>
+        <summary>Xem hướng dẫn upload từng bước (40 giây)</summary>
         <img src="assets/img/guide-upload.gif" alt="Hướng dẫn upload đề" loading="lazy">
         <ol>
           <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
