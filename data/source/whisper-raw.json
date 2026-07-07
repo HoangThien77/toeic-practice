@@ -1,0 +1,5059 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "small",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"text": {
+			"ctx": 448,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/private/tmp/claude-501/-Users-thienhoang-Downloads-Toeic/3fe142ce-6ea9-4608-a061-19dff90c9f18/scratchpad/ggml-small.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,940"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4940
+			},
+			"text": " This audio program has been produced by YBM all rights reserved"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,200",
+				"to": "00:00:14,520"
+			},
+			"offsets": {
+				"from": 7200,
+				"to": 14520
+			},
+			"text": " Listening test in the listening test you will be asked to demonstrate how well you understand spoken English"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,960",
+				"to": "00:00:19,400"
+			},
+			"offsets": {
+				"from": 14960,
+				"to": 19400
+			},
+			"text": " The entire listening test will last approximately 45 minutes"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,880",
+				"to": "00:00:23,960"
+			},
+			"offsets": {
+				"from": 19880,
+				"to": 23960
+			},
+			"text": " There are four parts and directions are given for each part"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:24,440",
+				"to": "00:00:30,760"
+			},
+			"offsets": {
+				"from": 24440,
+				"to": 30760
+			},
+			"text": " You must mark your answers on the separate answer sheet. Do not write your answers in your test book"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:31,680",
+				"to": "00:00:33,360"
+			},
+			"offsets": {
+				"from": 31680,
+				"to": 33360
+			},
+			"text": " part one"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,360",
+				"to": "00:00:34,600"
+			},
+			"offsets": {
+				"from": 33360,
+				"to": 34600
+			},
+			"text": " directions"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:34,600",
+				"to": "00:00:40,280"
+			},
+			"offsets": {
+				"from": 34600,
+				"to": 40280
+			},
+			"text": " For each question in this part you will hear four statements about a picture in your test book"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:40,880",
+				"to": "00:00:47,720"
+			},
+			"offsets": {
+				"from": 40880,
+				"to": 47720
+			},
+			"text": " When you hear the statements you must select the one statement that best describes what you see in the picture"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,320",
+				"to": "00:00:53,220"
+			},
+			"offsets": {
+				"from": 48320,
+				"to": 53220
+			},
+			"text": " Then find the number of the question on your answer sheet and mark your answer"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,640",
+				"to": "00:00:59,240"
+			},
+			"offsets": {
+				"from": 53640,
+				"to": 59240
+			},
+			"text": " The statements will not be printed in your test book and will be spoken only one time"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,200",
+				"to": "00:01:02,200"
+			},
+			"offsets": {
+				"from": 60200,
+				"to": 62200
+			},
+			"text": " Look at the example item below"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:05,280",
+				"to": "00:01:08,000"
+			},
+			"offsets": {
+				"from": 65280,
+				"to": 68000
+			},
+			"text": " Now listen to the four statements a"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,600",
+				"to": "00:01:11,600"
+			},
+			"offsets": {
+				"from": 69600,
+				"to": 71600
+			},
+			"text": " They're moving some furniture"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,120",
+				"to": "00:01:13,240"
+			},
+			"offsets": {
+				"from": 72120,
+				"to": 73240
+			},
+			"text": " B"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,240",
+				"to": "00:01:15,240"
+			},
+			"offsets": {
+				"from": 73240,
+				"to": 75240
+			},
+			"text": " They're entering a meeting room"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,920",
+				"to": "00:01:17,080"
+			},
+			"offsets": {
+				"from": 75920,
+				"to": 77080
+			},
+			"text": " see"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,080",
+				"to": "00:01:19,080"
+			},
+			"offsets": {
+				"from": 77080,
+				"to": 79080
+			},
+			"text": " They're sitting at a table"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,520",
+				"to": "00:01:20,720"
+			},
+			"offsets": {
+				"from": 79520,
+				"to": 80720
+			},
+			"text": " D"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,720",
+				"to": "00:01:22,720"
+			},
+			"offsets": {
+				"from": 80720,
+				"to": 82720
+			},
+			"text": " They're cleaning the carpet"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,360",
+				"to": "00:01:29,520"
+			},
+			"offsets": {
+				"from": 83360,
+				"to": 89520
+			},
+			"text": " Statement C. They're sitting at a table is the best description of the picture"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:29,720",
+				"to": "00:01:34,060"
+			},
+			"offsets": {
+				"from": 89720,
+				"to": 94060
+			},
+			"text": " So you should select answer C and mark it on your answer sheet"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,400",
+				"to": "00:01:37,400"
+			},
+			"offsets": {
+				"from": 95400,
+				"to": 97400
+			},
+			"text": " Now part one will begin"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,840",
+				"to": "00:01:44,000"
+			},
+			"offsets": {
+				"from": 98840,
+				"to": 104000
+			},
+			"text": " number one look at the picture marked number one in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,720",
+				"to": "00:01:47,320"
+			},
+			"offsets": {
+				"from": 104720,
+				"to": 107320
+			},
+			"text": " A woman is holding a power tool"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,880",
+				"to": "00:01:50,600"
+			},
+			"offsets": {
+				"from": 107880,
+				"to": 110600
+			},
+			"text": " B a woman is opening a drawer"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,320",
+				"to": "00:01:53,920"
+			},
+			"offsets": {
+				"from": 111320,
+				"to": 113920
+			},
+			"text": " See a printer is being unplugged"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:54,680",
+				"to": "00:01:57,880"
+			},
+			"offsets": {
+				"from": 114680,
+				"to": 117880
+			},
+			"text": " D office supplies are being put into a box"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,040",
+				"to": "00:02:08,280"
+			},
+			"offsets": {
+				"from": 123040,
+				"to": 128280
+			},
+			"text": " number two look at the picture marked number two in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,800",
+				"to": "00:02:11,800"
+			},
+			"offsets": {
+				"from": 129800,
+				"to": 131800
+			},
+			"text": " Plants are on top of a cart"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,280",
+				"to": "00:02:15,920"
+			},
+			"offsets": {
+				"from": 132280,
+				"to": 135920
+			},
+			"text": " B a watering can is next to some trees"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,760",
+				"to": "00:02:19,720"
+			},
+			"offsets": {
+				"from": 136760,
+				"to": 139720
+			},
+			"text": " See a man is digging in a garden"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,360",
+				"to": "00:02:24,160"
+			},
+			"offsets": {
+				"from": 140360,
+				"to": 144160
+			},
+			"text": " D a man is near a display of potted plants"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:29,080",
+				"to": "00:02:31,080"
+			},
+			"offsets": {
+				"from": 149080,
+				"to": 151080
+			},
+			"text": " Go on to the next page"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,920",
+				"to": "00:02:41,120"
+			},
+			"offsets": {
+				"from": 155920,
+				"to": 161120
+			},
+			"text": " number three look at the picture marked number three in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,560",
+				"to": "00:02:44,560"
+			},
+			"offsets": {
+				"from": 162560,
+				"to": 164560
+			},
+			"text": " The man is fixing a machine"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,200",
+				"to": "00:02:47,960"
+			},
+			"offsets": {
+				"from": 165200,
+				"to": 167960
+			},
+			"text": " B the man is buying some equipment"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:48,920",
+				"to": "00:02:51,480"
+			},
+			"offsets": {
+				"from": 168920,
+				"to": 171480
+			},
+			"text": " See the man is lifting a weight"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,200",
+				"to": "00:02:55,220"
+			},
+			"offsets": {
+				"from": 172200,
+				"to": 175220
+			},
+			"text": " D the man is looking at the ceiling"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,200",
+				"to": "00:03:05,400"
+			},
+			"offsets": {
+				"from": 180200,
+				"to": 185400
+			},
+			"text": " number four look at the picture marked number four in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:06,080",
+				"to": "00:03:09,600"
+			},
+			"offsets": {
+				"from": 186080,
+				"to": 189600
+			},
+			"text": " A wall is decorated with various items"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,360",
+				"to": "00:03:13,520"
+			},
+			"offsets": {
+				"from": 190360,
+				"to": 193520
+			},
+			"text": " B two chairs are blocking a doorway"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,240",
+				"to": "00:03:17,840"
+			},
+			"offsets": {
+				"from": 194240,
+				"to": 197840
+			},
+			"text": " See a door has been propped open with a statue"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,520",
+				"to": "00:03:22,080"
+			},
+			"offsets": {
+				"from": 198520,
+				"to": 202080
+			},
+			"text": " D a painting is hanging next to a window"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:27,120",
+				"to": "00:03:32,520"
+			},
+			"offsets": {
+				"from": 207120,
+				"to": 212520
+			},
+			"text": " number five look at the picture marked number five in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,280",
+				"to": "00:03:36,280"
+			},
+			"offsets": {
+				"from": 214280,
+				"to": 216280
+			},
+			"text": " Some people are browsing in a shop"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:36,800",
+				"to": "00:03:37,920"
+			},
+			"offsets": {
+				"from": 216800,
+				"to": 217920
+			},
+			"text": " be"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,920",
+				"to": "00:03:39,920"
+			},
+			"offsets": {
+				"from": 217920,
+				"to": 219920
+			},
+			"text": " Some people are exchanging gifts"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,560",
+				"to": "00:03:43,480"
+			},
+			"offsets": {
+				"from": 220560,
+				"to": 223480
+			},
+			"text": " See a customer is paying for some goods"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:44,240",
+				"to": "00:03:47,640"
+			},
+			"offsets": {
+				"from": 224240,
+				"to": 227640
+			},
+			"text": " D some salespeople are preparing a display"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:49,280",
+				"to": "00:03:51,280"
+			},
+			"offsets": {
+				"from": 229280,
+				"to": 231280
+			},
+			"text": " you"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:52,760",
+				"to": "00:03:58,160"
+			},
+			"offsets": {
+				"from": 232760,
+				"to": 238160
+			},
+			"text": " number six look at the picture marked number six in your test book a"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:59,640",
+				"to": "00:04:01,960"
+			},
+			"offsets": {
+				"from": 239640,
+				"to": 241960
+			},
+			"text": " Cones are blocking access to a road"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:02,680",
+				"to": "00:04:03,800"
+			},
+			"offsets": {
+				"from": 242680,
+				"to": 243800
+			},
+			"text": " be"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:03,800",
+				"to": "00:04:06,080"
+			},
+			"offsets": {
+				"from": 243800,
+				"to": 246080
+			},
+			"text": " Some soil is in a pile on the ground"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:06,880",
+				"to": "00:04:10,800"
+			},
+			"offsets": {
+				"from": 246880,
+				"to": 250800
+			},
+			"text": " See some bushes have been planted in front of a building"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:11,400",
+				"to": "00:04:14,560"
+			},
+			"offsets": {
+				"from": 251400,
+				"to": 254560
+			},
+			"text": " D a tree is lying in the roadway"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:19,480",
+				"to": "00:04:21,480"
+			},
+			"offsets": {
+				"from": 259480,
+				"to": 261480
+			},
+			"text": " Go on to the next page"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:26,360",
+				"to": "00:04:28,160"
+			},
+			"offsets": {
+				"from": 266360,
+				"to": 268160
+			},
+			"text": " part two"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:28,160",
+				"to": "00:04:29,160"
+			},
+			"offsets": {
+				"from": 268160,
+				"to": 269160
+			},
+			"text": " directions"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:29,160",
+				"to": "00:04:34,420"
+			},
+			"offsets": {
+				"from": 269160,
+				"to": 274420
+			},
+			"text": " You will hear a question or statement and three responses spoken in English"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:34,800",
+				"to": "00:04:39,600"
+			},
+			"offsets": {
+				"from": 274800,
+				"to": 279600
+			},
+			"text": " They will not be printed in your test book and will be spoken only one time"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:40,520",
+				"to": "00:04:45,360"
+			},
+			"offsets": {
+				"from": 280520,
+				"to": 285360
+			},
+			"text": " select the best response to the question or statement and mark the letter a"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:45,840",
+				"to": "00:04:48,600"
+			},
+			"offsets": {
+				"from": 285840,
+				"to": 288600
+			},
+			"text": " B or C on your answer sheet"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:49,560",
+				"to": "00:04:53,000"
+			},
+			"offsets": {
+				"from": 289560,
+				"to": 293000
+			},
+			"text": " Now let us begin with question number seven"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:54,120",
+				"to": "00:04:55,960"
+			},
+			"offsets": {
+				"from": 294120,
+				"to": 295960
+			},
+			"text": " number seven"
+		},
+		{
+			"timestamps": {
+				"from": "00:04:55,960",
+				"to": "00:04:59,120"
+			},
+			"offsets": {
+				"from": 295960,
+				"to": 299120
+			},
+			"text": " Who's responsible for hiring at our fitness center a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:00,800",
+				"to": "00:05:03,120"
+			},
+			"offsets": {
+				"from": 300800,
+				"to": 303120
+			},
+			"text": " Mr.. Gonzalez is going to get a membership"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:03,880",
+				"to": "00:05:06,760"
+			},
+			"offsets": {
+				"from": 303880,
+				"to": 306760
+			},
+			"text": " Be I forgot to sign in at reception"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:07,760",
+				"to": "00:05:10,960"
+			},
+			"offsets": {
+				"from": 307760,
+				"to": 310960
+			},
+			"text": " See mr.. Lynn and Ms. Weiss are"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:16,080",
+				"to": "00:05:17,800"
+			},
+			"offsets": {
+				"from": 316080,
+				"to": 317800
+			},
+			"text": " number eight"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:17,800",
+				"to": "00:05:20,800"
+			},
+			"offsets": {
+				"from": 317800,
+				"to": 320800
+			},
+			"text": " Where do you usually purchase office supplies a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:22,240",
+				"to": "00:05:24,240"
+			},
+			"offsets": {
+				"from": 322240,
+				"to": 324240
+			},
+			"text": " We put them in the hallway cabinets"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:24,960",
+				"to": "00:05:27,680"
+			},
+			"offsets": {
+				"from": 324960,
+				"to": 327680
+			},
+			"text": " be at the store on Maple Avenue"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:28,680",
+				"to": "00:05:31,080"
+			},
+			"offsets": {
+				"from": 328680,
+				"to": 331080
+			},
+			"text": " See a manager's approval"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:36,080",
+				"to": "00:05:40,320"
+			},
+			"offsets": {
+				"from": 336080,
+				"to": 340320
+			},
+			"text": " number nine what time does mr.. Park usually leave a"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:42,000",
+				"to": "00:05:44,000"
+			},
+			"offsets": {
+				"from": 342000,
+				"to": 344000
+			},
+			"text": " around six o'clock in the evening"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:44,480",
+				"to": "00:05:46,960"
+			},
+			"offsets": {
+				"from": 344480,
+				"to": 346960
+			},
+			"text": " Be he left everything we need"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:47,840",
+				"to": "00:05:51,080"
+			},
+			"offsets": {
+				"from": 347840,
+				"to": 351080
+			},
+			"text": " See we've had many interns over the years"
+		},
+		{
+			"timestamps": {
+				"from": "00:05:56,120",
+				"to": "00:06:01,120"
+			},
+			"offsets": {
+				"from": 356120,
+				"to": 361120
+			},
+			"text": " number ten do you want to present your research to the marketing team a"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:02,440",
+				"to": "00:06:04,440"
+			},
+			"offsets": {
+				"from": 362440,
+				"to": 364440
+			},
+			"text": " That's what I've heard as well"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:04,600",
+				"to": "00:06:07,520"
+			},
+			"offsets": {
+				"from": 364600,
+				"to": 367520
+			},
+			"text": " Be if we can find the time for it"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:08,240",
+				"to": "00:06:11,320"
+			},
+			"offsets": {
+				"from": 368240,
+				"to": 371320
+			},
+			"text": " See yes, I received the gift"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:15,480",
+				"to": "00:06:17,480"
+			},
+			"offsets": {
+				"from": 375480,
+				"to": 377480
+			},
+			"text": " number 11"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:18,000",
+				"to": "00:06:21,160"
+			},
+			"offsets": {
+				"from": 378000,
+				"to": 381160
+			},
+			"text": " Our company picnic is on Friday isn't it a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:22,560",
+				"to": "00:06:24,560"
+			},
+			"offsets": {
+				"from": 382560,
+				"to": 384560
+			},
+			"text": " Those times are both booked"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:24,920",
+				"to": "00:06:27,640"
+			},
+			"offsets": {
+				"from": 384920,
+				"to": 387640
+			},
+			"text": " Be only if you can find them easily"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:28,560",
+				"to": "00:06:31,080"
+			},
+			"offsets": {
+				"from": 388560,
+				"to": 391080
+			},
+			"text": " See right in two days"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:36,320",
+				"to": "00:06:40,520"
+			},
+			"offsets": {
+				"from": 396320,
+				"to": 400520
+			},
+			"text": " number 12 isn't the bus supposed to stop here a"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:42,120",
+				"to": "00:06:44,120"
+			},
+			"offsets": {
+				"from": 402120,
+				"to": 404120
+			},
+			"text": " Yes, according to the schedule"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:44,480",
+				"to": "00:06:46,600"
+			},
+			"offsets": {
+				"from": 404480,
+				"to": 406600
+			},
+			"text": " Be I'm on my way now"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:47,560",
+				"to": "00:06:51,040"
+			},
+			"offsets": {
+				"from": 407560,
+				"to": 411040
+			},
+			"text": " See it listed several potential clients"
+		},
+		{
+			"timestamps": {
+				"from": "00:06:56,080",
+				"to": "00:07:00,640"
+			},
+			"offsets": {
+				"from": 416080,
+				"to": 420640
+			},
+			"text": " number 13 we should fill this order quickly shouldn't we a"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:02,200",
+				"to": "00:07:04,200"
+			},
+			"offsets": {
+				"from": 422200,
+				"to": 424200
+			},
+			"text": " No, I haven't yet"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:04,480",
+				"to": "00:07:07,720"
+			},
+			"offsets": {
+				"from": 424480,
+				"to": 427720
+			},
+			"text": " Be yes, it's for an important client"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:08,600",
+				"to": "00:07:11,320"
+			},
+			"offsets": {
+				"from": 428600,
+				"to": 431320
+			},
+			"text": " See try using this key"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:15,480",
+				"to": "00:07:17,480"
+			},
+			"offsets": {
+				"from": 435480,
+				"to": 437480
+			},
+			"text": " number 14"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:18,360",
+				"to": "00:07:20,360"
+			},
+			"offsets": {
+				"from": 438360,
+				"to": 440360
+			},
+			"text": " How do you like your new job?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:20,640",
+				"to": "00:07:23,720"
+			},
+			"offsets": {
+				"from": 440640,
+				"to": 443720
+			},
+			"text": " Hey, I can work from home quite often"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:24,480",
+				"to": "00:07:27,320"
+			},
+			"offsets": {
+				"from": 444480,
+				"to": 447320
+			},
+			"text": " Be a career in electrical engineering"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:28,400",
+				"to": "00:07:30,960"
+			},
+			"offsets": {
+				"from": 448400,
+				"to": 450960
+			},
+			"text": " See my sister helped me apply"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:36,240",
+				"to": "00:07:38,240"
+			},
+			"offsets": {
+				"from": 456240,
+				"to": 458240
+			},
+			"text": " number 15"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:38,240",
+				"to": "00:07:41,120"
+			},
+			"offsets": {
+				"from": 458240,
+				"to": 461120
+			},
+			"text": " let's go to the cafeteria for lunch today a"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:42,560",
+				"to": "00:07:44,560"
+			},
+			"offsets": {
+				"from": 462560,
+				"to": 464560
+			},
+			"text": " There should be one in the filing cabinet"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:45,440",
+				"to": "00:07:46,560"
+			},
+			"offsets": {
+				"from": 465440,
+				"to": 466560
+			},
+			"text": " be"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:46,560",
+				"to": "00:07:48,560"
+			},
+			"offsets": {
+				"from": 466560,
+				"to": 468560
+			},
+			"text": " Which local restaurant do you prefer?"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:49,120",
+				"to": "00:07:51,960"
+			},
+			"offsets": {
+				"from": 469120,
+				"to": 471960
+			},
+			"text": " See I don't think I can take a break"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:57,120",
+				"to": "00:07:59,120"
+			},
+			"offsets": {
+				"from": 477120,
+				"to": 479120
+			},
+			"text": " number 16"
+		},
+		{
+			"timestamps": {
+				"from": "00:07:59,160",
+				"to": "00:08:01,520"
+			},
+			"offsets": {
+				"from": 479160,
+				"to": 481520
+			},
+			"text": " When will we hire the new interns a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:03,120",
+				"to": "00:08:05,120"
+			},
+			"offsets": {
+				"from": 483120,
+				"to": 485120
+			},
+			"text": " Mr.. Wyeth is handling that"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:05,600",
+				"to": "00:08:08,840"
+			},
+			"offsets": {
+				"from": 485600,
+				"to": 488840
+			},
+			"text": " be with more time to spare than usual"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:09,560",
+				"to": "00:08:12,360"
+			},
+			"offsets": {
+				"from": 489560,
+				"to": 492360
+			},
+			"text": " See the highest available salary"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:17,440",
+				"to": "00:08:22,120"
+			},
+			"offsets": {
+				"from": 497440,
+				"to": 502120
+			},
+			"text": " number 17 how often should I mail these statements a"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:23,800",
+				"to": "00:08:25,800"
+			},
+			"offsets": {
+				"from": 503800,
+				"to": 505800
+			},
+			"text": " Yes, you can buy one online"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:26,560",
+				"to": "00:08:29,640"
+			},
+			"offsets": {
+				"from": 506560,
+				"to": 509640
+			},
+			"text": " Be the post office on Grant Street"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:30,320",
+				"to": "00:08:33,000"
+			},
+			"offsets": {
+				"from": 510320,
+				"to": 513000
+			},
+			"text": " See we send them out once a month"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:38,040",
+				"to": "00:08:39,800"
+			},
+			"offsets": {
+				"from": 518040,
+				"to": 519800
+			},
+			"text": " number 18"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:39,800",
+				"to": "00:08:42,320"
+			},
+			"offsets": {
+				"from": 519800,
+				"to": 522320
+			},
+			"text": " Why did you put that food in the freezer a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:43,720",
+				"to": "00:08:45,720"
+			},
+			"offsets": {
+				"from": 523720,
+				"to": 525720
+			},
+			"text": " It's not working well currently"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:46,440",
+				"to": "00:08:49,160"
+			},
+			"offsets": {
+				"from": 526440,
+				"to": 529160
+			},
+			"text": " Be I meant to put it in the refrigerator"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:50,280",
+				"to": "00:08:53,160"
+			},
+			"offsets": {
+				"from": 530280,
+				"to": 533160
+			},
+			"text": " See let's start making dinner soon"
+		},
+		{
+			"timestamps": {
+				"from": "00:08:58,280",
+				"to": "00:09:00,240"
+			},
+			"offsets": {
+				"from": 538280,
+				"to": 540240
+			},
+			"text": " number 19"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:00,240",
+				"to": "00:09:02,560"
+			},
+			"offsets": {
+				"from": 540240,
+				"to": 542560
+			},
+			"text": " Could you print the agenda for the meeting a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:03,960",
+				"to": "00:09:05,960"
+			},
+			"offsets": {
+				"from": 543960,
+				"to": 545960
+			},
+			"text": " It's already on your desk"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:06,320",
+				"to": "00:09:11,840"
+			},
+			"offsets": {
+				"from": 546320,
+				"to": 551840
+			},
+			"text": " Be no the other printer see was that a client?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:16,880",
+				"to": "00:09:18,360"
+			},
+			"offsets": {
+				"from": 556880,
+				"to": 558360
+			},
+			"text": " number 20"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:18,360",
+				"to": "00:09:20,360"
+			},
+			"offsets": {
+				"from": 558360,
+				"to": 560360
+			},
+			"text": " How far are you from the clinic?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:20,960",
+				"to": "00:09:23,480"
+			},
+			"offsets": {
+				"from": 560960,
+				"to": 563480
+			},
+			"text": " Hey, I'm close enough to walk"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:24,240",
+				"to": "00:09:26,960"
+			},
+			"offsets": {
+				"from": 564240,
+				"to": 566960
+			},
+			"text": " Be I need to see the doctor"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:27,600",
+				"to": "00:09:30,200"
+			},
+			"offsets": {
+				"from": 567600,
+				"to": 570200
+			},
+			"text": " See it's a well-known clinic"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:35,240",
+				"to": "00:09:37,240"
+			},
+			"offsets": {
+				"from": 575240,
+				"to": 577240
+			},
+			"text": " number 21"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:37,360",
+				"to": "00:09:40,920"
+			},
+			"offsets": {
+				"from": 577360,
+				"to": 580920
+			},
+			"text": " Didn't you get to print out of the company newsletter from Emico a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:42,480",
+				"to": "00:09:44,640"
+			},
+			"offsets": {
+				"from": 582480,
+				"to": 584640
+			},
+			"text": " She started working here three years ago"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:45,440",
+				"to": "00:09:51,800"
+			},
+			"offsets": {
+				"from": 585440,
+				"to": 591800
+			},
+			"text": " Be I was out of town last week see yes, I do like to write"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:56,920",
+				"to": "00:09:58,920"
+			},
+			"offsets": {
+				"from": 596920,
+				"to": 598920
+			},
+			"text": " number 22"
+		},
+		{
+			"timestamps": {
+				"from": "00:09:58,920",
+				"to": "00:10:01,420"
+			},
+			"offsets": {
+				"from": 598920,
+				"to": 601420
+			},
+			"text": " When do you need to renew your passport?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:01,960",
+				"to": "00:10:08,880"
+			},
+			"offsets": {
+				"from": 601960,
+				"to": 608880
+			},
+			"text": " Hey, be careful not to lose your tickets be a brand new type of microchip"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:09,520",
+				"to": "00:10:12,800"
+			},
+			"offsets": {
+				"from": 609520,
+				"to": 612800
+			},
+			"text": " See soon because it's about to expire"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:18,040",
+				"to": "00:10:20,040"
+			},
+			"offsets": {
+				"from": 618040,
+				"to": 620040
+			},
+			"text": " number 23"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:20,080",
+				"to": "00:10:23,480"
+			},
+			"offsets": {
+				"from": 620080,
+				"to": 623480
+			},
+			"text": " Who can help me find replacement parts for my computer a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:24,920",
+				"to": "00:10:26,920"
+			},
+			"offsets": {
+				"from": 624920,
+				"to": 626920
+			},
+			"text": " Here are all the latest statements"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:27,480",
+				"to": "00:10:33,760"
+			},
+			"offsets": {
+				"from": 627480,
+				"to": 633760
+			},
+			"text": " Be I can help you look through the inventory see put these on that shelf"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:38,880",
+				"to": "00:10:40,880"
+			},
+			"offsets": {
+				"from": 638880,
+				"to": 640880
+			},
+			"text": " number 24 I"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:41,160",
+				"to": "00:10:43,960"
+			},
+			"offsets": {
+				"from": 641160,
+				"to": 643960
+			},
+			"text": " can't make it to the company dinner tonight a"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:45,760",
+				"to": "00:10:47,920"
+			},
+			"offsets": {
+				"from": 645760,
+				"to": 647920
+			},
+			"text": " Managers expect everyone to be there"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:48,520",
+				"to": "00:10:54,400"
+			},
+			"offsets": {
+				"from": 648520,
+				"to": 654400
+			},
+			"text": " Be a buffet style restaurant see a meeting once a week"
+		},
+		{
+			"timestamps": {
+				"from": "00:10:58,480",
+				"to": "00:11:00,480"
+			},
+			"offsets": {
+				"from": 658480,
+				"to": 660480
+			},
+			"text": " number 25"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:01,520",
+				"to": "00:11:03,520"
+			},
+			"offsets": {
+				"from": 661520,
+				"to": 663520
+			},
+			"text": " Do you work in this neighborhood a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:04,920",
+				"to": "00:11:06,920"
+			},
+			"offsets": {
+				"from": 664920,
+				"to": 666920
+			},
+			"text": " Yes, I'd like to"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:06,960",
+				"to": "00:11:10,020"
+			},
+			"offsets": {
+				"from": 666960,
+				"to": 670020
+			},
+			"text": " Be no my office isn't nearby"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:11,000",
+				"to": "00:11:13,640"
+			},
+			"offsets": {
+				"from": 671000,
+				"to": 673640
+			},
+			"text": " See there aren't any of those here"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:18,640",
+				"to": "00:11:20,480"
+			},
+			"offsets": {
+				"from": 678640,
+				"to": 680480
+			},
+			"text": " number 26"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:20,480",
+				"to": "00:11:23,720"
+			},
+			"offsets": {
+				"from": 680480,
+				"to": 683720
+			},
+			"text": " It's time for our quarterly earnings report isn't it a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:25,040",
+				"to": "00:11:31,460"
+			},
+			"offsets": {
+				"from": 685040,
+				"to": 691460
+			},
+			"text": " Was there an email reminder about it be to pay for a new advertising campaign?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:32,160",
+				"to": "00:11:35,320"
+			},
+			"offsets": {
+				"from": 692160,
+				"to": 695320
+			},
+			"text": " See no a different pair of earrings"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:40,440",
+				"to": "00:11:42,440"
+			},
+			"offsets": {
+				"from": 700440,
+				"to": 702440
+			},
+			"text": " number 27"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:42,560",
+				"to": "00:11:45,580"
+			},
+			"offsets": {
+				"from": 702560,
+				"to": 705580
+			},
+			"text": " What did you do with the guest list that I sent you a?"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:47,120",
+				"to": "00:11:52,780"
+			},
+			"offsets": {
+				"from": 707120,
+				"to": 712780
+			},
+			"text": " After everyone received it be I passed it along to everyone who needed it"
+		},
+		{
+			"timestamps": {
+				"from": "00:11:53,360",
+				"to": "00:11:55,920"
+			},
+			"offsets": {
+				"from": 713360,
+				"to": 715920
+			},
+			"text": " See we're supposed to leave soon"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:01,040",
+				"to": "00:12:02,800"
+			},
+			"offsets": {
+				"from": 721040,
+				"to": 722800
+			},
+			"text": " number 28"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:02,800",
+				"to": "00:12:05,720"
+			},
+			"offsets": {
+				"from": 722800,
+				"to": 725720
+			},
+			"text": " Did you see the announcement about Emily's promotion?"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:06,320",
+				"to": "00:12:09,320"
+			},
+			"offsets": {
+				"from": 726320,
+				"to": 729320
+			},
+			"text": " Hey, all the technologies been upgraded"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:10,280",
+				"to": "00:12:13,420"
+			},
+			"offsets": {
+				"from": 730280,
+				"to": 733420
+			},
+			"text": " Be perhaps a good career counselor"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:14,080",
+				"to": "00:12:17,000"
+			},
+			"offsets": {
+				"from": 734080,
+				"to": 737000
+			},
+			"text": " See I've been busy all morning"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:22,040",
+				"to": "00:12:23,960"
+			},
+			"offsets": {
+				"from": 742040,
+				"to": 743960
+			},
+			"text": " number 29"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:23,960",
+				"to": "00:12:27,320"
+			},
+			"offsets": {
+				"from": 743960,
+				"to": 747320
+			},
+			"text": " Let's try our best to finish the project on time a"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:28,560",
+				"to": "00:12:30,560"
+			},
+			"offsets": {
+				"from": 748560,
+				"to": 750560
+			},
+			"text": " All except the first one"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:31,080",
+				"to": "00:12:32,120"
+			},
+			"offsets": {
+				"from": 751080,
+				"to": 752120
+			},
+			"text": " be"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:32,120",
+				"to": "00:12:34,120"
+			},
+			"offsets": {
+				"from": 752120,
+				"to": 754120
+			},
+			"text": " We may need a few more days"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:34,760",
+				"to": "00:12:37,360"
+			},
+			"offsets": {
+				"from": 754760,
+				"to": 757360
+			},
+			"text": " See I think over time it will"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:42,440",
+				"to": "00:12:45,760"
+			},
+			"offsets": {
+				"from": 762440,
+				"to": 765760
+			},
+			"text": " number 30 where's the store manager a"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:46,640",
+				"to": "00:12:49,040"
+			},
+			"offsets": {
+				"from": 766640,
+				"to": 769040
+			},
+			"text": " a recent hiring decision"
+		},
+		{
+			"timestamps": {
+				"from": "00:12:49,640",
+				"to": "00:12:55,680"
+			},
+			"offsets": {
+				"from": 769640,
+				"to": 775680
+			},
+			"text": " Be I enjoy shopping at that store see she went out for lunch"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:00,840",
+				"to": "00:13:06,000"
+			},
+			"offsets": {
+				"from": 780840,
+				"to": 786000
+			},
+			"text": " number 31 the software you're using isn't very reliable a"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:07,440",
+				"to": "00:13:09,440"
+			},
+			"offsets": {
+				"from": 787440,
+				"to": 789440
+			},
+			"text": " These chairs aren't very comfortable"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:10,080",
+				"to": "00:13:13,720"
+			},
+			"offsets": {
+				"from": 790080,
+				"to": 793720
+			},
+			"text": " Be I've been using it for years with no problems"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:14,480",
+				"to": "00:13:17,400"
+			},
+			"offsets": {
+				"from": 794480,
+				"to": 797400
+			},
+			"text": " See I saw that computer at the store"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:19,640",
+				"to": "00:13:21,640"
+			},
+			"offsets": {
+				"from": 799640,
+				"to": 801640
+			},
+			"text": " you"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:22,360",
+				"to": "00:13:24,200"
+			},
+			"offsets": {
+				"from": 802360,
+				"to": 804200
+			},
+			"text": " part three"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:24,200",
+				"to": "00:13:25,240"
+			},
+			"offsets": {
+				"from": 804200,
+				"to": 805240
+			},
+			"text": " directions"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:25,240",
+				"to": "00:13:29,360"
+			},
+			"offsets": {
+				"from": 805240,
+				"to": 809360
+			},
+			"text": " You will hear some conversations between two or more people"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:29,880",
+				"to": "00:13:35,840"
+			},
+			"offsets": {
+				"from": 809880,
+				"to": 815840
+			},
+			"text": " You will be asked to answer three questions about what the speakers say in each conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:36,680",
+				"to": "00:13:41,080"
+			},
+			"offsets": {
+				"from": 816680,
+				"to": 821080
+			},
+			"text": " select the best response to each question and mark the letter a"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:41,600",
+				"to": "00:13:49,120"
+			},
+			"offsets": {
+				"from": 821600,
+				"to": 829120
+			},
+			"text": " B C or D on your answer sheet the conversations will not be printed in your test book and"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:49,440",
+				"to": "00:13:51,440"
+			},
+			"offsets": {
+				"from": 829440,
+				"to": 831440
+			},
+			"text": " Will be spoken only one time"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:52,760",
+				"to": "00:13:56,600"
+			},
+			"offsets": {
+				"from": 832760,
+				"to": 836600
+			},
+			"text": " Questions 32 through 34 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:13:58,160",
+				"to": "00:14:05,480"
+			},
+			"offsets": {
+				"from": 838160,
+				"to": 845480
+			},
+			"text": " Hello Forest Grove photography services. How can I help you hi? I'd like to get a photographer to cover our event"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:05,840",
+				"to": "00:14:13,160"
+			},
+			"offsets": {
+				"from": 845840,
+				"to": 853160
+			},
+			"text": " It's a charity basketball game next Tuesday night. I was hoping to get Thomas Zukowski. He works for you, right?"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:13,480",
+				"to": "00:14:18,600"
+			},
+			"offsets": {
+				"from": 853480,
+				"to": 858600
+			},
+			"text": " Yes, but unfortunately Thomas doesn't usually work evenings. Oh too bad"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:19,240",
+				"to": "00:14:24,840"
+			},
+			"offsets": {
+				"from": 859240,
+				"to": 864840
+			},
+			"text": " Could you recommend somebody else before I do that? Let me talk to him. He might make an exception"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:25,400",
+				"to": "00:14:27,400"
+			},
+			"offsets": {
+				"from": 865400,
+				"to": 867400
+			},
+			"text": " Tom does love basketball"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:29,320",
+				"to": "00:14:33,060"
+			},
+			"offsets": {
+				"from": 869320,
+				"to": 873060
+			},
+			"text": " number 32, why is the man calling?"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:41,240",
+				"to": "00:14:45,520"
+			},
+			"offsets": {
+				"from": 881240,
+				"to": 885520
+			},
+			"text": " number 33 what problem does the woman mention?"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:49,240",
+				"to": "00:14:51,240"
+			},
+			"offsets": {
+				"from": 889240,
+				"to": 891240
+			},
+			"text": " you"
+		},
+		{
+			"timestamps": {
+				"from": "00:14:53,640",
+				"to": "00:14:57,820"
+			},
+			"offsets": {
+				"from": 893640,
+				"to": 897820
+			},
+			"text": " number 34 what does the woman say she will do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:06,160",
+				"to": "00:15:10,200"
+			},
+			"offsets": {
+				"from": 906160,
+				"to": 910200
+			},
+			"text": " questions 35 through 37 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:11,640",
+				"to": "00:15:17,200"
+			},
+			"offsets": {
+				"from": 911640,
+				"to": 917200
+			},
+			"text": " Good morning. It looks like we received a lot of new orders online last night. Yes"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:17,200",
+				"to": "00:15:21,360"
+			},
+			"offsets": {
+				"from": 917200,
+				"to": 921360
+			},
+			"text": " I saw that when I got in this morning. Can you package all of them by yourself?"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:22,120",
+				"to": "00:15:26,160"
+			},
+			"offsets": {
+				"from": 922120,
+				"to": 926160
+			},
+			"text": " Well, there are so many I may not be able to finish everything today"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:26,720",
+				"to": "00:15:32,440"
+			},
+			"offsets": {
+				"from": 926720,
+				"to": 932440
+			},
+			"text": " Okay, I'll call Maria John and ask if she can come in early today to help. That'd be great"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:32,680",
+				"to": "00:15:39,320"
+			},
+			"offsets": {
+				"from": 932680,
+				"to": 939320
+			},
+			"text": " We also have to pack that big shipment for the Henderson order. We finally got all of the items in. Oh, yes"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:39,520",
+				"to": "00:15:41,520"
+			},
+			"offsets": {
+				"from": 939520,
+				"to": 941520
+			},
+			"text": " Do that first"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:42,760",
+				"to": "00:15:47,080"
+			},
+			"offsets": {
+				"from": 942760,
+				"to": 947080
+			},
+			"text": " number 35 where most likely are the speakers?"
+		},
+		{
+			"timestamps": {
+				"from": "00:15:55,240",
+				"to": "00:15:59,760"
+			},
+			"offsets": {
+				"from": 955240,
+				"to": 959760
+			},
+			"text": " number 36 why do the speakers mention Maria John?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:08,160",
+				"to": "00:16:12,560"
+			},
+			"offsets": {
+				"from": 968160,
+				"to": 972560
+			},
+			"text": " number 37 what will the man probably do next?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:12,760",
+				"to": "00:16:14,760"
+			},
+			"offsets": {
+				"from": 972760,
+				"to": 974760
+			},
+			"text": " you"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:20,680",
+				"to": "00:16:24,600"
+			},
+			"offsets": {
+				"from": 980680,
+				"to": 984600
+			},
+			"text": " questions 38 through 40 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:25,800",
+				"to": "00:16:31,680"
+			},
+			"offsets": {
+				"from": 985800,
+				"to": 991680
+			},
+			"text": " Haruna we've planned most of the details for the corporate retreat including housing and most activities"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:31,760",
+				"to": "00:16:38,040"
+			},
+			"offsets": {
+				"from": 991760,
+				"to": 998040
+			},
+			"text": " But we still need to decide where to go for Saturday's closing dinner. Yes. I sent you several menus"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:38,320",
+				"to": "00:16:40,320"
+			},
+			"offsets": {
+				"from": 998320,
+				"to": 1000320
+			},
+			"text": " Did you like any of the places?"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:40,720",
+				"to": "00:16:46,560"
+			},
+			"offsets": {
+				"from": 1000720,
+				"to": 1006560
+			},
+			"text": " McNally's is close by yes, that would be convenient. We could even walk there from the hotel"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:46,800",
+				"to": "00:16:50,200"
+			},
+			"offsets": {
+				"from": 1006800,
+				"to": 1010200
+			},
+			"text": " But the prices are a little high. I agree"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:50,320",
+				"to": "00:16:55,640"
+			},
+			"offsets": {
+				"from": 1010320,
+				"to": 1015640
+			},
+			"text": " But I could see if they can offer us a reduced catering rate rather than ordering off the regular menu"
+		},
+		{
+			"timestamps": {
+				"from": "00:16:57,720",
+				"to": "00:17:01,640"
+			},
+			"offsets": {
+				"from": 1017720,
+				"to": 1021640
+			},
+			"text": " number 38 what do the speakers need to choose?"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:09,960",
+				"to": "00:17:14,480"
+			},
+			"offsets": {
+				"from": 1029960,
+				"to": 1034480
+			},
+			"text": " number 39 what do the speakers like about McNally's?"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:22,560",
+				"to": "00:17:26,160"
+			},
+			"offsets": {
+				"from": 1042560,
+				"to": 1046160
+			},
+			"text": " number 40 what does the woman offer to do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:34,480",
+				"to": "00:17:40,040"
+			},
+			"offsets": {
+				"from": 1054480,
+				"to": 1060040
+			},
+			"text": " Questions 41 through 43 refer to the following conversation with three speakers"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:41,200",
+				"to": "00:17:47,400"
+			},
+			"offsets": {
+				"from": 1061200,
+				"to": 1067400
+			},
+			"text": " Janelle and Rico could you give me an update on how our new medical records software is coming sure"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:47,640",
+				"to": "00:17:55,080"
+			},
+			"offsets": {
+				"from": 1067640,
+				"to": 1075080
+			},
+			"text": " Per the customers request I've updated the logo and changed the font the customer has communicated with us a lot on this project"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:55,560",
+				"to": "00:17:58,920"
+			},
+			"offsets": {
+				"from": 1075560,
+				"to": 1078920
+			},
+			"text": " Having their feedback at every stage of the process has been helpful"
+		},
+		{
+			"timestamps": {
+				"from": "00:17:59,560",
+				"to": "00:18:05,360"
+			},
+			"offsets": {
+				"from": 1079560,
+				"to": 1085360
+			},
+			"text": " Excellent. It sounds like we're on schedule for completing our beta version then we can hand it off to our marketing team"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:07,480",
+				"to": "00:18:11,680"
+			},
+			"offsets": {
+				"from": 1087480,
+				"to": 1091680
+			},
+			"text": " number 41 what does the speaker's company produce?"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:19,840",
+				"to": "00:18:24,160"
+			},
+			"offsets": {
+				"from": 1099840,
+				"to": 1104160
+			},
+			"text": " number 42 what does the man say has been helpful?"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:30,240",
+				"to": "00:18:38,120"
+			},
+			"offsets": {
+				"from": 1110240,
+				"to": 1118120
+			},
+			"text": " number 43 what is the next step in the project that the speakers are discussing?"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:45,920",
+				"to": "00:18:47,920"
+			},
+			"offsets": {
+				"from": 1125920,
+				"to": 1127920
+			},
+			"text": " Go on to the next page"
+		},
+		{
+			"timestamps": {
+				"from": "00:18:52,920",
+				"to": "00:19:01,560"
+			},
+			"offsets": {
+				"from": 1132920,
+				"to": 1141560
+			},
+			"text": " Questions 44 through 46 refer to the following conversation hello. This is Ian Nelson from Regal bathrooms"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:01,800",
+				"to": "00:19:06,160"
+			},
+			"offsets": {
+				"from": 1141800,
+				"to": 1146160
+			},
+			"text": " I'm following up to make sure that you're pleased with the job our workers did in your house"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:06,720",
+				"to": "00:19:09,400"
+			},
+			"offsets": {
+				"from": 1146720,
+				"to": 1149400
+			},
+			"text": " Thank you for calling. Yes. They did a great job"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:09,920",
+				"to": "00:19:15,000"
+			},
+			"offsets": {
+				"from": 1149920,
+				"to": 1155000
+			},
+			"text": " The bathroom floor was replaced and the new tile looks great. I'm very happy with the job"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:15,160",
+				"to": "00:19:20,720"
+			},
+			"offsets": {
+				"from": 1155160,
+				"to": 1160720
+			},
+			"text": " That's good to hear if there are other jobs you need done. I hope you'll reach out to us again"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:21,240",
+				"to": "00:19:30,480"
+			},
+			"offsets": {
+				"from": 1161240,
+				"to": 1170480
+			},
+			"text": " That reminds me. I was thinking of replacing my kitchen cabinets. Is that something you'd possibly do we don't but I can recommend a company"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:30,480",
+				"to": "00:19:37,400"
+			},
+			"offsets": {
+				"from": 1170480,
+				"to": 1177400
+			},
+			"text": " I often work with their customers have been very satisfied. Let me get their phone number one second. Thanks"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:39,400",
+				"to": "00:19:43,440"
+			},
+			"offsets": {
+				"from": 1179400,
+				"to": 1183440
+			},
+			"text": " number 44 what is the purpose of the phone call?"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:51,640",
+				"to": "00:19:53,640"
+			},
+			"offsets": {
+				"from": 1191640,
+				"to": 1193640
+			},
+			"text": " number 45"
+		},
+		{
+			"timestamps": {
+				"from": "00:19:53,640",
+				"to": "00:19:57,200"
+			},
+			"offsets": {
+				"from": 1193640,
+				"to": 1197200
+			},
+			"text": " What does the man say about replacing kitchen cabinets?"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:05,240",
+				"to": "00:20:09,880"
+			},
+			"offsets": {
+				"from": 1205240,
+				"to": 1209880
+			},
+			"text": " number 46 what will the man most likely do next?"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:17,960",
+				"to": "00:20:21,880"
+			},
+			"offsets": {
+				"from": 1217960,
+				"to": 1221880
+			},
+			"text": " Questions 47 through 49 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:23,440",
+				"to": "00:20:28,080"
+			},
+			"offsets": {
+				"from": 1223440,
+				"to": 1228080
+			},
+			"text": " My name is Laura. I refill my medication here at this pharmacy once a month"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:28,200",
+				"to": "00:20:31,640"
+			},
+			"offsets": {
+				"from": 1228200,
+				"to": 1231640
+			},
+			"text": " But on Monday, I'm going to travel abroad for work for two months"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:31,640",
+				"to": "00:20:36,440"
+			},
+			"offsets": {
+				"from": 1231640,
+				"to": 1236440
+			},
+			"text": " And I wonder if I can get a two-month refill this time. It shouldn't be a problem"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:37,120",
+				"to": "00:20:42,560"
+			},
+			"offsets": {
+				"from": 1237120,
+				"to": 1242560
+			},
+			"text": " However, your doctor must send us the two-month prescription. So you need to contact her first. Oh"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:43,040",
+				"to": "00:20:49,920"
+			},
+			"offsets": {
+				"from": 1243040,
+				"to": 1249920
+			},
+			"text": " I see. I'll give her a call during my lunch break today. When are you open until today until 9 p.m?"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:50,320",
+				"to": "00:20:55,840"
+			},
+			"offsets": {
+				"from": 1250320,
+				"to": 1255840
+			},
+			"text": " But once we receive your doctor's prescription, we can deliver the medication directly to your home"
+		},
+		{
+			"timestamps": {
+				"from": "00:20:57,880",
+				"to": "00:21:02,320"
+			},
+			"offsets": {
+				"from": 1257880,
+				"to": 1262320
+			},
+			"text": " number 47, where is the conversation taking place?"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:10,520",
+				"to": "00:21:15,360"
+			},
+			"offsets": {
+				"from": 1270520,
+				"to": 1275360
+			},
+			"text": " number 48 what does the woman say she will do at lunch today?"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:23,680",
+				"to": "00:21:27,760"
+			},
+			"offsets": {
+				"from": 1283680,
+				"to": 1287760
+			},
+			"text": " number 49 what does the man offer to do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:36,120",
+				"to": "00:21:40,400"
+			},
+			"offsets": {
+				"from": 1296120,
+				"to": 1300400
+			},
+			"text": " questions 50 through 52 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:41,440",
+				"to": "00:21:46,360"
+			},
+			"offsets": {
+				"from": 1301440,
+				"to": 1306360
+			},
+			"text": " Miller's sporting goods Joey speaking. Hello. I'm calling from West End High School"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:46,600",
+				"to": "00:21:50,240"
+			},
+			"offsets": {
+				"from": 1306600,
+				"to": 1310240
+			},
+			"text": " We're looking to make a big purchase for our student baseball teams"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:50,440",
+				"to": "00:21:54,360"
+			},
+			"offsets": {
+				"from": 1310440,
+				"to": 1314360
+			},
+			"text": " Our equipment is getting old and we would like to get new uniforms, too"
+		},
+		{
+			"timestamps": {
+				"from": "00:21:54,560",
+				"to": "00:22:00,160"
+			},
+			"offsets": {
+				"from": 1314560,
+				"to": 1320160
+			},
+			"text": " We have budget restrictions though. Well, we do offer discounts for bulk purchases"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:00,160",
+				"to": "00:22:07,120"
+			},
+			"offsets": {
+				"from": 1320160,
+				"to": 1327120
+			},
+			"text": " And we have a number of price ranges for uniforms. Many are very reasonable. Let me get the manager on the phone"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:07,120",
+				"to": "00:22:09,120"
+			},
+			"offsets": {
+				"from": 1327120,
+				"to": 1329120
+			},
+			"text": " And you can discuss the specifics"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:11,240",
+				"to": "00:22:14,400"
+			},
+			"offsets": {
+				"from": 1331240,
+				"to": 1334400
+			},
+			"text": " number 50 where does the woman work?"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:22,520",
+				"to": "00:22:26,360"
+			},
+			"offsets": {
+				"from": 1342520,
+				"to": 1346360
+			},
+			"text": " number 51 what is the woman concerned about?"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:30,160",
+				"to": "00:22:38,320"
+			},
+			"offsets": {
+				"from": 1350160,
+				"to": 1358320
+			},
+			"text": " number 52 what will the man do next?"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:46,680",
+				"to": "00:22:50,520"
+			},
+			"offsets": {
+				"from": 1366680,
+				"to": 1370520
+			},
+			"text": " questions 53 through 55 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:52,120",
+				"to": "00:22:58,360"
+			},
+			"offsets": {
+				"from": 1372120,
+				"to": 1378360
+			},
+			"text": " Hi, this is Gemini flowers. I'm calling about the order you placed for your award luncheon on July 12th"
+		},
+		{
+			"timestamps": {
+				"from": "00:22:59,480",
+				"to": "00:23:05,680"
+			},
+			"offsets": {
+				"from": 1379480,
+				"to": 1385680
+			},
+			"text": " Unfortunately our supplier is out of pink roses. Oh, no pink matches our corporate logo"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:05,680",
+				"to": "00:23:11,080"
+			},
+			"offsets": {
+				"from": 1385680,
+				"to": 1391080
+			},
+			"text": " I ordered them especially for this occasion. I understand your disappointment, sir"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:11,080",
+				"to": "00:23:17,680"
+			},
+			"offsets": {
+				"from": 1391080,
+				"to": 1397680
+			},
+			"text": " I can offer a 10% discount on the total cost of your order and replace the pink roses with yellow ones"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:18,040",
+				"to": "00:23:23,640"
+			},
+			"offsets": {
+				"from": 1398040,
+				"to": 1403640
+			},
+			"text": " Well, I didn't tell anyone about the roses. I suppose no one will really be disappointed"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:25,560",
+				"to": "00:23:29,680"
+			},
+			"offsets": {
+				"from": 1405560,
+				"to": 1409680
+			},
+			"text": " number 53 what problem does the woman mention?"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:37,760",
+				"to": "00:23:42,880"
+			},
+			"offsets": {
+				"from": 1417760,
+				"to": 1422880
+			},
+			"text": " number 54 what does the man say about his company's logo?"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:50,960",
+				"to": "00:23:52,960"
+			},
+			"offsets": {
+				"from": 1430960,
+				"to": 1432960
+			},
+			"text": " number 55"
+		},
+		{
+			"timestamps": {
+				"from": "00:23:53,040",
+				"to": "00:23:58,640"
+			},
+			"offsets": {
+				"from": 1433040,
+				"to": 1438640
+			},
+			"text": " What does the man mean when he says I suppose? No one will really be disappointed"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:06,680",
+				"to": "00:24:12,240"
+			},
+			"offsets": {
+				"from": 1446680,
+				"to": 1452240
+			},
+			"text": " Questions 56 through 58 refer to the following conversation with three speakers"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:13,840",
+				"to": "00:24:16,280"
+			},
+			"offsets": {
+				"from": 1453840,
+				"to": 1456280
+			},
+			"text": " Unfortunately our development team has some bad news"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:16,920",
+				"to": "00:24:22,720"
+			},
+			"offsets": {
+				"from": 1456920,
+				"to": 1462720
+			},
+			"text": " It turns out we'll need to push back the shipment of the prototype motor. We've been developing for our client"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:23,800",
+				"to": "00:24:25,680"
+			},
+			"offsets": {
+				"from": 1463800,
+				"to": 1465680
+			},
+			"text": " Why will there be a delay?"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:25,680",
+				"to": "00:24:31,120"
+			},
+			"offsets": {
+				"from": 1465680,
+				"to": 1471120
+			},
+			"text": " Well some of the components we received to build the prototype are failing initial tests"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:31,280",
+				"to": "00:24:33,560"
+			},
+			"offsets": {
+				"from": 1471280,
+				"to": 1473560
+			},
+			"text": " So we won't be able to make the delivery deadline"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:34,440",
+				"to": "00:24:37,200"
+			},
+			"offsets": {
+				"from": 1474440,
+				"to": 1477200
+			},
+			"text": " Janet could you let the client know yes?"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:37,200",
+				"to": "00:24:44,360"
+			},
+			"offsets": {
+				"from": 1477200,
+				"to": 1484360
+			},
+			"text": " I'll contact them right away, and I'd like the development team to start giving me daily briefings about progress on this issue"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:46,520",
+				"to": "00:24:48,440"
+			},
+			"offsets": {
+				"from": 1486520,
+				"to": 1488440
+			},
+			"text": " number 56"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:48,440",
+				"to": "00:24:52,120"
+			},
+			"offsets": {
+				"from": 1488440,
+				"to": 1492120
+			},
+			"text": " What kind of company do the speakers most likely work for?"
+		},
+		{
+			"timestamps": {
+				"from": "00:24:53,040",
+				"to": "00:25:04,640"
+			},
+			"offsets": {
+				"from": 1493040,
+				"to": 1504640
+			},
+			"text": " Number 57. What problem are the speakers discussing?"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:12,760",
+				"to": "00:25:16,240"
+			},
+			"offsets": {
+				"from": 1512760,
+				"to": 1516240
+			},
+			"text": " number 58. What does the man request?"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:23,040",
+				"to": "00:25:29,040"
+			},
+			"offsets": {
+				"from": 1523040,
+				"to": 1529040
+			},
+			"text": " questions 59 through 61 refer to the following conversation"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:29,920",
+				"to": "00:25:33,880"
+			},
+			"offsets": {
+				"from": 1529920,
+				"to": 1533880
+			},
+			"text": " Good evening legend hotel. How may I help you? Hello?"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:33,880",
+				"to": "00:25:38,400"
+			},
+			"offsets": {
+				"from": 1533880,
+				"to": 1538400
+			},
+			"text": " I'm at the local airport does the hotel run shuttle buses to here"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:38,520",
+				"to": "00:25:47,480"
+			},
+			"offsets": {
+				"from": 1538520,
+				"to": 1547480
+			},
+			"text": " We usually don't but was your flight originally scheduled for Central Airport it was but apparently there's a problem at Central"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:47,760",
+				"to": "00:25:53,000"
+			},
+			"offsets": {
+				"from": 1547760,
+				"to": 1553000
+			},
+			"text": " Yes, there's a personnel shortage, but several flights have been rerouted to the local airport"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:53,320",
+				"to": "00:25:56,200"
+			},
+			"offsets": {
+				"from": 1553320,
+				"to": 1556200
+			},
+			"text": " We have started running an airport shuttle this morning"
+		},
+		{
+			"timestamps": {
+				"from": "00:25:56,760",
+				"to": "00:26:04,160"
+			},
+			"offsets": {
+				"from": 1556760,
+				"to": 1564160
+			},
+			"text": " Okay, that's good news. When is the next shuttle buses run every half hour? What's your reservation number?"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:04,160",
+				"to": "00:26:07,120"
+			},
+			"offsets": {
+				"from": 1564160,
+				"to": 1567120
+			},
+			"text": " I'll ensure that your room is ready for you when you arrive"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:09,280",
+				"to": "00:26:14,160"
+			},
+			"offsets": {
+				"from": 1569280,
+				"to": 1574160
+			},
+			"text": " number 59. What does the woman say about Central Airport?"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:22,200",
+				"to": "00:26:26,680"
+			},
+			"offsets": {
+				"from": 1582200,
+				"to": 1586680
+			},
+			"text": " number 60. Why does the man say that's good news?"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:34,880",
+				"to": "00:26:39,000"
+			},
+			"offsets": {
+				"from": 1594880,
+				"to": 1599000
+			},
+			"text": " number 61. What will the woman do for the man?"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:47,320",
+				"to": "00:26:52,840"
+			},
+			"offsets": {
+				"from": 1607320,
+				"to": 1612840
+			},
+			"text": " questions 62 through 64 refer to the following conversation and images"
+		},
+		{
+			"timestamps": {
+				"from": "00:26:53,760",
+				"to": "00:27:00,600"
+			},
+			"offsets": {
+				"from": 1613760,
+				"to": 1620600
+			},
+			"text": " Hi, Marla. I'm calling to check whether you received my outline of the design project for your apartment remodeling"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:00,600",
+				"to": "00:27:02,600"
+			},
+			"offsets": {
+				"from": 1620600,
+				"to": 1622600
+			},
+			"text": " I emailed it to you yesterday"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:03,160",
+				"to": "00:27:05,760"
+			},
+			"offsets": {
+				"from": 1623160,
+				"to": 1625760
+			},
+			"text": " Yes, thank you for doing such a great job"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:05,760",
+				"to": "00:27:11,640"
+			},
+			"offsets": {
+				"from": 1625760,
+				"to": 1631640
+			},
+			"text": " I really liked your idea of opening up the kitchen and creating an open space with the living room great"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:11,880",
+				"to": "00:27:16,120"
+			},
+			"offsets": {
+				"from": 1631880,
+				"to": 1636120
+			},
+			"text": " If everything looks good to you I can start ordering the supplies tomorrow"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:16,880",
+				"to": "00:27:22,240"
+			},
+			"offsets": {
+				"from": 1636880,
+				"to": 1642240
+			},
+			"text": " Actually, I don't like the ceramic tiles you picked for the kitchen. I like the marble ones much better"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:22,240",
+				"to": "00:27:25,660"
+			},
+			"offsets": {
+				"from": 1642240,
+				"to": 1645660
+			},
+			"text": " I know they are more expensive, but it's a small space"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:27,960",
+				"to": "00:27:32,040"
+			},
+			"offsets": {
+				"from": 1647960,
+				"to": 1652040
+			},
+			"text": " number 62. What did the man do yesterday?"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:40,160",
+				"to": "00:27:44,200"
+			},
+			"offsets": {
+				"from": 1660160,
+				"to": 1664200
+			},
+			"text": " number 63. What does the woman say she likes?"
+		},
+		{
+			"timestamps": {
+				"from": "00:27:46,880",
+				"to": "00:27:58,760"
+			},
+			"offsets": {
+				"from": 1666880,
+				"to": 1678760
+			},
+			"text": " number 64. Look at the graphic. How much will the woman pay for each tile?"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:10,760",
+				"to": "00:28:12,760"
+			},
+			"offsets": {
+				"from": 1690760,
+				"to": 1692760
+			},
+			"text": " Go on to the next page"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:17,680",
+				"to": "00:28:23,320"
+			},
+			"offsets": {
+				"from": 1697680,
+				"to": 1703320
+			},
+			"text": " questions 65 through 67 refer to the following conversation and price list"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:24,240",
+				"to": "00:28:31,120"
+			},
+			"offsets": {
+				"from": 1704240,
+				"to": 1711120
+			},
+			"text": " Hi, I'd like to make a reservation for a group of clients that will be visiting our company from the 1st to the 6th of June"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:31,120",
+				"to": "00:28:36,680"
+			},
+			"offsets": {
+				"from": 1711120,
+				"to": 1716680
+			},
+			"text": " I need eight rooms. We do have availability for that period. The type of room"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:36,680",
+				"to": "00:28:42,880"
+			},
+			"offsets": {
+				"from": 1716680,
+				"to": 1722880
+			},
+			"text": " I recommend for you is normally 99 euros per night, but we can offer a group discount. That'll work"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:43,480",
+				"to": "00:28:48,440"
+			},
+			"offsets": {
+				"from": 1723480,
+				"to": 1728440
+			},
+			"text": " Also on June 5th, we want to take our clients on a tour of the local attractions"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:48,640",
+				"to": "00:28:55,360"
+			},
+			"offsets": {
+				"from": 1728640,
+				"to": 1735360
+			},
+			"text": " Could you help arrange that? We have an event planner here who will be able to help you. His name is Pablo Gonzales"
+		},
+		{
+			"timestamps": {
+				"from": "00:28:55,360",
+				"to": "00:28:58,960"
+			},
+			"offsets": {
+				"from": 1735360,
+				"to": 1738960
+			},
+			"text": " I'll connect you to his office once I've completed your reservation"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:00,960",
+				"to": "00:29:04,720"
+			},
+			"offsets": {
+				"from": 1740960,
+				"to": 1744720
+			},
+			"text": " number 65. Why is the man calling?"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:12,800",
+				"to": "00:29:18,720"
+			},
+			"offsets": {
+				"from": 1752800,
+				"to": 1758720
+			},
+			"text": " number 66. Look at the graphic. Which room type does the woman mention?"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:30,840",
+				"to": "00:29:34,640"
+			},
+			"offsets": {
+				"from": 1770840,
+				"to": 1774640
+			},
+			"text": " number 67. Who is Pablo Gonzales?"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:42,800",
+				"to": "00:29:47,920"
+			},
+			"offsets": {
+				"from": 1782800,
+				"to": 1787920
+			},
+			"text": " questions 68 through 70 refer to the following conversation and bar graph"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:48,920",
+				"to": "00:29:55,520"
+			},
+			"offsets": {
+				"from": 1788920,
+				"to": 1795520
+			},
+			"text": " Hi Joanna. The management group needs to submit nominees for this year's award for outstanding employee"
+		},
+		{
+			"timestamps": {
+				"from": "00:29:56,000",
+				"to": "00:30:01,840"
+			},
+			"offsets": {
+				"from": 1796000,
+				"to": 1801840
+			},
+			"text": " My supervisor wants to know if any managers have nominated anyone yet. Not yet Charles"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:01,840",
+				"to": "00:30:06,000"
+			},
+			"offsets": {
+				"from": 1801840,
+				"to": 1806000
+			},
+			"text": " I emailed everyone about it a week ago, but I haven't heard anything yet"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:06,000",
+				"to": "00:30:09,760"
+			},
+			"offsets": {
+				"from": 1806000,
+				"to": 1809760
+			},
+			"text": " I'll have to follow up with the managers and let them know the deadline is coming up"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:10,280",
+				"to": "00:30:18,640"
+			},
+			"offsets": {
+				"from": 1810280,
+				"to": 1818640
+			},
+			"text": " Okay, well, I printed out a breakdown of the customer service representatives with the most five-star reviews from customers last year"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:18,880",
+				"to": "00:30:21,080"
+			},
+			"offsets": {
+				"from": 1818880,
+				"to": 1821080
+			},
+			"text": " We had someone who was really outstanding"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:21,680",
+				"to": "00:30:26,160"
+			},
+			"offsets": {
+				"from": 1821680,
+				"to": 1826160
+			},
+			"text": " Those are excellent numbers. Could you go ahead and submit a nomination?"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:28,160",
+				"to": "00:30:32,600"
+			},
+			"offsets": {
+				"from": 1828160,
+				"to": 1832600
+			},
+			"text": " number 68. What is the conversation mainly about?"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:40,760",
+				"to": "00:30:45,920"
+			},
+			"offsets": {
+				"from": 1840760,
+				"to": 1845920
+			},
+			"text": " number 69. Who does the woman say she will send a reminder to?"
+		},
+		{
+			"timestamps": {
+				"from": "00:30:54,040",
+				"to": "00:31:01,040"
+			},
+			"offsets": {
+				"from": 1854040,
+				"to": 1861040
+			},
+			"text": " number 70. Look at the graphic. Which representative is the man most likely talking about?"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:10,280",
+				"to": "00:31:15,520"
+			},
+			"offsets": {
+				"from": 1870280,
+				"to": 1875520
+			},
+			"text": " part four directions"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:16,240",
+				"to": "00:31:25,520"
+			},
+			"offsets": {
+				"from": 1876240,
+				"to": 1885520
+			},
+			"text": " You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:26,600",
+				"to": "00:31:34,840"
+			},
+			"offsets": {
+				"from": 1886600,
+				"to": 1894840
+			},
+			"text": " Select the best response to each question and mark the letter A B C or D on your answer sheet"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:35,520",
+				"to": "00:31:41,000"
+			},
+			"offsets": {
+				"from": 1895520,
+				"to": 1901000
+			},
+			"text": " The talks will not be printed in your test book and will be spoken only one time"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:42,360",
+				"to": "00:31:47,240"
+			},
+			"offsets": {
+				"from": 1902360,
+				"to": 1907240
+			},
+			"text": " questions 71 through 73 refer to the following advertisement"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:48,240",
+				"to": "00:31:51,600"
+			},
+			"offsets": {
+				"from": 1908240,
+				"to": 1911600
+			},
+			"text": " Looking for an interesting activity to celebrate the coming of spring?"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:52,080",
+				"to": "00:31:58,640"
+			},
+			"offsets": {
+				"from": 1912080,
+				"to": 1918640
+			},
+			"text": " Winford Gardens offers an escape filled with calm peace and quiet just a few miles from the downtown area"
+		},
+		{
+			"timestamps": {
+				"from": "00:31:59,200",
+				"to": "00:32:04,960"
+			},
+			"offsets": {
+				"from": 1919200,
+				"to": 1924960
+			},
+			"text": " Winford Gardens has acres of outdoor gardens filled with plants. You won't typically find anywhere near here"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:05,520",
+				"to": "00:32:08,720"
+			},
+			"offsets": {
+				"from": 1925520,
+				"to": 1928720
+			},
+			"text": " This weekend. We will have an exhibition of Mexican blue palms"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:09,360",
+				"to": "00:32:13,600"
+			},
+			"offsets": {
+				"from": 1929360,
+				"to": 1933600
+			},
+			"text": " If you have never seen these striking and unique plants now is your chance"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:14,240",
+				"to": "00:32:17,840"
+			},
+			"offsets": {
+				"from": 1934240,
+				"to": 1937840
+			},
+			"text": " Winford's cafe is a converted building that used to be a greenhouse"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:18,320",
+				"to": "00:32:22,400"
+			},
+			"offsets": {
+				"from": 1938320,
+				"to": 1942400
+			},
+			"text": " The surrounding tropical plants and flowers help make dining there a pleasure"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:24,400",
+				"to": "00:32:28,240"
+			},
+			"offsets": {
+				"from": 1944400,
+				"to": 1948240
+			},
+			"text": " number 71. What is being advertised?"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:36,320",
+				"to": "00:32:40,640"
+			},
+			"offsets": {
+				"from": 1956320,
+				"to": 1960640
+			},
+			"text": " number 72. What event is happening this weekend?"
+		},
+		{
+			"timestamps": {
+				"from": "00:32:48,880",
+				"to": "00:32:53,760"
+			},
+			"offsets": {
+				"from": 1968880,
+				"to": 1973760
+			},
+			"text": " number 73. What does the speaker say about a cafe building?"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:02,000",
+				"to": "00:33:07,280"
+			},
+			"offsets": {
+				"from": 1982000,
+				"to": 1987280
+			},
+			"text": " questions 74 through 76 refer to the following excerpt from a meeting"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:08,480",
+				"to": "00:33:13,520"
+			},
+			"offsets": {
+				"from": 1988480,
+				"to": 1993520
+			},
+			"text": " Good afternoon. Welcome to this week's managers meeting here at South truck deliveries"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:14,080",
+				"to": "00:33:20,320"
+			},
+			"offsets": {
+				"from": 1994080,
+				"to": 2000320
+			},
+			"text": " As you know, we've always written performance evaluations for our drivers and other employees on paper"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:20,800",
+				"to": "00:33:23,360"
+			},
+			"offsets": {
+				"from": 2000800,
+				"to": 2003360
+			},
+			"text": " I am pleased to announce some important changes"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:24,000",
+				"to": "00:33:25,280"
+			},
+			"offsets": {
+				"from": 2004000,
+				"to": 2005280
+			},
+			"text": " beginning this year"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:25,280",
+				"to": "00:33:31,280"
+			},
+			"offsets": {
+				"from": 2005280,
+				"to": 2011280
+			},
+			"text": " We will use a software application called personnel profile to enter performance appraisals"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:31,840",
+				"to": "00:33:36,480"
+			},
+			"offsets": {
+				"from": 2011840,
+				"to": 2016480
+			},
+			"text": " Let me introduce miss y young lee the head of our it department"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:37,040",
+				"to": "00:33:42,320"
+			},
+			"offsets": {
+				"from": 2017040,
+				"to": 2022320
+			},
+			"text": " She will walk you through how to enroll in a training course on using personnel profile"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:42,320",
+				"to": "00:33:45,520"
+			},
+			"offsets": {
+				"from": 2022320,
+				"to": 2025520
+			},
+			"text": " And you will complete your enrollment by the end of this meeting"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:47,680",
+				"to": "00:33:51,680"
+			},
+			"offsets": {
+				"from": 2027680,
+				"to": 2031680
+			},
+			"text": " number 74 who most likely is the speaker?"
+		},
+		{
+			"timestamps": {
+				"from": "00:33:59,920",
+				"to": "00:34:04,320"
+			},
+			"offsets": {
+				"from": 2039920,
+				"to": 2044320
+			},
+			"text": " number 75. What is the main topic of the talk?"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:12,640",
+				"to": "00:34:17,280"
+			},
+			"offsets": {
+				"from": 2052640,
+				"to": 2057280
+			},
+			"text": " number 76. What does the speaker ask the listeners to do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:25,520",
+				"to": "00:34:30,480"
+			},
+			"offsets": {
+				"from": 2065520,
+				"to": 2070480
+			},
+			"text": " questions 77 through 79 refer to the following telephone message"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:31,680",
+				"to": "00:34:33,680"
+			},
+			"offsets": {
+				"from": 2071680,
+				"to": 2073680
+			},
+			"text": " Hi, this is Miss Mitra"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:34,240",
+				"to": "00:34:38,080"
+			},
+			"offsets": {
+				"from": 2074240,
+				"to": 2078080
+			},
+			"text": " You're scheduled to move my furniture to my new apartment tomorrow morning at eight"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:38,640",
+				"to": "00:34:45,840"
+			},
+			"offsets": {
+				"from": 2078640,
+				"to": 2085840
+			},
+			"text": " I'm calling because I just learned that the freight elevator in my building is broken and my apartment is on a very high floor"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:46,320",
+				"to": "00:34:49,680"
+			},
+			"offsets": {
+				"from": 2086320,
+				"to": 2089680
+			},
+			"text": " I will check first thing tomorrow morning to see what the situation is"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:50,080",
+				"to": "00:34:52,320"
+			},
+			"offsets": {
+				"from": 2090080,
+				"to": 2092320
+			},
+			"text": " But please give me a call as soon as you can"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:52,880",
+				"to": "00:34:57,360"
+			},
+			"offsets": {
+				"from": 2092880,
+				"to": 2097360
+			},
+			"text": " I have an overseas trip coming up next week. So this work will have to happen soon"
+		},
+		{
+			"timestamps": {
+				"from": "00:34:59,520",
+				"to": "00:35:03,920"
+			},
+			"offsets": {
+				"from": 2099520,
+				"to": 2103920
+			},
+			"text": " number 77 who is the speaker most likely calling?"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:12,160",
+				"to": "00:35:14,160"
+			},
+			"offsets": {
+				"from": 2112160,
+				"to": 2114160
+			},
+			"text": " number 78"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:14,160",
+				"to": "00:35:18,260"
+			},
+			"offsets": {
+				"from": 2114160,
+				"to": 2118260
+			},
+			"text": " Why does the speaker say my apartment is on a very high floor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:23,120",
+				"to": "00:35:28,160"
+			},
+			"offsets": {
+				"from": 2123120,
+				"to": 2128160
+			},
+			"text": " number 79. What will the speaker do next week?"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:36,000",
+				"to": "00:35:40,240"
+			},
+			"offsets": {
+				"from": 2136000,
+				"to": 2140240
+			},
+			"text": " questions 80 through 82 refer to the following announcement"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:41,440",
+				"to": "00:35:48,240"
+			},
+			"offsets": {
+				"from": 2141440,
+				"to": 2148240
+			},
+			"text": " Good evening, everyone. Welcome to a new season of city opera. I bring some bad news. I'm afraid"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:48,800",
+				"to": "00:35:54,800"
+			},
+			"offsets": {
+				"from": 2148800,
+				"to": 2154800
+			},
+			"text": " Soprano, Lisa Gornica informed me earlier today that she will not be able to perform tonight"
+		},
+		{
+			"timestamps": {
+				"from": "00:35:55,360",
+				"to": "00:35:59,520"
+			},
+			"offsets": {
+				"from": 2155360,
+				"to": 2159520
+			},
+			"text": " I know how disappointing this is, but I also have good news"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:00,160",
+				"to": "00:36:04,720"
+			},
+			"offsets": {
+				"from": 2160160,
+				"to": 2164720
+			},
+			"text": " Soprano Rita Marks is in town and has agreed to step in for Miss Gornica"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:05,360",
+				"to": "00:36:10,640"
+			},
+			"offsets": {
+				"from": 2165360,
+				"to": 2170640
+			},
+			"text": " Not only is Miss Marks familiar with the role of Laura, but she also knows the choreography"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:11,200",
+				"to": "00:36:14,640"
+			},
+			"offsets": {
+				"from": 2171200,
+				"to": 2174640
+			},
+			"text": " Since she worked with our director when this production premiered in Toronto"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:15,440",
+				"to": "00:36:21,280"
+			},
+			"offsets": {
+				"from": 2175440,
+				"to": 2181280
+			},
+			"text": " Wondering what her voice is like? Well judge for yourself, but I saw the reviews from Toronto"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:21,840",
+				"to": "00:36:24,640"
+			},
+			"offsets": {
+				"from": 2181840,
+				"to": 2184640
+			},
+			"text": " I can guarantee that we are in for a treat"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:26,560",
+				"to": "00:36:30,560"
+			},
+			"offsets": {
+				"from": 2186560,
+				"to": 2190560
+			},
+			"text": " number 80 why might the listeners be disappointed"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:38,560",
+				"to": "00:36:40,560"
+			},
+			"offsets": {
+				"from": 2198560,
+				"to": 2200560
+			},
+			"text": " number 81"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:40,560",
+				"to": "00:36:43,600"
+			},
+			"offsets": {
+				"from": 2200560,
+				"to": 2203600
+			},
+			"text": " What does the speaker indicate about Rita Marks?"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:45,440",
+				"to": "00:36:52,800"
+			},
+			"offsets": {
+				"from": 2205440,
+				"to": 2212800
+			},
+			"text": " number 82"
+		},
+		{
+			"timestamps": {
+				"from": "00:36:52,800",
+				"to": "00:36:59,120"
+			},
+			"offsets": {
+				"from": 2212800,
+				"to": 2219120
+			},
+			"text": " What does the speaker imply when he says \"I saw the reviews from Toronto\""
+		},
+		{
+			"timestamps": {
+				"from": "00:37:06,400",
+				"to": "00:37:08,400"
+			},
+			"offsets": {
+				"from": 2226400,
+				"to": 2228400
+			},
+			"text": " Go on to the next page"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:13,200",
+				"to": "00:37:15,200"
+			},
+			"offsets": {
+				"from": 2233200,
+				"to": 2235200
+			},
+			"text": " questions 83"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:15,680",
+				"to": "00:37:19,280"
+			},
+			"offsets": {
+				"from": 2235680,
+				"to": 2239280
+			},
+			"text": " through 85 refer to the following excerpt from a meeting"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:20,480",
+				"to": "00:37:26,240"
+			},
+			"offsets": {
+				"from": 2240480,
+				"to": 2246240
+			},
+			"text": " Thank you for inviting me and other members of the marketing department to this meeting of the research and development team"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:26,880",
+				"to": "00:37:31,600"
+			},
+			"offsets": {
+				"from": 2246880,
+				"to": 2251600
+			},
+			"text": " We always welcome the opportunity to share customer information about our toys with you"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:32,160",
+				"to": "00:37:39,280"
+			},
+			"offsets": {
+				"from": 2252160,
+				"to": 2259280
+			},
+			"text": " I'd like to start off with some information about the remote control car that we launched in department stores and toy stores one month ago"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:39,760",
+				"to": "00:37:46,000"
+			},
+			"offsets": {
+				"from": 2259760,
+				"to": 2266000
+			},
+			"text": " It's been a mixed bag customers love the smooth action of the car and the high speed it can achieve"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:46,640",
+				"to": "00:37:50,880"
+			},
+			"offsets": {
+				"from": 2266640,
+				"to": 2270880
+			},
+			"text": " However, they are somewhat disappointed with the rechargeable battery the car comes with"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:51,440",
+				"to": "00:37:56,400"
+			},
+			"offsets": {
+				"from": 2271440,
+				"to": 2276400
+			},
+			"text": " I encourage your team to find ways to make the battery charge faster and last longer"
+		},
+		{
+			"timestamps": {
+				"from": "00:37:58,560",
+				"to": "00:38:00,560"
+			},
+			"offsets": {
+				"from": 2278560,
+				"to": 2280560
+			},
+			"text": " number 83"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:00,640",
+				"to": "00:38:02,880"
+			},
+			"offsets": {
+				"from": 2280640,
+				"to": 2282880
+			},
+			"text": " Where does the speaker most likely work?"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:10,720",
+				"to": "00:38:12,720"
+			},
+			"offsets": {
+				"from": 2290720,
+				"to": 2292720
+			},
+			"text": " number 84"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:13,120",
+				"to": "00:38:17,760"
+			},
+			"offsets": {
+				"from": 2293120,
+				"to": 2297760
+			},
+			"text": " What does the speaker mean when she says \"It's been a mixed bag\""
+		},
+		{
+			"timestamps": {
+				"from": "00:38:26,000",
+				"to": "00:38:28,000"
+			},
+			"offsets": {
+				"from": 2306000,
+				"to": 2308000
+			},
+			"text": " number 85"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:28,160",
+				"to": "00:38:30,560"
+			},
+			"offsets": {
+				"from": 2308160,
+				"to": 2310560
+			},
+			"text": " What does the speaker ask the listeners to do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:38,800",
+				"to": "00:38:42,960"
+			},
+			"offsets": {
+				"from": 2318800,
+				"to": 2322960
+			},
+			"text": " Questions 86 through 88 refer to the following announcement"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:44,080",
+				"to": "00:38:50,800"
+			},
+			"offsets": {
+				"from": 2324080,
+				"to": 2330800
+			},
+			"text": " Attention ShopSmart shoppers in case you didn't pick up our flyer. We are kicking off a ShopSmart giveaway event"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:51,440",
+				"to": "00:38:55,040"
+			},
+			"offsets": {
+				"from": 2331440,
+				"to": 2335040
+			},
+			"text": " For every two cans of ShopSmart soup or vegetables that you buy"
+		},
+		{
+			"timestamps": {
+				"from": "00:38:55,440",
+				"to": "00:39:00,800"
+			},
+			"offsets": {
+				"from": 2335440,
+				"to": 2340800
+			},
+			"text": " You will be entered in a drawing to win a gift certificate that can be used at any ShopSmart location"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:01,360",
+				"to": "00:39:06,960"
+			},
+			"offsets": {
+				"from": 2341360,
+				"to": 2346960
+			},
+			"text": " Gift certificates worth $100 each will be awarded to three lucky shoppers on May 1"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:07,600",
+				"to": "00:39:10,880"
+			},
+			"offsets": {
+				"from": 2347600,
+				"to": 2350880
+			},
+			"text": " This offer is good only for ShopSmart brand canned goods"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:11,440",
+				"to": "00:39:17,440"
+			},
+			"offsets": {
+				"from": 2351440,
+				"to": 2357440
+			},
+			"text": " Act now stock up and join the giveaway the more you buy the more chances you have to win"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:19,680",
+				"to": "00:39:21,680"
+			},
+			"offsets": {
+				"from": 2359680,
+				"to": 2361680
+			},
+			"text": " number 86"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:21,680",
+				"to": "00:39:24,400"
+			},
+			"offsets": {
+				"from": 2361680,
+				"to": 2364400
+			},
+			"text": " Where is the announcement most likely being made?"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:32,560",
+				"to": "00:39:34,560"
+			},
+			"offsets": {
+				"from": 2372560,
+				"to": 2374560
+			},
+			"text": " number 87"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:34,640",
+				"to": "00:39:36,880"
+			},
+			"offsets": {
+				"from": 2374640,
+				"to": 2376880
+			},
+			"text": " What is the main topic of the announcement?"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:37,840",
+				"to": "00:39:39,040"
+			},
+			"offsets": {
+				"from": 2377840,
+				"to": 2379040
+			},
+			"text": " number 88"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:39,280",
+				"to": "00:39:43,200"
+			},
+			"offsets": {
+				"from": 2379280,
+				"to": 2383200
+			},
+			"text": " What does the speaker say about some ShopSmart products?"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:53,280",
+				"to": "00:39:56,880"
+			},
+			"offsets": {
+				"from": 2393280,
+				"to": 2396880
+			},
+			"text": " questions 89 through 91 refer to the following telephone message"
+		},
+		{
+			"timestamps": {
+				"from": "00:39:57,680",
+				"to": "00:40:00,480"
+			},
+			"offsets": {
+				"from": 2397680,
+				"to": 2400480
+			},
+			"text": " Hi, Mr. Collins. I'm calling from Silver's Flooring"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:00,880",
+				"to": "00:40:08,080"
+			},
+			"offsets": {
+				"from": 2400880,
+				"to": 2408080
+			},
+			"text": " I was about to place your order for the maple floors that you wanted me to put in, but I decided to call you first"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:08,720",
+				"to": "00:40:13,440"
+			},
+			"offsets": {
+				"from": 2408720,
+				"to": 2413440
+			},
+			"text": " I just found out that the hardwood distributor has lowered the price of the oak flooring"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:14,160",
+				"to": "00:40:18,720"
+			},
+			"offsets": {
+				"from": 2414160,
+				"to": 2418720
+			},
+			"text": " I think you originally preferred oak but decided it was too expensive"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:19,280",
+				"to": "00:40:21,920"
+			},
+			"offsets": {
+				"from": 2419280,
+				"to": 2421920
+			},
+			"text": " The reduction looks to be about 15 percent"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:22,320",
+				"to": "00:40:25,120"
+			},
+			"offsets": {
+				"from": 2422320,
+				"to": 2425120
+			},
+			"text": " Please call me back and let me know if you have any questions"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:25,840",
+				"to": "00:40:33,120"
+			},
+			"offsets": {
+				"from": 2425840,
+				"to": 2433120
+			},
+			"text": " The reduction looks to be about 15 percent. Please call me back and let me know if I should still order the maple for you"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:33,440",
+				"to": "00:40:35,760"
+			},
+			"offsets": {
+				"from": 2433440,
+				"to": 2435760
+			},
+			"text": " Or if you would prefer that I order the oak"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:37,920",
+				"to": "00:40:39,920"
+			},
+			"offsets": {
+				"from": 2437920,
+				"to": 2439920
+			},
+			"text": " number 89"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:40,080",
+				"to": "00:40:42,340"
+			},
+			"offsets": {
+				"from": 2440080,
+				"to": 2442340
+			},
+			"text": " What work was the speaker hired to do?"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:50,640",
+				"to": "00:40:52,480"
+			},
+			"offsets": {
+				"from": 2450640,
+				"to": 2452480
+			},
+			"text": " number 90"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:52,480",
+				"to": "00:40:54,960"
+			},
+			"offsets": {
+				"from": 2452480,
+				"to": 2454960
+			},
+			"text": " What does the speaker say about the distributor?"
+		},
+		{
+			"timestamps": {
+				"from": "00:40:56,000",
+				"to": "00:40:56,960"
+			},
+			"offsets": {
+				"from": 2456000,
+				"to": 2456960
+			},
+			"text": " number 91"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:05,120",
+				"to": "00:41:08,080"
+			},
+			"offsets": {
+				"from": 2465120,
+				"to": 2468080
+			},
+			"text": " Why did the speaker wait to place an order?"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:15,920",
+				"to": "00:41:20,320"
+			},
+			"offsets": {
+				"from": 2475920,
+				"to": 2480320
+			},
+			"text": " questions 92 through 94 refer to the following introduction"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:21,520",
+				"to": "00:41:24,160"
+			},
+			"offsets": {
+				"from": 2481520,
+				"to": 2484160
+			},
+			"text": " Welcome to the Central Valley Environmental Center"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:24,800",
+				"to": "00:41:32,400"
+			},
+			"offsets": {
+				"from": 2484800,
+				"to": 2492400
+			},
+			"text": " We are so grateful to all of you, our volunteers, for coming out today to help with this project to install bluebird nest boxes"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:33,040",
+				"to": "00:41:41,120"
+			},
+			"offsets": {
+				"from": 2493040,
+				"to": 2501120
+			},
+			"text": " The eastern bluebird is a native species that plays an important role in our environment, but it's threatened by habitat loss and predation"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:41,680",
+				"to": "00:41:46,900"
+			},
+			"offsets": {
+				"from": 2501680,
+				"to": 2506900
+			},
+			"text": " We have numerous donated nest boxes here that will help protect our local bluebird population"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:47,520",
+				"to": "00:41:52,320"
+			},
+			"offsets": {
+				"from": 2507520,
+				"to": 2512320
+			},
+			"text": " Remember that bluebirds prefer open woodlands and grasslands with scattered trees"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:52,960",
+				"to": "00:41:57,220"
+			},
+			"offsets": {
+				"from": 2512960,
+				"to": 2517220
+			},
+			"text": " Some suitable locations are already identified on the maps you've received"
+		},
+		{
+			"timestamps": {
+				"from": "00:41:59,360",
+				"to": "00:42:01,360"
+			},
+			"offsets": {
+				"from": 2519360,
+				"to": 2521360
+			},
+			"text": " number 92"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:01,360",
+				"to": "00:42:03,360"
+			},
+			"offsets": {
+				"from": 2521360,
+				"to": 2523360
+			},
+			"text": " Who most likely is the speaker?"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:11,600",
+				"to": "00:42:13,600"
+			},
+			"offsets": {
+				"from": 2531600,
+				"to": 2533600
+			},
+			"text": " number 93"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:13,600",
+				"to": "00:42:15,600"
+			},
+			"offsets": {
+				"from": 2533600,
+				"to": 2535600
+			},
+			"text": " What is the purpose of the project?"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:23,680",
+				"to": "00:42:25,680"
+			},
+			"offsets": {
+				"from": 2543680,
+				"to": 2545680
+			},
+			"text": " number 94"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:25,840",
+				"to": "00:42:27,840"
+			},
+			"offsets": {
+				"from": 2545840,
+				"to": 2547840
+			},
+			"text": " What is marked on some maps?"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:35,680",
+				"to": "00:42:40,480"
+			},
+			"offsets": {
+				"from": 2555680,
+				"to": 2560480
+			},
+			"text": " questions 95 through 97 refer to the following talk and list"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:41,520",
+				"to": "00:42:42,800"
+			},
+			"offsets": {
+				"from": 2561520,
+				"to": 2562800
+			},
+			"text": " Hi everyone"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:42,800",
+				"to": "00:42:48,240"
+			},
+			"offsets": {
+				"from": 2562800,
+				"to": 2568240
+			},
+			"text": " I want to update you on sales of our lines of dishware after the introduction of our holiday themed patterns"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:48,720",
+				"to": "00:42:56,880"
+			},
+			"offsets": {
+				"from": 2568720,
+				"to": 2576880
+			},
+			"text": " Our everyday dishware continues to perform as expected also i'm pleased to report that our new year plates are a resounding success"
+		},
+		{
+			"timestamps": {
+				"from": "00:42:57,440",
+				"to": "00:43:02,080"
+			},
+			"offsets": {
+				"from": 2577440,
+				"to": 2582080
+			},
+			"text": " Total wholesale orders have outpaced those of our popular dawn series of fine china"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:02,560",
+				"to": "00:43:08,240"
+			},
+			"offsets": {
+				"from": 2582560,
+				"to": 2588240
+			},
+			"text": " We spent a lot on the design for new year. So our ceo will be happy to learn that the investment has paid off"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:08,800",
+				"to": "00:43:12,240"
+			},
+			"offsets": {
+				"from": 2588800,
+				"to": 2592240
+			},
+			"text": " Looks like we will need to rethink the harvest festival brand though"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:12,800",
+				"to": "00:43:18,560"
+			},
+			"offsets": {
+				"from": 2592800,
+				"to": 2598560
+			},
+			"text": " Unless total sales reach those of our cafe series by next year. We may even discontinue it"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:19,360",
+				"to": "00:43:21,360"
+			},
+			"offsets": {
+				"from": 2599360,
+				"to": 2601360
+			},
+			"text": " number 95"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:21,680",
+				"to": "00:43:24,320"
+			},
+			"offsets": {
+				"from": 2601680,
+				"to": 2604320
+			},
+			"text": " What product does the speaker's company sell?"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:32,240",
+				"to": "00:43:34,240"
+			},
+			"offsets": {
+				"from": 2612240,
+				"to": 2614240
+			},
+			"text": " number 96"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:34,560",
+				"to": "00:43:36,560"
+			},
+			"offsets": {
+				"from": 2614560,
+				"to": 2616560
+			},
+			"text": " Why will the ceo be pleased?"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:44,320",
+				"to": "00:43:46,320"
+			},
+			"offsets": {
+				"from": 2624320,
+				"to": 2626320
+			},
+			"text": " number 97"
+		},
+		{
+			"timestamps": {
+				"from": "00:43:46,880",
+				"to": "00:43:54,480"
+			},
+			"offsets": {
+				"from": 2626880,
+				"to": 2634480
+			},
+			"text": " Look at the graphic. What number of orders does the speaker say the harvest festival pattern must reach?"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:06,800",
+				"to": "00:44:12,160"
+			},
+			"offsets": {
+				"from": 2646800,
+				"to": 2652160
+			},
+			"text": " questions 98 through 100 refer to the following excerpt from a meeting and chart"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:13,200",
+				"to": "00:44:18,800"
+			},
+			"offsets": {
+				"from": 2653200,
+				"to": 2658800
+			},
+			"text": " I'd like to welcome all of you to your first day of work at the wildcat's customer service office"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:19,520",
+				"to": "00:44:22,400"
+			},
+			"offsets": {
+				"from": 2659520,
+				"to": 2662400
+			},
+			"text": " Baseball season starts in exactly one month"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:22,960",
+				"to": "00:44:28,480"
+			},
+			"offsets": {
+				"from": 2662960,
+				"to": 2668480
+			},
+			"text": " We expect ticket sales to be very good because the wildcats had such a great season last year"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:29,040",
+				"to": "00:44:32,160"
+			},
+			"offsets": {
+				"from": 2669040,
+				"to": 2672160
+			},
+			"text": " As you can see on the chart, we have four packages"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:32,800",
+				"to": "00:44:36,720"
+			},
+			"offsets": {
+				"from": 2672800,
+				"to": 2676720
+			},
+			"text": " Make sure you let our customers know about the new sunday package"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:37,280",
+				"to": "00:44:45,840"
+			},
+			"offsets": {
+				"from": 2677280,
+				"to": 2685840
+			},
+			"text": " It includes tickets for every sunday home game throughout the season our friday night package holiday package and discount package"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:46,080",
+				"to": "00:44:49,360"
+			},
+			"offsets": {
+				"from": 2686080,
+				"to": 2689360
+			},
+			"text": " Were available last year and should remain popular"
+		},
+		{
+			"timestamps": {
+				"from": "00:44:51,520",
+				"to": "00:44:55,360"
+			},
+			"offsets": {
+				"from": 2691520,
+				"to": 2695360
+			},
+			"text": " Number 98 who most likely is the speaker?"
+		},
+		{
+			"timestamps": {
+				"from": "00:45:03,600",
+				"to": "00:45:05,600"
+			},
+			"offsets": {
+				"from": 2703600,
+				"to": 2705600
+			},
+			"text": " number 99"
+		},
+		{
+			"timestamps": {
+				"from": "00:45:05,760",
+				"to": "00:45:08,240"
+			},
+			"offsets": {
+				"from": 2705760,
+				"to": 2708240
+			},
+			"text": " Why are ticket sales expected to be good?"
+		},
+		{
+			"timestamps": {
+				"from": "00:45:16,480",
+				"to": "00:45:24,800"
+			},
+			"offsets": {
+				"from": 2716480,
+				"to": 2724800
+			},
+			"text": " number 100 look at the graphic how many games are included in the new ticket package that the speaker describes"
+		},
+		{
+			"timestamps": {
+				"from": "00:45:36,720",
+				"to": "00:45:43,840"
+			},
+			"offsets": {
+				"from": 2736720,
+				"to": 2743840
+			},
+			"text": " This is the end of the listening test turn to part five in your test book end of recording"
+		}
+	]
+}

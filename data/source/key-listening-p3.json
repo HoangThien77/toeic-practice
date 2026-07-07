@@ -1,0 +1,97 @@
+{
+  "answers": {
+    "32": {"answer": "B", "explanation": "Người đàn ông nói \"I'd like to get a photographer to cover our event\" — anh ấy gọi để thuê nhiếp ảnh gia cho sự kiện từ thiện."},
+    "33": {"answer": "D", "explanation": "Người phụ nữ nói \"unfortunately Thomas doesn't usually work evenings\" — sự kiện diễn ra buổi tối thứ Ba (Tuesday night), tức thời gian yêu cầu quá muộn."},
+    "34": {"answer": "C", "explanation": "Người phụ nữ nói \"Let me talk to him. He might make an exception\" — cô ấy sẽ nói chuyện với nhân viên Thomas."},
+    "35": {"answer": "C", "explanation": "Họ nói về việc \"package all of them\" và \"pack that big shipment for the Henderson order\" — đóng gói đơn hàng, tức đang ở trong nhà kho (warehouse)."},
+    "36": {"answer": "D", "explanation": "Người phụ nữ nói \"I'll call Maria Jeong and ask if she can come in early today to help\" — Maria có thể giúp đỡ công việc đóng gói."},
+    "37": {"answer": "A", "explanation": "Người phụ nữ bảo \"We also have to pack that big shipment for the Henderson order... Do that first\" — người đàn ông sẽ đóng gói đơn hàng trước tiên."},
+    "38": {"answer": "D", "explanation": "Họ nói \"we still need to decide where to go for Saturday's closing dinner\" — cần chọn địa điểm cho bữa tối bế mạc."},
+    "39": {"answer": "A", "explanation": "\"McNally's is close by... that would be convenient. We could even walk there from the hotel\" — họ thích vì nhà hàng ở gần."},
+    "40": {"answer": "C", "explanation": "Người phụ nữ đề nghị \"I could see if they can offer us a reduced catering rate\" — thảo luận phương án giá cả."},
+    "41": {"answer": "B", "explanation": "Câu mở đầu \"could you give me an update on how our new medical records software is coming\" — công ty làm phần mềm (software)."},
+    "42": {"answer": "D", "explanation": "Người đàn ông nói \"Having their feedback at every stage of the process has been helpful\" — phản hồi của khách hàng rất hữu ích."},
+    "43": {"answer": "B", "explanation": "\"we're on schedule for completing our beta version, then we can hand it off to our marketing team\" — bước tiếp theo là chuyển sản phẩm cho một nhóm khác trong công ty."},
+    "44": {"answer": "B", "explanation": "Người đàn ông nói \"I'm following up to make sure that you're pleased with the job our workers did in your house\" — gọi để kiểm tra mức độ hài lòng của khách hàng."},
+    "45": {"answer": "C", "explanation": "Khi được hỏi về thay tủ bếp, anh ấy trả lời \"We don't, but I can recommend a company I often work with\" — công ty anh ấy không làm loại việc đó."},
+    "46": {"answer": "B", "explanation": "Anh ấy nói \"Let me get their phone number, one second\" — sẽ tìm số điện thoại (của công ty khác) cho người phụ nữ."},
+    "47": {"answer": "B", "explanation": "Người phụ nữ nói \"I refill my medication here at this pharmacy once a month\" — cuộc hội thoại diễn ra tại hiệu thuốc."},
+    "48": {"answer": "D", "explanation": "Cô ấy nói về bác sĩ: \"I'll give her a call during my lunch break today\" — sẽ gọi cho bác sĩ vào giờ nghỉ trưa."},
+    "49": {"answer": "A", "explanation": "Người đàn ông nói \"once we receive your doctor's prescription, we can deliver the medication directly to your home\" — đề nghị sắp xếp giao hàng."},
+    "50": {"answer": "D", "explanation": "Người phụ nữ nói \"I'm calling from West End High School... for our student baseball teams\" — cô ấy làm việc tại trường học."},
+    "51": {"answer": "B", "explanation": "Cô ấy nói \"We have budget restrictions though\" — lo ngại về tổng chi phí."},
+    "52": {"answer": "C", "explanation": "Người đàn ông nói \"Let me get the manager on the phone and you can discuss the specifics\" — anh ấy sẽ gọi quản lý."},
+    "53": {"answer": "C", "explanation": "Người phụ nữ nói \"Unfortunately our supplier is out of pink roses\" — nhà cung cấp không thể đáp ứng đơn hàng."},
+    "54": {"answer": "B", "explanation": "Người đàn ông nói \"pink matches our corporate logo\" — logo công ty có màu hồng."},
+    "55": {"answer": "B", "explanation": "Sau khi người phụ nữ đề nghị giảm 10% và thay hoa hồng vàng, câu \"I suppose no one will really be disappointed\" ngụ ý anh ấy chấp nhận đề nghị đó."},
+    "56": {"answer": "A", "explanation": "Họ nói về \"the shipment of the prototype motor we've been developing\" và \"components... are failing initial tests\" — công ty sản xuất (manufacturing)."},
+    "57": {"answer": "B", "explanation": "\"We'll need to push back the shipment... we won't be able to make the delivery deadline\" — vấn đề là việc giao hàng bị trì hoãn."},
+    "58": {"answer": "D", "explanation": "Người đàn ông nói \"I'd like the development team to start giving me daily briefings about progress\" — yêu cầu báo cáo cập nhật hằng ngày từ nhóm."},
+    "59": {"answer": "B", "explanation": "Người phụ nữ nói về Central Airport: \"there's a personnel shortage\" — sân bay không đủ người làm việc."},
+    "60": {"answer": "A", "explanation": "Sau khi nghe \"We have started running an airport shuttle this morning\", anh ấy nói \"That's good news\" — vì có thể đi xe đưa đón về khách sạn."},
+    "61": {"answer": "D", "explanation": "Người phụ nữ nói \"What's your reservation number? I'll ensure that your room is ready for you when you arrive\" — cô ấy sẽ đảm bảo phòng được chuẩn bị sẵn."},
+    "62": {"answer": "C", "explanation": "Người đàn ông nói \"my outline of the design project... I emailed it to you yesterday\" — hôm qua anh ấy đã gửi bản kế hoạch/thiết kế."},
+    "63": {"answer": "B", "explanation": "Người phụ nữ nói \"I really liked your idea of opening up the kitchen and creating an open space with the living room\" — cô ấy thích thiết kế không gian mở."},
+    "64": {"answer": "B", "explanation": "Cô ấy nói \"I don't like the ceramic tiles... I like the marble ones much better\"; theo bảng giá, Marble Tile là $6.50."},
+    "65": {"answer": "B", "explanation": "Người đàn ông nói \"I'd like to make a reservation for a group of clients... I need eight rooms\" — gọi để đặt phòng theo nhóm."},
+    "66": {"answer": "C", "explanation": "Người phụ nữ nói \"The type of room I recommend for you is normally 99 euros per night\"; theo bảng giá, phòng €99 là Standard king."},
+    "67": {"answer": "D", "explanation": "Người phụ nữ nói \"We have an event planner here who will be able to help you. His name is Pablo Gonzales\" — anh ấy là người tổ chức sự kiện."},
+    "68": {"answer": "D", "explanation": "Cuộc hội thoại xoay quanh \"submit nominees for this year's award for outstanding employee\" — nói về một giải thưởng."},
+    "69": {"answer": "A", "explanation": "Người phụ nữ nói \"I'll have to follow up with the managers and let them know the deadline is coming up\" — cô ấy sẽ nhắc nhở đội ngũ quản lý."},
+    "70": {"answer": "B", "explanation": "Người đàn ông nói về \"the customer service representatives with the most five-star reviews... someone who was really outstanding\"; theo biểu đồ, Rebecca có nhiều đánh giá 5 sao nhất (~470)."}
+  },
+  "transcripts": [
+    {
+      "questions": [32, 33, 34],
+      "text": "W: Hello, Forest Grove Photography Services. How can I help you?\nM: Hi, I'd like to get a photographer to cover our event. It's a charity basketball game next Tuesday night. I was hoping to get Thomas Zukowski. He works for you, right?\nW: Yes, but unfortunately Thomas doesn't usually work evenings.\nM: Oh, too bad. Could you recommend somebody else?\nW: Before I do that, let me talk to him. He might make an exception — Tom does love basketball."
+    },
+    {
+      "questions": [35, 36, 37],
+      "text": "W: Good morning. It looks like we received a lot of new orders online last night.\nM: Yes, I saw that when I got in this morning.\nW: Can you package all of them by yourself?\nM: Well, there are so many, I may not be able to finish everything today.\nW: OK, I'll call Maria Jeong and ask if she can come in early today to help.\nM: That'd be great. We also have to pack that big shipment for the Henderson order. We finally got all of the items in.\nW: Oh, yes. Do that first."
+    },
+    {
+      "questions": [38, 39, 40],
+      "text": "M: Haruna, we've planned most of the details for the corporate retreat, including housing and most activities. But we still need to decide where to go for Saturday's closing dinner.\nW: Yes, I sent you several menus. Did you like any of the places?\nM: McNally's is close by.\nW: Yes, that would be convenient. We could even walk there from the hotel. But the prices are a little high.\nM: I agree.\nW: But I could see if they can offer us a reduced catering rate rather than ordering off the regular menu."
+    },
+    {
+      "questions": [41, 42, 43],
+      "text": "M1: Janelle and Rico, could you give me an update on how our new medical records software is coming?\nW: Sure. Per the customer's request, I've updated the logo and changed the font.\nM2: The customer has communicated with us a lot on this project. Having their feedback at every stage of the process has been helpful.\nM1: Excellent. It sounds like we're on schedule for completing our beta version. Then we can hand it off to our marketing team."
+    },
+    {
+      "questions": [44, 45, 46],
+      "text": "M: Hello, this is Ian Nelson from Regal Bathrooms. I'm following up to make sure that you're pleased with the job our workers did in your house.\nW: Thank you for calling. Yes, they did a great job. The bathroom floor was replaced and the new tile looks great. I'm very happy with the job.\nM: That's good to hear. If there are other jobs you need done, I hope you'll reach out to us again.\nW: That reminds me — I was thinking of replacing my kitchen cabinets. Is that something you'd possibly do?\nM: We don't, but I can recommend a company I often work with. Their customers have been very satisfied. Let me get their phone number, one second.\nW: Thanks."
+    },
+    {
+      "questions": [47, 48, 49],
+      "text": "W: My name is Laura. I refill my medication here at this pharmacy once a month. But on Monday, I'm going to travel abroad for work for two months, and I wonder if I can get a two-month refill this time.\nM: It shouldn't be a problem. However, your doctor must send us the two-month prescription, so you need to contact her first.\nW: Oh, I see. I'll give her a call during my lunch break today. When are you open until today?\nM: Until 9 P.M. But once we receive your doctor's prescription, we can deliver the medication directly to your home."
+    },
+    {
+      "questions": [50, 51, 52],
+      "text": "M: Miller's Sporting Goods, Joey speaking.\nW: Hello, I'm calling from West End High School. We're looking to make a big purchase for our student baseball teams. Our equipment is getting old, and we would like to get new uniforms too. We have budget restrictions, though.\nM: Well, we do offer discounts for bulk purchases, and we have a number of price ranges for uniforms — many are very reasonable. Let me get the manager on the phone and you can discuss the specifics."
+    },
+    {
+      "questions": [53, 54, 55],
+      "text": "W: Hi, this is Gemini Flowers. I'm calling about the order you placed for your award luncheon on July twelfth. Unfortunately, our supplier is out of pink roses.\nM: Oh, no. Pink matches our corporate logo. I ordered them especially for this occasion.\nW: I understand your disappointment, sir. I can offer a ten percent discount on the total cost of your order and replace the pink roses with yellow ones.\nM: Well, I didn't tell anyone about the roses. I suppose no one will really be disappointed."
+    },
+    {
+      "questions": [56, 57, 58],
+      "text": "W1: Unfortunately, our development team has some bad news. It turns out we'll need to push back the shipment of the prototype motor we've been developing for our client.\nM: Why will there be a delay?\nW1: Well, some of the components we received to build the prototype are failing initial tests, so we won't be able to make the delivery deadline.\nM: Janet, could you let the client know?\nW2: Yes, I'll contact them right away.\nM: And I'd like the development team to start giving me daily briefings about progress on this issue."
+    },
+    {
+      "questions": [59, 60, 61],
+      "text": "W: Good evening, Legend Hotel. How may I help you?\nM: Hello, I'm at the local airport. Does the hotel run shuttle buses to here?\nW: We usually don't, but was your flight originally scheduled for Central Airport?\nM: It was, but apparently there's a problem at Central.\nW: Yes, there's a personnel shortage, and several flights have been rerouted to the local airport. We have started running an airport shuttle this morning.\nM: OK, that's good news. When is the next shuttle?\nW: Buses run every half hour. What's your reservation number? I'll ensure that your room is ready for you when you arrive."
+    },
+    {
+      "questions": [62, 63, 64],
+      "text": "M: Hi, Marla. I'm calling to check whether you received my outline of the design project for your apartment remodeling. I emailed it to you yesterday.\nW: Yes, thank you for doing such a great job. I really liked your idea of opening up the kitchen and creating an open space with the living room.\nM: Great. If everything looks good to you, I can start ordering the supplies tomorrow.\nW: Actually, I don't like the ceramic tiles you picked for the kitchen. I like the marble ones much better. I know they are more expensive, but it's a small space."
+    },
+    {
+      "questions": [65, 66, 67],
+      "text": "M: Hi, I'd like to make a reservation for a group of clients that will be visiting our company from the first to the sixth of June. I need eight rooms.\nW: We do have availability for that period. The type of room I recommend for you is normally 99 euros per night, but we can offer a group discount.\nM: That'll work. Also, on June fifth we want to take our clients on a tour of the local attractions. Could you help arrange that?\nW: We have an event planner here who will be able to help you. His name is Pablo Gonzales. I'll connect you to his office once I've completed your reservation."
+    },
+    {
+      "questions": [68, 69, 70],
+      "text": "M: Hi, Joanna. The management group needs to submit nominees for this year's award for outstanding employee. My supervisor wants to know if any managers have nominated anyone yet.\nW: Not yet, Charles. I emailed everyone about it a week ago, but I haven't heard anything yet. I'll have to follow up with the managers and let them know the deadline is coming up.\nM: OK. Well, I printed out a breakdown of the customer service representatives with the most five-star reviews from customers last year. We had someone who was really outstanding.\nW: Those are excellent numbers. Could you go ahead and submit a nomination?"
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "word": "drawer",
+    "type": "n",
+    "meaning": "ngăn kéo",
+    "example": "A woman is opening a drawer.",
+    "exampleVi": "Một người phụ nữ đang mở ngăn kéo.",
+    "firstQ": 1
+  },
+  {
+    "word": "office supplies",
+    "type": "n",
+    "meaning": "văn phòng phẩm",
+    "example": "Office supplies are being put into a box.",
+    "exampleVi": "Văn phòng phẩm đang được xếp vào một chiếc hộp.",
+    "firstQ": 1
+  },
+  {
+    "word": "potted plant",
+    "type": "n",
+    "meaning": "cây trồng trong chậu",
+    "example": "A man is near a display of potted plants.",
+    "exampleVi": "Một người đàn ông ở gần khu trưng bày các chậu cây.",
+    "firstQ": 2
+  },
+  {
+    "word": "equipment",
+    "type": "n",
+    "meaning": "thiết bị, dụng cụ",
+    "example": "The man is buying some equipment.",
+    "exampleVi": "Người đàn ông đang mua một số thiết bị.",
+    "firstQ": 3
+  },
+  {
+    "word": "browse",
+    "type": "v",
+    "meaning": "xem hàng, xem lướt qua",
+    "example": "Some people are browsing in a shop.",
+    "exampleVi": "Vài người đang xem hàng trong một cửa hàng.",
+    "firstQ": 5
+  },
+  {
+    "word": "be responsible for",
+    "type": "phrase",
+    "meaning": "chịu trách nhiệm về, phụ trách",
+    "example": "Who's responsible for hiring at our fitness center?",
+    "exampleVi": "Ai phụ trách việc tuyển dụng ở trung tâm thể hình của chúng ta?",
+    "firstQ": 7
+  },
+  {
+    "word": "purchase",
+    "type": "v",
+    "meaning": "mua, mua sắm",
+    "example": "Where do you usually purchase office supplies?",
+    "exampleVi": "Bạn thường mua văn phòng phẩm ở đâu?",
+    "firstQ": 8
+  },
+  {
+    "word": "present",
+    "type": "v",
+    "meaning": "trình bày, thuyết trình",
+    "example": "Do you want to present your research to the marketing team?",
+    "exampleVi": "Bạn có muốn trình bày nghiên cứu của mình cho nhóm marketing không?",
+    "firstQ": 10
+  },
+  {
+    "word": "be supposed to",
+    "type": "phrase",
+    "meaning": "được cho là, lẽ ra phải",
+    "example": "Isn't the bus supposed to stop here?",
+    "exampleVi": "Chẳng phải xe buýt phải dừng ở đây sao?",
+    "firstQ": 12
+  },
+  {
+    "word": "fill an order",
+    "type": "phrase",
+    "meaning": "xử lý/hoàn thành đơn hàng",
+    "example": "We should fill this order quickly, shouldn't we?",
+    "exampleVi": "Chúng ta nên xử lý đơn hàng này nhanh, phải không?",
+    "firstQ": 13
+  },
+  {
+    "word": "client",
+    "type": "n",
+    "meaning": "khách hàng (doanh nghiệp, đối tác)",
+    "example": "Yes, it's for an important client.",
+    "exampleVi": "Đúng vậy, đơn này là của một khách hàng quan trọng.",
+    "firstQ": 13
+  },
+  {
+    "word": "take a break",
+    "type": "phrase",
+    "meaning": "nghỉ giải lao",
+    "example": "I don't think I can take a break.",
+    "exampleVi": "Tôi không nghĩ mình có thể nghỉ giải lao được.",
+    "firstQ": 15
+  },
+  {
+    "word": "intern",
+    "type": "n",
+    "meaning": "thực tập sinh",
+    "example": "When will we hire the new interns?",
+    "exampleVi": "Khi nào chúng ta sẽ tuyển các thực tập sinh mới?",
+    "firstQ": 16
+  },
+  {
+    "word": "handle",
+    "type": "v",
+    "meaning": "xử lý, phụ trách",
+    "example": "Mr. Wyeth is handling that.",
+    "exampleVi": "Ông Wyeth đang phụ trách việc đó.",
+    "firstQ": 16
+  },
+  {
+    "word": "mean to",
+    "type": "phrase",
+    "meaning": "định làm, có ý định làm",
+    "example": "I meant to put it in the refrigerator.",
+    "exampleVi": "Tôi định bỏ nó vào tủ lạnh (ngăn mát).",
+    "firstQ": 18
+  },
+  {
+    "word": "agenda",
+    "type": "n",
+    "meaning": "chương trình họp, lịch trình",
+    "example": "Could you print the agenda for the meeting?",
+    "exampleVi": "Bạn in giúp chương trình cho cuộc họp được không?",
+    "firstQ": 19
+  },
+  {
+    "word": "out of town",
+    "type": "phrase",
+    "meaning": "đi vắng, không có ở thành phố",
+    "example": "I was out of town last week.",
+    "exampleVi": "Tuần trước tôi đi vắng.",
+    "firstQ": 21
+  },
+  {
+    "word": "renew",
+    "type": "v",
+    "meaning": "gia hạn",
+    "example": "When do you need to renew your passport?",
+    "exampleVi": "Khi nào bạn cần gia hạn hộ chiếu?",
+    "firstQ": 22
+  },
+  {
+    "word": "expire",
+    "type": "v",
+    "meaning": "hết hạn",
+    "example": "Soon, because it's about to expire.",
+    "exampleVi": "Sắp rồi, vì nó sắp hết hạn.",
+    "firstQ": 22
+  },
+  {
+    "word": "replacement part",
+    "type": "n",
+    "meaning": "linh kiện thay thế",
+    "example": "Who can help me find replacement parts for my computer?",
+    "exampleVi": "Ai có thể giúp tôi tìm linh kiện thay thế cho máy tính?",
+    "firstQ": 23
+  },
+  {
+    "word": "inventory",
+    "type": "n",
+    "meaning": "hàng tồn kho, kho hàng",
+    "example": "I can help you look through the inventory.",
+    "exampleVi": "Tôi có thể giúp bạn tra trong kho hàng.",
+    "firstQ": 23
+  },
+  {
+    "word": "make it",
+    "type": "phrase",
+    "meaning": "đến được, tham dự được",
+    "example": "I can't make it to the company dinner tonight.",
+    "exampleVi": "Tối nay tôi không đến dự tiệc tối công ty được.",
+    "firstQ": 24
+  },
+  {
+    "word": "earnings",
+    "type": "n",
+    "meaning": "thu nhập, lợi nhuận (của công ty)",
+    "example": "It's time for our quarterly earnings report, isn't it?",
+    "exampleVi": "Đến kỳ báo cáo thu nhập hằng quý rồi, phải không?",
+    "firstQ": 26
+  },
+  {
+    "word": "reminder",
+    "type": "n",
+    "meaning": "lời nhắc, thư/email nhắc nhở",
+    "example": "Was there an email reminder about it?",
+    "exampleVi": "Có email nhắc về việc đó không?",
+    "firstQ": 26
+  },
+  {
+    "word": "pass along",
+    "type": "phrase",
+    "meaning": "chuyển tiếp, chuyển cho người khác",
+    "example": "I passed it along to everyone who needed it.",
+    "exampleVi": "Tôi đã chuyển nó cho tất cả những người cần.",
+    "firstQ": 27
+  },
+  {
+    "word": "promotion",
+    "type": "n",
+    "meaning": "sự thăng chức",
+    "example": "Did you see the announcement about Emily's promotion?",
+    "exampleVi": "Bạn có thấy thông báo về việc thăng chức của Emily không?",
+    "firstQ": 28
+  },
+  {
+    "word": "on time",
+    "type": "phrase",
+    "meaning": "đúng hạn, đúng giờ",
+    "example": "Let's try our best to finish the project on time.",
+    "exampleVi": "Hãy cố hết sức hoàn thành dự án đúng hạn.",
+    "firstQ": 29
+  },
+  {
+    "word": "reliable",
+    "type": "adj",
+    "meaning": "đáng tin cậy",
+    "example": "The software you're using isn't very reliable.",
+    "exampleVi": "Phần mềm bạn đang dùng không đáng tin cậy lắm.",
+    "firstQ": 31
+  },
+  {
+    "word": "cover",
+    "type": "v",
+    "meaning": "chụp ảnh/đưa tin về (một sự kiện)",
+    "example": "I'd like to get a photographer to cover our event.",
+    "exampleVi": "Tôi muốn thuê một nhiếp ảnh gia để chụp sự kiện của chúng tôi.",
+    "firstQ": 32
+  },
+  {
+    "word": "make an exception",
+    "type": "phrase",
+    "meaning": "tạo ngoại lệ",
+    "example": "Let me talk to him. He might make an exception.",
+    "exampleVi": "Để tôi nói chuyện với anh ấy. Anh ấy có thể sẽ tạo ngoại lệ.",
+    "firstQ": 32
+  },
+  {
+    "word": "shipment",
+    "type": "n",
+    "meaning": "lô hàng, chuyến hàng",
+    "example": "We also have to pack that big shipment for the Henderson order.",
+    "exampleVi": "Chúng ta còn phải đóng gói lô hàng lớn cho đơn hàng Henderson nữa.",
+    "firstQ": 35
+  },
+  {
+    "word": "package",
+    "type": "v",
+    "meaning": "đóng gói",
+    "example": "Can you package all of them by yourself?",
+    "exampleVi": "Bạn có thể tự đóng gói tất cả chúng không?",
+    "firstQ": 35
+  },
+  {
+    "word": "corporate retreat",
+    "type": "n",
+    "meaning": "chuyến nghỉ dưỡng kết hợp gắn kết của công ty",
+    "example": "We've planned most of the details for the corporate retreat, including housing and most activities.",
+    "exampleVi": "Chúng ta đã lên kế hoạch hầu hết chi tiết cho chuyến nghỉ dưỡng công ty, gồm chỗ ở và phần lớn hoạt động.",
+    "firstQ": 38
+  },
+  {
+    "word": "convenient",
+    "type": "adj",
+    "meaning": "thuận tiện",
+    "example": "Yes, that would be convenient. We could even walk there from the hotel.",
+    "exampleVi": "Đúng vậy, chỗ đó sẽ rất thuận tiện. Chúng ta thậm chí có thể đi bộ từ khách sạn tới đó.",
+    "firstQ": 38
+  },
+  {
+    "word": "catering",
+    "type": "n",
+    "meaning": "dịch vụ nấu tiệc, cung cấp đồ ăn",
+    "example": "I could see if they can offer us a reduced catering rate.",
+    "exampleVi": "Tôi có thể hỏi xem họ có thể cho chúng ta mức giá đặt tiệc ưu đãi không.",
+    "firstQ": 38
+  },
+  {
+    "word": "feedback",
+    "type": "n",
+    "meaning": "phản hồi, ý kiến đóng góp",
+    "example": "Having their feedback at every stage of the process has been helpful.",
+    "exampleVi": "Có được phản hồi của họ ở mọi giai đoạn của quy trình rất hữu ích.",
+    "firstQ": 41
+  },
+  {
+    "word": "on schedule",
+    "type": "phrase",
+    "meaning": "đúng tiến độ",
+    "example": "It sounds like we're on schedule for completing our beta version.",
+    "exampleVi": "Nghe chừng chúng ta đang đúng tiến độ để hoàn thành bản beta.",
+    "firstQ": 41
+  },
+  {
+    "word": "hand off",
+    "type": "phrase",
+    "meaning": "bàn giao, chuyển giao",
+    "example": "Then we can hand it off to our marketing team.",
+    "exampleVi": "Sau đó chúng ta có thể bàn giao nó cho nhóm marketing.",
+    "firstQ": 41
+  },
+  {
+    "word": "follow up",
+    "type": "phrase",
+    "meaning": "liên hệ lại để kiểm tra, theo sát",
+    "example": "I'm following up to make sure that you're pleased with the job our workers did.",
+    "exampleVi": "Tôi gọi lại để chắc chắn rằng chị hài lòng với công việc mà thợ của chúng tôi đã làm.",
+    "firstQ": 44
+  },
+  {
+    "word": "reach out",
+    "type": "phrase",
+    "meaning": "liên hệ, liên lạc",
+    "example": "If there are other jobs you need done, I hope you'll reach out to us again.",
+    "exampleVi": "Nếu chị cần làm thêm việc gì khác, tôi hy vọng chị sẽ liên hệ lại với chúng tôi.",
+    "firstQ": 44
+  },
+  {
+    "word": "refill",
+    "type": "n",
+    "meaning": "lần mua lại thuốc theo đơn cũ; sự nạp/châm thêm",
+    "example": "I wonder if I can get a two-month refill this time.",
+    "exampleVi": "Tôi muốn hỏi lần này tôi có thể lấy thuốc cho hai tháng được không.",
+    "firstQ": 47
+  },
+  {
+    "word": "pharmacy",
+    "type": "n",
+    "meaning": "hiệu thuốc, nhà thuốc",
+    "example": "I refill my medication here at this pharmacy once a month.",
+    "exampleVi": "Mỗi tháng một lần tôi mua lại thuốc theo đơn ở hiệu thuốc này.",
+    "firstQ": 47
+  },
+  {
+    "word": "prescription",
+    "type": "n",
+    "meaning": "đơn thuốc",
+    "example": "Your doctor must send us the two-month prescription, so you need to contact her first.",
+    "exampleVi": "Bác sĩ của chị phải gửi cho chúng tôi đơn thuốc hai tháng, nên chị cần liên hệ với bác sĩ trước.",
+    "firstQ": 47
+  },
+  {
+    "word": "medication",
+    "type": "n",
+    "meaning": "thuốc (chữa bệnh)",
+    "example": "We can deliver the medication directly to your home.",
+    "exampleVi": "Chúng tôi có thể giao thuốc trực tiếp đến tận nhà chị.",
+    "firstQ": 47
+  },
+  {
+    "word": "budget",
+    "type": "n",
+    "meaning": "ngân sách",
+    "example": "We have budget restrictions, though.",
+    "exampleVi": "Tuy nhiên, chúng tôi bị giới hạn về ngân sách.",
+    "firstQ": 50
+  },
+  {
+    "word": "bulk purchase",
+    "type": "n",
+    "meaning": "việc mua số lượng lớn",
+    "example": "We do offer discounts for bulk purchases.",
+    "exampleVi": "Chúng tôi có giảm giá cho các đơn mua số lượng lớn.",
+    "firstQ": 50
+  },
+  {
+    "word": "reasonable",
+    "type": "adj",
+    "meaning": "(giá) phải chăng, hợp lý",
+    "example": "We have a number of price ranges for uniforms — many are very reasonable.",
+    "exampleVi": "Chúng tôi có nhiều mức giá đồng phục — nhiều mức rất phải chăng.",
+    "firstQ": 50
+  },
+  {
+    "word": "place an order",
+    "type": "phrase",
+    "meaning": "đặt hàng",
+    "example": "I'm calling about the order you placed for your award luncheon on July twelfth.",
+    "exampleVi": "Tôi gọi về đơn hàng anh đã đặt cho bữa tiệc trưa trao giải ngày 12 tháng 7.",
+    "firstQ": 53
+  },
+  {
+    "word": "be out of",
+    "type": "phrase",
+    "meaning": "hết (hàng, đồ)",
+    "example": "Unfortunately, our supplier is out of pink roses.",
+    "exampleVi": "Rất tiếc, nhà cung cấp của chúng tôi đã hết hoa hồng màu hồng.",
+    "firstQ": 53
+  },
+  {
+    "word": "supplier",
+    "type": "n",
+    "meaning": "nhà cung cấp",
+    "example": "Unfortunately, our supplier is out of pink roses.",
+    "exampleVi": "Rất tiếc, nhà cung cấp của chúng tôi đã hết hoa hồng màu hồng.",
+    "firstQ": 53
+  },
+  {
+    "word": "push back",
+    "type": "phrase",
+    "meaning": "dời lại, lùi lịch",
+    "example": "It turns out we'll need to push back the shipment of the prototype motor.",
+    "exampleVi": "Hóa ra chúng ta sẽ phải lùi lịch giao lô hàng động cơ nguyên mẫu.",
+    "firstQ": 56
+  },
+  {
+    "word": "prototype",
+    "type": "n",
+    "meaning": "nguyên mẫu, sản phẩm mẫu",
+    "example": "We'll need to push back the shipment of the prototype motor we've been developing for our client.",
+    "exampleVi": "Chúng ta sẽ phải lùi lịch giao động cơ nguyên mẫu mà ta đang phát triển cho khách hàng.",
+    "firstQ": 56
+  },
+  {
+    "word": "component",
+    "type": "n",
+    "meaning": "linh kiện, bộ phận cấu thành",
+    "example": "Some of the components we received to build the prototype are failing initial tests.",
+    "exampleVi": "Một số linh kiện chúng ta nhận về để lắp nguyên mẫu đang không đạt các bài kiểm tra ban đầu.",
+    "firstQ": 56
+  },
+  {
+    "word": "deadline",
+    "type": "n",
+    "meaning": "hạn chót",
+    "example": "We won't be able to make the delivery deadline.",
+    "exampleVi": "Chúng ta sẽ không kịp hạn chót giao hàng.",
+    "firstQ": 56
+  },
+  {
+    "word": "briefing",
+    "type": "n",
+    "meaning": "buổi báo cáo ngắn, buổi cập nhật tình hình",
+    "example": "I'd like the development team to start giving me daily briefings about progress.",
+    "exampleVi": "Tôi muốn nhóm phát triển bắt đầu báo cáo tiến độ cho tôi hằng ngày.",
+    "firstQ": 56
+  },
+  {
+    "word": "shuttle",
+    "type": "n",
+    "meaning": "xe đưa đón (chạy tuyến ngắn)",
+    "example": "Does the hotel run shuttle buses to here?",
+    "exampleVi": "Khách sạn có chạy xe buýt đưa đón đến đây không?",
+    "firstQ": 59
+  },
+  {
+    "word": "shortage",
+    "type": "n",
+    "meaning": "sự thiếu hụt",
+    "example": "There's a personnel shortage, and several flights have been rerouted to the local airport.",
+    "exampleVi": "Đang thiếu hụt nhân sự, và nhiều chuyến bay đã bị chuyển hướng sang sân bay địa phương.",
+    "firstQ": 59
+  },
+  {
+    "word": "remodeling",
+    "type": "n",
+    "meaning": "việc cải tạo, sửa sang lại (nhà cửa)",
+    "example": "I'm calling to check whether you received my outline of the design project for your apartment remodeling.",
+    "exampleVi": "Tôi gọi để kiểm tra xem chị đã nhận được bản phác thảo dự án thiết kế cải tạo căn hộ chưa.",
+    "firstQ": 62
+  },
+  {
+    "word": "make a reservation",
+    "type": "phrase",
+    "meaning": "đặt chỗ, đặt phòng",
+    "example": "I'd like to make a reservation for a group of clients that will be visiting our company.",
+    "exampleVi": "Tôi muốn đặt phòng cho một nhóm khách hàng sắp đến thăm công ty chúng tôi.",
+    "firstQ": 65
+  },
+  {
+    "word": "nominee",
+    "type": "n",
+    "meaning": "người được đề cử",
+    "example": "The management group needs to submit nominees for this year's award for outstanding employee.",
+    "exampleVi": "Ban quản lý cần nộp danh sách người được đề cử cho giải nhân viên xuất sắc năm nay.",
+    "firstQ": 68
+  },
+  {
+    "word": "outstanding",
+    "type": "adj",
+    "meaning": "xuất sắc, nổi bật",
+    "example": "We had someone who was really outstanding.",
+    "exampleVi": "Chúng ta có một người thực sự xuất sắc.",
+    "firstQ": 68
+  },
+  {
+    "word": "representative",
+    "type": "n",
+    "meaning": "nhân viên đại diện (chăm sóc khách hàng)",
+    "example": "I printed out a breakdown of the customer service representatives with the most five-star reviews.",
+    "exampleVi": "Tôi đã in bảng thống kê các nhân viên chăm sóc khách hàng có nhiều đánh giá 5 sao nhất.",
+    "firstQ": 68
+  },
+  {
+    "word": "come up",
+    "type": "phrase",
+    "meaning": "sắp đến, sắp diễn ra",
+    "example": "I'll have to follow up with the managers and let them know the deadline is coming up.",
+    "exampleVi": "Tôi sẽ phải nhắc lại các quản lý và cho họ biết hạn chót sắp đến rồi.",
+    "firstQ": 68
+  },
+  {
+    "word": "exhibition",
+    "type": "n",
+    "meaning": "cuộc triển lãm, trưng bày",
+    "example": "This weekend, we will have an exhibition of Mexican blue palms.",
+    "exampleVi": "Cuối tuần này, chúng tôi sẽ có triển lãm cây cọ xanh Mexico.",
+    "firstQ": 71
+  },
+  {
+    "word": "greenhouse",
+    "type": "n",
+    "meaning": "nhà kính (trồng cây)",
+    "example": "Winford's café is a converted building that used to be a greenhouse.",
+    "exampleVi": "Quán cà phê của Winford là một tòa nhà được cải tạo, trước đây từng là nhà kính.",
+    "firstQ": 71
+  },
+  {
+    "word": "performance evaluation",
+    "type": "n",
+    "meaning": "bản đánh giá hiệu suất làm việc",
+    "example": "We've always written performance evaluations for our drivers and other employees on paper.",
+    "exampleVi": "Chúng ta vẫn luôn viết đánh giá hiệu suất cho tài xế và các nhân viên khác trên giấy.",
+    "firstQ": 74
+  },
+  {
+    "word": "enroll",
+    "type": "v",
+    "meaning": "đăng ký, ghi danh (khóa học)",
+    "example": "She will walk you through how to enroll in a training course on using Personnel Profile.",
+    "exampleVi": "Cô ấy sẽ hướng dẫn các bạn cách đăng ký khóa đào tạo sử dụng Personnel Profile.",
+    "firstQ": 74
+  },
+  {
+    "word": "walk someone through",
+    "type": "phrase",
+    "meaning": "hướng dẫn ai từng bước",
+    "example": "She will walk you through how to enroll in a training course.",
+    "exampleVi": "Cô ấy sẽ hướng dẫn các bạn từng bước cách đăng ký khóa đào tạo.",
+    "firstQ": 74
+  },
+  {
+    "word": "freight elevator",
+    "type": "n",
+    "meaning": "thang máy chở hàng",
+    "example": "The freight elevator in my building is broken.",
+    "exampleVi": "Thang máy chở hàng trong tòa nhà của tôi bị hỏng.",
+    "firstQ": 77
+  },
+  {
+    "word": "overseas",
+    "type": "adj",
+    "meaning": "ở nước ngoài, hải ngoại",
+    "example": "I have an overseas trip coming up next week.",
+    "exampleVi": "Tuần tới tôi có một chuyến đi nước ngoài.",
+    "firstQ": 77
+  },
+  {
+    "word": "step in",
+    "type": "phrase",
+    "meaning": "thay thế, đảm nhận thay (ai đó)",
+    "example": "Soprano Rita Marks is in town and has agreed to step in for Ms. Gornicka.",
+    "exampleVi": "Giọng nữ cao Rita Marks đang ở trong thành phố và đã đồng ý biểu diễn thay bà Gornicka.",
+    "firstQ": 80
+  },
+  {
+    "word": "launch",
+    "type": "v",
+    "meaning": "ra mắt, tung ra (sản phẩm)",
+    "example": "I'd like to start off with some information about the remote control car that we launched in department stores and toy stores one month ago.",
+    "exampleVi": "Tôi muốn bắt đầu với vài thông tin về chiếc xe điều khiển từ xa mà chúng ta đã ra mắt tại các cửa hàng bách hóa và cửa hàng đồ chơi một tháng trước.",
+    "firstQ": 83
+  },
+  {
+    "word": "rechargeable",
+    "type": "adj",
+    "meaning": "có thể sạc lại",
+    "example": "They are somewhat disappointed with the rechargeable battery the car comes with.",
+    "exampleVi": "Họ hơi thất vọng với viên pin sạc đi kèm chiếc xe.",
+    "firstQ": 83
+  },
+  {
+    "word": "giveaway",
+    "type": "n",
+    "meaning": "chương trình tặng quà",
+    "example": "We are kicking off a ShopSmart giveaway event.",
+    "exampleVi": "Chúng tôi đang khởi động một sự kiện tặng quà của ShopSmart.",
+    "firstQ": 86
+  },
+  {
+    "word": "gift certificate",
+    "type": "n",
+    "meaning": "phiếu quà tặng",
+    "example": "You will be entered in a drawing to win a gift certificate that can be used at any ShopSmart location.",
+    "exampleVi": "Bạn sẽ được đưa vào vòng rút thăm trúng phiếu quà tặng dùng được tại mọi cửa hàng ShopSmart.",
+    "firstQ": 86
+  },
+  {
+    "word": "stock up",
+    "type": "phrase",
+    "meaning": "mua tích trữ",
+    "example": "Act now — stock up and join the giveaway.",
+    "exampleVi": "Hành động ngay — mua tích trữ và tham gia chương trình tặng quà.",
+    "firstQ": 86
+  },
+  {
+    "word": "distributor",
+    "type": "n",
+    "meaning": "nhà phân phối",
+    "example": "I just found out that the hardwood distributor has lowered the price of the oak flooring.",
+    "exampleVi": "Tôi vừa biết rằng nhà phân phối gỗ cứng đã hạ giá sàn gỗ sồi.",
+    "firstQ": 89
+  },
+  {
+    "word": "reduction",
+    "type": "n",
+    "meaning": "sự giảm (giá)",
+    "example": "The reduction looks to be about 15 percent.",
+    "exampleVi": "Mức giảm có vẻ vào khoảng 15 phần trăm.",
+    "firstQ": 89
+  },
+  {
+    "word": "install",
+    "type": "v",
+    "meaning": "lắp đặt",
+    "example": "We are so grateful to all of you, our volunteers, for coming out today to help with this project to install bluebird nest boxes.",
+    "exampleVi": "Chúng tôi rất biết ơn tất cả các bạn, các tình nguyện viên, đã đến hôm nay để giúp dự án lắp đặt các hộp tổ cho chim sơn ca xanh.",
+    "firstQ": 92
+  },
+  {
+    "word": "wholesale",
+    "type": "adj",
+    "meaning": "bán buôn, bán sỉ",
+    "example": "Total wholesale orders have outpaced those of our popular Dawn series of fine china.",
+    "exampleVi": "Tổng đơn hàng bán buôn đã vượt qua dòng sứ cao cấp Dawn nổi tiếng của chúng ta.",
+    "firstQ": 95
+  },
+  {
+    "word": "pay off",
+    "type": "phrase",
+    "meaning": "mang lại kết quả, sinh lời",
+    "example": "Our CEO will be happy to learn that the investment has paid off.",
+    "exampleVi": "CEO của chúng ta sẽ vui khi biết khoản đầu tư đã sinh lời.",
+    "firstQ": 95
+  },
+  {
+    "word": "discontinue",
+    "type": "v",
+    "meaning": "ngừng sản xuất, ngừng kinh doanh",
+    "example": "Unless total sales reach those of our Café series by next year, we may even discontinue it.",
+    "exampleVi": "Trừ khi tổng doanh số đạt bằng dòng Café vào năm tới, chúng ta thậm chí có thể ngừng sản xuất nó.",
+    "firstQ": 95
+  }
+]

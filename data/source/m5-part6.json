@@ -1,0 +1,182 @@
+{
+  "test": "m5",
+  "part": 6,
+  "passages": [
+    {
+      "id": "m5-p6-1",
+      "type": "notice",
+      "title": "TO ALL CHESTER'S STEAKHOUSE CUSTOMERS",
+      "text": "Chester's Steakhouse [131] to bringing you the best dining experience, so it's welcome news that our patio is finally open for the summer. While dining in the fresh air, please keep in mind that sections of this neighborhood are zoned as residential. Therefore, you should be [132] by monitoring your voice volume in the late evening, especially when walking past the apartments opposite our main entrance. Thank you in advance for your cooperation; it will help us to maintain a positive [133] with those living nearby. Should you prefer to move indoors at any time, we can easily accommodate you. [134].",
+      "questions": [
+        {
+          "number": 131,
+          "choices": {
+            "A": "is committed",
+            "B": "being committed",
+            "C": "to commit",
+            "D": "committing"
+          }
+        },
+        {
+          "number": 132,
+          "choices": {
+            "A": "courteousness",
+            "B": "courteously",
+            "C": "courteous",
+            "D": "courtesy"
+          }
+        },
+        {
+          "number": 133,
+          "choices": {
+            "A": "impact",
+            "B": "relationship",
+            "C": "proof",
+            "D": "service"
+          }
+        },
+        {
+          "number": 134,
+          "choices": {
+            "A": "Just inform your server that you wish to do so.",
+            "B": "We appreciate your bringing this problem to our attention.",
+            "C": "As a result, the opening of the patio will be delayed.",
+            "D": "It may take longer to prepare the dish than usual."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p6-2",
+      "type": "e-mail",
+      "title": "Small Business Loan",
+      "text": "To: Armando Michaud <armando@michauddrycleaning.com>\nFrom: Ashville Bank <loans@ashvillebank.com>\nDate: January 18\nSubject: Small Business Loan\n\nDear Mr. Michaud,\n\nThank you for your interest in a small business loan from Ashville Bank. Please fill out the attached [135], which afford us information about your business model as well as your personal credit history. It is essential that you [136] accurate information on the form. Failure to do so could result in the delay or [137] the rejection of your application. While we do our best to accommodate all requests, we may not be able to issue you the full amount. [138].\n\nSincerely,\n\nThe Ashville Bank Loans Team",
+      "questions": [
+        {
+          "number": 135,
+          "choices": {
+            "A": "form",
+            "B": "formed",
+            "C": "forming",
+            "D": "forms"
+          }
+        },
+        {
+          "number": 136,
+          "choices": {
+            "A": "provide",
+            "B": "to provide",
+            "C": "provided",
+            "D": "are provided"
+          }
+        },
+        {
+          "number": 137,
+          "choices": {
+            "A": "more",
+            "B": "rather",
+            "C": "yet",
+            "D": "even"
+          }
+        },
+        {
+          "number": 138,
+          "choices": {
+            "A": "For this reason, our bank has received high customer service ratings.",
+            "B": "Nevertheless, we took your personal circumstances into consideration.",
+            "C": "In that case, there may still be other options available to you.",
+            "D": "Alternatively, you can check your balance to confirm that it was received."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p6-3",
+      "type": "information",
+      "title": "Norcross Sleep Center",
+      "text": "Norcross Sleep Center\n1200 Hanifan Lane * 461-555-0138\n\nIt is estimated that up to twenty percent of people suffer from a sleep problem. Many sleep issues may not be [139] to the affected person, so we recommend testing yourself even if you do not have severe symptoms. To have your condition assessed, visit our center in person, where our technicians can [140] a wide variety of sleep disorders. On the other hand, you may [141] test your sleep at home by renting a monitor. We will analyze the data after one week. A prescription is required for some of our devices, such as our continuous positive airway pressure (CPAP) machines. [142].",
+      "questions": [
+        {
+          "number": 139,
+          "choices": {
+            "A": "susceptible",
+            "B": "apparent",
+            "C": "tentative",
+            "D": "adequate"
+          }
+        },
+        {
+          "number": 140,
+          "choices": {
+            "A": "interpret",
+            "B": "conduct",
+            "C": "diagnose",
+            "D": "inherit"
+          }
+        },
+        {
+          "number": 141,
+          "choices": {
+            "A": "comfortably",
+            "B": "partially",
+            "C": "evidently",
+            "D": "abundantly"
+          }
+        },
+        {
+          "number": 142,
+          "choices": {
+            "A": "Each week, you will receive an updated report.",
+            "B": "Most reported success after a few weeks.",
+            "C": "Please take care of this as soon as possible.",
+            "D": "Others are available to general consumers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p6-4",
+      "type": "article",
+      "title": "",
+      "text": "October 6 — Nicole Walt has accepted the role of National Transportation Advisor, replacing Leon Hixon, who is stepping down to start his own consulting business. Ms. Walt is [143] respected for her impressive security expertise. She [144] transportation in the southeast region of the country for several years, and supporters believe she will easily adapt to her larger-scale role. Analysts predict that she will soon push parliament to sell a section of the rail line to a corporation. A sale such as this would generate immediate profit for the national transportation system. [145]. However, Walt will face strong opponents of the [146] of the system, as many believe publicly used services should stay in public hands.",
+      "questions": [
+        {
+          "number": 143,
+          "choices": {
+            "A": "high",
+            "B": "higher",
+            "C": "highly",
+            "D": "height"
+          }
+        },
+        {
+          "number": 144,
+          "choices": {
+            "A": "will have been managed",
+            "B": "was managed",
+            "C": "is managing",
+            "D": "has been managing"
+          }
+        },
+        {
+          "number": 145,
+          "choices": {
+            "A": "It is also expected to result in more reliable journey times.",
+            "B": "Fortunately, this is considered to be an unlikely scenario.",
+            "C": "For instance, she plans to focus on modernizing ticket processing.",
+            "D": "Each one would benefit the thousands of daily passengers."
+          }
+        },
+        {
+          "number": 146,
+          "choices": {
+            "A": "privatization",
+            "B": "renewal",
+            "C": "evaluation",
+            "D": "operation"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "test": "m5",
+  "part": 7,
+  "passages": [
+    {
+      "id": "m5-p7-1",
+      "type": "invitation",
+      "title": "Lightness and Darkness",
+      "text": "Regent Museum cordially invites you to the pre-opening of\nLightness and Darkness\nAn exhibit of paintings by Leslie Diaz\n\nFriday, January 20, 7 P.M.\n\nThe Regent Museum is pleased to have these amazing paintings on display. Ms. Diaz's latest exhibition is inspired by her travels through Southeast Asia, where she observed the remarkable seaside and mountain landscapes that are central to her paintings. Your membership entitles you to attend this event and see the artwork ahead of the press and the general public.",
+      "questions": [
+        {
+          "number": 147,
+          "question": "What is indicated about Ms. Diaz?",
+          "choices": {
+            "A": "She is making her debut at the Regent Museum.",
+            "B": "Her paintings will be sold by auction.",
+            "C": "She used to live in Southeast Asia.",
+            "D": "Her artwork depicts scenes from nature."
+          }
+        },
+        {
+          "number": 148,
+          "question": "Who most likely is the recipient of the invitation?",
+          "choices": {
+            "A": "A museum supporter",
+            "B": "An art critic",
+            "C": "An art student",
+            "D": "A member of the press"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-2",
+      "type": "web page",
+      "title": "Your account has been updated.",
+      "text": "https://www.piedlantclothing.com/account\n\nYour account has been updated.\n\nName: Diana Peters\nE-mail Address: dpeters@kemberyco.com\n\nYou have successfully unsubscribed from the Piedlant Clothing free monthly newsletter. You will still receive e-mails from Piedlant Clothing about the status of the orders you place and any policy changes that affect our Terms of Use for online customers. If you would like to undo this action, please click here. Please take a moment to let us know why you no longer wish to receive the newsletter.\n\nComments: I have been a regular customer of Piedlant Clothing for years, but the recent increase in prices has changed the way I plan to interact with the brand. While I'll still consider Piedlant Clothing for apparel for special occasions, it's more practical for me to purchase my casual clothing elsewhere.",
+      "questions": [
+        {
+          "number": 149,
+          "question": "Why did Ms. Peters visit the Web page?",
+          "choices": {
+            "A": "To leave a review of an order",
+            "B": "To complain about a service",
+            "C": "To remove herself from a mailing list",
+            "D": "To contribute ideas to a newsletter"
+          }
+        },
+        {
+          "number": 150,
+          "question": "What does Ms. Peters mention about Piedlant Clothing?",
+          "choices": {
+            "A": "It does not sell casual clothing anymore.",
+            "B": "Its marketing strategy is old-fashioned.",
+            "C": "It sends e-mails to customers too frequently.",
+            "D": "Its merchandise has become less affordable."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-3",
+      "type": "text-message chain",
+      "title": "",
+      "text": "Charles Lowenthal (4:25 P.M.): Stephanie, do you know what time you're coming back to the office?\nStephanie Martin (4:26 P.M.): Actually, I wasn't planning to do so. I'll be in the meeting with Caudill Enterprises until about 6 P.M., so I'd like to go straight home. Why do you ask?\nCharles Lowenthal (4:28 P.M.): The carpets will be cleaned this evening, so employees are supposed to remove all of their personal items from the floor of their cubicles.\nStephanie Martin (4:29 P.M.): Oh, no! I had forgotten about that! Would it be too inconvenient for you to do it for me?\nCharles Lowenthal (4:30 P.M.): Not at all.\nStephanie Martin (4:31 P.M.): Thank you! I owe you one.",
+      "questions": [
+        {
+          "number": 151,
+          "question": "What does Mr. Lowenthal ask Ms. Martin?",
+          "choices": {
+            "A": "When she will return",
+            "B": "Which office is hers",
+            "C": "How a meeting went",
+            "D": "What tasks must be done"
+          }
+        },
+        {
+          "number": 152,
+          "question": "At 4:30 P.M., what does Mr. Lowenthal most likely mean when he writes, \"Not at all\"?",
+          "choices": {
+            "A": "He will clear Ms. Martin's work space.",
+            "B": "He has run out of some supplies.",
+            "C": "He was unable to speak with some clients.",
+            "D": "He will amend a cleaning schedule."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-4",
+      "type": "memo",
+      "title": "25 years in business",
+      "text": "To: All Roane Incorporated Employees\nFrom: Rahul Shevade, Human Resources Director\nDate: October 6\nRe: 25 years in business\n\nDear Staff Members,\n\nAt the end of next month, Roane Incorporated will be celebrating its twenty-fifth anniversary. We want to hold a party to commemorate this achievement. I am currently looking for six people to join our planning board so that we can make the preparations for the event. Please note that this opportunity is open to staff members in every department. If you are interested, please e-mail me no later than Wednesday, October 15, with notes about when you would be able to take part in group meetings. After the deadline, I will review everyone's availability and select a time and day that works for all of us. Thank you for your consideration.",
+      "questions": [
+        {
+          "number": 153,
+          "question": "What is the purpose of the memo?",
+          "choices": {
+            "A": "To invite employees to a celebration",
+            "B": "To announce a job opening",
+            "C": "To seek committee members",
+            "D": "To congratulate the staff on an achievement"
+          }
+        },
+        {
+          "number": 154,
+          "question": "What does Mr. Shevade indicate will be determined after October 15?",
+          "choices": {
+            "A": "The timing of a meeting",
+            "B": "The size of a budget",
+            "C": "The goals of a group",
+            "D": "The location of a banquet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-5",
+      "type": "invoice",
+      "title": "McDorwell Supplies",
+      "text": "McDorwell Supplies\nwww.mcdorwellsupplies.com | 1-800-555-0100\n\nBusiness Name: Atchley's\nPoint of Contact: Michael Atchley\nPhone Number: 901-555-0127\nDate of Order: July 9\nBilling Address: 875 Myrtle Avenue, Memphis, TN 38018\nShipping Address: 1299 Baldwin Street, Memphis, TN 38018\nShipping Type: Overnight Express\nReturn Cutoff Date: July 16\nMcDorwell Supplies Loyalty Program Number: 5498-7319\n\nItem Description | Quantity | Price Per Unit | Total\n18-inch wire hangers (pack of 500) | 5 | $21.99 | $109.95\nCardboard shoulder guards (pack of 500) | 3 | $28.49 | $85.47\nLiquid stain remover (5L) | 4 | $29.99 | $119.96\nAll-in-one detergent (20L) | 3 | $189.99 | $569.97\nSubtotal | $885.35\nTaxes and Delivery | $83.75\nTotal Due | $969.10\n\nThank you for your purchase. To help us better serve you, please take a moment to complete a brief customer service questionnaire at www.mcdorwellsupplies.com/survey. Your feedback is important to us.",
+      "questions": [
+        {
+          "number": 155,
+          "question": "What kind of business most likely is Atchley's?",
+          "choices": {
+            "A": "A delivery company",
+            "B": "A clothing shop",
+            "C": "A dry-cleaning service",
+            "D": "A hair salon"
+          }
+        },
+        {
+          "number": 156,
+          "question": "When will Mr. Atchley's delivery most likely arrive?",
+          "choices": {
+            "A": "On July 9",
+            "B": "On July 10",
+            "C": "On July 11",
+            "D": "On July 16"
+          }
+        },
+        {
+          "number": 157,
+          "question": "What is implied in the invoice?",
+          "choices": {
+            "A": "Atchley's is collecting loyalty points.",
+            "B": "Mr. Atchley has completed a survey.",
+            "C": "A shipping fee has been decreased.",
+            "D": "The order will be sent to two addresses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-6",
+      "type": "notice",
+      "title": "NOTICE TO REIMELT GYM MEMBERS",
+      "text": "NOTICE TO REIMELT GYM MEMBERS\n\nReimelt Gym members who use our on-site parking lot should make alternative arrangements from September 1 to 7, as the lot will be off limits in order to accommodate work crews who will be repaving sections of the lot and sealing minor cracks. During this time, the main entrance will remain locked, and all members will need to use the employee entrance at the west end of the building. Updates regarding progress on the parking lot will be posted on our Web site. The schedule of fitness classes that we offer throughout the week will not be affected.\n\nA private parking lot is located near the gym on Radcliffe Avenue. Unfortunately, we are unable to reimburse you for any costs incurred. We apologize for any inconvenience this work may cause, and we appreciate your patience. Also, this is one of many projects we intend to carry out over the next six months. We are always willing to hear from our members about further building upgrades that would make your workout experience more enjoyable. To put forward your ideas, please talk to Site Manager Dwayne Bailey directly or e-mail him at dbailey@reimeltgym.com.",
+      "questions": [
+        {
+          "number": 158,
+          "question": "What is the notice mainly about?",
+          "choices": {
+            "A": "The expansion of a parking lot",
+            "B": "A revision to a parking policy",
+            "C": "Repairs to a parking area",
+            "D": "An increase in parking charges"
+          }
+        },
+        {
+          "number": 159,
+          "question": "What is suggested about Reimelt Gym employees?",
+          "choices": {
+            "A": "They will be ready to answer questions about the change.",
+            "B": "They will share an entrance with members for one week.",
+            "C": "They will lead fewer classes than usual in September.",
+            "D": "They will be assigned parking spaces in the gym's lot."
+          }
+        },
+        {
+          "number": 160,
+          "question": "According to the notice, why should gym members contact Mr. Bailey?",
+          "choices": {
+            "A": "To upgrade their membership status",
+            "B": "To suggest a facility improvement",
+            "C": "To learn how to receive reimbursement",
+            "D": "To inquire about the progress of a project"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5-p7-7",
+      "type": "e-mail",
+      "title": "Products you'll love!",
+      "text": "To: Theresa Burgess <burgess.t@monticello1.eu>\nFrom: Beranston <info@beranstoncamping.eu>\nDate: February 1\nSubject: Products you'll love!\n\nDear Ms. Burgess,\n\nWe understand that there is a vast array of options to choose from when selecting camping gear, so we have compiled some product suggestions based on your recent orders. Aldrin is our newest addition to Beranston Camping, and this brand has already become a best-seller. If you purchase any Aldrin products this month, their shipping fee will be waived. Click the link to be taken to our Web site and buy your items in just minutes!\n\n- Aldrin Battery-Operated Lantern [€45]: This lantern is safe to use inside or outside your tent, and one charge can provide up to 350 hours of light on the lowest setting.\n- Aldrin Sleeping Bag [€150]: The perfect blend of comfort and practicality, this bag is suitable for temperatures down to -10°C and can be compressed into a size of just 15 x 30 centimeters for easy transport.\n- Aldrin Stove [€50]: This stove is lightweight and small, but it fits pots of all sizes to make outdoor cooking easy.\n\nPlease note that we now accept returned items for up to 45 days from the purchase date, as feedback from our customers indicated that 30 days was not enough, especially for items given as gifts that may not be opened right away.\n\nHappy shopping!\n\nThe Beranston Team",
+      "questions": [
+        {
+          "number": 161,
+          "question": "Why did Ms. Burgess receive the e-mail?",
+          "choices": {
+            "A": "She commented on a social media page.",
+            "B": "She asked for some product updates.",
+            "C": "She contacted the customer service department.",
+            "D": "She previously made purchases on a Web site."
+          }
+        },
+        {
+          "number": 162,
+          "question": "What is NOT indicated about the Aldrin brand's items?",
+          "choices": {
+            "A": "They have become popular with customers.",
+            "B": "They are offered at a discounted price.",
+            "C": "They are eligible for free delivery in February.",
+            "D": "They include a heating device."
+          }
+        },
+        {
+          "number": 163,
+          "question": "What has Beranston changed about its return policy?",
+          "choices": {
+            "A": "The amount of store credit that can be earned",
+            "B": "The documentation required for returning gifts",
+            "C": "The cost of mailing back items",
+            "D": "The period for making returns"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# heavy local-only tools (Whisper model ~465MB)
+tools/
+# teacher uploads inbox (processed locally)
+uploads/
+# junk
+.DS_Store
+__pycache__/
+node_modules/
+*.log

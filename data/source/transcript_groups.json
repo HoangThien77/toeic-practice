@@ -1,0 +1,372 @@
+[
+ {
+  "scope": [
+   1
+  ],
+  "text": "number one look at the picture marked number one in your test book a A woman is holding a power tool B a woman is opening a drawer See a printer is being unplugged D office supplies are being put into a box"
+ },
+ {
+  "scope": [
+   2
+  ],
+  "text": "number two look at the picture marked number two in your test book a Plants are on top of a cart B a watering can is next to some trees See a man is digging in a garden D a man is near a display of potted plants Go on to the next page"
+ },
+ {
+  "scope": [
+   3
+  ],
+  "text": "number three look at the picture marked number three in your test book a The man is fixing a machine B the man is buying some equipment See the man is lifting a weight D the man is looking at the ceiling"
+ },
+ {
+  "scope": [
+   4
+  ],
+  "text": "number four look at the picture marked number four in your test book a A wall is decorated with various items B two chairs are blocking a doorway See a door has been propped open with a statue D a painting is hanging next to a window"
+ },
+ {
+  "scope": [
+   5
+  ],
+  "text": "number five look at the picture marked number five in your test book a Some people are browsing in a shop be Some people are exchanging gifts See a customer is paying for some goods D some salespeople are preparing a display you number six look at the picture marked number six in your test book a"
+ },
+ {
+  "scope": [
+   6
+  ],
+  "text": "Cones are blocking access to a road be Some soil is in a pile on the ground See some bushes have been planted in front of a building D a tree is lying in the roadway Go on to the next page part two"
+ },
+ {
+  "scope": [
+   7
+  ],
+  "text": "number seven Who's responsible for hiring at our fitness center a? Mr.. Gonzalez is going to get a membership Be I forgot to sign in at reception See mr.. Lynn and Ms. Weiss are number eight"
+ },
+ {
+  "scope": [
+   8
+  ],
+  "text": "Where do you usually purchase office supplies a? We put them in the hallway cabinets be at the store on Maple Avenue See a manager's approval number nine what time does mr.. Park usually leave a"
+ },
+ {
+  "scope": [
+   9
+  ],
+  "text": "around six o'clock in the evening Be he left everything we need See we've had many interns over the years"
+ },
+ {
+  "scope": [
+   10
+  ],
+  "text": "number ten do you want to present your research to the marketing team a That's what I've heard as well Be if we can find the time for it See yes, I received the gift number 11"
+ },
+ {
+  "scope": [
+   11
+  ],
+  "text": "Our company picnic is on Friday isn't it a? Those times are both booked Be only if you can find them easily See right in two days"
+ },
+ {
+  "scope": [
+   12
+  ],
+  "text": "number 12 isn't the bus supposed to stop here a Yes, according to the schedule Be I'm on my way now See it listed several potential clients number 13 we should fill this order quickly shouldn't we a"
+ },
+ {
+  "scope": [
+   13
+  ],
+  "text": "No, I haven't yet Be yes, it's for an important client See try using this key number 14"
+ },
+ {
+  "scope": [
+   14
+  ],
+  "text": "How do you like your new job? Hey, I can work from home quite often Be a career in electrical engineering See my sister helped me apply"
+ },
+ {
+  "scope": [
+   15
+  ],
+  "text": "number 15 let's go to the cafeteria for lunch today a There should be one in the filing cabinet be Which local restaurant do you prefer? See I don't think I can take a break"
+ },
+ {
+  "scope": [
+   16
+  ],
+  "text": "number 16 When will we hire the new interns a? Mr.. Wyeth is handling that be with more time to spare than usual See the highest available salary"
+ },
+ {
+  "scope": [
+   17
+  ],
+  "text": "number 17 how often should I mail these statements a Yes, you can buy one online Be the post office on Grant Street See we send them out once a month"
+ },
+ {
+  "scope": [
+   18
+  ],
+  "text": "number 18 Why did you put that food in the freezer a? It's not working well currently Be I meant to put it in the refrigerator See let's start making dinner soon number 19"
+ },
+ {
+  "scope": [
+   19
+  ],
+  "text": "Could you print the agenda for the meeting a? It's already on your desk Be no the other printer see was that a client? number 20"
+ },
+ {
+  "scope": [
+   20
+  ],
+  "text": "How far are you from the clinic? Hey, I'm close enough to walk Be I need to see the doctor See it's a well-known clinic"
+ },
+ {
+  "scope": [
+   21
+  ],
+  "text": "number 21 Didn't you get to print out of the company newsletter from Emico a? She started working here three years ago Be I was out of town last week see yes, I do like to write"
+ },
+ {
+  "scope": [
+   22
+  ],
+  "text": "number 22 When do you need to renew your passport? Hey, be careful not to lose your tickets be a brand new type of microchip See soon because it's about to expire"
+ },
+ {
+  "scope": [
+   23
+  ],
+  "text": "number 23 Who can help me find replacement parts for my computer a? Here are all the latest statements Be I can help you look through the inventory see put these on that shelf number 24 I"
+ },
+ {
+  "scope": [
+   24
+  ],
+  "text": "can't make it to the company dinner tonight a Managers expect everyone to be there Be a buffet style restaurant see a meeting once a week number 25"
+ },
+ {
+  "scope": [
+   25
+  ],
+  "text": "Do you work in this neighborhood a? Yes, I'd like to Be no my office isn't nearby See there aren't any of those here"
+ },
+ {
+  "scope": [
+   26
+  ],
+  "text": "number 26 It's time for our quarterly earnings report isn't it a? Was there an email reminder about it be to pay for a new advertising campaign? See no a different pair of earrings"
+ },
+ {
+  "scope": [
+   27
+  ],
+  "text": "number 27 What did you do with the guest list that I sent you a? After everyone received it be I passed it along to everyone who needed it See we're supposed to leave soon"
+ },
+ {
+  "scope": [
+   28
+  ],
+  "text": "number 28 Did you see the announcement about Emily's promotion? Hey, all the technologies been upgraded Be perhaps a good career counselor See I've been busy all morning"
+ },
+ {
+  "scope": [
+   29
+  ],
+  "text": "number 29 Let's try our best to finish the project on time a All except the first one be We may need a few more days See I think over time it will"
+ },
+ {
+  "scope": [
+   30
+  ],
+  "text": "number 30 where's the store manager a a recent hiring decision Be I enjoy shopping at that store see she went out for lunch"
+ },
+ {
+  "scope": [
+   31
+  ],
+  "text": "number 31 the software you're using isn't very reliable a These chairs aren't very comfortable Be I've been using it for years with no problems See I saw that computer at the store you part three"
+ },
+ {
+  "scope": [
+   32,
+   33,
+   34
+  ],
+  "text": "Hello Forest Grove photography services. How can I help you hi? I'd like to get a photographer to cover our event It's a charity basketball game next Tuesday night. I was hoping to get Thomas Zukowski. He works for you, right? Yes, but unfortunately Thomas doesn't usually work evenings. Oh too bad Could you recommend somebody else before I do that? Let me talk to him. He might make an exception Tom does love basketball number 32, why is the man calling? number 33 what problem does the woman mention? you number 34 what does the woman say she will do? questions 35 through 37 refer to the following conversation"
+ },
+ {
+  "scope": [
+   35,
+   36,
+   37
+  ],
+  "text": "Good morning. It looks like we received a lot of new orders online last night. Yes I saw that when I got in this morning. Can you package all of them by yourself? Well, there are so many I may not be able to finish everything today Okay, I'll call Maria John and ask if she can come in early today to help. That'd be great We also have to pack that big shipment for the Henderson order. We finally got all of the items in. Oh, yes Do that first number 35 where most likely are the speakers? number 36 why do the speakers mention Maria John? number 37 what will the man probably do next? you questions 38 through 40 refer to the following conversation"
+ },
+ {
+  "scope": [
+   38,
+   39,
+   40
+  ],
+  "text": "Haruna we've planned most of the details for the corporate retreat including housing and most activities But we still need to decide where to go for Saturday's closing dinner. Yes. I sent you several menus Did you like any of the places? McNally's is close by yes, that would be convenient. We could even walk there from the hotel But the prices are a little high. I agree But I could see if they can offer us a reduced catering rate rather than ordering off the regular menu number 38 what do the speakers need to choose? number 39 what do the speakers like about McNally's? number 40 what does the woman offer to do? Questions 41 through 43 refer to the following conversation with three speakers"
+ },
+ {
+  "scope": [
+   41,
+   42,
+   43
+  ],
+  "text": "Janelle and Rico could you give me an update on how our new medical records software is coming sure Per the customers request I've updated the logo and changed the font the customer has communicated with us a lot on this project Having their feedback at every stage of the process has been helpful Excellent. It sounds like we're on schedule for completing our beta version then we can hand it off to our marketing team number 41 what does the speaker's company produce? number 42 what does the man say has been helpful? number 43 what is the next step in the project that the speakers are discussing? Go on to the next page"
+ },
+ {
+  "scope": [
+   44,
+   45,
+   46
+  ],
+  "text": "Questions 44 through 46 refer to the following conversation hello. This is Ian Nelson from Regal bathrooms I'm following up to make sure that you're pleased with the job our workers did in your house Thank you for calling. Yes. They did a great job The bathroom floor was replaced and the new tile looks great. I'm very happy with the job That's good to hear if there are other jobs you need done. I hope you'll reach out to us again That reminds me. I was thinking of replacing my kitchen cabinets. Is that something you'd possibly do we don't but I can recommend a company I often work with their customers have been very satisfied. Let me get their phone number one second. Thanks number 44 what is the purpose of the phone call? number 45 What does the man say about replacing kitchen cabinets? number 46 what will the man most likely do next? Questions 47 through 49 refer to the following conversation"
+ },
+ {
+  "scope": [
+   47,
+   48,
+   49
+  ],
+  "text": "My name is Laura. I refill my medication here at this pharmacy once a month But on Monday, I'm going to travel abroad for work for two months And I wonder if I can get a two-month refill this time. It shouldn't be a problem However, your doctor must send us the two-month prescription. So you need to contact her first. Oh I see. I'll give her a call during my lunch break today. When are you open until today until 9 p.m? But once we receive your doctor's prescription, we can deliver the medication directly to your home number 47, where is the conversation taking place? number 48 what does the woman say she will do at lunch today? number 49 what does the man offer to do?"
+ },
+ {
+  "scope": [
+   50,
+   51,
+   52
+  ],
+  "text": "questions 50 through 52 refer to the following conversation Miller's sporting goods Joey speaking. Hello. I'm calling from West End High School We're looking to make a big purchase for our student baseball teams Our equipment is getting old and we would like to get new uniforms, too We have budget restrictions though. Well, we do offer discounts for bulk purchases And we have a number of price ranges for uniforms. Many are very reasonable. Let me get the manager on the phone And you can discuss the specifics number 50 where does the woman work? number 51 what is the woman concerned about? number 52 what will the man do next? questions 53 through 55 refer to the following conversation"
+ },
+ {
+  "scope": [
+   53,
+   54,
+   55
+  ],
+  "text": "Hi, this is Gemini flowers. I'm calling about the order you placed for your award luncheon on July 12th Unfortunately our supplier is out of pink roses. Oh, no pink matches our corporate logo I ordered them especially for this occasion. I understand your disappointment, sir I can offer a 10% discount on the total cost of your order and replace the pink roses with yellow ones Well, I didn't tell anyone about the roses. I suppose no one will really be disappointed number 53 what problem does the woman mention? number 54 what does the man say about his company's logo? number 55 What does the man mean when he says I suppose? No one will really be disappointed Questions 56 through 58 refer to the following conversation with three speakers"
+ },
+ {
+  "scope": [
+   56,
+   57,
+   58
+  ],
+  "text": "Unfortunately our development team has some bad news It turns out we'll need to push back the shipment of the prototype motor. We've been developing for our client Why will there be a delay? Well some of the components we received to build the prototype are failing initial tests So we won't be able to make the delivery deadline Janet could you let the client know yes? I'll contact them right away, and I'd like the development team to start giving me daily briefings about progress on this issue number 56 What kind of company do the speakers most likely work for? Number 57. What problem are the speakers discussing? number 58. What does the man request?"
+ },
+ {
+  "scope": [
+   59,
+   60,
+   61
+  ],
+  "text": "questions 59 through 61 refer to the following conversation Good evening legend hotel. How may I help you? Hello? I'm at the local airport does the hotel run shuttle buses to here We usually don't but was your flight originally scheduled for Central Airport it was but apparently there's a problem at Central Yes, there's a personnel shortage, but several flights have been rerouted to the local airport We have started running an airport shuttle this morning Okay, that's good news. When is the next shuttle buses run every half hour? What's your reservation number? I'll ensure that your room is ready for you when you arrive number 59. What does the woman say about Central Airport? number 60. Why does the man say that's good news? number 61. What will the woman do for the man?"
+ },
+ {
+  "scope": [
+   62,
+   63,
+   64
+  ],
+  "text": "questions 62 through 64 refer to the following conversation and images Hi, Marla. I'm calling to check whether you received my outline of the design project for your apartment remodeling I emailed it to you yesterday Yes, thank you for doing such a great job I really liked your idea of opening up the kitchen and creating an open space with the living room great If everything looks good to you I can start ordering the supplies tomorrow Actually, I don't like the ceramic tiles you picked for the kitchen. I like the marble ones much better I know they are more expensive, but it's a small space number 62. What did the man do yesterday? number 63. What does the woman say she likes? number 64. Look at the graphic. How much will the woman pay for each tile? Go on to the next page questions 65 through 67 refer to the following conversation and price list"
+ },
+ {
+  "scope": [
+   65,
+   66,
+   67
+  ],
+  "text": "Hi, I'd like to make a reservation for a group of clients that will be visiting our company from the 1st to the 6th of June I need eight rooms. We do have availability for that period. The type of room I recommend for you is normally 99 euros per night, but we can offer a group discount. That'll work Also on June 5th, we want to take our clients on a tour of the local attractions Could you help arrange that? We have an event planner here who will be able to help you. His name is Pablo Gonzales I'll connect you to his office once I've completed your reservation number 65. Why is the man calling? number 66. Look at the graphic. Which room type does the woman mention? number 67. Who is Pablo Gonzales?"
+ },
+ {
+  "scope": [
+   68,
+   69,
+   70
+  ],
+  "text": "questions 68 through 70 refer to the following conversation and bar graph Hi Joanna. The management group needs to submit nominees for this year's award for outstanding employee My supervisor wants to know if any managers have nominated anyone yet. Not yet Charles I emailed everyone about it a week ago, but I haven't heard anything yet I'll have to follow up with the managers and let them know the deadline is coming up Okay, well, I printed out a breakdown of the customer service representatives with the most five-star reviews from customers last year We had someone who was really outstanding Those are excellent numbers. Could you go ahead and submit a nomination? number 68. What is the conversation mainly about? number 69. Who does the woman say she will send a reminder to? number 70. Look at the graphic. Which representative is the man most likely talking about? part four directions You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk Select the best response to each question and mark the letter A B C or D on your answer sheet The talks will not be printed in your test book and will be spoken only one time questions 71 through 73 refer to the following advertisement"
+ },
+ {
+  "scope": [
+   71,
+   72,
+   73
+  ],
+  "text": "Looking for an interesting activity to celebrate the coming of spring? Winford Gardens offers an escape filled with calm peace and quiet just a few miles from the downtown area Winford Gardens has acres of outdoor gardens filled with plants. You won't typically find anywhere near here This weekend. We will have an exhibition of Mexican blue palms If you have never seen these striking and unique plants now is your chance Winford's cafe is a converted building that used to be a greenhouse The surrounding tropical plants and flowers help make dining there a pleasure number 71. What is being advertised? number 72. What event is happening this weekend? number 73. What does the speaker say about a cafe building?"
+ },
+ {
+  "scope": [
+   74,
+   75,
+   76
+  ],
+  "text": "questions 74 through 76 refer to the following excerpt from a meeting Good afternoon. Welcome to this week's managers meeting here at South truck deliveries As you know, we've always written performance evaluations for our drivers and other employees on paper I am pleased to announce some important changes beginning this year We will use a software application called personnel profile to enter performance appraisals Let me introduce miss y young lee the head of our it department She will walk you through how to enroll in a training course on using personnel profile And you will complete your enrollment by the end of this meeting number 74 who most likely is the speaker? number 75. What is the main topic of the talk? number 76. What does the speaker ask the listeners to do?"
+ },
+ {
+  "scope": [
+   77,
+   78,
+   79
+  ],
+  "text": "questions 77 through 79 refer to the following telephone message Hi, this is Miss Mitra You're scheduled to move my furniture to my new apartment tomorrow morning at eight I'm calling because I just learned that the freight elevator in my building is broken and my apartment is on a very high floor I will check first thing tomorrow morning to see what the situation is But please give me a call as soon as you can I have an overseas trip coming up next week. So this work will have to happen soon number 77 who is the speaker most likely calling? number 78 Why does the speaker say my apartment is on a very high floor? number 79. What will the speaker do next week?"
+ },
+ {
+  "scope": [
+   80,
+   81,
+   82
+  ],
+  "text": "questions 80 through 82 refer to the following announcement Good evening, everyone. Welcome to a new season of city opera. I bring some bad news. I'm afraid Soprano, Lisa Gornica informed me earlier today that she will not be able to perform tonight I know how disappointing this is, but I also have good news Soprano Rita Marks is in town and has agreed to step in for Miss Gornica Not only is Miss Marks familiar with the role of Laura, but she also knows the choreography Since she worked with our director when this production premiered in Toronto Wondering what her voice is like? Well judge for yourself, but I saw the reviews from Toronto I can guarantee that we are in for a treat number 80 why might the listeners be disappointed number 81 What does the speaker indicate about Rita Marks? number 82 What does the speaker imply when he says \"I saw the reviews from Toronto\" Go on to the next page"
+ },
+ {
+  "scope": [
+   83,
+   84,
+   85
+  ],
+  "text": "questions 83 through 85 refer to the following excerpt from a meeting Thank you for inviting me and other members of the marketing department to this meeting of the research and development team We always welcome the opportunity to share customer information about our toys with you I'd like to start off with some information about the remote control car that we launched in department stores and toy stores one month ago It's been a mixed bag customers love the smooth action of the car and the high speed it can achieve However, they are somewhat disappointed with the rechargeable battery the car comes with I encourage your team to find ways to make the battery charge faster and last longer number 83 Where does the speaker most likely work? number 84 What does the speaker mean when she says \"It's been a mixed bag\" number 85 What does the speaker ask the listeners to do?"
+ },
+ {
+  "scope": [
+   86,
+   87,
+   88
+  ],
+  "text": "Questions 86 through 88 refer to the following announcement Attention ShopSmart shoppers in case you didn't pick up our flyer. We are kicking off a ShopSmart giveaway event For every two cans of ShopSmart soup or vegetables that you buy You will be entered in a drawing to win a gift certificate that can be used at any ShopSmart location Gift certificates worth $100 each will be awarded to three lucky shoppers on May 1 This offer is good only for ShopSmart brand canned goods Act now stock up and join the giveaway the more you buy the more chances you have to win number 86 Where is the announcement most likely being made? number 87 What is the main topic of the announcement? number 88 What does the speaker say about some ShopSmart products? questions 89 through 91 refer to the following telephone message"
+ },
+ {
+  "scope": [
+   89,
+   90,
+   91
+  ],
+  "text": "Hi, Mr. Collins. I'm calling from Silver's Flooring I was about to place your order for the maple floors that you wanted me to put in, but I decided to call you first I just found out that the hardwood distributor has lowered the price of the oak flooring I think you originally preferred oak but decided it was too expensive The reduction looks to be about 15 percent Please call me back and let me know if you have any questions The reduction looks to be about 15 percent. Please call me back and let me know if I should still order the maple for you Or if you would prefer that I order the oak number 89 What work was the speaker hired to do? number 90 What does the speaker say about the distributor? number 91 Why did the speaker wait to place an order?"
+ },
+ {
+  "scope": [
+   92,
+   93,
+   94
+  ],
+  "text": "questions 92 through 94 refer to the following introduction Welcome to the Central Valley Environmental Center We are so grateful to all of you, our volunteers, for coming out today to help with this project to install bluebird nest boxes The eastern bluebird is a native species that plays an important role in our environment, but it's threatened by habitat loss and predation We have numerous donated nest boxes here that will help protect our local bluebird population Remember that bluebirds prefer open woodlands and grasslands with scattered trees Some suitable locations are already identified on the maps you've received number 92 Who most likely is the speaker? number 93 What is the purpose of the project? number 94 What is marked on some maps? questions 95 through 97 refer to the following talk and list"
+ },
+ {
+  "scope": [
+   95,
+   96,
+   97
+  ],
+  "text": "Hi everyone I want to update you on sales of our lines of dishware after the introduction of our holiday themed patterns Our everyday dishware continues to perform as expected also i'm pleased to report that our new year plates are a resounding success Total wholesale orders have outpaced those of our popular dawn series of fine china We spent a lot on the design for new year. So our ceo will be happy to learn that the investment has paid off Looks like we will need to rethink the harvest festival brand though Unless total sales reach those of our cafe series by next year. We may even discontinue it number 95 What product does the speaker's company sell? number 96 Why will the ceo be pleased? number 97 Look at the graphic. What number of orders does the speaker say the harvest festival pattern must reach?"
+ },
+ {
+  "scope": [
+   98,
+   99,
+   100
+  ],
+  "text": "questions 98 through 100 refer to the following excerpt from a meeting and chart I'd like to welcome all of you to your first day of work at the wildcat's customer service office Baseball season starts in exactly one month We expect ticket sales to be very good because the wildcats had such a great season last year As you can see on the chart, we have four packages Make sure you let our customers know about the new sunday package It includes tickets for every sunday home game throughout the season our friday night package holiday package and discount package Were available last year and should remain popular Number 98 who most likely is the speaker? number 99 Why are ticket sales expected to be good? number 100 look at the graphic how many games are included in the new ticket package that the speaker describes This is the end of the listening test turn to part five in your test book end of recording"
+ }
+]

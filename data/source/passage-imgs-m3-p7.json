@@ -1,0 +1,14 @@
+{
+  "test": "m3",
+  "part": 7,
+  "map": {
+    "147": "assets/img/passages/m3-q147.jpg",
+    "149": "assets/img/passages/m3-q149.jpg",
+    "151": "assets/img/passages/m3-q151.jpg",
+    "154": "assets/img/passages/m3-q154.jpg",
+    "156": "assets/img/passages/m3-q156.jpg",
+    "159": "assets/img/passages/m3-q159.jpg",
+    "161": "assets/img/passages/m3-q161.jpg",
+    "165": "assets/img/passages/m3-q165.jpg"
+  }
+}

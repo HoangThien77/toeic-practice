@@ -1,0 +1,182 @@
+{
+  "test": "m3",
+  "part": 6,
+  "passages": [
+    {
+      "id": "m3-p6-1",
+      "type": "article",
+      "title": "Economics Department Newsletter",
+      "text": "Economics Department Newsletter\n\nA new version of Professor Monique Harren's Economics Principles is set to be published in hardback this month. The original textbook is one of the most popular teaching materials for introductory economics classes. Professor Harren says she is excited for people to see the [131] edition. When asked [132] it will contain, she explained, \"It is similar to the first book in structure, but the theories have been updated. I also tried to use real situations [133] imaginary ones to illustrate each point. [134].\" The book will be available at the university library and bookstore from August 1.",
+      "questions": [
+        {
+          "number": 131,
+          "choices": {
+            "A": "digital",
+            "B": "revised",
+            "C": "older",
+            "D": "estimated"
+          }
+        },
+        {
+          "number": 132,
+          "choices": {
+            "A": "how",
+            "B": "what",
+            "C": "where",
+            "D": "there"
+          }
+        },
+        {
+          "number": 133,
+          "choices": {
+            "A": "owing to",
+            "B": "rather",
+            "C": "provided that",
+            "D": "instead of"
+          }
+        },
+        {
+          "number": 134,
+          "choices": {
+            "A": "For example, the first chapter will be shortened.",
+            "B": "The department has promised to consider my proposal.",
+            "C": "I think instructors are going to find them very useful.",
+            "D": "I am proud of the work those students have done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p6-2",
+      "type": "e-mail",
+      "title": "Food drive",
+      "text": "From: Blake Wolney\nTo: All staff\nSubject: Food drive\nDate: April 22\n\nI would like to announce that our company is partnering with Eiden Food Bank to hold a food donation drive in the first week of May. If you choose [135] with the drive, you will receive a durable nylon bag to take home and pack with food items. Once the bag has been [136], it should be brought to my office. Please note that donations will be kept unrefrigerated in our storage room until the end of the week. [137], bags should only include canned or dry foods. To sign up, please call me at extension 32. [138].\n\nSincerely,\n\nBlake Wolney\nHuman Resources",
+      "questions": [
+        {
+          "number": 135,
+          "choices": {
+            "A": "being helped",
+            "B": "having helped",
+            "C": "to help",
+            "D": "helps"
+          }
+        },
+        {
+          "number": 136,
+          "choices": {
+            "A": "sewn",
+            "B": "dried",
+            "C": "filled",
+            "D": "opened"
+          }
+        },
+        {
+          "number": 137,
+          "choices": {
+            "A": "In response",
+            "B": "Namely",
+            "C": "Despite that",
+            "D": "Therefore"
+          }
+        },
+        {
+          "number": 138,
+          "choices": {
+            "A": "Try asking friends and family members for donations.",
+            "B": "We thank volunteers in advance for their participation.",
+            "C": "Bags have now been made in several more colors.",
+            "D": "Eiden Food Bank is located at 905 Pecos Street."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p6-3",
+      "type": "letter",
+      "title": "",
+      "text": "October 2\n\nVincent Hubbard\n406 Paige Drive\nRulston, FL 32029\n\nDear Mr. Hubbard,\n\nLast Thursday evening, two Water Department employees dismantled part of the sidewalk in your neighborhood, near the intersection of Jerden Road and Paige Drive. [139]. Unfortunately, the time and way in which the work was performed alarmed area residents, who believed that the technicians were [140] an illegal act.\n\nThis incident reflects a [141] oversight on our part, and we are taking steps to prevent its recurrence. Specifically, we have instituted new regulations that call for work crews to wear high-visibility uniforms at all times. Again, we are sorry for the [142].\n\nThank you for your understanding in this matter.\n\nSincerely,\n\nAimee Ross\nDirector, Rulston Water Department",
+      "questions": [
+        {
+          "number": 139,
+          "choices": {
+            "A": "Residents may be asked to move vehicles away from the curb.",
+            "B": "A new treatment plant was expected to improve the situation.",
+            "C": "They were attempting to find the source of a nearby leak.",
+            "D": "Restructuring efforts are leading to larger work crew sizes."
+          }
+        },
+        {
+          "number": 140,
+          "choices": {
+            "A": "exceeding",
+            "B": "committing",
+            "C": "violating",
+            "D": "merging"
+          }
+        },
+        {
+          "number": 141,
+          "choices": {
+            "A": "majorly",
+            "B": "majored",
+            "C": "majors",
+            "D": "major"
+          }
+        },
+        {
+          "number": 142,
+          "choices": {
+            "A": "confusion",
+            "B": "shortage",
+            "C": "postponement",
+            "D": "corruption"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p6-4",
+      "type": "review",
+      "title": "",
+      "text": "I was shocked to find that several of the boxes I received from Carlisle Meal Boxes contained old, spoiled ingredients. This made it clear that the company wasn't concerned enough about the [143] of their food. [144]. Carlisle refunded the cost of those boxes, but the problem kept occurring. I think shipping ingredients to customers so we can make meals at home is a fantastic idea, and I liked all of Carlisle's recipes. Still, I'll [145] my own food from now on. I cannot recommend [146] their service.\n\n— Thomas Wilkinson",
+      "questions": [
+        {
+          "number": 143,
+          "choices": {
+            "A": "freshness",
+            "B": "portions",
+            "C": "names",
+            "D": "diversity"
+          }
+        },
+        {
+          "number": 144,
+          "choices": {
+            "A": "A lot of the dishes were too spicy for me.",
+            "B": "They had to mail me another copy of the form.",
+            "C": "The sign-up promotion was not offered in my city.",
+            "D": "Luckily, I had other meal options on those days."
+          }
+        },
+        {
+          "number": 145,
+          "choices": {
+            "A": "manufacture",
+            "B": "deliver",
+            "C": "buy",
+            "D": "discard"
+          }
+        },
+        {
+          "number": 146,
+          "choices": {
+            "A": "user",
+            "B": "usage",
+            "C": "using",
+            "D": "use"
+          }
+        }
+      ]
+    }
+  ]
+}

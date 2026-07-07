@@ -1,0 +1,290 @@
+{
+  "test": "m3",
+  "part": 7,
+  "passages": [
+    {
+      "id": "m3-p7-1",
+      "type": "advertisement",
+      "title": "Big Valley Point",
+      "text": "Big Valley Point\n\nOver 80 miles of marked hiking trails set among rolling hills\n* Volunteer-led tours of landmark mansions built over 200 years ago\n* Scenic ponds and picnic areas for relaxation\n* Fully-restored Valley Museum showcasing our region's past\n\nBig Valley Point is open year round. Entry is free, but a fee is charged for use of the adjacent parking area. Tours for groups of 20 or more must be reserved at least two weeks in advance—visit www.bigvalleypoint.org for details.",
+      "questions": [
+        {
+          "number": 147,
+          "question": "What is NOT listed as an attraction available at Big Valley Point?",
+          "choices": {
+            "A": "Walking paths",
+            "B": "Historic houses",
+            "C": "A history museum",
+            "D": "Various restaurants"
+          }
+        },
+        {
+          "number": 148,
+          "question": "According to the advertisement, what is there an extra charge for?",
+          "choices": {
+            "A": "Obtaining Internet access",
+            "B": "Parking in a neighboring area",
+            "C": "Using a facility on weekends",
+            "D": "Taking an indoor tour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-2",
+      "type": "information",
+      "title": "Hempel Alos",
+      "text": "Hempel Alos\n\nThe Alos is a perfect example of Hempel Motors' award-winning design. The refined exterior complements a practical interior that includes a spacious trunk and leather seats for five people. Its powerful, fuel-efficient engine and sophisticated brakes ensure a safe, enjoyable driving experience. A large touchscreen display controls the radio and temperature systems, and includes many drivers' favorite feature—a video feed from the rearview camera.\n\nThis comfortable, dependable car is available now at Clegan City Auto. Come test-drive one today and speak to a salesperson about our customizable financing options.",
+      "questions": [
+        {
+          "number": 149,
+          "question": "What is the purpose of the information?",
+          "choices": {
+            "A": "To outline buyers' preferences",
+            "B": "To advertise a product on offer",
+            "C": "To supply customizing instructions",
+            "D": "To announce a committee's decision"
+          }
+        },
+        {
+          "number": 150,
+          "question": "What would the most popular feature most likely be used for?",
+          "choices": {
+            "A": "Cooling down the vehicle",
+            "B": "Allowing a passenger to sleep comfortably",
+            "C": "Moving the vehicle backwards safely",
+            "D": "Saving money on fuel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-3",
+      "type": "memo",
+      "title": "",
+      "text": "To: Blandec Resources staff\nFrom: Susan Moore, CEO\nRe: Opportunity\nDate: May 9\n\nDear all,\n\nI'd like to let you know about an upcoming professional development opportunity. Andy Chambliss, a top consultant in our field, will lead a seminar on trends in information management on June 2 at the Demiralp Center. I met Mr. Chambliss at a conference recently, and was very impressed. He started out as an information officer for Ellis-Iversatt Ltd. before joining Recall Force Ltd. as a senior data management consultant. In this role, he has helped many companies, including the Hong Kong-based Mahlmar Industries, develop data storage solutions. He is an original member of the Information Science Association (ISA), and has twice won that organization's \"Creative Data Solutions\" award. He is also a member of the examination development team for the Information Management Competency Exam (IMCE), a new certification test scheduled for first administration soon at Inland Business University in Los Angeles.\n\nI've directed Human Resources to assist any employees who want to participate in his seminar. Those interested should contact Jarrod Spalt.",
+      "questions": [
+        {
+          "number": 151,
+          "question": "Why most likely did Ms. Moore write the memo?",
+          "choices": {
+            "A": "To introduce an industry expert to staff",
+            "B": "To seek volunteers to lead workshops",
+            "C": "To discuss requirements for a job opening",
+            "D": "To announce the winner of an award"
+          }
+        },
+        {
+          "number": 152,
+          "question": "What will happen soon at Inland Business University?",
+          "choices": {
+            "A": "A conference will begin.",
+            "B": "An exam will be held.",
+            "C": "A certification will expire.",
+            "D": "A development team will be formed."
+          }
+        },
+        {
+          "number": 153,
+          "question": "Which company is Mr. Chambliss currently employed by?",
+          "choices": {
+            "A": "Blandec Resources",
+            "B": "Ellis-Iversatt Ltd.",
+            "C": "Recall Force Ltd.",
+            "D": "Mahlmar Industries"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-4",
+      "type": "text-message chain",
+      "title": "",
+      "text": "Whitney Palko (2:23 P.M.): Greg, the rental car agent said their last van was rented out an hour ago. They're suggesting a large sedan, which is a bit cheaper.\nGregory Rowe (2:24 P.M.): But there are six of us. I knew we should have tried to make a reservation. Well, I guess we can get a second car and I could drive it. I just hope the roads aren't too busy.\nWhitney Palko (2:25 P.M.): I think it'll be all right. But first you'll need to come over to the counter to fill out some paperwork.\nGregory Rowe (2:26 P.M.): OK. What kind of documentation will I need? I'd like to find it now so that I don't have to bring all of my baggage over.",
+      "questions": [
+        {
+          "number": 154,
+          "question": "At 2:24 P.M., what does Mr. Rowe most likely mean when he writes, \"But there are six of us\"?",
+          "choices": {
+            "A": "A price should be divided evenly.",
+            "B": "A car does not have sufficient capacity.",
+            "C": "There are larger groups waiting in line.",
+            "D": "Another person can take on a responsibility."
+          }
+        },
+        {
+          "number": 155,
+          "question": "What will Ms. Palko's next message most likely contain?",
+          "choices": {
+            "A": "Descriptions of some luggage",
+            "B": "Directions to a counter",
+            "C": "A list of materials",
+            "D": "A reservation code"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-5",
+      "type": "letter",
+      "title": "Byrne Museum of Art",
+      "text": "Byrne Museum of Art\n242 Country Street\nSydney, NSW 2000\nwww.byrne-moa.au\n\n3 January\n\nMs. Regina Traub\n12 Lantern Avenue\nSydney, NSW 2000\n\nDear Ms. Traub,\n\nThank you for renewing your membership to the Byrne Museum of Art. — [1] —. All members are entitled to the special discounts listed in the enclosed brochure. In addition, you will get free admission to any weekly screening at the museum's first-ever film series, Cinema Appreciated, which runs from March to June. — [2] —. To view a schedule and reserve your complimentary tickets, visit www.byrne-moa.au/ca.\n\nMembership also gives you special access to art experts. — [3] —. Several times a year, the museum invites local and international art critics and historians to give talks to our staff and members on themes of their choice. This year's first event, set for 9 January, will showcase the works of Mindy Naismith. — [4] —. Space is filling up quickly, so register soon.\n\nIf there is any way we can assist you in making full use of your member benefits, please let us know.\n\nRegards,\n\nGretchen Firth\nPublic Outreach Director",
+      "questions": [
+        {
+          "number": 156,
+          "question": "What is indicated about Ms. Traub?",
+          "choices": {
+            "A": "She chose the least expensive type of membership.",
+            "B": "She is not a first-time member of the museum.",
+            "C": "She prefers not to be contacted by phone.",
+            "D": "She will receive a free gift in the mail."
+          }
+        },
+        {
+          "number": 157,
+          "question": "According to the letter, what is new at the museum?",
+          "choices": {
+            "A": "A weekly film series",
+            "B": "A collection of sculptures",
+            "C": "An informative mobile app",
+            "D": "A line of branded stationery"
+          }
+        },
+        {
+          "number": 158,
+          "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Her colorful paintings have won praise for their warm depiction of human relationships.\"",
+          "choices": {
+            "A": "[1]",
+            "B": "[2]",
+            "C": "[3]",
+            "D": "[4]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-6",
+      "type": "e-mail",
+      "title": "",
+      "text": "To: Arnaud Beaumont <abeaumont@limogesapparel.uk>\nFrom: Allison Neff <allisonneff@limogesapparel.uk>\nSubject: Anniversary\nDate: 18 July\n\nDear Mr. Beaumont,\n\nIt's hard to believe that, in only a few weeks, we'll be celebrating Limoges Apparel's 30th anniversary. I want to let you know how preparations are coming along. To build excitement for this milestone, we've already released some retro-style advertisements on social media. Finally, we're almost finished putting together our selection of limited-edition Limoges Apparel merchandise that will be made available for purchase exclusively at the anniversary party.\n\nI'm going to write you again next week, but please don't hesitate to contact me before then if you have any questions about these plans.\n\nSincerely,\n\nAllison Neff\nMarketing Director, Limoges Apparel",
+      "questions": [
+        {
+          "number": 159,
+          "question": "Why most likely was the e-mail written?",
+          "choices": {
+            "A": "To provide an update",
+            "B": "To prepare a survey",
+            "C": "To issue an invitation",
+            "D": "To postpone an event"
+          }
+        },
+        {
+          "number": 160,
+          "question": "Where will some special merchandise be sold?",
+          "choices": {
+            "A": "At a celebration",
+            "B": "On a social media site",
+            "C": "On a television show",
+            "D": "At a store's founding location"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-7",
+      "type": "article",
+      "title": "Pate Takes New Approach to OntMusic",
+      "text": "Pate Takes New Approach to OntMusic\n\nTORONTO (June 8)—Pop star Leila Pate has posted a message on her personal Web site declaring a split from OntMusic, the leading online music seller.\n\nMs. Pate recently became a co-owner of Saroto, an up-and-coming rival music store. — [1] —. Her message explained that she and Saroto's other co-owners, who are also musicians, intend to \"give power back to artists\" by ensuring that they earn a larger share of the total profits from digital sales of their music. Similarly, she believes Saroto's users benefit from the greater technical sophistication of its platform. \"We are improving the experience of buying music online,\" she claimed. — [2] —.\n\nHowever, Ms. Pate also made it clear that she will not completely sever ties with OntMusic. \"In appreciation of our long and mutually beneficial relationship, my previously-released songs and videos will continue to be sold on OntMusic,\" Ms. Pate wrote. — [3] —. \"Nonetheless, my future albums will only be made available there three months after their original release dates.\" Music lovers who want to buy them before that time will have to use Saroto.\n\nOntMusic has not yet made a public statement about the change. — [4] —. Purchases made through its store, one of the first entrants into the online music market, account for more than half of all digital music sales in Canada. Still, some warn that Saroto may be its most serious challenger to date.",
+      "questions": [
+        {
+          "number": 161,
+          "question": "According to the article, what is one reason for Ms. Pate's decisions?",
+          "choices": {
+            "A": "She wants to promote lesser-known musicians.",
+            "B": "She is concerned about falling album sales.",
+            "C": "She plans to retire from the music industry.",
+            "D": "She supports a technologically superior option."
+          }
+        },
+        {
+          "number": 162,
+          "question": "What will OntMusic no longer do?",
+          "choices": {
+            "A": "Feature Ms. Pate on its main page",
+            "B": "Offer Ms. Pate's entire past catalog",
+            "C": "Sell Ms. Pate's new music immediately",
+            "D": "Allow Ms. Pate's works to be streamed for free"
+          }
+        },
+        {
+          "number": 163,
+          "question": "The phrase \"account for\" in paragraph 4, line 5, is closest in meaning to",
+          "choices": {
+            "A": "justify",
+            "B": "calculate",
+            "C": "represent",
+            "D": "perceive"
+          }
+        },
+        {
+          "number": 164,
+          "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"In the past, the company dismissed concerns about similar situations by citing its market domination.\"",
+          "choices": {
+            "A": "[1]",
+            "B": "[2]",
+            "C": "[3]",
+            "D": "[4]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3-p7-8",
+      "type": "text-message chain",
+      "title": "",
+      "text": "Rick Stayton (9:41 A.M.): Ms. Ito, the flooring materials that were supposed to be delivered to us today won't arrive until Monday. That's going to push your renovations back several days.\nBeth Ito (9:43 A.M.): That's not good. Remember, the longer the restaurant is closed, the more likely it is that my employees will decide to quit and find other jobs.\nRick Stayton (9:44 A.M.): Yes, I know. We're going to try to minimize the delay by working in other areas until the shipment comes. For example, we can get some of the outside work done.\nBeth Ito (9:46 A.M.): Oh, actually, I wanted to talk to you about the exterior. I think it would be better to hang the sign up higher on the north wall, so that it can be seen from farther away. Do you think it would make that wall look unbalanced, though?\nRick Stayton (9:47 A.M.): Well, we're going to work on the roof today. I'll let you know when we're getting close to installing the sign.\nBeth Ito (9:49 A.M.): All right. Is there anything else you can do to speed up the process?\nRick Stayton (9:52 A.M.): Well, I can phone Cook-Demi Ltd. early next week to start coordinating the installation of the kitchen appliances you had ordered from them.\nBeth Ito (9:53 A.M.): Terrific. I appreciate that.",
+      "questions": [
+        {
+          "number": 165,
+          "question": "According to Mr. Stayton, why is some work being delayed?",
+          "choices": {
+            "A": "The budget has been decreased.",
+            "B": "A supervisor is absent.",
+            "C": "A delivery has not arrived yet.",
+            "D": "The wrong type of materials was shipped."
+          }
+        },
+        {
+          "number": 166,
+          "question": "Who most likely is Ms. Ito?",
+          "choices": {
+            "A": "A commercial architect",
+            "B": "A journalist for a newspaper",
+            "C": "An owner of a restaurant",
+            "D": "A local safety inspector"
+          }
+        },
+        {
+          "number": 167,
+          "question": "At 9:47 A.M., what does Mr. Stayton most likely mean when he writes, \"we're going to work on the roof today\"?",
+          "choices": {
+            "A": "Ms. Ito will not be able to enter the building.",
+            "B": "He is not sure about another crew's plans.",
+            "C": "A proposal can be discussed later.",
+            "D": "The renovations are almost finished."
+          }
+        },
+        {
+          "number": 168,
+          "question": "What does Mr. Stayton offer to do for Ms. Ito?",
+          "choices": {
+            "A": "Lower the price of a service",
+            "B": "Refer customers to a business",
+            "C": "Contact an equipment supplier",
+            "D": "Lead an upcoming facility tour"
+          }
+        }
+      ]
+    }
+  ]
+}

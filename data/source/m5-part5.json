@@ -1,0 +1,156 @@
+{
+  "test": "m5",
+  "part": 5,
+  "questions": [
+    {
+      "number": 101,
+      "question": "The new beverage from the Elmhurst Corporation can be described _____ a nutritional energy drink.",
+      "choices": {"A": "for", "B": "by", "C": "as", "D": "to"}
+    },
+    {
+      "number": 102,
+      "question": "The upfront investment in the manufacturing sector will _____ result in the creation of hundreds of jobs.",
+      "choices": {"A": "commonly", "B": "constantly", "C": "ultimately", "D": "formerly"}
+    },
+    {
+      "number": 103,
+      "question": "The office manager hoped to _____ the changes to the dress code policy at the meeting.",
+      "choices": {"A": "clarified", "B": "clarifies", "C": "clarifying", "D": "clarify"}
+    },
+    {
+      "number": 104,
+      "question": "The noise from the construction equipment outside of Mr. Polanco's office made it difficult to _____.",
+      "choices": {"A": "lower", "B": "concentrate", "C": "obtain", "D": "obstruct"}
+    },
+    {
+      "number": 105,
+      "question": "Due to the very competitive nature of the field, the managers are seeking new and unique _____ to reaching customers.",
+      "choices": {"A": "approachable", "B": "approaches", "C": "approach", "D": "approached"}
+    },
+    {
+      "number": 106,
+      "question": "After receiving _____ complaints about the device overheating, Wayvon Electronics recalled its new smartphone.",
+      "choices": {"A": "numerated", "B": "number", "C": "numerate", "D": "numerous"}
+    },
+    {
+      "number": 107,
+      "question": "The originality of Ms. Lanham's entry could not be denied, _____ she did not make it to the final round of the art competition.",
+      "choices": {"A": "for", "B": "so", "C": "yet", "D": "and"}
+    },
+    {
+      "number": 108,
+      "question": "Staff members at this company are expected to give as much notice as possible whenever _____ need time off work for a vacation.",
+      "choices": {"A": "ourselves", "B": "we", "C": "our", "D": "ours"}
+    },
+    {
+      "number": 109,
+      "question": "After reviewing the two submitted bids, council members selected the more _____ option because of the company's reputation for reliability.",
+      "choices": {"A": "costing", "B": "costlier", "C": "cost", "D": "costly"}
+    },
+    {
+      "number": 110,
+      "question": "The physician explained that a feeling of dizziness _____ accompanies increased thirst when a patient has not drunk enough water.",
+      "choices": {"A": "next", "B": "either", "C": "much", "D": "often"}
+    },
+    {
+      "number": 111,
+      "question": "The emphasis placed _____ teamwork helps Espinoza International's employees feel supported.",
+      "choices": {"A": "on", "B": "to", "C": "of", "D": "among"}
+    },
+    {
+      "number": 112,
+      "question": "For safety reasons, all employees and customers must _____ the building when the fire alarm sounds.",
+      "choices": {"A": "decline", "B": "dispose", "C": "vacate", "D": "suspend"}
+    },
+    {
+      "number": 113,
+      "question": "Those who are familiar with the jazz trio's first album may find its latest release to be _____ similar.",
+      "choices": {"A": "recognized", "B": "recognizably", "C": "recognizable", "D": "recognizes"}
+    },
+    {
+      "number": 114,
+      "question": "Analysts predict that Bolman Automotive will have a _____ for its hybrid vehicles for at least the next few years.",
+      "choices": {"A": "demands", "B": "demanded", "C": "demanding", "D": "demand"}
+    },
+    {
+      "number": 115,
+      "question": "Ms. Jang was offered a promotion after handling the emergency procedures during the power outage _____.",
+      "choices": {"A": "admiring", "B": "admirably", "C": "admiration", "D": "admirable"}
+    },
+    {
+      "number": 116,
+      "question": "The annual community softball tournament welcomes teams of all ages and _____ abilities.",
+      "choices": {"A": "athletic", "B": "athlete", "C": "athletically", "D": "athletes"}
+    },
+    {
+      "number": 117,
+      "question": "Owing to the package's _____ contents, the courier was instructed not to stack anything heavy on top of it.",
+      "choices": {"A": "fragile", "B": "sudden", "C": "vivid", "D": "shallow"}
+    },
+    {
+      "number": 118,
+      "question": "Once the sales personnel were informed that the product launch exceeded projections, they realized they had been _____ worried.",
+      "choices": {"A": "obviously", "B": "lastingly", "C": "needlessly", "D": "strategically"}
+    },
+    {
+      "number": 119,
+      "question": "All massage therapists working at the Sunset Spa are required to have valid state _____ as well as three years of experience.",
+      "choices": {"A": "certify", "B": "certified", "C": "certifiable", "D": "certification"}
+    },
+    {
+      "number": 120,
+      "question": "Surprisingly, Mr. Saraf can _____ arrive faster by train because traveling by air requires a long security procedure.",
+      "choices": {"A": "whether", "B": "both", "C": "still", "D": "despite"}
+    },
+    {
+      "number": 121,
+      "question": "The jet ski is unlikely to flip over when in operation, but users must nonetheless take the necessary _____.",
+      "choices": {"A": "resources", "B": "precautions", "C": "announcements", "D": "descriptions"}
+    },
+    {
+      "number": 122,
+      "question": "Most tenants agree that the landlord made the right decision _____ the addition of motion-sensor lights near the side entrances.",
+      "choices": {"A": "since", "B": "regarding", "C": "into", "D": "underneath"}
+    },
+    {
+      "number": 123,
+      "question": "The creators of the product claim that if you spray it evenly on carpeting or curtains, any odor _____ within a few minutes.",
+      "choices": {"A": "to eliminate", "B": "to be eliminated", "C": "will eliminate", "D": "will be eliminated"}
+    },
+    {
+      "number": 124,
+      "question": "PG Internet was able to expand its network exponentially thanks to a number of important _____ in technology.",
+      "choices": {"A": "promotions", "B": "advancements", "C": "elevations", "D": "enlargements"}
+    },
+    {
+      "number": 125,
+      "question": "Local art enthusiasts were delighted at the news that the museum procured a rare painting _____ to be worth over two million euros.",
+      "choices": {"A": "estimating", "B": "has estimated", "C": "was estimated", "D": "estimated"}
+    },
+    {
+      "number": 126,
+      "question": "Officials are taking extraordinary measures to prevent some people from putting more _____ currency into circulation.",
+      "choices": {"A": "biased", "B": "negligent", "C": "reckless", "D": "counterfeit"}
+    },
+    {
+      "number": 127,
+      "question": "Consumers were encouraged to return all battery packs to the manufacturer during its recall, however _____ they may be.",
+      "choices": {"A": "operational", "B": "operation", "C": "operationally", "D": "operates"}
+    },
+    {
+      "number": 128,
+      "question": "The general consensus is that too much television near bedtime is bad for one's health, but Dr. Iversen set out to prove _____.",
+      "choices": {"A": "instead", "B": "opposite", "C": "otherwise", "D": "else"}
+    },
+    {
+      "number": 129,
+      "question": "Because she enjoys learning about other cultures, Ms. Fernandez prefers to take vacations overseas _____ stay closer to home.",
+      "choices": {"A": "in order that", "B": "as if", "C": "whereas", "D": "rather than"}
+    },
+    {
+      "number": 130,
+      "question": "Thanks to their beautiful illustrations and charming storylines, Alice Boyd's children's books have been _____ popular.",
+      "choices": {"A": "willingly", "B": "enduringly", "C": "hastily", "D": "scarcely"}
+    }
+  ]
+}

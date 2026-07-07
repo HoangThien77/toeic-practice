@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>TOEIC Practice — Luyện thi TOEIC</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="brand" onclick="App.goHome(); return false;">🎧 TOEIC<span>Practice</span></a>
+    <div id="topbar-right">
+      <span id="timer-display" class="hidden"></span>
+      <button id="btn-exit" class="btn btn-ghost hidden" onclick="App.confirmExit()">Thoát</button>
+    </div>
+  </div>
+</header>
+
+<main id="screen"></main>
+
+<div id="audio-dock" class="hidden">
+  <audio id="audio-el" preload="auto"></audio>
+  <div class="dock-inner">
+    <button id="dock-play" class="btn btn-round" onclick="App.audioToggle()">▶</button>
+    <button id="dock-speed" class="btn btn-sm dock-tool" onclick="App.cycleSpeed()" title="Tốc độ phát">1x</button>
+    <button id="dock-loop" class="btn btn-sm dock-tool" onclick="App.toggleLoop()" title="Lặp lại đoạn đang nghe">🔁</button>
+    <div class="dock-track" id="dock-track"><div class="dock-progress" id="dock-progress"></div></div>
+    <span id="dock-time">0:00</span>
+  </div>
+</div>
+
+<div id="modal-backdrop" class="hidden" onclick="App.closeModal(event)">
+  <div id="modal" onclick="event.stopPropagation()"></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+{
+  "test": "m3",
+  "part": 5,
+  "questions": [
+    {
+      "number": 101,
+      "question": "_____ your order is being processed, please call customer service with any questions.",
+      "choices": {"A": "Still", "B": "Either", "C": "While", "D": "Also"}
+    },
+    {
+      "number": 102,
+      "question": "ABC Truck Supplies has the _____ selection of mufflers in the state.",
+      "choices": {"A": "natural", "B": "widest", "C": "overall", "D": "positive"}
+    },
+    {
+      "number": 103,
+      "question": "Sharswood Landscaping has received dozens of five-star _____ for its work.",
+      "choices": {"A": "reviews", "B": "reviewer", "C": "reviewed", "D": "reviewing"}
+    },
+    {
+      "number": 104,
+      "question": "Dr. Cho will visit the Teledarr Lab during the annual open house, since _____ may not have another chance to see it.",
+      "choices": {"A": "hers", "B": "she", "C": "her", "D": "herself"}
+    },
+    {
+      "number": 105,
+      "question": "Dorn Department Store decided to _____ its already large selection of housewares.",
+      "choices": {"A": "create", "B": "enforce", "C": "apply", "D": "expand"}
+    },
+    {
+      "number": 106,
+      "question": "We _____ that you bring a portfolio of work samples to the interview.",
+      "choices": {"A": "was asking", "B": "have asked", "C": "ask", "D": "asks"}
+    },
+    {
+      "number": 107,
+      "question": "Members of the Bold Stone Farm Store receive _____ discounts on all purchases.",
+      "choices": {"A": "depth", "B": "deepen", "C": "deep", "D": "deeply"}
+    },
+    {
+      "number": 108,
+      "question": "If your plans change, please contact us at least 24 hours before the time of your _____.",
+      "choices": {"A": "reserved", "B": "reservation", "C": "reservable", "D": "reserve"}
+    },
+    {
+      "number": 109,
+      "question": "Hold the tomato seedling gently by the stem in order to avoid harming _____ roots.",
+      "choices": {"A": "its", "B": "at", "C": "that", "D": "in"}
+    },
+    {
+      "number": 110,
+      "question": "At the registration table, be sure to collect your name tag _____ entering the conference.",
+      "choices": {"A": "very", "B": "often", "C": "always", "D": "before"}
+    },
+    {
+      "number": 111,
+      "question": "Maihama vehicles include an extended _____ to cover engine repairs.",
+      "choices": {"A": "record", "B": "operation", "C": "budget", "D": "warranty"}
+    },
+    {
+      "number": 112,
+      "question": "The hotel's new Web site features an _____ collection of high-quality images.",
+      "choices": {"A": "absolute", "B": "efficient", "C": "impressive", "D": "undefeated"}
+    },
+    {
+      "number": 113,
+      "question": "On behalf of everyone at Uniontown Bank, we _____ thank you for your continued patronage.",
+      "choices": {"A": "deservedly", "B": "commonly", "C": "sincerely", "D": "perfectly"}
+    },
+    {
+      "number": 114,
+      "question": "Fragile equipment must be stored in a secure location so that nothing is _____ damaged.",
+      "choices": {"A": "accident", "B": "accidents", "C": "accidental", "D": "accidentally"}
+    },
+    {
+      "number": 115,
+      "question": "Ms. Sampson will not arrive at the convention _____ after our team's presentation.",
+      "choices": {"A": "until", "B": "lately", "C": "from", "D": "when"}
+    },
+    {
+      "number": 116,
+      "question": "The community picnic will be held _____ the park behind the Seltzer Public Library.",
+      "choices": {"A": "in", "B": "all", "C": "for", "D": "here"}
+    },
+    {
+      "number": 117,
+      "question": "The new hires _____ for an orientation on May 10 at 9:00 A.M.",
+      "choices": {"A": "to be gathering", "B": "will gather", "C": "gathering", "D": "to gather"}
+    },
+    {
+      "number": 118,
+      "question": "When Mr. Young approached the desk, the receptionist _____ offered him a seat in the waiting room.",
+      "choices": {"A": "politely", "B": "polite", "C": "politeness", "D": "politest"}
+    },
+    {
+      "number": 119,
+      "question": "Members of the Marvale marketing team claimed that _____ was the best design for the new corporate logo.",
+      "choices": {"A": "they", "B": "them", "C": "theirs", "D": "their"}
+    },
+    {
+      "number": 120,
+      "question": "The new Kitsuna video camera is currently on sale for $375, not _____ tax.",
+      "choices": {"A": "excepting", "B": "alongside", "C": "within", "D": "including"}
+    },
+    {
+      "number": 121,
+      "question": "All associates are _____ to follow the standard operating procedures outlined in the handbook.",
+      "choices": {"A": "concerned", "B": "tended", "C": "maintained", "D": "expected"}
+    },
+    {
+      "number": 122,
+      "question": "This month Framley Publishing House is embarking on its _____ expansion so far.",
+      "choices": {"A": "ambitiously", "B": "most ambitiously", "C": "ambition", "D": "most ambitious"}
+    },
+    {
+      "number": 123,
+      "question": "After months of collaboration, Matricks Technology's software developers _____ released a top-quality product.",
+      "choices": {"A": "profoundly", "B": "overly", "C": "finally", "D": "intensely"}
+    },
+    {
+      "number": 124,
+      "question": "Tickets are valid for one-time access and do not allow for _____ into the venue.",
+      "choices": {"A": "duplication", "B": "reentry", "C": "permission", "D": "turnover"}
+    },
+    {
+      "number": 125,
+      "question": "We hired Okafor Construction to do the renovation _____ it was not the lowest bidder on the project.",
+      "choices": {"A": "if only", "B": "alternatively", "C": "whereas", "D": "even though"}
+    },
+    {
+      "number": 126,
+      "question": "The first _____ of the training will introduce staff to certain workplace responsibilities.",
+      "choices": {"A": "part", "B": "parted", "C": "parting", "D": "partial"}
+    },
+    {
+      "number": 127,
+      "question": "According to industry _____, Ghirra Company plans to relocate its headquarters to Australia.",
+      "choices": {"A": "reported", "B": "reportedly", "C": "reporter", "D": "reports"}
+    },
+    {
+      "number": 128,
+      "question": "Next month, the Kneath House will host an exhibition of _____ furniture and clothing from the eighteenth century.",
+      "choices": {"A": "authentic", "B": "authentically", "C": "authenticate", "D": "authenticity"}
+    },
+    {
+      "number": 129,
+      "question": "PKTM's regional managers serve _____ the direction of the vice president.",
+      "choices": {"A": "among", "B": "under", "C": "behind", "D": "opposite"}
+    },
+    {
+      "number": 130,
+      "question": "_____ a recent surge in demand, Vanita's Catering is hiring four additional servers.",
+      "choices": {"A": "Everywhere", "B": "Possibly", "C": "In total", "D": "Owing to"}
+    }
+  ]
+}

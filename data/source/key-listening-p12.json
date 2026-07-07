@@ -1,0 +1,382 @@
+{
+  "answers": {
+    "1": {
+      "answer": "B",
+      "explanation": "Trong ảnh, người phụ nữ đang đứng trước tủ và kéo/mở một ngăn kéo, đúng với 'A woman is opening a drawer'. Cô ấy không cầm dụng cụ điện (A), không ai rút phích cắm máy in (C) và không có ai xếp văn phòng phẩm vào hộp (D).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "A woman is holding a power tool.",
+          "B": "A woman is opening a drawer.",
+          "C": "A printer is being unplugged.",
+          "D": "Office supplies are being put into a box."
+        }
+      }
+    },
+    "2": {
+      "answer": "D",
+      "explanation": "Người đàn ông đang đứng cạnh khu trưng bày các chậu cây trong vườn ươm, đúng với 'A man is near a display of potted plants'. Cây để trên bàn gỗ chứ không nằm trên xe đẩy (A), không thấy bình tưới (B) và ông ấy không đào đất (C).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "Plants are on top of a cart.",
+          "B": "A watering can is next to some trees.",
+          "C": "A man is digging in a garden.",
+          "D": "A man is near a display of potted plants."
+        }
+      }
+    },
+    "3": {
+      "answer": "C",
+      "explanation": "Người đàn ông trong phòng tập đang nâng một quả tạ tay, đúng với 'The man is lifting a weight'. Anh ấy không sửa máy móc (A), không mua thiết bị (B) và không nhìn lên trần nhà (D).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "The man is fixing a machine.",
+          "B": "The man is buying some equipment.",
+          "C": "The man is lifting a weight.",
+          "D": "The man is looking at the ceiling."
+        }
+      }
+    },
+    "4": {
+      "answer": "A",
+      "explanation": "Bức tường được trang trí bằng nhiều đồ vật khác nhau (gạc hươu, tranh, vòng hoa), đúng với 'A wall is decorated with various items'. Hai chiếc ghế không chắn lối đi (B), cửa không được chèn mở bằng bức tượng (C) và bức tranh không treo cạnh cửa sổ (D).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "A wall is decorated with various items.",
+          "B": "Two chairs are blocking a doorway.",
+          "C": "A door has been propped open with a statue.",
+          "D": "A painting is hanging next to a window."
+        }
+      }
+    },
+    "5": {
+      "answer": "A",
+      "explanation": "Vài người đang xem hàng trong một cửa hàng, đúng với 'Some people are browsing in a shop'. Không ai trao đổi quà (B), không thấy cảnh thanh toán (C) và không có nhân viên đang bày hàng (D).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "Some people are browsing in a shop.",
+          "B": "Some people are exchanging gifts.",
+          "C": "A customer is paying for some goods.",
+          "D": "Some salespeople are preparing a display."
+        }
+      }
+    },
+    "6": {
+      "answer": "B",
+      "explanation": "Trong ảnh có một đống đất nằm trên mặt đất cạnh mấy chiếc cọc tiêu, đúng với 'Some soil is in a pile on the ground'. Cọc tiêu đặt trong bãi đỗ xe quanh đống đất chứ không chặn đường (A), và không có cái cây nào nằm chắn trên đường (D).",
+      "spoken": {
+        "question": "",
+        "choices": {
+          "A": "Cones are blocking access to a road.",
+          "B": "Some soil is in a pile on the ground.",
+          "C": "Some bushes have been planted in front of a building.",
+          "D": "A tree is lying in the roadway."
+        }
+      }
+    },
+    "7": {
+      "answer": "C",
+      "explanation": "Câu hỏi 'Who' hỏi ai phụ trách tuyển dụng, nên câu trả lời nêu tên người ('Mr. Lynn and Ms. Weiss are') là đúng. A nói về việc đăng ký hội viên và B nói về việc quên ký tên, đều lạc đề.",
+      "spoken": {
+        "question": "Who's responsible for hiring at our fitness center?",
+        "choices": {
+          "A": "Mr. Gonzalez is going to get a membership.",
+          "B": "I forgot to sign in at reception.",
+          "C": "Mr. Lynn and Ms. Weiss are."
+        }
+      }
+    },
+    "8": {
+      "answer": "B",
+      "explanation": "Câu hỏi 'Where' hỏi nơi mua văn phòng phẩm, nên đáp án chỉ địa điểm mua hàng 'at the store on Maple Avenue' là đúng. A nói nơi cất đồ (không phải nơi mua) và C về sự phê duyệt của quản lý, không trả lời câu hỏi.",
+      "spoken": {
+        "question": "Where do you usually purchase office supplies?",
+        "choices": {
+          "A": "We put them in the hallway cabinets.",
+          "B": "At the store on Maple Avenue.",
+          "C": "A manager's approval."
+        }
+      }
+    },
+    "9": {
+      "answer": "A",
+      "explanation": "Câu hỏi 'What time' hỏi giờ ông Park thường rời đi, nên đáp án nêu thời gian 'around six o'clock in the evening' là đúng. B chơi chữ với 'leave/left' nhưng sai nghĩa, C nói về thực tập sinh, lạc đề.",
+      "spoken": {
+        "question": "What time does Mr. Park usually leave?",
+        "choices": {
+          "A": "Around six o'clock in the evening.",
+          "B": "He left everything we need.",
+          "C": "We've had many interns over the years."
+        }
+      }
+    },
+    "10": {
+      "answer": "B",
+      "explanation": "Với lời đề nghị trình bày nghiên cứu, câu trả lời 'If we can find the time for it' (nếu sắp xếp được thời gian) là phản hồi hợp lý. A trả lời như thể nghe tin đồn, C nói về món quà (bẫy âm 'present' - quà), đều không phù hợp.",
+      "spoken": {
+        "question": "Do you want to present your research to the marketing team?",
+        "choices": {
+          "A": "That's what I've heard as well.",
+          "B": "If we can find the time for it.",
+          "C": "Yes, I received the gift."
+        }
+      }
+    },
+    "11": {
+      "answer": "C",
+      "explanation": "Câu hỏi đuôi xác nhận buổi picnic diễn ra vào thứ Sáu, và 'Right, in two days' xác nhận đúng và bổ sung là còn hai ngày nữa. A nói về khung giờ đã kín lịch và B về việc tìm đồ, đều lạc đề.",
+      "spoken": {
+        "question": "Our company picnic is on Friday, isn't it?",
+        "choices": {
+          "A": "Those times are both booked.",
+          "B": "Only if you can find them easily.",
+          "C": "Right, in two days."
+        }
+      }
+    },
+    "12": {
+      "answer": "A",
+      "explanation": "Câu hỏi phủ định xác nhận xe buýt có dừng ở đây không, và 'Yes, according to the schedule' (có, theo lịch trình) trả lời trực tiếp. B nói người trả lời đang trên đường đi và C về danh sách khách hàng, đều không liên quan.",
+      "spoken": {
+        "question": "Isn't the bus supposed to stop here?",
+        "choices": {
+          "A": "Yes, according to the schedule.",
+          "B": "I'm on my way now.",
+          "C": "It listed several potential clients."
+        }
+      }
+    },
+    "13": {
+      "answer": "B",
+      "explanation": "Câu hỏi đuôi đề nghị xử lý đơn hàng nhanh, và 'Yes, it's for an important client' đồng ý kèm lý do (đơn của khách hàng quan trọng). A trả lời 'No, I haven't yet' không khớp dạng câu hỏi, C về chìa khóa, lạc đề.",
+      "spoken": {
+        "question": "We should fill this order quickly, shouldn't we?",
+        "choices": {
+          "A": "No, I haven't yet.",
+          "B": "Yes, it's for an important client.",
+          "C": "Try using this key."
+        }
+      }
+    },
+    "14": {
+      "answer": "A",
+      "explanation": "Câu hỏi cảm nhận về công việc mới, và 'I can work from home quite often' nêu điểm tích cực của công việc, là câu trả lời phù hợp. B chỉ nêu tên ngành nghề và C nói ai giúp nộp đơn, không trả lời cảm nhận.",
+      "spoken": {
+        "question": "How do you like your new job?",
+        "choices": {
+          "A": "I can work from home quite often.",
+          "B": "A career in electrical engineering.",
+          "C": "My sister helped me apply."
+        }
+      }
+    },
+    "15": {
+      "answer": "C",
+      "explanation": "Với lời rủ đi ăn trưa ở căng tin, 'I don't think I can take a break' (tôi không nghĩ mình nghỉ được) là lời từ chối hợp lý. A nói về tủ hồ sơ, lạc đề; B hỏi ngược về nhà hàng địa phương trong khi lời rủ đã chỉ rõ căng tin.",
+      "spoken": {
+        "question": "Let's go to the cafeteria for lunch today.",
+        "choices": {
+          "A": "There should be one in the filing cabinet.",
+          "B": "Which local restaurant do you prefer?",
+          "C": "I don't think I can take a break."
+        }
+      }
+    },
+    "16": {
+      "answer": "A",
+      "explanation": "Câu hỏi 'When' về thời điểm tuyển thực tập sinh, và 'Mr. Wyeth is handling that' là câu trả lời gián tiếp hợp lý (người phụ trách mới biết). B và C không trả lời được câu hỏi về thời gian tuyển dụng.",
+      "spoken": {
+        "question": "When will we hire the new interns?",
+        "choices": {
+          "A": "Mr. Wyeth is handling that.",
+          "B": "With more time to spare than usual.",
+          "C": "The highest available salary."
+        }
+      }
+    },
+    "17": {
+      "answer": "C",
+      "explanation": "Câu hỏi 'How often' về tần suất gửi sao kê, nên 'We send them out once a month' (mỗi tháng một lần) trả lời đúng. A trả lời Yes/No cho câu hỏi Wh- là sai, B chỉ nêu địa điểm bưu điện, không nói tần suất.",
+      "spoken": {
+        "question": "How often should I mail these statements?",
+        "choices": {
+          "A": "Yes, you can buy one online.",
+          "B": "The post office on Grant Street.",
+          "C": "We send them out once a month."
+        }
+      }
+    },
+    "18": {
+      "answer": "B",
+      "explanation": "Câu hỏi 'Why' về lý do bỏ thức ăn vào tủ đông, và 'I meant to put it in the refrigerator' (tôi định bỏ vào ngăn mát) giải thích rằng đó là nhầm lẫn. A nói tủ đông hỏng không giải thích hành động, C rủ nấu ăn, lạc đề.",
+      "spoken": {
+        "question": "Why did you put that food in the freezer?",
+        "choices": {
+          "A": "It's not working well currently.",
+          "B": "I meant to put it in the refrigerator.",
+          "C": "Let's start making dinner soon."
+        }
+      }
+    },
+    "19": {
+      "answer": "A",
+      "explanation": "Với lời nhờ in chương trình họp, 'It's already on your desk' (đã để sẵn trên bàn anh rồi) cho biết việc đã xong, là phản hồi hợp lý. B và C dùng từ bẫy 'printer/client' nhưng không trả lời yêu cầu.",
+      "spoken": {
+        "question": "Could you print the agenda for the meeting?",
+        "choices": {
+          "A": "It's already on your desk.",
+          "B": "No, the other printer.",
+          "C": "Was that a client?"
+        }
+      }
+    },
+    "20": {
+      "answer": "A",
+      "explanation": "Câu hỏi 'How far' về khoảng cách đến phòng khám, và 'I'm close enough to walk' (đủ gần để đi bộ) trả lời đúng về khoảng cách. B nói lý do cần gặp bác sĩ và C nhận xét phòng khám nổi tiếng, đều không trả lời khoảng cách.",
+      "spoken": {
+        "question": "How far are you from the clinic?",
+        "choices": {
+          "A": "I'm close enough to walk.",
+          "B": "I need to see the doctor.",
+          "C": "It's a well-known clinic."
+        }
+      }
+    },
+    "21": {
+      "answer": "B",
+      "explanation": "Câu hỏi phủ định về việc đã nhận bản in bản tin công ty từ Emiko chưa, và 'I was out of town last week' (tuần trước tôi đi vắng) giải thích gián tiếp lý do chưa nhận. A nói về thâm niên của cô ấy và C về sở thích viết lách, đều lạc đề.",
+      "spoken": {
+        "question": "Didn't you get a printout of the company newsletter from Emiko?",
+        "choices": {
+          "A": "She started working here three years ago.",
+          "B": "I was out of town last week.",
+          "C": "Yes, I do like to write."
+        }
+      }
+    },
+    "22": {
+      "answer": "C",
+      "explanation": "Câu hỏi 'When' về thời điểm cần gia hạn hộ chiếu, và 'Soon, because it's about to expire' (sắp rồi, vì nó sắp hết hạn) trả lời đúng. A khuyên giữ vé cẩn thận và B nói về vi mạch, đều không liên quan.",
+      "spoken": {
+        "question": "When do you need to renew your passport?",
+        "choices": {
+          "A": "Be careful not to lose your tickets.",
+          "B": "A brand new type of microchip.",
+          "C": "Soon, because it's about to expire."
+        }
+      }
+    },
+    "23": {
+      "answer": "B",
+      "explanation": "Câu hỏi 'Who' tìm người giúp tìm linh kiện thay thế, và 'I can help you look through the inventory' (tôi có thể giúp anh tra kho hàng) là lời đề nghị giúp trực tiếp. A về các bản sao kê và C bảo xếp đồ lên kệ, đều lạc đề.",
+      "spoken": {
+        "question": "Who can help me find replacement parts for my computer?",
+        "choices": {
+          "A": "Here are all the latest statements.",
+          "B": "I can help you look through the inventory.",
+          "C": "Put these on that shelf."
+        }
+      }
+    },
+    "24": {
+      "answer": "A",
+      "explanation": "Trước lời thông báo không dự tiệc tối công ty được, 'Managers expect everyone to be there' (các quản lý mong mọi người đều có mặt) là lời nhắc/phản đối hợp lý. B chỉ mô tả kiểu nhà hàng và C nói về lịch họp, không phù hợp.",
+      "spoken": {
+        "question": "I can't make it to the company dinner tonight.",
+        "choices": {
+          "A": "Managers expect everyone to be there.",
+          "B": "A buffet-style restaurant.",
+          "C": "A meeting once a week."
+        }
+      }
+    },
+    "25": {
+      "answer": "B",
+      "explanation": "Câu hỏi Yes/No về việc có làm việc ở khu này không, và 'No, my office isn't nearby' (không, văn phòng tôi không ở gần đây) trả lời trực tiếp. A 'Yes, I'd like to' trả lời như một lời mời, C nói về thứ không tồn tại ở đây, đều không khớp.",
+      "spoken": {
+        "question": "Do you work in this neighborhood?",
+        "choices": {
+          "A": "Yes, I'd like to.",
+          "B": "No, my office isn't nearby.",
+          "C": "There aren't any of those here."
+        }
+      }
+    },
+    "26": {
+      "answer": "A",
+      "explanation": "Trước câu hỏi đuôi về việc đến kỳ báo cáo thu nhập quý, câu hỏi ngược 'Was there an email reminder about it?' (có email nhắc về việc đó không?) là phản hồi tự nhiên. B trả lời cho câu hỏi mục đích chi tiền, C bẫy âm 'earnings/earrings' (bông tai).",
+      "spoken": {
+        "question": "It's time for our quarterly earnings report, isn't it?",
+        "choices": {
+          "A": "Was there an email reminder about it?",
+          "B": "To pay for a new advertising campaign.",
+          "C": "No, a different pair of earrings."
+        }
+      }
+    },
+    "27": {
+      "answer": "B",
+      "explanation": "Câu hỏi 'What did you do with...' về việc xử lý danh sách khách mời, và 'I passed it along to everyone who needed it' (tôi đã chuyển cho những người cần) trả lời đúng. A trả lời thời điểm ('After...') và C nói về việc sắp phải đi, đều lạc đề.",
+      "spoken": {
+        "question": "What did you do with the guest list that I sent you?",
+        "choices": {
+          "A": "After everyone received it.",
+          "B": "I passed it along to everyone who needed it.",
+          "C": "We're supposed to leave soon."
+        }
+      }
+    },
+    "28": {
+      "answer": "C",
+      "explanation": "Câu hỏi đã xem thông báo thăng chức của Emily chưa, và 'I've been busy all morning' (tôi bận cả sáng) ngụ ý là chưa xem, là câu trả lời gián tiếp hợp lý. A về nâng cấp công nghệ và B về cố vấn nghề nghiệp, đều lạc đề.",
+      "spoken": {
+        "question": "Did you see the announcement about Emily's promotion?",
+        "choices": {
+          "A": "All the technology's been upgraded.",
+          "B": "Perhaps a good career counselor.",
+          "C": "I've been busy all morning."
+        }
+      }
+    },
+    "29": {
+      "answer": "B",
+      "explanation": "Trước lời kêu gọi cố gắng hoàn thành dự án đúng hạn, 'We may need a few more days' (có lẽ cần thêm vài ngày) là phản hồi trực tiếp về tiến độ. A nói 'tất cả trừ cái đầu tiên' và C nói mơ hồ về 'over time', đều không phù hợp.",
+      "spoken": {
+        "question": "Let's try our best to finish the project on time.",
+        "choices": {
+          "A": "All except the first one.",
+          "B": "We may need a few more days.",
+          "C": "I think over time it will."
+        }
+      }
+    },
+    "30": {
+      "answer": "C",
+      "explanation": "Câu hỏi 'Where' về vị trí của quản lý cửa hàng, và 'She went out for lunch' (cô ấy ra ngoài ăn trưa) trả lời đúng nơi cô ấy đang ở. A về quyết định tuyển dụng và B về sở thích mua sắm, đều không trả lời câu hỏi.",
+      "spoken": {
+        "question": "Where's the store manager?",
+        "choices": {
+          "A": "A recent hiring decision.",
+          "B": "I enjoy shopping at that store.",
+          "C": "She went out for lunch."
+        }
+      }
+    },
+    "31": {
+      "answer": "B",
+      "explanation": "Trước nhận xét phần mềm không đáng tin cậy, 'I've been using it for years with no problems' (tôi dùng nhiều năm mà không gặp vấn đề gì) là lời phản bác trực tiếp. A nói về ghế và C nói thấy máy tính ở cửa hàng, đều lạc đề.",
+      "spoken": {
+        "question": "The software you're using isn't very reliable.",
+        "choices": {
+          "A": "These chairs aren't very comfortable.",
+          "B": "I've been using it for years with no problems.",
+          "C": "I saw that computer at the store."
+        }
+      }
+    }
+  }
+}
