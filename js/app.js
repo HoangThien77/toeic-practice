@@ -624,22 +624,22 @@
 
   function uploadFormHtml(cloud) {
     const guide = cloud ? `
-      <details class="up-guide">
-        <summary>Xem hướng dẫn upload từng bước (40 giây)</summary>
-        <img src="assets/img/guide-upload.gif?v=2" alt="Hướng dẫn upload đề" loading="lazy">
+      <aside class="guide-panel">
+        <h3>Hướng dẫn nhanh <span>35 giây · tự lặp lại</span></h3>
+        <video src="assets/img/guide-upload.mp4?v=3" autoplay muted loop playsinline></video>
         <ol>
           <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
           <li>Kéo thả (hoặc bấm chọn) file PDF đề; nếu đề có bài nghe thì thả thêm file MP3.</li>
           <li>Bấm "Gửi đề" — xong! Đề sẽ tự được số hóa và xuất hiện trên web này sau vài giờ.</li>
         </ol>
-      </details>` : "";
+      </aside>` : "";
     return `
       <div class="hero"><h1>${cloud ? "Gửi đề mới" : "Tải đề mới lên"}</h1>
         <p class="home-sub">${cloud
           ? "Chọn file đề PDF (kèm audio nếu có bài nghe) rồi gửi — hệ thống tự số hóa, tạo đáp án + giải thích tiếng Việt và đưa đề lên web này, thường trong vài giờ."
           : 'Chọn file đề PDF (kèm audio nếu có bài nghe). Sau khi tải lên, bấm "Xử lý ngay" — Claude tự đọc đề, tạo đáp án + giải thích (~5–15 phút).'}</p>
       </div>
-      ${guide}
+      <div class="upload-wrap${cloud ? " has-guide" : ""}">
       <div class="up-card">
         <div class="up-step">
           <span class="step-n">1</span>
@@ -684,6 +684,8 @@
           <button id="up-submit" class="btn btn-primary" onclick="App.${cloud ? "submitCloudUpload" : "submitUpload"}()">${cloud ? "Gửi đề" : "Tải lên"}</button>
           <button class="btn" onclick="App.goHome()">Huỷ</button>
         </div>
+      </div>
+      ${guide}
       </div>`;
   }
 

@@ -135,13 +135,24 @@ body.has-dock { padding-bottom: 96px; }
 .file-chip button:hover { color: var(--red); }
 #up-status { font-size: 13.5px; color: var(--muted); min-height: 18px; }
 .up-actions { display: flex; gap: 10px; }
-.up-guide {
-  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-  padding: 13px 18px; margin-bottom: 18px; max-width: 660px;
+.upload-wrap { display: flex; flex-direction: column; gap: 20px; }
+.upload-wrap.has-guide {
+  display: grid; grid-template-columns: minmax(0, 1fr) 470px;
+  gap: 22px; align-items: start; max-width: 1180px;
 }
-.up-guide summary { cursor: pointer; font-weight: 700; font-size: 14px; color: var(--accent); }
-.up-guide img { width: 100%; border: 1px solid var(--line); border-radius: 10px; margin: 12px 0 10px; display: block; }
-.up-guide ol { padding-left: 20px; font-size: 13.5px; color: #3c4658; display: flex; flex-direction: column; gap: 4px; }
+.guide-panel {
+  position: sticky; top: 78px;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px 18px;
+}
+.guide-panel h3 { font-size: 15px; margin-bottom: 10px; display: flex; align-items: baseline; gap: 8px; }
+.guide-panel h3 span { font-size: 12px; font-weight: 500; color: var(--muted); }
+.guide-panel video { width: 100%; border-radius: 10px; border: 1px solid var(--line); display: block; background: #1b2a52; }
+.guide-panel ol { padding-left: 20px; font-size: 13px; color: #3c4658; display: flex; flex-direction: column; gap: 4px; margin-top: 10px; }
+@media (max-width: 1080px) {
+  .upload-wrap.has-guide { grid-template-columns: 1fr; }
+  .guide-panel { position: static; }
+}
 
 /* upload form */
 .up-label { font-size: 13px; font-weight: 700; color: var(--muted); margin-top: 6px; }
