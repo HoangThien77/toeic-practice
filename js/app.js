@@ -261,6 +261,8 @@
     book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
     cards: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v13"/></svg>',
     up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0 5 5m-5-5-5 5"/><path d="M4 20h16"/></svg>',
+    sound: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>',
+    grid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
   };
 
   function renderHome() {
@@ -388,7 +390,7 @@
     $("#btn-exit").classList.add("hidden");
     const vocab = D.vocab || [];
     if (!vocab.length) {
-      screen.innerHTML = `<div class="hero"><h1>📒 Sổ từ vựng</h1><p>Chưa có dữ liệu từ vựng.</p></div><button class="btn" onclick="App.goHome()">🏠 Trang chủ</button>`;
+      screen.innerHTML = `<div class="hero"><h1>Sổ từ vựng</h1><p>Chưa có dữ liệu từ vựng.</p></div><button class="btn" onclick="App.goHome()">Trang chủ</button>`;
       return;
     }
     tab = tab || "list"; filter = filter || "all";
@@ -401,12 +403,12 @@
     if (filter === "reading") list = vocab.filter((v) => v.testId !== "m5-listening");
     if (filter === "due") list = due;
 
-    const filterChips = [["all", `Tất cả (${vocab.length})`], ["listening", "🎧 Listening"], ["reading", "📖 Reading"], ["due", `⏰ Cần ôn (${due.length})`]]
+    const filterChips = [["all", `Tất cả (${vocab.length})`], ["listening", "Listening"], ["reading", "Reading"], ["due", `Cần ôn (${due.length})`]]
       .map(([k, label]) => `<button class="tchip ${filter === k ? "selected" : ""}" onclick="App.goVocab('list','${k}')">${label}</button>`).join("");
 
     const rows = list.map((v) => {
       const lv = srs[v.id] ? srs[v.id].lv : null;
-      const audioBtn = v.audio ? `<button class="btn btn-sm" onclick="App.playSeg(${v.audio.start},${v.audio.end})">🔊</button>` : "";
+      const audioBtn = v.audio ? `<button class="btn btn-sm" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
       return `<div class="vocab-row">
         <div class="vr-head">
           <b>${esc(v.word)}</b> <span class="vr-type">(${esc(v.type || "")})</span>
@@ -420,12 +422,12 @@
     }).join("");
 
     screen.innerHTML = `
-      <div class="hero"><h1>📒 Sổ từ vựng</h1>
-        <p>${vocab.length} từ trích từ chính bộ đề của bạn · đã thuộc ${learned} · cần ôn hôm nay ${due.length}. Từ Listening có nút 🔊 phát đúng đoạn audio chứa từ đó.</p>
+      <div class="hero"><h1>Sổ từ vựng</h1>
+        <p>${vocab.length} từ trích từ chính bộ đề của bạn · đã thuộc ${learned} · cần ôn hôm nay ${due.length}. Từ Listening có nút loa phát đúng đoạn audio chứa từ đó.</p>
       </div>
       <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px">
-        <button class="btn btn-primary" onclick="App.startFlashcards()">🃏 Học flashcard${due.length ? ` (${due.length} từ cần ôn)` : ""}</button>
-        <button class="btn" onclick="App.goHome()">🏠 Trang chủ</button>
+        <button class="btn btn-primary" onclick="App.startFlashcards()">Học flashcard${due.length ? ` · ${due.length} từ cần ôn` : ""}</button>
+        <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
       <div class="time-chips" style="margin-bottom:14px">${filterChips}</div>
       <div class="vocab-list">${rows || '<div class="history-empty">Không có từ nào trong nhóm này.</div>'}</div>
@@ -449,17 +451,17 @@
 
   function renderFlashcard() {
     if (fcIdx >= fcQueue.length) {
-      screen.innerHTML = `<div class="hero" style="text-align:center"><h1>🎉 Hết lượt ôn!</h1>
+      screen.innerHTML = `<div class="hero" style="text-align:center"><h1>Hết lượt ôn 🎉</h1>
         <p>Bạn vừa ôn ${fcQueue.length} từ. Quay lại sau để ôn tiếp các từ đến hạn.</p></div>
         <div style="display:flex; gap:10px; justify-content:center">
-          <button class="btn btn-primary" onclick="App.startFlashcards()">🔄 Lượt mới</button>
-          <button class="btn" onclick="App.goVocab()">📒 Sổ từ</button>
+          <button class="btn btn-primary" onclick="App.startFlashcards()">Lượt mới</button>
+          <button class="btn" onclick="App.goVocab()">Sổ từ</button>
         </div>`;
       return;
     }
     fcShown = false;
     const v = fcQueue[fcIdx];
-    const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playSeg(${v.audio.start},${v.audio.end})">🔊</button>` : "";
+    const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
     screen.innerHTML = `
       <div class="fc-wrap">
         <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length}</div>
@@ -473,7 +475,7 @@
           </div>
         </div>
         <div class="fc-actions" id="fc-actions">
-          <button class="btn btn-primary" onclick="App.fcFlip()">👀 Hiện nghĩa</button>
+          <button class="btn btn-primary" onclick="App.fcFlip()">Hiện nghĩa</button>
         </div>
         <button class="btn btn-ghost" onclick="App.goVocab()" style="margin-top:14px">← Về sổ từ</button>
       </div>`;
@@ -485,8 +487,8 @@
     fcShown = true;
     $("#fc-back").classList.remove("hidden");
     $("#fc-actions").innerHTML = `
-      <button class="btn" style="border-color:var(--red);color:var(--red)" onclick="App.fcAnswer(false)">❌ Chưa thuộc</button>
-      <button class="btn" style="border-color:var(--green);color:var(--green)" onclick="App.fcAnswer(true)">✅ Đã thuộc</button>`;
+      <button class="btn" style="border-color:var(--red);color:var(--red)" onclick="App.fcAnswer(false)">Chưa thuộc</button>
+      <button class="btn" style="border-color:var(--green);color:var(--green)" onclick="App.fcAnswer(true)">Đã thuộc</button>`;
   }
 
   function fcAnswer(known) {
@@ -621,7 +623,7 @@
     if (!(await probeApi()) && CLOUD_INBOX.url) {
       // web deploy + có hộp thư cloud: form upload gửi thẳng vào hàng chờ
       screen.innerHTML = `
-        <div class="hero"><h1>📤 Gửi đề mới vào hàng chờ</h1>
+        <div class="hero"><h1>Gửi đề mới vào hàng chờ</h1>
           <p>Dành cho giáo viên/học viên: chọn file đề PDF + audio (nếu có bài nghe) rồi gửi. Đề sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích) và xuất hiện trên web này — thường trong vài giờ, tuỳ lúc máy xử lý bật.</p>
         </div>
         <div class="test-card" style="max-width:640px">
@@ -640,7 +642,7 @@
           <input id="up-audio" class="up-input" type="file" accept=".mp3,.m4a,.wav">
           <div id="up-status" style="font-size:13.5px;color:var(--muted);min-height:20px"></div>
           <div class="actions">
-            <button id="up-submit" class="btn btn-primary" onclick="App.submitCloudUpload()">📤 Gửi vào hàng chờ</button>
+            <button id="up-submit" class="btn btn-primary" onclick="App.submitCloudUpload()">Gửi vào hàng chờ</button>
             <button class="btn" onclick="App.goHome()">Huỷ</button>
           </div>
         </div>`;
@@ -650,24 +652,24 @@
     if (!(await probeApi())) {
       // bản deploy tĩnh: không có server nhận file → hướng dẫn thay vì form
       screen.innerHTML = `
-        <div class="hero"><h1>📤 Upload đề mới</h1></div>
+        <div class="hero"><h1>Upload đề mới</h1></div>
         <div class="notice">Bạn đang dùng <b>bản web online</b> — bản này không có server xử lý đề nên không upload được tại đây. Việc số hóa đề cần Claude + Whisper chạy trên máy tính của bạn.</div>
         <div class="test-card" style="max-width:640px">
           <h3>Cách thêm đề mới (làm trên máy tính)</h3>
           <div class="meta" style="line-height:2">
-            1️⃣ Mở app trên máy: nhấp đúp <b>Start TOEIC App.command</b> trong thư mục toeic-app<br>
-            2️⃣ Bấm <b>📤 Tải đề mới lên</b> → chọn file PDF + audio → <b>⚙️ Xử lý ngay</b> (~5–15 phút)<br>
-            3️⃣ Đẩy lên web bằng lệnh: <code>cd toeic-app && git add -A && git commit -m "them de" && git push</code><br>
-            4️⃣ ~1 phút sau, web online này tự có đề mới 🎉
+            1. Mở app trên máy: nhấp đúp <b>Start TOEIC App.command</b> trong thư mục toeic-app<br>
+            2. Bấm <b>Tải đề mới lên</b> → chọn file PDF + audio → <b>Xử lý ngay</b> (~5–15 phút)<br>
+            3. Đẩy lên web bằng lệnh: <code>cd toeic-app && git add -A && git commit -m "them de" && git push</code><br>
+            4. ~1 phút sau, web online này tự có đề mới
           </div>
         </div>
-        <div style="margin-top:14px"><button class="btn btn-primary" onclick="App.goHome()">🏠 Về trang chủ</button></div>
+        <div style="margin-top:14px"><button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button></div>
       `;
       window.scrollTo(0, 0);
       return;
     }
     screen.innerHTML = `
-      <div class="hero"><h1>📤 Tải đề mới lên</h1>
+      <div class="hero"><h1>Tải đề mới lên</h1>
         <p>Chọn file đề của cô giáo: PDF đề (Reading, Listening hoặc cả hai chung 1 file) và file audio nếu có bài nghe. Sau khi tải lên, bấm "Xử lý ngay" — Claude sẽ tự đọc đề, tạo đáp án + giải thích tiếng Việt và thêm vào danh sách đề (mất khoảng 5–15 phút).</p>
       </div>
       <div class="test-card" style="max-width:640px">
@@ -686,7 +688,7 @@
         <input id="up-audio" class="up-input" type="file" accept=".mp3,.m4a,.wav">
         <div id="up-status" style="font-size:13.5px;color:var(--muted);min-height:20px"></div>
         <div class="actions">
-          <button id="up-submit" class="btn btn-primary" onclick="App.submitUpload()">📤 Tải lên</button>
+          <button id="up-submit" class="btn btn-primary" onclick="App.submitUpload()">Tải lên</button>
           <button class="btn" onclick="App.goHome()">Huỷ</button>
         </div>
       </div>
@@ -708,8 +710,8 @@
     const kind = $("#up-kind").value;
     const files = [...$("#up-pdf").files, ...$("#up-audio").files];
     const status = $("#up-status");
-    if (!name) { status.textContent = "⚠️ Hãy đặt tên cho đề."; return; }
-    if (!$("#up-pdf").files.length) { status.textContent = "⚠️ Hãy chọn ít nhất 1 file PDF đề."; return; }
+    if (!name) { status.textContent = "Hãy đặt tên cho đề."; return; }
+    if (!$("#up-pdf").files.length) { status.textContent = "Hãy chọn ít nhất 1 file PDF đề."; return; }
     const btn = $("#up-submit");
     btn.disabled = true;
     const CHUNK = 30 * 1024 * 1024; // 30MB nhị phân/chunk
@@ -738,11 +740,11 @@
       const fin = await fetch(`${CLOUD_INBOX.url}/finish?id=${bj.id}`, { method: "POST", headers: hdr });
       if (!(await fin.json()).ok) throw new Error("Không chốt được hàng chờ");
       goHome();
-      openModal(`<h3>✅ Đã gửi đề vào hàng chờ!</h3>
+      openModal(`<h3>Đã gửi đề vào hàng chờ ✓</h3>
         <p>"${esc(name)}" sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích tiếng Việt) rồi xuất hiện trên web này — thường trong vài giờ. Theo dõi trạng thái ở mục "Đề mới upload".</p>
         <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     } catch (e) {
-      status.textContent = "❌ " + e.message;
+      status.textContent = "Lỗi: " + e.message;
       btn.disabled = false;
     }
   }
@@ -753,8 +755,8 @@
     const pdfs = [...$("#up-pdf").files];
     const audios = [...$("#up-audio").files];
     const status = $("#up-status");
-    if (!name) { status.textContent = "⚠️ Hãy đặt tên cho đề."; return; }
-    if (!pdfs.length) { status.textContent = "⚠️ Hãy chọn ít nhất 1 file PDF đề."; return; }
+    if (!name) { status.textContent = "Hãy đặt tên cho đề."; return; }
+    if (!pdfs.length) { status.textContent = "Hãy chọn ít nhất 1 file PDF đề."; return; }
     const btn = $("#up-submit");
     btn.disabled = true;
     try {
@@ -769,14 +771,14 @@
       const timeout = setTimeout(() => ctrl.abort(), 120000);
       const r = await fetch("/api/upload", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, kind, files }), signal: ctrl.signal });
       clearTimeout(timeout);
-      if (!r.ok) { status.textContent = `❌ Server từ chối (HTTP ${r.status}) — bạn có đang chạy app trên máy không?`; btn.disabled = false; return; }
+      if (!r.ok) { status.textContent = `Server từ chối (HTTP ${r.status}) — bạn có đang chạy app trên máy không?`; btn.disabled = false; return; }
       const j = await r.json();
-      if (j.error) { status.textContent = "❌ " + j.error; btn.disabled = false; return; }
+      if (j.error) { status.textContent = "Lỗi: " + j.error; btn.disabled = false; return; }
       goHome();
-      openModal(`<h3>✅ Đã tải đề lên</h3><p>"${esc(name)}" đã vào danh sách chờ. Bấm <b>⚙️ Xử lý ngay</b> ở mục "Đề mới upload" để Claude số hóa đề (khoảng 5–15 phút, có thể tiếp tục dùng app trong lúc chờ).</p>
+      openModal(`<h3>Đã tải đề lên ✓</h3><p>"${esc(name)}" đã vào danh sách chờ. Bấm <b>Xử lý ngay</b> ở mục "Đề mới upload" để Claude số hóa đề (khoảng 5–15 phút, có thể tiếp tục dùng app trong lúc chờ).</p>
         <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     } catch (e) {
-      status.textContent = "❌ Lỗi khi tải lên: " + e.message;
+      status.textContent = "Lỗi khi tải lên: " + e.message;
       btn.disabled = false;
     }
   }
@@ -865,7 +867,7 @@
       ? `<b>Listening (chạy theo audio)</b> rồi tiếp tục <b>Reading</b> trong tổng thời gian <b>${tm} phút</b>`
       : hasR ? `<b>Reading</b> trong <b>${tm} phút</b>`
       : `<b>Listening chạy theo audio</b> (hết audio là hết giờ)`;
-    openModal(`<h3>🎯 Bắt đầu Thi thật — ${esc(g.title)}?</h3>
+    openModal(`<h3>Bắt đầu Thi thật — ${esc(g.title)}?</h3>
       <p>Bạn sẽ làm ${what} — đúng luật thi TOEIC:</p>
       <p>• Không tạm dừng, không chỉnh giờ${hasL ? ", không tua audio" : ""}.<br>• Hết giờ hệ thống <b>tự động nộp bài</b> và quy đổi điểm theo thang TOEIC thật${hasL && hasR ? " (10–990)" : " (tối đa 495)"}.</p>
       <div class="modal-actions">
@@ -878,7 +880,7 @@
     const g = testGroups().find((x) => x.base === base);
     if (!g) return;
     startSession({
-      title: `🎯 Thi thật — ${g.title}`,
+      title: `Thi thật — ${g.title}`,
       real: true, mode: "exam", timerMin: realExamTimer(g),
       sections: g.tests.map((t) => ({ testId: t.id, parts: t.parts.map((p) => p.part) })),
     });
@@ -891,14 +893,14 @@
     const suffix = state.keyOnly ? "— Đáp án & giải thích"
       : inReview ? "— Xem lại bài" : state.mode === "exam" ? "— Thi thử" : "— Luyện tập";
     const scoreBanner = inReview && state.result && !state.keyOnly
-      ? `<div class="review-score">Kết quả: <b>${state.result.correct}/${state.result.total}</b> câu đúng (${Math.round(state.result.pct * 100)}%) · điểm quy đổi ~${state.result.scaled} <button class="btn btn-sm" style="margin-left:8px" onclick="App.showResult()">📊 Bảng điểm</button></div>`
+      ? `<div class="review-score">Kết quả: <b>${state.result.correct}/${state.result.total}</b> câu đúng (${Math.round(state.result.pct * 100)}%) · điểm quy đổi ~${state.result.scaled} <button class="btn btn-sm" style="margin-left:8px" onclick="App.showResult()">Bảng điểm</button></div>`
       : "";
     const partsHtml = t.parts.map((p) => renderPart(t, p)).join("");
     const mobileActions = state.finished
-      ? `<button class="btn btn-sm" onclick="App.openQnavSheet()">🗺️ Câu hỏi</button>
-         <button class="btn btn-sm btn-primary" onclick="App.goHome()">🏠 Trang chủ</button>`
-      : `<button class="btn btn-sm" onclick="App.openQnavSheet()">🗺️ Câu hỏi</button>
-         <button class="btn btn-sm btn-primary" onclick="App.trySubmit()">✅ Nộp bài</button>`;
+      ? `<button class="btn btn-sm" onclick="App.openQnavSheet()">${ICONS.grid}<span>Câu hỏi</span></button>
+         <button class="btn btn-sm btn-primary" onclick="App.goHome()">Trang chủ</button>`
+      : `<button class="btn btn-sm" onclick="App.openQnavSheet()">${ICONS.grid}<span>Câu hỏi</span></button>
+         <button class="btn btn-sm btn-primary" onclick="App.trySubmit()">Nộp bài</button>`;
     screen.innerHTML = `
       <div class="runner-head">
         <div>
@@ -931,7 +933,7 @@
       <div class="qnav-grid sheet-grid">${qnavCellsHtml(t)}</div>
       <div class="modal-actions" style="margin-top:14px">
         <button class="btn" onclick="App.closeModal()">Đóng</button>
-        ${state.finished ? "" : '<button class="btn btn-primary" onclick="App.closeModal(); App.trySubmit()">✅ Nộp bài</button>'}
+        ${state.finished ? "" : '<button class="btn btn-primary" onclick="App.closeModal(); App.trySubmit()">Nộp bài</button>'}
       </div>`);
     updateSidebar(); // paint answered/right/wrong colors onto the sheet cells
   }
@@ -946,7 +948,7 @@
 
   function segButton(seg, label) {
     if (!seg) return "";
-    return `<button class="btn btn-sm play-seg" onclick="App.playSeg(${seg.start},${seg.end})">🔊 ${label || "Nghe lại đoạn này"}</button>`;
+    return `<button class="btn btn-sm play-seg" onclick="App.playSeg(${seg.start},${seg.end})">${ICONS.sound}<span>${label || "Nghe lại đoạn này"}</span></button>`;
   }
 
   function renderItem(t, p, it) {
@@ -964,7 +966,7 @@
       const qs = it.questions.map((q) => renderQuestion(t, p, q, it)).join("");
       if (!isListening && passage) {
         // reading P6/P7: passage pinned left, questions scroll on the right — no more scrolling back and forth
-        const hint = it.img ? '<div class="zoom-hint">🔍 Bấm vào ảnh để phóng to</div>' : "";
+        const hint = it.img ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
         return `<div class="qcard" id="qc-${it.questions[0].n}">
           <div class="passage-split">
             <div class="ps-left">${passage}${hint}</div>
@@ -996,12 +998,12 @@
       ? `<div class="tl-lines">${it.segs.map((s) =>
           `<div class="tl-line" data-t="${s.t}" onclick="App.seekLine(${s.t}${it.audio ? "," + (it.audio.end || "null") : ""})">${esc(s.text)}</div>`).join("")}</div>`
       : (withLines && it.transcript ? esc(it.transcript) : "");
-    const viBtn = it.viText ? `<button class="btn btn-sm" onclick="App.toggleVi(this)">🇻🇳 Bản dịch</button>` : "";
-    const dictBtn = hasAudio && dictRef ? `<button class="btn btn-sm" onclick="App.openDictation(${firstQ})">✍️ Chép chính tả</button>` : "";
+    const viBtn = it.viText ? `<button class="btn btn-sm" onclick="App.toggleVi(this)">Bản dịch</button>` : "";
+    const dictBtn = hasAudio && dictRef ? `<button class="btn btn-sm" onclick="App.openDictation(${firstQ})">Chép chính tả</button>` : "";
     const vi = it.viText ? `<div class="vi-text hidden">${esc(it.viText)}</div>` : "";
     if (!body && !viBtn && !dictBtn) return "";
     return `<div class="transcript-box">
-      <div class="t-label">📝 Transcript <span class="t-tools">${viBtn}${dictBtn}</span></div>
+      <div class="t-label">Transcript <span class="t-tools">${viBtn}${dictBtn}</span></div>
       ${body}${vi}
     </div>`;
   }
@@ -1030,19 +1032,19 @@
     const ref = spokenText(it);
     if (!ref || !it.audio) return;
     dictState = { ref, audio: it.audio };
-    openModal(`<h3>✍️ Chép chính tả — Câu ${firstQ}${it.questions && it.questions.length > 1 ? "–" + it.questions[it.questions.length - 1].n : ""}</h3>
+    openModal(`<h3>Chép chính tả — Câu ${firstQ}${it.questions && it.questions.length > 1 ? "–" + it.questions[it.questions.length - 1].n : ""}</h3>
       <p style="margin-bottom:10px">Nghe rồi gõ lại những gì bạn nghe được. Không cần viết hoa hay dấu câu. Nghe chậm bằng nút tốc độ ở thanh audio dưới cùng.</p>
       <div style="display:flex; gap:8px; margin-bottom:10px">
-        <button class="btn btn-sm" onclick="App.playSeg(${it.audio.start},${it.audio.end || "null"})">🔊 Nghe đoạn này</button>
-        <button class="btn btn-sm" onclick="App.cycleSpeed()">🐢 Đổi tốc độ</button>
-        <button class="btn btn-sm" onclick="App.toggleLoop()">🔁 Lặp</button>
+        <button class="btn btn-sm" onclick="App.playSeg(${it.audio.start},${it.audio.end || "null"})">${ICONS.sound}<span>Nghe đoạn này</span></button>
+        <button class="btn btn-sm" onclick="App.cycleSpeed()">Tốc độ chậm/nhanh</button>
+        <button class="btn btn-sm" onclick="App.toggleLoop()">Lặp lại</button>
       </div>
       <textarea id="dict-input" class="dict-input" rows="5" placeholder="Gõ những gì bạn nghe được..."></textarea>
       <div id="dict-result"></div>
       <div class="modal-actions">
         <button class="btn" onclick="App.closeModal()">Đóng</button>
-        <button class="btn" onclick="App.dictReveal()">👀 Xem đáp án</button>
-        <button class="btn btn-primary" onclick="App.dictCheck()">✅ Kiểm tra</button>
+        <button class="btn" onclick="App.dictReveal()">Xem đáp án</button>
+        <button class="btn btn-primary" onclick="App.dictCheck()">Kiểm tra</button>
       </div>`, true);
   }
 
@@ -1075,7 +1077,7 @@
       !refNorm[k] ? esc(tok)
         : `<span class="${matched.has(k) ? "dw-ok" : "dw-miss"}">${esc(tok)}</span>`).join(" ");
     $("#dict-result").innerHTML = `
-      <div class="dict-score ${pct >= 80 ? "good" : pct >= 50 ? "mid" : "low"}">Nghe đúng ${hit}/${contentIdx.length} từ (${pct}%) ${pct >= 80 ? "🎉" : pct >= 50 ? "💪 Khá lắm, nghe lại lần nữa!" : "🔁 Thử nghe chậm 0.5x rồi gõ lại nhé"}</div>
+      <div class="dict-score ${pct >= 80 ? "good" : pct >= 50 ? "mid" : "low"}">Nghe đúng ${hit}/${contentIdx.length} từ (${pct}%) ${pct >= 80 ? "— tuyệt vời!" : pct >= 50 ? "— khá lắm, nghe lại lần nữa nhé." : "— thử nghe chậm 0.5x rồi gõ lại."}</div>
       <div class="dict-diff">${html.replace(/\n/g, "<br>")}</div>
       <div class="dict-legend"><span class="dw-ok">xanh = bạn đã nghe được</span> · <span class="dw-miss">đỏ = bạn bỏ sót/sai</span></div>`;
   }
@@ -1121,15 +1123,15 @@
     if (reveal) {
       const ok = user === q.answer;
       feedback = `<div class="explain ${ok ? "" : "was-wrong"}">
-        <div class="ans-line">${ok ? "✅ Chính xác!" : user ? "❌ Bạn chọn " + user + " — đáp án đúng: " + q.answer : "Đáp án đúng: " + q.answer}
-        ${q.uncertain ? ' <span class="uncertain-flag">⚠ đáp án AI chưa chắc chắn 100%</span>' : ""}</div>
+        <div class="ans-line">${ok ? "Chính xác" : user ? "Chưa đúng — bạn chọn " + user + ", đáp án: " + q.answer : "Đáp án đúng: " + q.answer}
+        ${q.uncertain ? ' <span class="uncertain-flag">đáp án chưa chắc chắn 100%</span>' : ""}</div>
         ${q.explanation ? esc(q.explanation) : ""}
       </div>`;
       if (q.spoken && (q.spoken.question || Object.keys(q.spoken.choices || {}).length)) {
         const sp = [];
         if (q.spoken.question) sp.push("Q: " + q.spoken.question);
         for (const [L, txt] of Object.entries(q.spoken.choices || {})) sp.push(`(${L}) ${txt}`);
-        feedback += `<div class="transcript-box"><div class="t-label">📝 Nội dung audio</div>${esc(sp.join("\n"))}</div>`;
+        feedback += `<div class="transcript-box"><div class="t-label">Nội dung audio</div>${esc(sp.join("\n"))}</div>`;
       }
     }
     const checkBtn = state.mode === "practice" && !reveal && user
@@ -1148,10 +1150,10 @@
     const cells = qs.map(({ q }) => `<div class="qnav-cell" data-q="${q.n}" onclick="App.jumpTo(${q.n})">${q.n}</div>`).join("");
     const action = state.finished
       ? (state.keyOnly
-        ? `<button class="btn btn-primary" onclick="App.goHome()">🏠 Về trang chủ</button>`
-        : `<button class="btn" onclick="App.exportAnswers()">📥 Xuất đáp án</button>
-           <button class="btn btn-primary" onclick="App.goHome()">🏠 Về trang chủ</button>`)
-      : `<button class="btn btn-primary" onclick="App.trySubmit()">✅ Nộp bài</button>
+        ? `<button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`
+        : `<button class="btn" onclick="App.exportAnswers()">Xuất đáp án</button>
+           <button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`)
+      : `<button class="btn btn-primary" onclick="App.trySubmit()">Nộp bài</button>
          <button class="btn" onclick="App.goHome()">Huỷ</button>`;
     return `<div class="qnav">
       <div class="label">Bảng câu hỏi</div>
@@ -1298,8 +1300,8 @@
     let scoreLine;
     if (sec && sec.listening.t && sec.reading.t) {
       scoreLine = `Điểm TOEIC quy đổi: <b style="font-size:22px">~${r.scaled}/990</b>
-        &nbsp;·&nbsp; 🎧 Listening ${sec.listening.c}/${sec.listening.t} → ~${sec.listening.scaled}
-        &nbsp;·&nbsp; 📖 Reading ${sec.reading.c}/${sec.reading.t} → ~${sec.reading.scaled}`;
+        &nbsp;·&nbsp; Listening ${sec.listening.c}/${sec.listening.t} → ~${sec.listening.scaled}
+        &nbsp;·&nbsp; Reading ${sec.reading.c}/${sec.reading.t} → ~${sec.reading.scaled}`;
     } else if (sec && (sec.listening.t || sec.reading.t)) {
       const s = sec.listening.t ? sec.listening : sec.reading;
       scoreLine = `Điểm quy đổi thang TOEIC (${sec.listening.t ? "Listening" : "Reading"}, tối đa 495): <b style="font-size:22px">~${s.scaled}</b>`;
@@ -1309,7 +1311,7 @@
     const partialNote = (sec && ((sec.reading.t && sec.reading.t < 100) || (sec.listening.t && sec.listening.t < 100)))
       ? '<div class="sub" style="margin-top:4px">Phần làm không đủ 100 câu/section nên điểm được quy đổi theo tỷ lệ — mang tính ước lượng.</div>' : "";
     screen.innerHTML = `
-      ${auto ? '<div class="notice">⏰ Hết giờ — bài đã tự động nộp.</div>' : ""}
+      ${auto ? '<div class="notice">Hết giờ — bài đã tự động nộp.</div>' : ""}
       <div class="result-hero">
         <h2>${esc(t.title)}</h2>
         <div class="big">${r.correct}/${r.total} <span style="font-size:20px;font-weight:600">câu đúng (${Math.round(r.pct * 100)}%)</span></div>
@@ -1320,10 +1322,10 @@
         <div class="stat-box"><div class="v">${fmtTime(r.durationSec || 0)}</div><div class="k">Thời gian làm</div></div>
       </div>
       <div style="display:flex; gap:10px; flex-wrap:wrap">
-        <button class="btn btn-primary" onclick="App.reviewAnswers()">📋 Xem lại từng câu + giải thích</button>
-        <button class="btn" onclick="App.exportAnswers()">📥 Xuất file đáp án đã chọn</button>
-        <button class="btn" onclick="${state.session ? "App.restartSession()" : `App.startTest('${t.id}','${state.mode}')`}">🔄 Làm lại</button>
-        <button class="btn" onclick="App.goHome()">🏠 Trang chủ</button>
+        <button class="btn btn-primary" onclick="App.reviewAnswers()">Xem lại từng câu + giải thích</button>
+        <button class="btn" onclick="App.exportAnswers()">Xuất đáp án đã chọn</button>
+        <button class="btn" onclick="${state.session ? "App.restartSession()" : `App.startTest('${t.id}','${state.mode}')`}">Làm lại</button>
+        <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
     `;
   }
@@ -1341,27 +1343,27 @@
       const boxes = partNums.map((n) =>
         `<label class="part-check"><input type="checkbox" data-test="${t.id}" data-kind="${t.kind}" value="${n}" checked onchange="App.setupPartChanged(this)"> P${n}</label>`).join("");
       return `<div class="setup-test">
-        <div class="st-title">${esc(t.title)} ${t.kind === "listening" ? "🎧" : "📖"}</div>
+        <div class="st-title">${esc(t.title)} ${t.kind === "listening" ? '<span class="tag tag-listen">Listening</span>' : '<span class="tag tag-read">Reading</span>'}</div>
         <div class="st-parts">${boxes}</div>
       </div>`;
     }).join("");
     screen.innerHTML = `
-      <div class="hero"><h1>🛠 Luyện thi${g ? " — " + esc(g.title) : " tuỳ chọn"}</h1>
+      <div class="hero"><h1>Luyện thi${g ? " — " + esc(g.title) : " tuỳ chọn"}</h1>
         <p>Chọn phần muốn luyện (Listening/Reading chung hoặc riêng, từng part tuỳ ý — bỏ tick phần không muốn làm), chọn thời gian — điểm vẫn quy đổi theo thang TOEIC thật.</p>
       </div>
       <div class="test-card" style="max-width:680px">
-        <label class="up-label">1️⃣ Chọn part muốn luyện <span style="color:var(--red)">*</span> <span style="font-weight:400;color:var(--muted)">(mỗi kỹ năng chỉ chọn từ 1 đề)</span></label>
+        <label class="up-label">Bước 1 · Chọn part muốn luyện <span style="color:var(--red)">*</span> <span style="font-weight:400;color:var(--muted)">(mỗi kỹ năng chỉ chọn từ 1 đề)</span></label>
         ${rows}
-        <label class="up-label">2️⃣ Thời gian làm bài</label>
+        <label class="up-label">Bước 2 · Thời gian làm bài</label>
         <div class="time-chips">
-          <button type="button" class="tchip selected" data-val="standard" id="chip-standard" onclick="App.pickTimeChip(this)">⏱ Chuẩn TOEIC</button>
-          <button type="button" class="tchip" data-val="none" onclick="App.pickTimeChip(this)">∞ Không giới hạn</button>
+          <button type="button" class="tchip selected" data-val="standard" id="chip-standard" onclick="App.pickTimeChip(this)">Chuẩn TOEIC</button>
+          <button type="button" class="tchip" data-val="none" onclick="App.pickTimeChip(this)">Không giới hạn</button>
           <button type="button" class="tchip" data-val="15" onclick="App.pickTimeChip(this)">15′</button>
           <button type="button" class="tchip" data-val="30" onclick="App.pickTimeChip(this)">30′</button>
           <button type="button" class="tchip" data-val="45" onclick="App.pickTimeChip(this)">45′</button>
           <button type="button" class="tchip" data-val="60" onclick="App.pickTimeChip(this)">60′</button>
           <button type="button" class="tchip" data-val="90" onclick="App.pickTimeChip(this)">90′</button>
-          <button type="button" class="tchip" data-val="custom" onclick="App.pickTimeChip(this)">✏️ Tuỳ chỉnh</button>
+          <button type="button" class="tchip" data-val="custom" onclick="App.pickTimeChip(this)">Tuỳ chỉnh…</button>
         </div>
         <div class="custom-time" id="custom-time" style="display:none">
           <button type="button" class="btn btn-round" onclick="App.bumpCustomTime(-5)">−</button>
@@ -1370,13 +1372,13 @@
           <button type="button" class="btn btn-round" onclick="App.bumpCustomTime(5)">+</button>
         </div>
         <div class="time-hint" id="time-hint"></div>
-        <label class="up-label">3️⃣ Chế độ</label>
+        <label class="up-label">Bước 3 · Chế độ</label>
         <select id="su-mode" class="up-input">
           <option value="exam">Làm bài — chấm điểm khi nộp</option>
           <option value="practice">Luyện từng câu — xem đáp án + giải thích ngay</option>
         </select>
         <div class="actions">
-          <button class="btn btn-primary" onclick="App.startCustomSession()">▶️ Bắt đầu luyện</button>
+          <button class="btn btn-primary" onclick="App.startCustomSession()">Bắt đầu luyện</button>
           <button class="btn" onclick="App.goHome()">Huỷ</button>
         </div>
       </div>`;
@@ -1422,7 +1424,7 @@
     const chipStd = $("#chip-standard");
     if (!chipStd) return;
     const std = standardMinutes(checkedSections());
-    chipStd.textContent = std ? `⏱ Chuẩn TOEIC · ${std}′` : "⏱ Chuẩn TOEIC";
+    chipStd.textContent = std ? `Chuẩn TOEIC · ${std}′` : "Chuẩn TOEIC";
     const hint = $("#time-hint");
     const val = selectedTimeChip();
     if (val === "standard") {
@@ -1468,7 +1470,7 @@
     }
     const parts = sections.flatMap((s) => s.parts);
     startSession({
-      title: "🛠 Luyện thi — Part " + [...new Set(parts)].sort((a, b) => a - b).join(", "),
+      title: "Luyện thi — Part " + [...new Set(parts)].sort((a, b) => a - b).join(", "),
       mode, timerMin: mode === "exam" ? timerMin : null,
       sections,
     });
@@ -1597,11 +1599,11 @@
         <div class="stat-box"><div class="v">~${h.scaled != null ? h.scaled : "?"}</div><div class="k">Điểm quy đổi ước tính</div></div>
         <div class="stat-box"><div class="v">${fmtTime(h.durationSec || 0)}</div><div class="k">Thời gian làm</div></div>
       </div>
-      <div class="notice">ℹ️ Bài này được làm trước khi app có tính năng lưu đáp án từng câu, nên các đáp án bạn đã chọn hôm đó không còn dữ liệu để hiển thị. Bạn vẫn có thể xem toàn bộ đáp án đúng + giải thích của đề bằng nút bên dưới. Các bài làm mới sẽ luôn xem lại đầy đủ được.</div>
+      <div class="notice">Bài này được làm trước khi app có tính năng lưu đáp án từng câu, nên các đáp án bạn đã chọn hôm đó không còn dữ liệu để hiển thị. Bạn vẫn có thể xem toàn bộ đáp án đúng + giải thích của đề bằng nút bên dưới. Các bài làm mới sẽ luôn xem lại đầy đủ được.</div>
       <div style="display:flex; gap:10px; flex-wrap:wrap">
-        <button class="btn btn-primary" onclick="App.openKeyView('${t.id}')">📖 Xem đáp án + giải thích của đề</button>
-        <button class="btn" onclick="App.startTest('${t.id}','${h.mode}')">🔄 Làm lại đề này</button>
-        <button class="btn" onclick="App.goHome()">🏠 Trang chủ</button>
+        <button class="btn btn-primary" onclick="App.openKeyView('${t.id}')">Xem đáp án + giải thích của đề</button>
+        <button class="btn" onclick="App.startTest('${t.id}','${h.mode}')">Làm lại đề này</button>
+        <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
     `;
     window.scrollTo(0, 0);

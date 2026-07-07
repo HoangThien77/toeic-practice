@@ -61,6 +61,9 @@ body.has-dock { padding-bottom: 96px; }
 .btn-round { width: 44px; height: 44px; border-radius: 50%; font-size: 17px; padding: 0; flex: none; }
 .btn-sm { padding: 5px 12px; font-size: 13px; border-radius: 8px; }
 .btn:disabled { opacity: .45; cursor: default; pointer-events: none; }
+.btn svg { width: 15px; height: 15px; flex: none; }
+.btn-sm svg { width: 13px; height: 13px; }
+.btn-round svg { width: 16px; height: 16px; }
 
 /* ---------- Home ---------- */
 #screen { max-width: 1080px; margin: 0 auto; padding: 28px 20px; }
@@ -245,7 +248,7 @@ body.has-dock { padding-bottom: 96px; }
 
 /* ---------- Results ---------- */
 .result-hero {
-  background: linear-gradient(135deg, #2f6fed, #5b8cff); color: #fff;
+  background: linear-gradient(135deg, #1b2a52, #2f56b8); color: #fff;
   border-radius: var(--radius); padding: 28px; margin-bottom: 20px; box-shadow: var(--shadow);
 }
 .result-hero h2 { font-size: 22px; margin-bottom: 4px; }
@@ -277,12 +280,15 @@ body.has-dock { padding-bottom: 96px; }
 .part-tab.active { background: var(--ink); border-color: var(--ink); color: #fff; }
 
 .directions-box {
-  background: var(--accent-soft); border: 1px solid #cbdcfa; color: #234a9a;
-  border-radius: 10px; padding: 12px 16px; font-size: 13.5px; margin-bottom: 16px;
+  background: #f6f8fc; border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  color: #3c4658; border-radius: 8px; padding: 11px 16px; font-size: 13.5px; margin-bottom: 16px;
 }
 .group-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
 .group-head .gh-label { font-weight: 700; font-size: 14px; color: var(--muted); }
-.uncertain-flag { font-size: 12px; color: var(--amber); }
+.uncertain-flag {
+  font-size: 11px; font-weight: 700; color: var(--amber); background: var(--amber-soft);
+  padding: 1.5px 8px; border-radius: 10px; vertical-align: 1px;
+}
 footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; margin-top: 40px; }
 
 /* ---------- Home v2: dashboard chuyên nghiệp ---------- */
