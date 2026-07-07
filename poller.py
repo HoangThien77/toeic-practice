@@ -114,6 +114,11 @@ def main():
             local = json.load(open(local_mf))
             if local.get("status") in ("done", "error") and remote.get("status") not in ("done", "error"):
                 log(f"{uid}: đồng bộ trạng thái {local['status']} lên web")
+                # dọn rác: đề đã xong thì xoá file gốc khỏi kho chờ cloud, chỉ giữ manifest để hiển thị trạng thái
+                if local.get("status") == "done":
+                    for f in os.listdir(src):
+                        if f != "manifest.json":
+                            os.remove(os.path.join(src, f))
                 push_status(uid, local["status"], {
                     "resultTestIds": local.get("resultTestIds"), "error": local.get("error"),
                 })
