@@ -1,7 +1,12 @@
 # PIPELINE — Số hóa đề TOEIC upload thành bài luyện tập trong app
 
 Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/inbox/<upload-id>/`.
-Làm tuần tự, dùng subagent song song cho các bước số hóa để nhanh và chính xác.
+
+**TỐI ƯU THỜI GIAN — bắt buộc:** phóng subagent SONG SONG tối đa, không làm tuần tự:
+- Ngay sau bước khảo sát: phóng đồng thời TẤT CẢ agent số hóa (mỗi part 1 agent) + transcribe audio (nếu có) cùng lúc.
+- KHÔNG chờ mọi part số hóa xong mới giải: part nào có JSON xong thì phóng agent giải part đó ngay (pipeline, không barrier).
+- Cắt ảnh (P1/P6/P7/graphic) chạy song song với việc giải đề.
+- Không tự kiểm tra lại việc đã xong (agent con đã validate JSON); chỉ chạy sanity check cuối bằng assemble.py.
 
 ## Bối cảnh app
 

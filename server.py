@@ -91,7 +91,8 @@ Nếu thất bại không khắc phục được: đặt "status": "error" và "
         "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)",
     ]
     subprocess.Popen(
-        [claude, "-p", prompt, "--permission-mode", "acceptEdits",
+        # caffeinate -i: giữ máy không ngủ (idle sleep) trong lúc số hóa đề
+        ["/usr/bin/caffeinate", "-i", claude, "-p", prompt, "--permission-mode", "acceptEdits",
          "--allowedTools", " ".join(allowed)],
         cwd=ROOT, stdout=log, stderr=log,
         stdin=subprocess.DEVNULL, start_new_session=True,

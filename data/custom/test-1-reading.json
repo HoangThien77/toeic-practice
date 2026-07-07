@@ -1,0 +1,904 @@
+{
+ "id": "test-1-reading",
+ "kind": "reading",
+ "title": "Test 1 (ETS 2026) — Reading",
+ "desc": "Part 5–7, câu 101–167 (67 câu — file đề gốc thiếu câu 168–200). Đáp án do AI giải.",
+ "timerMin": 50,
+ "custom": true,
+ "parts": [
+  {
+   "part": 5,
+   "directions": "Chọn từ/cụm từ phù hợp nhất để hoàn thành câu.",
+   "items": [
+    {
+     "n": 101,
+     "question": "The lecture will take place at 6:00 P.M., _____ which attendees may ask questions.",
+     "choices": {
+      "A": "across",
+      "B": "after",
+      "C": "inside",
+      "D": "among"
+     },
+     "answer": "B",
+     "explanation": "\"After which\" = sau đó (sau bài giảng lúc 6 giờ, người tham dự có thể đặt câu hỏi). Giới từ chỉ thời gian là hợp lý duy nhất; across (ngang qua), inside (bên trong), among (giữa) đều chỉ vị trí, không đứng tự nhiên trước \"which\" ở ngữ cảnh thời gian."
+    },
+    {
+     "n": 102,
+     "question": "The _____ antique shop in Pepper Valley will close down next month.",
+     "choices": {
+      "A": "last",
+      "B": "lasts",
+      "C": "lasted",
+      "D": "lasting"
+     },
+     "answer": "A",
+     "explanation": "Cần tính từ đứng trước danh từ \"antique shop\": \"the last antique shop\" = cửa hàng đồ cổ cuối cùng. \"lasts/lasted\" là động từ chia thì, \"lasting\" (lâu dài) không hợp nghĩa với việc đóng cửa."
+    },
+    {
+     "n": 103,
+     "question": "Merryville residents will receive an online status _____ about the ongoing bridge construction project.",
+     "choices": {
+      "A": "update",
+      "B": "change",
+      "C": "payment",
+      "D": "request"
+     },
+     "answer": "A",
+     "explanation": "\"Status update\" = bản cập nhật tình trạng (cụm từ cố định) về dự án xây cầu đang diễn ra. Change (thay đổi), payment (thanh toán), request (yêu cầu) không tạo cụm nghĩa hợp lý với \"status ... about the project\"."
+    },
+    {
+     "n": 104,
+     "question": "As a result of _____ many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize.",
+     "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+     },
+     "answer": "B",
+     "explanation": "Cần tính từ sở hữu trước danh từ \"many years\": \"as a result of her many years\" = nhờ nhiều năm của bà ấy. She là đại từ chủ ngữ, hers là đại từ sở hữu đứng một mình, herself là phản thân."
+    },
+    {
+     "n": 105,
+     "question": "To stop the _____ of computer viruses, do not open suspicious e-mails.",
+     "choices": {
+      "A": "break",
+      "B": "spread",
+      "C": "balance",
+      "D": "surface"
+     },
+     "answer": "B",
+     "explanation": "\"Stop the spread of computer viruses\" = ngăn chặn sự lây lan của vi-rút máy tính. Break (sự gián đoạn), balance (cân bằng), surface (bề mặt) không hợp nghĩa."
+    },
+    {
+     "n": 106,
+     "question": "The hiring manager _____ considered each applicant's résumé and qualifications.",
+     "choices": {
+      "A": "caring",
+      "B": "careful",
+      "C": "carefully",
+      "D": "carefulness"
+     },
+     "answer": "C",
+     "explanation": "Cần trạng từ bổ nghĩa cho động từ \"considered\": \"carefully considered\" = xem xét kỹ lưỡng. Careful là tính từ, carefulness là danh từ, caring là tính từ/V-ing."
+    },
+    {
+     "n": 107,
+     "question": "In October, Mr. Sakamoto will leave for New Zealand _____ will oversee the opening of the new Auckland branch.",
+     "choices": {
+      "A": "because",
+      "B": "in addition",
+      "C": "and",
+      "D": "prior to"
+     },
+     "answer": "C",
+     "explanation": "\"And\" nối hai động từ cùng chủ ngữ: \"will leave ... and will oversee\" (sẽ đi New Zealand và sẽ giám sát). Because cần mệnh đề đầy đủ có chủ ngữ, in addition là trạng ngữ, prior to là giới từ."
+    },
+    {
+     "n": 108,
+     "question": "Tarateer Pharmaceuticals is varying its product _____ to include over-the-counter medications.",
+     "choices": {
+      "A": "to line",
+      "B": "lining",
+      "C": "lined",
+      "D": "line"
+     },
+     "answer": "D",
+     "explanation": "\"Product line\" = dòng sản phẩm (danh từ ghép cố định): công ty đa dạng hóa dòng sản phẩm để bao gồm thuốc không kê đơn. Các dạng động từ to line/lining/lined không hợp vị trí danh từ."
+    },
+    {
+     "n": 109,
+     "question": "Dynart, Inc., continuously _____ new ways to reduce its use of plastics.",
+     "choices": {
+      "A": "seeks",
+      "B": "seeker",
+      "C": "to seek",
+      "D": "seeking"
+     },
+     "answer": "A",
+     "explanation": "Câu thiếu động từ chính; chủ ngữ số ít \"Dynart, Inc.\" + trạng từ \"continuously\" → động từ chia ngôi \"seeks\" (liên tục tìm kiếm). Seeker là danh từ, to seek/seeking không làm động từ chính được."
+    },
+    {
+     "n": 110,
+     "question": "The cash registers at Pirkle Books automatically _____ the remaining inventory of books available.",
+     "choices": {
+      "A": "calculate",
+      "B": "calculator",
+      "C": "calculating",
+      "D": "calculation"
+     },
+     "answer": "A",
+     "explanation": "Câu thiếu động từ chính; chủ ngữ số nhiều \"the cash registers\" + trạng từ \"automatically\" → động từ nguyên mẫu số nhiều \"calculate\" (tự động tính toán). Calculator/calculation là danh từ, calculating không đứng một mình làm vị ngữ."
+    },
+    {
+     "n": 111,
+     "question": "The product team is designing mapping software that can _____ locate underground minerals.",
+     "choices": {
+      "A": "infinitely",
+      "B": "sincerely",
+      "C": "precisely",
+      "D": "greatly"
+     },
+     "answer": "C",
+     "explanation": "\"Precisely locate\" = định vị chính xác khoáng sản dưới lòng đất — hợp nghĩa nhất. Infinitely (vô hạn), sincerely (chân thành), greatly (rất nhiều) không phù hợp với hành động định vị."
+    },
+    {
+     "n": 112,
+     "question": "According to CEO Mayu Yamada, it would not be _____ responsible to expand the warehouse at this time.",
+     "choices": {
+      "A": "finance",
+      "B": "financials",
+      "C": "financially",
+      "D": "financing"
+     },
+     "answer": "C",
+     "explanation": "Cần trạng từ bổ nghĩa cho tính từ \"responsible\": \"financially responsible\" = có trách nhiệm về mặt tài chính. Finance/financials là danh từ, financing là V-ing/danh từ."
+    },
+    {
+     "n": 113,
+     "question": "Analysts cannot say with any _____ what the regional demand for electric trucks will be.",
+     "choices": {
+      "A": "certainty",
+      "B": "justice",
+      "C": "excellence",
+      "D": "denial"
+     },
+     "answer": "A",
+     "explanation": "\"Say with any certainty\" = nói với bất kỳ sự chắc chắn nào (cụm cố định \"with certainty\"). Justice (công lý), excellence (sự xuất sắc), denial (sự phủ nhận) không hợp nghĩa với việc dự đoán nhu cầu."
+    },
+    {
+     "n": 114,
+     "question": "As part of its marketing campaign, Elegancia Dishware is _____ soliciting feedback from customers.",
+     "choices": {
+      "A": "lightly",
+      "B": "loyally",
+      "C": "actively",
+      "D": "cleanly"
+     },
+     "answer": "C",
+     "explanation": "\"Actively soliciting feedback\" = tích cực thu thập ý kiến khách hàng — collocation tự nhiên. Lightly (nhẹ nhàng), loyally (trung thành), cleanly (sạch sẽ) không đi với \"solicit feedback\"."
+    },
+    {
+     "n": 115,
+     "question": "Rain gardens are intended to _____ water to prevent flooding of local roads.",
+     "choices": {
+      "A": "engage",
+      "B": "undergo",
+      "C": "absorb",
+      "D": "overwhelm"
+     },
+     "answer": "C",
+     "explanation": "\"Absorb water\" = hấp thụ nước để chống ngập đường. Engage (thu hút), undergo (trải qua), overwhelm (áp đảo) không hợp nghĩa."
+    },
+    {
+     "n": 116,
+     "question": "Theta Industries' training program aims to increase the _____ of its manufacturing systems.",
+     "choices": {
+      "A": "producer",
+      "B": "produced",
+      "C": "productive",
+      "D": "productivity"
+     },
+     "answer": "D",
+     "explanation": "Sau mạo từ \"the\" và trước \"of\" cần danh từ: \"increase the productivity\" = tăng năng suất của hệ thống sản xuất. Producer (nhà sản xuất) không hợp nghĩa; produced/productive không phải danh từ chỉ khái niệm phù hợp."
+    },
+    {
+     "n": 117,
+     "question": "The board of directors has voted to award Mr. Mitrakos a bonus for his role _____ obtaining the international contract.",
+     "choices": {
+      "A": "in",
+      "B": "at",
+      "C": "except",
+      "D": "apart"
+     },
+     "answer": "A",
+     "explanation": "Cụm cố định \"role in doing something\" = vai trò trong việc gì: \"his role in obtaining the contract\". At, except, apart không đi với \"role\" theo cấu trúc này."
+    },
+    {
+     "n": 118,
+     "question": "The finance director gave his approval _____ the project can move forward.",
+     "choices": {
+      "A": "along",
+      "B": "furthermore",
+      "C": "cautiously",
+      "D": "so that"
+     },
+     "answer": "D",
+     "explanation": "\"So that\" = để (chỉ mục đích), nối hai mệnh đề: giám đốc phê duyệt để dự án có thể tiến hành. Along là giới từ, furthermore/cautiously là trạng từ, không nối được hai mệnh đề."
+    },
+    {
+     "n": 119,
+     "question": "The newspaper article describes ways job seekers can _____ for having little workplace experience.",
+     "choices": {
+      "A": "reply",
+      "B": "capture",
+      "C": "compensate",
+      "D": "accumulate"
+     },
+     "answer": "C",
+     "explanation": "\"Compensate for\" = bù đắp cho (việc thiếu kinh nghiệm làm việc) — cụm động từ cố định. Reply (trả lời) đi với to, capture (nắm bắt) và accumulate (tích lũy) không đi với for theo nghĩa này."
+    },
+    {
+     "n": 120,
+     "question": "Mr. Ellis and Ms. Barnes were both highly qualified, but _____ got the job.",
+     "choices": {
+      "A": "myself",
+      "B": "neither",
+      "C": "anybody",
+      "D": "whoever"
+     },
+     "answer": "B",
+     "explanation": "\"Neither\" = không ai trong hai người (Mr. Ellis và Ms. Barnes) được nhận việc — hô ứng với \"both\" và liên từ \"but\". Myself, anybody, whoever không hợp logic hai ứng viên."
+    },
+    {
+     "n": 121,
+     "question": "Ennis Photography purchased all new lighting equipment _____ the high cost.",
+     "choices": {
+      "A": "even though",
+      "B": "however",
+      "C": "until",
+      "D": "despite"
+     },
+     "answer": "D",
+     "explanation": "\"Despite\" là giới từ đứng trước cụm danh từ \"the high cost\" = bất chấp chi phí cao. Even though cần mệnh đề đầy đủ, however là trạng từ, until không hợp nghĩa."
+    },
+    {
+     "n": 122,
+     "question": "Marburton residents who wish to _____ a home should contact the award-winning team at Kwan Real Estate.",
+     "choices": {
+      "A": "seller",
+      "B": "sold",
+      "C": "sell",
+      "D": "selling"
+     },
+     "answer": "C",
+     "explanation": "Sau \"wish to\" cần động từ nguyên mẫu: \"wish to sell a home\" = muốn bán nhà. Seller là danh từ, sold/selling sai dạng sau to."
+    },
+    {
+     "n": 123,
+     "question": "Maswa Bistro began a _____ agreement with local farmers to purchase a set amount of produce each week.",
+     "choices": {
+      "A": "disruptive",
+      "B": "cooperative",
+      "C": "grateful",
+      "D": "concerned"
+     },
+     "answer": "B",
+     "explanation": "\"Cooperative agreement\" = thỏa thuận hợp tác (với nông dân địa phương). Disruptive (gây gián đoạn), grateful (biết ơn), concerned (lo lắng) không mô tả được \"agreement\"."
+    },
+    {
+     "n": 124,
+     "question": "The City of Doyle's new downtown parking _____ have been met with opposition by residents and visitors.",
+     "choices": {
+      "A": "restricts",
+      "B": "restricted",
+      "C": "restrictions",
+      "D": "restricting"
+     },
+     "answer": "C",
+     "explanation": "Cần danh từ số nhiều làm chủ ngữ cho động từ \"have been met\": \"parking restrictions\" = các quy định hạn chế đỗ xe. Restricts là động từ chia ngôi, restricted/restricting không làm chủ ngữ số nhiều."
+    },
+    {
+     "n": 125,
+     "question": "The plumbing position requires extensive training, even for those who studied _____ in technical school.",
+     "choices": {
+      "A": "diligently",
+      "B": "scientifically",
+      "C": "objectively",
+      "D": "decidedly"
+     },
+     "answer": "A",
+     "explanation": "\"Studied diligently\" = học hành chăm chỉ — hợp nghĩa: dù học chăm ở trường kỹ thuật vẫn cần đào tạo thêm. Scientifically (một cách khoa học), objectively (khách quan), decidedly (dứt khoát) không đi tự nhiên với \"studied\" ở ngữ cảnh này."
+    },
+    {
+     "n": 126,
+     "question": "With its fixed price _____, Omega Cellular guarantees no phone bill increases for three years.",
+     "choices": {
+      "A": "assurance",
+      "B": "assuredly",
+      "C": "assuring",
+      "D": "assures"
+     },
+     "answer": "A",
+     "explanation": "Sau tính từ sở hữu \"its\" + cụm bổ nghĩa \"fixed price\" cần danh từ: \"fixed price assurance\" = cam kết giá cố định. Assuredly là trạng từ, assuring là V-ing, assures là động từ chia ngôi."
+    },
+    {
+     "n": 127,
+     "question": "As chief analytics officer, Mr. Ko has worked at Lochston Ltd. with great _____ for more than twenty years.",
+     "choices": {
+      "A": "deduction",
+      "B": "duplication",
+      "C": "declaration",
+      "D": "dedication"
+     },
+     "answer": "D",
+     "explanation": "\"With great dedication\" = với sự tận tâm lớn — collocation quen thuộc khi nói về quá trình làm việc lâu năm. Deduction (khấu trừ/suy luận), duplication (sự sao chép), declaration (tuyên bố) không hợp nghĩa."
+    },
+    {
+     "n": 128,
+     "question": "Milltown Hospital's cafeteria serves lunch seven days a week _____ only on weekdays.",
+     "choices": {
+      "A": "up to",
+      "B": "as though",
+      "C": "each time",
+      "D": "rather than"
+     },
+     "answer": "D",
+     "explanation": "\"Rather than\" = thay vì: phục vụ bữa trưa bảy ngày một tuần thay vì chỉ các ngày trong tuần. Up to (lên đến), as though (như thể), each time (mỗi lần) không tạo phép so sánh đối lập này."
+    },
+    {
+     "n": 129,
+     "question": "The store's entire inventory of lumber comes from a nearby _____ supplier.",
+     "choices": {
+      "A": "financial",
+      "B": "promotional",
+      "C": "chemical",
+      "D": "commercial"
+     },
+     "answer": "D",
+     "explanation": "\"Commercial supplier\" = nhà cung cấp thương mại (gỗ xẻ) — hợp nghĩa nhất. Financial (tài chính), promotional (quảng bá), chemical (hóa chất) không mô tả nhà cung cấp gỗ."
+    },
+    {
+     "n": 130,
+     "question": "For a $95 _____ fee, our mechanics will determine what repairs are needed.",
+     "choices": {
+      "A": "diagnosed",
+      "B": "diagnostic",
+      "C": "diagnosable",
+      "D": "diagnose"
+     },
+     "answer": "B",
+     "explanation": "Cần tính từ bổ nghĩa cho danh từ \"fee\": \"diagnostic fee\" = phí chẩn đoán/kiểm tra xe. Diagnosed (đã được chẩn đoán) và diagnosable (có thể chẩn đoán) sai nghĩa; diagnose là động từ."
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "directions": "Chọn từ, cụm từ hoặc câu phù hợp nhất cho mỗi chỗ trống trong đoạn văn.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 131,
+       "choices": {
+        "A": "Staff members have written articles for the local newspaper.",
+        "B": "Installing lights can enhance the effect of a well-designed garden.",
+        "C": "Local competitors cannot beat the prices we charge.",
+        "D": "Riessler Landscaping's goal is to make your vision a reality."
+       },
+       "answer": "D",
+       "explanation": "Câu trước nói công ty lắng nghe ý tưởng và gợi ý theo mong muốn làm vườn của khách, nên câu chèn hợp mạch nhất là mục tiêu của Riessler Landscaping là biến tầm nhìn của bạn thành hiện thực. Các phương án về báo địa phương, đèn chiếu sáng hay giá cả đều lạc khỏi ý đang nói."
+      },
+      {
+       "n": 132,
+       "choices": {
+        "A": "years",
+        "B": "space",
+        "C": "beauty",
+        "D": "moisture"
+       },
+       "answer": "C",
+       "explanation": "Đoạn văn vừa nhắc cây cối nhiều màu sắc bắt mắt quanh năm, nên thứ được thêm vào khu vườn là 'beauty' (vẻ đẹp). 'years', 'space', 'moisture' không khớp mạch ý về màu sắc."
+      },
+      {
+       "n": 133,
+       "choices": {
+        "A": "also",
+        "B": "rarely",
+        "C": "somehow",
+        "D": "nevertheless"
+       },
+       "answer": "A",
+       "explanation": "Câu này bổ sung thêm một dịch vụ nữa (xây hồ nhỏ, tiểu cảnh nước) bên cạnh vườn ươm đã nêu, nên cần trạng từ 'also' (cũng). 'rarely', 'somehow', 'nevertheless' đều sai nghĩa."
+      },
+      {
+       "n": 134,
+       "choices": {
+        "A": "its",
+        "B": "our",
+        "C": "others",
+        "D": "their"
+       },
+       "answer": "B",
+       "explanation": "Toàn bài quảng cáo dùng ngôi 'we' để nói về công ty ('We will listen...', 'We are equipped...'), nên chuyên môn hơn 40 năm phải là 'our expertise' (chuyên môn của chúng tôi)."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q131.jpg",
+     "ptype": "flyer",
+     "text": "Riessler Landscaping has everything you need to create your dream garden. We will listen to your ideas and offer suggestions that match your gardening desires. [131]. The nursery here at Riessler Landscaping includes plants of many varieties and sizes that burst with eye-catching colors year-round. You are guaranteed to find something that will add [132] to your garden. We are [133] equipped to construct small ponds or other water features. And as our name suggests, we can take on more ambitious landscaping projects—whatever you need! With more than 40 years in the landscape-design business, [134] expertise is unmatched.",
+     "title": "Look to Riessler Landscaping for your Garden Needs"
+    },
+    {
+     "questions": [
+      {
+       "n": 135,
+       "choices": {
+        "A": "We especially value our long-term customers.",
+        "B": "Please join our holiday celebration.",
+        "C": "Our annual report will be released soon.",
+        "D": "You have been a valuable member of our team."
+       },
+       "answer": "D",
+       "explanation": "Thư chúc mừng nhân viên kỷ niệm 30 năm làm việc; câu sau ca ngợi sự tận tụy, trung thành đóng góp cho thành công, nên câu chèn phù hợp là 'Bạn là một thành viên quý giá của đội ngũ chúng tôi'. Người nhận là nhân viên chứ không phải khách hàng nên A sai."
+      },
+      {
+       "n": 136,
+       "choices": {
+        "A": "will show",
+        "B": "must show",
+        "C": "have shown",
+        "D": "are showing"
+       },
+       "answer": "C",
+       "explanation": "Cụm 'Over the years' chỉ khoảng thời gian kéo dài từ quá khứ đến hiện tại, đòi hỏi thì hiện tại hoàn thành 'have shown'."
+      },
+      {
+       "n": 137,
+       "choices": {
+        "A": "then",
+        "B": "soon",
+        "C": "instead",
+        "D": "likewise"
+       },
+       "answer": "B",
+       "explanation": "Câu thông báo tấm bảng kỷ niệm sẽ được gửi qua bưu điện trong thời gian tới, nên trạng từ hợp lý là 'soon' (sớm). 'then', 'instead', 'likewise' đều không khớp ngữ cảnh."
+      },
+      {
+       "n": 138,
+       "choices": {
+        "A": "milestone",
+        "B": "consensus",
+        "C": "destination",
+        "D": "understanding"
+       },
+       "answer": "A",
+       "explanation": "Kỷ niệm 30 năm làm việc là một cột mốc quan trọng trong sự nghiệp, nên 'milestone' là từ đúng; 'consensus', 'destination', 'understanding' không hợp nghĩa 'reaching this ___' trong ngữ cảnh chúc mừng thâm niên."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q135.jpg",
+     "ptype": "letter",
+     "text": "10 January\n\nCindy Mulligan\n88 Manchester Road\nHARROGATE\nHG82 2MJ\n\nDear Ms. Mulligan,\n\nWe are delighted to celebrate your 30th anniversary with Brandrix Distribution Centre. [135]. Your dedication, loyalty, and hard work have contributed greatly to our success over the years. We appreciate your commitment to excellence. Over the years, you [136] great initiative, creativity, and leadership.\n\nYou will [137] be receiving a commemorative plaque by post. We hope this token of our gratitude reminds you how much you mean to us.\n\nCongratulations on reaching this [138]. Thank you for being part of our Brandrix family.\n\nSincerely,\n\nLance Powar, Vice President of Human Resources\nBrandrix Distribution Centre"
+    },
+    {
+     "questions": [
+      {
+       "n": 139,
+       "choices": {
+        "A": "finalizing",
+        "B": "finalize",
+        "C": "finalized",
+        "D": "finalizes"
+       },
+       "answer": "A",
+       "explanation": "Cấu trúc 'in the process of + V-ing' (đang trong quá trình làm gì) yêu cầu danh động từ, nên chọn 'finalizing'."
+      },
+      {
+       "n": 140,
+       "choices": {
+        "A": "organizations",
+        "B": "schedules",
+        "C": "colors",
+        "D": "times"
+       },
+       "answer": "C",
+       "explanation": "Câu trước nói đã chọn các loại sơn ('paints') khác cho tường và viền, nên thứ khách cần xem và quyết định có thích hay không là những 'colors' (màu sắc) mới."
+      },
+      {
+       "n": 141,
+       "choices": {
+        "A": "I have already begun drawing up plans for your kitchen.",
+        "B": "We are not planning to begin work for another two weeks.",
+        "C": "Your living room is particularly spacious and airy.",
+        "D": "We have not yet received your current payment."
+       },
+       "answer": "B",
+       "explanation": "Câu trước nói vẫn chưa quá muộn để thay đổi, câu sau nói phần đánh giá của khách sẽ giúp tinh chỉnh thiết kế 'before we start'; câu chèn 'Chúng tôi chưa định bắt đầu thi công trong hai tuần nữa' giải thích vì sao vẫn còn thời gian thay đổi."
+      },
+      {
+       "n": 142,
+       "choices": {
+        "A": "them",
+        "B": "ours",
+        "C": "his",
+        "D": "me"
+       },
+       "answer": "D",
+       "explanation": "Người viết thư (Ali Chaleby) tự nói về mình và câu tiếp theo là 'I look forward to hearing from you', nên phải là 'let me know' — đại từ tân ngữ ngôi thứ nhất số ít."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q139.jpg",
+     "ptype": "e-mail",
+     "text": "To: Kay Berman <kberman@xmail.com>\nFrom: Ali Chaleby <achaleby@ralenciadesign.com>\nDate: August 21\nSubject: Plans for living room\nAttachment: Samples\n\nDear Ms. Berman,\n\nMy design team is in the process of [139] the plans for your living room. Based on our last conversation, I have chosen different paints for the walls and borders. Please review the attached file and decide whether you like those new [140]. If not, it is not too late to make a change. [141]. Your review will help us refine the design before we start.\n\nPlease let [142] know if you have any questions. I look forward to hearing from you.\n\nKind regards,\n\nAli Chaleby, Ralencia Design"
+    },
+    {
+     "questions": [
+      {
+       "n": 143,
+       "choices": {
+        "A": "satisfied",
+        "B": "satisfaction",
+        "C": "satisfactory",
+        "D": "satisfactorily"
+       },
+       "answer": "C",
+       "explanation": "Cấu trúc 'find + tân ngữ + tính từ' (thấy dịch vụ như thế nào) cần tính từ mô tả 'our services', nên chọn 'satisfactory' (đạt yêu cầu). 'satisfied' dùng cho người, không dùng cho dịch vụ."
+      },
+      {
+       "n": 144,
+       "choices": {
+        "A": "photo",
+        "B": "lecture",
+        "C": "summary",
+        "D": "schedule"
+       },
+       "answer": "C",
+       "explanation": "Phòng khám đăng lên cổng thông tin một bản 'summary' (tóm tắt) buổi khám để bệnh nhân đọc lại và đặt câu hỏi nếu có; 'photo', 'lecture', 'schedule' đều không hợp với 'of your consultation' theo nghĩa này."
+      },
+      {
+       "n": 145,
+       "choices": {
+        "A": "To repeat",
+        "B": "For instance",
+        "C": "Otherwise",
+        "D": "Consequently"
+       },
+       "answer": "B",
+       "explanation": "Câu trước nói cổng thông tin dùng được cho 'various activities', câu sau liệt kê các ví dụ cụ thể (đặt hẹn, thanh toán, xem hồ sơ...), nên cần liên từ đưa ví dụ 'For instance'."
+      },
+      {
+       "n": 146,
+       "choices": {
+        "A": "We hope you will use this resource to manage your health-care needs.",
+        "B": "The staff will close the office early on Friday afternoons.",
+        "C": "Please be sure to come to our office fifteen minutes in advance.",
+        "D": "We apologize for any confusion about your appointment time."
+       },
+       "answer": "A",
+       "explanation": "Đoạn đang giới thiệu các tiện ích của cổng thông tin trực tuyến, nên câu chèn hợp mạch là mong bệnh nhân dùng 'this resource' (cổng thông tin) để quản lý nhu cầu chăm sóc sức khỏe; câu sau về bảo mật thông tin cá nhân cũng nối tiếp tự nhiên."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q143.jpg",
+     "ptype": "e-mail",
+     "text": "To: Marsha Zalen <mzalen@mansfield.com>\nFrom: Kaymar PCP <info@kaymarpcp.com>\nDate: September 8\nSubject: Your recent office visit\n\nDear Ms. Zalen,\n\nThank you for your recent visit to Kaymar Primary Care Practice. We hope you found our services [143], and we welcome suggestions for improvement.\n\nWe have posted a [144] of your consultation on our portal. Please take a moment to go through it and let us know if you have any questions.\n\nAs a reminder, you can log in to the portal for various activities. [145], you can make appointments and payments, view your medical history, review lab results, and request medication refills. [146]. Rest assured that your personal information is safe and secure.\n\nWe thank you for your business and look forward to serving you again.\n\nKaymar Primary Care Practice"
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "directions": "Đọc đoạn văn và chọn đáp án đúng nhất cho mỗi câu hỏi.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 147,
+       "choices": {
+        "A": "To invite residents to a meeting on May 3",
+        "B": "To request feedback about parking facilities",
+        "C": "To inform residents of an upcoming project",
+        "D": "To announce an increase in parking fees"
+       },
+       "question": "What is the purpose of the notice?",
+       "answer": "C",
+       "explanation": "Thông báo cho cư dân biết về dự án sắp diễn ra: \"Riverside Paving Company is coming to High View Apartments on May 3 and 4 to resurface the parking area.\" Đây là thông tin về một công trình sắp thực hiện, không phải mời họp hay tăng phí."
+      },
+      {
+       "n": 148,
+       "choices": {
+        "A": "It charges residents a monthly maintenance fee.",
+        "B": "It recently hired a new property manager.",
+        "C": "It has the parking area repaved every year.",
+        "D": "It assigns tenants specific parking spots."
+       },
+       "question": "What is suggested about High View Apartments?",
+       "answer": "D",
+       "explanation": "Câu \"You will receive an e-mail if your parking space is moved more than 20 meters from your previous one\" ngụ ý mỗi cư dân có một chỗ đậu xe riêng được chỉ định, nên khu chung cư này phân chỗ đậu cụ thể cho từng người thuê."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q147.jpg",
+     "ptype": "notice",
+     "text": "Dear High View Apartments Resident,\n\nRiverside Paving Company is coming to High View Apartments on May 3 and 4 to resurface the parking area. All vehicles must be removed by 8 A.M. on May 3 for the work to commence. Residents may use the parking area again starting on May 5 at 8 A.M. We realize that trying to find another place to park is inconvenient, but it is necessary for the job to be completed in the two days scheduled. Note that all parking spaces will be widened, and some spaces could be moved during the work. You will receive an e-mail if your parking space is moved more than 20 meters from your previous one.\n\nThank you for your cooperation,\nJudith Alvarez, Property Manager"
+    },
+    {
+     "questions": [
+      {
+       "n": 149,
+       "choices": {
+        "A": "Glassmaker",
+        "B": "Art instructor",
+        "C": "Beach lifeguard",
+        "D": "Program administrator"
+       },
+       "question": "What most likely is Ms. Seang's job?",
+       "answer": "B",
+       "explanation": "Ms. Seang là người dạy workshop nghệ thuật: \"fifteen participants enrolled in your mosaic workshop tomorrow\" và \"We'll be creating mosaic designs using bits of sea glass\", cho thấy cô là giảng viên mỹ thuật."
+      },
+      {
+       "n": 150,
+       "choices": {
+        "A": "She intends to create an extra-large mosaic.",
+        "B": "She has been collecting sea glass for many years.",
+        "C": "She can share her sea glass with all the workshop participants.",
+        "D": "She does not think she will use much of her sea glass."
+       },
+       "question": "At 11:23 A.M., what does Ms. Seang imply when she writes, \"I have plenty to go around\"?",
+       "answer": "C",
+       "explanation": "Khi được hỏi \"Do you have enough materials on hand for that many participants?\", cô trả lời \"I have plenty to go around\", nghĩa là cô có đủ sea glass để chia cho tất cả học viên trong workshop."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q149.jpg",
+     "ptype": "text-message chain",
+     "text": "Carol Barger (10:45 A.M.): Hello, Ms. Seang.\n\nLeakhena Seang (10:55 A.M.): Good morning!\n\nCarol Barger (11:15 A.M.): We have fifteen participants enrolled in your mosaic workshop tomorrow. That is five more than last summer. Your workshops get more popular every year! Do you have enough materials on hand for that many participants?\n\nLeakhena Seang (11:23 A.M.): I have plenty to go around. We'll be creating mosaic designs using bits of sea glass I collected on my vacation last summer. They are pieces of brown, green, and blue bottles that have washed up on the beach. The sand has smoothed all the sharp edges, so they're perfectly safe for everyone to use.\n\nCarol Barger (11:30 A.M.): Sounds good. See you tomorrow at breakfast."
+    },
+    {
+     "questions": [
+      {
+       "n": 151,
+       "choices": {
+        "A": "He will be attending a sales conference.",
+        "B": "He sent Ms. Correa an office supply request.",
+        "C": "He wrote an article in the September newsletter.",
+        "D": "He will be moving to another company location."
+       },
+       "question": "What is mentioned about Mr. Norton?",
+       "answer": "D",
+       "explanation": "Email nói rõ \"Jasen Norton will transfer to our Kingston headquarters next month\", tức ông sẽ chuyển đến một địa điểm khác của công ty (trụ sở chính ở Kingston)."
+      },
+      {
+       "n": 152,
+       "choices": {
+        "A": "Send her stories for a newsletter",
+        "B": "Give her names of potential new hires",
+        "C": "Inform her of plans to attend an event",
+        "D": "Help her decorate the office"
+       },
+       "question": "What does Ms. Correa ask members of the sales team to do?",
+       "answer": "C",
+       "explanation": "Ms. Correa yêu cầu \"Let me know by 12 October whether you will be able to attend\" — báo cho cô biết họ có tham dự buổi tiệc chia tay (sự kiện) hay không."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q151.jpg",
+     "ptype": "e-mail",
+     "text": "To: Sales Team\nFrom: Laura Correa\nDate: 5 October\nSubject: Updates\n\nDear Team,\n\nAs announced in the Brighter Sails September newsletter, our performance has been consistently strong this year. This is an accomplishment we can all be proud of. Please take a moment to congratulate each other. We will continue to dream up new and exciting plans for the future!\n\nIn other news, Jasen Norton will transfer to our Kingston headquarters next month. We are sad to lose Mr. Norton, but we gratefully acknowledge his excellent work and wish him continued success in his new role.\n\nThere will be a farewell luncheon for Mr. Norton on 28 October at 1:00 P.M. in the second-floor conference room. Bring your good cheer and perhaps a story to share. The company will supply lunch, a cake, and decorations. Let me know by 12 October whether you will be able to attend.\n\nSincerely,\n\nLaura Correa, Sales Manager\nBrighter Sails Ltd."
+    },
+    {
+     "questions": [
+      {
+       "n": 153,
+       "choices": {
+        "A": "To report on beach conditions",
+        "B": "To announce a business reopening",
+        "C": "To promote a movie premiere",
+        "D": "To advertise a new restaurant"
+       },
+       "question": "What is the purpose of the article?",
+       "answer": "B",
+       "explanation": "Bài báo thông báo việc rạp chiếu phim mở cửa trở lại: \"The 40-year-old Crown Coastal Theater is scheduled to reopen in June\" sau khi được chủ mới tân trang."
+      },
+      {
+       "n": 154,
+       "choices": {
+        "A": "A town council member",
+        "B": "An event coordinator",
+        "C": "Ms. Lafferty's business partner",
+        "D": "The writer of the article"
+       },
+       "question": "Who is Ms. Flanagan?",
+       "answer": "C",
+       "explanation": "Morgan Flanagan là bạn và đối tác kinh doanh của Ms. Lafferty: \"The friends, who also own the popular Blue Bay Bistro, decided to buy the theater\" — hai người cùng sở hữu nhà hàng và cùng mua rạp."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q153.jpg",
+     "ptype": "article",
+     "text": "Refurbished Theater Gives Town a Boost\n\nBEACHVILLE (February 24)—Beachville residents and tourists have a good reason to celebrate. The 40-year-old Crown Coastal Theater is scheduled to reopen in June. Many were saddened when the former theater owners decided to close the venue over a year ago, citing the cost of needed renovations. Fortunately, the theater has new owners who have spent the last year updating the interior and the projection system.\n\nChristine Lafferty said that she and her childhood friend Morgan Flanagan spent plenty of time at the theater while growing up. \"Going to the movies is the thing to do on a rainy day in a seaside town. We were sorry to see it close.\" The friends, who also own the popular Blue Bay Bistro, decided to buy the theater and make the necessary repairs to keep it a thriving business. For more information about the theater and its upcoming events, visit www.crowncoastaltheater.com.",
+     "title": "Refurbished Theater Gives Town a Boost"
+    },
+    {
+     "questions": [
+      {
+       "n": 155,
+       "choices": {
+        "A": "To request payment",
+        "B": "To provide operating instructions",
+        "C": "To advertise a new product",
+        "D": "To offer a substitute item"
+       },
+       "question": "What is the purpose of the e-mail?",
+       "answer": "D",
+       "explanation": "Email báo mẫu kính đã đặt bị hết hàng và đề nghị một sản phẩm thay thế tương tự: \"the item you requested is on back order\" và \"we have a similar telescope made by another manufacturer, Belter Telescopes\"."
+      },
+      {
+       "n": 156,
+       "choices": {
+        "A": "It can only be ordered online.",
+        "B": "It will ship directly from the manufacturer.",
+        "C": "It includes a protective case.",
+        "D": "It is the most expensive telescope of its type."
+       },
+       "question": "What is mentioned about the Belter BTR-1483 telescope?",
+       "answer": "C",
+       "explanation": "Email nói mọi kính Belter đều kèm túi đựng có đệm: \"all Belter telescopes include a padded carrying case\" — tức là có hộp/túi bảo vệ."
+      },
+      {
+       "n": 157,
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"You can see a full list of specifications on our Web site.\"",
+       "answer": "B",
+       "explanation": "Câu \"You can see a full list of specifications on our Web site.\" hợp nhất ở [2], ngay sau khi email liệt kê vài thông số của Belter BTR-1483 (\"has a 120 mm aperture and a retractable lens hood\") — danh sách thông số đầy đủ xem trên web."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q155.jpg",
+     "ptype": "e-mail",
+     "text": "To: Randi Longfellow <rlongfellow@sapphiremail.com.au>\nFrom: Deon Welman <deonwelman@skyviewscopes.com.au>\nDate: 27 March\nSubject: Makatasi model METX-33948\n\nDear Ms. Longfellow,\n\nThank you for ordering the Makatasi ETX-Triple Refracting Telescope, model METX-33948. Unfortunately, the item you requested is on back order. — [1] —. If you would prefer not to wait, we have a similar telescope made by another manufacturer, Belter Telescopes. Like the Makatasi model you ordered, the Belter BTR-1483 has a 120 mm aperture and a retractable lens hood. — [2] —. In addition, all Belter telescopes include a padded carrying case. The Belter BTR-1483 costs $200 less than the Makatasi METX-33948.\n\nIf you wish to revise your order, simply reply to this e-mail within 48 hours or go to our Web site to chat with a representative at http://www.skyviewscopes.com.au. We will then change your order, refund $200 to your credit card, and ship your new telescope overnight at no extra charge. — [3] —. Otherwise, we will notify you when the Makatasi model METX-33948 is back in stock and provide delivery information at that point. — [4] —.\n\nBest regards,\n\nDeon Welman\nSales Representative, Skyview Scopes",
+     "title": "*E-mail*"
+    },
+    {
+     "questions": [
+      {
+       "n": 158,
+       "choices": {
+        "A": "To explain how to use a software program",
+        "B": "To request Ms. Myo's assistance with a project",
+        "C": "To introduce a new staff member",
+        "D": "To indicate that Mr. Delpit is out of the office"
+       },
+       "question": "What is one purpose of the e-mail?",
+       "answer": "D",
+       "explanation": "Đây là email trả lời tự động báo vắng mặt: \"I am currently on holiday and will return to the office on 15 March\"."
+      },
+      {
+       "n": 159,
+       "choices": {
+        "A": "A job opening will be filled.",
+        "B": "A product will be launched.",
+        "C": "A client meeting will take place.",
+        "D": "A Web site redesign will begin."
+       },
+       "question": "What will happen on April 2 ?",
+       "answer": "B",
+       "explanation": "Ngày 2/4 phần mềm mới được phát hành: \"our new graphic design software program will be released on 2 April\"."
+      },
+      {
+       "n": 160,
+       "choices": {
+        "A": "By calling Ms. Viswan",
+        "B": "By replying to Mr. Delpit's e-mail",
+        "C": "By visiting Hamerkoptech's Web site",
+        "D": "By contacting the customer service department"
+       },
+       "question": "How can people subscribe to a newsletter?",
+       "answer": "C",
+       "explanation": "Đăng ký nhận bản tin trên trang web của Hamerkoptech: \"There, you may also sign up to receive our weekly newsletter by following the instructions on the home page\" (There = Web site www.hamerkoptech.co.nz)."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q158.jpg",
+     "ptype": "e-mail",
+     "text": "To: Sun-Hi Myo <shmyo@sunmail.co.nz>\nFrom: Jan Delpit <jdelpit@hamerkoptech.co.nz>\nDate: 8 March\nSubject: RE: Inquiry about job opening\n\nHello,\n\nThank you for your e-mail. I am currently on holiday and will return to the office on 15 March. I will respond to your message as soon as possible after I return.\n\nIf you require general assistance during my absence or have questions about the open position in our sales department, please contact my assistant Sita Viswan at 04 555 0193 or sviswan@hamerkoptech.co.nz. For questions about specific Hamerkoptech software products, contact the customer service department at customerservice@hamerkoptech.co.nz.\n\nAdditionally, I am happy to announce that our new graphic design software program will be released on 2 April. You can read more about the program at Hamerkoptech's newly redesigned Web site, www.hamerkoptech.co.nz. There, you may also sign up to receive our weekly newsletter by following the instructions on the home page.\n\nSincerely,\n\nJan Delpit"
+    },
+    {
+     "questions": [
+      {
+       "n": 161,
+       "choices": {
+        "A": "To discuss a cooking technique",
+        "B": "To report on a corporate merger",
+        "C": "To announce a new product line",
+        "D": "To introduce a recently hired executive"
+       },
+       "question": "What is one purpose of the article?",
+       "answer": "C",
+       "explanation": "Bài báo thông báo dòng sản phẩm mới của Vimalo Brands: \"will soon offer something new for its customers: frozen foods\" — dòng Nutridinna."
+      },
+      {
+       "n": 162,
+       "choices": {
+        "A": "recently",
+        "B": "exactly",
+        "C": "slightly",
+        "D": "only"
+       },
+       "question": "The word \"just\" in paragraph 1, line 8, is closest in meaning to",
+       "answer": "D",
+       "explanation": "Trong \"Our new Nutridinna line is not just about convenience\", \"just\" nghĩa là \"only\" (chỉ/đơn thuần): không chỉ vì sự tiện lợi."
+      },
+      {
+       "n": 163,
+       "choices": {
+        "A": "It is less expensive than fresh food.",
+        "B": "It is as nutritious as fresh food.",
+        "C": "It is as easy to ship as fresh food.",
+        "D": "It is less flavorful than fresh food."
+       },
+       "question": "What does Ms. Martens suggest about flash-frozen food?",
+       "answer": "B",
+       "explanation": "Bà Martens nói phương pháp cấp đông nhanh giữ nguyên dưỡng chất: \"our products retain their texture and flavour as well as their healthy vitamins and minerals\" — tức bổ dưỡng như đồ tươi."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q161.jpg",
+     "ptype": "article",
+     "text": "Vimalo Brands Enters a New Era\n\nBy Yvette Maurer\n\nVANCOUVER (2 August)—Vimalo Brands, the large consumer goods company that markets popular nutritional-support and personal-care products, including Powerburst breakfast drinks and Honeysoft soaps and lotions, will soon offer something new for its customers: frozen foods. \"Our new Nutridinna line is not just about convenience,\" CEO Danitza Martens said during a press conference earlier today. \"Frozen foods are not a new concept, but our method of flash-freezing fresh produce and meats ensures that our products retain their texture and flavour as well as their healthy vitamins and minerals. Now our customers can enjoy the convenience of frozen food without sacrificing quality.\"\n\nVimalo Brands has partnered with Vancouver-area farms to obtain produce and meat for the Nutridinna line. \"By keeping our operations local, we avoid shipping delays and can flash-freeze freshly harvested vegetables at their peak of ripeness,\" Martens said. \"Our customers benefit further, since our products can be kept in the freezer for up to six months.\" Nutridinna foods will be available in supermarkets beginning in November. Frozen fish and other seafood will be added early next year.",
+     "title": "Vimalo Brands Enters a New Era"
+    },
+    {
+     "questions": [
+      {
+       "n": 164,
+       "choices": {
+        "A": "A Karning Creative Designs client",
+        "B": "A business owner",
+        "C": "A photographer",
+        "D": "A real estate agent"
+       },
+       "question": "According to the advertisement, who most likely is Ms. Navani?",
+       "answer": "B",
+       "explanation": "Bà Navani là chủ doanh nghiệp — CEO kiêm người sáng lập công ty: \"the home of our current CEO and founder Shirin Navani\"."
+      },
+      {
+       "n": 165,
+       "choices": {
+        "A": "Its primary focus is Web design.",
+        "B": "It initially employed two people.",
+        "C": "It was founded by Mr. Tomassin.",
+        "D": "Its staff are permitted to work from home."
+       },
+       "question": "What is indicated about Karning Creative Designs?",
+       "answer": "B",
+       "explanation": "Công ty khởi đầu chỉ với hai người: \"Karning Creative Designs began ten years ago as a two-person operation\"."
+      },
+      {
+       "n": 166,
+       "choices": {
+        "A": "Skill in working with others",
+        "B": "Previous design experience",
+        "C": "A willingness to work on weekends",
+        "D": "An ability to use certain software applications"
+       },
+       "question": "What is required of job applicants?",
+       "answer": "A",
+       "explanation": "Ứng viên lý tưởng phải \"Demonstrates a strong ability to work closely with colleagues\" — kỹ năng làm việc với người khác; còn kinh nghiệm thiết kế chỉ là điểm cộng (\"a plus but not strictly necessary\")."
+      },
+      {
+       "n": 167,
+       "choices": {
+        "A": "A project will begin.",
+        "B": "A deadline will occur.",
+        "C": "A graphic designer will relocate.",
+        "D": "An application form will be made available."
+       },
+       "question": "What will happen on March 31 ?",
+       "answer": "B",
+       "explanation": "Ngày 31/3 là hạn chót nộp hồ sơ: \"All applications must be received by March 31\"."
+      }
+     ],
+     "img": "assets/img/custom/20260707-153621-test-1/passage-q164.jpg",
+     "ptype": "advertisement",
+     "text": "Are you ready to work hard as part of a team of like-minded individuals? Are you willing to put your education, your experience, and your imagination to great use? If so, then we have the job for you. Karning Creative Designs is expanding, and with our success comes your opportunity.\n\nKarning Creative Designs began ten years ago as a two-person operation set up in the home of our current CEO and founder Shirin Navani. Now located in a beautiful loft in downtown Hollinson, our firm currently employs 25 full-time staff members. At Karning, we design paper-based brochures, catalogs, ads, and posters for our clients. We are currently seeking qualified designers and artists who will shine in a fast-paced, collaborative environment.\n\nThe ideal candidate\n• Holds a degree in design, advertising, or graphic art—although several years of direct experience may substitute for a degree\n• Demonstrates a strong ability to work closely with colleagues\n• Maintains a critical eye for detail and precision\n• Consistently meets deadlines and can flourish under pressure\n\nGraphic design or related experience is a plus but not strictly necessary.\n\nIf you are ready to join our team, we want to meet you! Contact Salvador Tomassin at 608-555-0144 for further details. All applications must be received by March 31."
+    }
+   ]
+  }
+ ]
+}

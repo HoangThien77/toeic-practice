@@ -13,7 +13,7 @@ cat > "$PLIST" <<EOF
     <string>/usr/bin/python3</string>
     <string>$APP/poller.py</string>
   </array>
-  <key>StartInterval</key><integer>600</integer>
+  <key>StartInterval</key><integer>120</integer>
   <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>$APP/uploads/poller.log</string>
   <key>StandardErrorPath</key><string>$APP/uploads/poller.log</string>
@@ -21,5 +21,5 @@ cat > "$PLIST" <<EOF
 EOF
 launchctl unload "$PLIST" 2>/dev/null
 launchctl load "$PLIST"
-echo "✅ Đã cài poller — máy sẽ tự kiểm tra đề mới mỗi 10 phút (log: uploads/poller.log)"
+echo "✅ Đã cài poller — máy sẽ tự kiểm tra đề mới mỗi 2 phút (log: uploads/poller.log)"
 read -k 1 -s "?Nhấn phím bất kỳ để đóng..."
