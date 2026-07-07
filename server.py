@@ -90,11 +90,29 @@ Nếu thất bại không khắc phục được: đặt "status": "error" và "
         "Bash(mkdir:*)", "Bash(cp:*)", "Bash(mv:*)", "Bash(ls:*)", "Bash(rm:*)",
         "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)",
     ]
+    # Prompt đưa qua file; chạy qua zsh LOGIN shell để có môi trường đầy đủ như
+    # terminal thật (poller chạy dưới launchd có env tối giản — từng khiến claude
+    # treo im lặng khi spawn trực tiếp). caffeinate -i: giữ máy không ngủ khi xử lý.
+    prompt_path = os.path.join(folder, "prompt.txt")
+    with open(prompt_path, "w") as pf:
+        pf.write(prompt)
+    import shlex
+    cmd = (
+        f'cd {shlex.quote(ROOT)} && exec /usr/bin/caffeinate -i {shlex.quote(claude)} '
+        f'-p "$(cat {shlex.quote(prompt_path)})" --permission-mode acceptEdits '
+        f'--allowedTools {shlex.quote(" ".join(allowed))}'
+    )
+    env = {
+        **os.environ,
+        "PATH": "/opt/homebrew/bin:/usr/local/bin:" + os.environ.get("PATH", "/usr/bin:/bin:/usr/sbin:/sbin"),
+        "HOME": os.path.expanduser("~"),
+        "SHELL": "/bin/zsh",
+        "LANG": os.environ.get("LANG", "en_US.UTF-8"),
+        "TERM": "dumb",
+    }
     subprocess.Popen(
-        # caffeinate -i: giữ máy không ngủ (idle sleep) trong lúc số hóa đề
-        ["/usr/bin/caffeinate", "-i", claude, "-p", prompt, "--permission-mode", "acceptEdits",
-         "--allowedTools", " ".join(allowed)],
-        cwd=ROOT, stdout=log, stderr=log,
+        ["/bin/zsh", "-lc", cmd],
+        cwd=ROOT, stdout=log, stderr=log, env=env,
         stdin=subprocess.DEVNULL, start_new_session=True,
     )
     return None

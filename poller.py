@@ -112,6 +112,17 @@ def main():
 
         elif os.path.isfile(local_mf):
             local = json.load(open(local_mf))
+            # watchdog: "processing" quá 45 phút mà log im lặng >20 phút → coi là treo, đánh dấu lỗi
+            if local.get("status") == "processing":
+                started = (local.get("processStartedAt") or 0) / 1000
+                log_path = os.path.join(local_dir, "process.log")
+                log_age = time.time() - os.path.getmtime(log_path) if os.path.isfile(log_path) else 1e9
+                if time.time() - started > 45 * 60 and log_age > 20 * 60:
+                    log(f"{uid}: xử lý treo quá hạn — đánh dấu lỗi để có thể thử lại")
+                    subprocess.run(["pkill", "-f", uid], env=GIT_ENV, capture_output=True)
+                    local["status"] = "error"
+                    local["error"] = "Xử lý bị treo quá hạn — hãy bấm Thử lại"
+                    json.dump(local, open(local_mf, "w"), ensure_ascii=False, indent=1)
             if local.get("status") in ("done", "error") and remote.get("status") not in ("done", "error"):
                 log(f"{uid}: đồng bộ trạng thái {local['status']} lên web")
                 # dọn rác: đề đã xong thì xoá file gốc khỏi kho chờ cloud, chỉ giữ manifest để hiển thị trạng thái
