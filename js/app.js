@@ -459,6 +459,13 @@
   let inboxTimer = null;
   let apiOk = null; // null = chưa biết; false = đang chạy trên hosting tĩnh (GitHub Pages...)
 
+  // Hộp thư cloud (Cloudflare Worker): cho phép giáo viên upload đề ngay trên web deploy.
+  // Máy Mac của học viên tự kéo về xử lý (poller.py) rồi tự đăng lên web.
+  const CLOUD_INBOX = {
+    url: "", // điền sau khi deploy worker, vd: https://toeic-inbox.xxx.workers.dev
+    token: "toeic-d55c1e1787c9c904",
+  };
+
   async function probeApi() {
     if (apiOk !== null) return apiOk;
     try {
@@ -479,8 +486,9 @@
       uploads = (await r.json()).uploads || [];
       apiOk = true;
     } catch {
-      // static hosting (GitHub Pages...): no upload API — show a gentle note instead of an error
       apiOk = false;
+      // hosting tĩnh: hiển thị hàng chờ từ hộp thư cloud (nếu đã cấu hình)
+      if (CLOUD_INBOX.url) { renderCloudInbox(area); return; }
       area.innerHTML = '<div class="history-empty">📤 Tính năng upload & xử lý đề mới chỉ hoạt động khi chạy app trên máy (mở bằng "Start TOEIC App.command"). Đề đã xử lý xong vẫn dùng đầy đủ trên web này.</div>';
       return;
     }
@@ -524,10 +532,70 @@
     refreshInbox();
   }
 
+  const CLOUD_STATUS = {
+    uploading: '<span class="badge badge-amber">⬆️ Đang tải lên…</span>',
+    pending: '<span class="badge badge-amber">📬 Trong hàng chờ — máy xử lý sẽ nhận khi bật</span>',
+    processing: '<span class="badge badge-blue"><span class="spin"></span> Đang số hóa trên máy…</span>',
+    done: '<span class="badge badge-green">✅ Đã lên web — tải lại trang để thấy đề</span>',
+    error: '<span class="badge" style="background:var(--red-soft);color:var(--red)">❌ Lỗi xử lý</span>',
+  };
+
+  async function renderCloudInbox(area) {
+    try {
+      const r = await fetch(CLOUD_INBOX.url + "/pending");
+      const uploads = (await r.json()).uploads || [];
+      if (!uploads.length) {
+        area.innerHTML = '<div class="history-empty">Chưa có đề nào trong hàng chờ. Bấm "📤 Tải đề mới lên" để gửi đề.</div>';
+        return;
+      }
+      const rows = uploads.map((u) => `<tr>
+        <td><b>${esc(u.name)}</b><div style="font-size:12px;color:var(--muted)">${(u.files || []).map(esc).join(", ")}</div></td>
+        <td>${CLOUD_STATUS[u.status] || esc(u.status || "")}</td>
+        <td>${u.uploadedAt ? new Date(u.uploadedAt).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : ""}</td>
+      </tr>`).join("");
+      area.innerHTML = `<div class="table-scroll"><table class="history-table"><thead><tr><th>Đề</th><th>Trạng thái</th><th>Lúc gửi</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+      clearTimeout(inboxTimer);
+      if (uploads.some((u) => ["pending", "processing", "uploading"].includes(u.status)) && state.view === "home") {
+        inboxTimer = setTimeout(() => { const a = $("#inbox-area"); if (a) renderCloudInbox(a); }, 30000);
+      }
+    } catch {
+      area.innerHTML = '<div class="history-empty">Không kết nối được hộp thư đề — thử lại sau.</div>';
+    }
+  }
+
   async function goUpload() {
     state.view = "upload";
     document.body.classList.remove("has-mbar");
     $("#btn-exit").classList.add("hidden");
+    if (!(await probeApi()) && CLOUD_INBOX.url) {
+      // web deploy + có hộp thư cloud: form upload gửi thẳng vào hàng chờ
+      screen.innerHTML = `
+        <div class="hero"><h1>📤 Gửi đề mới vào hàng chờ</h1>
+          <p>Dành cho giáo viên/học viên: chọn file đề PDF + audio (nếu có bài nghe) rồi gửi. Đề sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích) và xuất hiện trên web này — thường trong vài giờ, tuỳ lúc máy xử lý bật.</p>
+        </div>
+        <div class="test-card" style="max-width:640px">
+          <label class="up-label">Tên đề <span style="color:var(--red)">*</span></label>
+          <input id="up-name" class="up-input" type="text" placeholder="VD: Đề cô Hoa tuần 3" maxlength="60">
+          <label class="up-label">Loại đề</label>
+          <select id="up-kind" class="up-input">
+            <option value="auto">Tự nhận diện (mặc định)</option>
+            <option value="reading">Chỉ Reading</option>
+            <option value="listening">Chỉ Listening</option>
+            <option value="both">Cả Listening + Reading</option>
+          </select>
+          <label class="up-label">File đề (PDF — chọn được nhiều file) <span style="color:var(--red)">*</span></label>
+          <input id="up-pdf" class="up-input" type="file" accept=".pdf" multiple>
+          <label class="up-label">File audio (MP3 — nếu có bài nghe)</label>
+          <input id="up-audio" class="up-input" type="file" accept=".mp3,.m4a,.wav">
+          <div id="up-status" style="font-size:13.5px;color:var(--muted);min-height:20px"></div>
+          <div class="actions">
+            <button id="up-submit" class="btn btn-primary" onclick="App.submitCloudUpload()">📤 Gửi vào hàng chờ</button>
+            <button class="btn" onclick="App.goHome()">Huỷ</button>
+          </div>
+        </div>`;
+      window.scrollTo(0, 0);
+      return;
+    }
     if (!(await probeApi())) {
       // bản deploy tĩnh: không có server nhận file → hướng dẫn thay vì form
       screen.innerHTML = `
@@ -582,6 +650,50 @@
       r.onerror = rej;
       r.readAsDataURL(file);
     });
+  }
+
+  async function submitCloudUpload() {
+    const name = $("#up-name").value.trim();
+    const kind = $("#up-kind").value;
+    const files = [...$("#up-pdf").files, ...$("#up-audio").files];
+    const status = $("#up-status");
+    if (!name) { status.textContent = "⚠️ Hãy đặt tên cho đề."; return; }
+    if (!$("#up-pdf").files.length) { status.textContent = "⚠️ Hãy chọn ít nhất 1 file PDF đề."; return; }
+    const btn = $("#up-submit");
+    btn.disabled = true;
+    const CHUNK = 30 * 1024 * 1024; // 30MB nhị phân/chunk
+    const hdr = { "X-Inbox-Token": CLOUD_INBOX.token };
+    try {
+      const begin = await fetch(CLOUD_INBOX.url + "/begin", {
+        method: "POST", headers: { ...hdr, "Content-Type": "application/json" },
+        body: JSON.stringify({ name, kind, files: files.map((f) => f.name) }),
+      });
+      const bj = await begin.json();
+      if (!bj.ok) throw new Error(bj.error || "Không tạo được hàng chờ");
+      for (let fi = 0; fi < files.length; fi++) {
+        const f = files[fi];
+        const nChunks = Math.max(1, Math.ceil(f.size / CHUNK));
+        for (let c = 0; c < nChunks; c++) {
+          status.textContent = `Đang gửi ${f.name} — phần ${c + 1}/${nChunks} (file ${fi + 1}/${files.length})…`;
+          const b64 = await fileToB64(f.slice(c * CHUNK, (c + 1) * CHUNK));
+          const r = await fetch(`${CLOUD_INBOX.url}/put?id=${bj.id}&name=${encodeURIComponent(f.name)}&idx=${c}`, {
+            method: "POST", headers: hdr, body: b64,
+          });
+          const j = await r.json();
+          if (!j.ok) throw new Error(j.error || `Gửi ${f.name} thất bại`);
+        }
+      }
+      status.textContent = "Đang hoàn tất…";
+      const fin = await fetch(`${CLOUD_INBOX.url}/finish?id=${bj.id}`, { method: "POST", headers: hdr });
+      if (!(await fin.json()).ok) throw new Error("Không chốt được hàng chờ");
+      goHome();
+      openModal(`<h3>✅ Đã gửi đề vào hàng chờ!</h3>
+        <p>"${esc(name)}" sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích tiếng Việt) rồi xuất hiện trên web này — thường trong vài giờ. Theo dõi trạng thái ở mục "Đề mới upload".</p>
+        <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
+    } catch (e) {
+      status.textContent = "❌ " + e.message;
+      btn.disabled = false;
+    }
   }
 
   async function submitUpload() {
@@ -1467,7 +1579,7 @@
   window.App = {
     goHome, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, openHistory, openKeyView, showResult,
-    goUpload, submitUpload, processUpload, openQnavSheet,
+    goUpload, submitUpload, submitCloudUpload, processUpload, openQnavSheet,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
