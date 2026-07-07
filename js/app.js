@@ -256,23 +256,47 @@
     return null; // listening-only: chạy theo audio
   }
 
+  const ICONS = {
+    phones: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 1 16 0"/><path d="M4 14v4a2 2 0 0 0 2 2h1a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H4z"/><path d="M20 14v4a2 2 0 0 1-2 2h-1a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h3z"/></svg>',
+    book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+    cards: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v13"/></svg>',
+    up: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0 5 5m-5-5-5 5"/><path d="M4 20h16"/></svg>',
+  };
+
   function renderHome() {
     const hist = loadHistory();
-    const testCards = testGroups().map((g) => {
-      const badges = g.tests.map((t) => t.kind === "listening"
-        ? '<span class="badge badge-blue">🎧 Listening</span>'
-        : '<span class="badge badge-green">📖 Reading</span>').join(" ")
-        + (g.custom ? ' <span class="badge badge-amber">📤 Đề upload</span>' : "");
+    const vocab = D.vocab || [];
+    const srs = vocabSrs();
+    const learned = vocab.filter((v) => srs[v.id] && srs[v.id].lv >= 3).length;
+    const due = vocabDue().length;
+    const groups = testGroups();
+    const last = hist.find((h) => h.scaled != null);
+    const totalQ = Object.values(D.tests).reduce((n, t) => n + allQuestions(t).length, 0);
+
+    const testCards = groups.map((g) => {
+      const hasL = g.tests.some((t) => t.kind === "listening");
+      const tags = g.tests.map((t) => t.kind === "listening"
+        ? '<span class="tag tag-listen">Listening</span>'
+        : '<span class="tag tag-read">Reading</span>').join("")
+        + (g.custom ? '<span class="tag tag-upload">Đề upload</span>' : "");
       const total = g.tests.reduce((n, t) => n + allQuestions(t).length, 0);
-      const descs = g.tests.map((t) => `<div class="meta">${t.kind === "listening" ? "🎧" : "📖"} ${esc(t.desc)}</div>`).join("");
+      const metas = g.tests.map((t) => `<li>${esc(t.desc)}</li>`).join("");
       const tm = realExamTimer(g);
       return `<div class="test-card">
-        <h3>${esc(g.title)} ${badges}</h3>
-        ${descs}
-        <div class="meta">Tổng ${total} câu</div>
-        <div class="actions">
-          <button class="btn btn-primary" onclick="App.goRealExam('${g.base}')">🎯 Thi thật${tm ? ` (${tm}′)` : " (theo audio)"}</button>
-          <button class="btn" onclick="App.goPracticeSetup('${g.base}')">🛠 Luyện thi</button>
+        <div class="tc-top">
+          <span class="tc-icon">${hasL ? ICONS.phones : ICONS.book}</span>
+          <div>
+            <h3>${esc(g.title)}</h3>
+            <div class="tc-tags">${tags}</div>
+          </div>
+        </div>
+        <ul class="tc-meta">${metas}</ul>
+        <div class="tc-foot">
+          <span class="tc-count">${total} câu</span>
+          <div class="tc-actions">
+            <button class="btn" onclick="App.goPracticeSetup('${g.base}')">Luyện thi</button>
+            <button class="btn btn-primary" onclick="App.goRealExam('${g.base}')">Thi thật${tm ? ` · ${tm}′` : ""}</button>
+          </div>
         </div>
       </div>`;
     }).join("");
@@ -282,36 +306,63 @@
       if (!t && !h.session) return "";
       const full = !!h.answers;
       return `<tr class="hist-row" onclick="App.openHistory(${h.date})" title="Bấm để xem chi tiết bài làm này">
-        <td>${esc(h.title || (t ? t.title : h.testId))}</td>
-        <td>${h.session && h.session.real ? "🎯 Thi thật" : h.mode === "exam" ? "Thi thử" : "Luyện tập"}</td>
-        <td><b>${h.correct}/${h.total}</b> (${Math.round((h.correct / h.total) * 100)}%)</td>
+        <td>${esc((h.title || (t ? t.title : h.testId)).replace(/^[🎯🛠]+\s*/, ""))}</td>
+        <td>${h.session && h.session.real ? "Thi thật" : h.mode === "exam" ? "Thi thử" : "Luyện tập"}</td>
+        <td><b>${h.correct}/${h.total}</b> <span class="muted">(${Math.round((h.correct / h.total) * 100)}%)</span></td>
         <td>${h.scaled != null ? "~" + h.scaled : "—"}</td>
-        <td>${new Date(h.date).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" })}</td>
-        <td><span class="hist-review-link">${full ? "📋 Xem lại từng câu" : "📄 Chi tiết"}</span></td>
+        <td class="muted">${new Date(h.date).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" })}</td>
+        <td><span class="hist-review-link">${full ? "Xem lại" : "Chi tiết"}</span></td>
       </tr>`;
     }).join("");
 
+    const vocabPct = vocab.length ? Math.round((learned / vocab.length) * 100) : 0;
     screen.innerHTML = `
-      <div class="hero">
-        <h1>Luyện thi TOEIC — Listening & Reading</h1>
-        <p>Mỗi đề có 2 chế độ: <b>🎯 Thi thật</b> — làm nguyên đề đúng luật TOEIC, khoá giờ, chấm điểm chuẩn 10–990; <b>🛠 Luyện thi</b> — tự chọn part, thời gian và cách chấm. Cô giáo gửi đề mới? Bấm <b>Tải đề mới lên</b>.</p>
+      <div class="home-head">
+        <h1>Luyện thi TOEIC</h1>
+        <p class="home-sub">Listening & Reading · chấm điểm quy đổi thang 990 · đáp án và giải thích tiếng Việt cho từng câu</p>
       </div>
-      <div class="notice">⚠️ Bộ đề gốc không kèm đáp án — đáp án & giải thích trong app do AI giải và biên soạn (đã đối chiếu transcript audio). Đề nào thiếu câu sẽ ghi rõ trong mô tả.</div>
-      <div class="section-label">Đề luyện tập</div>
-      <div class="card-grid">${testCards}</div>
-      <div class="section-label" style="display:flex;align-items:center;justify-content:space-between">
-        <span>Sổ từ vựng${(D.vocab || []).length ? ` · ${D.vocab.length} từ` : ""}</span>
-        <button class="btn btn-primary btn-sm" onclick="App.goVocab()">📒 Học từ + Flashcard${vocabDue().length ? ` (${vocabDue().length} từ cần ôn)` : ""}</button>
+      <div class="stats-strip">
+        <div class="stat-tile"><span class="sv">${groups.length}</span><span class="sk">đề luyện</span></div>
+        <div class="stat-tile"><span class="sv">${totalQ}</span><span class="sk">câu hỏi</span></div>
+        <div class="stat-tile"><span class="sv">${hist.length}</span><span class="sk">bài đã làm</span></div>
+        <div class="stat-tile"><span class="sv">${last ? "~" + last.scaled : "—"}</span><span class="sk">điểm gần nhất</span></div>
+        <div class="stat-tile${due ? " stat-due" : ""}"><span class="sv">${due}</span><span class="sk">từ cần ôn</span></div>
       </div>
-      <div class="section-label" style="display:flex;align-items:center;justify-content:space-between">
-        <span>Đề mới upload</span>
-        <button class="btn btn-primary btn-sm" onclick="App.goUpload()">📤 Tải đề mới lên</button>
-      </div>
-      <div id="inbox-area"><div class="history-empty">Đang tải danh sách…</div></div>
-      <div class="section-label">Lịch sử làm bài</div>
-      ${hist.length ? `<div class="table-scroll"><table class="history-table"><thead><tr><th>Đề</th><th>Chế độ</th><th>Kết quả</th><th>Điểm quy đổi</th><th>Lúc</th><th></th></tr></thead><tbody>${histRows}</tbody></table></div>`
-        : '<div class="history-empty">Chưa có bài làm nào — bắt đầu luyện thôi! 💪</div>'}
-      <footer class="appfoot">Made with Claude Code · dữ liệu đề: Mock Test 3 & 5 (Benzen English TOEIC) + đề upload</footer>
+
+      <section class="home-sec">
+        <div class="sec-head"><h2>Đề luyện tập</h2></div>
+        <div class="card-grid">${testCards}</div>
+      </section>
+
+      <section class="home-sec">
+        <div class="sec-head">
+          <h2>Sổ từ vựng</h2>
+          <button class="link-btn" onclick="App.goVocab()">Mở sổ từ →</button>
+        </div>
+        <div class="vocab-panel">
+          <span class="tc-icon vp-icon">${ICONS.cards}</span>
+          <div class="vp-body">
+            <div class="vp-line"><b>${learned}/${vocab.length}</b> từ đã thuộc${due ? ` · <span class="vp-due">${due} từ đến hạn ôn hôm nay</span>` : " · hôm nay không có từ đến hạn"}</div>
+            <div class="vp-bar"><div class="vp-fill" style="width:${vocabPct}%"></div></div>
+          </div>
+          <button class="btn btn-primary" onclick="App.startFlashcards()">Ôn flashcard</button>
+        </div>
+      </section>
+
+      <section class="home-sec">
+        <div class="sec-head">
+          <h2>Đề mới upload</h2>
+          <button class="link-btn" onclick="App.goUpload()">+ Tải đề lên</button>
+        </div>
+        <div id="inbox-area"><div class="history-empty">Đang tải danh sách…</div></div>
+      </section>
+
+      <section class="home-sec">
+        <div class="sec-head"><h2>Lịch sử làm bài</h2></div>
+        ${hist.length ? `<div class="table-scroll"><table class="history-table"><thead><tr><th>Đề</th><th>Chế độ</th><th>Kết quả</th><th>Điểm quy đổi</th><th>Thời gian</th><th></th></tr></thead><tbody>${histRows}</tbody></table></div>`
+        : '<div class="history-empty">Chưa có bài làm nào — chọn một đề phía trên để bắt đầu.</div>'}
+      </section>
+      <footer class="appfoot">Dữ liệu đề: Mock Test 3 & 5 (Benzen English TOEIC) + đề upload · đáp án & giải thích do AI biên soạn, câu chưa chắc chắn được đánh dấu riêng</footer>
     `;
     refreshInbox();
   }
@@ -451,10 +502,10 @@
 
   /* ---------------- uploads / inbox ---------------- */
   const STATUS_LABEL = {
-    pending: '<span class="badge badge-amber">⏳ Chờ xử lý</span>',
+    pending: '<span class="badge badge-amber">Chờ xử lý</span>',
     processing: '<span class="badge badge-blue"><span class="spin"></span> Đang số hóa…</span>',
-    done: '<span class="badge badge-green">✅ Hoàn tất</span>',
-    error: '<span class="badge" style="background:var(--red-soft);color:var(--red)">❌ Lỗi</span>',
+    done: '<span class="badge badge-green">Hoàn tất</span>',
+    error: '<span class="badge badge-red">Lỗi</span>',
   };
   let inboxTimer = null;
   let apiOk = null; // null = chưa biết; false = đang chạy trên hosting tĩnh (GitHub Pages...)
@@ -489,19 +540,19 @@
       apiOk = false;
       // hosting tĩnh: hiển thị hàng chờ từ hộp thư cloud (nếu đã cấu hình)
       if (CLOUD_INBOX.url) { renderCloudInbox(area); return; }
-      area.innerHTML = '<div class="history-empty">📤 Tính năng upload & xử lý đề mới chỉ hoạt động khi chạy app trên máy (mở bằng "Start TOEIC App.command"). Đề đã xử lý xong vẫn dùng đầy đủ trên web này.</div>';
+      area.innerHTML = '<div class="history-empty">Tính năng upload & xử lý đề mới chỉ hoạt động khi chạy app trên máy (mở bằng "Start TOEIC App.command"). Đề đã xử lý xong vẫn dùng đầy đủ trên web này.</div>';
       return;
     }
     if (!uploads.length) {
-      area.innerHTML = '<div class="history-empty">Chưa có đề nào được upload. Bấm "📤 Tải đề mới lên" khi cô giáo gửi đề.</div>';
+      area.innerHTML = '<div class="history-empty">Chưa có đề nào được upload. Bấm "+ Tải đề lên" khi cô giáo gửi đề.</div>';
       return;
     }
     const rows = uploads.map((u) => {
       const files = u.files.map((f) => esc(f.name)).join(", ");
       let action = "";
-      if (u.status === "pending") action = `<button class="btn btn-sm btn-primary" onclick="App.processUpload('${u.id}')">⚙️ Xử lý ngay</button>`;
+      if (u.status === "pending") action = `<button class="btn btn-sm btn-primary" onclick="App.processUpload('${u.id}')">Xử lý ngay</button>`;
       else if (u.status === "processing") action = '<span style="color:var(--muted);font-size:12.5px">~5–15 phút</span>';
-      else if (u.status === "done") action = `<button class="btn btn-sm" onclick="location.reload()">🔄 Tải lại trang để thấy đề</button>`;
+      else if (u.status === "done") action = `<button class="btn btn-sm" onclick="location.reload()">Tải lại trang để thấy đề</button>`;
       else if (u.status === "error") action = `<button class="btn btn-sm" onclick="App.processUpload('${u.id}')">Thử lại</button>`;
       const doneIds = (u.resultTestIds || []).filter((id) => D.tests[id]);
       const doneNote = u.status === "done" && doneIds.length
@@ -533,11 +584,11 @@
   }
 
   const CLOUD_STATUS = {
-    uploading: '<span class="badge badge-amber">⬆️ Đang tải lên…</span>',
-    pending: '<span class="badge badge-amber">📬 Trong hàng chờ — máy xử lý sẽ nhận khi bật</span>',
+    uploading: '<span class="badge badge-amber">Đang tải lên…</span>',
+    pending: '<span class="badge badge-amber">Trong hàng chờ — máy xử lý sẽ nhận khi bật</span>',
     processing: '<span class="badge badge-blue"><span class="spin"></span> Đang số hóa trên máy…</span>',
-    done: '<span class="badge badge-green">✅ Đã lên web — tải lại trang để thấy đề</span>',
-    error: '<span class="badge" style="background:var(--red-soft);color:var(--red)">❌ Lỗi xử lý</span>',
+    done: '<span class="badge badge-green">Đã lên web — tải lại trang để thấy đề</span>',
+    error: '<span class="badge badge-red">Lỗi xử lý</span>',
   };
 
   async function renderCloudInbox(area) {
@@ -545,7 +596,7 @@
       const r = await fetch(CLOUD_INBOX.url + "/pending");
       const uploads = (await r.json()).uploads || [];
       if (!uploads.length) {
-        area.innerHTML = '<div class="history-empty">Chưa có đề nào trong hàng chờ. Bấm "📤 Tải đề mới lên" để gửi đề.</div>';
+        area.innerHTML = '<div class="history-empty">Chưa có đề nào trong hàng chờ. Bấm "+ Tải đề lên" để gửi đề mới.</div>';
         return;
       }
       const rows = uploads.map((u) => `<tr>
