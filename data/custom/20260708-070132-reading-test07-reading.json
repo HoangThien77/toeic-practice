@@ -1,0 +1,1445 @@
+{
+ "id": "20260708-070132-reading-test07-reading",
+ "kind": "reading",
+ "title": "YBM RC1000-2 — Test 07 (Reading)",
+ "desc": "Đề 7/10 trong sách YBM 실전토익 RC1000 vol.2 — Part 5–7, câu 101–200. Đáp án theo key đề gốc.",
+ "timerMin": 75,
+ "custom": true,
+ "parts": [
+  {
+   "part": 5,
+   "directions": "Chọn từ/cụm từ đúng nhất để hoàn thành câu.",
+   "items": [
+    {
+     "n": 101,
+     "question": "Mr. Pritchard called the bank to ask about the savings account _____ had opened last month.",
+     "choices": {
+      "A": "he",
+      "B": "him",
+      "C": "his",
+      "D": "himself"
+     },
+     "answer": "A",
+     "explanation": "Chỗ trống là chủ ngữ của mệnh đề quan hệ rút gọn '___ had opened last month', cần đại từ chủ ngữ 'he'. 'him' là tân ngữ, 'his' sở hữu, 'himself' phản thân đều sai.",
+     "uncertain": false
+    },
+    {
+     "n": 102,
+     "question": "Most people in the office choose to _____ the bus to work because there is limited parking near the building.",
+     "choices": {
+      "A": "travel",
+      "B": "cross",
+      "C": "ride",
+      "D": "run"
+     },
+     "answer": "C",
+     "explanation": "Cụm cố định 'ride the bus' (đi xe buýt). 'travel/cross/run the bus' đều không đúng ngữ cảnh đi làm bằng xe buýt.",
+     "uncertain": false
+    },
+    {
+     "n": 103,
+     "question": "For safety reasons, the kitchen _____ on display in the showroom are not kept plugged in.",
+     "choices": {
+      "A": "utensils",
+      "B": "appliances",
+      "C": "tiles",
+      "D": "counters"
+     },
+     "answer": "B",
+     "explanation": "Vế 'are not kept plugged in' (không được cắm điện) cho thấy đây là đồ điện → 'appliances' (thiết bị/đồ gia dụng nhà bếp). 'utensils' (dụng cụ), 'tiles' (gạch), 'counters' (quầy) không cần cắm điện.",
+     "uncertain": false
+    },
+    {
+     "n": 104,
+     "question": "Surprisingly, the cost of repairing the vehicle after the accident was _____ than purchasing a new one.",
+     "choices": {
+      "A": "greatly",
+      "B": "great",
+      "C": "greater",
+      "D": "greatness"
+     },
+     "answer": "C",
+     "explanation": "Có 'than' phía sau nên cần dạng so sánh hơn của tính từ: 'greater than' (đắt hơn). 'greatly' trạng từ, 'great' nguyên cấp, 'greatness' danh từ đều sai.",
+     "uncertain": false
+    },
+    {
+     "n": 105,
+     "question": "The small business loan from Renata Bank is what helped _____ café make some much-needed refurbishments.",
+     "choices": {
+      "A": "our",
+      "B": "ours",
+      "C": "we",
+      "D": "us"
+     },
+     "answer": "A",
+     "explanation": "Cần tính từ sở hữu đứng trước danh từ 'café': 'our café'. 'ours' đại từ sở hữu, 'we' chủ ngữ, 'us' tân ngữ đều không đứng trước danh từ.",
+     "uncertain": false
+    },
+    {
+     "n": 106,
+     "question": "The negotiator position requires a _____ understanding of the internal conflicts in the organization.",
+     "choices": {
+      "A": "sole",
+      "B": "deep",
+      "C": "private",
+      "D": "severe"
+     },
+     "answer": "B",
+     "explanation": "'a deep understanding' (sự hiểu biết sâu sắc) là cụm thông dụng, hợp nghĩa với vị trí đàm phán cần hiểu sâu các mâu thuẫn nội bộ. 'sole/private/severe understanding' không tự nhiên.",
+     "uncertain": false
+    },
+    {
+     "n": 107,
+     "question": "As the two products were _____ identical, the manager ordered the one with the lower price.",
+     "choices": {
+      "A": "nearer",
+      "B": "nearly",
+      "C": "nearest",
+      "D": "nearness"
+     },
+     "answer": "B",
+     "explanation": "Cần trạng từ bổ nghĩa cho tính từ 'identical': 'nearly identical' (gần như giống hệt). 'nearer/nearest' là so sánh, 'nearness' danh từ đều sai.",
+     "uncertain": false
+    },
+    {
+     "n": 108,
+     "question": "Customers using the laundry facility for the _____ time may need assistance in operating the machines.",
+     "choices": {
+      "A": "first",
+      "B": "each",
+      "C": "single",
+      "D": "once"
+     },
+     "answer": "A",
+     "explanation": "Cụm 'for the first time' (lần đầu tiên) hợp lý: khách dùng lần đầu nên cần trợ giúp. 'each/single/once' không tạo cụm đúng với 'for the ___ time' ở đây.",
+     "uncertain": false
+    },
+    {
+     "n": 109,
+     "question": "Langley Software _____ its user agreement later this year to make the terms easier for customers to understand.",
+     "choices": {
+      "A": "modified",
+      "B": "modifying",
+      "C": "will modify",
+      "D": "having modified"
+     },
+     "answer": "C",
+     "explanation": "Trạng ngữ thời gian 'later this year' chỉ tương lai → cần thì tương lai 'will modify'. Câu cần động từ chính chia thì, loại 'modifying' và 'having modified'.",
+     "uncertain": false
+    },
+    {
+     "n": 110,
+     "question": "The spokesperson seemed to respond to reporters' inquiries _____ though he were unfamiliar with the company's history.",
+     "choices": {
+      "A": "if",
+      "B": "so",
+      "C": "as",
+      "D": "when"
+     },
+     "answer": "C",
+     "explanation": "Cụm liên từ 'as though' (cứ như thể) đi với 'he were' (thức giả định) diễn tả điều không thật. 'if though/so though/when though' không phải cụm chuẩn.",
+     "uncertain": false
+    },
+    {
+     "n": 111,
+     "question": "Everyone who completes the customer _____ within the time frame will be entered into a prize drawing.",
+     "choices": {
+      "A": "demand",
+      "B": "questionnaire",
+      "C": "loyalty",
+      "D": "service"
+     },
+     "answer": "B",
+     "explanation": "'completes the customer questionnaire' (hoàn thành bảng câu hỏi/khảo sát khách hàng) hợp nghĩa với việc điền xong sẽ được tham gia rút thăm. 'demand/loyalty/service' không phải thứ để 'complete'.",
+     "uncertain": false
+    },
+    {
+     "n": 112,
+     "question": "Small bags can be placed in the overhead compartments or _____ the seat in front of you.",
+     "choices": {
+      "A": "under",
+      "B": "between",
+      "C": "toward",
+      "D": "among"
+     },
+     "answer": "A",
+     "explanation": "Túi nhỏ để 'under the seat in front of you' (dưới ghế phía trước) — cụm quen thuộc trên máy bay. 'between/toward/among' không hợp với một chiếc ghế đơn.",
+     "uncertain": false
+    },
+    {
+     "n": 113,
+     "question": "Guests who do not want to leave _____ items in their rooms can use the hotel's safe while they're away.",
+     "choices": {
+      "A": "fluent",
+      "B": "attentive",
+      "C": "prompt",
+      "D": "valuable"
+     },
+     "answer": "D",
+     "explanation": "'valuable items' (đồ có giá trị) hợp nghĩa: khách không muốn để đồ quý trong phòng thì dùng két an toàn. 'fluent/attentive/prompt' không mô tả đồ vật.",
+     "uncertain": false
+    },
+    {
+     "n": 114,
+     "question": "The report had to be rewritten because a piece of _____ information about the budget had been omitted.",
+     "choices": {
+      "A": "critics",
+      "B": "critically",
+      "C": "criticize",
+      "D": "critical"
+     },
+     "answer": "D",
+     "explanation": "Cần tính từ bổ nghĩa cho danh từ 'information': 'critical information' (thông tin quan trọng). 'critics' danh từ số nhiều, 'critically' trạng từ, 'criticize' động từ đều sai vị trí.",
+     "uncertain": false
+    },
+    {
+     "n": 115,
+     "question": "Cottage Farms specializes in _____ produce organically, without harmful fertilizers or pesticides.",
+     "choices": {
+      "A": "cultivates",
+      "B": "cultivating",
+      "C": "cultivation",
+      "D": "cultivate"
+     },
+     "answer": "B",
+     "explanation": "Sau giới từ 'in' (specializes in) phải dùng danh động từ (gerund): 'cultivating produce organically'. Các dạng động từ nguyên thể/chia 'cultivate/cultivates' không theo sau giới từ; 'cultivation' danh từ không nhận tân ngữ 'produce'.",
+     "uncertain": false
+    },
+    {
+     "n": 116,
+     "question": "The weekday lunch special at Paradise Café is served _____ a choice of side salad or the soup of the day.",
+     "choices": {
+      "A": "by",
+      "B": "with",
+      "C": "to",
+      "D": "until"
+     },
+     "answer": "B",
+     "explanation": "Cụm 'served with ...' nghĩa là 'được phục vụ kèm với'. Món trưa được dọn kèm một lựa chọn salad hoặc súp, nên dùng giới từ 'with'.",
+     "uncertain": false
+    },
+    {
+     "n": 117,
+     "question": "When responding to the invitation, please indicate your meal _____ if you will be in attendance.",
+     "choices": {
+      "A": "preference",
+      "B": "preferred",
+      "C": "preferable",
+      "D": "preferably"
+     },
+     "answer": "A",
+     "explanation": "Sau tính từ 'meal' cần một danh từ làm tân ngữ cho 'indicate'. 'meal preference' (sở thích/lựa chọn món ăn) là danh từ; các phương án còn lại là tính từ/trạng từ.",
+     "uncertain": false
+    },
+    {
+     "n": 118,
+     "question": "_____ safer than other cutting machines on the market, it's no wonder that the Y-881 is a top-selling product.",
+     "choices": {
+      "A": "Demonstration",
+      "B": "Demonstrate",
+      "C": "Demonstrably",
+      "D": "Demonstrable"
+     },
+     "answer": "C",
+     "explanation": "Cần trạng từ bổ nghĩa cho tính từ so sánh 'safer'. 'Demonstrably safer' = an toàn hơn một cách rõ ràng/chứng minh được. Các phương án kia là danh từ/động từ/tính từ.",
+     "uncertain": false
+    },
+    {
+     "n": 119,
+     "question": "_____ Rochester Boulevard has been expanded, traffic jams are rarely seen in the area.",
+     "choices": {
+      "A": "Whenever",
+      "B": "Only if",
+      "C": "Once",
+      "D": "Now that"
+     },
+     "answer": "D",
+     "explanation": "'Now that' (giờ đây khi mà, chỉ nguyên nhân đã hoàn tất) hợp với thì hiện tại hoàn thành 'has been expanded' và kết quả hiện tại 'traffic jams are rarely seen'. 'Whenever/Only if/Once' không khớp logic nhân-quả này.",
+     "uncertain": false
+    },
+    {
+     "n": 120,
+     "question": "To prevent cross-contamination of the food, raw meat and fresh vegetables should be kept _____ at all times.",
+     "choices": {
+      "A": "separate",
+      "B": "further",
+      "C": "nearby",
+      "D": "opposite"
+     },
+     "answer": "A",
+     "explanation": "'keep + tân ngữ + tính từ': 'kept separate' = giữ tách riêng. Thịt sống và rau phải luôn để tách riêng để tránh nhiễm khuẩn chéo; 'separate' đóng vai trò tính từ bổ ngữ.",
+     "uncertain": false
+    },
+    {
+     "n": 121,
+     "question": "_____ wishes to upgrade a standard class ticket to first class may do so at the station or on board.",
+     "choices": {
+      "A": "Anything",
+      "B": "Every",
+      "C": "Whoever",
+      "D": "Those"
+     },
+     "answer": "C",
+     "explanation": "'Whoever' (bất kỳ ai) làm chủ ngữ cho cả mệnh đề, đi với động từ số ít 'wishes' và vị ngữ chính 'may do so'. 'Those' cần 'who wish', 'Anything/Every' không hợp.",
+     "uncertain": false
+    },
+    {
+     "n": 122,
+     "question": "_____ made from plated copper are becoming more popular in the fashion world these days.",
+     "choices": {
+      "A": "Accessorized",
+      "B": "Accessorizes",
+      "C": "Accessorize",
+      "D": "Accessories"
+     },
+     "answer": "D",
+     "explanation": "Chủ ngữ cần là danh từ số nhiều để hợp với 'are becoming'. 'Accessories' (phụ kiện) làm chủ ngữ, được bổ nghĩa bởi cụm phân từ 'made from plated copper'.",
+     "uncertain": false
+    },
+    {
+     "n": 123,
+     "question": "Dr. Madison was unable to complete the experiment _____ some of the necessary equipment was malfunctioning.",
+     "choices": {
+      "A": "through",
+      "B": "since",
+      "C": "neither",
+      "D": "although"
+     },
+     "answer": "B",
+     "explanation": "'since' ở đây là liên từ chỉ nguyên nhân (= because). Thiết bị hỏng là lý do khiến bà không hoàn thành thí nghiệm; 'although' (dù) trái logic, 'through/neither' không phải liên từ nối mệnh đề nguyên nhân.",
+     "uncertain": false
+    },
+    {
+     "n": 124,
+     "question": "The airline's ticketing agent should _____ your luggage on the scale at the time of check-in.",
+     "choices": {
+      "A": "weighing",
+      "B": "have weighed",
+      "C": "be weighed",
+      "D": "have been weighed"
+     },
+     "answer": "B",
+     "explanation": "Chủ ngữ 'agent' là người thực hiện hành động cân, nên phải dùng thể chủ động, loại 'be weighed/have been weighed' (bị động). Sau 'should' dùng nguyên mẫu, và 'should have weighed' (lẽ ra đã phải cân) là dạng chủ động duy nhất đúng ngữ pháp.",
+     "uncertain": false
+    },
+    {
+     "n": 125,
+     "question": "Some of the items sold by Henrietta Gifts are more fragile than others, so they should be packaged _____.",
+     "choices": {
+      "A": "absolutely",
+      "B": "flexibly",
+      "C": "accordingly",
+      "D": "mutually"
+     },
+     "answer": "C",
+     "explanation": "'packaged accordingly' = đóng gói tương ứng/cho phù hợp. Vì món dễ vỡ hơn nên phải đóng gói phù hợp với tính chất đó; 'absolutely/flexibly/mutually' không diễn đạt ý này.",
+     "uncertain": false
+    },
+    {
+     "n": 126,
+     "question": "The team led by Ms. Gibbons _____ a memorable slogan to use in the Westbury Beverages commercial.",
+     "choices": {
+      "A": "came up with",
+      "B": "took off",
+      "C": "ran out of",
+      "D": "relied on"
+     },
+     "answer": "A",
+     "explanation": "Cụm động từ 'come up with' = nghĩ ra/sáng tạo. Nhóm nghĩ ra một khẩu hiệu đáng nhớ; 'took off' (cất cánh), 'ran out of' (hết), 'relied on' (dựa vào) đều sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 127,
+     "question": "During the lecture, biologist Joanne Marquez outlined _____ that this songbird has made to adjust to living near highly populated areas.",
+     "choices": {
+      "A": "adaptations",
+      "B": "adapting",
+      "C": "adapt",
+      "D": "adapted"
+     },
+     "answer": "A",
+     "explanation": "Cần danh từ làm tân ngữ cho 'outlined', được bổ nghĩa bởi mệnh đề quan hệ 'that this songbird has made'. 'adaptations' (những sự thích nghi) là danh từ số nhiều phù hợp.",
+     "uncertain": false
+    },
+    {
+     "n": 128,
+     "question": "Ms. Richards performs the majority of her writing in the _____ garage that she uses as a home office.",
+     "choices": {
+      "A": "convert",
+      "B": "converting",
+      "C": "converts",
+      "D": "converted"
+     },
+     "answer": "D",
+     "explanation": "Cần phân từ quá khứ làm tính từ bổ nghĩa cho 'garage': 'converted garage' = nhà để xe đã được cải tạo (thành phòng làm việc). Nhà để xe được cải tạo nên mang nghĩa bị động.",
+     "uncertain": false
+    },
+    {
+     "n": 129,
+     "question": "Most of the city council members nodded their heads _____ as Mr. Vidalia spoke about the need to reduce taxes.",
+     "choices": {
+      "A": "agreeable",
+      "B": "agreement",
+      "C": "agree",
+      "D": "agreeably"
+     },
+     "answer": "D",
+     "explanation": "Cần trạng từ bổ nghĩa cho động từ 'nodded': 'nodded their heads agreeably' = gật đầu tỏ ý đồng tình. 'agreeable' là tính từ, 'agreement' danh từ, 'agree' động từ đều không đúng vị trí.",
+     "uncertain": false
+    },
+    {
+     "n": 130,
+     "question": "Because the new employee information is so complicated, Mr. Conley _____ it down into four training sessions.",
+     "choices": {
+      "A": "withdrew",
+      "B": "ensured",
+      "C": "broke",
+      "D": "shared"
+     },
+     "answer": "C",
+     "explanation": "Cụm động từ 'break ... down into' = chia nhỏ thành. Ông Conley chia nội dung phức tạp thành bốn buổi đào tạo; 'withdrew/ensured/shared' không tạo cụm 'down into' hợp nghĩa.",
+     "uncertain": false
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "directions": "Đọc đoạn văn có 4 chỗ trống, chọn phương án phù hợp nhất cho mỗi chỗ trống.",
+   "items": [
+    {
+     "ptype": "article",
+     "title": "",
+     "text": "Ector Foods, one of the country's largest food processing companies, has announced [131] plans to meet 100% of its energy needs from renewable sources within five years. The move [132] the first of the company's three-step environmental initiative. Experts working in the field are not surprised that Ector Foods is the first of its kind to take such measures. [133]\n\n\"We have a responsibility to produce our goods responsibly,\" said CEO Morgan Parker in a press conference yesterday. \"[134] should not be taken lightly.\" Ector Foods will make use of on-site solar power as well as purchase electricity from wind farms in the area.",
+     "questions": [
+      {
+       "n": 131,
+       "choices": {
+        "A": "altered",
+        "B": "similar",
+        "C": "ambitious",
+        "D": "motivated"
+       },
+       "answer": "C",
+       "explanation": "Cần tính từ mô tả 'plans'. Kế hoạch đáp ứng 100% năng lượng từ nguồn tái tạo trong 5 năm là mục tiêu tham vọng → 'ambitious plans'. 'altered/similar/motivated' không hợp nghĩa.",
+       "uncertain": false
+      },
+      {
+       "n": 132,
+       "choices": {
+        "A": "marks",
+        "B": "marking",
+        "C": "to mark",
+        "D": "will have marked"
+       },
+       "answer": "A",
+       "explanation": "Mệnh đề 'The move ___ the first...' thiếu động từ chính, chủ ngữ 'The move' số ít nên chia hiện tại đơn 'marks'. Các dạng 'marking/to mark' không phải động từ chính; 'will have marked' sai về thì.",
+       "uncertain": false
+      },
+      {
+       "n": 133,
+       "choices": {
+        "A": "The company has always led the industry in innovation.",
+        "B": "Investors want to branch out into other markets.",
+        "C": "A great deal of knowledge is needed for the change.",
+        "D": "The grand opening ceremony is set for later this month."
+       },
+       "answer": "A",
+       "explanation": "Câu trước nói chuyên gia 'not surprised' rằng Ector Foods đi đầu; câu điền phải giải thích lý do → 'The company has always led the industry in innovation.' (công ty luôn dẫn đầu về đổi mới).",
+       "uncertain": false
+      },
+      {
+       "n": 134,
+       "choices": {
+        "A": "What",
+        "B": "He",
+        "C": "These",
+        "D": "It"
+       },
+       "answer": "D",
+       "explanation": "Lời CEO: 'We have a responsibility... [134] should not be taken lightly.' Cần chủ ngữ thay cho 'responsibility' (trách nhiệm, số ít) → 'It'. 'These' cần danh từ số nhiều, 'What/He' không hợp.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "To: Asher Larson <a.larson@larsonflowers.com>\nFrom: Emily Eilers <emily@lilacvalleydeals.com>\nDate: October 10\nSubject: Promote your business!\n\nDear Mr. Larson,\n\nThe number of tourists to the area has [135] increased over the past few years. Lilac Valley Deals can help your business stand out! Our magazine has a [136] of 20,000, and we reach hotels, tourist information centers, and public transportation facilities. You can advertise a special offer for your business on a quarter, half, or full page. [137]. Please note that [138] you do not have an ad prepared, you can still advertise with us, as our in-house graphics team can create something for you. Please e-mail me back if you are interested.\n\nSincerely,\n\nEmily Eilers",
+     "questions": [
+      {
+       "n": 135,
+       "choices": {
+        "A": "steady",
+        "B": "steadied",
+        "C": "steadily",
+        "D": "steadiness"
+       },
+       "answer": "C",
+       "explanation": "Chỗ trống bổ nghĩa cho động từ 'increased' nên cần trạng từ 'steadily' (tăng đều đặn). 'steady' là tính từ, 'steadied' động từ, 'steadiness' danh từ.",
+       "uncertain": false
+      },
+      {
+       "n": 136,
+       "choices": {
+        "A": "deposit",
+        "B": "circulation",
+        "C": "wage",
+        "D": "turnout"
+       },
+       "answer": "B",
+       "explanation": "Nói về tạp chí có số phát hành 20.000 và tiếp cận khách sạn, trung tâm du lịch... → 'circulation' (lượng phát hành). 'deposit/wage/turnout' không đi với tạp chí.",
+       "uncertain": false
+      },
+      {
+       "n": 137,
+       "choices": {
+        "A": "I enjoyed learning about your business.",
+        "B": "The largest size is the best value.",
+        "C": "This is the majority of seasonal tourists.",
+        "D": "Simply present this coupon for a discount."
+       },
+       "answer": "B",
+       "explanation": "Câu trước liệt kê các cỡ trang quảng cáo (quarter, half, full page). Câu điền tiếp nối logic về cỡ trang → 'The largest size is the best value.' (cỡ lớn nhất đáng tiền nhất).",
+       "uncertain": false
+      },
+      {
+       "n": 138,
+       "choices": {
+        "A": "owing to",
+        "B": "whether",
+        "C": "before",
+        "D": "even if"
+       },
+       "answer": "D",
+       "explanation": "'...[138] you do not have an ad prepared, you can still advertise' → 'even if' (dù cho... vẫn). Nghĩa nhượng bộ khớp với 'you can still advertise'. 'owing to' + danh từ, 'whether/before' sai nghĩa.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "letter",
+     "title": "",
+     "text": "Nicole Hudson\nCupcake Express\n312 Capital Avenue\nNew Castle, IN 47362\n\nDear Ms. Hudson,\n\nI'd like to invite you to the New Castle Baking Festival. [139]. However, if we reach the level of participation that we are expecting, we can make it an annual tradition. This is an excellent way to promote your business because visitors will try your [140]. To find out more about the event, please watch our [141] video online at www.newcastlebaking.org. Just a few minutes of your time will teach you everything you need to know. We also plan to post a list of businesses that [142] the festival. We hope to add you to that list!\n\nSincerely,\n\nMaya Fischer",
+     "questions": [
+      {
+       "n": 139,
+       "choices": {
+        "A": "Last year's festival was an enormous success.",
+        "B": "Please respond with your intention to enter.",
+        "C": "This is our first time organizing such an event.",
+        "D": "Each booth features a different kind of food."
+       },
+       "answer": "C",
+       "explanation": "Câu sau 'However, if we reach... we can make it an annual tradition' cho thấy đây là lần đầu tổ chức → 'This is our first time organizing such an event.' Đáp án A ('last year's festival') mâu thuẫn vì hàm ý đã tổ chức rồi.",
+       "uncertain": false
+      },
+      {
+       "n": 140,
+       "choices": {
+        "A": "competitions",
+        "B": "recipes",
+        "C": "routines",
+        "D": "methods"
+       },
+       "answer": "B",
+       "explanation": "Lễ hội làm bánh, 'visitors will try your ___' → khách sẽ nếm thử 'recipes' (công thức/món bánh). 'competitions/routines/methods' không phải thứ để nếm thử.",
+       "uncertain": false
+      },
+      {
+       "n": 141,
+       "choices": {
+        "A": "brief",
+        "B": "live",
+        "C": "minor",
+        "D": "similar"
+       },
+       "answer": "A",
+       "explanation": "Câu sau 'Just a few minutes of your time' gợi ý video ngắn → 'brief video'. 'live/minor/similar' không khớp ý 'chỉ vài phút'.",
+       "uncertain": false
+      },
+      {
+       "n": 142,
+       "choices": {
+        "A": "will be attended",
+        "B": "attends",
+        "C": "will be attending",
+        "D": "is attending"
+       },
+       "answer": "C",
+       "explanation": "Chủ ngữ 'businesses' số nhiều và các doanh nghiệp chủ động tham dự (chủ động, không bị động), thì tương lai → 'will be attending'. 'attends/is attending' số ít; 'will be attended' là bị động sai nghĩa.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "New Members Welcome at Glendale Support",
+     "text": "Glendale Support is currently seeking new members. [143]. However, attendance at all meetings is not required. Our organization [144] community members to work together toward improving public sites in Glendale. This [145] approach can maximize our impact on schools, libraries, parks, and more. To become a part of our group, please attend our next meeting, which will be held on June 18 at 7 P.M. at the Filbert Center, room 104. You can also e-mail our Membership Director, Kyle Thompson, at k.thompson@glendalesupport.org. To read more about projects [146] our group has carried out in the past, please visit our Web site at www.glendalesupport.org.",
+     "questions": [
+      {
+       "n": 143,
+       "choices": {
+        "A": "Each project receives public as well as private funding.",
+        "B": "Your membership fee can be waived in some cases.",
+        "C": "We get together on the first and third Monday of every month.",
+        "D": "This service has been growing in popularity."
+       },
+       "answer": "C",
+       "explanation": "Câu sau 'However, attendance at all meetings is not required' tương phản với lịch họp → câu điền phải nói về lịch họp: 'We get together on the first and third Monday of every month.'",
+       "uncertain": false
+      },
+      {
+       "n": 144,
+       "choices": {
+        "A": "is urged",
+        "B": "to urge",
+        "C": "urges",
+        "D": "urge"
+       },
+       "answer": "C",
+       "explanation": "Chủ ngữ 'Our organization' số ít, cần động từ chính chủ động + tân ngữ 'community members' + 'to work' → 'urges' (theo cấu trúc urge sb to do). 'is urged' bị động, 'to urge' không phải động từ chính, 'urge' sai chia số.",
+       "uncertain": false
+      },
+      {
+       "n": 145,
+       "choices": {
+        "A": "cooperative",
+        "B": "reversible",
+        "C": "occasional",
+        "D": "imaginary"
+       },
+       "answer": "A",
+       "explanation": "Câu trước nói 'work together' (cùng hợp tác) nên 'This ___ approach' = 'cooperative approach' (cách tiếp cận hợp tác). 'reversible/occasional/imaginary' không hợp mạch.",
+       "uncertain": false
+      },
+      {
+       "n": 146,
+       "choices": {
+        "A": "what",
+        "B": "who",
+        "C": "that",
+        "D": "where"
+       },
+       "answer": "C",
+       "explanation": "'projects ___ our group has carried out' cần đại từ quan hệ làm tân ngữ cho 'carried out', chỉ vật (projects) → 'that'. 'who' chỉ người, 'where' chỉ nơi chốn, 'what' không dùng làm đại từ quan hệ ở đây.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "directions": "Đọc đoạn văn và trả lời các câu hỏi.",
+   "items": [
+    {
+     "ptype": "receipt",
+     "title": "– Customer Receipt –",
+     "text": "Crawton Hall\n1265 Rosetti Lane ▽ 555-0188\n\nDate: August 12\nPurchase Location: Box Office, In-Person, Agent #081\nCustomer Name: Tessa Fortney\nPayment Type: Credit card XXXX-XXXX-XXXX-0734\n\nDescription\nBuenos Aires Theatre Orchestra, Aug. 31 — Seat C51 — £28.00\nBuenos Aires Theatre Orchestra, Aug. 31 — Seat C52 — £28.00\nHandling Charge — £1.50\nTheatre Restoration and Construction* — £5.00\nTOTAL — £62.50\n\n*Thank you for your optional contribution! Your support will help us to carry out essential renovations and build an extension to our existing structure.",
+     "questions": [
+      {
+       "n": 147,
+       "question": "For what kind of event did Ms. Fortney purchase tickets?",
+       "choices": {
+        "A": "An academic lecture",
+        "B": "A musical performance",
+        "C": "A film screening",
+        "D": "A comedy show"
+       },
+       "answer": "B",
+       "explanation": "Hóa đơn ghi mua vé cho \"Buenos Aires Theatre Orchestra\" (dàn nhạc giao hưởng) → đây là một buổi biểu diễn âm nhạc (musical performance).",
+       "uncertain": false
+      },
+      {
+       "n": 148,
+       "question": "What is indicated about Ms. Fortney on the receipt?",
+       "choices": {
+        "A": "She was charged £1.50 in city taxes.",
+        "B": "She made a donation to a building project.",
+        "C": "She placed her order one month in advance.",
+        "D": "She bought the tickets over the phone."
+       },
+       "answer": "B",
+       "explanation": "Có khoản \"Theatre Restoration and Construction* — £5.00\" kèm chú thích \"Thank you for your optional contribution! Your support will help us to... build an extension to our existing structure\" → bà đã quyên góp tự nguyện cho dự án xây dựng.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "text-message chain",
+     "title": "",
+     "text": "Luciano Garcia [10:23 A.M.]\nHello, this is Luciano from Southfield Incorporated. We are scheduled to make a delivery to your home today between 12:30 P.M. and 1:30 P.M.\n\nMelanie Walters [10:26 A.M.]\nI'll be home to accept the delivery. It's the queen-sized mattress, right?\n\nLuciano Garcia [10:27 A.M.]\nThat's correct. It is from order #95871.\n\nMelanie Walters [10:28 A.M.]\nThere might be one problem, though. My apartment is on the fourth floor, and there's no elevator in this building.\n\nLuciano Garcia [10:29 A.M.]\nOh, there are two of us.\n\nMelanie Walters [10:30 A.M.]\nThat should be fine, then. See you later today. Thanks!",
+     "questions": [
+      {
+       "n": 149,
+       "question": "What most likely is Southfield Incorporated?",
+       "choices": {
+        "A": "A car rental company",
+        "B": "An electronics repair service",
+        "C": "A real estate agency",
+        "D": "A furniture store"
+       },
+       "answer": "D",
+       "explanation": "Món hàng giao là \"the queen-sized mattress\" (nệm cỡ queen) → Southfield Incorporated nhiều khả năng là cửa hàng nội thất (furniture store).",
+       "uncertain": false
+      },
+      {
+       "n": 150,
+       "question": "At 10:29 A.M., what does Mr. Garcia most likely mean when he writes, \"there are two of us\"?",
+       "choices": {
+        "A": "There is competition to provide a service.",
+        "B": "An item can be moved without difficulty.",
+        "C": "An administrative error has been made.",
+        "D": "Some goods will arrive separately."
+       },
+       "answer": "B",
+       "explanation": "Melanie lo lắng \"My apartment is on the fourth floor, and there's no elevator\"; Garcia đáp \"there are two of us\" → ngụ ý có hai người khiêng nên món hàng có thể được di chuyển lên lầu không khó khăn.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "letter",
+     "title": "",
+     "text": "Brian Silva\n403 Liberty Street\nFort Worth, TX 76111\n\nDear Mr. Silva,\n\nWe have received your application to renew your driver's license by mail. Unfortunately, we are unable to process your request because it does not meet our renewal criteria. Drivers are only allowed two consecutive renewals by mail, after which they must visit a Motor Vehicles Authority office in person to have a new photograph taken. Please be sure to complete this task before your license expires. Otherwise, you could be subject to a penalty charge. A list of sites that issue state driver's licenses is printed on the back of this letter.\n\nSincerely,\n\nRobert Nelson\n\nRobert Nelson\nRenewals Department",
+     "questions": [
+      {
+       "n": 151,
+       "question": "Why was Mr. Silva's request refused?",
+       "choices": {
+        "A": "He has already renewed his license by mail twice.",
+        "B": "He sent a photograph that was the wrong size.",
+        "C": "He did not include the necessary payment.",
+        "D": "He no longer lives at the same address."
+       },
+       "answer": "A",
+       "explanation": "Thư nêu \"Drivers are only allowed two consecutive renewals by mail, after which they must visit a Motor Vehicles Authority office in person\" → yêu cầu bị từ chối vì ông đã gia hạn qua thư hai lần rồi.",
+       "uncertain": false
+      },
+      {
+       "n": 152,
+       "question": "What might happen if Mr. Silva allows his current license to expire?",
+       "choices": {
+        "A": "A driving exam may become required.",
+        "B": "An application may be rejected.",
+        "C": "A fine may be imposed.",
+        "D": "A deadline may be extended."
+       },
+       "answer": "C",
+       "explanation": "Thư cảnh báo \"Please be sure to complete this task before your license expires. Otherwise, you could be subject to a penalty charge\" → nếu để hết hạn, ông có thể bị phạt tiền (a fine may be imposed).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "information",
+     "title": "",
+     "text": "Thank you for joining the Home-Meals team! Our deliveries of daily hot meals to the elderly prevent isolation and allow them to maintain their independence. On the days that you are assigned a shift, you should report to our commercial kitchen in Reston at 8 A.M. You may assist with meal preparation there or be asked to transport goods from our storage facility at the head office in Calverton. Once the meals are prepared, you will be assigned a delivery route of between 10 and 15 stops. These routes cover the neighborhoods of Reston, Calverton, Fairfax, and Landover. Should you have any questions, please speak to the manager on duty, or contact Audrey Vogel at the head office at 555-0176.",
+     "questions": [
+      {
+       "n": 153,
+       "question": "For whom is the information most likely intended?",
+       "choices": {
+        "A": "New workers",
+        "B": "Potential volunteers",
+        "C": "Charity donors",
+        "D": "Elderly people"
+       },
+       "answer": "A",
+       "explanation": "Mở đầu \"Thank you for joining the Home-Meals team!\" và \"On the days that you are assigned a shift, you should report to our commercial kitchen\" → dành cho nhân viên mới (được phân ca làm việc).",
+       "uncertain": false
+      },
+      {
+       "n": 154,
+       "question": "Where does Ms. Vogel most likely work?",
+       "choices": {
+        "A": "In Reston",
+        "B": "In Calverton",
+        "C": "In Fairfax",
+        "D": "In Landover"
+       },
+       "answer": "B",
+       "explanation": "Văn bản ghi \"our storage facility at the head office in Calverton\" và \"contact Audrey Vogel at the head office\" → head office ở Calverton nên bà Vogel làm việc ở Calverton.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement",
+     "title": "Bike Tour Guides Needed!",
+     "text": "Spend your summer in the great outdoors by becoming a bike tour guide at Wiedl Parks Plus. As a guide, you will conduct tours in and around Utica National Park and work with a wide range of group sizes and abilities. Housing in our modern dormitory is provided for the entire summer season; depending on the tour and location, you may also be housed at hotels or lodges near the park at no cost to you. Bike tour guides are paid $95 dollars per day on tour days, and all meals are provided. We are happy to answer any questions you may have about compensation at the initial interview. All guides must be physically fit and knowledgeable about bicycle maintenance and repair. To apply, send an e-mail to Human Resources Director Philip Norris at pnorris@wiedl-pp.com. Please note that those who accept the position must purchase a travel insurance policy before the first day of employment.",
+     "questions": [
+      {
+       "n": 155,
+       "question": "What is indicated about the accommodations offered to bike tour guides?",
+       "choices": {
+        "A": "They are situated within a national park.",
+        "B": "The buildings sites may vary by tour.",
+        "C": "They are only available for free on tour days.",
+        "D": "The rooms must be shared with other guides."
+       },
+       "answer": "B",
+       "explanation": "Quảng cáo nói \"Housing in our modern dormitory is provided... depending on the tour and location, you may also be housed at hotels or lodges near the park\" → nơi ở có thể khác nhau tùy theo tour (buildings sites may vary by tour).",
+       "uncertain": false
+      },
+      {
+       "n": 156,
+       "question": "What should candidates with payment questions do?",
+       "choices": {
+        "A": "Include them in an e-mail to Mr. Norris",
+        "B": "Download a sample contract",
+        "C": "Watch a recruitment video",
+        "D": "Ask them during an interview"
+       },
+       "answer": "D",
+       "explanation": "Câu \"We are happy to answer any questions you may have about compensation at the initial interview\" → thắc mắc về lương thì hỏi trong buổi phỏng vấn (interview).",
+       "uncertain": false
+      },
+      {
+       "n": 157,
+       "question": "According to the advertisement, what must new employees do before starting work?",
+       "choices": {
+        "A": "Pass a physical fitness test",
+        "B": "Review the company's safety policy",
+        "C": "Show proof of relevant experience",
+        "D": "Buy some travel insurance"
+       },
+       "answer": "D",
+       "explanation": "Đoạn cuối \"those who accept the position must purchase a travel insurance policy before the first day of employment\" → nhân viên mới phải mua bảo hiểm du lịch trước khi bắt đầu làm.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement",
+     "title": "BCP – Your Parcel, Your Way",
+     "text": "You can rely on BCP to make sure your parcel gets there on time and in good condition. We have the lowest rate of lost or damaged items in the industry, and we've recently changed to a flat fee based on box size so that the price is clear from the beginning. At our service points, envelopes, boxes, and tape are freely available so that you can get your package ready without any hassle. After your items are sent, you can track the shipment in real time on our Web site. Remember, certain things cannot be transported through the mail due to safety issues or restrictions set by international law. To find out what is and is not allowed, visit www.bcp-mail.com/before_sending.\n\nWe are always searching for ways to improve our services. Customers who have sent a package through BCP anytime in the past month may complete a short questionnaire in May to receive a voucher for 15% off their next transaction. To do so, call 1-800-555-0144.",
+     "questions": [
+      {
+       "n": 158,
+       "question": "What is NOT mentioned as available to BCP customers?",
+       "choices": {
+        "A": "Compensation for lost packages",
+        "B": "An online tracking system",
+        "C": "Complimentary packing supplies",
+        "D": "A simplified pricing structure"
+       },
+       "answer": "A",
+       "explanation": "Quảng cáo có đề cập tracking online (\"track the shipment in real time on our Web site\" = B), vật liệu đóng gói miễn phí (\"envelopes, boxes, and tape are freely available\" = C), và giá phẳng đơn giản (\"a flat fee based on box size\" = D). Chỉ nói \"lowest rate of lost or damaged items\" chứ KHÔNG hứa bồi thường hàng mất → A không được nhắc tới.",
+       "uncertain": false
+      },
+      {
+       "n": 159,
+       "question": "According to the advertisement, what can be found on the Web page mentioned?",
+       "choices": {
+        "A": "A map of service points",
+        "B": "A pick-up scheduling form",
+        "C": "A list of prohibited items",
+        "D": "An estimate of transportation times"
+       },
+       "answer": "C",
+       "explanation": "Văn bản: \"certain things cannot be transported... To find out what is and is not allowed, visit www.bcp-mail.com/before_sending\" → trang web liệt kê các mặt hàng bị cấm gửi (prohibited items).",
+       "uncertain": false
+      },
+      {
+       "n": 160,
+       "question": "How can customers get a discount coupon?",
+       "choices": {
+        "A": "By referring a friend",
+        "B": "By using a service frequently",
+        "C": "By joining for a mailing list",
+        "D": "By filling out a survey"
+       },
+       "answer": "D",
+       "explanation": "Câu \"Customers who have sent a package... may complete a short questionnaire in May to receive a voucher for 15% off\" → nhận phiếu giảm giá bằng cách điền phiếu khảo sát (survey/questionnaire).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "To: Carrie Keaton <ckeaton@drilbyskiresort.com>\nFrom: Evan Barnett <ebarnett@drilbyskiresort.com>\nDate: September 4\nSubject: Magazine advertisement\nAttachment: maxfuntravelsubmissions.doc\n\nDear Carrie,\n\nThanks for agreeing to design the advertisement for our resort that will appear in the October issue of Max Fun Travel magazine. — [1] —. We want the advertisement to inform both new and existing customers of changes that will affect this season—namely, that our dining hall has reopened after renovations throughout the summer, and that a complimentary session with a ski instructor will now be included with every lift ticket.\n\nI have contacted the submissions department of Max Fun Travel to request the latest guidelines and have attached a copy for your reference. — [2] —. Please feel free to use any of the images in our company database. The file sent to Max Fun Travel must be completely ready for publication and in the correct format when it is submitted. — [3] —. We only have enough room in the budget for a half-page advertisement. It can be in full color, but the magazine only offers horizontal half-page ads, so the design must be wider than it is tall. — [4] —. If you run into any obstacles, don't hesitate to e-mail me.\n\nThank you,\n\nEvan",
+     "questions": [
+      {
+       "n": 161,
+       "question": "What is Drilby Ski Resort about to offer for the first time?",
+       "choices": {
+        "A": "Free skiing lessons",
+        "B": "On-site dining",
+        "C": "Summer tours",
+        "D": "Overnight lodging"
+       },
+       "answer": "A",
+       "explanation": "Email nêu \"a complimentary session with a ski instructor will now be included with every lift ticket\" (từ \"now\" cho thấy lần đầu) → resort sắp lần đầu cung cấp buổi học trượt tuyết miễn phí. (Nhà ăn chỉ là mở lại sau sửa chữa, không phải lần đầu.)",
+       "uncertain": false
+      },
+      {
+       "n": 162,
+       "question": "What does Mr. Barnett mention about the advertisement?",
+       "choices": {
+        "A": "It should feature several images.",
+        "B": "It must be submitted by the end of the month.",
+        "C": "It should have a limited number of colors.",
+        "D": "It must have a specific shape."
+       },
+       "answer": "D",
+       "explanation": "Email: \"the magazine only offers horizontal half-page ads, so the design must be wider than it is tall\" → quảng cáo phải có hình dạng cụ thể (rộng hơn cao).",
+       "uncertain": false
+      },
+      {
+       "n": 163,
+       "question": "In which of the following positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"The magazine charges a significant fee to make changes after that point.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "C",
+       "explanation": "Câu chèn \"The magazine charges a significant fee to make changes after that point\" nói về việc sửa SAU khi nộp bài. Vị trí [3] ngay sau câu \"The file sent to Max Fun Travel must be completely ready for publication and in the correct format when it is submitted. — [3] —\" → \"after that point\" khớp với thời điểm nộp bài.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "article",
+     "title": "Jimenez-Wright Enterprises to Expand Its Horizons",
+     "text": "July 29 — In a press briefing held yesterday, activewear manufacturer Jimenez-Wright Enterprises confirmed that it will add a new line of clothing in order to branch into the children’s clothing market, an idea pushed by recently appointed CEO Jesse Stegman. Jimenez-Wright Enterprises is the parent company of the popular retailers Chaskell and Krismore, whose clothing is produced domestically for men and women, respectively. Based on feedback from loyal customers who attended Jimenez-Wright’s first-ever beach volleyball competition at Daytona Beach last year, the company began developing clothing suitable for children.\n\n“There has been an increase in obesity rates among children over the past few years, as they have few opportunities for exercise while being in school all day” said pediatrician Jordan Downey, a consultant for the company. “Fortunately, parents are starting to wake up to this problem and take action, adopting a healthy lifestyle for the whole family.”\n\nJimenez-Wright Enterprises hopes to capitalize on this trend by introducing Marilou, a line of activewear for children ages 5 to 13. The apparel will be manufactured in Jimenez-Wright Enterprises’ existing factories, with up to 40% of the fabrics made from reprocessed plastic bottles. While many of the items in the adult stores must be hand-washed to maintain the performance of the fabric, all items in the Marilou line will be machine-washable and resistant to staining. Initially, the line will be rolled out in stores with the company’s women’s clothing to test consumers’ interest, but the long-term plan is to have retail stores that sell Marilou exclusively.",
+     "questions": [
+      {
+       "n": 164,
+       "question": "What is true about Jimenez-Wright Enterprises?",
+       "choices": {
+        "A": "It recently acquired a rival manufacturer.",
+        "B": "It is developing some exercise equipment.",
+        "C": "It hosted a sports competition last year.",
+        "D": "It will create a sports organization for children."
+       },
+       "answer": "C",
+       "explanation": "Bài báo nhắc: khách hàng \"attended Jimenez-Wright's first-ever beach volleyball competition at Daytona Beach last year\" → công ty đã tổ chức một giải thể thao (bóng chuyền bãi biển) năm ngoái. Chọn C.",
+       "uncertain": false
+      },
+      {
+       "n": 165,
+       "question": "Who most likely is Ms. Downey?",
+       "choices": {
+        "A": "A financial consultant",
+        "B": "A medical professional",
+        "C": "The principal of a school",
+        "D": "The CEO of a company"
+       },
+       "answer": "B",
+       "explanation": "\"said pediatrician Jordan Downey, a consultant for the company\" — bà Downey là bác sĩ nhi khoa (pediatrician), tức một chuyên gia y tế. Chọn B (A medical professional).",
+       "uncertain": false
+      },
+      {
+       "n": 166,
+       "question": "What is NOT suggested about Marilou products?",
+       "choices": {
+        "A": "They will be too delicate for machine washing.",
+        "B": "They will be produced domestically.",
+        "C": "They will be partially made from recycled materials.",
+        "D": "They will be made of stain resistant fabrics."
+       },
+       "answer": "A",
+       "explanation": "Câu NOT: B đúng (sản xuất tại \"existing factories\" trong nước), C đúng (\"up to 40% of the fabrics made from reprocessed plastic bottles\"), D đúng (\"resistant to staining\"). Riêng A sai vì bài nói \"all items in the Marilou line will be machine-washable\" — KHÔNG quá mỏng manh để giặt máy. Đáp án NOT là A.",
+       "uncertain": false
+      },
+      {
+       "n": 167,
+       "question": "Where will the Marilou line first be sold?",
+       "choices": {
+        "A": "On a special Web site",
+        "B": "In a seasonal catalog",
+        "C": "In Chaskell stores",
+        "D": "In Krismore stores"
+       },
+       "answer": "D",
+       "explanation": "\"Initially, the line will be rolled out in stores with the company's women's clothing.\" Cửa hàng quần áo nữ chính là Krismore (bài ghi Chaskell/Krismore \"for men and women, respectively\"). Chọn D (Krismore stores).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "PUBLIC NOTICE OF ROADWORK",
+     "text": "On Monday, October 7, work will begin on nearly 2,000 feet of water pipes under Cecil Boulevard. — [1] —. Aging concrete pipes that date back several decades will be swapped for those made of galvanized steel. The $750,000 project was approved by the city council earlier this year, and it will be funded in part by a federal grant for infrastructure development.\n\nDuring the project, the water supply to certain neighborhoods must be turned off. In those cases, a temporary water supply will be provided via a series of rubber hoses, and individual households will be affected for approximately 48 hours at most. — [2] —.\n\nSections of Cecil Boulevard will be torn up, resulting in partial road closures with single-lane use. Crews will work from 6:30 P.M. to 6:30 A.M. to minimize interruptions to the flow of traffic. Still, motorists in the area should expect delays, as alternative routes will be busier than usual, and they should watch for notices and signage in the area indicating detours. — [3] —. They are also reminded that fines for speeding are doubled in a construction zone. The work is expected to take six weeks, though adverse weather could delay some tasks. Updates of closures, progress, and alternative route recommendations can be found on the Department of Transportation’s Web site. — [4] —.",
+     "questions": [
+      {
+       "n": 168,
+       "question": "What is being announced in the notice?",
+       "choices": {
+        "A": "The addition of railings to a roadway",
+        "B": "The widening of Cecil Boulevard",
+        "C": "The replacement of outdated pipes",
+        "D": "The installation of water purification filters"
+       },
+       "answer": "C",
+       "explanation": "\"Aging concrete pipes that date back several decades will be swapped for those made of galvanized steel\" → thay thế đường ống nước cũ. Chọn C (replacement of outdated pipes).",
+       "uncertain": false
+      },
+      {
+       "n": 169,
+       "question": "What is indicated about the work crews?",
+       "choices": {
+        "A": "They will complete the work within one month.",
+        "B": "They will post pictures of the progress online.",
+        "C": "They will not work during peak periods.",
+        "D": "They will fully shut down a busy street."
+       },
+       "answer": "C",
+       "explanation": "\"Crews will work from 6:30 P.M. to 6:30 A.M. to minimize interruptions to the flow of traffic\" — làm việc ban đêm, tức không làm vào giờ cao điểm. Chọn C. (A sai: dự án kéo dài \"six weeks\"; D sai: chỉ \"partial road closures\".)",
+       "uncertain": false
+      },
+      {
+       "n": 170,
+       "question": "According to the notice, what should drivers do within the construction zone?",
+       "choices": {
+        "A": "Look out for informational signs",
+        "B": "Keep their windows closed",
+        "C": "Report speeding violations",
+        "D": "Avoid parking near detours"
+       },
+       "answer": "A",
+       "explanation": "\"they should watch for notices and signage in the area indicating detours\" → tài xế nên để ý các biển báo/thông báo chỉ đường. Chọn A (Look out for informational signs).",
+       "uncertain": false
+      },
+      {
+       "n": 171,
+       "question": "In which of the following positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"The occupants of those residences have already been notified by the city.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "B",
+       "explanation": "Câu chèn \"The occupants of those residences have already been notified by the city\" cần đứng sau chỗ nhắc tới các hộ dân bị ảnh hưởng: \"individual households will be affected... — [2] —\". \"those residences\" = các hộ đó. Chọn vị trí [2] = B.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "online chat discussion",
+     "title": "",
+     "text": "Sidney Lee [11:25 A.M.]\nThe grand opening of our company’s newly constructed manufacturing plant will take place this Friday, August 10. Mr. Finch wants three people from our team to be in attendance, so we need to figure out which of the four of us will stay behind.\n\nCharlotte Mackenzie [11:27 A.M.]\nMr. Finch’s memo said there will be five special guests, so we can all go as well as invite someone from another team, perhaps the head of marketing.\n\nNakula Goyal [11:28 A.M.]\nYou’re right that there will be five people in total, but the memo said that Mr. Finch plans to be there himself and that CEO Gaia Tieben is going along as well in order to give a brief speech.\n\nCharlotte Mackenzie [11:29 A.M.]\nOh, I must have missed that.\n\nMin Cheng [11:31 A.M.]\nI’m interested in seeing the new state-of-the-art equipment that will be used at the plant, but I’ll volunteer to be the one who doesn’t go. I can’t go, really — I’ve got an employee evaluation report due soon.\n\nSidney Lee [11:32 A.M.]\nAll right. That works out perfectly. Mr. Finch and Ms. Tieben will travel to the site on their own because they’re leaving for a business trip directly from the site. Charlotte, Nakula, what would you prefer to do about transportation?\n\nNakula Goyal [11:33 A.M.]\nLet’s meet at the office and then carpool there.\n\nCharlotte Mackenzie [11:34 A.M.]\nGood idea. I think it’s about a two-hour drive, so it could be boring on our own.\n\nMin Cheng [11:35 A.M.]\nHave a great time! Let me know how it was.",
+     "questions": [
+      {
+       "n": 172,
+       "question": "What will happen on August 10?",
+       "choices": {
+        "A": "A factory will be inspected.",
+        "B": "A new product will be launched.",
+        "C": "A facility will officially open.",
+        "D": "An executive will present an award."
+       },
+       "answer": "C",
+       "explanation": "\"The grand opening of our company's newly constructed manufacturing plant will take place this Friday, August 10\" → một cơ sở (nhà máy) chính thức khai trương. Chọn C (A facility will officially open).",
+       "uncertain": false
+      },
+      {
+       "n": 173,
+       "question": "At 11:29 A.M., what does Ms. Mackenzie most likely mean when she writes, \"I must have missed that\"?",
+       "choices": {
+        "A": "She did not read a memo carefully.",
+        "B": "She misplaced a document from Mr. Finch.",
+        "C": "She does not remember attending an event.",
+        "D": "She realizes that a due date has passed."
+       },
+       "answer": "A",
+       "explanation": "Mackenzie tưởng còn chỗ để mời thêm người, nhưng Goyal chỉ ra memo đã ghi Mr. Finch và CEO Tieben cũng tới. Cô đáp \"I must have missed that\" → cô đã không đọc kỹ bản memo. Chọn A.",
+       "uncertain": false
+      },
+      {
+       "n": 174,
+       "question": "Why is Ms. Cheng unable to go to an event?",
+       "choices": {
+        "A": "She received a poor score on an evaluation.",
+        "B": "She has to finish writing a report.",
+        "C": "She is preparing for a business trip.",
+        "D": "She does not know how to use some tools."
+       },
+       "answer": "B",
+       "explanation": "Cheng nói \"I can't go, really — I've got an employee evaluation report due soon\" → cô phải hoàn thành một bản báo cáo. Chọn B (has to finish writing a report). A bẫy: không phải cô bị điểm kém, mà cô phải VIẾT báo cáo đánh giá.",
+       "uncertain": false
+      },
+      {
+       "n": 175,
+       "question": "What does Mr. Goyal suggest doing?",
+       "choices": {
+        "A": "Taking public transportation",
+        "B": "Traveling to a site together",
+        "C": "Arriving two hours early",
+        "D": "Borrowing a company vehicle"
+       },
+       "answer": "B",
+       "explanation": "Goyal đề nghị \"Let's meet at the office and then carpool there\" → cùng nhau đi chung xe tới địa điểm. Chọn B (Traveling to a site together).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "E-mail 1\nTo: Freya Kent <f.kent@abbotmail.com>\nFrom: Harrison Stein <harrison_stein@colimabank.com>\nDate: February 10\nSubject: Colima Bank\n\nDear Ms. Kent,\n\nOn behalf of Colima Bank, I would like to thank you for considering using our services for your personal banking needs. It was a pleasure speaking to you at the Aurora branch this afternoon, and, as promised, I am sending the details of the individual savings accounts we offer. Please be aware of the following, should you choose to move forward with opening an account:\n\n• We limit the number of personal accounts to one per person, but you are welcome to change account types at any time.\n• I have verified your basic personal information and mailing address from your driver's license. I may need a copy of your passport information page for additional verification, depending on the account type you choose.\n• Interest payments will be deposited automatically in your account on the last day of every month.\n\n[Table]\nSubscription | Minimum Opening Deposit | Interest Rate | Maximum Annual Withdrawals\nColima Basic | $50 | .01% | 5\nColima Gold | $250 | .025% | 8\nColima Priority | $1,000 | .03% | 10\nColima Platinum | $2,500 | .05% | Unlimited\n\nYou can reach me on my direct line, which is 555-0175, extension 33. I look forward to hearing from you.\n\nHarrison Stein\nAccounts Officer, Colima Bank\n\n──────────\n\nE-mail 2\nTo: Harrison Stein <harrion_stein@colimabank.com>\nFrom: Freya Kent <f.kent@abbotmail.com>\nDate: February 11\nSubject: Re: Colima Bank\n\nDear Mr. Stein,\n\nI have reviewed the options, and I think the best account for me would be the Colima Priority account. If I am pleased with the quality of service I receive, I may also switch over my corporate account to your bank. Interest rates are also important, but — to me — good service is what really counts.\n\nSincerely,\nFreya Kent",
+     "questions": [
+      {
+       "n": 176,
+       "question": "Why did Mr. Stein send the first e-mail?",
+       "choices": {
+        "A": "To fulfill a promise",
+        "B": "To correct an error",
+        "C": "To explain a change",
+        "D": "To confirm an appointment"
+       },
+       "answer": "A",
+       "explanation": "E-mail 1: \"as promised, I am sending the details of the individual savings accounts we offer\" → gửi mail để thực hiện lời hứa. Chọn A (To fulfill a promise).",
+       "uncertain": false
+      },
+      {
+       "n": 177,
+       "question": "What does Mr. Stein mention in his e-mail?",
+       "choices": {
+        "A": "Further identification checks may be necessary.",
+        "B": "Paperwork must be completed at the Aurora branch.",
+        "C": "An offer will only be available for a limited time.",
+        "D": "Colima Basic is the most popular account type."
+       },
+       "answer": "A",
+       "explanation": "E-mail 1: \"I may need a copy of your passport information page for additional verification\" → có thể cần kiểm tra danh tính bổ sung. Chọn A (Further identification checks may be necessary).",
+       "uncertain": false
+      },
+      {
+       "n": 178,
+       "question": "What is implied about Ms. Kent?",
+       "choices": {
+        "A": "She plans to upgrade her account later.",
+        "B": "She currently operates her own business.",
+        "C": "She posted a review on Colima Bank's Web site.",
+        "D": "She has been disappointed by Colima Bank's services."
+       },
+       "answer": "B",
+       "explanation": "Ghép 2 email: E-mail 2 Kent viết \"I may also switch over my corporate account to your bank\" → cô có một tài khoản doanh nghiệp, tức đang điều hành doanh nghiệp riêng. Chọn B (She currently operates her own business).",
+       "uncertain": false
+      },
+      {
+       "n": 179,
+       "question": "What is true about the account that Ms. Kent selected?",
+       "choices": {
+        "A": "It does not permit deposits over a certain amount.",
+        "B": "It has the highest interest rate among the options.",
+        "C": "It requires an initial balance of $2,500.",
+        "D": "It allows money to be taken out ten times a year."
+       },
+       "answer": "D",
+       "explanation": "Ghép 2 email: E-mail 2 Kent chọn \"Colima Priority\"; bảng ở E-mail 1 ghi Colima Priority có \"Maximum Annual Withdrawals\" = 10 → được rút tiền 10 lần/năm. Chọn D. (B sai: lãi cao nhất là Platinum .05%; C sai: $1,000 chứ không phải $2,500.)",
+       "uncertain": false
+      },
+      {
+       "n": 180,
+       "question": "In the second e-mail, the word \"counts\" in paragraph 1, line 4, is closest in meaning to",
+       "choices": {
+        "A": "calculates",
+        "B": "regards",
+        "C": "matters",
+        "D": "relies"
+       },
+       "answer": "C",
+       "explanation": "\"good service is what really counts\" → 'counts' ở đây nghĩa là 'có ý nghĩa/quan trọng'. Đồng nghĩa gần nhất là 'matters' (C), không phải 'calculates' (đếm).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "web page|form",
+     "title": "",
+     "text": "Web Page\nwww.megaphotosearch.com\nHOME | SEARCH | NEWS | SUBSCRIBE | CONTACT\n\nMega Photo Search (MPS) is pleased to open our photo library to individuals and small businesses for the first time ever. This collection was previously only offered to large corporations, but we have adapted our Web site for more general use. With an extensive network of freelance photographers, MPS is well on its way to becoming the largest collection of high-quality images online. Also, with our technical team available to answer questions around the clock via online chat, we are confident that we can serve our customers well.\n\nAlthough we do not offer single purchases of photographs, our subscriptions are reasonably priced to fit your budget. For any photograph that you download through your subscription, you can retain permanent — though not exclusive — ownership of the license. Prices are listed below, and you can terminate your service agreement at any time without penalty. Your first bill will include a sign-up fee of $25, and from that point you will be billed once a month.\n\n[Table]\nSubscription Type | Monthly Downloads | Users | Monthly Fee | Bonus\nStandard | 50 | 1 | $75 | —\nStandard Plus | 300 | 1 | $150 | 100 bonus photos after one year\nPartner | 700 | 2 | $280 | Advanced notice of new photos\nTeam | 700 | 3–5 | $310 | Free access to Rainbox*\n\n*Rainbox is MPS's online software program that allows you to adjust the color and size of photos and combine multiple images into one.\n\n──────────\n\nOnline Form\nwww.megaphotosearch.com\nHOME | SEARCH | NEWS | SUBSCRIBE | CONTACT\n\nMega Photo Search – New Subscriber\n\nName: Dane Mullins    Company (if applicable): Bellin Publishing\nE-mail Address: dmullins@bellin-publ.com    Daytime Phone Number: 469-555-0172\nBilling Address: 975 Marion Avenue, Cambridge, MA 02142\n\nBilling details: $25 sign-up fee + $310 monthly fee\nBilled to credit card ending in 5539. Recurring charges will be made to this card monthly.\n\nThank you for choosing Mega Photo Search. As a welcome gift, we are offering a free e-book that gives you tips on how to search our collection efficiently. Click here to download it.",
+     "questions": [
+      {
+       "n": 181,
+       "question": "What is the main purpose of the information in the Web page?",
+       "choices": {
+        "A": "To encourage customers to make an upgrade",
+        "B": "To give an update on a corporate merger",
+        "C": "To announce the expansion of a service",
+        "D": "To seek submissions from freelance photographers"
+       },
+       "answer": "C",
+       "explanation": "Web page: \"MPS is pleased to open our photo library to individuals and small businesses for the first time ever. This collection was previously only offered to large corporations\" → mở rộng dịch vụ cho đối tượng mới. Chọn C (announce the expansion of a service).",
+       "uncertain": false
+      },
+      {
+       "n": 182,
+       "question": "What is indicated about MPS?",
+       "choices": {
+        "A": "It has a larger collection than any of its competitors.",
+        "B": "It offers customer support twenty-four hours a day.",
+        "C": "It provides workshops for small business owners.",
+        "D": "It has recently opened a branch in Cambridge."
+       },
+       "answer": "B",
+       "explanation": "\"our technical team available to answer questions around the clock via online chat\" — 'around the clock' = 24/24. Chọn B (customer support twenty-four hours a day). A sai: mới \"well on its way to becoming the largest\", chưa phải lớn nhất.",
+       "uncertain": false
+      },
+      {
+       "n": 183,
+       "question": "What is mentioned about subscriptions in the Web page?",
+       "choices": {
+        "A": "They enable users to download illustrations.",
+        "B": "They are only sold to individuals.",
+        "C": "They are billed on the first day of every month.",
+        "D": "They can be canceled without incurring a fee."
+       },
+       "answer": "D",
+       "explanation": "Web page: \"you can terminate your service agreement at any time without penalty\" → có thể hủy mà không mất phí. Chọn D (canceled without incurring a fee).",
+       "uncertain": false
+      },
+      {
+       "n": 184,
+       "question": "What is implied about Mr. Mullins?",
+       "choices": {
+        "A": "He will receive 100 free photos after a year.",
+        "B": "He will make his regular payments by bank transfer.",
+        "C": "He will be notified about additions to the collection.",
+        "D": "He will have access to image editing software."
+       },
+       "answer": "D",
+       "explanation": "Ghép Web page + Form: Form ghi phí \"$310 monthly fee\" → ứng với gói Team; bonus của Team là \"Free access to Rainbox\", mà Rainbox là phần mềm \"adjust the color and size of photos and combine multiple images\" = phần mềm chỉnh sửa ảnh. Chọn D. (C bẫy: 'advance notice of new photos' là bonus của gói Partner $280, không phải Team.)",
+       "uncertain": false
+      },
+      {
+       "n": 185,
+       "question": "According to the online form, what is available in a downloadable file?",
+       "choices": {
+        "A": "Advice for conducting searches",
+        "B": "A book on photography",
+        "C": "Information on copyright law",
+        "D": "A receipt for a subscription"
+       },
+       "answer": "A",
+       "explanation": "Online Form: \"a free e-book that gives you tips on how to search our collection efficiently. Click here to download it\" → file tải về là lời khuyên cách tìm kiếm. Chọn A (Advice for conducting searches). B sai: e-book về cách tìm ảnh, không phải sách về nhiếp ảnh.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "article|schedule|flyer",
+     "title": "",
+     "text": "Article\nLaredo Community Festival Returns\n\nLAREDO (May 5)—The Laredo Community Festival (LCF), which has been growing in popularity, is scheduled to return this summer, from June 27 to June 28 at Roland Park. In addition to the usual booths from local restaurants and retail businesses, this year there will be a section for charities to raise money and promote their work.\n\nEvent planner Anita Gutierrez confirmed that feedback from Laredo residents prompted the change. \"This is an opportunity for us to support the less fortunate members of our community,\" said Ms. Gutierrez, who will take photos during the opening ceremony and speak at the start of the Laredo Live episode being filmed at the festival.\n\nRegistration for all booths runs until June 1, and a number of groups have already signed up. One is Coffee-B, a charity devoted to supporting low-income people in coffee-growing regions. Along with its signature coffee drinks, Coffee-B has created a special drink—an espresso topped with honeycomb—that will be sold exclusively at its LCF booth.\n\n──────────\n\nSchedule\nLaredo Community Festival Special Events\nSaturday, June 27\n\nThe Laredo Community Festival (LCF) celebrates our people and our passions. In addition to browsing the 200+ booths, don't miss these special events on the main stage:\n\n10:00 A.M. — Opening Ceremony\nFeaturing the mayor and city council members\n\n1:00 P.M. — Laredo Spoken Word Contest\nContestants of all ages share poems, short stories, and speeches\n\n2:30 P.M. — Filming of Laredo Live\nHour-long television program hosted by Tracy Ratcliff, with special guests from the area\n\n7:00 P.M. — Battle of the Bands\nLocal musicians show their talents in this free outdoor concert\n\n──────────\n\nFlyer\nGet Buzzing with Coffee-B!\n\nCoffee-B is a charity that teaches people in coffee-growing regions how to raise bees as a source of income. Bees, which pollinate coffee flowers, are the perfect complement to coffee. The honey and wax they produce create a steady source of income for beekeepers in a way that doesn't require land ownership.\n\nCheck out our booth at the Laredo Community Festival at Roland Park. We'll be raising money by selling the Honey Dream, a coffee-flavored milkshake with a twist of honey; the Sweet Shot, a freshly-brewed espresso with real honeycomb on top; the Buzzy Bomb, a double espresso with cinnamon and beeswax stirring stick; and the Caffeine Cooler, an iced coffee that can be infused with a variety of flavored syrups.",
+     "questions": [
+      {
+       "n": 186,
+       "question": "According to the article, what will be different about this year's LCF?",
+       "choices": {
+        "A": "It will be held earlier in the summer.",
+        "B": "A new type of organization will be involved.",
+        "C": "A wider selection of foods will be sold.",
+        "D": "It will include a fund-raising contest."
+       },
+       "answer": "B",
+       "explanation": "Bài báo (Article) nêu điểm mới: \"this year there will be a section for charities to raise money and promote their work\" — có thêm khu vực cho các tổ chức từ thiện (một loại tổ chức mới) tham gia, nên chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 187,
+       "question": "In the article, the word \"prompted\" in paragraph 2, line 2, is closest in meaning to",
+       "choices": {
+        "A": "hurried",
+        "B": "convinced",
+        "C": "asked",
+        "D": "caused"
+       },
+       "answer": "D",
+       "explanation": "Trong \"feedback from Laredo residents prompted the change\", \"prompted\" nghĩa là gây ra/dẫn đến sự thay đổi = \"caused\" (D).",
+       "uncertain": false
+      },
+      {
+       "n": 188,
+       "question": "When will Ms. Gutierrez give a talk on June 27?",
+       "choices": {
+        "A": "At 10:00 A.M.",
+        "B": "At 1:00 P.M.",
+        "C": "At 2:30 P.M.",
+        "D": "At 7:00 P.M."
+       },
+       "answer": "C",
+       "explanation": "Ghép Article + Schedule: Article nói bà Gutierrez sẽ \"speak at the start of the Laredo Live episode\", còn Schedule ghi \"2:30 P.M. — Filming of Laredo Live\". Vậy bà phát biểu lúc 2:30 P.M., chọn C.",
+       "uncertain": false
+      },
+      {
+       "n": 189,
+       "question": "Which drink will only be available at LCF?",
+       "choices": {
+        "A": "Honey Dream",
+        "B": "Sweet Shot",
+        "C": "Buzzy Bomb",
+        "D": "Caffeine Cooler"
+       },
+       "answer": "B",
+       "explanation": "Ghép Article + Flyer: Article nói món đặc biệt \"an espresso topped with honeycomb—that will be sold exclusively at its LCF booth\"; Flyer mô tả \"the Sweet Shot, a freshly-brewed espresso with real honeycomb on top\". Món chỉ bán độc quyền tại LCF chính là Sweet Shot (B).",
+       "uncertain": false
+      },
+      {
+       "n": 190,
+       "question": "What is mentioned in the flyer about beekeepers?",
+       "choices": {
+        "A": "They produce wax for coffee growers.",
+        "B": "They can rent equipment from Coffee-B.",
+        "C": "They usually work in coffee-growing areas.",
+        "D": "They do not need to own property."
+       },
+       "answer": "D",
+       "explanation": "Flyer viết mật và sáp \"create a steady source of income for beekeepers in a way that doesn't require land ownership\" — người nuôi ong không cần sở hữu đất đai, nên chọn D.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "web page|web page|customer review",
+     "title": "",
+     "text": "Web page — Viva Botanical Gardens Customer Feedback\nwww.vivabotanicalgardens.com/customer_feedback\n\nViva Botanical Gardens Customer Feedback\n\n← Previous Posts                                              Posted Today\n\nAs an avid gardener, I was looking forward to seeing the wide variety of flowers and plants at Viva Botanical Gardens. The admission fee is quite reasonable, as you can spend an entire day exploring the exhibits. However, it is a challenge to reach the gardens from the city center. There are no public buses or trains, and the taxi fares are very expensive. I spoke to the manager, who was very friendly, and suggested that he hire a transportation service that was used by another tourist site I had gone to earlier in my trip. I hope he takes this advice into consideration.\n– Christina Saunders, July 18\n\nI'm not sure that I would recommend this attraction to others. The admission fee is very expensive, and it's hard to get there unless you have your own car. Very inconvenient! Next time, I'll skip this site and visit the Amherst Nature Reserve instead.\n–Venkata Thakur, July 18\n\n──────────\n\nWeb page — Hi-Point Shuttles\nhttps://hi-pointshuttles.com\nHOME | TESTIMONIALS | REQUEST A QUOTE | ABOUT | CONTACT\n\nHi-Point Shuttles Keeps Your Customers Moving!\n\nIs your business off the beaten path? Hi-Point Shuttles can transport customers to and from your site at economical prices. We have had zero collisions and zero roadway incidents in the past ten years, and all of our drivers have been operating shuttle buses for at least five years, more than double the industry average.\n\nClick here to request a quote for the following packages:\n\n– Standard: A one-time shuttle for events such as employee retreats, school outings, and family gatherings.\n– Business Light: Shuttle runs twice a day (morning and early evening) between the downtown area and your site. Perfect for small inns whose guests want to get into the city for sightseeing.\n– Business Standard: Operating routes once per hour on weekdays or daily on weekends to keep customers moving to your business at regular intervals.\n– Business Elite: Maximize the flow of customers with shuttles from two sites departing every half hour.\n\n──────────\n\nCustomer Review\nHi-Point Shuttles\nCustomer Review Form\n\nName: Dave Bates                    Details: Viva Botanical Gardens Manager\nOverall rating: 5 / 5\nComments: One of my customers recommended Hi-Point Shuttles after using it to visit a textile factory, and I'm so glad I gave the company a chance. My customers love the hourly shuttle option, and this has brought a lot of business to my site. The estimates of the journey time have a high degree of accuracy, and the shuttles are comfortable.\nMay we post your review on our Web site? Yes X   No ___",
+     "questions": [
+      {
+       "n": 191,
+       "question": "In the first Web page, what issue with Viva Botanical Gardens do both posters mention?",
+       "choices": {
+        "A": "The small number of exhibits",
+        "B": "The high price of admission tickets",
+        "C": "The difficulty of getting to the site",
+        "D": "The inconvenient hours of operation"
+       },
+       "answer": "C",
+       "explanation": "Cả hai người bình luận đều nói khó đến nơi: Saunders \"it is a challenge to reach the gardens from the city center. There are no public buses or trains\"; Thakur \"it's hard to get there unless you have your own car.\" Vấn đề chung là khó tiếp cận địa điểm (C). (Chú ý phí vào cửa hai người đánh giá trái ngược nhau nên không phải điểm chung.)",
+       "uncertain": false
+      },
+      {
+       "n": 192,
+       "question": "What is NOT indicated about Hi-Point Shuttles?",
+       "choices": {
+        "A": "It charges affordable rates.",
+        "B": "Its staff members are experienced.",
+        "C": "Its vehicles are cleaned frequently.",
+        "D": "It has an excellent safety record."
+       },
+       "answer": "C",
+       "explanation": "Câu NOT: A có (\"economical prices\"), B có (\"drivers have been operating shuttle buses for at least five years\"), D có (\"zero collisions and zero roadway incidents in the past ten years\"). Không chỗ nào nói xe được lau dọn thường xuyên, nên C là điều KHÔNG được nêu.",
+       "uncertain": false
+      },
+      {
+       "n": 193,
+       "question": "What did Ms. Saunders most likely visit before Viva Botanical Gardens?",
+       "choices": {
+        "A": "A flower shop",
+        "B": "A textile factory",
+        "C": "A nature reserve",
+        "D": "A city museum"
+       },
+       "answer": "B",
+       "explanation": "Ghép web page (đánh giá của Saunders) + customer review của quản lý Bates: Saunders gợi ý dùng dịch vụ đưa đón \"used by another tourist site I had gone to earlier in my trip\"; Bates viết \"One of my customers recommended Hi-Point Shuttles after using it to visit a textile factory.\" Vậy nơi Saunders đến trước đó là một nhà máy dệt (B).",
+       "uncertain": false
+      },
+      {
+       "n": 194,
+       "question": "Which service package did Mr. Bates most likely purchase?",
+       "choices": {
+        "A": "Standard",
+        "B": "Business Light",
+        "C": "Business Standard",
+        "D": "Business Elite"
+       },
+       "answer": "C",
+       "explanation": "Ghép customer review + web page: Bates nói \"My customers love the hourly shuttle option\"; web page mô tả \"Business Standard: Operating routes once per hour on weekdays\" — dịch vụ chạy mỗi giờ, nên gói ông mua là Business Standard (C).",
+       "uncertain": false
+      },
+      {
+       "n": 195,
+       "question": "In the customer review, the word \"degree\" in paragraph 1, line 4, is closest in meaning to",
+       "choices": {
+        "A": "level",
+        "B": "step",
+        "C": "diploma",
+        "D": "temperature"
+       },
+       "answer": "A",
+       "explanation": "Trong \"The estimates of the journey time have a high degree of accuracy\", \"degree\" nghĩa là mức độ = \"level\" (A).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "information|letter|voucher",
+     "title": "",
+     "text": "Information\nQ-Rewards — Shop your way to savings!\n\nQuincy Supermarket is pleased to introduce its new loyalty program—Q-Rewards. Join this program to earn one point for every dollar you spend at Quincy Supermarket and one point for every two dollars you spend at any of the businesses in our partner network. Enroll in the program at www.quincysupermarket.com/qrewards, and you'll instantly be issued a temporary card by e-mail, with a physical card following later in the mail. New members can get a bonus of 300 points just for signing up, and we'll also send you a voucher for $5 if you register to receive our monthly newsletter and other occasional store offers by e-mail. Once you are enrolled in the program, you will automatically be sent a $10 voucher every time your account reaches 1,000 points.\n\nTo earn points, simply present your Q-Rewards card at the time of checkout. You can also download the Q-Rewards smartphone application, which allows you to claim your points by scanning a store receipt within 48 hours of its issuance. Sign up today and watch the points pile up!\n\n──────────\n\nLetter\nCarol Faulk\n1607 Wescam Avenue\nGrofflan, OH 45231\n\nDear Ms. Faulk,\n\nThank you for signing up for our Q-Rewards program. Please find enclosed your Q-Rewards card, as well as the $5 voucher that you are entitled to. This voucher can be used at any Quincy Supermarket store as well as online at www.quincysupermarket.com. Please treat it as you would treat cash of equivalent value, as we will not be able to issue you a new voucher if you misplace this one.\n\nDon't forget to check out the newest brands in our product lineup:\n• Plincus cleaning products: countertop cleaner, glass cleaner, and wood polish\n• Vispant gourmet cheeses: the finest cheeses imported from France\n• Lankdon juices: cranberry, apple, and grape varieties in 355ml bottles\n• Charking daily vitamin supplements: separate formulas for adults and children\n\nWe hope to see you soon at Quincy Supermarket!\n\nSincerely,\n\nTodd Hampton\nCustomer Service, The Q-Rewards Team\n\n──────────\n\nVoucher\n$5          Quincy Supermarket          $5\n\nThis voucher is valid for FIVE DOLLARS off at Quincy Supermarket.\n\nPlease note that the purchase must exceed five dollars, and no change will be given. Not valid for home appliances or beverages. See reverse side for further terms and conditions.",
+     "questions": [
+      {
+       "n": 196,
+       "question": "What is true about the Q-Rewards program?",
+       "choices": {
+        "A": "Members are eligible for monthly coupons.",
+        "B": "Members receive two points for each dollar they spend.",
+        "C": "Points can be collected up to two days after a purchase.",
+        "D": "Points may be claimed by filling out a form."
+       },
+       "answer": "C",
+       "explanation": "Information nói ứng dụng cho phép \"claim your points by scanning a store receipt within 48 hours of its issuance\" — 48 giờ = hai ngày, nên điểm có thể tích trong vòng hai ngày sau khi mua (C). B sai vì chỉ 1 điểm/đô ở Quincy (2 đô mới được 1 điểm ở đối tác).",
+       "uncertain": false
+      },
+      {
+       "n": 197,
+       "question": "What did Ms. Faulk most likely do?",
+       "choices": {
+        "A": "Inquired about Q-Rewards enrollment",
+        "B": "Accumulated 1,000 rewards points",
+        "C": "Damaged her Q-Rewards card",
+        "D": "Signed up for an e-mail newsletter"
+       },
+       "answer": "D",
+       "explanation": "Ghép Information + Letter: Information nói \"we'll also send you a voucher for $5 if you register to receive our monthly newsletter\"; Letter gửi kèm \"the $5 voucher that you are entitled to.\" Vì được nhận voucher $5, bà Faulk hẳn đã đăng ký nhận bản tin qua e-mail (D).",
+       "uncertain": false
+      },
+      {
+       "n": 198,
+       "question": "What is suggested about Quincy Supermarket?",
+       "choices": {
+        "A": "It is the largest grocery store in Grofflan.",
+        "B": "It recently started selling its goods online.",
+        "C": "It has partnered with a local restaurant.",
+        "D": "It consists of multiple branch locations."
+       },
+       "answer": "D",
+       "explanation": "Letter và Voucher đều nói phiếu dùng được \"at any Quincy Supermarket store\" — cụm \"any store\" gợi ý siêu thị có nhiều chi nhánh (D).",
+       "uncertain": false
+      },
+      {
+       "n": 199,
+       "question": "What does Mr. Hampton warn Ms. Faulk about?",
+       "choices": {
+        "A": "The voucher will not be valid after the expiration date.",
+        "B": "Lost vouchers will not be replaced by the store.",
+        "C": "Vouchers cannot be exchanged for cash.",
+        "D": "Purchases made with vouchers do not earn rewards points."
+       },
+       "answer": "B",
+       "explanation": "Letter cảnh báo: \"we will not be able to issue you a new voucher if you misplace this one\" — làm mất voucher sẽ không được cấp lại, nên chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 200,
+       "question": "Which brand's products cannot be purchased with the voucher?",
+       "choices": {
+        "A": "Plincus's",
+        "B": "Vispant's",
+        "C": "Lankdon's",
+        "D": "Charking's"
+       },
+       "answer": "C",
+       "explanation": "Ghép Voucher + Letter: Voucher ghi \"Not valid for home appliances or beverages\"; trong danh sách thương hiệu ở Letter, \"Lankdon juices\" là đồ uống (beverages). Vậy sản phẩm không mua được bằng voucher là của Lankdon (C).",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
