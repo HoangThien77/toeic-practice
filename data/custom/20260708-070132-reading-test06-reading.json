@@ -1,0 +1,1445 @@
+{
+ "id": "20260708-070132-reading-test06-reading",
+ "kind": "reading",
+ "title": "YBM RC1000-2 — Test 06 (Reading)",
+ "desc": "Đề 6/10 trong sách YBM 실전토익 RC1000 vol.2 — Part 5–7, câu 101–200. Đáp án theo key đề gốc.",
+ "timerMin": 75,
+ "custom": true,
+ "parts": [
+  {
+   "part": 5,
+   "directions": "Chọn từ/cụm từ đúng nhất để hoàn thành câu.",
+   "items": [
+    {
+     "n": 101,
+     "question": "Won-Joon will handle receptionist duties _____ a more urgent matter requires his attention.",
+     "choices": {
+      "A": "along",
+      "B": "unless",
+      "C": "after",
+      "D": "beyond"
+     },
+     "answer": "B",
+     "explanation": "Cần liên từ chỉ điều kiện nối hai mệnh đề: 'unless' (= trừ khi) hợp nghĩa 'anh ấy trực lễ tân TRỪ KHI có việc gấp hơn cần anh ấy'. 'along/beyond' là giới từ, 'after' không hợp nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 102,
+     "question": "Bexcan Ltd.'s consulting programs are tailored to meet the needs of _____ clients.",
+     "choices": {
+      "A": "individualization",
+      "B": "individual",
+      "C": "individuality",
+      "D": "individually"
+     },
+     "answer": "B",
+     "explanation": "Chỗ trống bổ nghĩa cho danh từ 'clients' nên cần tính từ 'individual' (từng/riêng lẻ). Các lựa chọn khác là danh từ (individualization, individuality) hoặc trạng từ (individually).",
+     "uncertain": false
+    },
+    {
+     "n": 103,
+     "question": "Upon completion, nonfiction manuscripts are carefully _____ for publication by an expert team of editors.",
+     "choices": {
+      "A": "preparing",
+      "B": "preparation",
+      "C": "prepared",
+      "D": "prepare"
+     },
+     "answer": "C",
+     "explanation": "Câu bị động 'are carefully ___' cần phân từ quá khứ (V3) làm động từ chính: 'are prepared' (được chuẩn bị). 'preparing' là V-ing, 'preparation' danh từ, 'prepare' nguyên mẫu đều sai.",
+     "uncertain": false
+    },
+    {
+     "n": 104,
+     "question": "North-Metro Transit Authority ticket machines sell regular _____ special bus passes.",
+     "choices": {
+      "A": "and",
+      "B": "off",
+      "C": "both",
+      "D": "across"
+     },
+     "answer": "A",
+     "explanation": "Liên từ 'and' nối hai loại vé song song 'regular and special bus passes' (vé thường và vé đặc biệt). 'both' phải đi cặp 'both...and'; 'off/across' là giới từ.",
+     "uncertain": false
+    },
+    {
+     "n": 105,
+     "question": "The _____ to join the poetry workshop will be handled in the order that they arrive.",
+     "choices": {
+      "A": "applies",
+      "B": "apply",
+      "C": "application",
+      "D": "applications"
+     },
+     "answer": "D",
+     "explanation": "Chủ ngữ cần danh từ và đại từ 'they arrive' ở số nhiều, nên chọn danh từ số nhiều 'applications' (các đơn đăng ký). 'applies/apply' là động từ; 'application' số ít không hợp với 'they'.",
+     "uncertain": false
+    },
+    {
+     "n": 106,
+     "question": "Users of this software appreciate having their travel expenses _____ recorded in the database.",
+     "choices": {
+      "A": "systematic",
+      "B": "systematize",
+      "C": "systematizes",
+      "D": "systematically"
+     },
+     "answer": "D",
+     "explanation": "Chỗ trống bổ nghĩa cho phân từ 'recorded' nên cần trạng từ 'systematically' (được ghi một cách có hệ thống). Các lựa chọn khác là tính từ/động từ.",
+     "uncertain": false
+    },
+    {
+     "n": 107,
+     "question": "Participants are issued a swift refund in the event that a course is cancelled without advance _____.",
+     "choices": {
+      "A": "contribution",
+      "B": "interruption",
+      "C": "notification",
+      "D": "distribution"
+     },
+     "answer": "C",
+     "explanation": "Cụm 'without advance notification' = 'không báo trước' hợp nghĩa: được hoàn tiền nhanh nếu khóa học bị hủy mà không thông báo trước. 'contribution/interruption/distribution' đều không khớp ngữ cảnh.",
+     "uncertain": false
+    },
+    {
+     "n": 108,
+     "question": "The merger with Walo Fashions is expected _____ our operating profit by ten million dollars this year.",
+     "choices": {
+      "A": "boosts",
+      "B": "boosting",
+      "C": "to boost",
+      "D": "will boost"
+     },
+     "answer": "C",
+     "explanation": "Cấu trúc bị động 'be expected + to V': 'is expected to boost' (được kỳ vọng sẽ thúc đẩy). Các dạng boosts/boosting/will boost đều không theo sau 'is expected'.",
+     "uncertain": false
+    },
+    {
+     "n": 109,
+     "question": "Each potential client is given a _____ of the gym's personal training programs.",
+     "choices": {
+      "A": "descriptive",
+      "B": "describable",
+      "C": "description",
+      "D": "described"
+     },
+     "answer": "C",
+     "explanation": "Sau mạo từ 'a' cần danh từ: 'a description of...' (một bản mô tả). 'descriptive/describable/described' là tính từ/phân từ.",
+     "uncertain": false
+    },
+    {
+     "n": 110,
+     "question": "_____ more fully understand the market, Panaski Products has undertaken a consumer survey.",
+     "choices": {
+      "A": "Based on",
+      "B": "In case",
+      "C": "In order to",
+      "D": "Except for"
+     },
+     "answer": "C",
+     "explanation": "'In order to + V nguyên mẫu' chỉ mục đích: 'Để hiểu rõ hơn thị trường, Panaski đã tiến hành khảo sát'. 'Based on/Except for' là giới từ, 'In case' cần mệnh đề.",
+     "uncertain": false
+    },
+    {
+     "n": 111,
+     "question": "_____ mistakes can result in serious consequences, legal documents are quite difficult to translate.",
+     "choices": {
+      "A": "Rather",
+      "B": "Just",
+      "C": "Because",
+      "D": "Any"
+     },
+     "answer": "C",
+     "explanation": "Cần liên từ chỉ nguyên nhân nối mệnh đề đầu với mệnh đề chính: 'Because ... can result in serious consequences' (Vì sai sót có thể gây hậu quả nghiêm trọng). 'Rather/Just/Any' không phải liên từ nối mệnh đề.",
+     "uncertain": false
+    },
+    {
+     "n": 112,
+     "question": "Mr. Bang's nomination is a well-deserved _____ of his strong commitment to the Nyer Foundation's mission.",
+     "choices": {
+      "A": "inspiration",
+      "B": "acknowledgment",
+      "C": "allowance",
+      "D": "depiction"
+     },
+     "answer": "B",
+     "explanation": "'acknowledgment of...' = sự ghi nhận/công nhận: đề cử là sự ghi nhận xứng đáng cho cam kết mạnh mẽ của ông. 'inspiration (cảm hứng)/allowance (trợ cấp)/depiction (mô tả)' đều không hợp nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 113,
+     "question": "Lori Retton knows Mr. Vargas personally and so will remove _____ from the hiring committee.",
+     "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+     },
+     "answer": "D",
+     "explanation": "Chủ ngữ và tân ngữ cùng chỉ một người (Lori Retton tự rút mình) nên dùng đại từ phản thân 'herself'. 'she' là chủ ngữ, 'her/hers' là sở hữu/tân ngữ thường không phù hợp ở đây.",
+     "uncertain": false
+    },
+    {
+     "n": 114,
+     "question": "The data show that Frosta Lite is _____ the top soft drink among teenagers.",
+     "choices": {
+      "A": "now",
+      "B": "more",
+      "C": "early",
+      "D": "long"
+     },
+     "answer": "A",
+     "explanation": "'is now the top soft drink' = 'hiện giờ là nước ngọt số một'. Trạng từ 'now' hợp nghĩa; 'more/early/long' không phù hợp trước cụm danh từ 'the top soft drink'.",
+     "uncertain": false
+    },
+    {
+     "n": 115,
+     "question": "The can's label should direct users to spray the paint _____ to prevent small paint bubbles from forming.",
+     "choices": {
+      "A": "lightens",
+      "B": "lighten",
+      "C": "lightly",
+      "D": "lightest"
+     },
+     "answer": "C",
+     "explanation": "Chỗ trống bổ nghĩa cho động từ 'spray' nên cần trạng từ 'lightly' (xịt nhẹ). 'lightens/lighten' là động từ, 'lightest' là tính từ so sánh nhất.",
+     "uncertain": false
+    },
+    {
+     "n": 116,
+     "question": "A former television star, Mr. Noah explained that he chose to act in the play because of _____ multicultural themes.",
+     "choices": {
+      "A": "it",
+      "B": "which",
+      "C": "something",
+      "D": "its"
+     },
+     "answer": "D",
+     "explanation": "Cần tính từ sở hữu đứng trước danh từ 'multicultural themes' để chỉ 'các chủ đề của vở kịch (the play)'. 'its' = sở hữu của 'it'. 'it' (đại từ tân ngữ) và 'which' (đại từ quan hệ) đều không thể bổ nghĩa sở hữu cho danh từ.",
+     "uncertain": false
+    },
+    {
+     "n": 117,
+     "question": "On Saturday, the first group of visitors toured around the city's _____ opened historical park.",
+     "choices": {
+      "A": "densely",
+      "B": "newly",
+      "C": "generally",
+      "D": "solely"
+     },
+     "answer": "B",
+     "explanation": "Trạng từ bổ nghĩa cho phân từ 'opened': 'newly opened historical park' = công viên lịch sử mới khai trương. Các lựa chọn khác (densely = dày đặc, generally = nói chung, solely = duy nhất) không hợp nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 118,
+     "question": "Critchley Distributing price quotes expire one month _____ the date they are issued.",
+     "choices": {
+      "A": "when",
+      "B": "from",
+      "C": "onto",
+      "D": "despite"
+     },
+     "answer": "B",
+     "explanation": "'one month from the date' = một tháng kể từ ngày (báo giá được phát hành). Giới từ 'from' chỉ mốc thời gian tính từ. 'when' là liên từ, 'onto/despite' sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 119,
+     "question": "To make the best impression in the job interview, candidates should bring _____ of their artistic skills in the form of a portfolio.",
+     "choices": {
+      "A": "reduction",
+      "B": "cover",
+      "C": "reply",
+      "D": "evidence"
+     },
+     "answer": "D",
+     "explanation": "'bring evidence of their artistic skills' = mang theo bằng chứng về kỹ năng nghệ thuật, dưới dạng portfolio. 'evidence' hợp nghĩa nhất; reduction (sự giảm), cover (bìa), reply (câu trả lời) đều không phù hợp.",
+     "uncertain": false
+    },
+    {
+     "n": 120,
+     "question": "The interns were asked to _____ the list of reports into sections by research topic.",
+     "choices": {
+      "A": "discuss",
+      "B": "demand",
+      "C": "delete",
+      "D": "divide"
+     },
+     "answer": "D",
+     "explanation": "Cấu trúc 'divide ... into sections' = chia danh sách báo cáo thành các phần theo chủ đề nghiên cứu. Chỉ 'divide' đi với 'into' theo nghĩa này.",
+     "uncertain": false
+    },
+    {
+     "n": 121,
+     "question": "Thanks to the city's generous spending on infrastructure, all types of public transportation are readily _____ in central Melwood City.",
+     "choices": {
+      "A": "availability",
+      "B": "availabilities",
+      "C": "availably",
+      "D": "available"
+     },
+     "answer": "D",
+     "explanation": "Sau 'are readily' cần tính từ làm bổ ngữ chủ ngữ: 'readily available' = sẵn có, dễ tiếp cận. Các lựa chọn còn lại là danh từ (availability/availabilities) hoặc trạng từ (availably).",
+     "uncertain": false
+    },
+    {
+     "n": 122,
+     "question": "At yesterday's meeting, the board of directors decided to _____ our contract with Egbele Consulting.",
+     "choices": {
+      "A": "insist",
+      "B": "exceed",
+      "C": "terminate",
+      "D": "agree"
+     },
+     "answer": "C",
+     "explanation": "'terminate our contract' = chấm dứt hợp đồng (ngoại động từ đi thẳng với tân ngữ). insist/agree cần giới từ, exceed (vượt quá) sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 123,
+     "question": "All of the hotel's deluxe suites are _____ with separate kitchens and work areas.",
+     "choices": {
+      "A": "subscribed",
+      "B": "equipped",
+      "C": "accelerated",
+      "D": "conducted"
+     },
+     "answer": "B",
+     "explanation": "Cụm cố định 'be equipped with' = được trang bị (bếp và khu làm việc riêng). subscribed/accelerated/conducted không hợp nghĩa với 'with' theo ngữ cảnh này.",
+     "uncertain": false
+    },
+    {
+     "n": 124,
+     "question": "The courier delivered the urgent package directly to Ms. Uhm, so the standard sign-in protocol _____.",
+     "choices": {
+      "A": "disregards",
+      "B": "disregarding",
+      "C": "was disregarded",
+      "D": "is disregarding"
+     },
+     "answer": "C",
+     "explanation": "Chủ ngữ 'protocol' chịu tác động nên dùng bị động; hành động đã xảy ra (courier đã giao) nên dùng quá khứ: 'was disregarded' = đã bị bỏ qua. Chủ động (disregards) hay hiện tại (is disregarding) đều sai.",
+     "uncertain": false
+    },
+    {
+     "n": 125,
+     "question": "The need to renovate some of the older store locations has been _____ among our management's concerns.",
+     "choices": {
+      "A": "attentive",
+      "B": "maximum",
+      "C": "executive",
+      "D": "foremost"
+     },
+     "answer": "D",
+     "explanation": "'foremost among ... concerns' = hàng đầu trong số các mối quan tâm. 'foremost' hợp nghĩa; attentive (chú tâm), maximum (tối đa), executive (thuộc quản lý) đều không phù hợp.",
+     "uncertain": false
+    },
+    {
+     "n": 126,
+     "question": "The increase in Goshu Jam's brand recognition is likely due to the television _____ it has received.",
+     "choices": {
+      "A": "expose",
+      "B": "exposes",
+      "C": "exposed",
+      "D": "exposure"
+     },
+     "answer": "D",
+     "explanation": "Sau mạo từ 'the' và danh từ định danh 'television' cần một danh từ (danh từ ghép 'television exposure' = sự quảng bá trên truyền hình). expose/exposes là động từ, exposed là phân từ.",
+     "uncertain": false
+    },
+    {
+     "n": 127,
+     "question": "Through the demonstration, Diravi hopes to stimulate a multimillion-dollar _____ in the company's mobile platform.",
+     "choices": {
+      "A": "objective",
+      "B": "investment",
+      "C": "affiliation",
+      "D": "statement"
+     },
+     "answer": "B",
+     "explanation": "'a multimillion-dollar investment in the company's mobile platform' = khoản đầu tư nhiều triệu đô vào nền tảng di động. 'investment' đi với 'in' và hợp ngữ cảnh; objective/affiliation/statement sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 128,
+     "question": "_____ you indicate your region, the Web site will personalize the contents of your news feed.",
+     "choices": {
+      "A": "Whether",
+      "B": "Later",
+      "C": "Mostly",
+      "D": "Once"
+     },
+     "answer": "D",
+     "explanation": "'Once you indicate your region' = Một khi bạn cho biết khu vực... Liên từ 'Once' nối mệnh đề điều kiện/thời gian. Whether (liệu) không hợp, Later/Mostly là trạng từ không nối được mệnh đề.",
+     "uncertain": false
+    },
+    {
+     "n": 129,
+     "question": "The museum is attempting to collect portable CD players and other _____ products before they disappear entirely.",
+     "choices": {
+      "A": "reversible",
+      "B": "anonymous",
+      "C": "tentative",
+      "D": "obsolete"
+     },
+     "answer": "D",
+     "explanation": "Manh mối 'before they disappear entirely' (trước khi biến mất hoàn toàn) cho thấy đây là sản phẩm lỗi thời: 'obsolete products'. reversible (đảo ngược được), anonymous (ẩn danh), tentative (tạm thời) đều không hợp.",
+     "uncertain": false
+    },
+    {
+     "n": 130,
+     "question": "Economists have noted that the region's unusually plentiful orange harvest this season will _____ lower prices for the fruit at supermarkets.",
+     "choices": {
+      "A": "inquire into",
+      "B": "complain about",
+      "C": "correspond to",
+      "D": "participate in"
+     },
+     "answer": "C",
+     "explanation": "'correspond to lower prices' = tương ứng với/dẫn đến giá thấp hơn. Cụm động từ 'correspond to' hợp nghĩa; inquire into (điều tra), complain about (phàn nàn), participate in (tham gia) đều sai ngữ cảnh.",
+     "uncertain": false
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "directions": "Đọc đoạn văn có 4 chỗ trống, chọn phương án phù hợp nhất cho mỗi chỗ trống.",
+   "items": [
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "To: Carol Knapton <c-knapton@arf-mail.com>\nFrom: Ned Becker <ned-becker@varpowbank.com>\nDate: July 21\nSubject: Your card\n\nDear Ms. Knapton,\n\nVarpow Bank is sorry to hear that your Varpow Platinum credit card can no longer be recognized by card reading devices. I [131] it as per your request. A [132] card will be sent out by express mail in the next 24 hours. You can expect to receive it within three business days. Also, please rest assured that the benefits and protections you have been enjoying up to this point will [133] to your new Varpow Platinum card. [134]\n\nIf you have any questions about this process, please respond to this e-mail.\n\nSincerely,\n\nNed Becker\nCustomer Service",
+     "questions": [
+      {
+       "n": 131,
+       "choices": {
+        "A": "be canceling",
+        "B": "was being canceled",
+        "C": "have canceled",
+        "D": "would have been canceled"
+       },
+       "answer": "C",
+       "explanation": "Khách đã yêu cầu hủy thẻ và ngân hàng đã thực hiện xong: 'I have canceled it as per your request.' Present perfect (have + V3) diễn tả hành động vừa hoàn tất; các thì tương lai/giả định (A, D) và quá khứ tiếp diễn bị động (B) đều không hợp ngữ cảnh.",
+       "uncertain": false
+      },
+      {
+       "n": 132,
+       "choices": {
+        "A": "replaces",
+        "B": "replaceability",
+        "C": "replace",
+        "D": "replacement"
+       },
+       "answer": "D",
+       "explanation": "Cần một danh từ đứng làm định ngữ cho 'card': 'A replacement card' (thẻ thay thế). 'replaces'/'replace' là động từ, 'replaceability' là danh từ trừu tượng không đi kèm 'card' được.",
+       "uncertain": false
+      },
+      {
+       "n": 133,
+       "choices": {
+        "A": "share",
+        "B": "extend",
+        "C": "acquire",
+        "D": "qualify"
+       },
+       "answer": "B",
+       "explanation": "'the benefits and protections... will extend to your new Varpow Platinum card' — 'extend to' nghĩa là (quyền lợi) tiếp tục áp dụng/mở rộng sang thẻ mới. 'share/acquire/qualify' không tạo cụm đúng nghĩa với 'to' ở đây.",
+       "uncertain": false
+      },
+      {
+       "n": 134,
+       "choices": {
+        "A": "It has a much lower monthly interest rate.",
+        "B": "For security reasons, we recommend destroying it.",
+        "C": "Reward points must now be spent by the end of the year.",
+        "D": "All that will change is your credit card number."
+       },
+       "answer": "D",
+       "explanation": "Câu trước khẳng định quyền lợi và bảo vệ vẫn giữ nguyên trên thẻ mới, nên câu chốt phải nhấn rằng thứ duy nhất thay đổi là số thẻ: 'All that will change is your credit card number.' Các phương án A/B/C đưa thông tin mâu thuẫn hoặc lạc đề.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "instructions",
+     "title": "",
+     "text": "Recording a voicemail greeting on your Brihm 310 Answering Machine is simple. After preparing your message, press and hold the red “Record” button on the machine. [135] the recording tone sounds, begin speaking. [136] For your convenience, the display flashes when [137] ten seconds are remaining. Release the button to end the recording. The new greeting [138] automatically. If you are unsatisfied with it, simply press and hold the “Record” button again. A tone will sound to indicate that the greeting has been deleted. The process may then be started over.",
+     "questions": [
+      {
+       "n": 135,
+       "choices": {
+        "A": "Even",
+        "B": "Besides",
+        "C": "In spite of",
+        "D": "As soon as"
+       },
+       "answer": "D",
+       "explanation": "'[135] the recording tone sounds, begin speaking' — cần liên từ chỉ thời điểm 'ngay khi': 'As soon as the recording tone sounds, begin speaking.' 'Even/Besides/In spite of' không phải liên từ nối mệnh đề thời gian.",
+       "uncertain": false
+      },
+      {
+       "n": 136,
+       "choices": {
+        "A": "Greetings may be up to one minute long.",
+        "B": "Next, press “Clock” to set the display time.",
+        "C": "Voice prompts are given in English or Spanish.",
+        "D": "This will cause damage to your microphone."
+       },
+       "answer": "A",
+       "explanation": "Đoạn nói về ghi lời chào, câu kế đề cập 'when only ten seconds are remaining', ngụ ý có giới hạn thời gian. Câu 'Greetings may be up to one minute long.' nêu độ dài tối đa một phút, ăn khớp với ý còn 10 giây; các phương án B/C/D lạc chủ đề.",
+       "uncertain": false
+      },
+      {
+       "n": 137,
+       "choices": {
+        "A": "only",
+        "B": "most",
+        "C": "still",
+        "D": "enough"
+       },
+       "answer": "A",
+       "explanation": "'the display flashes when only ten seconds are remaining' — 'only' nhấn mạnh chỉ còn vỏn vẹn 10 giây. 'most/still/enough' không hợp với cụm chỉ thời gian còn lại này.",
+       "uncertain": false
+      },
+      {
+       "n": 138,
+       "choices": {
+        "A": "is playing",
+        "B": "played",
+        "C": "will play",
+        "D": "was playing"
+       },
+       "answer": "C",
+       "explanation": "Sau khi thu xong, lời chào mới sẽ tự động phát khi có cuộc gọi — mô tả chức năng chung nên dùng thì tương lai: 'The new greeting will play automatically.' Các thì tiếp diễn hiện tại/quá khứ (A, D) hay quá khứ đơn (B) không hợp.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "note",
+     "title": "Bosic Dental Center",
+     "text": "To improve our dental care services, we are now [139] feedback from patients about their visits. [140] you recently had a routine dental cleaning at our clinic, it would be helpful if you would complete the attached questionnaire about your experience. [141] When you are finished, simply place the questionnaire in the self-addressed stamped envelope provided and drop it in a mailbox. Although participation is strictly voluntary, we urge you to take the time to contribute, and to give full, honest answers. After all, your efforts [142] with better service. Thank you.",
+     "questions": [
+      {
+       "n": 139,
+       "choices": {
+        "A": "modifying",
+        "B": "gathering",
+        "C": "treating",
+        "D": "assisting"
+       },
+       "answer": "B",
+       "explanation": "'we are now gathering feedback from patients' — 'gather feedback' nghĩa là thu thập phản hồi, đúng mục đích cải thiện dịch vụ. 'modifying/treating/assisting feedback' đều không tạo cụm hợp nghĩa.",
+       "uncertain": false
+      },
+      {
+       "n": 140,
+       "choices": {
+        "A": "While",
+        "B": "Until",
+        "C": "As",
+        "D": "Therefore"
+       },
+       "answer": "C",
+       "explanation": "'As you recently had a routine dental cleaning at our clinic, it would be helpful if...' — 'As' mang nghĩa 'vì/bởi' (giống since), nêu lý do gửi bảng hỏi. 'While/Until' không hợp logic thời gian, 'Therefore' là trạng từ không nối được hai mệnh đề.",
+       "uncertain": false
+      },
+      {
+       "n": 141,
+       "choices": {
+        "A": "We will perform comprehensive exams during your visit.",
+        "B": "This step is required when applying for open positions.",
+        "C": "It will take about ten minutes of your time to complete.",
+        "D": "Please schedule appointments two weeks in advance."
+       },
+       "answer": "C",
+       "explanation": "Câu trước mời điền bảng hỏi ('complete the attached questionnaire'), câu sau nói 'When you are finished'. Câu xen giữa hợp lý là ước lượng thời gian: 'It will take about ten minutes of your time to complete.' Các phương án A/B/D không liên quan đến bảng hỏi.",
+       "uncertain": false
+      },
+      {
+       "n": 142,
+       "choices": {
+        "A": "to be rewarded",
+        "B": "will be rewarded",
+        "C": "have been rewarded",
+        "D": "having rewarded"
+       },
+       "answer": "B",
+       "explanation": "'your efforts will be rewarded with better service' — cần thì tương lai bị động (will be + V3) vì phần thưởng là kết quả sau này. 'to be rewarded / having rewarded' là dạng không chia thì làm động từ chính, 'have been rewarded' sai về thời gian.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "From: Asif Bhuiyan\nTo: All Human Resources staff\nDate: March 4\nSubject: Workshop\n\nHi team,\n\nOn April 17, Repko Employers will hold a workshop on an innovative method of employee recognition. From the advertisement I was sent, it seems like something the company [143]. I’d like to send two members of our team there to learn about this [144] in depth. The attendees will then be responsible for producing a report on it for the rest of us.\n\nWe will need to choose our representatives quickly. [145] Reply to this e-mail by 11 A.M. on Thursday if you would like to attend. Preference will be given to senior employees and those who are not involved in urgent projects. [146] I encourage anyone interested to volunteer.\n\nAsif",
+     "questions": [
+      {
+       "n": 143,
+       "choices": {
+        "A": "that utilized",
+        "B": "utilization",
+        "C": "utilizable",
+        "D": "could utilize"
+       },
+       "answer": "D",
+       "explanation": "'it seems like something (that) the company could utilize' — mệnh đề quan hệ rút gọn cần một động từ chia: 'could utilize' (công ty có thể áp dụng). 'utilization/utilizable' là danh từ/tính từ, 'that utilized' sai thì và nghĩa.",
+       "uncertain": false
+      },
+      {
+       "n": 144,
+       "choices": {
+        "A": "technique",
+        "B": "recipient",
+        "C": "behavior",
+        "D": "profession"
+       },
+       "answer": "A",
+       "explanation": "'this [144]' chỉ lại 'an innovative method of employee recognition' nêu ở đầu thư; 'this technique' (kỹ thuật/phương pháp này) là từ đồng nghĩa với 'method'. 'recipient/behavior/profession' không thay thế được cho 'method'.",
+       "uncertain": false
+      },
+      {
+       "n": 145,
+       "choices": {
+        "A": "The company will pay for transportation for the whole team.",
+        "B": "In my experience, Repko events are enormously popular.",
+        "C": "Likewise, it can be difficult to find well-trained instructors.",
+        "D": "Final reports should then be uploaded to a shared folder."
+       },
+       "answer": "B",
+       "explanation": "Câu trước nhấn 'We will need to choose our representatives quickly' và câu sau yêu cầu trả lời trước 11 giờ. Lý do phải nhanh là 'In my experience, Repko events are enormously popular.' (sự kiện rất đông, chỗ hết nhanh). A/C/D không giải thích được sự gấp gáp này.",
+       "uncertain": false
+      },
+      {
+       "n": 146,
+       "choices": {
+        "A": "Accordingly",
+        "B": "However",
+        "C": "Instead",
+        "D": "Specifically"
+       },
+       "answer": "B",
+       "explanation": "Câu trước nói ưu tiên nhân viên thâm niên và người không bận dự án gấp; câu chứa chỗ trống lại khuyến khích mọi người quan tâm đăng ký — quan hệ tương phản nên dùng 'However'. 'Accordingly/Instead/Specifically' không thể hiện sự đối lập này.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "directions": "Đọc đoạn văn và trả lời các câu hỏi.",
+   "items": [
+    {
+     "ptype": "invoice",
+     "title": "Kuznetzov Services",
+     "text": "Bill to: Nigel Wilcox\nLindler Financial\n42 Clary Road\nLondon W11 2DY\n\nInvoice: 85061\nIssued: 4 July\nPayment due: 4 August\n\nDate: 30 June\nService provided: Translation of financial document from Russian to English by Darya Kuznetzov\nQuantity: 1347 words\nRate: £0.08 / word\nAmount: £1077.60\n\nDate: 30 June\nService provided: 15% surcharge for same-day completion of above\nAmount: £161.64\n\nTOTAL: £1239.24",
+     "questions": [
+      {
+       "n": 147,
+       "question": "What did Ms. Kuznetzov do on June 30?",
+       "choices": {
+        "A": "Provided investment advice",
+        "B": "Converted the language of a text",
+        "C": "Made travel arrangements for Mr. Wilcox",
+        "D": "Printed some presentation documents"
+       },
+       "answer": "B",
+       "explanation": "Hóa đơn ghi dịch vụ ngày 30/6: \"Translation of financial document from Russian to English by Darya Kuznetzov\" — bà dịch (chuyển ngữ) một văn bản, tức đáp án B \"Converted the language of a text\".",
+       "uncertain": false
+      },
+      {
+       "n": 148,
+       "question": "Why was a surcharge added to the invoice?",
+       "choices": {
+        "A": "For international shipping",
+        "B": "For an undersized order",
+        "C": "For an overdue payment",
+        "D": "For expedited service"
+       },
+       "answer": "D",
+       "explanation": "Phụ phí được ghi rõ: \"15% surcharge for same-day completion of above\" — phụ thu cho việc hoàn thành trong ngày (dịch vụ gấp), tức D \"For expedited service\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "Web page",
+     "title": "Eplin City Music Festival",
+     "text": "http://eplincitymusicfestival.com\n\nEplin City Music Festival\n\nThe Eplin City Music Festival supplies complimentary tickets to individuals and businesses with Platinum Sponsorship status or higher. In addition, audience groups of ten or larger are eligible for a 15% reduction in ticket price, which is applied at the time of payment. Finally, under our \"Festival Pass\" system, visitors who plan to attend at least three events can receive a 25% discount on their tickets. Simply visit this page to register for a pass before beginning the booking process. Limit one offer per customer or group — offers may not be combined.",
+     "questions": [
+      {
+       "n": 149,
+       "question": "What is the purpose of the Web page?",
+       "choices": {
+        "A": "To attract festival sponsors",
+        "B": "To compare venue amenities",
+        "C": "To describe ticket promotions",
+        "D": "To explain a booking system"
+       },
+       "answer": "C",
+       "explanation": "Trang web liệt kê các ưu đãi vé: \"complimentary tickets\", \"a 15% reduction in ticket price\", \"a 25% discount on their tickets\" — nội dung mô tả các chương trình khuyến mãi vé, đáp án C.",
+       "uncertain": false
+      },
+      {
+       "n": 150,
+       "question": "What is suggested about sponsorships?",
+       "choices": {
+        "A": "They are separated into levels.",
+        "B": "They may be purchased online.",
+        "C": "They are only offered to corporations.",
+        "D": "They require a certain minimum contribution."
+       },
+       "answer": "A",
+       "explanation": "Cụm \"with Platinum Sponsorship status or higher\" (\"cấp Bạch kim trở lên\") cho thấy tài trợ được chia thành các cấp bậc, tức A \"They are separated into levels\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "Locker Usage",
+     "text": "In the wake of some recent misunderstandings, Adamston Fitness would like to refresh members' memory of our locker usage policies:\n\nLockers are available on a first-come, first-served basis. Members should not expect to be able to use the same locker regularly, or to leave items in a locker past the duration of a single visit. Property that is left in lockers this way may be disposed of at any time. All lockers are outfitted with high-security padlocks, and keys will be provided by the attendant. The use of an outside lock to secure the locker is prohibited. Any outside locks that are discovered will be cut and removed. Adamston Fitness also reserves the right to inspect the contents of lockers to ensure that they are not being misused.\n\nWe thank you for your compliance.\n\n— Adamston Fitness",
+     "questions": [
+      {
+       "n": 151,
+       "question": "Why was the notice posted?",
+       "choices": {
+        "A": "To give a reminder",
+        "B": "To ask for suggestions",
+        "C": "To recommend a brand",
+        "D": "To publicize a service"
+       },
+       "answer": "A",
+       "explanation": "Thông báo mở đầu: \"Adamston Fitness would like to refresh members' memory of our locker usage policies\" — nhắc lại chính sách cho hội viên, tức A \"To give a reminder\".",
+       "uncertain": false
+      },
+      {
+       "n": 152,
+       "question": "What is suggested about some of the members of Adamston Fitness?",
+       "choices": {
+        "A": "They are expected to bring additional security devices.",
+        "B": "They pay an extra fee for access to lockers.",
+        "C": "They have complained about the size of the lockers.",
+        "D": "They have attempted to use lockers for long-term storage."
+       },
+       "answer": "D",
+       "explanation": "Câu \"Members should not expect... to leave items in a locker past the duration of a single visit. Property that is left in lockers this way may be disposed of\" ngụ ý một số hội viên đã cố cất đồ lâu dài trong tủ, tức D \"attempted to use lockers for long-term storage\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "text-message chain",
+     "title": "",
+     "text": "Cynthia Erwin, 1:17 P.M.\nFred, I just finished estimating the cost of the supplies for painting Ms. Rupert's house, so our bid is ready to go. You wanted me to send it to you as an e-mail attachment, right?\n\nFred Salzman, 1:18 P.M.\nYes. I'd like to look over it before we show it to her.\n\nCynthia Erwin, 1:19 P.M.\nOK, I'm sending it now.\n\nFred Salzman, 1:21 P.M.\nIt looks great. But I think we should also let her know when the crew could start work. Before you pass the bid on to Ms. Rupert, could you look for an opening in our project calendar?\n\nCynthia Erwin, 1:22 P.M.\nSure. In fact, why don't I send her several possible start dates so that she can have a range of options?\n\nFred Salzman, 1:23 P.M.\nGood idea.\n\nCynthia Erwin, 1:24 P.M.\nOK. I'll put that information in the body of the e-mail.",
+     "questions": [
+      {
+       "n": 153,
+       "question": "What did Ms. Erwin do before sending the first message?",
+       "choices": {
+        "A": "Responded to a homeowner",
+        "B": "Calculated a potential cost",
+        "C": "Met with some painters",
+        "D": "Picked up some supplies"
+       },
+       "answer": "B",
+       "explanation": "Tin nhắn đầu của Ms. Erwin: \"I just finished estimating the cost of the supplies for painting Ms. Rupert's house\" — bà vừa tính toán chi phí dự kiến, tức B \"Calculated a potential cost\".",
+       "uncertain": false
+      },
+      {
+       "n": 154,
+       "question": "At 1:23 P.M., what does Mr. Salzman most likely mean when he writes, \"Good idea\"?",
+       "choices": {
+        "A": "He wants to give a customer some choices.",
+        "B": "He likes the vendor that Ms. Erwin suggested.",
+        "C": "He will postpone the start of a project.",
+        "D": "He will check a calendar for Ms. Erwin."
+       },
+       "answer": "A",
+       "explanation": "Ngay trước đó Ms. Erwin đề xuất: \"why don't I send her several possible start dates so that she can have a range of options?\" — Mr. Salzman đáp \"Good idea\" để tán thành việc cho khách hàng nhiều lựa chọn, tức A.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "memo",
+     "title": "",
+     "text": "Starting immediately, there will be a limit on the amount of unused paid vacation time that may be rolled over from one year to the next. — [1] —. Employees may now carry over only one-half of their previously accrued leave time. This change does not apply to unpaid types of time off, such as medical leave and some less common varieties.\n\nWe hope that by announcing this policy early in the year, vacation plans may be modified without much trouble. If an adjustment is necessary, please make it far in advance. — [2] —.\n\nFor further information on the policy, refer to the new version of the company handbook. — [3] —. If you did not receive a copy, you may contact me at extension 302. We ask that you read the policy before submitting inquiries about it. — [4] —.\n\nThank you,\n\nJoanna Do",
+     "questions": [
+      {
+       "n": 155,
+       "question": "What is indicated about medical leave?",
+       "choices": {
+        "A": "It is not available to all types of employees.",
+        "B": "It does not require a doctor's note.",
+        "C": "Employees do not take it frequently.",
+        "D": "Employees are not compensated for it."
+       },
+       "answer": "D",
+       "explanation": "Memo xếp medical leave vào nhóm \"unpaid types of time off, such as medical leave\" — nghỉ không lương, tức nhân viên không được trả lương cho loại nghỉ này, đáp án D.",
+       "uncertain": false
+      },
+      {
+       "n": 156,
+       "question": "According to the memo, what might employees need to do?",
+       "choices": {
+        "A": "Submit some documents to Ms. Do",
+        "B": "Rearrange their vacation schedules",
+        "C": "Receive advance approval for some expenses",
+        "D": "Attend a yearly training session on company policies"
+       },
+       "answer": "B",
+       "explanation": "Memo viết \"vacation plans may be modified... If an adjustment is necessary, please make it far in advance\" — nhân viên có thể cần điều chỉnh/sắp xếp lại lịch nghỉ phép, tức B \"Rearrange their vacation schedules\".",
+       "uncertain": false
+      },
+      {
+       "n": 157,
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"It should have been placed in your inbox this morning.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "C",
+       "explanation": "Câu chèn nói về một bản (copy) lẽ ra đã có sáng nay, khớp với đoạn bàn về sổ tay: \"refer to the new version of the company handbook. — [3] —. If you did not receive a copy, you may contact me\" — vị trí [3], đáp án C.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "Notice",
+     "text": "All Ketron Green Condos residents are invited to gather in room 102 of the main building on March 26 at 7 P.M. for a special discussion on an upcoming construction project.\n\nThe complex's board of directors recently voted to remove the artificial waterfall near the west entrance for the purpose of reducing unnecessary water usage. After considering several options, the board decided that a sculpture of an important figure would be an attractive use of the vacant space. This also has the advantage of affordable long-term maintenance costs.\n\nThe purpose of the in-person discussion, therefore, is to come up with a shortlist of sculpture subjects that all complex residents will later be able to choose from. We urge attendees to research potential candidates in advance and prepare brief arguments in their favor.\n\nThank you.",
+     "questions": [
+      {
+       "n": 158,
+       "question": "What is the purpose of the notice?",
+       "choices": {
+        "A": "To warn residents of an inconvenience",
+        "B": "To notify residents of an upcoming meeting",
+        "C": "To welcome a new member of the board of directors",
+        "D": "To advocate for a conservation campaign"
+       },
+       "answer": "B",
+       "explanation": "Thông báo mời cư dân họp: \"residents are invited to gather in room 102... for a special discussion on an upcoming construction project\" — thông báo về một cuộc họp sắp tới, tức B.",
+       "uncertain": false
+      },
+      {
+       "n": 159,
+       "question": "What is mentioned about the housing complex?",
+       "choices": {
+        "A": "A statue will be installed on its grounds.",
+        "B": "One of its entrances will be closed temporarily.",
+        "C": "It has hired extra maintenance staff.",
+        "D": "Its water pipes have been damaged."
+       },
+       "answer": "A",
+       "explanation": "Ban quản trị quyết định \"a sculpture of an important figure would be an attractive use of the vacant space\" — một bức tượng (statue) sẽ được đặt trong khuôn viên, tức A.",
+       "uncertain": false
+      },
+      {
+       "n": 160,
+       "question": "What are some residents encouraged to do before March 26?",
+       "choices": {
+        "A": "Develop a proposal",
+        "B": "Sign a consent form",
+        "C": "Visit a complex representative",
+        "D": "Remove items from a common area"
+       },
+       "answer": "A",
+       "explanation": "Thông báo kêu gọi: \"We urge attendees to research potential candidates in advance and prepare brief arguments in their favor\" — chuẩn bị lập luận ủng hộ, tức soạn một đề xuất, đáp án A \"Develop a proposal\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "article",
+     "title": "Nationwide Rise in Guest Nights",
+     "text": "DUBLIN (June 23) — Statistics Ireland (SI) announced yesterday that accommodation providers throughout the country saw a small surge in customers throughout May. According to an SI spokesperson, the increase was mainly due to visitors from overseas. These tourists spent 4.7 million nights in paid accommodations, a rise of 1.8% over the same month last year. This offset a 2.3% decrease in the number of domestic tourists' guest nights, which were down to 2.6 million.\n\nSI also revealed the types of accommodations that were most popular. At 30%, hotels claimed the largest share of guest nights. However, this actually represented a slight drop from the same month last year. The proportion of guest nights spent at cheaper options such as guesthouses (23%) and youth hostels (11%), as well as outdoor alternatives such as campgrounds (16%), grew slightly.\n\nA full report of SI's findings, including details about tourists' activities and expenditures, will be discussed on tonight's episode of Ireland Issues, broadcast by IBN.",
+     "questions": [
+      {
+       "n": 161,
+       "question": "What is indicated about the rise in guest nights?",
+       "choices": {
+        "A": "It offset a decline in restaurant spending.",
+        "B": "It was driven by international travelers.",
+        "C": "It occurred during the month of June.",
+        "D": "It resulted in additional revenues of €4.7 million."
+       },
+       "answer": "B",
+       "explanation": "Bài báo nêu \"the increase was mainly due to visitors from overseas\" — mức tăng chủ yếu nhờ du khách nước ngoài, tức B \"driven by international travelers\".",
+       "uncertain": false
+      },
+      {
+       "n": 162,
+       "question": "What type of lodging did NOT enjoy a rise in its share of guest nights?",
+       "choices": {
+        "A": "Hotels",
+        "B": "Guesthouses",
+        "C": "Youth hostels",
+        "D": "Campgrounds"
+       },
+       "answer": "A",
+       "explanation": "\"At 30%, hotels claimed the largest share of guest nights. However, this actually represented a slight drop\" — khách sạn là loại DUY NHẤT bị giảm thị phần (các loại còn lại đều tăng), tức A \"Hotels\".",
+       "uncertain": false
+      },
+      {
+       "n": 163,
+       "question": "According to the article, how can readers obtain further information on this subject?",
+       "choices": {
+        "A": "By visiting a Web site",
+        "B": "By ordering a printed report",
+        "C": "By watching a television show",
+        "D": "By attending a lecture"
+       },
+       "answer": "C",
+       "explanation": "\"A full report of SI's findings... will be discussed on tonight's episode of Ireland Issues, broadcast by IBN\" — độc giả xem chương trình truyền hình để biết thêm, tức C \"By watching a television show\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "online chat discussion",
+     "title": "",
+     "text": "Daniela Wray [10:16 A.M.]\nTeam, we've got a problem. It looks like the lighting in the seminar room isn't going to be good enough to allow us to film the one-on-one team member interviews in there after all.\n\nJillian Huff [10:17 A.M.]\nI thought that would be a problem. How about closing the blinds and just using the ceiling lights?\n\nDaniela Wray [10:19 A.M.]\nHmm... does anyone have a really bright desk lamp, maybe? I'm still seeing unflattering shadows on Felix's face.\n\nSusan Min [10:20 A.M.]\nOh, I've got one. Give me a few minutes.\n\nDaniela Wray [10:21 A.M.]\nThanks, Susan.\n\nIosif Sadovych [10:21 A.M.]\nSorry, Daniela, but—why hasn't all of that been figured out yet? My schedule says you should have started filming Felix's video already.\n\nDaniela Wray [10:22 A.M.]\nWell, it turned out that the seminar room chairs aren't stackable like everyone said at the planning meeting. The two of us had to drag most of them to the back storage room to clear out some space.\n\nIosif Sadovych [10:22 A.M.]\nI see. We'll have to remember that for the future.\n\nDaniela Wray [10:26 A.M.]\nOK, Susan's lamp is perfect. We're all set now. The backdrop looks great, the blankets we hung up are keeping the room quiet, and Felix is ready.\n\nIosif Sadovych [10:27 A.M.]\nThat's a relief. I hope the filming goes well. Oh, and remember to upload the footage to the company server at the end of the day so I can look over it tomorrow morning. You don't need to include everything, of course, just the best versions of each part. I'll send my feedback by e-mail.",
+     "questions": [
+      {
+       "n": 164,
+       "question": "At 10:20 A.M., what does Ms. Min most likely mean when she writes, \"I've got one\"?",
+       "choices": {
+        "A": "She has an idea that has not been considered yet.",
+        "B": "She knows how to fix an item.",
+        "C": "She can lend Ms. Wray an item.",
+        "D": "She is having the same problem as Ms. Wray."
+       },
+       "answer": "C",
+       "explanation": "Ngay trước đó Daniela hỏi \"does anyone have a really bright desk lamp, maybe?\"; Susan đáp \"I've got one. Give me a few minutes\" — ý là cô có một cái đèn và sẽ cho mượn, tức C \"She can lend Ms. Wray an item\".",
+       "uncertain": false
+      },
+      {
+       "n": 165,
+       "question": "Who most likely is Felix?",
+       "choices": {
+        "A": "The moderator of a videoconference",
+        "B": "A member of Ms. Wray's team",
+        "C": "A visiting technology consultant",
+        "D": "The president of Ms. Wray's company"
+       },
+       "answer": "B",
+       "explanation": "Họ đang quay \"one-on-one team member interviews\" và Daniela nhắc \"unflattering shadows on Felix's face\" — Felix là người được phỏng vấn, tức một thành viên trong nhóm của Ms. Wray, đáp án B.",
+       "uncertain": false
+      },
+      {
+       "n": 166,
+       "question": "What caused a delay in some preparations?",
+       "choices": {
+        "A": "An assistant went to the wrong place.",
+        "B": "Some equipment was in a storeroom.",
+        "C": "A room was being used for a seminar.",
+        "D": "Some furniture had to be moved."
+       },
+       "answer": "D",
+       "explanation": "Daniela giải thích lý do trễ: \"the seminar room chairs aren't stackable... The two of us had to drag most of them to the back storage room\" — phải di chuyển ghế (đồ nội thất), tức D \"Some furniture had to be moved\".",
+       "uncertain": false
+      },
+      {
+       "n": 167,
+       "question": "What does Mr. Sadovych indicate that he would like to do?",
+       "choices": {
+        "A": "Send out a companywide e-mail",
+        "B": "Upload a file to a social media page",
+        "C": "Read some feedback",
+        "D": "View some videos"
+       },
+       "answer": "D",
+       "explanation": "Mr. Sadovych dặn tải footage lên server \"so I can look over it tomorrow morning... just the best versions of each part\" — ông muốn xem các đoạn phim, tức D \"View some videos\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "To: Travis Jarrett\nFrom: Merna Adams\nDate: October 10\nSubject: Exciting announcement\n\nDear Mr. Jarrett,\n\nAs a valued customer of Kingston Walcott Services, we wanted Robinson & Jarrett Associates to be among the first to learn about our exciting news. We are expanding our range of service packages. Starting immediately, we will offer outdoor maintenance services on top of our janitorial packages. You have seen how conscientiously we take care of the inside of your building—now let us take responsibility for the outside too. Our enlarged, fully-certified workforce has been provided with training that goes far beyond local licensing requirements. This allows us to give our customers the best cutting-edge service in the industry.\n\nShould you choose to make use of our new services, Kingston Walcott will even offer you a reduced rate available exclusively to current customers. The combined cost of your outdoor and indoor services will be just J$17,000 per month. Considering that they would total nearly J$22,000 if obtained individually, this will result in J$5,000 in savings each month. Also, we can get to work as early as November 5, the beginning of your next billing period.\n\nWe are eager to begin serving more of your needs. Please call me at 555-0194 when you are ready to move forward.\n\nSincerely,\n\nMerna Adams\nSales Representative, Kingston Walcott Services",
+     "questions": [
+      {
+       "n": 168,
+       "question": "Which is one of the services promoted?",
+       "choices": {
+        "A": "Cafeteria operation",
+        "B": "Groundskeeping",
+        "C": "Building security",
+        "D": "Personal transport"
+       },
+       "answer": "B",
+       "explanation": "Email báo dịch vụ mới: \"we will offer outdoor maintenance services on top of our janitorial packages\" và \"now let us take responsibility for the outside too\". Bảo trì bên ngoài = groundskeeping (chăm sóc khuôn viên).",
+       "uncertain": false
+      },
+      {
+       "n": 169,
+       "question": "What is emphasized about Kingston Walcott Services?",
+       "choices": {
+        "A": "It has expanded over a large region.",
+        "B": "Its headquarters are relocating.",
+        "C": "It gives real-time updates.",
+        "D": "Its employees are well-trained."
+       },
+       "answer": "D",
+       "explanation": "Nhấn mạnh đội ngũ được đào tạo tốt: \"Our enlarged, fully-certified workforce has been provided with training that goes far beyond local licensing requirements.\" -> nhân viên được huấn luyện kỹ.",
+       "uncertain": false
+      },
+      {
+       "n": 170,
+       "question": "According to the e-mail, what is Mr. Jarrett eligible to do?",
+       "choices": {
+        "A": "Obtain a discount for existing customers",
+        "B": "Request an exclusive account manager",
+        "C": "Enjoy a free month of services",
+        "D": "Join a tour of a facility"
+       },
+       "answer": "A",
+       "explanation": "Ông Jarrett được ưu đãi giảm giá cho khách hiện hữu: \"Kingston Walcott will even offer you a reduced rate available exclusively to current customers.\" (tiết kiệm J$5,000/tháng).",
+       "uncertain": false
+      },
+      {
+       "n": 171,
+       "question": "What will happen on November 5?",
+       "choices": {
+        "A": "A company will be officially launched.",
+        "B": "A financial cycle will start anew.",
+        "C": "A demonstration will be given.",
+        "D": "A trial period will begin."
+       },
+       "answer": "B",
+       "explanation": "Ngày 5/11 bắt đầu chu kỳ tài chính mới: \"we can get to work as early as November 5, the beginning of your next billing period.\" billing period = chu kỳ thanh toán/tài chính.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "web page",
+     "title": "",
+     "text": "http://www.beezleyeducation.com/mostpopular\nHome | About Us | Blogs | Contact\n\nBeezley Education\n\nBeezley Education conducts on-site seminars for professional organizations. Our offerings, which cover a range of interpersonal and technical skills, are taught by expert lecturers. —[1]—.\n\nThe four seminars listed below are our most popular; a complete list of our subjects is available here. —[2]—. For more information about a particular offering, send an e-mail to the relevant field coordinator. When you are ready to set up a seminar, you may fill out this form.\n\nBusiness Skills (Coordinator: Julien Zito, j.zito@beezleyeducation.com)\n\nTeamwork Basics\nThis seminar invests teams with the skills needed to work together efficiently. It covers the ways that different personality types interact, and teaches awareness of communication styles. Participants act out scenarios related to brainstorming and dispute resolution.\n\nEffective Management\nMeant for managers or supervisors of groups of any size, this seminar gives coaching on how to establish authority while maintaining cordial relationships with subordinates. —[3]—. Special focus is put on delivering an effective performance evaluation.\n\nComputer Skills (Coordinator: Grace Adenaike, g.adenaike@beezleyeducation.com)\nPlease be advised that if your organization's computers are not equipped with the appropriate programs, participants will receive printed instructions for later individual practice.\n\nDelisle Desktop Publishing Software\nUsers at all but the most advanced level will find this seminar useful. It familiarizes participants with the numerous tools Delisle offers, as well as with shortcuts that can significantly increase productivity.\n\nFemia Presentation Software\nThis seminar explains how to use Femia to give presentations that are polished and persuasive. —[4]—. It includes a section on the newer functions of the software that is guaranteed to bring longtime users up to speed.",
+     "questions": [
+      {
+       "n": 172,
+       "question": "According to the Web page, what can readers ask Mr. Zito to do?",
+       "choices": {
+        "A": "Organize an on-site seminar",
+        "B": "List the company's full range of offerings",
+        "C": "Provide details about a certain seminar",
+        "D": "Resolve a technical issue with the Web page"
+       },
+       "answer": "C",
+       "explanation": "Mr. Zito là điều phối viên mảng Business Skills. Web page: \"For more information about a particular offering, send an e-mail to the relevant field coordinator.\" -> hỏi ông cung cấp chi tiết về một seminar cụ thể.",
+       "uncertain": false
+      },
+      {
+       "n": 173,
+       "question": "What is mentioned as part of the Teamwork Basics seminar?",
+       "choices": {
+        "A": "Taking a personality quiz",
+        "B": "Writing a peer evaluation",
+        "C": "Setting group goals",
+        "D": "Engaging in role plays"
+       },
+       "answer": "D",
+       "explanation": "Teamwork Basics: \"Participants act out scenarios related to brainstorming and dispute resolution.\" act out scenarios = đóng vai (role plays).",
+       "uncertain": false
+      },
+      {
+       "n": 174,
+       "question": "What is implied about computer skills seminars?",
+       "choices": {
+        "A": "None of them are appropriate for beginner software users.",
+        "B": "They may be shortened according to client preference.",
+        "C": "Beezley Education does not supply software for them.",
+        "D": "Their contents are also available through personal tutoring."
+       },
+       "answer": "C",
+       "explanation": "Mục Computer Skills: \"if your organization's computers are not equipped with the appropriate programs, participants will receive printed instructions...\" -> Beezley không cung cấp phần mềm; khách phải tự có. (A sai vì Delisle hữu ích cho mọi cấp trừ nâng cao nhất).",
+       "uncertain": false
+      },
+      {
+       "n": 175,
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"Each one has years of experience in the subject in question.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "A",
+       "explanation": "Câu chèn \"Each one has years of experience in the subject in question\" bổ nghĩa cho các giảng viên, hợp với vị trí [1] ngay sau \"taught by expert lecturers. —[1]—\".",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "web page and form",
+     "title": "",
+     "text": "Web Page\nhttp://cierrasonthelake.com/catering\n\nCierra's on the Lake\nCatering Packages\n\nOur catering packages let you experience the mouth-watering cuisine of Cierra's on the Lake in any location within the Garrell area. They have been carefully developed to form balanced meals with complimentary tastes. As with our in-restaurant meals, the ingredients are obtained from Garrell-based suppliers to guarantee that they are as fresh as possible.\n\nCierra's on the Lake's logistics and service expertise enables customers to enjoy our edible delights in a leisurely fashion. Whether you opt for a buffet or a sit-down meal, our staff will complete the setup and cleanup processes quickly, and remain on hand in between to take care of any issues that may arise. Please note, however, that the only non-food items we provide are plates, glasses, cutlery, and napkins.\n\nIn addition to our year-round packages listed at the bottom of the page, we are pleased to offer customers two options specially devised for the summer season:\n\nSummer Fresh\nComes with cold chicken, fruit salad, green salad, and corn on the cob. Perfect for cooling down in the middle of a hot day.\n\nSummer Deluxe\nComes with grilled hamburgers, fruit salad, green salad, macaroni salad, and corn on the cob. Requires access to electricity.\n\nThese packages also come with hand-squeezed lemonade, as well as our usual drink options.\n\n──────────\n\nCatering Order Form\nCierra's on the Lake\nCatering Order Form\n\nCustomer: Maja Kaminski\nPhone: (651) 555-0190\nPackage: Summer Deluxe\nNumber of guests: 24\nServing method: Buffet ✓  Sit-down ___\nEvent date: July 29\nEvent duration*: 1 P.M. – 3 P.M.\nEvent location: 1002 Langer Road, Garrell, MN 55076\n\nSpecial instructions: Please park just inside the front gate.\n\nOrder received by: Ian O'Brien\nAssigned to: Caleb Ames\n\n* Event durations do not include setup and cleanup times.",
+     "questions": [
+      {
+       "n": 176,
+       "question": "What is suggested about Cierra's on the Lake?",
+       "choices": {
+        "A": "It is a family-owned business.",
+        "B": "It does not cater formal functions.",
+        "C": "It recently entered the catering industry.",
+        "D": "It does not furnish guest seating."
+       },
+       "answer": "D",
+       "explanation": "Web page (VB1): \"the only non-food items we provide are plates, glasses, cutlery, and napkins.\" -> chỉ cung cấp chén đĩa/ly/dao dĩa/khăn ăn, KHÔNG có bàn ghế -> không cung cấp chỗ ngồi cho khách.",
+       "uncertain": false
+      },
+      {
+       "n": 177,
+       "question": "What does Cierra's on the Lake do to guarantee the quality of its food?",
+       "choices": {
+        "A": "It cooks with organic ingredients.",
+        "B": "It buys from local vendors.",
+        "C": "It undergoes frequent inspections.",
+        "D": "It employs a special refrigeration system."
+       },
+       "answer": "B",
+       "explanation": "Web page (VB1): \"the ingredients are obtained from Garrell-based suppliers to guarantee that they are as fresh as possible.\" nhà cung cấp tại địa phương Garrell = local vendors.",
+       "uncertain": false
+      },
+      {
+       "n": 178,
+       "question": "In the Web page, the word \"fashion\" in paragraph 2, line 2, is closest in meaning to",
+       "choices": {
+        "A": "trend",
+        "B": "mold",
+        "C": "manner",
+        "D": "category"
+       },
+       "answer": "C",
+       "explanation": "\"enjoy our edible delights in a leisurely fashion\" — fashion ở đây = cách thức = manner (kiểu thong thả).",
+       "uncertain": false
+      },
+      {
+       "n": 179,
+       "question": "What will caterers most likely do at Ms. Kaminski's event?",
+       "choices": {
+        "A": "Set out plates of chicken",
+        "B": "Stay for only two hours",
+        "C": "Use a power source",
+        "D": "Park indoors"
+       },
+       "answer": "C",
+       "explanation": "GHÉP 2 VB: Order form ghi \"Package: Summer Deluxe\"; Web page mô tả \"Summer Deluxe ... Requires access to electricity.\" -> tại tiệc của bà Kaminski, người phục vụ sẽ dùng nguồn điện (power source).",
+       "uncertain": false
+      },
+      {
+       "n": 180,
+       "question": "According to the order form, what is probably true about Ms. Kaminski's guests?",
+       "choices": {
+        "A": "They have been invited to a wedding.",
+        "B": "They have special dietary requirements.",
+        "C": "They will leave their tables to serve themselves.",
+        "D": "They will come into contact with Mr. O'Brien."
+       },
+       "answer": "C",
+       "explanation": "Order form: \"Serving method: Buffet ✓\" -> tiệc buffet nên khách sẽ rời bàn tự lấy đồ ăn (leave their tables to serve themselves).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail chain",
+     "title": "",
+     "text": "E-mail 1\nTo: Clint Weimer\nFrom: Madeline Stein\nDate: April 10\nSubject: Informational booklet launch\n\nDear Mr. Weimer,\n\nThe Office of International Students has spent the past year reworking the Information for International Students to create a comprehensive booklet called \"Guide to Royland University for International Students\", or \"GRUIS\". GRUIS contains extensive information about dormitories and apartments, common financial and language issues, the municipal bus system, and more. Our office even spoke with local employees of mobile network operators to secure up-to-date details on their contract requirements and offerings. We are confident that GRUIS will allow international students to adjust more easily and fully to life here.\n\nTo celebrate and publicize the booklet's release, we are holding a launch party on April 23 at 7 P.M. Please join us in the foyer of Parziale Hall to pick up your copy of GRUIS and watch a short presentation by our director, or by me if the director is unavailable. As the president of one of Royland's most popular student organizations, your support for this project would be invaluable. We hope to see you there.\n\nSincerely,\n\nMadeline Stein\nOffice of International Students\n\n──────────\n\nE-mail 2\nTo: Madeline Stein\nFrom: Clint Weimer\nDate: April 26\nSubject: Re: Informational booklet launch\n\nDear Ms. Stein,\n\nNow that I have had a chance to look over the copy of GRUIS that I received at the launch party, I would like to express my thoughts on the booklet's content. I think it does an excellent job of introducing life at Royland. As you said during your presentation, it will help minimize the challenges that our international students would be typically expected to face. I will definitely recommend it with enthusiasm to my acquaintances. Please let me know if there is anything else I can do for the Office of International Students in the future.\n\nSincerely,\n\nClint Weimer",
+     "questions": [
+      {
+       "n": 181,
+       "question": "What is indicated about GRUIS?",
+       "choices": {
+        "A": "It was written by a student association.",
+        "B": "It is a revision of an earlier publication.",
+        "C": "It will also be distributed in digital form.",
+        "D": "It is being published in multiple languages."
+       },
+       "answer": "B",
+       "explanation": "E-mail 1: \"spent the past year reworking the Information for International Students to create a comprehensive booklet called ... GRUIS\". reworking một ấn phẩm cũ = bản chỉnh sửa (revision).",
+       "uncertain": false
+      },
+      {
+       "n": 182,
+       "question": "What is NOT listed as covered in GRUIS?",
+       "choices": {
+        "A": "Housing",
+        "B": "Mobile phone service",
+        "C": "Public transportation",
+        "D": "Employment"
+       },
+       "answer": "D",
+       "explanation": "E-mail 1 liệt kê: \"dormitories and apartments\" (Housing=A), \"the municipal bus system\" (Public transport=C), và \"mobile network operators ... contract requirements\" (Mobile phone=B). KHÔNG đề cập việc làm (Employment) -> đáp án D là mục KHÔNG được nói tới.",
+       "uncertain": false
+      },
+      {
+       "n": 183,
+       "question": "Who is Mr. Weimer?",
+       "choices": {
+        "A": "A university club leader",
+        "B": "A university official",
+        "C": "An international student",
+        "D": "A professor of tourism studies"
+       },
+       "answer": "A",
+       "explanation": "E-mail 1 gọi Mr. Weimer: \"As the president of one of Royland's most popular student organizations\" -> chủ tịch một tổ chức sinh viên = trưởng câu lạc bộ (club leader).",
+       "uncertain": false
+      },
+      {
+       "n": 184,
+       "question": "What is implied about the launch party?",
+       "choices": {
+        "A": "There were not enough copies of GRUIS for all attendees.",
+        "B": "A presentation had some technical difficulties.",
+        "C": "It was moved to a larger building.",
+        "D": "An administrator was not present."
+       },
+       "answer": "D",
+       "explanation": "GHÉP 2 email: E-mail 1 nói thuyết trình \"by our director, or by me if the director is unavailable\"; E-mail 2 Weimer viết \"As you said during your presentation\" -> chính Stein thuyết trình, tức giám đốc (administrator) đã vắng mặt.",
+       "uncertain": false
+      },
+      {
+       "n": 185,
+       "question": "What does Mr. Weimer say he will do?",
+       "choices": {
+        "A": "Introduce Ms. Stein to some acquaintances",
+        "B": "Assist Ms. Stein with some research",
+        "C": "Advise other people to read GRUIS",
+        "D": "Suggest topics for a future edition of GRUIS"
+       },
+       "answer": "C",
+       "explanation": "E-mail 2: \"I will definitely recommend it with enthusiasm to my acquaintances.\" -> Weimer sẽ khuyên người khác đọc GRUIS.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "article|report|e-mail",
+     "title": "",
+     "text": "Article\nNew Library Survey to Take Place\n\nPRANTON (September 23)—Chomsley residents' days of travelling as much as ten miles to the nearest public library may soon come to an end. Yesterday, the Daiglen County Library Commission announced that the town has been chosen as the site of a possible new branch.\n\nAs a first step, the commission will poll Chomsley's citizens on the features that they would most like to be included in a new library. It will then incorporate the study's findings into a project proposal to be submitted to the County Board of Supervisors for approval.\n\n\"Construction and maintenance of a seventh branch would probably require raising the county sales tax,\" said Corinne Speck, president of the nine-member commission. \"That's why putting together an appealing proposal is a very important task for us.\"\n\n──────────\n\nReport\nReport Summary\n\nVosting Associates\n\nOn behalf of the Daiglen County Library Commission, Vosting Associates surveyed residents of the city of Chomsley on potential features of a new county library. Data was collected from 653 people via telephone interview during the one-month period from September 28 to October 27. The following chart summarizes the survey's major findings:\n\nProposed feature | % of respondents expressing interest\nComputers, printers, and scanners | 92%\nPrivate meeting rooms | 85%\nAudiovisual materials and media stations | 74%\nA café | 70%\nA children's play area | 66%\nAn automated check-in/check-out system | 51%\n\n──────────\n\nE-mail\nFrom: Corinne Speck\nTo: Library Commission members\nDate: November 7\nSubject: Survey findings\nAttachment: Report\n\nHi everyone,\n\nVosting Associates just sent over their survey report. As you'll see in the chart in the summary, there were six proposed features favored by more than half of the respondents. Despite this, I think we should take the automated borrowing system out of consideration, as its rating is still quite low. Also, as we know from its inclusion in the last new county library in Rudliss, it may not actually be used very often. The other top results are mostly what we expected, though the demand for access to DVDs and CDs is much greater than we had predicted.\n\nAnyway, please read through the report and be prepared to discuss it at our closed meeting next Wednesday.\n\nRegards,\n\nCorinne",
+     "questions": [
+      {
+       "n": 186,
+       "question": "According to the article, what did Ms. Speck say may be necessary?",
+       "choices": {
+        "A": "An increase in a tax obligation",
+        "B": "A pay raise for library staff",
+        "C": "The sale of county property",
+        "D": "The formation of a task force"
+       },
+       "answer": "A",
+       "explanation": "Bài báo (Article) trích lời Ms. Speck: \"Construction and maintenance of a seventh branch would probably require raising the county sales tax\" — tăng thuế bán hàng của hạt chính là 'an increase in a tax obligation'.",
+       "uncertain": false
+      },
+      {
+       "n": 187,
+       "question": "How did Vosting Associates employees conduct the survey?",
+       "choices": {
+        "A": "They mailed questionnaires.",
+        "B": "They called participants.",
+        "C": "They went to Chomsley residences.",
+        "D": "They interviewed people in county libraries."
+       },
+       "answer": "B",
+       "explanation": "Báo cáo (Report) ghi rõ: \"Data was collected from 653 people via telephone interview\" — thu thập qua phỏng vấn điện thoại, tức họ 'called participants'.",
+       "uncertain": false
+      },
+      {
+       "n": 188,
+       "question": "What is implied about the library branch in Rudliss?",
+       "choices": {
+        "A": "It has the smallest number of regular patrons.",
+        "B": "It is ten miles from Chomsley city limits.",
+        "C": "It was the sixth county library that was built.",
+        "D": "It has shut down its automated borrowing terminals."
+       },
+       "answer": "C",
+       "explanation": "Ghép Article và E-mail: bài báo nói chi nhánh mới đề xuất là 'a seventh branch' (thứ 7); e-mail nói Rudliss là \"the last new county library\" (thư viện mới nhất được xây trước đó) → Rudliss là chi nhánh thứ 6.",
+       "uncertain": false
+      },
+      {
+       "n": 189,
+       "question": "Which figure in the chart does Ms. Speck indicate is unexpected?",
+       "choices": {
+        "A": "92%",
+        "B": "85%",
+        "C": "74%",
+        "D": "70%"
+       },
+       "answer": "C",
+       "explanation": "E-mail nói \"the demand for access to DVDs and CDs is much greater than we had predicted\"; trong Report, DVDs/CDs ứng với 'Audiovisual materials and media stations' = 74% (đáp án C).",
+       "uncertain": false
+      },
+      {
+       "n": 190,
+       "question": "In her e-mail, what does Ms. Speck suggest the commission do?",
+       "choices": {
+        "A": "Dismiss a relatively unpopular option",
+        "B": "Delay a discussion until after a public event",
+        "C": "Ask Vosting Associates for more information",
+        "D": "Prepare simplified visual aids for a handout"
+       },
+       "answer": "A",
+       "explanation": "Trong e-mail Ms. Speck đề nghị: \"we should take the automated borrowing system out of consideration, as its rating is still quite low\" (chỉ 51%) — loại bỏ một lựa chọn ít được ưa chuộng.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail|schedule|review",
+     "title": "",
+     "text": "E-mail\nE-Mail message\n\nFrom: Jasmine Nesbit\nTo: Drake Sanders\nDate: December 8\nSubject: Changes\n\nDear Mr. Sanders,\n\nI just wanted to tell you again how excited I am to become the new executive producer of Comedy Nightly News. Now that I've spoken with the full cast, I feel I can guarantee that my plans to modernize the show to appeal to a younger audience will succeed. With the help of my experiences at other shows, the creative staff and I will begin updating the look, sound, and content of the show, without exceeding its current budget. As we discussed, the changes will be made all at once to increase their impact; I have set January 4 as the target date for the premiere of this new version of Comedy Nightly News.\n\nThank you again for this opportunity.\n\nSincerely,\n\nJasmine Nesbit\n\n──────────\n\nSchedule\nWhat's on Tonight\nFebruary 3\n\n8 P.M. — (Ch. 5) A Fresh Look \"Daan Goettsch\" An introduction to the abstract painter's life and work.\n9 P.M. — (Ch. 40) On Melvin Street A girl faces her final year of high school. Winner of several film festival awards.\n9:30 P.M. — (Ch. 2) The Franklin Family \"Monkey Business\" Rob and Harley get into trouble during a trip to the zoo.\n10 P.M. — (Ch. 8) Space Net \"Empty Plains\" The crew of the S.S. Wanderer lands on a planet that has no inhabitants.\n11 P.M. — (Ch. 24) Comedy Nightly News The news parody show debuts big transformations. Guest: Lynn Sam.\n\n──────────\n\nReview\nhttp://www.volpitvreviews.com/comedynightlynews\n\nProfessional Reviewers | Audience Reviewers\n\nThe New Comedy Nightly News\nBy Chad Frosch, February 3\n\nAs a longtime viewer of Comedy Nightly News, I have mixed feelings about the changes to the show. The opening theme music is much more energetic, and a monitor featuring a digital map of the globe has replaced the out-of-date city skyline backdrop. But the problem is that these positive changes seem to be accompanied by really silly jokes. I felt like I was watching that show I caught a moment of earlier tonight, where the characters were behaving ridiculously with some animals. Don't the people running Comedy Nightly News know that many of us enjoy this award-winning show because of the sophisticated humor that most other comedy shows lack? It would be a pity if it lost that quality.",
+     "questions": [
+      {
+       "n": 191,
+       "question": "What does Ms. Nesbit write that she intends to do?",
+       "choices": {
+        "A": "Attract a new group of viewers to the show",
+        "B": "Recruit talented creative staff from other shows",
+        "C": "Make changes gradually to avoid disruption",
+        "D": "Seek ways to reduce production expenses"
+       },
+       "answer": "A",
+       "explanation": "Ms. Nesbit viết: \"my plans to modernize the show to appeal to a younger audience\" — thu hút một nhóm khán giả mới (trẻ hơn) cho chương trình.",
+       "uncertain": false
+      },
+      {
+       "n": 192,
+       "question": "What is implied about the changes to the show?",
+       "choices": {
+        "A": "They received mostly positive responses.",
+        "B": "They took place later than planned.",
+        "C": "They resulted in longer episodes.",
+        "D": "They are being imitated by other shows."
+       },
+       "answer": "B",
+       "explanation": "Ghép E-mail và Schedule: e-mail đặt \"January 4 as the target date for the premiere\", nhưng lịch phát sóng (Schedule) ghi Comedy Nightly News \"debuts big transformations\" vào February 3 → các thay đổi diễn ra trễ hơn dự kiến.",
+       "uncertain": false
+      },
+      {
+       "n": 193,
+       "question": "In the review, the word \"mixed\" in paragraph 1, line 1 is closest in meaning to",
+       "choices": {
+        "A": "united",
+        "B": "repetitive",
+        "C": "conflicting",
+        "D": "false"
+       },
+       "answer": "C",
+       "explanation": "\"I have mixed feelings about the changes\" — 'mixed feelings' là cảm xúc trái chiều/mâu thuẫn (vừa khen vừa chê), gần nghĩa nhất với 'conflicting'.",
+       "uncertain": false
+      },
+      {
+       "n": 194,
+       "question": "Which broadcast does Mr. Frosch compare Comedy Nightly News to?",
+       "choices": {
+        "A": "A Fresh Look",
+        "B": "On Melvin Street",
+        "C": "The Franklin Family",
+        "D": "Space Net"
+       },
+       "answer": "C",
+       "explanation": "Ghép Review và Schedule: bài đánh giá nói \"that show I caught a moment of earlier tonight, where the characters were behaving ridiculously with some animals\"; trong lịch, đó là The Franklin Family \"Monkey Business\" — \"trouble during a trip to the zoo\" (thú vật).",
+       "uncertain": false
+      },
+      {
+       "n": 195,
+       "question": "What does Mr. Frosch mention about Comedy Nightly News?",
+       "choices": {
+        "A": "Its cast seems more energetic.",
+        "B": "Its humor has become less sophisticated.",
+        "C": "Its new set backdrop is unappealing.",
+        "D": "Its host has been replaced."
+       },
+       "answer": "B",
+       "explanation": "Review chê: \"these positive changes seem to be accompanied by really silly jokes\" và tiếc nếu chương trình mất \"the sophisticated humor\" — tức tính hài hước đã bớt tinh tế. (Backdrop mới lại được khen là tích cực nên C sai.)",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice|memo|e-mail",
+     "title": "",
+     "text": "Notice\nGoffney Connections\n\nInspections to Take Place\n\nPart of Goffney's exciting new agreement to manufacture appliances for Hadrick Home calls for regular machinery inspections. Both plants that will be involved in manufacturing for Hadrick will be visited by outside inspectors who will test factory machinery. Any equipment that receives a \"U\" grade, for \"unsatisfactory\", will need to be replaced or repaired.\n\nThe first of these visits will take place while these facilities are still finishing the most recent order from another appliance brand. The Darlington plant will undergo an inspection in June and the Fansville plant will be visited in July, though the exact dates have not been confirmed yet. On these days, production may be slowed or suspended. We hope that all affected employees will be patient during this process and take extra care to please this important client.\n\n──────────\n\nMemo\nFrom: Sandra Culley, Manager\nTo: Production Department\nDate: June 16\nRe: Inspection results\n\nAs you may have heard, the recent inspection of our plant determined that the cutting machine and foam injector on one of our lines need to have components replaced. The necessary parts have been ordered and will arrive before noon tomorrow. Josh Fetty, the line manager involved, will notify his employees and follow our standard maintenance procedures.\n\nThis will put us slightly behind schedule on shipping the Kalluri order, but I have already spoken with Scott Fonseca to resolve this problem. His line is going to work some overtime to compensate. Questions or concerns about this situation may be addressed to me.\n\nFinally, headquarters sends congratulations on passing the inspection with so few issues. Let's continue to be a credit to the Goffney name.\n\n──────────\n\nE-mail\n*E-Mail*\n\nFrom: Joshua Fetty\nTo: Thomas Chun\nDate: June 16\nSubject: A favor\n\nHi Tom,\n\nSorry to bother you in the evening, but I know you're usually the first person at the factory in the mornings. Could you make a sign and post it near the entrance before everyone else arrives? I need to let my operators know that the line will be shut down from 12 P.M. to 3 P.M. tomorrow. The sign should say clearly that Line 1 employees should wait in the employee break room after their lunch hour and then report to their stations at 3.\n\nThanks,\n\nJosh",
+     "questions": [
+      {
+       "n": 196,
+       "question": "According to the notice, what has Goffney recently done?",
+       "choices": {
+        "A": "Purchased a new set of equipment",
+        "B": "Directed its technicians to carry out inspections",
+        "C": "Opened its second manufacturing plant",
+        "D": "Made a deal with a new client"
+       },
+       "answer": "D",
+       "explanation": "Notice mở đầu: \"Part of Goffney's exciting new agreement to manufacture appliances for Hadrick Home\" — Goffney vừa ký thỏa thuận sản xuất cho Hadrick Home, tức làm ăn với một khách hàng mới.",
+       "uncertain": false
+      },
+      {
+       "n": 197,
+       "question": "What is NOT implied about a cutting machine?",
+       "choices": {
+        "A": "It is used to manufacture appliances.",
+        "B": "It is in the Darlington factory.",
+        "C": "It was expensive.",
+        "D": "It was issued a \"U\" grade."
+       },
+       "answer": "C",
+       "explanation": "Câu NOT: (A) máy dùng sản xuất appliances — đúng; (B) memo của Ms. Culley về \"our plant\" ngày June 16, mà Notice nói Darlington được kiểm tra tháng 6 → thuộc Darlington, đúng; (D) memo nói \"the cutting machine... need to have components replaced\", khớp Notice \"receives a 'U' grade... will need to be replaced\" → đúng. Chỉ có 'It was expensive' (C) hoàn toàn không được nhắc → là đáp án.",
+       "uncertain": false
+      },
+      {
+       "n": 198,
+       "question": "What is suggested about Ms. Culley?",
+       "choices": {
+        "A": "She is supervised by Mr. Fonseca.",
+        "B": "She was asked to relay a message.",
+        "C": "She is concerned about an overtime plan.",
+        "D": "She has postponed a shipment."
+       },
+       "answer": "B",
+       "explanation": "Cuối memo, Ms. Culley chuyển tiếp lời từ cấp trên: \"headquarters sends congratulations on passing the inspection\" — bà được nhờ truyền đạt một thông điệp (từ trụ sở đến phòng sản xuất).",
+       "uncertain": false
+      },
+      {
+       "n": 199,
+       "question": "Why most likely will Mr. Chun send Line 1 employees to a break area?",
+       "choices": {
+        "A": "To allow time for repairs",
+        "B": "To view an updated schedule",
+        "C": "To hear about safety regulations",
+        "D": "To await a delivery of raw materials"
+       },
+       "answer": "A",
+       "explanation": "Ghép Memo và E-mail: memo nói máy cắt và foam injector \"need to have components replaced\", phụ tùng \"will arrive before noon tomorrow\", và Josh Fetty theo quy trình bảo trì; e-mail Fetty yêu cầu treo bảng vì \"the line will be shut down from 12 P.M. to 3 P.M.\" → cho nhân viên nghỉ để có thời gian sửa chữa/thay linh kiện.",
+       "uncertain": false
+      },
+      {
+       "n": 200,
+       "question": "In the e-mail, the expression \"report to\" in line 5 is closest in meaning to",
+       "choices": {
+        "A": "collect",
+        "B": "inform",
+        "C": "object to",
+        "D": "appear at"
+       },
+       "answer": "D",
+       "explanation": "\"report to their stations at 3\" nghĩa là có mặt/đến vị trí làm việc lúc 3 giờ — gần nghĩa nhất với 'appear at' (không phải báo cáo/thông báo).",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
