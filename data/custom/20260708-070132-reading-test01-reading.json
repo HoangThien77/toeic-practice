@@ -1,0 +1,1445 @@
+{
+ "id": "20260708-070132-reading-test01-reading",
+ "kind": "reading",
+ "title": "YBM RC1000-2 — Test 01 (Reading)",
+ "desc": "Đề 1/10 trong sách YBM 실전토익 RC1000 vol.2 — Part 5–7, câu 101–200. Đáp án theo key đề gốc.",
+ "timerMin": 75,
+ "custom": true,
+ "parts": [
+  {
+   "part": 5,
+   "directions": "Chọn từ/cụm từ đúng nhất để hoàn thành câu.",
+   "items": [
+    {
+     "n": 101,
+     "question": "Diners at the Appleton Buffet have commented favorably on _____ wide variety of seafood dishes.",
+     "choices": {
+      "A": "we",
+      "B": "us",
+      "C": "our",
+      "D": "ours"
+     },
+     "answer": "C",
+     "explanation": "Trước cụm danh từ 'wide variety' cần tính từ sở hữu; 'our' (của chúng tôi) là đúng, không dùng đại từ we/us/ours.",
+     "uncertain": false
+    },
+    {
+     "n": 102,
+     "question": "Rev Furniture has high-quality handmade goods and reasonable delivery _____.",
+     "choices": {
+      "A": "routines",
+      "B": "trucks",
+      "C": "duties",
+      "D": "fees"
+     },
+     "answer": "D",
+     "explanation": "'reasonable delivery fees' = phí giao hàng hợp lý; ngữ nghĩa hợp với 'reasonable' hơn routines/trucks/duties.",
+     "uncertain": false
+    },
+    {
+     "n": 103,
+     "question": "The Fort Myers Garden Club _____ a monthly newsletter to its members to keep them informed.",
+     "choices": {
+      "A": "circulates",
+      "B": "was circulated",
+      "C": "to circulate",
+      "D": "has been circulated"
+     },
+     "answer": "A",
+     "explanation": "Chủ ngữ (Club) tự phát hành newsletter nên cần động từ chủ động số ít 'circulates'; các dạng bị động/nguyên mẫu không hợp câu.",
+     "uncertain": false
+    },
+    {
+     "n": 104,
+     "question": "Decorated with fascinating _____, the hotel's lobby is a great place to pass the time while waiting for someone.",
+     "choices": {
+      "A": "photographer",
+      "B": "photographed",
+      "C": "photographs",
+      "D": "photographic"
+     },
+     "answer": "C",
+     "explanation": "Sau tính từ 'fascinating' cần danh từ; 'photographs' (ảnh, số nhiều) hợp nghĩa 'trang trí bằng những bức ảnh'.",
+     "uncertain": false
+    },
+    {
+     "n": 105,
+     "question": "At the end of the lease period, _____ keys to the apartment must be returned to the building owner.",
+     "choices": {
+      "A": "each",
+      "B": "all",
+      "C": "another",
+      "D": "others"
+     },
+     "answer": "B",
+     "explanation": "'keys' số nhiều nên dùng 'all' đứng trước; 'each/another' đòi danh từ số ít, 'others' là đại từ không bổ nghĩa cho danh từ.",
+     "uncertain": false
+    },
+    {
+     "n": 106,
+     "question": "The chemical can be hazardous if it gets in contact with bare skin, so be sure to handle it _____.",
+     "choices": {
+      "A": "carefully",
+      "B": "fairly",
+      "C": "currently",
+      "D": "barely"
+     },
+     "answer": "A",
+     "explanation": "Hóa chất nguy hiểm nên 'handle it carefully' (xử lý cẩn thận); trạng từ hợp ngữ cảnh nhất.",
+     "uncertain": false
+    },
+    {
+     "n": 107,
+     "question": "Tourism in Palm Valley has declined steadily _____ the past few years due to the rising cost of flights.",
+     "choices": {
+      "A": "over",
+      "B": "of",
+      "C": "beneath",
+      "D": "then"
+     },
+     "answer": "A",
+     "explanation": "Cụm 'over the past few years' = trong vài năm qua; giới từ 'over' đi với khoảng thời gian.",
+     "uncertain": false
+    },
+    {
+     "n": 108,
+     "question": "Most of the patient files are stored _____ secure cabinets on the fourth floor, which has a high level of security.",
+     "choices": {
+      "A": "as",
+      "B": "to",
+      "C": "in",
+      "D": "down"
+     },
+     "answer": "C",
+     "explanation": "'stored in secure cabinets' = cất trong tủ; giới từ chỉ vị trí bên trong là 'in'.",
+     "uncertain": false
+    },
+    {
+     "n": 109,
+     "question": "Because of a lack of space at the warehouse, some goods will be sent _____ to the store from the manufacturer.",
+     "choices": {
+      "A": "directs",
+      "B": "director",
+      "C": "directly",
+      "D": "direction"
+     },
+     "answer": "C",
+     "explanation": "Bổ nghĩa cho động từ 'be sent' cần trạng từ 'directly' (gửi trực tiếp), không dùng danh từ/động từ.",
+     "uncertain": false
+    },
+    {
+     "n": 110,
+     "question": "_____ the expansion to the Phoenix Building be approved, construction will begin at the beginning of March.",
+     "choices": {
+      "A": "Should",
+      "B": "Since",
+      "C": "Did",
+      "D": "While"
+     },
+     "answer": "A",
+     "explanation": "Câu điều kiện đảo ngữ 'Should the expansion be approved...' = If it should be approved; 'Should' đứng đầu thay cho 'if'.",
+     "uncertain": false
+    },
+    {
+     "n": 111,
+     "question": "Although the CEO spoke to reporters at the press conference, he failed to provide _____ answers to their questions.",
+     "choices": {
+      "A": "satisfies",
+      "B": "satisfactory",
+      "C": "satisfaction",
+      "D": "satisfactorily"
+     },
+     "answer": "B",
+     "explanation": "Cần tính từ đứng trước danh từ 'answers': 'satisfactory answers' = câu trả lời thỏa đáng. Các đáp án khác là động từ/danh từ/trạng từ.",
+     "uncertain": false
+    },
+    {
+     "n": 112,
+     "question": "Fans of the Galaxy Battle adventure series are _____ awaiting the release of the new film by director Rick Keller.",
+     "choices": {
+      "A": "fairly",
+      "B": "precisely",
+      "C": "repeatedly",
+      "D": "eagerly"
+     },
+     "answer": "D",
+     "explanation": "Cần trạng từ bổ nghĩa cho 'awaiting': 'eagerly awaiting' = háo hức mong chờ. Hợp nghĩa với fan chờ phim mới.",
+     "uncertain": false
+    },
+    {
+     "n": 113,
+     "question": "The hotel works with several distributors in the region to ensure a _____ supply of cleaning products.",
+     "choices": {
+      "A": "constant",
+      "B": "portable",
+      "C": "reluctant",
+      "D": "previous"
+     },
+     "answer": "A",
+     "explanation": "'constant supply' = nguồn cung ổn định/liên tục, hợp nghĩa 'ensure' (đảm bảo). Các tính từ khác (portable/reluctant/previous) không hợp ngữ cảnh.",
+     "uncertain": false
+    },
+    {
+     "n": 114,
+     "question": "The office manager held a last-minute meeting _____ the sudden resignation of the company's president.",
+     "choices": {
+      "A": "concerning",
+      "B": "whereas",
+      "C": "until",
+      "D": "within"
+     },
+     "answer": "A",
+     "explanation": "Chỗ trống nối cụm danh từ nên cần giới từ; 'concerning' = liên quan/về việc. 'whereas/until' là liên từ, 'within' sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 115,
+     "question": "The first topic in the safety training covered _____ it is necessary to contact emergency medical personnel.",
+     "choices": {
+      "A": "when",
+      "B": "who",
+      "C": "what",
+      "D": "which"
+     },
+     "answer": "A",
+     "explanation": "'when it is necessary to contact...' = khi nào cần gọi cấp cứu; mệnh đề danh từ chỉ thời điểm dùng 'when'. Chủ đề nói về 'khi nào', không phải 'ai/cái gì'.",
+     "uncertain": false
+    },
+    {
+     "n": 116,
+     "question": "Ms. Lang uses Sky Couriers to send packages because she knows the service will be _____.",
+     "choices": {
+      "A": "prompts",
+      "B": "promptly",
+      "C": "promptness",
+      "D": "prompt"
+     },
+     "answer": "D",
+     "explanation": "Sau 'will be' cần tính từ làm bổ ngữ: 'be prompt' = nhanh chóng/đúng giờ. 'promptly' là trạng từ nên loại.",
+     "uncertain": false
+    },
+    {
+     "n": 117,
+     "question": "The parking policy that _____ by city officials last month resulted in a great deal of confusion among residents.",
+     "choices": {
+      "A": "had been implementing",
+      "B": "was implemented",
+      "C": "will have been implemented",
+      "D": "had implemented"
+     },
+     "answer": "B",
+     "explanation": "Chính sách 'được' ban hành nên dùng bị động thì quá khứ đơn 'was implemented' (mốc last month). Đáp án D là chủ động nên sai logic.",
+     "uncertain": false
+    },
+    {
+     "n": 118,
+     "question": "The ticket allows you to visit all sections of the museum's permanent gallery _____ not its special exhibits.",
+     "choices": {
+      "A": "or",
+      "B": "but",
+      "C": "so",
+      "D": "as"
+     },
+     "answer": "B",
+     "explanation": "'but not' = nhưng không, thể hiện tương phản: được vào mọi khu vực nhưng không gồm triển lãm đặc biệt.",
+     "uncertain": false
+    },
+    {
+     "n": 119,
+     "question": "Not until her book was published did the author speak _____ about her inspiration for writing it.",
+     "choices": {
+      "A": "publicity",
+      "B": "publicly",
+      "C": "public",
+      "D": "publicized"
+     },
+     "answer": "B",
+     "explanation": "Cần trạng từ bổ nghĩa cho động từ 'speak': 'speak publicly' = phát biểu công khai. 'public' là tính từ/danh từ nên loại.",
+     "uncertain": false
+    },
+    {
+     "n": 120,
+     "question": "_____ its positive effect on the environment, the recycling program will generate extra income for the city.",
+     "choices": {
+      "A": "Besides",
+      "B": "Among",
+      "C": "Instead",
+      "D": "Toward"
+     },
+     "answer": "A",
+     "explanation": "'Besides' = ngoài/bên cạnh, thêm ý: ngoài tác động tích cực đến môi trường, chương trình còn tạo thu nhập. 'Among/Toward/Instead' sai nghĩa.",
+     "uncertain": false
+    },
+    {
+     "n": 121,
+     "question": "The factory increased productivity by nearly thirty percent through equipment _____ made possible by a federal grant.",
+     "choices": {
+      "A": "modernize",
+      "B": "modernization",
+      "C": "modernized",
+      "D": "modernizes"
+     },
+     "answer": "B",
+     "explanation": "Cần danh từ tạo thành cụm danh từ ghép 'equipment modernization' (hiện đại hóa thiết bị) làm tân ngữ của 'through'. Chọn danh từ 'modernization'.",
+     "uncertain": false
+    },
+    {
+     "n": 122,
+     "question": "Applicants must be at least eighteen years old _____ participate in the amateur photography contest.",
+     "choices": {
+      "A": "even though",
+      "B": "in order to",
+      "C": "on behalf of",
+      "D": "so that"
+     },
+     "answer": "B",
+     "explanation": "'in order to + V' chỉ mục đích: đủ 18 tuổi để tham gia cuộc thi. Cấu trúc infinitive of purpose.",
+     "uncertain": false
+    },
+    {
+     "n": 123,
+     "question": "All patrons of the Vanceville Public Library must agree to _____ by the library's rules and regulations.",
+     "choices": {
+      "A": "conform",
+      "B": "accompany",
+      "C": "establish",
+      "D": "abide"
+     },
+     "answer": "D",
+     "explanation": "Cụm động từ cố định 'abide by' = tuân thủ (rules and regulations). 'conform' phải đi với 'to'.",
+     "uncertain": false
+    },
+    {
+     "n": 124,
+     "question": "The news program is _____ to countries around the world in real time through a continuous satellite feed.",
+     "choices": {
+      "A": "featured",
+      "B": "equipped",
+      "C": "determined",
+      "D": "transmitted"
+     },
+     "answer": "D",
+     "explanation": "'be transmitted to' = được truyền/phát tới; hợp nghĩa 'chương trình tin tức được phát tới các nước qua tín hiệu vệ tinh'.",
+     "uncertain": false
+    },
+    {
+     "n": 125,
+     "question": "Trash bins are _____ placed throughout the amusement park to reduce the amount of litter left on the ground.",
+     "choices": {
+      "A": "strategic",
+      "B": "strategized",
+      "C": "strategically",
+      "D": "strategy"
+     },
+     "answer": "C",
+     "explanation": "Cần trạng từ bổ nghĩa cho động từ 'placed': 'strategically placed' = đặt một cách chiến lược.",
+     "uncertain": false
+    },
+    {
+     "n": 126,
+     "question": "The supervisor decided to introduce a relaxed dress code on Fridays in an attempt to improve staff _____.",
+     "choices": {
+      "A": "reimbursement",
+      "B": "appointment",
+      "C": "morale",
+      "D": "resource"
+     },
+     "answer": "C",
+     "explanation": "Từ vựng: 'staff morale' = tinh thần/khí thế nhân viên; nới lỏng quy định trang phục nhằm cải thiện tinh thần nhân viên.",
+     "uncertain": false
+    },
+    {
+     "n": 127,
+     "question": "A protective substance was applied to the new surface of the parking lot to keep it from _____ over time.",
+     "choices": {
+      "A": "revealing",
+      "B": "commuting",
+      "C": "overtaking",
+      "D": "deteriorating"
+     },
+     "answer": "D",
+     "explanation": "'keep it from deteriorating' = giữ cho nó khỏi xuống cấp; 'deteriorate' hợp nghĩa với bề mặt bãi đỗ xe theo thời gian.",
+     "uncertain": false
+    },
+    {
+     "n": 128,
+     "question": "The sales director believes that an eight percent increase in sales next quarter is a readily _____ goal.",
+     "choices": {
+      "A": "achieve",
+      "B": "achievable",
+      "C": "achievement",
+      "D": "achieving"
+     },
+     "answer": "B",
+     "explanation": "Cần tính từ bổ nghĩa cho danh từ 'goal', đứng sau trạng từ 'readily': 'readily achievable goal' = mục tiêu dễ đạt được.",
+     "uncertain": false
+    },
+    {
+     "n": 129,
+     "question": "Because Ms. Ferris did not have her ID card with her, the security guard _____ to allow her to enter the building.",
+     "choices": {
+      "A": "refuse",
+      "B": "refusal",
+      "C": "refusing",
+      "D": "refused"
+     },
+     "answer": "D",
+     "explanation": "Câu cần động từ chính chia thì quá khứ (hô ứng với 'did not have'): 'refused to allow' = từ chối cho phép.",
+     "uncertain": false
+    },
+    {
+     "n": 130,
+     "question": "Although the logos had a _____ similar design, they were created by two completely unrelated companies.",
+     "choices": {
+      "A": "steadily",
+      "B": "remarkably",
+      "C": "consecutively",
+      "D": "unanimously"
+     },
+     "answer": "B",
+     "explanation": "Cần trạng từ bổ nghĩa cho tính từ 'similar': 'remarkably similar' = giống nhau một cách đáng chú ý; hợp ý tương phản với 'Although'.",
+     "uncertain": false
+    }
+   ]
+  },
+  {
+   "part": 6,
+   "directions": "Đọc đoạn văn có 4 chỗ trống, chọn phương án phù hợp nhất cho mỗi chỗ trống.",
+   "items": [
+    {
+     "ptype": "article",
+     "title": "",
+     "text": "March 12 — Starting from next month, street parking in the city center will be free. City council members chose [131] the use of parking meters downtown by a unanimous vote. Rising wages are needed for city workers to check parking meters and issue tickets, so the practice is no longer [132]. Officials hope the change will also [133] development of the downtown area by encouraging more visitors, many of whom are shoppers from out of town. The change will go into effect on April 1, though the meters won't be removed immediately. [134]",
+     "questions": [
+      {
+       "n": 131,
+       "choices": {
+        "A": "being discontinued",
+        "B": "discontinuing",
+        "C": "to discontinue",
+        "D": "discontinues"
+       },
+       "answer": "C",
+       "explanation": "Động từ 'choose' đi với to-V: 'chose to discontinue the use...' (quyết định ngừng dùng đồng hồ đỗ xe).",
+       "uncertain": false
+      },
+      {
+       "n": 132,
+       "choices": {
+        "A": "economize",
+        "B": "economically",
+        "C": "economy",
+        "D": "economical"
+       },
+       "answer": "D",
+       "explanation": "Sau 'is no longer' cần tính từ làm bổ ngữ: 'economical' = tiết kiệm/có lợi về kinh tế. (economically là trạng từ, economy/economize là danh từ/động từ).",
+       "uncertain": false
+      },
+      {
+       "n": 133,
+       "choices": {
+        "A": "adopt",
+        "B": "foster",
+        "C": "multiply",
+        "D": "publicize"
+       },
+       "answer": "B",
+       "explanation": "'foster development' = thúc đẩy sự phát triển, hợp mạch văn (thu hút thêm khách để phát triển khu trung tâm). adopt/multiply/publicize không hợp nghĩa.",
+       "uncertain": false
+      },
+      {
+       "n": 134,
+       "choices": {
+        "A": "Signs will be posted to notify motorists.",
+        "B": "Traffic updates can be requested by text.",
+        "C": "The parking fee is considered reasonable.",
+        "D": "Please pay your parking fines promptly."
+       },
+       "answer": "A",
+       "explanation": "Câu trước nói đồng hồ đỗ xe sẽ không bị gỡ ngay, nên nối tiếp hợp lý là 'Signs will be posted to notify motorists' (đặt biển báo để thông báo cho tài xế). Các phương án khác lạc đề hoặc mâu thuẫn (đỗ xe đã miễn phí).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "e-mail",
+     "title": "",
+     "text": "To: Crucero Staff <stafflist@crucero.net>\nFrom: Gabrielle Jensen <jensong@crucero.net>\nDate: November 16\nSubject: Overtime hours\n\nThe members of the finance team have [135] examined the budgets for our branch and, through their meticulous work, determined that there is a significant shortfall. [136] this discovery, we must reduce operating expenses by minimizing overtime hours. Please try to get all of your work [137] within the usual business hours. In cases where overtime work cannot be avoided, it should be approved in advance by a department head. [138] Thank you for your cooperation.\n\nSincerely,\n\nGabrielle Jensen",
+     "questions": [
+      {
+       "n": 135,
+       "choices": {
+        "A": "thoroughly",
+        "B": "urgently",
+        "C": "adversely",
+        "D": "solely"
+       },
+       "answer": "A",
+       "explanation": "Trạng từ bổ nghĩa cho 'examined'; 'thoroughly' (kỹ lưỡng) khớp với 'meticulous work' (làm việc tỉ mỉ). urgently/adversely/solely không hợp.",
+       "uncertain": false
+      },
+      {
+       "n": 136,
+       "choices": {
+        "A": "Because",
+        "B": "Due to",
+        "C": "Consequently",
+        "D": "Rather than"
+       },
+       "answer": "B",
+       "explanation": "Theo sau là cụm danh từ 'this discovery' nên cần giới từ 'Due to' (= vì). 'Because' cần mệnh đề, 'Consequently' là trạng từ, 'Rather than' sai nghĩa.",
+       "uncertain": false
+      },
+      {
+       "n": 137,
+       "choices": {
+        "A": "completes",
+        "B": "completed",
+        "C": "completion",
+        "D": "completing"
+       },
+       "answer": "B",
+       "explanation": "Cấu trúc 'get + tân ngữ + V-ed' (bị động): 'get all of your work completed' = hoàn thành công việc trong giờ làm bình thường.",
+       "uncertain": false
+      },
+      {
+       "n": 138,
+       "choices": {
+        "A": "Please send in your detailed budgets as soon as possible.",
+        "B": "Most employees prefer working on Saturdays over working on Sundays.",
+        "C": "This applies to both sales and administration employees.",
+        "D": "The additional payment has been deposited in your account."
+       },
+       "answer": "C",
+       "explanation": "'This applies to both sales and administration employees' nối tiếp quy định về làm thêm giờ ('This' chỉ chính sách vừa nêu), áp dụng cho cả hai bộ phận. Các phương án khác lạc đề (ngân sách, làm cuối tuần, tiền lương).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "announcement",
+     "title": "",
+     "text": "Dawsonville in Motion, a nonprofit organization dedicated to promoting healthy lifestyles, [139] a Well-Being Festival for Saturday, August 18. The group wants to raise [140] of the methods for preventing heart disease and other conditions. The goal of many of the festival activities will be to show participants that they don't have to adhere strictly to a diet. [141] For example, a piece of fruit can replace a candy bar as an afternoon snack. [142], diners can swap French fries for a salad. Want more helpful tips? Come to the festival! It will be held at the Dawsonville Community Center, and admission is free to everyone.",
+     "questions": [
+      {
+       "n": 139,
+       "choices": {
+        "A": "having organized",
+        "B": "would have organized",
+        "C": "has organized",
+        "D": "being organized"
+       },
+       "answer": "C",
+       "explanation": "Mệnh đề chính thiếu động từ chia thì; cụm 'a nonprofit organization...' chỉ là phần đồng vị. Cần động từ hoàn thành 'has organized' (đã tổ chức) cho chủ ngữ số ít. Các dạng phân từ (A, D) hay điều kiện (B) đều không làm vị ngữ chính được.",
+       "uncertain": false
+      },
+      {
+       "n": 140,
+       "choices": {
+        "A": "awareness",
+        "B": "funds",
+        "C": "interest",
+        "D": "standards"
+       },
+       "answer": "A",
+       "explanation": "Cụm cố định 'raise awareness of...' (nâng cao nhận thức về...) hợp ngữ cảnh phòng ngừa bệnh tim. 'raise funds/interest/standards' không đi với 'of' theo nghĩa này.",
+       "uncertain": false
+      },
+      {
+       "n": 141,
+       "choices": {
+        "A": "They can make small changes to improve their health.",
+        "B": "Organizers hope that the turnout is better than last year.",
+        "C": "The diet can be downloaded from the group's Web site.",
+        "D": "Rates of medical problems are on the rise in Dawsonville."
+       },
+       "answer": "A",
+       "explanation": "Câu sau mở đầu bằng 'For example' nêu ví dụ thay kẹo bằng trái cây, nên câu trống phải là ý khái quát: 'có thể thực hiện những thay đổi nhỏ để cải thiện sức khỏe'. Chọn A.",
+       "uncertain": false
+      },
+      {
+       "n": 142,
+       "choices": {
+        "A": "As a result",
+        "B": "Similarly",
+        "C": "Regardless",
+        "D": "Unfortunately"
+       },
+       "answer": "B",
+       "explanation": "Câu này nêu thêm một ví dụ tương tự (đổi khoai tây chiên lấy salad) song song với ví dụ trước, nên dùng liên từ 'Similarly' (tương tự). 'As a result' chỉ kết quả, không hợp mạch văn.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "CHARACK TOWERS: NOTICE",
+     "text": "[143] of Charack Towers should be aware that the power will be turned off to most of the complex on Thursday, September 18 at 9 A.M. to install new wiring. [144] The power should be restored by noon, but if the work takes longer than expected, it might affect [145] goods in your refrigerator. We will notify you if the work exceeds the estimated schedule so that you may check that your food is still edible. Please note that this planned outage will affect all parts of Charack Towers [146] the South Tower, which was upgraded last quarter. Thank you for your patience and understanding.",
+     "questions": [
+      {
+       "n": 143,
+       "choices": {
+        "A": "Occupy",
+        "B": "Occupations",
+        "C": "Occupying",
+        "D": "Occupants"
+       },
+       "answer": "D",
+       "explanation": "Chủ ngữ cần danh từ chỉ người số nhiều: 'Occupants of...' (cư dân/người sử dụng) mới 'should be aware'. 'Occupy' là động từ, 'Occupations' là nghề nghiệp, đều không phù hợp.",
+       "uncertain": false
+      },
+      {
+       "n": 144,
+       "choices": {
+        "A": "We must do so to comply with safety regulations.",
+        "B": "If you would like to sign up, visit the property office.",
+        "C": "The loss of power was caused by a severe storm.",
+        "D": "Please wear protective gear while you are working."
+       },
+       "answer": "A",
+       "explanation": "Câu trống nối tiếp việc cắt điện để lắp dây điện mới; 'We must do so to comply with safety regulations' giải thích lý do (tuân thủ quy định an toàn). C sai vì mất điện là có kế hoạch, không do bão.",
+       "uncertain": false
+      },
+      {
+       "n": 145,
+       "choices": {
+        "A": "durable",
+        "B": "renewable",
+        "C": "perishable",
+        "D": "exposed"
+       },
+       "answer": "C",
+       "explanation": "'perishable goods' = thực phẩm dễ hư hỏng trong tủ lạnh, khớp với câu sau kiểm tra 'food is still edible'. 'durable' (bền) trái nghĩa; các lựa chọn khác không hợp ngữ cảnh thực phẩm.",
+       "uncertain": false
+      },
+      {
+       "n": 146,
+       "choices": {
+        "A": "inside of",
+        "B": "owing to",
+        "C": "aside from",
+        "D": "such as"
+       },
+       "answer": "C",
+       "explanation": "'aside from' = ngoại trừ: sự cố ảnh hưởng mọi phần của tòa nhà TRỪ South Tower (đã nâng cấp quý trước). 'such as' (ví dụ như) trái logic vì South Tower là ngoại lệ, không phải ví dụ.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 7,
+   "directions": "Đọc đoạn văn và trả lời các câu hỏi.",
+   "items": [
+    {
+     "ptype": "form",
+     "title": "Steam Masters Customer Rental Agreement",
+     "text": "Steam Masters Customer Rental Agreement\n170 Malloy Street • (325) 555-0197\n\nCustomer: Iswara Gupte | Phone Number: (325) 555-0166\nFirst-time Customer: No | Delivery ☐ | Customer Pick-up ☒\n\nItem | Description | Price\nDowler-405 carpet steam cleaner rental | Two-day rental | $95.00\nEquipment rental deposit | | $50.00\nConcentrated carpet shampoo (12 oz.) | Purchase | $15.95\n | Total | $160.95\n\nRental period valid until 5 P.M. on March 6. The deposit will be paid back once the device is returned.",
+     "questions": [
+      {
+       "n": 147,
+       "question": "What is true about Mr. Gupte?",
+       "choices": {
+        "A": "He rented two types of equipment.",
+        "B": "He can keep the device for one week.",
+        "C": "He recently changed his phone number.",
+        "D": "He has used Steam Masters before."
+       },
+       "answer": "D",
+       "explanation": "Mẫu ghi 'First-time Customer: No', nghĩa là ông Gupte không phải khách lần đầu, tức từng dùng Steam Masters trước đây. (A sai vì ông thuê máy hơi và MUA dầu gội, không phải thuê hai loại thiết bị.)",
+       "uncertain": false
+      },
+      {
+       "n": 148,
+       "question": "What will happen when Mr. Gupte returns the device?",
+       "choices": {
+        "A": "He will have to pay the remainder of his bill.",
+        "B": "He will be credited for unused shampoo.",
+        "C": "He will receive fifty dollars back.",
+        "D": "He will be charged a pick-up fee."
+       },
+       "answer": "C",
+       "explanation": "Cuối phiếu viết 'The deposit will be paid back once the device is returned', mà tiền cọc (deposit) là $50.00, nên khi trả máy ông sẽ được hoàn lại 50 đô la.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "letter",
+     "title": "",
+     "text": "Ramona Jackson\nRamona's Restaurant\n552 Spring Haven Road\nSanta Barbara, CA 93106\n\nDear Ms. Jackson,\n\nSanta Barbara city officials have received several complaints regarding the outdoor patio you have set up in front of your restaurant, near the sidewalk. Because of your business hours, many of your patrons are having loud conversations outdoors late at night. Please ask your patrons to keep their conversations to a minimum volume after 9 P.M. You should also post a written announcement reminding them to be courteous of the residents in the area. I've enclosed one as an example. If you have any inquiries, please direct them to our non-emergency line at 555-0181.\n\nThank you for your cooperation.\n\nRita Salazar\nRita Salazar\nSanta Barbara Police Department",
+     "questions": [
+      {
+       "n": 149,
+       "question": "What problem does Ms. Salazar mention?",
+       "choices": {
+        "A": "A neighborhood is for residential use only.",
+        "B": "Some tables are blocking a walkway.",
+        "C": "A restaurant's business license has expired.",
+        "D": "Customers are making too much noise."
+       },
+       "answer": "D",
+       "explanation": "Thư nêu 'many of your patrons are having loud conversations outdoors late at night' và yêu cầu khách giữ âm lượng tối thiểu — vấn đề là khách gây quá nhiều tiếng ồn.",
+       "uncertain": false
+      },
+      {
+       "n": 150,
+       "question": "What has Ms. Salazar included with the letter?",
+       "choices": {
+        "A": "A copy of an agenda",
+        "B": "An inquiry form",
+        "C": "A sample notice",
+        "D": "An invoice"
+       },
+       "answer": "C",
+       "explanation": "Bà Salazar nói nên dán thông báo nhắc khách và viết 'I've enclosed one as an example' — tức bà đính kèm một mẫu thông báo (sample notice).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "text-message chain",
+     "title": "",
+     "text": "Guo Xie, 2:05 P.M.\nI'm on my way back from the meeting with the representatives from Largo Enterprises, but they're going to be accompanying me so that they can have a brief tour of our building.\n\nSaskia Heyns, 2:06 P.M.\nIs there anything you need me to do?\n\nGuo Xie, 2:06 P.M.\nYes. Could you please check that the lobby looks presentable? It's their first time visiting our site, and I don't want them to form a poor opinion of our company right from the start.\n\nSaskia Heyns, 2:07 P.M.\nNo problem. Several boxes of samples from our supplier arrived today. They're too big to fit in the storage closet. Maybe I can put them in someone's office.\n\nGuo Xie, 2:08 P.M.\nGood idea. I'm sure Ms. Hudson wouldn't mind.\n\nSaskia Heyns, 2:09 P.M.\nOkay. I'll make sure that's taken care of before you get here. How much time do I have?\n\nGuo Xie, 2:10 P.M.\nAbout half an hour. Thanks a lot!",
+     "questions": [
+      {
+       "n": 151,
+       "question": "What is Mr. Xie concerned about?",
+       "choices": {
+        "A": "Making an unfavorable first impression",
+        "B": "Meeting up with the representatives late",
+        "C": "Failing to find an employee to conduct a tour",
+        "D": "Having limited access to the building's lobby"
+       },
+       "answer": "A",
+       "explanation": "Ông Xie lo lắng khi nói 'I don't want them to form a poor opinion of our company right from the start' — sợ tạo ấn tượng ban đầu không tốt với khách.",
+       "uncertain": false
+      },
+      {
+       "n": 152,
+       "question": "At 2:08 P.M., what does Mr. Xie most likely mean when he says, \"I'm sure Ms. Hudson wouldn't mind\"?",
+       "choices": {
+        "A": "Ms. Hudson should help clean an area.",
+        "B": "Ms. Hudson can order more samples.",
+        "C": "Ms. Hudson has storage space in her office.",
+        "D": "Ms. Hudson should talk to the supplier."
+       },
+       "answer": "C",
+       "explanation": "Saskia đề xuất để mấy thùng mẫu vào văn phòng ai đó ('put them in someone's office'), Xie đáp 'I'm sure Ms. Hudson wouldn't mind' — ngụ ý văn phòng bà Hudson có chỗ chứa được.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement",
+     "title": "",
+     "text": "Please accept this coupon with the compliments of the new proprietor of Starlight Bakery.\n\nThis coupon can be used toward one of the following:\nBuy one dozen cupcakes, and get two free cookies\nGet 10% off fresh bread\nBuy one cake and get another at half price\n\nExpires July 31\n\nValid at our two locations: 349 Broad Street and 1709 Dellwood Avenue",
+     "questions": [
+      {
+       "n": 153,
+       "question": "What has recently changed at Starlight Bakery?",
+       "choices": {
+        "A": "Complimentary samples are distributed.",
+        "B": "The selection has been expanded.",
+        "C": "A second location has been opened.",
+        "D": "The business is under new ownership."
+       },
+       "answer": "D",
+       "explanation": "Phiếu ghi 'with the compliments of the new proprietor of Starlight Bakery' — tiệm bánh vừa đổi chủ mới (dưới quyền sở hữu mới).",
+       "uncertain": false
+      },
+      {
+       "n": 154,
+       "question": "What is indicated on the coupon?",
+       "choices": {
+        "A": "Customers can buy two cakes for the price of one.",
+        "B": "The coupon is valid for a single offer.",
+        "C": "Free cookies are available with each purchase.",
+        "D": "The bakery's bread can be ordered in advance."
+       },
+       "answer": "B",
+       "explanation": "Phiếu ghi 'This coupon can be used toward one of the following' — chỉ được dùng cho MỘT trong các ưu đãi, tức chỉ có giá trị cho một ưu đãi duy nhất.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement",
+     "title": "TR2",
+     "text": "You don't need to be a professional athlete to work out in comfort and style. At TR2, we offer the best apparel for basketball, soccer, baseball, and more. Whether you need lightweight running shorts for your next marathon or a warm-up suit for your exercise routine, we've got you covered. New owner Stephen Carbajal has participated in athletic competitions all over the world, and he is ready to bring his expertise and love of sports to you. In addition to our everyday low prices, we are offering a special coupon for 15% to anyone who registers for our mailing list to receive the TR2 monthly newsletter. Visit us daily from 9 A.M. to 9 P.M. at 1673 Davis Street.",
+     "questions": [
+      {
+       "n": 155,
+       "question": "What is being advertised?",
+       "choices": {
+        "A": "An athletic competition",
+        "B": "An exercise facility",
+        "C": "A sports stadium",
+        "D": "A clothing store"
+       },
+       "answer": "D",
+       "explanation": "Quảng cáo viết 'we offer the best apparel for basketball, soccer, baseball' — TR2 bán trang phục thể thao, tức một cửa hàng quần áo.",
+       "uncertain": false
+      },
+      {
+       "n": 156,
+       "question": "What is indicated about Mr. Carbajal?",
+       "choices": {
+        "A": "He was the winner of a sports competition.",
+        "B": "He recently purchased the business.",
+        "C": "He operates branches in several locations.",
+        "D": "He has moved to the area from another country."
+       },
+       "answer": "B",
+       "explanation": "Câu 'New owner Stephen Carbajal' cho biết ông Carbajal là chủ mới — ông vừa mua lại cửa hàng. (A sai: chỉ nói ông từng tham gia thi đấu, không nói ông thắng.)",
+       "uncertain": false
+      },
+      {
+       "n": 157,
+       "question": "How can customers take advantage of the special offer?",
+       "choices": {
+        "A": "By making a certain number of purchases",
+        "B": "By visiting the business on a particular day",
+        "C": "By signing up for a publication",
+        "D": "By recommending the business to a friend"
+       },
+       "answer": "C",
+       "explanation": "Ưu đãi ghi giảm 15% 'to anyone who registers for our mailing list to receive the TR2 monthly newsletter' — khách đăng ký nhận bản tin (ấn phẩm) sẽ được ưu đãi.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement",
+     "title": "Fairmont Department Store",
+     "text": "Fairmont Department Store\n\nThank you for taking the time to complete our annual questionnaire. To show our appreciation, we offer you this discount voucher.\n\n15% off all cookware, bedding, and appliances in the store\n\nCan be used at any Fairmont Department Store location. Does not include delivery or installation fees. Applicable to all brands, including TJ Home, coming October 1. Present your Fairmont Rewards Membership Card at the time of purchase to receive an additional 5% off.\n\nThank you for being a Fairmont Department Store customer!",
+     "questions": [
+      {
+       "n": 158,
+       "question": "What is indicated about the voucher?",
+       "choices": {
+        "A": "It is valid until October 1.",
+        "B": "It was issued to a survey participant.",
+        "C": "It can only be used at a certain branch.",
+        "D": "It cannot be combined with other offers."
+       },
+       "answer": "B",
+       "explanation": "Voucher mở đầu 'Thank you for taking the time to complete our annual questionnaire. To show our appreciation, we offer you this discount voucher' — voucher được phát cho người tham gia khảo sát.",
+       "uncertain": false
+      },
+      {
+       "n": 159,
+       "question": "What is NOT something that could be purchased with the voucher?",
+       "choices": {
+        "A": "A kitchen table",
+        "B": "A set of sheets",
+        "C": "A washing machine",
+        "D": "A frying pan"
+       },
+       "answer": "A",
+       "explanation": "Voucher chỉ áp dụng 'all cookware, bedding, and appliances'. Set of sheets (bedding), washing machine (appliance), frying pan (cookware) đều được; còn kitchen table là đồ nội thất — KHÔNG thuộc nhóm được giảm.",
+       "uncertain": false
+      },
+      {
+       "n": 160,
+       "question": "What is suggested about Fairmont Department Store?",
+       "choices": {
+        "A": "It has a customer loyalty program.",
+        "B": "It provides discounts to new customers.",
+        "C": "It offers free delivery for all products.",
+        "D": "It is the only store carrying the TJ Home brand."
+       },
+       "answer": "A",
+       "explanation": "Voucher viết 'Present your Fairmont Rewards Membership Card ... to receive an additional 5% off' — cho thấy cửa hàng có chương trình khách hàng thân thiết (thẻ thành viên).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "notice",
+     "title": "NOTICE TO WOODFORD APARTMENT TENANTS:",
+     "text": "NOTICE TO WOODFORD APARTMENT TENANTS:\n\nOn Wednesday, August 17, the Woodford Apartments maintenance crew will be testing the fire alarms and sprinkler system throughout the building. The testing is part of a quarterly check performed to fulfill the terms of the building owner's insurance policy and to ensure the safety of all tenants. The work will begin around 10 A.M. and is expected to take approximately two hours. During the testing procedures, the alarm system may sound continuously for up to a few minutes at a time. In addition, the hallways' emergency lights may flash on and off. You may ignore both of these signals, and there is no need to evacuate the building or take any further action. In the very unlikely event that an emergency presents itself during the testing, we will use the building's loudspeaker to instruct tenants to vacate the building. The procedures for evacuation can be obtained from the building manager. All questions about the testing should be directed to Scott Porter, as his team will be carrying out the work. Thank you for your cooperation.",
+     "questions": [
+      {
+       "n": 161,
+       "question": "What is the purpose of the work on August 17?",
+       "choices": {
+        "A": "To meet new government safety regulations",
+        "B": "To install fire prevention equipment for tenant use",
+        "C": "To comply with insurance requirements",
+        "D": "To replace a security system throughout the building"
+       },
+       "answer": "C",
+       "explanation": "Thông báo nêu việc kiểm tra 'to fulfill the terms of the building owner's insurance policy' — mục đích là tuân thủ yêu cầu của hợp đồng bảo hiểm.",
+       "uncertain": false
+      },
+      {
+       "n": 162,
+       "question": "According to the notice, when should tenants take action during the August 17 work?",
+       "choices": {
+        "A": "If they hear an alarm sound",
+        "B": "If they see the hallway lights flashing",
+        "C": "If they hear an announcement",
+        "D": "If they receive a phone call"
+       },
+       "answer": "C",
+       "explanation": "Thông báo dặn có thể bỏ qua chuông và đèn báo; chỉ khi khẩn cấp 'we will use the building's loudspeaker to instruct tenants to vacate' — cư dân chỉ hành động khi nghe thông báo qua loa.",
+       "uncertain": false
+      },
+      {
+       "n": 163,
+       "question": "Who most likely is Mr. Porter?",
+       "choices": {
+        "A": "A maintenance manager",
+        "B": "A building owner",
+        "C": "A government official",
+        "D": "A building manager"
+       },
+       "answer": "A",
+       "explanation": "Thông báo viết 'directed to Scott Porter, as his team will be carrying out the work', mà 'maintenance crew' là bên thực hiện kiểm tra — nên ông Porter là quản lý đội bảo trì.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "memo",
+     "title": "",
+     "text": "To: Department of Sanitation Employees\nFrom: Larry Bozeman, Department Head\nDate: September 3\nRe: Update\n\nEarlier this week, I visited the Brookville landfill to carry out an evaluation and determine the time left before space in the landfill runs out. — [1] —. The last estimate was made a decade ago, and at that time it was projected that the landfill would be able to meet Brookville's needs for another fifty years. Therefore, at this point, we would expect to have forty years left before having to make alternative plans for the management of solid waste. Unfortunately, as the number of residents in our community has nearly doubled in size in just a few short years, the landfill is getting used much more than originally anticipated. At the current rate, the remaining space at the site would only last for eighteen to twenty more years. — [2] —.\n\nIn order to curb overuse of the landfill and delay the date when the site will run out of space, I have already obtained approval to begin a food waste recycling program, which will be called the Brookville Compost Collection Program, or the BCC Program for short. — [3] —. This will involve collecting food scraps in special containers, to be picked up on the normal recycling collection days and used to create fertilizer. We will run a trial program in Warren Park, Oak Grove, and Rocklane beginning from next month. Once we work out the logistics, the program will be expanded to all neighborhoods in Brookville.\n\nWe will heavily promote recycling throughout Brookville, especially targeting businesses, whose commercial waste makes up approximately thirty percent of what is collected. — [4] —. This action alone could save tens of thousands of tons of waste. Homeowners and businesses would be encouraged to compost their yard waste on site instead.",
+     "questions": [
+      {
+       "n": 164,
+       "question": "What has Mr. Bozeman recently done?",
+       "choices": {
+        "A": "Trained new sanitation department staff",
+        "B": "Assessed a garbage disposal site",
+        "C": "Gathered feedback from Brookville residents",
+        "D": "Carried out employee evaluations"
+       },
+       "answer": "B",
+       "explanation": "Bản ghi nhớ mở đầu 'I visited the Brookville landfill to carry out an evaluation' — ông Bozeman vừa đi đánh giá bãi rác (garbage disposal site).",
+       "uncertain": false
+      },
+      {
+       "n": 165,
+       "question": "According to Mr. Bozeman, what has contributed to the problem?",
+       "choices": {
+        "A": "Complex regulations",
+        "B": "Rising recycling costs",
+        "C": "Lack of public interest",
+        "D": "Rapid population growth"
+       },
+       "answer": "D",
+       "explanation": "Ông nêu nguyên nhân 'the number of residents in our community has nearly doubled in size in just a few short years' — dân số tăng nhanh khiến bãi rác bị dùng nhiều hơn dự kiến.",
+       "uncertain": false
+      },
+      {
+       "n": 166,
+       "question": "What is indicated about the BCC Program?",
+       "choices": {
+        "A": "It will be tested in a few neighborhoods initially.",
+        "B": "It is aimed at teaching people how to prepare recyclables.",
+        "C": "It may fail to be approved due to budget cuts.",
+        "D": "It will be partially funded by the sale of fertilizer."
+       },
+       "answer": "A",
+       "explanation": "Về chương trình BCC: 'We will run a trial program in Warren Park, Oak Grove, and Rocklane beginning from next month' — sẽ chạy thử ở vài khu phố trước.",
+       "uncertain": false
+      },
+      {
+       "n": 167,
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Another possibility is not to allow grass clippings in the landfill.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "D",
+       "explanation": "Câu chèn nói về 'grass clippings' (cỏ cắt = rác sân vườn). Đặt ở [4] hợp nhất vì ngay sau là 'This action alone could save tens of thousands of tons of waste' và 'compost their yard waste on site instead' — nối mạch ý về rác sân vườn.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "chat",
+     "title": "Yorkie Furniture Customer Assistance",
+     "text": "Gloria Cox (Staff ID: 413) [3:09 P.M.]\nHello. I am a customer service agent for Yorkie Furniture. Are you writing about an old order or a pending order?\n\nSherman Holcomb [3:10 P.M.]\nAn old order. I have already received the product.\n\nGloria Cox (Staff ID: 413) [3:11 P.M.]\nAll right. What seems to be the problem?\n\nSherman Holcomb [3:12 P.M.]\nI'm having trouble assembling the shelves I ordered from you. In the past, I've paid for your pre-assembled goods, but this time I thought I'd try it myself.\n\nGloria Cox (Staff ID: 413) [3:13 P.M.]\nPlease tell me the product name and whether there are any parts missing.\n\nSherman Holcomb [3:16 P.M.]\nIt's the Rustic Beach Set shelving unit model. I'm not sure if anything is missing because it didn't come with any assembly instructions.\n\nGloria Cox (Staff ID: 413) [3:17 P.M.]\nI'm sorry about that. We've had numerous complaints about that model. During the packing process, the workers didn't put in the instructions or the product brochure.\n\nSherman Holcomb [3:18 P.M.]\nCould you mail the instructions to me?\n\nGloria Cox (Staff ID: 413) [3:19 P.M.]\nOf course, but if you have a printer at home, you can download them from our Web site instead and print them yourself.\n\nSherman Holcomb [3:21 P.M.]\nAre they the same instructions that would be shipped in the mail?\n\nGloria Cox (Staff ID: 413) [3:22 P.M.]\nYes, and it's a lot easier.\n\nSherman Holcomb [3:24 P.M.]\nOkay, I'll do that now.\n\nGloria Cox (Staff ID: 413) [3:25 P.M.]\nI won't terminate this conversation until I know that you were able to get the document you need.\n\nSherman Holcomb [3:26 P.M.]\nThank you.",
+     "questions": [
+      {
+       "n": 168,
+       "question": "What does Mr. Holcomb indicate about Yorkie Furniture?",
+       "choices": {
+        "A": "He thinks its prices are reasonable.",
+        "B": "Its selection has recently expanded.",
+        "C": "He has used its services before.",
+        "D": "It has a reputation for high-quality goods."
+       },
+       "answer": "C",
+       "explanation": "Ông Holcomb nói 'In the past, I've paid for your pre-assembled goods', tức đã từng dùng dịch vụ (mua hàng lắp sẵn) của Yorkie Furniture trước đây. Chọn C.",
+       "uncertain": false
+      },
+      {
+       "n": 169,
+       "question": "What does Ms. Cox suggest about the Rustic Beach Set?",
+       "choices": {
+        "A": "It is one of the company's most popular products.",
+        "B": "It is no longer being manufactured by the company.",
+        "C": "It was sent without all the necessary paperwork.",
+        "D": "It can be returned directly to the warehouse."
+       },
+       "answer": "C",
+       "explanation": "Cô Cox giải thích 'the workers didn't put in the instructions or the product brochure', nghĩa là sản phẩm được gửi đi mà thiếu giấy tờ đi kèm cần thiết. Chọn C.",
+       "uncertain": false
+      },
+      {
+       "n": 170,
+       "question": "At 3:22 P.M., what does Ms. Cox mean when she writes, \"it's a lot easier\"?",
+       "choices": {
+        "A": "She recommends getting some information online.",
+        "B": "She wants Mr. Holcomb to set up an account.",
+        "C": "She plans to send an item by express mail.",
+        "D": "She thinks a different shelving unit would be better."
+       },
+       "answer": "A",
+       "explanation": "Trước đó Cox gợi ý 'you can download them from our Web site instead and print them yourself'; câu 'it's a lot easier' ý nói nên lấy hướng dẫn trực tuyến sẽ dễ hơn. Chọn A.",
+       "uncertain": false
+      },
+      {
+       "n": 171,
+       "question": "Why will Ms. Cox keep the chat open?",
+       "choices": {
+        "A": "To allow time to check an inventory list",
+        "B": "To wait for an order number",
+        "C": "To provide Mr. Holcomb with a progress update",
+        "D": "To confirm that Mr. Holcomb has received some paperwork"
+       },
+       "answer": "D",
+       "explanation": "Cox nói 'I won't terminate this conversation until I know that you were able to get the document you need', tức giữ chat mở để xác nhận ông Holcomb đã nhận được giấy tờ (hướng dẫn). Chọn D.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "article",
+     "title": "Glass Containers to Be Banned",
+     "text": "March 23—The Wynnedale City Council voted to enact a proposal that would ban glass containers at public beaches and parks. —[1]—. The measure, brought forward by Andrew McDowell, seeks to reduce injuries from broken glass, and it contained recommendations to fine those who disobey the ban up to $500 for the first violation. This original fine was considered excessive by many council members and was reduced to $100 before the final vote was taken.\n\nAlthough the proposal received widespread support, it is not without its opponents. —[2]—. Ellen Jacobs voted against the proposal because she believed that it could disproportionately affect those living on the streets. Others raised concerns that the local police force does not have the manpower to make sure that people are following the regulation. This is because most discarded glass containers come from individuals or very small groups. Large-scale events such as concerts and festivals do not usually contribute to the litter problem. —[3]—.\n\nThe council plans to launch a public awareness campaign on April 3 to inform residents about the new regulation, which will go into effect the following month. —[4]—. It will include posting notices on the city's Web site, running public service announcements on the radio, and putting up signs in public places to spread the news.",
+     "questions": [
+      {
+       "n": 172,
+       "question": "What is indicated about Mr. McDowell's proposal?",
+       "choices": {
+        "A": "It will mainly apply to businesses.",
+        "B": "It will go into effect sometime in April.",
+        "C": "It was altered before receiving approval.",
+        "D": "It was unanimously supported by the city council."
+       },
+       "answer": "C",
+       "explanation": "Đề xuất bị chỉnh sửa trước khi được thông qua: 'This original fine ... was reduced to $100 before the final vote was taken'. Chọn C (không phải B vì luật có hiệu lực tháng 5 - 'the following month' sau chiến dịch ngày 3/4).",
+       "uncertain": false
+      },
+      {
+       "n": 173,
+       "question": "What problem did Ms. Jacobs anticipate regarding the proposal?",
+       "choices": {
+        "A": "It could be applied unfairly to the homeless.",
+        "B": "It will cost too much to publicize the change.",
+        "C": "It would not result in cleaner public streets.",
+        "D": "It will be difficult for the local police to enforce it."
+       },
+       "answer": "A",
+       "explanation": "'Ellen Jacobs voted against the proposal because she believed that it could disproportionately affect those living on the streets' - lo ngại luật áp dụng bất công lên người vô gia cư. Chọn A.",
+       "uncertain": false
+      },
+      {
+       "n": 174,
+       "question": "What is NOT a method that will be used in the public awareness campaign?",
+       "choices": {
+        "A": "Radio announcements",
+        "B": "Newspaper advertisements",
+        "C": "Online messages",
+        "D": "Publicly posted signs"
+       },
+       "answer": "B",
+       "explanation": "Câu NOT. Chiến dịch gồm 'posting notices on the city's Web site' (C), 'public service announcements on the radio' (A), 'putting up signs in public places' (D). Không nhắc quảng cáo trên báo, nên chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 175,
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"These require a detailed cleanup plan before a permit is issued.\"",
+       "choices": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+       },
+       "answer": "C",
+       "explanation": "'These' chỉ 'Large-scale events such as concerts and festivals' ngay trước [3]; câu chèn nói các sự kiện này cần kế hoạch dọn dẹp chi tiết trước khi cấp phép, hợp logic tại [3]. Chọn C.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "advertisement+review",
+     "title": "Rest and refresh with help from the Luna pillow from Odessa Housewares! / Review posted by Jeff Payton",
+     "text": "Advertisement\nRest and refresh with help from the Luna pillow from Odessa Housewares!\n\nWith the accelerated pace of modern life, getting enough sleep is more important than ever. Many people fail to realize that better sleep can result from keeping the body in the right position. Our team has meticulously researched sleeping habits to create a one-of-a-kind pillow that eliminates the most common sleeping problems. The Luna pillow is a memory foam pillow that is thinner in the middle for back sleepers and has high sides for side sleepers. This unique shape ensures that your head and neck are fully supported, and this also serves to ease discomfort and aching in your shoulders.\n\nEach Luna pillow comes with an anti-bacterial cover that perfectly fits the pillow. The cover is made from a cotton and cashmere blend to maximize sweat absorption. Owing to the cover's patented Air-Flo technology, it keeps your head cool on hot nights and warm on cold nights, ensuring maximum comfort for hours. Visit www.odessahousewares.com for more information.\n\n──────────\n\nReview\nwww.ratehomefurnishings.com\n\nBedding >> Odessa Housewares >> Luna Pillow\n\nReview posted by Jeff Payton\n\nI made a purchase from Odessa Housewares before, so I opted into their monthly e-mail newsletter system. The most recent newsletter included advertisements for the Luna pillow, so I thought I'd give it a try. It took a few nights to get used to the firmness of the memory foam, but after the adjustment period, I started falling asleep more quickly and sleeping more soundly. The gentle touch of the cashmere and cotton case against my skin feels elegant and luxurious. I would highly recommend this pillow to anyone who has difficulty sleeping. I'm such a big fan of this pillow that I plan to purchase it as a gift for several of my family members.",
+     "questions": [
+      {
+       "n": 176,
+       "question": "According to the advertisement, what can help to improve sleep?",
+       "choices": {
+        "A": "Sleeping on a set schedule",
+        "B": "Positioning the body correctly",
+        "C": "Relaxing before bedtime",
+        "D": "Maintaining the right temperature"
+       },
+       "answer": "B",
+       "explanation": "Quảng cáo nêu 'better sleep can result from keeping the body in the right position' - ngủ ngon hơn nhờ đặt cơ thể đúng tư thế. Chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 177,
+       "question": "What benefit of the Luna pillow is mentioned in the advertisement?",
+       "choices": {
+        "A": "Building neck muscles",
+        "B": "Relieving joint pain",
+        "C": "Improving posture",
+        "D": "Reducing noise disturbances"
+       },
+       "answer": "B",
+       "explanation": "Quảng cáo nói gối 'serves to ease discomfort and aching in your shoulders' - giảm đau khớp vai. Chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 178,
+       "question": "What is NOT indicated about the Luna pillow's cover?",
+       "choices": {
+        "A": "It regulates body heat.",
+        "B": "It absorbs moisture.",
+        "C": "It can be machine washable.",
+        "D": "It is resistant to bacteria."
+       },
+       "answer": "C",
+       "explanation": "Câu NOT. Vỏ gối: điều hòa nhiệt ('keeps your head cool ... and warm', A), hút ẩm ('maximize sweat absorption', B), kháng khuẩn ('anti-bacterial cover', D). Không nói giặt máy được, nên chọn C.",
+       "uncertain": false
+      },
+      {
+       "n": 179,
+       "question": "Which feature mentioned in the advertisement does Mr. Payton neglect to address?",
+       "choices": {
+        "A": "The pillow's shape",
+        "B": "The shipping process",
+        "C": "The pillow's material",
+        "D": "The cover's fabric"
+       },
+       "answer": "A",
+       "explanation": "Payton nhắc chất liệu memory foam (C) và vỏ cashmere-cotton (D: 'The gentle touch of the cashmere and cotton case'), nhưng không đề cập hình dạng gối (thiết kế mỏng giữa/cao hai bên). Chọn A.",
+       "uncertain": false
+      },
+      {
+       "n": 180,
+       "question": "How did Mr. Payton originally find out about the Luna pillow?",
+       "choices": {
+        "A": "He was given the item as a gift from a family member.",
+        "B": "He saw an advertisement in a newspaper.",
+        "C": "He watched a demonstration in a store.",
+        "D": "He was e-mailed some promotional materials."
+       },
+       "answer": "D",
+       "explanation": "Payton kể 'I opted into their monthly e-mail newsletter system. The most recent newsletter included advertisements for the Luna pillow' - biết đến gối qua email quảng cáo. Chọn D.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "invoice+e-mail",
+     "title": "Majestic Travel: Customer Invoice #8394 / RE: Inquiry",
+     "text": "Invoice\nMajestic Travel: Customer Invoice #8394\nCustomer: Kasis Rizal | Booking Date: May 3\nDestination: Palm Island | First-Time Visitor: Yes\n\nAccommodation: Hibiscus Corporation | $700.00\n    Room Type: Deluxe\n    Number of Adults: 2, Number of Children: 0\n    Check in: July 19 / Check out: July 23\n\nDining: Villa Complex | $185.00\n    All-Day Meal Pass, 2 Adults: July 20-22\n    Breakfast Meal Pass, 2 Adults: July 23\n\nActivity 1: Meridian Limited | $390.00\n    Private Boat Tour of Meridian Cove: July 21\n    Deposit of $100 received on May 3\n\nActivity 2: Orchid Enterprises | $60.00\n    Workshop: How to Prepare Regional Cuisine,\n    2 Adults: July 22\n\nSubtotal | $1,335.00\nRemaining due | $1,235.00\n\nNote: Plane tickets to be booked separately by the customer.\n\n──────────\n\nE-mail\nTo: Kasis Rizal <krizal@stiles-inc.net>\nFrom: Raja Tahyadi <tahyadiraja@majestictravel.com>\nDate: May 8\nSubject: RE: Inquiry\n\nDear Ms. Rizal,\n\nIn response to your inquiry, I double-checked your invoice (#8394), and I can confirm that everything on the invoice is correct. I believe the source of confusion is that the price for the boat tour listed on our Web site is just a base fee, but a booking charge and additional valued added tax (VAT) were also applied, resulting in the total you see on the invoice. This was explained at the bottom of the booking page. Additionally, you are getting a discount on your meal passes because we are partners with that business, so the overall price of the vacation is quite reasonable. Nevertheless, if you would like to cancel the boat tour, you may do so, but the request must be made in writing by May 31, and you would lose half of your deposit. If you cancel after this date, you will be charged the full amount.\n\nAttached you will find the instructions once again for paying the remaining balance by bank transfer. As I mentioned when you booked the trip, we no longer accept cash, checks, or credit cards.\n\nI hope I have answered your questions to your satisfaction, but please do not hesitate to contact me if you have further inquiries.\n\nWarmest regards,\nRaja Tahyadi\nMajestic Travel",
+     "questions": [
+      {
+       "n": 181,
+       "question": "What is indicated about Ms. Rizal?",
+       "choices": {
+        "A": "She will be on vacation for five nights.",
+        "B": "She has visited Palm Island in the past.",
+        "C": "She will share a room with two other people.",
+        "D": "She plans to participate in a cooking lesson."
+       },
+       "answer": "D",
+       "explanation": "Hóa đơn (Invoice) ghi 'Workshop: How to Prepare Regional Cuisine, 2 Adults: July 22' - cô sẽ tham gia lớp học nấu ăn. Chọn D (A sai: check in 19 - check out 23 chỉ 4 đêm; B sai vì 'First-Time Visitor: Yes').",
+       "uncertain": false
+      },
+      {
+       "n": 182,
+       "question": "What problem did Ms. Rizal most likely write to Mr. Tahyadi about?",
+       "choices": {
+        "A": "A payment receipt was not sent.",
+        "B": "A boat tour has been fully booked.",
+        "C": "A check-in date is incorrect.",
+        "D": "A fee was higher than expected."
+       },
+       "answer": "D",
+       "explanation": "Email giải thích 'the price for the boat tour listed on our Web site is just a base fee, but a booking charge and additional value added tax (VAT) were also applied' - cô thắc mắc vì phí cao hơn dự kiến. Ghép Invoice (tour $390) với Email. Chọn D.",
+       "uncertain": false
+      },
+      {
+       "n": 183,
+       "question": "How much would Ms. Rizal lose if she cancels the boat tour by May 31?",
+       "choices": {
+        "A": "$390.00",
+        "B": "$290.00",
+        "C": "$100.00",
+        "D": "$50.00"
+       },
+       "answer": "D",
+       "explanation": "Email: nếu hủy trước 31/5 'you would lose half of your deposit'; Invoice ghi 'Deposit of $100 received', nửa tiền cọc = $50. Ghép hai văn bản. Chọn D.",
+       "uncertain": false
+      },
+      {
+       "n": 184,
+       "question": "Which business is partnered with Majestic Travel?",
+       "choices": {
+        "A": "Hibiscus Corporation",
+        "B": "Villa Complex",
+        "C": "Meridian Limited",
+        "D": "Orchid Enterprises"
+       },
+       "answer": "B",
+       "explanation": "Email: 'you are getting a discount on your meal passes because we are partners with that business'; Invoice cho thấy Dining (meal pass) do 'Villa Complex' cung cấp. Ghép Email + Invoice. Chọn B.",
+       "uncertain": false
+      },
+      {
+       "n": 185,
+       "question": "What is suggested about Majestic Travel?",
+       "choices": {
+        "A": "It has a branch on Palm Island.",
+        "B": "It only accepts one form of payment.",
+        "C": "It mainly books vacation packages.",
+        "D": "It can provide discounts on airfares."
+       },
+       "answer": "B",
+       "explanation": "Email: 'we no longer accept cash, checks, or credit cards' và chỉ nhận 'bank transfer' - hàm ý chỉ chấp nhận một hình thức thanh toán. Chọn B.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "triple",
+     "title": "History in Motion Photography Contest",
+     "text": "Information\nHistory in Motion Photography Contest\n\nHistory in Motion magazine is proud to announce its annual photography contest. This year's theme is \"Transportation Then and Now.\" Entries must contain an image of a train, car, bus, etc. Images may be in color or black and white, and they will be judged by a panel of professional photographers along with our editorial team.\n\nTo enter the contest, visit www.historyinmotionmag.com/photo. There you can fill out an application form and upload your photo. You must also submit a statement affirming that the photo is your original work and that you hold all distribution rights to it. Participants may submit more than one entry, up to five total. Submissions must be received by June 30.\n\n──────────\n\nLetter\nHistory in Motion Magazine Headquarters\nDodson Building, Suite 3001\n489 Colony Street\nCharlotte, South Carolina 28202\n\nJuly 6\n\nSamuel Goetz\n1396 Valley View Drive\nBoston, MA 02114\n\nDear Mr. Goetz,\n\nCongratulations! You are a finalist in the History in Motion Photography Contest. Your photo entitled Time over Time was disqualified because it did not fit the contest's theme. However, Face the Forest really impressed the judging panel, so it has been selected as one of eight finalists.\n\nYou are invited to visit our headquarters on July 28 to take a tour, meet the other finalists, and participate in a photo shoot. We will cover your expenses for the flight to and from your home city as well as two nights of accommodations. Travel arrangements will be made by my assistant, and all contact regarding travel should go through her (contact details enclosed).\n\nI hope you will be able to visit us!\n\nThomas Porter\n\n──────────\n\nText Message\nFrom: Cathy Fairfield, 704-555-0141\nTo: Samuel Goetz, 617-555-0186\nJuly 8, 11:24 A.M.\n\nWe're so pleased that you'll be able to visit us. I will need your ID information in order to book the plane tickets. Please get this to me as quickly as possible so that I can secure the current low fare. Thanks, and let me know if you have any questions!",
+     "questions": [
+      {
+       "n": 186,
+       "question": "According to the information, what are contest entrants required to do?",
+       "choices": {
+        "A": "Declare that the submission is their own work",
+        "B": "Send a photograph of a particular size",
+        "C": "Include a description of their work with the entry",
+        "D": "Select an age category when signing up"
+       },
+       "answer": "A",
+       "explanation": "Văn bản 1 (Information) yêu cầu: \"You must also submit a statement affirming that the photo is your original work\" — người dự thi phải xác nhận ảnh là tác phẩm gốc của mình, đúng với A.",
+       "uncertain": false
+      },
+      {
+       "n": 187,
+       "question": "What is suggested about Time over Time?",
+       "choices": {
+        "A": "It did not arrive before the deadline.",
+        "B": "It was well liked by the contest's judges.",
+        "C": "It was printed in black and white.",
+        "D": "It did not contain a form of transportation."
+       },
+       "answer": "D",
+       "explanation": "Văn bản 2 (Letter) nói ảnh \"Time over Time was disqualified because it did not fit the contest's theme\". Chủ đề (văn bản 1) là \"Transportation Then and Now\" và ảnh phải có \"an image of a train, car, bus, etc.\", nên không hợp chủ đề nghĩa là ảnh không chứa phương tiện giao thông (D).",
+       "uncertain": false
+      },
+      {
+       "n": 188,
+       "question": "What does Mr. Porter say that his company will do?",
+       "choices": {
+        "A": "Take a trip to Mr. Goetz's hometown",
+        "B": "Inform the winners by e-mail",
+        "C": "Pay for a trip to South Carolina",
+        "D": "Give Mr. Goetz a job offer"
+       },
+       "answer": "C",
+       "explanation": "Kết hợp địa chỉ trụ sở ở văn bản 2 (Letter): \"Charlotte, South Carolina\" với lời mời \"visit our headquarters on July 28\" và \"We will cover your expenses for the flight... as well as two nights of accommodations\" — công ty của Mr. Porter sẽ chi trả chuyến đi tới South Carolina (C).",
+       "uncertain": false
+      },
+      {
+       "n": 189,
+       "question": "Who most likely is Ms. Fairfield?",
+       "choices": {
+        "A": "A judge in the photo contest",
+        "B": "Mr. Goetz's business partner",
+        "C": "The editor of History in Motion",
+        "D": "Mr. Porter's assistant"
+       },
+       "answer": "D",
+       "explanation": "Văn bản 2 (Letter) viết \"Travel arrangements will be made by my assistant, and all contact regarding travel should go through her\", còn văn bản 3 (Text Message) là Cathy Fairfield nhắn về việc đặt vé máy bay (\"I will need your ID information in order to book the plane tickets\"). Vậy Ms. Fairfield chính là trợ lý của Mr. Porter (D).",
+       "uncertain": false
+      },
+      {
+       "n": 190,
+       "question": "In the text message, the word \"secure\" in paragraph 1, line 5, is closest in meaning to",
+       "choices": {
+        "A": "defend",
+        "B": "convince",
+        "C": "attach",
+        "D": "guarantee"
+       },
+       "answer": "D",
+       "explanation": "Câu \"so that I can secure the current low fare\" (văn bản 3) nghĩa là giữ chắc/bảo đảm được mức giá vé thấp hiện tại, gần nghĩa nhất với \"guarantee\" (D).",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "triple",
+     "title": "",
+     "text": "Letter\nViola Dalton\n528 Coleman Road\nCharlotte, NC 28210\n\nJuly 6\n\nDear Ms. Dalton,\n\nIt was a pleasure to meet you at your interview on June 13. The entire hiring committee was impressed with your career history as well as your natural people skills. We are pleased that you have accepted the position of R&D Department Manager. Now that we have both signed the contract, it is official. Enclosed you will find a copy of the contract for your records.\n\nFor the orientation on July 17, you will be assigned to Group C. I look forward to seeing you there!\n\nSincerely,\n\nArina Saitou\nHR Manager, Caldwell Corporation\n\n──────────\n\nE-mail\nTo: Undisclosed Recipients\nFrom: Arina Saitou\nDate: July 13\nSubject: Orientation at the Caldwell Corporation\n\nDear New Employees,\n\nAs we have just moved into our headquarters building, most of you have not seen it yet. The building has a spacious patio area for taking breaks or eating lunch outside, and the Lansing River runs right past it, so the views are amazing. I'm sure you will love it as much as the rest of the staff does.\n\nTo expedite the check-in process at the orientation on July 17, employees of each department should report to different rooms. Please see the table below:\n\nDepartment(s) | Room\nGraphic Design | Room 308\nResearch & Development, Accounting | Room 233\nMarketing, Sales | Conference Room A\nAdministration, Human Resources | Conference Room B\n\nI have attached a copy of the orientation schedule. Please do not hesitate to contact me with any questions you may have.\n\nSincerely,\n\nArina Saitou\nHR Manager, Caldwell Corporation\n\n──────────\n\nSchedule\nCaldwell Corporation\nStaff Orientation, July 17\n\n8:30 A.M. — Check-in (report to assigned rooms)\n9:00 A.M. — Welcome speech, CEO Yan Huo\n9:30 A.M. — Tax Paperwork and Vacation Policies, Ruth Bova\n11:45 A.M. — Dress Code, Hamid Yemane\n12:15 P.M. — Lunch: During the lunch break, groups should visit the security office to be assigned ID badges according to the following schedule: Group A 12:15 P.M., Group B 12:30 P.M., Group C 12:45 P.M., Group D 1:00 P.M.\n1:15 P.M. — Online Activities from Work Computers, Jocelyn Lewis\n2:30 P.M. — Split Session: Managers will hear a talk from Director Diego Barros, non-management full-time employees will have a question-and-answer session with Prabha Haldar, and part-time employees will watch a training video\n4:45 P.M. — Building tour, Arina Saitou",
+     "questions": [
+      {
+       "n": 191,
+       "question": "Why did Ms. Saitou write the letter?",
+       "choices": {
+        "A": "To request further information",
+        "B": "To confirm a job appointment",
+        "C": "To make changes to a contract",
+        "D": "To set up an interview"
+       },
+       "answer": "B",
+       "explanation": "Văn bản 1 (Letter) xác nhận việc nhận việc: \"We are pleased that you have accepted the position of R&D Department Manager. Now that we have both signed the contract, it is official\" — thư nhằm xác nhận việc bổ nhiệm (B).",
+       "uncertain": false
+      },
+      {
+       "n": 192,
+       "question": "Where should Ms. Dalton go first on July 17?",
+       "choices": {
+        "A": "Room 308",
+        "B": "Room 233",
+        "C": "Conference Room A",
+        "D": "Conference Room B"
+       },
+       "answer": "B",
+       "explanation": "Kết hợp văn bản 1 (Letter) cho biết Ms. Dalton là \"R&D Department Manager\" với bảng phân phòng ở văn bản 2 (E-mail): \"Research & Development, Accounting | Room 233\" — cô phải đến Room 233 để check-in trước (B).",
+       "uncertain": false
+      },
+      {
+       "n": 193,
+       "question": "In the e-mail, the word \"rest\" in paragraph 1, line 4, is closest in meaning to",
+       "choices": {
+        "A": "relaxation",
+        "B": "majority",
+        "C": "halt",
+        "D": "remainder"
+       },
+       "answer": "D",
+       "explanation": "Cụm \"as much as the rest of the staff does\" (văn bản 2) nghĩa là \"những nhân viên còn lại\", gần nghĩa nhất với \"remainder\" (D).",
+       "uncertain": false
+      },
+      {
+       "n": 194,
+       "question": "What is implied about Ms. Dalton?",
+       "choices": {
+        "A": "She will get her questions answered by Ms. Haldar.",
+        "B": "She should go to the security office at 12:15 P.M.",
+        "C": "She will watch a video during the orientation.",
+        "D": "She will attend a session with Mr. Barros."
+       },
+       "answer": "D",
+       "explanation": "Ms. Dalton là \"R&D Department Manager\" (văn bản 1), mà lịch trình (văn bản 3) ghi \"Split Session\": \"Managers will hear a talk from Director Diego Barros\", nên cô sẽ tham dự phiên với Mr. Barros (D). (Nhóm C nên B sai vì Group C đến an ninh lúc 12:45 chứ không phải 12:15.)",
+       "uncertain": false
+      },
+      {
+       "n": 195,
+       "question": "What is NOT indicated as a topic covered in the orientation?",
+       "choices": {
+        "A": "Internet usage",
+        "B": "Taking time off",
+        "C": "What to wear to work",
+        "D": "Corporate structure"
+       },
+       "answer": "D",
+       "explanation": "Lịch trình (văn bản 3) có \"Vacation Policies\" (B: taking time off), \"Dress Code\" (C: what to wear) và \"Online Activities from Work Computers\" (A: Internet usage). Không có nội dung về cơ cấu tổ chức công ty, nên \"Corporate structure\" (D) là chủ đề KHÔNG được đề cập.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "ptype": "triple",
+     "title": "",
+     "text": "E-mail\nTo: Independent Filmmakers Club <memberslist@independentfilmc.com>\nFrom: Roger Stratton <rstratton@palletpost.net>\nDate: April 7\nSubject: Fresno Film Festival\n\nDear Members,\n\nAs discussed at our last meeting, there is an exciting opportunity next month at the Fresno Film Festival. Attending this event will not only allow us to learn from the creative work of others, but it will also further our cause of supporting independent filmmakers.\n\nBased on the interests expressed at the meeting, I think The Message on May 2 would be the best option for our group. We will meet at the Vargas Theater about half an hour before the show. I know many of you plan to drive, so please see the attached document, which includes parking information. Please e-mail me back to let me know if you'll be there so that I can purchase tickets for us all together.\n\nCheers!\n\nRoger\n\n──────────\n\nInformation\nFresno Film Festival: May 2 Screenings\n\nAgain and Again, 7:00 P.M. @ the Atkinson Theater, Duration: 112 minutes\nParticipating in the Fresno Film Festival for the first time, director Claudia Emerson brings viewers the long-anticipated sequel to her movie Again, a love story from the 1800s.\n\nWhispers of the Secrets, 7:00 P.M. @ the Vargas Theater, Duration: 87 minutes\nPresenting his debut film, director Daniel Adams offers a unique sci-fi film about supernatural forces in a small Canadian town.\n\nEverything I Am, 9:35 P.M. @ the Atkinson Theater, Duration: 93 minutes\nDirector Yuhan Zou continues to amaze audiences with his memorable characters and fast-moving plots in this crime drama.\n\nThe Message, 9:05 P.M. @ the Vargas Theater, Duration: 102 minutes\nWith her first-ever documentary, director Sara Compton branches out from her usual comedy films as she explores marketing in the modern age.\n\nParking for the Atkinson Theater is available on Webber Street and Cambridge Road. Parking for the Vargas Theater is available on McCray Street and Faulkner Avenue.\n\n──────────\n\nNotice\nNOTICE OF CONSTRUCTION: April 18\n\nThe city of Fresno is announcing a planned closure of McCray Street from April 29 – May 31. The entire road will be closed to driving and parking for the duration of the construction. Workers will add five feet on both sides of the road so that a turning lane may be added. This will improve safety and relieve traffic congestion. Questions regarding the project should be directed to the Fresno Department of Transportation at 555-0133, extension 27.",
+     "questions": [
+      {
+       "n": 196,
+       "question": "In the e-mail, the word \"further\" in paragraph 1, line 3, is closest in meaning to",
+       "choices": {
+        "A": "publicize",
+        "B": "extend",
+        "C": "recommend",
+        "D": "advance"
+       },
+       "answer": "D",
+       "explanation": "Câu \"it will also further our cause of supporting independent filmmakers\" (văn bản 1) nghĩa là thúc đẩy/đưa mục tiêu tiến xa hơn, gần nghĩa nhất với \"advance\" (D).",
+       "uncertain": false
+      },
+      {
+       "n": 197,
+       "question": "Who has made the fewest films?",
+       "choices": {
+        "A": "Claudia Emerson",
+        "B": "Daniel Adams",
+        "C": "Yuhan Zou",
+        "D": "Sara Compton"
+       },
+       "answer": "B",
+       "explanation": "Văn bản 2 (Information) mô tả Daniel Adams \"Presenting his debut film\" — phim đầu tay, tức làm ít phim nhất (B). (Claudia Emerson tuy dự festival lần đầu nhưng phim là \"sequel to her movie Again\", tức đã có ít nhất 2 phim.)",
+       "uncertain": false
+      },
+      {
+       "n": 198,
+       "question": "What is indicated about the Fresno Film Festival?",
+       "choices": {
+        "A": "It features films from a variety of genres.",
+        "B": "It does not charge audience members for admission.",
+        "C": "It will be held at three different locations.",
+        "D": "It was founded by the Independent Filmmakers Club."
+       },
+       "answer": "A",
+       "explanation": "Văn bản 2 (Information) liệt kê nhiều thể loại: \"a love story\", \"sci-fi film\", \"crime drama\", \"documentary\" (và đạo diễn vốn làm \"comedy films\") — festival có phim thuộc nhiều thể loại khác nhau (A).",
+       "uncertain": false
+      },
+      {
+       "n": 199,
+       "question": "Where will the Independent Filmmakers Club members most likely park on May 2?",
+       "choices": {
+        "A": "Webber Street",
+        "B": "Cambridge Road",
+        "C": "McCray Street",
+        "D": "Faulkner Avenue"
+       },
+       "answer": "D",
+       "explanation": "Kết hợp 3 văn bản: email (văn bản 1) chọn \"The Message\" và hẹn ở \"the Vargas Theater\"; thông tin (văn bản 2) ghi bãi đỗ cho Vargas là \"McCray Street and Faulkner Avenue\"; nhưng thông báo (văn bản 3) cho biết \"McCray Street from April 29 – May 31\" bị đóng cả lái xe lẫn đỗ xe (bao gồm ngày 2/5). Vậy họ sẽ đỗ ở Faulkner Avenue (D).",
+       "uncertain": false
+      },
+      {
+       "n": 200,
+       "question": "According to the notice, what is the purpose of the construction work?",
+       "choices": {
+        "A": "To install some safety equipment",
+        "B": "To repair damaged areas",
+        "C": "To make a road wider",
+        "D": "To conform to new regulations"
+       },
+       "answer": "C",
+       "explanation": "Thông báo (văn bản 3) nêu \"Workers will add five feet on both sides of the road so that a turning lane may be added\" — mở rộng đường để thêm làn rẽ, tức mục đích là làm đường rộng hơn (C).",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
