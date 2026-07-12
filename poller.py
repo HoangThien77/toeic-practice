@@ -100,6 +100,7 @@ def main():
             reassemble(src, local_dir)
             manifest = {
                 "id": uid, "name": remote.get("name", uid), "kind": remote.get("kind", "auto"),
+                "multi": bool(remote.get("multi")),
                 "files": [{"name": f, "size": os.path.getsize(os.path.join(local_dir, f))}
                           for f in os.listdir(local_dir) if f != "manifest.json"],
                 "uploadedAt": remote.get("uploadedAt"), "status": "pending", "fromWeb": True,
@@ -112,16 +113,45 @@ def main():
 
         elif os.path.isfile(local_mf):
             local = json.load(open(local_mf))
-            # watchdog: "processing" quá 45 phút mà log im lặng >20 phút → coi là treo, đánh dấu lỗi
+            # watchdog: coi là TREO khi KHÔNG có tiến triển thật trong thời gian dài.
+            # KHÔNG dựa vào process.log (claude -p đệm stdout, gần như không ghi lúc
+            # chạy → luôn tưởng "im lặng"). Thay vào đó nhìn các dấu hiệu tiến triển:
+            # file trung gian claude ghi trong thư mục đề, commit git (pipeline commit
+            # mỗi đề), và file đề mới trong data/custom. Đề tổng hợp nhiều test chạy
+            # >45' là bình thường — chỉ giết khi im lặng lâu hoặc vượt trần cứng.
             if local.get("status") == "processing":
+                process_log = os.path.join(local_dir, "process.log")
+                try:
+                    tail = open(process_log, "rb").read()[-1200:].decode("utf-8", "replace")
+                except OSError:
+                    tail = ""
+                if "Not logged in" in tail or "Please run /login" in tail:
+                    log(f"{uid}: Claude Code chưa đăng nhập — đánh dấu lỗi ngay")
+                    local["status"] = "error"
+                    local["error"] = "Claude Code chưa đăng nhập — mở Terminal chạy `claude /login` rồi thử lại"
+                    json.dump(local, open(local_mf, "w"), ensure_ascii=False, indent=1)
+                    push_status(uid, "error", {"error": local["error"]})
+                    continue
                 started = (local.get("processStartedAt") or 0) / 1000
-                log_path = os.path.join(local_dir, "process.log")
-                log_age = time.time() - os.path.getmtime(log_path) if os.path.isfile(log_path) else 1e9
-                if time.time() - started > 45 * 60 and log_age > 20 * 60:
-                    log(f"{uid}: xử lý treo quá hạn — đánh dấu lỗi để có thể thử lại")
+                watch = [os.path.join(local_dir, f) for f in os.listdir(local_dir)]
+                watch += [os.path.join(APP, ".git", "logs", "HEAD"), os.path.join(APP, ".git", "index")]
+                cdir = os.path.join(APP, "data", "custom")
+                if os.path.isdir(cdir):
+                    watch += [os.path.join(cdir, f) for f in os.listdir(cdir) if uid in f]
+                newest = 0
+                for p in watch:
+                    try:
+                        newest = max(newest, os.path.getmtime(p))
+                    except OSError:
+                        pass
+                idle = time.time() - newest if newest else 1e9
+                elapsed = time.time() - started
+                # treo = đã qua 10' khởi động mà 30' không có tiến triển nào; hoặc trần cứng 6 giờ
+                if (elapsed > 10 * 60 and idle > 30 * 60) or elapsed > 6 * 3600:
+                    log(f"{uid}: không tiến triển ~{int(idle//60)}' — đánh dấu lỗi để thử lại")
                     subprocess.run(["pkill", "-f", uid], env=GIT_ENV, capture_output=True)
                     local["status"] = "error"
-                    local["error"] = "Xử lý bị treo quá hạn — hãy bấm Thử lại"
+                    local["error"] = "Xử lý bị treo (không tiến triển) — hãy bấm Thử lại"
                     json.dump(local, open(local_mf, "w"), ensure_ascii=False, indent=1)
             if local.get("status") in ("done", "error") and remote.get("status") not in ("done", "error"):
                 log(f"{uid}: đồng bộ trạng thái {local['status']} lên web")

@@ -70,11 +70,21 @@ def process_upload(upload_id):
     manifest["processStartedAt"] = int(time.time() * 1000)
     json.dump(manifest, open(mf_path, "w"), ensure_ascii=False, indent=1)
 
+    multi_hint = (
+        "\n\nLƯU Ý QUAN TRỌNG: người dùng đã đánh dấu file này GỒM NHIỀU ĐỀ trong 1 (đề tổng hợp). "
+        "BẮT BUỘC tách thành từng đề riêng theo mục 1c của PIPELINE.md — mỗi đề ra 1 file "
+        "data/custom/<id>-testNN-<kind>.json độc lập, TUYỆT ĐỐI KHÔNG gộp tất cả câu vào 1 test. "
+        "Xử lý theo lô từng đề, commit dần để không bị treo quá hạn."
+        if manifest.get("multi") else
+        "\n\nLƯU Ý: hãy tự kiểm tra xem file có phải đề tổng hợp NHIỀU ĐỀ trong 1 không (số câu reset "
+        "về 101 nhiều lần, lặp header 'READING TEST'/'Part 5', bìa 'TEST 1/2/3…'). Nếu đúng, TÁCH thành "
+        "từng đề riêng theo mục 1c PIPELINE.md — không gộp chung thành 1 đề."
+    )
     prompt = f"""Bạn đang ở project TOEIC app tại {ROOT}.
 Nhiệm vụ: số hóa đề TOEIC vừa được upload trong thư mục uploads/inbox/{upload_id}/ thành bài luyện tập chạy được trong app.
 
 Đọc kỹ và làm đúng theo quy trình trong file {ROOT}/PIPELINE.md (bắt buộc đọc trước khi làm).
-Manifest của đề: uploads/inbox/{upload_id}/manifest.json (tên đề, danh sách file, loại đề nếu có).
+Manifest của đề: uploads/inbox/{upload_id}/manifest.json (tên đề, danh sách file, loại đề, cờ "multi" nếu là đề tổng hợp).{multi_hint}
 
 Khi hoàn tất: cập nhật manifest.json của đề với "status": "done" và "resultTestIds": [danh sách test id đã tạo].
 Sau đó, nếu thư mục project là git repo có remote: chạy `git add -A && git commit -m "Thêm đề: <tên đề>" && git push` để web online (GitHub Pages) tự cập nhật đề mới.
@@ -90,33 +100,53 @@ Nếu thất bại không khắc phục được: đặt "status": "error" và "
         "Bash(mkdir:*)", "Bash(cp:*)", "Bash(mv:*)", "Bash(ls:*)", "Bash(rm:*)",
         "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)",
     ]
-    # Prompt đưa qua file; chạy qua zsh LOGIN shell để có môi trường đầy đủ như
-    # terminal thật (poller chạy dưới launchd có env tối giản — từng khiến claude
-    # treo im lặng khi spawn trực tiếp). caffeinate -i: giữ máy không ngủ khi xử lý.
+    # Prompt đưa qua file. Trên macOS dùng caffeinate để máy không ngủ; trên Linux
+    # VPS thì chạy trực tiếp để poller có thể hoạt động như cloud processor.
     prompt_path = os.path.join(folder, "prompt.txt")
     with open(prompt_path, "w") as pf:
         pf.write(prompt)
     import shlex
+    keep_awake = "/usr/bin/caffeinate -i " if os.path.isfile("/usr/bin/caffeinate") else ""
     cmd = (
-        f'cd {shlex.quote(ROOT)} && exec /usr/bin/caffeinate -i {shlex.quote(claude)} '
+        f'cd {shlex.quote(ROOT)} && exec {keep_awake}{shlex.quote(claude)} '
         f'-p "$(cat {shlex.quote(prompt_path)})" --permission-mode acceptEdits '
         f'--allowedTools {shlex.quote(" ".join(allowed))}'
     )
+    shell = "/bin/zsh" if os.path.isfile("/bin/zsh") else "/bin/sh"
     env = {
         **os.environ,
         "PATH": "/opt/homebrew/bin:/usr/local/bin:" + os.environ.get("PATH", "/usr/bin:/bin:/usr/sbin:/sbin"),
         "HOME": os.path.expanduser("~"),
-        "SHELL": "/bin/zsh",
+        "SHELL": shell,
         "LANG": os.environ.get("LANG", "en_US.UTF-8"),
         "TERM": "dumb",
     }
-    subprocess.Popen(
-        # zsh KHÔNG login (-c): tránh nạp profile người dùng (đụng dữ liệu app khác
+    proc = subprocess.Popen(
+        # Shell KHÔNG login (-c): tránh nạp profile người dùng (đụng dữ liệu app khác
         # → macOS hỏi quyền mỗi lần). Env cần thiết đã khai báo tường minh ở trên.
-        ["/bin/zsh", "-c", cmd],
+        [shell, "-c", cmd],
         cwd=ROOT, stdout=log, stderr=log, env=env,
         stdin=subprocess.DEVNULL, start_new_session=True,
     )
+    log.close()
+    # Claude auth/env errors fail immediately; surface them now instead of
+    # leaving the upload as "processing" until poller watchdog times out.
+    time.sleep(1.5)
+    if proc.poll() is not None and proc.returncode != 0:
+        try:
+            tail = open(os.path.join(folder, "process.log"), "rb").read()[-1200:].decode("utf-8", "replace").strip()
+        except Exception:
+            tail = ""
+        if "Not logged in" in tail or "Please run /login" in tail:
+            msg = "Claude Code chưa đăng nhập — mở Terminal chạy `claude /login` rồi thử lại"
+        else:
+            msg = "Claude Code thoát ngay khi khởi động" + (f": {tail.splitlines()[-1]}" if tail else "")
+        manifest = json.load(open(mf_path))
+        if manifest.get("status") == "processing":
+            manifest["status"] = "error"
+            manifest["error"] = msg
+            json.dump(manifest, open(mf_path, "w"), ensure_ascii=False, indent=1)
+        return msg
     return None
 
 
@@ -189,6 +219,7 @@ class Handler(SimpleHTTPRequestHandler):
             name = (body.get("name") or "").strip() or "Đề mới"
             files = body.get("files") or []
             kind = body.get("kind") or "auto"
+            multi = bool(body.get("multi"))
             if not files:
                 return self._json(400, {"error": "Chưa chọn file nào"})
             saved = []
@@ -208,7 +239,7 @@ class Handler(SimpleHTTPRequestHandler):
                     out.write(raw)
                 saved.append({"name": fname, "size": len(raw)})
             manifest = {
-                "id": upload_id, "name": name, "kind": kind,
+                "id": upload_id, "name": name, "kind": kind, "multi": multi,
                 "files": saved, "uploadedAt": int(time.time() * 1000),
                 "status": "pending",
             }

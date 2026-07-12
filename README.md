@@ -1,8 +1,8 @@
 # TOEIC Practice — Web luyện thi TOEIC cá nhân
 
-🌐 **Bản online**: https://hoangthien77.github.io/toeic-practice/ (GitHub Pages — dùng được mọi tính năng trừ upload đề mới).
+🌐 **Bản online**: https://hoangthien77.github.io/toeic-practice/ (GitHub Pages — dùng để học/làm bài; upload đề mới trên web chỉ gửi vào hàng chờ cloud, đề được xử lý khi máy cá nhân bật poller).
 
-**Cập nhật web sau khi có đề mới**: xử lý đề trên máy như bình thường (upload → Xử lý ngay), xong chạy:
+**Cập nhật web sau khi có đề mới**: đề gửi từ bản online sẽ nằm trong hàng chờ cloud. Khi máy cá nhân bật poller, máy tự kéo đề về xử lý, commit/push và web tự cập nhật. Nếu xử lý thủ công trên máy, sau khi xong chạy:
 ```bash
 cd toeic-app && git add -A && git commit -m "them de moi" && git push
 ```
@@ -38,7 +38,8 @@ python3 server.py
 - **Chấm điểm**: số câu đúng theo part + điểm quy đổi ước tính thang 495.
 - **Xuất file đáp án**: sau khi nộp bài, bấm "📥 Xuất file đáp án đã chọn" để tải file .txt chỉ chứa các đáp án bạn đã chọn (không kèm đáp án đúng hay điểm) — tiện in ra hoặc gửi cho giáo viên chấm.
 - **Công cụ luyện nghe cho người mất gốc**: nghe chậm 0.5x/0.75x + lặp đoạn (nút ở thanh audio); transcript hiện theo audio kiểu karaoke (bấm dòng để tua); bản dịch tiếng Việt từng đoạn; chế độ **✍️ Chép chính tả** chấm từng từ; **📒 Sổ từ vựng** 200+ từ trích từ chính bộ đề kèm flashcard ôn lặp lại ngắt quãng (từ Listening phát được đúng đoạn audio chứa từ).
-- **📤 Upload đề mới**: bấm "Tải đề mới lên" ở trang chủ, chọn file PDF đề (Reading/Listening/cả hai) + file audio nếu có, rồi bấm "⚙️ Xử lý ngay" — Claude Code chạy nền tự đọc đề, tạo đáp án + giải thích tiếng Việt và thêm vào danh sách đề (~5–15 phút). Cần Claude Code CLI đã đăng nhập trên máy. Muốn cô giáo tự upload từ máy cô (cùng mạng): chạy `python3 server.py 8765 --lan` rồi cho cô truy cập `http://<IP-máy-bạn>:8765`.
+- **📤 Upload đề mới**: trên bản online, bấm "Tải đề mới lên" để gửi PDF/audio vào hàng chờ cloud; khi máy cá nhân bật poller, đề sẽ được kéo về xử lý bằng Claude Code rồi tự cập nhật lên web. Khi chạy app local trên máy, upload đề sẽ lưu vào máy và khởi động xử lý ngay. Cần Claude Code CLI đã đăng nhập trên máy xử lý.
+  - **Đề tổng hợp nhiều đề trong 1 file** (sách "RC1000", "10 Actual Tests"…): tick ô **"📚 File gồm nhiều đề"** khi upload — hệ thống tự **tách thành từng đề riêng** (mỗi đề 1 mục trong danh sách), không gộp chung. Kể cả không tick, pipeline vẫn tự phát hiện & tách (xem `PIPELINE.md` mục 1c).
 - **Lịch sử làm bài** lưu trong trình duyệt (localStorage).
 
 ## Lưu ý quan trọng

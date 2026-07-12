@@ -35,6 +35,27 @@ Tài liệu này dành cho Claude Code khi xử lý một đề trong `uploads/i
 ### 1b. Kiểm tra chéo số hóa (verify pass — BẮT BUỘC)
 Sau khi mỗi part số hóa xong: phóng 1 agent digitizer KHÁC (độc lập) cầm JSON + trang PDF gốc, đối chiếu TỪNG CÂU: số câu, nội dung stem, đủ 4 (hoặc 3) choices, đúng chữ. Sai đâu sửa đó. Chạy song song với việc số hóa các part khác — không chờ nhau.
 
+### 1c. Đề TỔNG HỢP nhiều test trong 1 file → TÁCH TỰ ĐỘNG (BẮT BUỘC kiểm tra)
+Nhiều file (nhất là sách luyện Hàn/Nhật kiểu "RC1000", "LC1000", "10 Actual Tests"…) gộp NHIỀU đề hoàn chỉnh trong 1 PDF. **Tuyệt đối KHÔNG gộp tất cả vào 1 test object** ("dính chùm") — mỗi đề phải ra 1 test riêng, độc lập trong app.
+
+**Phát hiện (ngay ở bước khảo sát 1):** nếu `manifest.json` có `"multi": true` → người dùng đã xác nhận là đề tổng hợp, CHẮC CHẮN phải tách. Ngoài ra tự phát hiện qua bản đồ trang nếu có BẤT KỲ dấu hiệu nào lặp lại (kể cả khi `multi` không được set):
+- Số câu **RESET** (vd nhảy về 101 hoặc về 1) nhiều lần trong cùng file.
+- Lặp lại header mở đầu: "READING TEST" / "Part 5 Directions" / "LISTENING TEST" / "Part 1".
+- Trang bìa/divider "TEST 1", "TEST 2"… hoặc "Actual Test N", "실전 TEST N".
+- Lặp lại dòng kết thúc "Stop! This is the end of the test".
+- Số đề = số lần reset. Đối chiếu với MỤC LỤC (CONTENTS) nếu có để chốt số đề + trang bắt đầu mỗi đề.
+
+**Quy tắc tách:**
+- Lập **bản đồ ranh giới**: mỗi đề = 1 khoảng trang `[trang bắt đầu … trang kết thúc]`. Mỗi agent số hóa chỉ làm việc trên khoảng trang của ĐÚNG đề mình phụ trách.
+- Mỗi đề xuất **1 file riêng** `data/custom/<upload-id>-testNN-<kind>.json` (NN = 2 chữ số: `01`,`02`… để sort đúng). Một đề vừa có listening + reading thì ra 2 file (`-testNN-listening`, `-testNN-reading`).
+- `id`: `<upload-id>-test01-reading`. `title`: `"<tên manifest> — Test 01 (Reading)"`. `desc`: ghi rõ vị trí, vd `"Đề 1/10 trong file gốc — Part 5–7, câu 101–200"`.
+- Số câu `n` giữ nguyên như in trên đề (mỗi đề thường 101–200) — **KHÔNG cần offset**: mỗi test object độc lập, `n` chỉ cần không trùng TRONG cùng 1 đề.
+- `resultTestIds` trong manifest liệt kê **TẤT CẢ** id đã tạo (vd 10 id cho 10 đề).
+
+**Bảng đáp án gom ở cuối sách (rất hay gặp):** đáp án thường in dồn ở cuối, MỖI ĐỀ 1 trang có tiêu đề "TEST N" (vd trang key TEST 1 liệt kê 101–200). Map trang key → đúng đề theo nhãn "TEST N", dùng làm **đáp án gốc 100%** (áp dụng bước 1: bỏ giải 2 lần, chỉ viết giải thích + tự giải nhanh 1 lần để bắt key in sai). Transcript nghe (nếu có) cũng thường gom cuối sách — tách theo đề tương tự.
+
+**Xử lý theo LÔ để không bị watchdog kill (BẮT BUỘC với file ≥3 đề):** file nhiều đề = rất nhiều câu (10 đề Reading = 1000 câu), làm 1 lượt sẽ quá 45' và bị đánh dấu treo. Làm **từng đề một, hoàn tất trọn vẹn rồi mới sang đề kế**: mỗi đề xong → ghi file custom + `assemble.py` + `node --check` + commit ngay (mỗi đề 1 commit "Thêm đề: … Test NN"). Như vậy dừng giữa chừng vẫn giữ được các đề đã xong, và web cập nhật dần từng đề. Trong mỗi đề vẫn phóng subagent song song tối đa như thường.
+
 ### 2. Số hóa nội dung (subagent song song, chia theo part)
 - Mỗi subagent Read trực tiếp PDF theo trang (Read tool hỗ trợ `pages`), xuất JSON trung gian vào thư mục upload.
 - Reading P5: `{questions:[{number, question("..._____..."), choices{A..D}}]}`
@@ -75,7 +96,7 @@ Sau khi mỗi part số hóa xong: phóng 1 agent digitizer KHÁC (độc lập)
 - Listening: kèm transcript đã làm sạch cho từng câu (P1/P2 dạng spoken) / từng block (P3/P4).
 
 ### 6. Ghép thành test object và build
-Tạo `data/custom/<test-id>.json` cho MỖI section (một upload có thể ra 2 test: một listening, một reading). `<test-id>` đặt theo upload, vd `de-co-giao-15-listening`. Schema:
+Tạo `data/custom/<test-id>.json` cho MỖI section (một upload có thể ra 2 test: một listening, một reading — hoặc RẤT NHIỀU test nếu là file tổng hợp, xem bước 1c). `<test-id>` đặt theo upload, vd `de-co-giao-15-listening` (hoặc `<upload-id>-test03-reading` khi tách nhiều đề). Schema:
 
 ```jsonc
 {

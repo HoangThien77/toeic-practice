@@ -630,14 +630,14 @@
         <ol>
           <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
           <li>Kéo thả (hoặc bấm chọn) file PDF đề; nếu đề có bài nghe thì thả thêm file MP3.</li>
-          <li>Bấm "Gửi đề" — xong! Đề sẽ tự được số hóa và xuất hiện trên web này sau vài giờ.</li>
+          <li>Bấm "Gửi đề" — xong! Đề sẽ nằm trong hàng chờ và được xử lý khi máy cá nhân bật poller.</li>
         </ol>
       </aside>` : "";
     return `
       <div class="hero"><h1>${cloud ? "Gửi đề mới" : "Tải đề mới lên"}</h1>
         <p class="home-sub">${cloud
-          ? "Chọn file đề PDF (kèm audio nếu có bài nghe) rồi gửi — hệ thống tự số hóa, tạo đáp án + giải thích tiếng Việt và đưa đề lên web này, thường trong vài giờ."
-          : 'Chọn file đề PDF (kèm audio nếu có bài nghe). Sau khi tải lên, bấm "Xử lý ngay" — Claude tự đọc đề, tạo đáp án + giải thích (~5–15 phút).'}</p>
+          ? "Chọn file đề PDF (kèm audio nếu có bài nghe) rồi gửi vào hàng chờ. Khi máy cá nhân bật poller, đề sẽ được kéo về, số hóa, tạo đáp án + giải thích tiếng Việt và tự cập nhật lên web này."
+          : 'Chọn file đề PDF (kèm audio nếu có bài nghe). App sẽ lưu đề vào máy và tự bắt đầu xử lý ngay — Claude tự đọc đề, tạo đáp án + giải thích (~5–15 phút).'}</p>
       </div>
       <div class="upload-wrap${cloud ? " has-guide" : ""}">
       <div class="up-card">
@@ -653,6 +653,10 @@
               <option value="listening">Chỉ Listening</option>
               <option value="both">Cả Listening + Reading</option>
             </select>
+            <label class="up-check" style="display:flex;align-items:flex-start;gap:8px;margin-top:12px;font-weight:500;cursor:pointer;line-height:1.35">
+              <input type="checkbox" id="up-multi" style="width:16px;height:16px;flex:none;margin-top:2px">
+              <span>📚 File gồm <b>nhiều đề</b> trong 1 (sách 5/10 đề, "RC1000"…) — tự động tách thành từng đề riêng, không gộp chung.</span>
+            </label>
           </div>
         </div>
         <div class="up-step">
@@ -681,7 +685,7 @@
         </div>
         <div id="up-status"></div>
         <div class="up-actions">
-          <button id="up-submit" class="btn btn-primary" onclick="App.${cloud ? "submitCloudUpload" : "submitUpload"}()">${cloud ? "Gửi đề" : "Tải lên"}</button>
+          <button id="up-submit" class="btn btn-primary" onclick="App.${cloud ? "submitCloudUpload" : "submitUpload"}()">${cloud ? "Gửi đề" : "Tải lên & xử lý"}</button>
           <button class="btn" onclick="App.goHome()">Huỷ</button>
         </div>
       </div>
@@ -760,6 +764,7 @@
   async function submitCloudUpload() {
     const name = $("#up-name").value.trim();
     const kind = $("#up-kind").value;
+    const multi = !!($("#up-multi") && $("#up-multi").checked);
     const files = [...$("#up-pdf").files, ...$("#up-audio").files];
     const status = $("#up-status");
     if (!name) { status.textContent = "Hãy đặt tên cho đề."; return; }
@@ -771,7 +776,7 @@
     try {
       const begin = await fetch(CLOUD_INBOX.url + "/begin", {
         method: "POST", headers: { ...hdr, "Content-Type": "application/json" },
-        body: JSON.stringify({ name, kind, files: files.map((f) => f.name) }),
+        body: JSON.stringify({ name, kind, multi, files: files.map((f) => f.name) }),
       });
       const bj = await begin.json();
       if (!bj.ok) throw new Error(bj.error || "Không tạo được hàng chờ");
@@ -793,7 +798,8 @@
       if (!(await fin.json()).ok) throw new Error("Không chốt được hàng chờ");
       goHome();
       openModal(`<h3>Đã gửi đề vào hàng chờ ✓</h3>
-        <p>"${esc(name)}" sẽ được máy xử lý tự động số hóa (tạo đáp án + giải thích tiếng Việt) rồi xuất hiện trên web này — thường trong vài giờ. Theo dõi trạng thái ở mục "Đề mới upload".</p>
+        <p>"${esc(name)}" đã được lưu vào hàng chờ cloud. Khi máy cá nhân bật poller, đề sẽ được kéo về xử lý và web này sẽ tự cập nhật sau khi xử lý xong.</p>
+        <p>Bạn có thể tắt điện thoại ngay; file vẫn nằm trong hàng chờ ở mục "Đề mới upload".</p>
         <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     } catch (e) {
       status.textContent = "Lỗi: " + e.message;
@@ -804,6 +810,7 @@
   async function submitUpload() {
     const name = $("#up-name").value.trim();
     const kind = $("#up-kind").value;
+    const multi = !!($("#up-multi") && $("#up-multi").checked);
     const pdfs = [...$("#up-pdf").files];
     const audios = [...$("#up-audio").files];
     const status = $("#up-status");
@@ -818,16 +825,25 @@
         status.textContent = `Đang đọc file ${i + 1}/${all.length}: ${all[i].name}…`;
         files.push({ name: all[i].name, data: await fileToB64(all[i]) });
       }
-      status.textContent = "Đang tải lên server…";
+      status.textContent = "Đang lưu đề vào máy…";
       const ctrl = new AbortController();
       const timeout = setTimeout(() => ctrl.abort(), 120000);
-      const r = await fetch("/api/upload", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, kind, files }), signal: ctrl.signal });
+      const r = await fetch("/api/upload", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, kind, multi, files }), signal: ctrl.signal });
       clearTimeout(timeout);
       if (!r.ok) { status.textContent = `Server từ chối (HTTP ${r.status}) — bạn có đang chạy app trên máy không?`; btn.disabled = false; return; }
       const j = await r.json();
       if (j.error) { status.textContent = "Lỗi: " + j.error; btn.disabled = false; return; }
+      status.textContent = "Đang khởi động Claude xử lý đề…";
+      const pr = await fetch("/api/process", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: j.id }) });
+      const pj = await pr.json();
       goHome();
-      openModal(`<h3>Đã tải đề lên ✓</h3><p>"${esc(name)}" đã vào danh sách chờ. Bấm <b>Xử lý ngay</b> ở mục "Đề mới upload" để Claude số hóa đề (khoảng 5–15 phút, có thể tiếp tục dùng app trong lúc chờ).</p>
+      if (!pr.ok || pj.error) {
+        openModal(`<h3>Đã lưu đề, nhưng chưa xử lý được</h3><p>${esc(pj.error || "Không khởi động được Claude Code.")}</p>
+        <p>Bạn có thể thử lại bằng nút <b>Thử lại</b> ở mục "Đề mới upload".</p>
+        <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
+        return;
+      }
+      openModal(`<h3>Đã lưu đề và bắt đầu xử lý ✓</h3><p>"${esc(name)}" đang được Claude số hóa trên máy. Khi xong, pipeline sẽ tự ghép dữ liệu, commit/push và web online sẽ cập nhật sau khoảng 1 phút.</p>
         <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     } catch (e) {
       status.textContent = "Lỗi khi tải lên: " + e.message;
