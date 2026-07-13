@@ -230,6 +230,17 @@ if CUSTOM_DIR.is_dir():
         if ct["kind"] == "listening" and not ct.get("audioSrc"):
             print(f"SKIP {cf.name}: listening test without audioSrc")
             continue
+        for p in ct.get("parts", []):
+            if p.get("part") in (6, 7):
+                for it in p.get("items", []):
+                    if not it.get("questions"):
+                        continue
+                    first_q = it["questions"][0]["n"]
+                    img = it.get("img")
+                    if not img:
+                        raise AssertionError(f"{ct['id']} part {p['part']} q{first_q}: missing passage snapshot img")
+                    if not (pathlib.Path(__file__).parent.parent / img).is_file():
+                        raise AssertionError(f"{ct['id']} part {p['part']} q{first_q}: missing image file {img}")
         ct.setdefault("custom", True)
         tests[ct["id"]] = ct
         print(f"custom test loaded: {ct['id']} ({cf.name})")

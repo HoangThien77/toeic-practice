@@ -140,6 +140,7 @@ Lưu ý bắt buộc:
 - P2 choices chỉ có A,B,C. P1 A-D với giá trị "" (nội dung nằm trong spoken).
 - Mỗi test: số câu `n` không trùng nhau. `answer` phải là key có trong `choices`.
 - Chạy `python3 data/assemble.py` — phải thấy dòng `custom test loaded: <id>` và sanity check pass.
+  - Lưu ý: `assemble.py` sẽ FAIL nếu custom Reading Part 6/7 thiếu `img` hoặc file ảnh không tồn tại; tuyệt đối không để app fallback text-only.
 - `node --check js/data.js` phải OK.
 
 ### 7. Hoàn tất

@@ -459,7 +459,8 @@
        "explanation": "Câu trước nói đồng hồ đỗ xe sẽ không bị gỡ ngay, nên nối tiếp hợp lý là 'Signs will be posted to notify motorists' (đặt biển báo để thông báo cho tài xế). Các phương án khác lạc đề hoặc mâu thuẫn (đỗ xe đã miễn phí).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q131.jpg"
     },
     {
      "ptype": "e-mail",
@@ -514,7 +515,8 @@
        "explanation": "'This applies to both sales and administration employees' nối tiếp quy định về làm thêm giờ ('This' chỉ chính sách vừa nêu), áp dụng cho cả hai bộ phận. Các phương án khác lạc đề (ngân sách, làm cuối tuần, tiền lương).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q135.jpg"
     },
     {
      "ptype": "announcement",
@@ -569,7 +571,8 @@
        "explanation": "Câu này nêu thêm một ví dụ tương tự (đổi khoai tây chiên lấy salad) song song với ví dụ trước, nên dùng liên từ 'Similarly' (tương tự). 'As a result' chỉ kết quả, không hợp mạch văn.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q139.jpg"
     },
     {
      "ptype": "notice",
@@ -624,7 +627,8 @@
        "explanation": "'aside from' = ngoại trừ: sự cố ảnh hưởng mọi phần của tòa nhà TRỪ South Tower (đã nâng cấp quý trước). 'such as' (ví dụ như) trái logic vì South Tower là ngoại lệ, không phải ví dụ.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q143.jpg"
     }
    ]
   },
@@ -663,7 +667,8 @@
        "explanation": "Cuối phiếu viết 'The deposit will be paid back once the device is returned', mà tiền cọc (deposit) là $50.00, nên khi trả máy ông sẽ được hoàn lại 50 đô la.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q147.jpg"
     },
     {
      "ptype": "letter",
@@ -696,7 +701,8 @@
        "explanation": "Bà Salazar nói nên dán thông báo nhắc khách và viết 'I've enclosed one as an example' — tức bà đính kèm một mẫu thông báo (sample notice).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q149.jpg"
     },
     {
      "ptype": "text-message chain",
@@ -729,7 +735,8 @@
        "explanation": "Saskia đề xuất để mấy thùng mẫu vào văn phòng ai đó ('put them in someone's office'), Xie đáp 'I'm sure Ms. Hudson wouldn't mind' — ngụ ý văn phòng bà Hudson có chỗ chứa được.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q151.jpg"
     },
     {
      "ptype": "advertisement",
@@ -762,7 +769,8 @@
        "explanation": "Phiếu ghi 'This coupon can be used toward one of the following' — chỉ được dùng cho MỘT trong các ưu đãi, tức chỉ có giá trị cho một ưu đãi duy nhất.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q153.jpg"
     },
     {
      "ptype": "advertisement",
@@ -808,7 +816,8 @@
        "explanation": "Ưu đãi ghi giảm 15% 'to anyone who registers for our mailing list to receive the TR2 monthly newsletter' — khách đăng ký nhận bản tin (ấn phẩm) sẽ được ưu đãi.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q155.jpg"
     },
     {
      "ptype": "advertisement",
@@ -854,7 +863,8 @@
        "explanation": "Voucher viết 'Present your Fairmont Rewards Membership Card ... to receive an additional 5% off' — cho thấy cửa hàng có chương trình khách hàng thân thiết (thẻ thành viên).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q158.jpg"
     },
     {
      "ptype": "notice",
@@ -900,7 +910,8 @@
        "explanation": "Thông báo viết 'directed to Scott Porter, as his team will be carrying out the work', mà 'maintenance crew' là bên thực hiện kiểm tra — nên ông Porter là quản lý đội bảo trì.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q161.jpg"
     },
     {
      "ptype": "memo",
@@ -959,7 +970,8 @@
        "explanation": "Câu chèn nói về 'grass clippings' (cỏ cắt = rác sân vườn). Đặt ở [4] hợp nhất vì ngay sau là 'This action alone could save tens of thousands of tons of waste' và 'compost their yard waste on site instead' — nối mạch ý về rác sân vườn.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q164.jpg"
     },
     {
      "ptype": "chat",
@@ -1018,7 +1030,8 @@
        "explanation": "Cox nói 'I won't terminate this conversation until I know that you were able to get the document you need', tức giữ chat mở để xác nhận ông Holcomb đã nhận được giấy tờ (hướng dẫn). Chọn D.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q168.jpg"
     },
     {
      "ptype": "article",
@@ -1077,7 +1090,8 @@
        "explanation": "'These' chỉ 'Large-scale events such as concerts and festivals' ngay trước [3]; câu chèn nói các sự kiện này cần kế hoạch dọn dẹp chi tiết trước khi cấp phép, hợp logic tại [3]. Chọn C.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q172.jpg"
     },
     {
      "ptype": "advertisement+review",
@@ -1149,7 +1163,8 @@
        "explanation": "Payton kể 'I opted into their monthly e-mail newsletter system. The most recent newsletter included advertisements for the Luna pillow' - biết đến gối qua email quảng cáo. Chọn D.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q176.jpg"
     },
     {
      "ptype": "invoice+e-mail",
@@ -1221,7 +1236,8 @@
        "explanation": "Email: 'we no longer accept cash, checks, or credit cards' và chỉ nhận 'bank transfer' - hàm ý chỉ chấp nhận một hình thức thanh toán. Chọn B.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q181.jpg"
     },
     {
      "ptype": "triple",
@@ -1293,7 +1309,8 @@
        "explanation": "Câu \"so that I can secure the current low fare\" (văn bản 3) nghĩa là giữ chắc/bảo đảm được mức giá vé thấp hiện tại, gần nghĩa nhất với \"guarantee\" (D).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q186.jpg"
     },
     {
      "ptype": "triple",
@@ -1365,7 +1382,8 @@
        "explanation": "Lịch trình (văn bản 3) có \"Vacation Policies\" (B: taking time off), \"Dress Code\" (C: what to wear) và \"Online Activities from Work Computers\" (A: Internet usage). Không có nội dung về cơ cấu tổ chức công ty, nên \"Corporate structure\" (D) là chủ đề KHÔNG được đề cập.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q191.jpg"
     },
     {
      "ptype": "triple",
@@ -1437,7 +1455,8 @@
        "explanation": "Thông báo (văn bản 3) nêu \"Workers will add five feet on both sides of the road so that a turning lane may be added\" — mở rộng đường để thêm làn rẽ, tức mục đích là làm đường rộng hơn (C).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test01-reading/passage-q196.jpg"
     }
    ]
   }

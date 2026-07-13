@@ -1157,13 +1157,12 @@
 
   function renderPassage(it) {
     if (it.img) {
-      // original scanned passage image (authentic exam look)
+      // original or generated passage snapshot; text remains only as data fallback.
       return `<img class="passage-img" src="${it.img}" alt="${esc(it.ptype || "passage")}" loading="lazy">`;
     }
-    const text = esc(it.text).replace(/\[(\d{3})\]/g, '<span class="blank-marker">[$1]</span>');
-    return `<div class="passage-box">
-      ${it.ptype ? `<div class="ptype">${esc(it.ptype)}</div>` : ""}
-      ${it.title ? `<div class="ptitle">${esc(it.title)}</div>` : ""}${text}
+    return `<div class="passage-box missing-snapshot">
+      <div class="ptype">Thiếu ảnh snapshot bài đọc</div>
+      <div>Đề này cần được xử lý lại để tạo ảnh passage trước khi làm bài.</div>
     </div>`;
   }
 

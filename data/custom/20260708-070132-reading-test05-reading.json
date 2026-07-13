@@ -459,7 +459,8 @@
        "explanation": "Câu trước: 'Should you prefer to move indoors... we can easily accommodate you.' Câu điền tiếp nối bằng hướng dẫn cách thực hiện: 'Just inform your server that you wish to do so' (do so = move indoors).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q131.jpg"
     },
     {
      "ptype": "e-mail",
@@ -514,7 +515,8 @@
        "explanation": "Câu trước: 'we may not be able to issue you the full amount.' Câu điền tiếp nối hợp lý: 'In that case, there may still be other options available to you' (trong trường hợp đó, vẫn còn lựa chọn khác).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q135.jpg"
     },
     {
      "ptype": "notice",
@@ -569,7 +571,8 @@
        "explanation": "Câu trước: 'A prescription is required for some of our devices...' (một số thiết bị cần đơn thuốc). Câu điền tương phản 'some... others': 'Others are available to general consumers' (số khác thì bán cho người tiêu dùng thường).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q139.jpg"
     },
     {
      "ptype": "article",
@@ -624,7 +627,8 @@
        "explanation": "Ngữ cảnh: bán một phần đường sắt cho một tập đoàn = tư nhân hóa. 'opponents of the privatization of the system, as many believe publicly used services should stay in public hands' — 'privatization' đối lập với 'stay in public hands'.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q143.jpg"
     }
    ]
   },
@@ -663,7 +667,8 @@
        "explanation": "Thư mời gửi cho hội viên bảo trợ bảo tàng: \"Your membership entitles you to attend this event and see the artwork ahead of the press and the general public.\" — có tư cách hội viên nên người nhận là người ủng hộ bảo tàng.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q147.jpg"
     },
     {
      "ptype": "web page",
@@ -696,7 +701,8 @@
        "explanation": "Bà Peters nói giá tăng khiến hàng kém phải chăng hơn: \"the recent increase in prices has changed the way I plan to interact with the brand\" — tăng giá = ít dễ mua/kém affordable.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q149.jpg"
     },
     {
      "ptype": "text-message chain",
@@ -729,7 +735,8 @@
        "explanation": "Cô Martin nhờ dọn đồ cá nhân giúp (\"Would it be too inconvenient for you to do it for me?\" — dọn personal items khỏi cubicle vì sắp giặt thảm), ông đáp \"Not at all\" nghĩa là đồng ý dọn chỗ làm việc giúp cô.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q151.jpg"
     },
     {
      "ptype": "memo",
@@ -762,7 +769,8 @@
        "explanation": "Sau hạn 15/10, ông Shevade sẽ chọn thời gian họp: \"After the deadline, I will review everyone's availability and select a time and day that works for all of us.\"",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q153.jpg"
     },
     {
      "ptype": "invoice",
@@ -808,7 +816,8 @@
        "explanation": "Hóa đơn ngụ ý Atchley's đang tích điểm khách hàng thân thiết vì có số thẻ: \"McDorwell Supplies Loyalty Program Number: 5498-7319\".",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q155.jpg"
     },
     {
      "ptype": "notice",
@@ -854,7 +863,8 @@
        "explanation": "Hội viên liên hệ ông Bailey để đề xuất cải thiện cơ sở vật chất: \"We are always willing to hear from our members about further building upgrades... To put forward your ideas, please talk to Site Manager Dwayne Bailey.\"",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q158.jpg"
     },
     {
      "ptype": "e-mail",
@@ -900,7 +910,8 @@
        "explanation": "Beranston đổi thời hạn trả hàng: \"we now accept returned items for up to 45 days from the purchase date, as feedback... indicated that 30 days was not enough\" — kéo dài từ 30 lên 45 ngày.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q161.jpg"
     },
     {
      "ptype": "announcement",
@@ -959,7 +970,8 @@
        "explanation": "Câu \"There are a limited number of spots available.\" hợp vị trí [2]: đứng ngay trước \"We ask for one entry per group so that as many people as possible can participate\" — số suất có hạn nên mỗi nhóm chỉ một suất, logic nối liền mạch phần đăng ký làm bù nhìn.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q164.jpg"
     },
     {
      "ptype": "chat",
@@ -1018,7 +1030,8 @@
        "explanation": "Ông Doyle đề nghị: \"instead of making a completely new one, we can just adapt the one we have to address Stalford's specific needs\" — điều chỉnh bài thuyết trình sẵn có thay vì làm mới.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q168.jpg"
     },
     {
      "ptype": "letter",
@@ -1077,7 +1090,8 @@
        "explanation": "Câu chèn nói việc \"this had not happened yet\" dù hai người đã cùng làm nhiều dự án — \"this\" chỉ việc gặp mặt trực tiếp. Nó nối tiếp câu ở vị trí [1]: \"It was also wonderful to finally meet you in person at the opening ceremony last week. — [1] —.\" Vậy chọn [1].",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q172.jpg"
     },
     {
      "ptype": "e-mail+letter",
@@ -1149,7 +1163,8 @@
        "explanation": "Thư viết: \"I would be happy to reserve a seat for you and up to three guests in the VIP section... If you would like to attend, please send back the enclosed postcard\" — gửi bưu thiếp để đăng ký/nhận chỗ ngồi VIP đặc biệt (request special seats).",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q176.jpg"
     },
     {
      "ptype": "advertisement+form",
@@ -1221,7 +1236,8 @@
        "explanation": "Phần Notes của Form: \"please leave a minimum of two feet of space between the windows and any sofas, tables, etc. so that the technician has easy access\" — dọn trống khu vực gần cửa sổ (clear areas near the windows). (A sai: chỉ chừa khoảng trống, không phải dời hết đồ khỏi phòng.)",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q181.jpg"
     },
     {
      "ptype": "notice|online review|article",
@@ -1293,7 +1309,8 @@
        "explanation": "Article trích lời Ms. Lindelauf: 'It will blend in with the buildings and environment around it so as not to take away from the already stunning skyline' — hài hòa với các công trình xung quanh, tức 'complementing nearby structures'. Chọn C.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q186.jpg"
     },
     {
      "ptype": "advertisement|e-mail|e-mail",
@@ -1365,7 +1382,8 @@
        "explanation": "Ghép E-mail 2 + Advertisement. Hayward thích nhất 'the demonstration on creating clay bowls' = màn làm gốm; Ad ghi 'pottery-making demonstration by Sophie Johnston'. Người dẫn hoạt động là Ms. Johnston. Đáp án B.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q191.jpg"
     },
     {
      "ptype": "instructions|e-mail|forum post",
@@ -1437,7 +1455,8 @@
        "explanation": "Forum Post: 'Don't pass up this opportunity to see some amazing fashions!' — 'pass up' ở đây nghĩa là bỏ lỡ, đồng nghĩa 'miss'. Chọn B.",
        "uncertain": false
       }
-     ]
+     ],
+     "img": "assets/img/custom/20260708-070132-reading-test05-reading/passage-q196.jpg"
     }
    ]
   }
