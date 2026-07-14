@@ -1033,7 +1033,7 @@
       const transcript = revealed ? renderTranscriptBox(it, true) : "";
       const qs = it.questions.map((q) => renderQuestion(t, p, q, it)).join("");
       if (!isListening && passage) {
-        // reading P6/P7: passage pinned left, questions scroll on the right — no more scrolling back and forth
+        // reading P6/P7: keep the passage and its question group in the same card.
         const hint = it.img ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
         return `<div class="qcard" id="qc-${it.questions[0].n}">
           <div class="passage-split">

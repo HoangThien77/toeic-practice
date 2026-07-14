@@ -218,15 +218,14 @@ body.has-dock { padding-bottom: 96px; }
   cursor: zoom-in;
 }
 
-/* reading P6/P7: passage pinned left (wider), questions right */
+/* reading P6/P7: passage left, questions right */
 #screen.wide { max-width: 1680px; }
 .passage-split {
   display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
   gap: 20px; align-items: start;
 }
 .passage-split .ps-left {
-  position: sticky; top: 74px;
-  max-height: calc(100vh - 100px); overflow-y: auto;
+  max-height: none; overflow: visible;
   border-radius: 10px;
 }
 .passage-split .ps-left .passage-img { margin: 0 auto; max-width: 920px; } /* cap ≈ ảnh gốc, tránh phóng to mờ */
