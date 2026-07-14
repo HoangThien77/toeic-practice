@@ -218,14 +218,16 @@ body.has-dock { padding-bottom: 96px; }
   cursor: zoom-in;
 }
 
-/* reading P6/P7: passage left, questions right */
+/* reading P6/P7: passage sticks within its question group */
 #screen.wide { max-width: 1680px; }
 .passage-split {
   display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
   gap: 20px; align-items: start;
 }
 .passage-split .ps-left {
-  max-height: none; overflow: visible;
+  position: sticky; top: 74px; align-self: start;
+  max-height: calc(100vh - 100px); overflow-y: auto; overflow-x: hidden;
+  overscroll-behavior: contain;
   border-radius: 10px;
 }
 .passage-split .ps-left .passage-img { margin: 0 auto; max-width: 920px; } /* cap ≈ ảnh gốc, tránh phóng to mờ */
