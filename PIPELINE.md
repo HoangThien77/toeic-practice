@@ -70,7 +70,7 @@ Nhiều file (nhất là sách luyện Hàn/Nhật kiểu "RC1000", "LC1000", "1
 - Lưu vào `assets/img/custom/<upload-id>/`:
   - Listening P1: ảnh từng câu `p1-q1.jpg`...
   - Graphic P3/P4: `g-<tên>.jpg`
-  - **Bài đọc Reading P6/P7: crop NGUYÊN passage (kèm dòng "Questions X-Y refer to...") thành `passage-q<câuĐầu>.jpg`** — app hiển thị ảnh gốc thay vì chữ gõ lại (giống đề thật). KHÔNG gồm question stems/choices bên dưới, không gồm header/footer trang. Vẫn phải transcribe text passage (bước 2) để giải đề, nhưng UI sẽ dùng ảnh.
+  - **Bài đọc Reading P6/P7: crop NGUYÊN passage trực tiếp từ PDF/ảnh scan gốc (kèm dòng "Questions X-Y refer to...") thành `passage-q<câuĐầu>.jpg`** — app hiển thị ảnh gốc thay vì chữ gõ lại (giống đề thật). KHÔNG được tạo ảnh bằng cách render lại text đã số hóa. KHÔNG gồm question stems/choices bên dưới, không gồm header/footer trang. Vẫn phải transcribe text passage (bước 2) để giải đề, nhưng UI sẽ dùng ảnh.
 
 ### 4. Audio (nếu có file nghe)
 - Convert + transcribe (ưu tiên model medium nếu có — nghe chính xác hơn):
@@ -128,7 +128,7 @@ Tạo `data/custom/<test-id>.json` cho MỖI section (một upload có thể ra 
          "audio": {"start": 832.8, "end": 906.2},   // P3/P4 only
          "transcript": "hội thoại đã làm sạch",      // P3/P4 only
          "graphicImg": "assets/img/custom/<uid>/g-x.jpg", // nếu có
-         "img": "assets/img/custom/<uid>/passage-q147.jpg", // P6/P7: ảnh passage gốc — BẮT BUỘC nếu PDF là scan
+         "img": "assets/img/custom/<uid>/passage-q147.jpg", // P6/P7: ảnh crop từ PDF/scan gốc — BẮT BUỘC nếu PDF là scan
          "ptype": "e-mail", "title": "..", "text": "passage với [131] blank markers"} // P6/P7 (text vẫn giữ làm dự phòng)
       ]
     }
@@ -140,7 +140,7 @@ Lưu ý bắt buộc:
 - P2 choices chỉ có A,B,C. P1 A-D với giá trị "" (nội dung nằm trong spoken).
 - Mỗi test: số câu `n` không trùng nhau. `answer` phải là key có trong `choices`.
 - Chạy `python3 data/assemble.py` — phải thấy dòng `custom test loaded: <id>` và sanity check pass.
-  - Lưu ý: `assemble.py` sẽ FAIL nếu custom Reading Part 6/7 thiếu `img` hoặc file ảnh không tồn tại; tuyệt đối không để app fallback text-only.
+  - Lưu ý: `assemble.py` sẽ FAIL nếu custom Reading Part 6/7 thiếu `img` hoặc file ảnh không tồn tại; tuyệt đối không để app fallback text-only, và không dùng ảnh passage dựng lại từ text OCR/digitized.
 - `node --check js/data.js` phải OK.
 
 ### 7. Hoàn tất
