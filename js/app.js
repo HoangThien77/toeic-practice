@@ -234,13 +234,19 @@
     renderHome();
   }
 
+  function groupCardTitle(title) {
+    return String(title || "")
+      .replace(/\s+\((Listening|Reading)\)$/i, "")
+      .replace(/\s+[—-]\s*(Listening|Reading)$/i, "");
+  }
+
   function testGroups() {
     // gộp các section cùng một đề (m5-listening + m5-reading → "Mock Test 5")
     const groups = {};
     Object.values(D.tests).forEach((t) => {
       const base = t.id.replace(/-(listening|reading)$/, "");
       if (!groups[base]) {
-        groups[base] = { base, title: t.title.split(" — ")[0], custom: !!t.custom, tests: [] };
+        groups[base] = { base, title: groupCardTitle(t.title), custom: !!t.custom, tests: [] };
       }
       groups[base].tests.push(t);
     });
