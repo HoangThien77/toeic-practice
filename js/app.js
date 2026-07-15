@@ -629,23 +629,25 @@
   }
 
   function uploadFormHtml(cloud) {
-    const guide = cloud ? `
+    const guide = `
       <aside class="guide-panel">
         <h3>Hướng dẫn nhanh <span>35 giây · tự lặp lại</span></h3>
         <video src="assets/img/guide-upload.mp4?v=3" autoplay muted loop playsinline></video>
         <ol>
           <li>Đặt tên đề — ví dụ "Đề tuần 3".</li>
           <li>Kéo thả (hoặc bấm chọn) file PDF đề; nếu đề có bài nghe thì thả thêm file MP3.</li>
-          <li>Bấm "Gửi đề" — xong! Đề sẽ nằm trong hàng chờ và được xử lý khi máy cá nhân bật poller.</li>
+          <li>${cloud
+            ? 'Bấm "Gửi đề" — xong! Đề sẽ nằm trong hàng chờ và được xử lý khi máy cá nhân bật poller.'
+            : 'Bấm "Tải lên & xử lý" — app sẽ lưu đề vào máy và bắt đầu xử lý ngay.'}</li>
         </ol>
-      </aside>` : "";
+      </aside>`;
     return `
       <div class="hero"><h1>${cloud ? "Gửi đề mới" : "Tải đề mới lên"}</h1>
         <p class="home-sub">${cloud
           ? "Chọn file đề PDF (kèm audio nếu có bài nghe) rồi gửi vào hàng chờ. Khi máy cá nhân bật poller, đề sẽ được kéo về, số hóa, tạo đáp án + giải thích tiếng Việt và tự cập nhật lên web này."
           : 'Chọn file đề PDF (kèm audio nếu có bài nghe). App sẽ lưu đề vào máy và tự bắt đầu xử lý ngay — Claude tự đọc đề, tạo đáp án + giải thích (~5–15 phút).'}</p>
       </div>
-      <div class="upload-wrap${cloud ? " has-guide" : ""}">
+      <div class="upload-wrap has-guide">
       <div class="up-card">
         <div class="up-step">
           <span class="step-n">1</span>
