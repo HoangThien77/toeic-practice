@@ -113,6 +113,16 @@ def main():
 
         elif os.path.isfile(local_mf):
             local = json.load(open(local_mf))
+            if remote.get("status") == "pending" and local.get("status") == "error":
+                log(f"{uid}: nhận lệnh thử lại từ web")
+                local["status"] = "pending"
+                local.pop("error", None)
+                json.dump(local, open(local_mf, "w"), ensure_ascii=False, indent=1)
+                err = process_upload(uid)
+                push_status(uid, "error" if err else "processing", {"error": err} if err else None)
+                if err:
+                    log(f"{uid}: không kích hoạt được — {err}")
+                continue
             # watchdog: coi là TREO khi KHÔNG có tiến triển thật trong thời gian dài.
             # KHÔNG dựa vào process.log (claude -p đệm stdout, gần như không ghi lúc
             # chạy → luôn tưởng "im lặng"). Thay vào đó nhìn các dấu hiệu tiến triển:

@@ -607,18 +607,40 @@
         area.innerHTML = '<div class="history-empty">Chưa có đề nào trong hàng chờ. Bấm "+ Tải đề lên" để gửi đề mới.</div>';
         return;
       }
-      const rows = uploads.map((u) => `<tr>
-        <td><b>${esc(u.name)}</b><div style="font-size:12px;color:var(--muted)">${(u.files || []).map(esc).join(", ")}</div></td>
-        <td>${CLOUD_STATUS[u.status] || esc(u.status || "")}</td>
-        <td>${u.uploadedAt ? new Date(u.uploadedAt).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : ""}</td>
-      </tr>`).join("");
-      area.innerHTML = `<div class="table-scroll"><table class="history-table"><thead><tr><th>Đề</th><th>Trạng thái</th><th>Lúc gửi</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+      const rows = uploads.map((u) => {
+        const errorNote = u.status === "error" && u.error
+          ? `<div style="font-size:12.5px;color:var(--red);margin-top:4px">${esc(u.error)}</div>` : "";
+        const action = u.status === "error"
+          ? `<button class="btn btn-sm" onclick="App.retryCloudUpload('${esc(u.id)}')">Thử lại</button>`
+          : u.status === "done" ? '<button class="btn btn-sm" onclick="location.reload()">Tải lại</button>' : "";
+        return `<tr>
+          <td><b>${esc(u.name)}</b><div style="font-size:12px;color:var(--muted)">${(u.files || []).map(esc).join(", ")}</div>${errorNote}</td>
+          <td>${CLOUD_STATUS[u.status] || esc(u.status || "")}</td>
+          <td>${u.uploadedAt ? new Date(u.uploadedAt).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : ""}</td>
+          <td>${action}</td>
+        </tr>`;
+      }).join("");
+      area.innerHTML = `<div class="table-scroll"><table class="history-table"><thead><tr><th>Đề</th><th>Trạng thái</th><th>Lúc gửi</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>`;
       clearTimeout(inboxTimer);
       if (uploads.some((u) => ["pending", "processing", "uploading"].includes(u.status)) && state.view === "home") {
         inboxTimer = setTimeout(() => { const a = $("#inbox-area"); if (a) renderCloudInbox(a); }, 30000);
       }
     } catch {
       area.innerHTML = '<div class="history-empty">Không kết nối được hộp thư đề — thử lại sau.</div>';
+    }
+  }
+
+  async function retryCloudUpload(id) {
+    try {
+      const r = await fetch(`${CLOUD_INBOX.url}/retry?id=${encodeURIComponent(id)}`, {
+        method: "POST", headers: { "X-Inbox-Token": CLOUD_INBOX.token },
+      });
+      const j = await r.json();
+      if (!r.ok || !j.ok) throw new Error(j.error || "Không thử lại được");
+      const area = $("#inbox-area");
+      if (area) renderCloudInbox(area);
+    } catch (e) {
+      openModal(`<h3>Không thử lại được</h3><p>${esc(e.message || String(e))}</p><div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     }
   }
 
@@ -1817,7 +1839,7 @@
   window.App = {
     goHome, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
-    goUpload, submitUpload, submitCloudUpload, processUpload, openQnavSheet, upRemoveFile,
+    goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
