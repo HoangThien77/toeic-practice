@@ -769,6 +769,26 @@
     });
   }
 
+  function wait(ms) { return new Promise((res) => setTimeout(res, ms)); }
+
+  async function fetchJsonWithRetry(url, options, label) {
+    let lastErr = null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const r = await fetch(url, options);
+        const txt = await r.text();
+        let j = {};
+        try { j = txt ? JSON.parse(txt) : {}; } catch { j = { error: txt }; }
+        if (r.ok && j.ok !== false) return j;
+        lastErr = new Error(j.error || `${label} thất bại (HTTP ${r.status})`);
+      } catch (e) {
+        lastErr = e;
+      }
+      if (attempt < 3) await wait(1200 * attempt);
+    }
+    throw lastErr || new Error(label + " thất bại");
+  }
+
   async function submitCloudUpload() {
     const name = $("#up-name").value.trim();
     const kind = $("#up-kind").value;
@@ -779,14 +799,13 @@
     if (!$("#up-pdf").files.length) { status.textContent = "Hãy chọn ít nhất 1 file PDF đề."; return; }
     const btn = $("#up-submit");
     btn.disabled = true;
-    const CHUNK = 30 * 1024 * 1024; // 30MB nhị phân/chunk
+    const CHUNK = 8 * 1024 * 1024; // chunk nhỏ để GitHub không timeout khi nhận file nghe lớn
     const hdr = { "X-Inbox-Token": CLOUD_INBOX.token };
     try {
-      const begin = await fetch(CLOUD_INBOX.url + "/begin", {
+      const bj = await fetchJsonWithRetry(CLOUD_INBOX.url + "/begin", {
         method: "POST", headers: { ...hdr, "Content-Type": "application/json" },
         body: JSON.stringify({ name, kind, multi, files: files.map((f) => f.name) }),
-      });
-      const bj = await begin.json();
+      }, "Tạo hàng chờ");
       if (!bj.ok) throw new Error(bj.error || "Không tạo được hàng chờ");
       for (let fi = 0; fi < files.length; fi++) {
         const f = files[fi];
@@ -794,23 +813,26 @@
         for (let c = 0; c < nChunks; c++) {
           status.textContent = `Đang gửi ${f.name} — phần ${c + 1}/${nChunks} (file ${fi + 1}/${files.length})…`;
           const b64 = await fileToB64(f.slice(c * CHUNK, (c + 1) * CHUNK));
-          const r = await fetch(`${CLOUD_INBOX.url}/put?id=${bj.id}&name=${encodeURIComponent(f.name)}&idx=${c}`, {
+          const j = await fetchJsonWithRetry(`${CLOUD_INBOX.url}/put?id=${bj.id}&name=${encodeURIComponent(f.name)}&idx=${c}`, {
             method: "POST", headers: hdr, body: b64,
-          });
-          const j = await r.json();
+          }, `Gửi ${f.name} phần ${c + 1}`);
           if (!j.ok) throw new Error(j.error || `Gửi ${f.name} thất bại`);
         }
       }
       status.textContent = "Đang hoàn tất…";
-      const fin = await fetch(`${CLOUD_INBOX.url}/finish?id=${bj.id}`, { method: "POST", headers: hdr });
-      if (!(await fin.json()).ok) throw new Error("Không chốt được hàng chờ");
+      const fin = await fetchJsonWithRetry(`${CLOUD_INBOX.url}/finish?id=${bj.id}`, { method: "POST", headers: hdr }, "Chốt hàng chờ");
+      if (!fin.ok) throw new Error("Không chốt được hàng chờ");
       goHome();
       openModal(`<h3>Đã gửi đề vào hàng chờ ✓</h3>
         <p>"${esc(name)}" đã được lưu vào hàng chờ cloud. Khi máy cá nhân bật poller, đề sẽ được kéo về xử lý và web này sẽ tự cập nhật sau khi xử lý xong.</p>
         <p>Bạn có thể tắt điện thoại ngay; file vẫn nằm trong hàng chờ ở mục "Đề mới upload".</p>
         <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
     } catch (e) {
-      status.textContent = "Lỗi: " + e.message;
+      const msg = e && e.message ? e.message : String(e);
+      const hint = /GitHub 403|Timed out validating rule/i.test(msg)
+        ? "GitHub bị timeout khi nhận file lớn. App đã tự thử lại 3 lần; hãy bấm Gửi đề lại sau vài phút, hoặc nén PDF/audio nhỏ hơn nếu vẫn lỗi."
+        : msg;
+      status.textContent = "Lỗi: " + hint;
       btn.disabled = false;
     }
   }
