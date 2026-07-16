@@ -914,6 +914,9 @@
     renderRunner();
     if (t.kind === "listening" && mode === "exam") {
       playSegment(0, null);
+    } else if (t.kind === "listening") {
+      ensureAudio();
+      showDock(true);
     } else if (t.kind === "reading" && mode === "exam") {
       startTimer(t.timerMin * 60);
     }

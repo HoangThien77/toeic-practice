@@ -1,0 +1,1375 @@
+{
+ "id": "listening-ets-2026-test1-listening",
+ "kind": "listening",
+ "title": "Listening ETS 2026 — Test 1",
+ "desc": "Listening Test 1, câu 1–100 — file đề gốc dạng snapshot + audio Zalo Test 1.mp3. Đáp án theo key gốc cuối sách.",
+ "custom": true,
+ "audioSrc": "assets/audio/listening-ets-2026-test1.mp3",
+ "parts": [
+  {
+   "part": 1,
+   "directions": "Nghe 4 câu mô tả về mỗi bức ảnh và chọn câu mô tả đúng nhất. Câu hỏi và đáp án chỉ có trong audio; ảnh đề gốc hiển thị theo từng trang.",
+   "items": [
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-003.jpg",
+     "ptype": "PDF snapshot page 3",
+     "questions": [
+      {
+       "n": 1,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 2,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-004.jpg",
+     "ptype": "PDF snapshot page 4",
+     "questions": [
+      {
+       "n": 3,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 4,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 5,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-005.jpg",
+     "ptype": "PDF snapshot page 5",
+     "questions": [
+      {
+       "n": 6,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "directions": "Nghe một câu hỏi/câu nói và 3 câu đáp, chọn câu đáp phù hợp nhất. Tất cả chỉ có trong audio.",
+   "items": [
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-006.jpg",
+     "ptype": "PDF snapshot page 6",
+     "questions": [
+      {
+       "n": 7,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 8,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 9,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 10,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 11,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 12,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 13,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 14,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 15,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 16,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 17,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 18,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 19,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 20,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 21,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 22,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 23,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 24,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 25,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 26,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 27,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 28,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 29,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 30,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 31,
+       "question": "",
+       "choices": {
+        "A": "",
+        "B": "",
+        "C": ""
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "directions": "Nghe các đoạn hội thoại và trả lời câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề gốc phía trên mỗi nhóm.",
+   "items": [
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
+     "ptype": "PDF snapshot page 7",
+     "questions": [
+      {
+       "n": 32,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 33,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 34,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 35,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 36,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 37,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 38,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 39,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 40,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 41,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 42,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 43,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
+     "ptype": "PDF snapshot page 8",
+     "questions": [
+      {
+       "n": 44,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 45,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 46,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 47,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 48,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 49,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 50,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 51,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 52,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 53,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 54,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 55,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-009.jpg",
+     "ptype": "PDF snapshot page 9",
+     "questions": [
+      {
+       "n": 56,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 57,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 58,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 59,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 60,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 61,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 62,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 63,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 64,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-010.jpg",
+     "ptype": "PDF snapshot page 10",
+     "questions": [
+      {
+       "n": 65,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 66,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 67,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 68,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 69,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 70,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "directions": "Nghe các bài nói ngắn và trả lời câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề gốc phía trên mỗi nhóm.",
+   "items": [
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
+     "ptype": "PDF snapshot page 11",
+     "questions": [
+      {
+       "n": 71,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 72,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 73,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 74,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 75,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 76,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 77,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 78,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 79,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 80,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 81,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 82,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
+     "ptype": "PDF snapshot page 12",
+     "questions": [
+      {
+       "n": 83,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 84,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 85,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 86,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 87,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 88,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 89,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 90,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 91,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 92,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 93,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 94,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-013.jpg",
+     "ptype": "PDF snapshot page 13",
+     "questions": [
+      {
+       "n": 95,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 96,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 97,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 98,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 99,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      },
+      {
+       "n": 100,
+       "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+       "uncertain": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
