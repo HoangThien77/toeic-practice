@@ -35,7 +35,30 @@
        "C": "The woman is tying up her hair.",
        "D": "The woman is removing her hat."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 94.81,
+       "text": "Number one. Look at the picture marked number one in your test book."
+      },
+      {
+       "t": 98.06,
+       "text": "A. The woman is carrying a tray of food."
+      },
+      {
+       "t": 101.32,
+       "text": "B. The woman is wearing a jacket."
+      },
+      {
+       "t": 104.57,
+       "text": "C. The woman is tying up her hair."
+      },
+      {
+       "t": 107.82,
+       "text": "D. The woman is removing her hat."
+      }
+     ],
+     "viText": "(A) Người phụ nữ đang bê một khay thức ăn.\n(B) Người phụ nữ đang mặc áo khoác.\n(C) Người phụ nữ đang buộc tóc lên.\n(D) Người phụ nữ đang tháo mũ ra."
     },
     {
      "n": 2,
@@ -62,7 +85,30 @@
        "C": "Some people are watching a presentation.",
        "D": "Some people are looking at a book."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 116.49,
+       "text": "Number two. Look at the picture marked number two in your test book."
+      },
+      {
+       "t": 120.29,
+       "text": "A. Some people are standing next to a filing cabinet."
+      },
+      {
+       "t": 124.1,
+       "text": "B. Some people are searching through a desk."
+      },
+      {
+       "t": 127.91,
+       "text": "C. Some people are watching a presentation."
+      },
+      {
+       "t": 131.71,
+       "text": "D. Some people are looking at a book."
+      }
+     ],
+     "viText": "(A) Một số người đang đứng cạnh tủ hồ sơ.\n(B) Một số người đang tìm kiếm trong bàn làm việc.\n(C) Một số người đang xem một bài thuyết trình.\n(D) Một số người đang nhìn vào một cuốn sách."
     },
     {
      "n": 3,
@@ -89,7 +135,30 @@
        "C": "Some light fixtures are hanging from the ceiling.",
        "D": "Some tiles are being installed in a hallway."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 141.37,
+       "text": "Number three. Look at the picture marked number three in your test book."
+      },
+      {
+       "t": 145.38,
+       "text": "A. A woman is holding a phone up to her ear."
+      },
+      {
+       "t": 149.38,
+       "text": "B. A woman is pouring a beverage into a glass."
+      },
+      {
+       "t": 153.38,
+       "text": "C. Some light fixtures are hanging from the ceiling."
+      },
+      {
+       "t": 157.39,
+       "text": "D. Some tiles are being installed in a hallway."
+      }
+     ],
+     "viText": "(A) Một phụ nữ đang cầm điện thoại lên tai.\n(B) Một phụ nữ đang rót đồ uống vào ly.\n(C) Một số đèn đang treo trên trần nhà.\n(D) Một số viên gạch đang được lắp trong hành lang."
     },
     {
      "n": 4,
@@ -116,7 +185,30 @@
        "C": "A backpack has been set on the ground.",
        "D": "One of the men is reaching into a bucket."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 167.57,
+       "text": "Number four. Look at the picture marked number four in your test book."
+      },
+      {
+       "t": 171.49,
+       "text": "A. A wooden crate is filled with vegetables."
+      },
+      {
+       "t": 175.41,
+       "text": "B. One of the men is putting vegetables into a shopping bag."
+      },
+      {
+       "t": 179.33,
+       "text": "C. A backpack has been set on the ground."
+      },
+      {
+       "t": 183.25,
+       "text": "D. One of the men is reaching into a bucket."
+      }
+     ],
+     "viText": "(A) Một thùng gỗ đầy rau củ.\n(B) Một trong những người đàn ông đang cho rau vào túi mua hàng.\n(C) Một ba lô đã được đặt trên mặt đất.\n(D) Một trong những người đàn ông đang đưa tay vào xô."
     },
     {
      "n": 5,
@@ -143,7 +235,30 @@
        "C": "He's lifting a can of paint by its handle.",
        "D": "Cans of paint have been placed on a step stool."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 193.27,
+       "text": "Number five. Look at the picture marked number five in your test book."
+      },
+      {
+       "t": 197.01,
+       "text": "A. Painting supplies have been laid out on the floor."
+      },
+      {
+       "t": 200.74,
+       "text": "B. He's laying a brush down on a window sill."
+      },
+      {
+       "t": 204.48,
+       "text": "C. He's lifting a can of paint by its handle."
+      },
+      {
+       "t": 208.22,
+       "text": "D. Cans of paint have been placed on a step stool."
+      }
+     ],
+     "viText": "(A) Dụng cụ sơn đã được bày trên sàn.\n(B) Anh ấy đang đặt cọ xuống bệ cửa sổ.\n(C) Anh ấy đang nhấc lon sơn bằng tay cầm.\n(D) Các lon sơn đã được đặt trên ghế bậc."
     },
     {
      "n": 6,
@@ -170,7 +285,30 @@
        "C": "Some water has pooled on a path.",
        "D": "Some cyclists are riding through a field."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 217.87,
+       "text": "Number six. Look at the picture marked number six in your test book."
+      },
+      {
+       "t": 221.77,
+       "text": "A. A path is covered with fallen branches."
+      },
+      {
+       "t": 225.68,
+       "text": "B. A tree is lying across a grassy area."
+      },
+      {
+       "t": 229.58,
+       "text": "C. Some water has pooled on a path."
+      },
+      {
+       "t": 233.48,
+       "text": "D. Some cyclists are riding through a field."
+      }
+     ],
+     "viText": "(A) Một lối đi bị phủ bởi cành cây rơi.\n(B) Một cái cây nằm ngang qua bãi cỏ.\n(C) Một ít nước đọng trên lối đi.\n(D) Một số người đi xe đạp đang chạy qua cánh đồng."
     }
    ]
   },
@@ -200,7 +338,30 @@
        "B": "At the Riverview Hotel.",
        "C": "In the supply cabinet."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 243.38,
+       "text": "Number seven."
+      },
+      {
+       "t": 245.7,
+       "text": "Where is the conference being held?"
+      },
+      {
+       "t": 248.03,
+       "text": "A. A three-day vacation."
+      },
+      {
+       "t": 250.35,
+       "text": "B. At the Riverview Hotel."
+      },
+      {
+       "t": 252.67,
+       "text": "C. In the supply cabinet."
+      }
+     ],
+     "viText": "Q: Hội nghị được tổ chức ở đâu?\n(A) Một kỳ nghỉ ba ngày.\n(B) Tại khách sạn Riverview.\n(C) Trong tủ vật tư."
     },
     {
      "n": 8,
@@ -224,7 +385,30 @@
        "B": "About 12 shipping boxes.",
        "C": "Not until this afternoon."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 259.47,
+       "text": "Number eight."
+      },
+      {
+       "t": 261.83,
+       "text": "When does the warehouse manager arrive?"
+      },
+      {
+       "t": 264.18,
+       "text": "A. Sure, no problem."
+      },
+      {
+       "t": 266.54,
+       "text": "B. About 12 shipping boxes."
+      },
+      {
+       "t": 268.89,
+       "text": "C. Not until this afternoon."
+      }
+     ],
+     "viText": "Q: Khi nào quản lý kho đến?\n(A) Chắc chắn rồi, không vấn đề gì.\n(B) Khoảng 12 thùng hàng.\n(C) Không trước chiều nay."
     },
     {
      "n": 9,
@@ -248,7 +432,30 @@
        "B": "Yes, it's next to Greendale Lake.",
        "C": "They're in the parking garage."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 275.67,
+       "text": "Number nine."
+      },
+      {
+       "t": 278.3,
+       "text": "There's a nice park nearby, right?"
+      },
+      {
+       "t": 280.92,
+       "text": "A. Did you order paper for the copier?"
+      },
+      {
+       "t": 283.55,
+       "text": "B. Yes, it's next to Greendale Lake."
+      },
+      {
+       "t": 286.17,
+       "text": "C. They're in the parking garage."
+      }
+     ],
+     "viText": "Q: Gần đây có một công viên đẹp, đúng không?\n(A) Bạn đã đặt giấy cho máy photocopy chưa?\n(B) Có, nó nằm cạnh hồ Greendale.\n(C) Chúng ở trong nhà để xe."
     },
     {
      "n": 10,
@@ -272,7 +479,30 @@
        "B": "They have a savings account.",
        "C": "Cash and credit cards."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 293.57,
+       "text": "Number ten."
+      },
+      {
+       "t": 296.02,
+       "text": "Who sent the meeting minutes to the accounting department?"
+      },
+      {
+       "t": 298.47,
+       "text": "A. Our office assistant."
+      },
+      {
+       "t": 300.92,
+       "text": "B. They have a savings account."
+      },
+      {
+       "t": 303.38,
+       "text": "C. Cash and credit cards."
+      }
+     ],
+     "viText": "Q: Ai đã gửi biên bản họp cho phòng kế toán?\n(A) Trợ lý văn phòng của chúng ta.\n(B) Họ có một tài khoản tiết kiệm.\n(C) Tiền mặt và thẻ tín dụng."
     },
     {
      "n": 11,
@@ -296,7 +526,30 @@
        "B": "He seems very competent.",
        "C": "It's finally stopped raining."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 310.37,
+       "text": "Number eleven."
+      },
+      {
+       "t": 313.12,
+       "text": "I'd like to know what you think of our new finance analyst."
+      },
+      {
+       "t": 315.86,
+       "text": "A. I've prepared the decorations for tomorrow."
+      },
+      {
+       "t": 318.61,
+       "text": "B. He seems very competent."
+      },
+      {
+       "t": 321.35,
+       "text": "C. It's finally stopped raining."
+      }
+     ],
+     "viText": "Q: Tôi muốn biết bạn nghĩ gì về chuyên viên phân tích tài chính mới của chúng ta.\n(A) Tôi đã chuẩn bị đồ trang trí cho ngày mai.\n(B) Anh ấy có vẻ rất có năng lực.\n(C) Trời cuối cùng đã tạnh mưa."
     },
     {
      "n": 12,
@@ -320,7 +573,30 @@
        "B": "Yes, that's a good idea.",
        "C": "He tried to solve that problem."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 328.99,
+       "text": "Number twelve."
+      },
+      {
+       "t": 331.31,
+       "text": "Let's go on the company retreat."
+      },
+      {
+       "t": 333.62,
+       "text": "A. Oh, did he?"
+      },
+      {
+       "t": 335.94,
+       "text": "B. Yes, that's a good idea."
+      },
+      {
+       "t": 338.25,
+       "text": "C. He tried to solve that problem."
+      }
+     ],
+     "viText": "Q: Chúng ta hãy đi kỳ nghỉ/đợt retreat của công ty.\n(A) Ồ, anh ấy đã làm vậy à?\n(B) Vâng, đó là một ý kiến hay.\n(C) Anh ấy đã cố giải quyết vấn đề đó."
     },
     {
      "n": 13,
@@ -344,7 +620,30 @@
        "B": "About 20 meters.",
        "C": "We close at 6 o'clock."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 344.97,
+       "text": "Number thirteen."
+      },
+      {
+       "t": 347.42,
+       "text": "What time can I pick up my glasses?"
+      },
+      {
+       "t": 349.87,
+       "text": "A. No, it's not very heavy."
+      },
+      {
+       "t": 352.32,
+       "text": "B. About 20 meters."
+      },
+      {
+       "t": 354.76,
+       "text": "C. We close at 6 o'clock."
+      }
+     ],
+     "viText": "Q: Tôi có thể lấy kính lúc mấy giờ?\n(A) Không, nó không nặng lắm.\n(B) Khoảng 20 mét.\n(C) Chúng tôi đóng cửa lúc 6 giờ."
     },
     {
      "n": 14,
@@ -368,7 +667,30 @@
        "B": "A 12:30 departure.",
        "C": "I haven't seen them using it yet."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 361.87,
+       "text": "Number fourteen."
+      },
+      {
+       "t": 364.55,
+       "text": "The sales team knows how to use the tracking software, don't they?"
+      },
+      {
+       "t": 367.23,
+       "text": "A. It's on the lower shelf."
+      },
+      {
+       "t": 369.91,
+       "text": "B. A 12:30 departure."
+      },
+      {
+       "t": 372.59,
+       "text": "C. I haven't seen them using it yet."
+      }
+     ],
+     "viText": "Q: Nhóm bán hàng biết cách dùng phần mềm theo dõi, đúng không?\n(A) Nó ở kệ thấp hơn.\n(B) Chuyến khởi hành lúc 12:30.\n(C) Tôi chưa thấy họ dùng nó."
     },
     {
      "n": 15,
@@ -392,7 +714,30 @@
        "B": "The blue package you sent me.",
        "C": "Some nails and a hammer."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 380.07,
+       "text": "Number fifteen."
+      },
+      {
+       "t": 382.53,
+       "text": "Are you going to the hardware store on Mill Street?"
+      },
+      {
+       "t": 384.98,
+       "text": "A. That store hasn't opened yet."
+      },
+      {
+       "t": 387.44,
+       "text": "B. The blue package you sent me."
+      },
+      {
+       "t": 389.9,
+       "text": "C. Some nails and a hammer."
+      }
+     ],
+     "viText": "Q: Bạn định đến cửa hàng vật liệu trên đường Mill phải không?\n(A) Cửa hàng đó chưa mở cửa.\n(B) Gói hàng màu xanh bạn gửi cho tôi.\n(C) Một vài cái đinh và một cái búa."
     },
     {
      "n": 16,
@@ -416,7 +761,30 @@
        "B": "Okay, I'd be happy to.",
        "C": "He doesn't have any more."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 396.97,
+       "text": "Number sixteen."
+      },
+      {
+       "t": 399.48,
+       "text": "Would you be able to write the introduction for the workshop?"
+      },
+      {
+       "t": 402.0,
+       "text": "A. No, pick any day."
+      },
+      {
+       "t": 404.51,
+       "text": "B. Okay, I'd be happy to."
+      },
+      {
+       "t": 407.02,
+       "text": "C. He doesn't have any more."
+      }
+     ],
+     "viText": "Q: Bạn có thể viết phần giới thiệu cho buổi workshop không?\n(A) Không, chọn ngày nào cũng được.\n(B) Được, tôi rất sẵn lòng.\n(C) Anh ấy không còn cái nào nữa."
     },
     {
      "n": 17,
@@ -440,7 +808,30 @@
        "B": "That was thoughtful.",
        "C": "A delivery driver."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 414.17,
+       "text": "Number seventeen."
+      },
+      {
+       "t": 416.65,
+       "text": "I picked up some flowers for Junji's retirement party."
+      },
+      {
+       "t": 419.13,
+       "text": "A. No, pick any day."
+      },
+      {
+       "t": 421.62,
+       "text": "B. That was thoughtful."
+      },
+      {
+       "t": 424.1,
+       "text": "C. A delivery driver."
+      }
+     ],
+     "viText": "Q: Tôi đã mua vài bông hoa cho tiệc nghỉ hưu của Junji.\n(A) Không, chọn ngày nào cũng được.\n(B) Thật chu đáo.\n(C) Một tài xế giao hàng."
     },
     {
      "n": 18,
@@ -464,7 +855,30 @@
        "B": "The meeting was fun, thanks.",
        "C": "Yes, it's a conference call."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 431.17,
+       "text": "Number eighteen."
+      },
+      {
+       "t": 433.61,
+       "text": "Which meeting room did you tell the interns to go to?"
+      },
+      {
+       "t": 436.04,
+       "text": "A. The Jefferson Room."
+      },
+      {
+       "t": 438.48,
+       "text": "B. The meeting was fun, thanks."
+      },
+      {
+       "t": 440.91,
+       "text": "C. Yes, it's a conference call."
+      }
+     ],
+     "viText": "Q: Bạn đã bảo các thực tập sinh đến phòng họp nào?\n(A) Phòng Jefferson.\n(B) Cuộc họp rất vui, cảm ơn.\n(C) Vâng, đó là một cuộc gọi hội nghị."
     },
     {
      "n": 19,
@@ -488,7 +902,30 @@
        "B": "I'll have to check my calendar.",
        "C": "Yes, it was a good meeting."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 447.97,
+       "text": "Number nineteen."
+      },
+      {
+       "t": 450.38,
+       "text": "Is your dental appointment next Tuesday?"
+      },
+      {
+       "t": 452.79,
+       "text": "A. You can borrow mine."
+      },
+      {
+       "t": 455.21,
+       "text": "B. I'll have to check my calendar."
+      },
+      {
+       "t": 457.62,
+       "text": "C. Yes, it was a good meeting."
+      }
+     ],
+     "viText": "Q: Lịch hẹn nha khoa của bạn là thứ Ba tới phải không?\n(A) Bạn có thể mượn của tôi.\n(B) Tôi phải kiểm tra lịch của mình.\n(C) Vâng, đó là một cuộc họp tốt."
     },
     {
      "n": 20,
@@ -512,7 +949,30 @@
        "B": "My winter coat.",
        "C": "Because someone just took the last one."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 464.57,
+       "text": "Number twenty."
+      },
+      {
+       "t": 467.35,
+       "text": "Why aren't there any brochures in the lobby?"
+      },
+      {
+       "t": 470.12,
+       "text": "A. No, I haven't received my confirmation email yet."
+      },
+      {
+       "t": 472.89,
+       "text": "B. My winter coat."
+      },
+      {
+       "t": 475.67,
+       "text": "C. Because someone just took the last one."
+      }
+     ],
+     "viText": "Q: Tại sao không có tờ rơi nào trong sảnh?\n(A) Không, tôi chưa nhận được email xác nhận.\n(B) Áo khoác mùa đông của tôi.\n(C) Vì có người vừa lấy tờ cuối cùng."
     },
     {
      "n": 21,
@@ -536,7 +996,30 @@
        "B": "The end of the day.",
        "C": "That's correct."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 483.38,
+       "text": "Number twenty-one."
+      },
+      {
+       "t": 485.88,
+       "text": "What's the process for submitting my expense report?"
+      },
+      {
+       "t": 488.37,
+       "text": "A. You send it to the finance department."
+      },
+      {
+       "t": 490.87,
+       "text": "B. The end of the day."
+      },
+      {
+       "t": 493.37,
+       "text": "C. That's correct."
+      }
+     ],
+     "viText": "Q: Quy trình nộp báo cáo chi phí của tôi là gì?\n(A) Bạn gửi nó cho phòng tài chính.\n(B) Cuối ngày.\n(C) Đúng vậy."
     },
     {
      "n": 22,
@@ -560,7 +1043,30 @@
        "B": "A product demonstration.",
        "C": "Only online."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 500.47,
+       "text": "Number twenty-two."
+      },
+      {
+       "t": 502.99,
+       "text": "Do you sell your products online or in stores?"
+      },
+      {
+       "t": 505.52,
+       "text": "A. About 20% off."
+      },
+      {
+       "t": 508.04,
+       "text": "B. A product demonstration."
+      },
+      {
+       "t": 510.56,
+       "text": "C. Only online."
+      }
+     ],
+     "viText": "Q: Bạn bán sản phẩm trực tuyến hay tại cửa hàng?\n(A) Giảm khoảng 20 phần trăm.\n(B) Một buổi trình diễn sản phẩm.\n(C) Chỉ bán trực tuyến."
     },
     {
      "n": 23,
@@ -584,7 +1090,30 @@
        "B": "A wireless one.",
        "C": "At the hardware store."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 517.77,
+       "text": "Number twenty-three."
+      },
+      {
+       "t": 520.11,
+       "text": "How often do you charge this device?"
+      },
+      {
+       "t": 522.44,
+       "text": "A. Whenever the light turns red."
+      },
+      {
+       "t": 524.78,
+       "text": "B. A wireless one."
+      },
+      {
+       "t": 527.12,
+       "text": "C. At the hardware store."
+      }
+     ],
+     "viText": "Q: Bạn sạc thiết bị này bao lâu một lần?\n(A) Bất cứ khi nào đèn chuyển đỏ.\n(B) Một cái không dây.\n(C) Ở cửa hàng vật liệu."
     },
     {
      "n": 24,
@@ -608,7 +1137,30 @@
        "B": "No, I can't play the guitar.",
        "C": "It's in aisle five."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 533.97,
+       "text": "Number twenty-four."
+      },
+      {
+       "t": 536.68,
+       "text": "The tickets to Friday night's concert cost ten dollars each."
+      },
+      {
+       "t": 539.39,
+       "text": "A. Actually, they're fifteen."
+      },
+      {
+       "t": 542.1,
+       "text": "B. No, I can't play the guitar."
+      },
+      {
+       "t": 544.81,
+       "text": "C. It's in aisle five."
+      }
+     ],
+     "viText": "Q: Vé buổi hòa nhạc tối thứ Sáu giá 10 đô la mỗi vé.\n(A) Thực ra là 15 đô la.\n(B) Không, tôi không biết chơi guitar.\n(C) Nó ở lối đi số năm."
     },
     {
      "n": 25,
@@ -632,7 +1184,30 @@
        "B": "That's an interesting movie.",
        "C": "No, just me."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 552.37,
+       "text": "Number twenty-five."
+      },
+      {
+       "t": 554.73,
+       "text": "Can't you update the database today?"
+      },
+      {
+       "t": 557.08,
+       "text": "A. I did it yesterday."
+      },
+      {
+       "t": 559.43,
+       "text": "B. That's an interesting movie."
+      },
+      {
+       "t": 561.79,
+       "text": "C. No, just me."
+      }
+     ],
+     "viText": "Q: Bạn không thể cập nhật cơ sở dữ liệu hôm nay sao?\n(A) Tôi đã làm hôm qua rồi.\n(B) Đó là một bộ phim thú vị.\n(C) Không, chỉ mình tôi thôi."
     },
     {
      "n": 26,
@@ -656,7 +1231,30 @@
        "B": "Natalie's in charge of supplies.",
        "C": "It's the door at the end of the hallway."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 568.67,
+       "text": "Number twenty-six."
+      },
+      {
+       "t": 571.45,
+       "text": "How are we going to fit the extra supplies in that closet?"
+      },
+      {
+       "t": 574.23,
+       "text": "A. I've already read them."
+      },
+      {
+       "t": 577.01,
+       "text": "B. Natalie's in charge of supplies."
+      },
+      {
+       "t": 579.8,
+       "text": "C. It's the door at the end of the hallway."
+      }
+     ],
+     "viText": "Q: Chúng ta sẽ làm sao để để thêm đồ dùng vào cái tủ đó?\n(A) Tôi đã đọc chúng rồi.\n(B) Natalie phụ trách đồ dùng.\n(C) Đó là cánh cửa ở cuối hành lang."
     },
     {
      "n": 27,
@@ -680,7 +1278,30 @@
        "B": "The construction crew is almost finished.",
        "C": "This isn't the tallest ladder available."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 587.47,
+       "text": "Number twenty-seven."
+      },
+      {
+       "t": 590.31,
+       "text": "Have all the new windows been installed?"
+      },
+      {
+       "t": 593.14,
+       "text": "A. Sure, I'll close the blinds."
+      },
+      {
+       "t": 595.98,
+       "text": "B. The construction crew is almost finished."
+      },
+      {
+       "t": 598.81,
+       "text": "C. This isn't the tallest ladder available."
+      }
+     ],
+     "viText": "Q: Tất cả cửa sổ mới đã được lắp chưa?\n(A) Chắc chắn, tôi sẽ đóng rèm.\n(B) Đội xây dựng gần xong rồi.\n(C) Đây không phải cái thang cao nhất hiện có."
     },
     {
      "n": 28,
@@ -704,7 +1325,30 @@
        "B": "On the corner of Fourth and Main.",
        "C": "The daily special is soup and a sandwich."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 606.67,
+       "text": "Number twenty-eight."
+      },
+      {
+       "t": 609.33,
+       "text": "Would you rather go to lunch now or at noon?"
+      },
+      {
+       "t": 611.99,
+       "text": "A. I'm taking a client to lunch."
+      },
+      {
+       "t": 614.64,
+       "text": "B. On the corner of Fourth and Main."
+      },
+      {
+       "t": 617.3,
+       "text": "C. The daily special is soup and a sandwich."
+      }
+     ],
+     "viText": "Q: Bạn muốn đi ăn trưa bây giờ hay lúc 12 giờ?\n(A) Tôi đang đưa một khách hàng đi ăn trưa.\n(B) Ở góc đường Fourth và Main.\n(C) Món đặc biệt hôm nay là súp và bánh sandwich."
     },
     {
      "n": 29,
@@ -728,7 +1372,30 @@
        "B": "No, I take my coffee black.",
        "C": "Well, it depends on my schedule."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 624.77,
+       "text": "Number twenty-nine."
+      },
+      {
+       "t": 627.59,
+       "text": "You're taking the training in the afternoon, aren't you?"
+      },
+      {
+       "t": 630.42,
+       "text": "A. The new head of the accounting department."
+      },
+      {
+       "t": 633.24,
+       "text": "B. No, I take my coffee black."
+      },
+      {
+       "t": 636.06,
+       "text": "C. Well, it depends on my schedule."
+      }
+     ],
+     "viText": "Q: Bạn sẽ tham gia khóa đào tạo vào buổi chiều, đúng không?\n(A) Trưởng phòng kế toán mới.\n(B) Không, tôi uống cà phê đen.\n(C) Còn tùy lịch của tôi."
     },
     {
      "n": 30,
@@ -752,7 +1419,30 @@
        "B": "To the south entrance.",
        "C": "I'm meeting with her at 10."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 643.87,
+       "text": "Number thirty."
+      },
+      {
+       "t": 646.45,
+       "text": "Shouldn't Ms. Ishida look over the financial projections?"
+      },
+      {
+       "t": 649.02,
+       "text": "A. I just got this monitor."
+      },
+      {
+       "t": 651.6,
+       "text": "B. To the south entrance."
+      },
+      {
+       "t": 654.18,
+       "text": "C. I'm meeting with her at 10."
+      }
+     ],
+     "viText": "Q: Chẳng phải cô Ishida nên xem lại các dự báo tài chính sao?\n(A) Tôi vừa nhận màn hình này.\n(B) Đến lối vào phía nam.\n(C) Tôi sẽ gặp cô ấy lúc 10 giờ."
     },
     {
      "n": 31,
@@ -776,7 +1466,30 @@
        "B": "Next to the front entrance.",
        "C": "I'm really busy this week."
       }
-     }
+     },
+     "segs": [
+      {
+       "t": 661.47,
+       "text": "Number thirty-one."
+      },
+      {
+       "t": 664.07,
+       "text": "When are you going to choose a new project manager?"
+      },
+      {
+       "t": 666.67,
+       "text": "A. The projector's not working correctly."
+      },
+      {
+       "t": 669.27,
+       "text": "B. Next to the front entrance."
+      },
+      {
+       "t": 671.87,
+       "text": "C. I'm really busy this week."
+      }
+     ],
+     "viText": "Q: Khi nào bạn sẽ chọn quản lý dự án mới?\n(A) Máy chiếu đang không hoạt động đúng.\n(B) Bên cạnh lối vào phía trước.\n(C) Tuần này tôi rất bận."
     }
    ]
   },

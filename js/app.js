@@ -1104,7 +1104,7 @@
       return `<div class="qcard" id="qc-${it.questions[0].n}">${head}${passage}${graphic}${qs}${transcript}</div>`;
     }
     const soloRevealed = state.finished || state.revealed[it.n];
-    const soloExtras = soloRevealed && p.part <= 4 ? renderTranscriptBox(it, false) : "";
+    const soloExtras = soloRevealed && p.part <= 4 ? renderTranscriptBox(it, true) : "";
     return `<div class="qcard" id="qc-${it.n}">${renderQuestion(t, p, it, null)}${soloExtras}</div>`;
   }
 
@@ -1125,7 +1125,7 @@
     const body = withLines && it.segs && it.segs.length
       ? `<div class="tl-lines">${it.segs.map((s) =>
           `<div class="tl-line" data-t="${s.t}" onclick="App.seekLine(${s.t}${it.audio ? "," + (it.audio.end || "null") : ""})">${esc(s.text)}</div>`).join("")}</div>`
-      : (withLines && it.transcript ? esc(it.transcript) : "");
+      : (withLines && it.transcript ? esc(it.transcript) : (withLines && dictRef ? esc(dictRef) : ""));
     const viBtn = it.viText ? `<button class="btn btn-sm" onclick="App.toggleVi(this)">Bản dịch</button>` : "";
     const dictBtn = hasAudio && dictRef ? `<button class="btn btn-sm" onclick="App.openDictation(${firstQ})">Chép chính tả</button>` : "";
     const vi = it.viText ? `<div class="vi-text hidden">${esc(it.viText)}</div>` : "";
@@ -1259,12 +1259,6 @@
         ${q.uncertain ? ' <span class="uncertain-flag">đáp án chưa chắc chắn 100%</span>' : ""}</div>
         ${q.explanation ? esc(q.explanation) : ""}
       </div>`;
-      if (q.spoken && (q.spoken.question || Object.keys(q.spoken.choices || {}).length)) {
-        const sp = [];
-        if (q.spoken.question) sp.push("Q: " + q.spoken.question);
-        for (const [L, txt] of Object.entries(q.spoken.choices || {})) sp.push(`(${L}) ${txt}`);
-        feedback += `<div class="transcript-box"><div class="t-label">Nội dung audio</div>${esc(sp.join("\n"))}</div>`;
-      }
     }
     const checkBtn = state.mode === "practice" && !reveal && user
       ? `<button class="btn btn-sm" style="margin-top:10px" onclick="App.check(${q.n})">Kiểm tra đáp án</button>` : "";
