@@ -970,9 +970,14 @@
     $("#btn-exit").classList.remove("hidden");
     renderRunner();
     const t = state.session;
-    if (cfg.mode === "exam" && t.audioSrc) {
-      const span = audioSpan(t);
-      if (span) playSegment(span.start, span.end);
+    if (t.audioSrc) {
+      if (cfg.mode === "exam") {
+        const span = audioSpan(t);
+        playSegment(span ? span.start : 0, span ? span.end : null);
+      } else {
+        ensureAudio();
+        showDock(true);
+      }
     }
     if (cfg.mode === "exam" && cfg.timerMin) {
       startTimer(cfg.timerMin * 60);
