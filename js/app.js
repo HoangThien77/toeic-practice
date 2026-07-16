@@ -1238,7 +1238,12 @@
         else if (user === L) cls += " wrong";
         else cls += " dim";
       }
-      const label = q.choices[L] ? esc(q.choices[L]) : "<i style='color:var(--muted)'>(nghe audio)</i>";
+      const spokenChoice = q.spoken && q.spoken.choices && q.spoken.choices[L];
+      const label = q.choices[L]
+        ? esc(q.choices[L])
+        : reveal && spokenChoice
+          ? esc(spokenChoice)
+          : "<i style='color:var(--muted)'>(nghe audio)</i>";
       return `<div class="${cls}" onclick="App.pick(${q.n},'${L}')"><span class="letter">${L}</span><span>${label}</span></div>`;
     }).join("");
 

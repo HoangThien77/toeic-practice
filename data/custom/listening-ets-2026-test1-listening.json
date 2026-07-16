@@ -20,12 +20,21 @@
       "D": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (B) \"The woman is wearing a jacket.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q1.jpg",
      "audio": {
       "start": 94.81,
       "end": 114.33
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "The woman is carrying a tray of food.",
+       "B": "The woman is wearing a jacket.",
+       "C": "The woman is tying up her hair.",
+       "D": "The woman is removing her hat."
+      }
      }
     },
     {
@@ -38,12 +47,21 @@
       "D": ""
      },
      "answer": "D",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (D) \"Some people are looking at a book.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q2.jpg",
      "audio": {
       "start": 116.49,
       "end": 139.32
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "Some people are standing next to a filing cabinet.",
+       "B": "Some people are searching through a desk.",
+       "C": "Some people are watching a presentation.",
+       "D": "Some people are looking at a book."
+      }
      }
     },
     {
@@ -56,12 +74,21 @@
       "D": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (C) \"Some light fixtures are hanging from the ceiling.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q3.jpg",
      "audio": {
       "start": 141.37,
       "end": 165.4
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "A woman is holding a phone up to her ear.",
+       "B": "A woman is pouring a beverage into a glass.",
+       "C": "Some light fixtures are hanging from the ceiling.",
+       "D": "Some tiles are being installed in a hallway."
+      }
      }
     },
     {
@@ -74,12 +101,21 @@
       "D": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (A) \"A wooden crate is filled with vegetables.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q4.jpg",
      "audio": {
       "start": 167.57,
       "end": 191.09
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "A wooden crate is filled with vegetables.",
+       "B": "One of the men is putting vegetables into a shopping bag.",
+       "C": "A backpack has been set on the ground.",
+       "D": "One of the men is reaching into a bucket."
+      }
      }
     },
     {
@@ -92,12 +128,21 @@
       "D": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (A) \"Painting supplies have been laid out on the floor.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q5.jpg",
      "audio": {
       "start": 193.27,
       "end": 215.69
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "Painting supplies have been laid out on the floor.",
+       "B": "He's laying a brush down on a window sill.",
+       "C": "He's lifting a can of paint by its handle.",
+       "D": "Cans of paint have been placed on a step stool."
+      }
      }
     },
     {
@@ -110,12 +155,21 @@
       "D": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Đáp án đúng là (C) \"Some water has pooled on a path.\" vì mô tả khớp nhất với bức ảnh. Các lựa chọn còn lại không mô tả đúng nội dung chính trong ảnh.",
      "uncertain": false,
      "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q6.jpg",
      "audio": {
       "start": 217.87,
       "end": 241.29
+     },
+     "spoken": {
+      "question": "",
+      "choices": {
+       "A": "A path is covered with fallen branches.",
+       "B": "A tree is lying across a grassy area.",
+       "C": "Some water has pooled on a path.",
+       "D": "Some cyclists are riding through a field."
+      }
      }
     }
    ]
@@ -133,11 +187,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Where is the conference being held?\" Phản hồi phù hợp nhất là (B) \"At the Riverview Hotel.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 259.47,
-      "end": 273.6
+      "start": 243.38,
+      "end": 257.32
+     },
+     "spoken": {
+      "question": "Where is the conference being held?",
+      "choices": {
+       "A": "A three-day vacation.",
+       "B": "At the Riverview Hotel.",
+       "C": "In the supply cabinet."
+      }
      }
     },
     {
@@ -149,11 +211,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"When does the warehouse manager arrive?\" Phản hồi phù hợp nhất là (C) \"Not until this afternoon.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 275.67,
-      "end": 291.42
+      "start": 259.47,
+      "end": 273.6
+     },
+     "spoken": {
+      "question": "When does the warehouse manager arrive?",
+      "choices": {
+       "A": "Sure, no problem.",
+       "B": "About 12 shipping boxes.",
+       "C": "Not until this afternoon."
+      }
      }
     },
     {
@@ -165,11 +235,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"There's a nice park nearby, right?\" Phản hồi phù hợp nhất là (B) \"Yes, it's next to Greendale Lake.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 293.57,
-      "end": 308.28
+      "start": 275.67,
+      "end": 291.42
+     },
+     "spoken": {
+      "question": "There's a nice park nearby, right?",
+      "choices": {
+       "A": "Did you order paper for the copier?",
+       "B": "Yes, it's next to Greendale Lake.",
+       "C": "They're in the parking garage."
+      }
      }
     },
     {
@@ -181,11 +259,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Who sent the meeting minutes to the accounting department?\" Phản hồi phù hợp nhất là (A) \"Our office assistant.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 310.37,
-      "end": 326.84
+      "start": 293.57,
+      "end": 308.28
+     },
+     "spoken": {
+      "question": "Who sent the meeting minutes to the accounting department?",
+      "choices": {
+       "A": "Our office assistant.",
+       "B": "They have a savings account.",
+       "C": "Cash and credit cards."
+      }
      }
     },
     {
@@ -197,11 +283,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"I'd like to know what you think of our new finance analyst.\" Phản hồi phù hợp nhất là (B) \"He seems very competent.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 328.99,
-      "end": 342.88
+      "start": 310.37,
+      "end": 326.84
+     },
+     "spoken": {
+      "question": "I'd like to know what you think of our new finance analyst.",
+      "choices": {
+       "A": "I've prepared the decorations for tomorrow.",
+       "B": "He seems very competent.",
+       "C": "It's finally stopped raining."
+      }
      }
     },
     {
@@ -213,11 +307,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Let's go on the company retreat.\" Phản hồi phù hợp nhất là (B) \"Yes, that's a good idea.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 344.97,
-      "end": 359.66
+      "start": 328.99,
+      "end": 342.88
+     },
+     "spoken": {
+      "question": "Let's go on the company retreat.",
+      "choices": {
+       "A": "Oh, did he?",
+       "B": "Yes, that's a good idea.",
+       "C": "He tried to solve that problem."
+      }
      }
     },
     {
@@ -229,11 +331,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"What time can I pick up my glasses?\" Phản hồi phù hợp nhất là (C) \"We close at 6 o'clock.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 361.87,
-      "end": 377.95
+      "start": 344.97,
+      "end": 359.66
+     },
+     "spoken": {
+      "question": "What time can I pick up my glasses?",
+      "choices": {
+       "A": "No, it's not very heavy.",
+       "B": "About 20 meters.",
+       "C": "We close at 6 o'clock."
+      }
      }
     },
     {
@@ -245,11 +355,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"The sales team knows how to use the tracking software, don't they?\" Phản hồi phù hợp nhất là (C) \"I haven't seen them using it yet.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 380.07,
-      "end": 394.81
+      "start": 361.87,
+      "end": 377.95
+     },
+     "spoken": {
+      "question": "The sales team knows how to use the tracking software, don't they?",
+      "choices": {
+       "A": "It's on the lower shelf.",
+       "B": "A 12:30 departure.",
+       "C": "I haven't seen them using it yet."
+      }
      }
     },
     {
@@ -261,11 +379,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Are you going to the hardware store on Mill Street?\" Phản hồi phù hợp nhất là (A) \"That store hasn't opened yet.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 396.97,
-      "end": 412.05
+      "start": 380.07,
+      "end": 394.81
+     },
+     "spoken": {
+      "question": "Are you going to the hardware store on Mill Street?",
+      "choices": {
+       "A": "That store hasn't opened yet.",
+       "B": "The blue package you sent me.",
+       "C": "Some nails and a hammer."
+      }
      }
     },
     {
@@ -277,11 +403,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Would you be able to write the introduction for the workshop?\" Phản hồi phù hợp nhất là (B) \"Okay, I'd be happy to.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 414.17,
-      "end": 429.06
+      "start": 396.97,
+      "end": 412.05
+     },
+     "spoken": {
+      "question": "Would you be able to write the introduction for the workshop?",
+      "choices": {
+       "A": "No, pick any day.",
+       "B": "Okay, I'd be happy to.",
+       "C": "He doesn't have any more."
+      }
      }
     },
     {
@@ -293,11 +427,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"I picked up some flowers for Junji's retirement party.\" Phản hồi phù hợp nhất là (B) \"That was thoughtful.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 431.17,
-      "end": 445.78
+      "start": 414.17,
+      "end": 429.06
+     },
+     "spoken": {
+      "question": "I picked up some flowers for Junji's retirement party.",
+      "choices": {
+       "A": "No, pick any day.",
+       "B": "That was thoughtful.",
+       "C": "A delivery driver."
+      }
      }
     },
     {
@@ -309,11 +451,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Which meeting room did you tell the interns to go to?\" Phản hồi phù hợp nhất là (A) \"The Jefferson Room.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 447.97,
-      "end": 462.44
+      "start": 431.17,
+      "end": 445.78
+     },
+     "spoken": {
+      "question": "Which meeting room did you tell the interns to go to?",
+      "choices": {
+       "A": "The Jefferson Room.",
+       "B": "The meeting was fun, thanks.",
+       "C": "Yes, it's a conference call."
+      }
      }
     },
     {
@@ -325,11 +475,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Is your dental appointment next Tuesday?\" Phản hồi phù hợp nhất là (B) \"I'll have to check my calendar.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 464.57,
-      "end": 481.22
+      "start": 447.97,
+      "end": 462.44
+     },
+     "spoken": {
+      "question": "Is your dental appointment next Tuesday?",
+      "choices": {
+       "A": "You can borrow mine.",
+       "B": "I'll have to check my calendar.",
+       "C": "Yes, it was a good meeting."
+      }
      }
     },
     {
@@ -341,11 +499,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Why aren't there any brochures in the lobby?\" Phản hồi phù hợp nhất là (C) \"Because someone just took the last one.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 483.38,
-      "end": 498.36
+      "start": 464.57,
+      "end": 481.22
+     },
+     "spoken": {
+      "question": "Why aren't there any brochures in the lobby?",
+      "choices": {
+       "A": "No, I haven't received my confirmation email yet.",
+       "B": "My winter coat.",
+       "C": "Because someone just took the last one."
+      }
      }
     },
     {
@@ -357,11 +523,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"What's the process for submitting my expense report?\" Phản hồi phù hợp nhất là (A) \"You send it to the finance department.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 500.47,
-      "end": 515.61
+      "start": 483.38,
+      "end": 498.36
+     },
+     "spoken": {
+      "question": "What's the process for submitting my expense report?",
+      "choices": {
+       "A": "You send it to the finance department.",
+       "B": "The end of the day.",
+       "C": "That's correct."
+      }
      }
     },
     {
@@ -373,11 +547,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Do you sell your products online or in stores?\" Phản hồi phù hợp nhất là (C) \"Only online.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 517.77,
-      "end": 531.79
+      "start": 500.47,
+      "end": 515.61
+     },
+     "spoken": {
+      "question": "Do you sell your products online or in stores?",
+      "choices": {
+       "A": "About 20% off.",
+       "B": "A product demonstration.",
+       "C": "Only online."
+      }
      }
     },
     {
@@ -389,11 +571,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"How often do you charge this device?\" Phản hồi phù hợp nhất là (A) \"Whenever the light turns red.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 533.97,
-      "end": 550.23
+      "start": 517.77,
+      "end": 531.79
+     },
+     "spoken": {
+      "question": "How often do you charge this device?",
+      "choices": {
+       "A": "Whenever the light turns red.",
+       "B": "A wireless one.",
+       "C": "At the hardware store."
+      }
      }
     },
     {
@@ -405,11 +595,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"The tickets to Friday night's concert cost ten dollars each.\" Phản hồi phù hợp nhất là (A) \"Actually, they're fifteen.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 552.37,
-      "end": 566.5
+      "start": 533.97,
+      "end": 550.23
+     },
+     "spoken": {
+      "question": "The tickets to Friday night's concert cost ten dollars each.",
+      "choices": {
+       "A": "Actually, they're fifteen.",
+       "B": "No, I can't play the guitar.",
+       "C": "It's in aisle five."
+      }
      }
     },
     {
@@ -421,11 +619,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Can't you update the database today?\" Phản hồi phù hợp nhất là (A) \"I did it yesterday.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 568.67,
-      "end": 585.36
+      "start": 552.37,
+      "end": 566.5
+     },
+     "spoken": {
+      "question": "Can't you update the database today?",
+      "choices": {
+       "A": "I did it yesterday.",
+       "B": "That's an interesting movie.",
+       "C": "No, just me."
+      }
      }
     },
     {
@@ -437,11 +643,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"How are we going to fit the extra supplies in that closet?\" Phản hồi phù hợp nhất là (B) \"Natalie's in charge of supplies.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 587.47,
-      "end": 604.48
+      "start": 568.67,
+      "end": 585.36
+     },
+     "spoken": {
+      "question": "How are we going to fit the extra supplies in that closet?",
+      "choices": {
+       "A": "I've already read them.",
+       "B": "Natalie's in charge of supplies.",
+       "C": "It's the door at the end of the hallway."
+      }
      }
     },
     {
@@ -453,11 +667,19 @@
       "C": ""
      },
      "answer": "B",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Have all the new windows been installed?\" Phản hồi phù hợp nhất là (B) \"The construction crew is almost finished.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 606.67,
-      "end": 622.62
+      "start": 587.47,
+      "end": 604.48
+     },
+     "spoken": {
+      "question": "Have all the new windows been installed?",
+      "choices": {
+       "A": "Sure, I'll close the blinds.",
+       "B": "The construction crew is almost finished.",
+       "C": "This isn't the tallest ladder available."
+      }
      }
     },
     {
@@ -469,11 +691,19 @@
       "C": ""
      },
      "answer": "A",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Would you rather go to lunch now or at noon?\" Phản hồi phù hợp nhất là (A) \"I'm taking a client to lunch.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 624.77,
-      "end": 641.71
+      "start": 606.67,
+      "end": 622.62
+     },
+     "spoken": {
+      "question": "Would you rather go to lunch now or at noon?",
+      "choices": {
+       "A": "I'm taking a client to lunch.",
+       "B": "On the corner of Fourth and Main.",
+       "C": "The daily special is soup and a sandwich."
+      }
      }
     },
     {
@@ -485,11 +715,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"You're taking the training in the afternoon, aren't you?\" Phản hồi phù hợp nhất là (C) \"Well, it depends on my schedule.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 643.87,
-      "end": 659.33
+      "start": 624.77,
+      "end": 641.71
+     },
+     "spoken": {
+      "question": "You're taking the training in the afternoon, aren't you?",
+      "choices": {
+       "A": "The new head of the accounting department.",
+       "B": "No, I take my coffee black.",
+       "C": "Well, it depends on my schedule."
+      }
      }
     },
     {
@@ -501,11 +739,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"Shouldn't Ms. Ishida look over the financial projections?\" Phản hồi phù hợp nhất là (C) \"I'm meeting with her at 10.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 661.47,
-      "end": 677.07
+      "start": 643.87,
+      "end": 659.33
+     },
+     "spoken": {
+      "question": "Shouldn't Ms. Ishida look over the financial projections?",
+      "choices": {
+       "A": "I just got this monitor.",
+       "B": "To the south entrance.",
+       "C": "I'm meeting with her at 10."
+      }
      }
     },
     {
@@ -517,11 +763,19 @@
       "C": ""
      },
      "answer": "C",
-     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "explanation": "Câu hỏi/câu nói trong audio: \"When are you going to choose a new project manager?\" Phản hồi phù hợp nhất là (C) \"I'm really busy this week.\"; các lựa chọn còn lại không trả lời đúng ý câu hỏi.",
      "uncertain": false,
      "audio": {
-      "start": 679.36,
-      "end": 714.37
+      "start": 661.47,
+      "end": 677.07
+     },
+     "spoken": {
+      "question": "When are you going to choose a new project manager?",
+      "choices": {
+       "A": "The projector's not working correctly.",
+       "B": "Next to the front entrance.",
+       "C": "I'm really busy this week."
+      }
      }
     }
    ]
@@ -573,7 +827,7 @@
       }
      ],
      "audio": {
-      "start": 716.46,
+      "start": 679.36,
       "end": 751.63
      },
      "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
@@ -1674,10 +1928,10 @@
    },
    "2": {
     "start": 243.38,
-    "end": 714.37
+    "end": 677.07
    },
    "3": {
-    "start": 716.46,
+    "start": 679.36,
     "end": 1670.74
    },
    "4": {
@@ -1711,104 +1965,104 @@
     "end": 241.29
    },
    "7": {
+    "start": 243.38,
+    "end": 257.32
+   },
+   "8": {
     "start": 259.47,
     "end": 273.6
    },
-   "8": {
+   "9": {
     "start": 275.67,
     "end": 291.42
    },
-   "9": {
+   "10": {
     "start": 293.57,
     "end": 308.28
    },
-   "10": {
+   "11": {
     "start": 310.37,
     "end": 326.84
    },
-   "11": {
+   "12": {
     "start": 328.99,
     "end": 342.88
    },
-   "12": {
+   "13": {
     "start": 344.97,
     "end": 359.66
    },
-   "13": {
+   "14": {
     "start": 361.87,
     "end": 377.95
    },
-   "14": {
+   "15": {
     "start": 380.07,
     "end": 394.81
    },
-   "15": {
+   "16": {
     "start": 396.97,
     "end": 412.05
    },
-   "16": {
+   "17": {
     "start": 414.17,
     "end": 429.06
    },
-   "17": {
+   "18": {
     "start": 431.17,
     "end": 445.78
    },
-   "18": {
+   "19": {
     "start": 447.97,
     "end": 462.44
    },
-   "19": {
+   "20": {
     "start": 464.57,
     "end": 481.22
    },
-   "20": {
+   "21": {
     "start": 483.38,
     "end": 498.36
    },
-   "21": {
+   "22": {
     "start": 500.47,
     "end": 515.61
    },
-   "22": {
+   "23": {
     "start": 517.77,
     "end": 531.79
    },
-   "23": {
+   "24": {
     "start": 533.97,
     "end": 550.23
    },
-   "24": {
+   "25": {
     "start": 552.37,
     "end": 566.5
    },
-   "25": {
+   "26": {
     "start": 568.67,
     "end": 585.36
    },
-   "26": {
+   "27": {
     "start": 587.47,
     "end": 604.48
    },
-   "27": {
+   "28": {
     "start": 606.67,
     "end": 622.62
    },
-   "28": {
+   "29": {
     "start": 624.77,
     "end": 641.71
    },
-   "29": {
+   "30": {
     "start": 643.87,
     "end": 659.33
    },
-   "30": {
+   "31": {
     "start": 661.47,
     "end": 677.07
-   },
-   "31": {
-    "start": 679.36,
-    "end": 714.37
    },
    "32": {
     "start": 716.46,
@@ -2094,7 +2348,7 @@
      33,
      34
     ],
-    "start": 716.46,
+    "start": 679.36,
     "convEnd": 716.46,
     "end": 751.63
    },
