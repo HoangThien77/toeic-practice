@@ -22,7 +22,11 @@
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q1.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q1.jpg",
+     "audio": {
+      "start": 94.81,
+      "end": 114.33
+     }
     },
     {
      "n": 2,
@@ -36,7 +40,11 @@
      "answer": "D",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q2.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q2.jpg",
+     "audio": {
+      "start": 116.49,
+      "end": 139.32
+     }
     },
     {
      "n": 3,
@@ -50,7 +58,11 @@
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q3.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q3.jpg",
+     "audio": {
+      "start": 141.37,
+      "end": 165.4
+     }
     },
     {
      "n": 4,
@@ -64,7 +76,11 @@
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q4.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q4.jpg",
+     "audio": {
+      "start": 167.57,
+      "end": 191.09
+     }
     },
     {
      "n": 5,
@@ -78,7 +94,11 @@
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q5.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q5.jpg",
+     "audio": {
+      "start": 193.27,
+      "end": 215.69
+     }
     },
     {
      "n": 6,
@@ -92,7 +112,11 @@
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
      "uncertain": false,
-     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q6.jpg"
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q6.jpg",
+     "audio": {
+      "start": 217.87,
+      "end": 241.29
+     }
     }
    ]
   },
@@ -110,7 +134,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 259.47,
+      "end": 273.6
+     }
     },
     {
      "n": 8,
@@ -122,7 +150,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 275.67,
+      "end": 291.42
+     }
     },
     {
      "n": 9,
@@ -134,7 +166,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 293.57,
+      "end": 308.28
+     }
     },
     {
      "n": 10,
@@ -146,7 +182,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 310.37,
+      "end": 326.84
+     }
     },
     {
      "n": 11,
@@ -158,7 +198,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 328.99,
+      "end": 342.88
+     }
     },
     {
      "n": 12,
@@ -170,7 +214,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 344.97,
+      "end": 359.66
+     }
     },
     {
      "n": 13,
@@ -182,7 +230,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 361.87,
+      "end": 377.95
+     }
     },
     {
      "n": 14,
@@ -194,7 +246,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 380.07,
+      "end": 394.81
+     }
     },
     {
      "n": 15,
@@ -206,7 +262,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 396.97,
+      "end": 412.05
+     }
     },
     {
      "n": 16,
@@ -218,7 +278,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 414.17,
+      "end": 429.06
+     }
     },
     {
      "n": 17,
@@ -230,7 +294,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 431.17,
+      "end": 445.78
+     }
     },
     {
      "n": 18,
@@ -242,7 +310,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 447.97,
+      "end": 462.44
+     }
     },
     {
      "n": 19,
@@ -254,7 +326,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 464.57,
+      "end": 481.22
+     }
     },
     {
      "n": 20,
@@ -266,7 +342,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 483.38,
+      "end": 498.36
+     }
     },
     {
      "n": 21,
@@ -278,7 +358,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 500.47,
+      "end": 515.61
+     }
     },
     {
      "n": 22,
@@ -290,7 +374,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 517.77,
+      "end": 531.79
+     }
     },
     {
      "n": 23,
@@ -302,7 +390,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 533.97,
+      "end": 550.23
+     }
     },
     {
      "n": 24,
@@ -314,7 +406,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 552.37,
+      "end": 566.5
+     }
     },
     {
      "n": 25,
@@ -326,7 +422,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 568.67,
+      "end": 585.36
+     }
     },
     {
      "n": 26,
@@ -338,7 +438,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 587.47,
+      "end": 604.48
+     }
     },
     {
      "n": 27,
@@ -350,7 +454,11 @@
      },
      "answer": "B",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 606.67,
+      "end": 622.62
+     }
     },
     {
      "n": 28,
@@ -362,7 +470,11 @@
      },
      "answer": "A",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 624.77,
+      "end": 641.71
+     }
     },
     {
      "n": 29,
@@ -374,7 +486,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 643.87,
+      "end": 659.33
+     }
     },
     {
      "n": 30,
@@ -386,7 +502,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 661.47,
+      "end": 677.07
+     }
     },
     {
      "n": 31,
@@ -398,7 +518,11 @@
      },
      "answer": "C",
      "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-     "uncertain": false
+     "uncertain": false,
+     "audio": {
+      "start": 679.36,
+      "end": 714.37
+     }
     }
    ]
   },
@@ -407,8 +531,6 @@
    "directions": "Nghe các đoạn hội thoại và trả lời câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề gốc phía trên mỗi nhóm.",
    "items": [
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
-     "ptype": "PDF snapshot page 7",
      "questions": [
       {
        "n": 32,
@@ -448,7 +570,17 @@
        "answer": "B",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 716.46,
+      "end": 751.63
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
+     "ptype": "PDF snapshot questions 32–34"
+    },
+    {
+     "questions": [
       {
        "n": 35,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -487,7 +619,17 @@
        "answer": "D",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 751.63,
+      "end": 823.62
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
+     "ptype": "PDF snapshot questions 35–37"
+    },
+    {
+     "questions": [
       {
        "n": 38,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -526,7 +668,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 823.62,
+      "end": 887.82
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
+     "ptype": "PDF snapshot questions 38–40"
+    },
+    {
+     "questions": [
       {
        "n": 41,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -566,11 +718,15 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 887.82,
+      "end": 956.13
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-007.jpg",
+     "ptype": "PDF snapshot questions 41–43"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
-     "ptype": "PDF snapshot page 8",
      "questions": [
       {
        "n": 44,
@@ -610,7 +766,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 956.13,
+      "end": 1035.22
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
+     "ptype": "PDF snapshot questions 44–46"
+    },
+    {
+     "questions": [
       {
        "n": 47,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -649,7 +815,17 @@
        "answer": "C",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1035.22,
+      "end": 1113.82
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
+     "ptype": "PDF snapshot questions 47–49"
+    },
+    {
+     "questions": [
       {
        "n": 50,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -688,7 +864,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1113.82,
+      "end": 1188.83
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
+     "ptype": "PDF snapshot questions 50–52"
+    },
+    {
+     "questions": [
       {
        "n": 53,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -728,11 +914,15 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 1188.83,
+      "end": 1266.33
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-008.jpg",
+     "ptype": "PDF snapshot questions 53–55"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-009.jpg",
-     "ptype": "PDF snapshot page 9",
      "questions": [
       {
        "n": 56,
@@ -772,7 +962,17 @@
        "answer": "C",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1266.33,
+      "end": 1340.33
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-009.jpg",
+     "ptype": "PDF snapshot questions 56–58"
+    },
+    {
+     "questions": [
       {
        "n": 59,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -811,7 +1011,17 @@
        "answer": "B",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1340.33,
+      "end": 1426.22
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-009.jpg",
+     "ptype": "PDF snapshot questions 59–61"
+    },
+    {
+     "questions": [
       {
        "n": 62,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -851,11 +1061,15 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 1426.22,
+      "end": 1503.02
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-009.jpg",
+     "ptype": "PDF snapshot questions 62–64"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-010.jpg",
-     "ptype": "PDF snapshot page 10",
      "questions": [
       {
        "n": 65,
@@ -895,7 +1109,17 @@
        "answer": "C",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1503.02,
+      "end": 1590.82
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-010.jpg",
+     "ptype": "PDF snapshot questions 65–67"
+    },
+    {
+     "questions": [
       {
        "n": 68,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -935,7 +1159,13 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 1590.82,
+      "end": 1670.74
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-010.jpg",
+     "ptype": "PDF snapshot questions 68–70"
     }
    ]
   },
@@ -944,8 +1174,6 @@
    "directions": "Nghe các bài nói ngắn và trả lời câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề gốc phía trên mỗi nhóm.",
    "items": [
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
-     "ptype": "PDF snapshot page 11",
      "questions": [
       {
        "n": 71,
@@ -985,7 +1213,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1670.74,
+      "end": 1748.12
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
+     "ptype": "PDF snapshot questions 71–73"
+    },
+    {
+     "questions": [
       {
        "n": 74,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1024,7 +1262,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1748.12,
+      "end": 1832.42
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
+     "ptype": "PDF snapshot questions 74–76"
+    },
+    {
+     "questions": [
       {
        "n": 77,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1063,7 +1311,17 @@
        "answer": "A",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1832.42,
+      "end": 1903.13
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
+     "ptype": "PDF snapshot questions 77–79"
+    },
+    {
+     "questions": [
       {
        "n": 80,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1103,11 +1361,15 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 1903.13,
+      "end": 1983.43
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-011.jpg",
+     "ptype": "PDF snapshot questions 80–82"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
-     "ptype": "PDF snapshot page 12",
      "questions": [
       {
        "n": 83,
@@ -1147,7 +1409,17 @@
        "answer": "D",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 1983.43,
+      "end": 2062.03
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
+     "ptype": "PDF snapshot questions 83–85"
+    },
+    {
+     "questions": [
       {
        "n": 86,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1186,7 +1458,17 @@
        "answer": "C",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 2062.03,
+      "end": 2136.56
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
+     "ptype": "PDF snapshot questions 86–88"
+    },
+    {
+     "questions": [
       {
        "n": 89,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1225,7 +1507,17 @@
        "answer": "C",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 2136.56,
+      "end": 2228.33
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
+     "ptype": "PDF snapshot questions 89–91"
+    },
+    {
+     "questions": [
       {
        "n": 92,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1265,11 +1557,15 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 2228.33,
+      "end": 2303.62
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-012.jpg",
+     "ptype": "PDF snapshot questions 92–94"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-013.jpg",
-     "ptype": "PDF snapshot page 13",
      "questions": [
       {
        "n": 95,
@@ -1309,7 +1605,17 @@
        "answer": "D",
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
-      },
+      }
+     ],
+     "audio": {
+      "start": 2303.62,
+      "end": 2382.32
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-013.jpg",
+     "ptype": "PDF snapshot questions 95–97"
+    },
+    {
+     "questions": [
       {
        "n": 98,
        "question": "Xem câu hỏi và các lựa chọn trong ảnh đề.",
@@ -1349,9 +1655,669 @@
        "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
        "uncertain": false
       }
-     ]
+     ],
+     "audio": {
+      "start": 2382.32,
+      "end": 2477.5
+     },
+     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-013.jpg",
+     "ptype": "PDF snapshot questions 98–100"
     }
    ]
   }
- ]
+ ],
+ "timings": {
+  "parts": {
+   "1": {
+    "start": 62.05,
+    "end": 243.38
+   },
+   "2": {
+    "start": 243.38,
+    "end": 714.37
+   },
+   "3": {
+    "start": 716.46,
+    "end": 1670.74
+   },
+   "4": {
+    "start": 1670.74,
+    "end": 2477.5
+   }
+  },
+  "questions": {
+   "1": {
+    "start": 94.81,
+    "end": 114.33
+   },
+   "2": {
+    "start": 116.49,
+    "end": 139.32
+   },
+   "3": {
+    "start": 141.37,
+    "end": 165.4
+   },
+   "4": {
+    "start": 167.57,
+    "end": 191.09
+   },
+   "5": {
+    "start": 193.27,
+    "end": 215.69
+   },
+   "6": {
+    "start": 217.87,
+    "end": 241.29
+   },
+   "7": {
+    "start": 259.47,
+    "end": 273.6
+   },
+   "8": {
+    "start": 275.67,
+    "end": 291.42
+   },
+   "9": {
+    "start": 293.57,
+    "end": 308.28
+   },
+   "10": {
+    "start": 310.37,
+    "end": 326.84
+   },
+   "11": {
+    "start": 328.99,
+    "end": 342.88
+   },
+   "12": {
+    "start": 344.97,
+    "end": 359.66
+   },
+   "13": {
+    "start": 361.87,
+    "end": 377.95
+   },
+   "14": {
+    "start": 380.07,
+    "end": 394.81
+   },
+   "15": {
+    "start": 396.97,
+    "end": 412.05
+   },
+   "16": {
+    "start": 414.17,
+    "end": 429.06
+   },
+   "17": {
+    "start": 431.17,
+    "end": 445.78
+   },
+   "18": {
+    "start": 447.97,
+    "end": 462.44
+   },
+   "19": {
+    "start": 464.57,
+    "end": 481.22
+   },
+   "20": {
+    "start": 483.38,
+    "end": 498.36
+   },
+   "21": {
+    "start": 500.47,
+    "end": 515.61
+   },
+   "22": {
+    "start": 517.77,
+    "end": 531.79
+   },
+   "23": {
+    "start": 533.97,
+    "end": 550.23
+   },
+   "24": {
+    "start": 552.37,
+    "end": 566.5
+   },
+   "25": {
+    "start": 568.67,
+    "end": 585.36
+   },
+   "26": {
+    "start": 587.47,
+    "end": 604.48
+   },
+   "27": {
+    "start": 606.67,
+    "end": 622.62
+   },
+   "28": {
+    "start": 624.77,
+    "end": 641.71
+   },
+   "29": {
+    "start": 643.87,
+    "end": 659.33
+   },
+   "30": {
+    "start": 661.47,
+    "end": 677.07
+   },
+   "31": {
+    "start": 679.36,
+    "end": 714.37
+   },
+   "32": {
+    "start": 716.46,
+    "end": 730.29
+   },
+   "33": {
+    "start": 730.29,
+    "end": 742.15
+   },
+   "34": {
+    "start": 742.15,
+    "end": 751.63
+   },
+   "35": {
+    "start": 789.02,
+    "end": 801.0
+   },
+   "36": {
+    "start": 801.0,
+    "end": 814.09
+   },
+   "37": {
+    "start": 814.09,
+    "end": 823.62
+   },
+   "38": {
+    "start": 853.33,
+    "end": 865.45
+   },
+   "39": {
+    "start": 865.45,
+    "end": 878.83
+   },
+   "40": {
+    "start": 878.83,
+    "end": 887.82
+   },
+   "41": {
+    "start": 921.97,
+    "end": 934.56
+   },
+   "42": {
+    "start": 934.56,
+    "end": 946.91
+   },
+   "43": {
+    "start": 946.91,
+    "end": 956.13
+   },
+   "44": {
+    "start": 1000.68,
+    "end": 1012.27
+   },
+   "45": {
+    "start": 1012.27,
+    "end": 1024.87
+   },
+   "46": {
+    "start": 1024.87,
+    "end": 1035.22
+   },
+   "47": {
+    "start": 1077.52,
+    "end": 1089.67
+   },
+   "48": {
+    "start": 1089.67,
+    "end": 1102.89
+   },
+   "49": {
+    "start": 1102.89,
+    "end": 1113.82
+   },
+   "50": {
+    "start": 1155.91,
+    "end": 1167.88
+   },
+   "51": {
+    "start": 1167.88,
+    "end": 1179.92
+   },
+   "52": {
+    "start": 1179.92,
+    "end": 1188.83
+   },
+   "53": {
+    "start": 1228.9,
+    "end": 1240.96
+   },
+   "54": {
+    "start": 1240.96,
+    "end": 1253.43
+   },
+   "55": {
+    "start": 1253.43,
+    "end": 1266.33
+   },
+   "56": {
+    "start": 1304.78,
+    "end": 1317.52
+   },
+   "57": {
+    "start": 1317.52,
+    "end": 1330.22
+   },
+   "58": {
+    "start": 1330.22,
+    "end": 1340.33
+   },
+   "59": {
+    "start": 1388.48,
+    "end": 1400.55
+   },
+   "60": {
+    "start": 1400.55,
+    "end": 1412.38
+   },
+   "61": {
+    "start": 1412.38,
+    "end": 1426.22
+   },
+   "62": {
+    "start": 1462.89,
+    "end": 1474.3
+   },
+   "63": {
+    "start": 1474.3,
+    "end": 1493.47
+   },
+   "64": {
+    "start": 1493.47,
+    "end": 1503.02
+   },
+   "65": {
+    "start": 1548.38,
+    "end": 1560.16
+   },
+   "66": {
+    "start": 1560.16,
+    "end": 1579.36
+   },
+   "67": {
+    "start": 1579.36,
+    "end": 1590.82
+   },
+   "68": {
+    "start": 1628.46,
+    "end": 1640.48
+   },
+   "69": {
+    "start": 1640.48,
+    "end": 1660.45
+   },
+   "70": {
+    "start": 1660.45,
+    "end": 1670.74
+   },
+   "71": {
+    "start": 1712.11,
+    "end": 1725.21
+   },
+   "72": {
+    "start": 1725.21,
+    "end": 1738.17
+   },
+   "73": {
+    "start": 1738.17,
+    "end": 1748.12
+   },
+   "74": {
+    "start": 1795.2,
+    "end": 1807.54
+   },
+   "75": {
+    "start": 1807.54,
+    "end": 1821.93
+   },
+   "76": {
+    "start": 1821.93,
+    "end": 1832.42
+   },
+   "77": {
+    "start": 1867.13,
+    "end": 1878.95
+   },
+   "78": {
+    "start": 1878.95,
+    "end": 1893.0
+   },
+   "79": {
+    "start": 1893.0,
+    "end": 1903.13
+   },
+   "80": {
+    "start": 1948.93,
+    "end": 1961.7
+   },
+   "81": {
+    "start": 1961.7,
+    "end": 1974.02
+   },
+   "82": {
+    "start": 1974.02,
+    "end": 1983.43
+   },
+   "83": {
+    "start": 2023.33,
+    "end": 2035.78
+   },
+   "84": {
+    "start": 2035.78,
+    "end": 2052.06
+   },
+   "85": {
+    "start": 2052.06,
+    "end": 2062.03
+   },
+   "86": {
+    "start": 2101.35,
+    "end": 2113.8
+   },
+   "87": {
+    "start": 2113.8,
+    "end": 2126.63
+   },
+   "88": {
+    "start": 2126.63,
+    "end": 2136.56
+   },
+   "89": {
+    "start": 2189.54,
+    "end": 2201.79
+   },
+   "90": {
+    "start": 2201.79,
+    "end": 2217.23
+   },
+   "91": {
+    "start": 2217.23,
+    "end": 2228.33
+   },
+   "92": {
+    "start": 2266.53,
+    "end": 2278.58
+   },
+   "93": {
+    "start": 2278.58,
+    "end": 2292.56
+   },
+   "94": {
+    "start": 2292.56,
+    "end": 2303.62
+   },
+   "95": {
+    "start": 2338.03,
+    "end": 2352.71
+   },
+   "96": {
+    "start": 2352.71,
+    "end": 2371.69
+   },
+   "97": {
+    "start": 2371.69,
+    "end": 2382.32
+   },
+   "98": {
+    "start": 2434.75,
+    "end": 2446.84
+   },
+   "99": {
+    "start": 2446.84,
+    "end": 2465.01
+   },
+   "100": {
+    "start": 2465.01,
+    "end": 2477.5
+   }
+  },
+  "blocks": [
+   {
+    "questions": [
+     32,
+     33,
+     34
+    ],
+    "start": 716.46,
+    "convEnd": 716.46,
+    "end": 751.63
+   },
+   {
+    "questions": [
+     35,
+     36,
+     37
+    ],
+    "start": 751.63,
+    "convEnd": 789.02,
+    "end": 823.62
+   },
+   {
+    "questions": [
+     38,
+     39,
+     40
+    ],
+    "start": 823.62,
+    "convEnd": 853.33,
+    "end": 887.82
+   },
+   {
+    "questions": [
+     41,
+     42,
+     43
+    ],
+    "start": 887.82,
+    "convEnd": 921.97,
+    "end": 956.13
+   },
+   {
+    "questions": [
+     44,
+     45,
+     46
+    ],
+    "start": 956.13,
+    "convEnd": 1000.68,
+    "end": 1035.22
+   },
+   {
+    "questions": [
+     47,
+     48,
+     49
+    ],
+    "start": 1035.22,
+    "convEnd": 1077.52,
+    "end": 1113.82
+   },
+   {
+    "questions": [
+     50,
+     51,
+     52
+    ],
+    "start": 1113.82,
+    "convEnd": 1155.91,
+    "end": 1188.83
+   },
+   {
+    "questions": [
+     53,
+     54,
+     55
+    ],
+    "start": 1188.83,
+    "convEnd": 1228.9,
+    "end": 1266.33
+   },
+   {
+    "questions": [
+     56,
+     57,
+     58
+    ],
+    "start": 1266.33,
+    "convEnd": 1304.78,
+    "end": 1340.33
+   },
+   {
+    "questions": [
+     59,
+     60,
+     61
+    ],
+    "start": 1340.33,
+    "convEnd": 1388.48,
+    "end": 1426.22
+   },
+   {
+    "questions": [
+     62,
+     63,
+     64
+    ],
+    "start": 1426.22,
+    "convEnd": 1462.89,
+    "end": 1503.02
+   },
+   {
+    "questions": [
+     65,
+     66,
+     67
+    ],
+    "start": 1503.02,
+    "convEnd": 1548.38,
+    "end": 1590.82
+   },
+   {
+    "questions": [
+     68,
+     69,
+     70
+    ],
+    "start": 1590.82,
+    "convEnd": 1628.46,
+    "end": 1670.74
+   },
+   {
+    "questions": [
+     71,
+     72,
+     73
+    ],
+    "start": 1670.74,
+    "convEnd": 1712.11,
+    "end": 1748.12
+   },
+   {
+    "questions": [
+     74,
+     75,
+     76
+    ],
+    "start": 1748.12,
+    "convEnd": 1795.2,
+    "end": 1832.42
+   },
+   {
+    "questions": [
+     77,
+     78,
+     79
+    ],
+    "start": 1832.42,
+    "convEnd": 1867.13,
+    "end": 1903.13
+   },
+   {
+    "questions": [
+     80,
+     81,
+     82
+    ],
+    "start": 1903.13,
+    "convEnd": 1948.93,
+    "end": 1983.43
+   },
+   {
+    "questions": [
+     83,
+     84,
+     85
+    ],
+    "start": 1983.43,
+    "convEnd": 2023.33,
+    "end": 2062.03
+   },
+   {
+    "questions": [
+     86,
+     87,
+     88
+    ],
+    "start": 2062.03,
+    "convEnd": 2101.35,
+    "end": 2136.56
+   },
+   {
+    "questions": [
+     89,
+     90,
+     91
+    ],
+    "start": 2136.56,
+    "convEnd": 2189.54,
+    "end": 2228.33
+   },
+   {
+    "questions": [
+     92,
+     93,
+     94
+    ],
+    "start": 2228.33,
+    "convEnd": 2266.53,
+    "end": 2303.62
+   },
+   {
+    "questions": [
+     95,
+     96,
+     97
+    ],
+    "start": 2303.62,
+    "convEnd": 2338.03,
+    "end": 2382.32
+   },
+   {
+    "questions": [
+     98,
+     99,
+     100
+    ],
+    "start": 2382.32,
+    "convEnd": 2434.75,
+    "end": 2477.5
+   }
+  ]
+ }
 }
