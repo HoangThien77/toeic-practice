@@ -8,103 +8,91 @@
  "parts": [
   {
    "part": 1,
-   "directions": "Nghe 4 câu mô tả về mỗi bức ảnh và chọn câu mô tả đúng nhất. Câu hỏi và đáp án chỉ có trong audio; ảnh đề gốc hiển thị theo từng trang.",
+   "directions": "Nghe 4 câu mô tả về mỗi bức ảnh và chọn câu mô tả đúng nhất. Câu hỏi và đáp án chỉ có trong audio.",
    "items": [
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-003.jpg",
-     "ptype": "PDF snapshot page 3",
-     "questions": [
-      {
-       "n": 1,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 2,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "D",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      }
-     ]
+     "n": 1,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q1.jpg"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-004.jpg",
-     "ptype": "PDF snapshot page 4",
-     "questions": [
-      {
-       "n": 3,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 4,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 5,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      }
-     ]
+     "n": 2,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "D",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q2.jpg"
     },
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-005.jpg",
-     "ptype": "PDF snapshot page 5",
-     "questions": [
-      {
-       "n": 6,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      }
-     ]
+     "n": 3,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q3.jpg"
+    },
+    {
+     "n": 4,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q4.jpg"
+    },
+    {
+     "n": 5,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q5.jpg"
+    },
+    {
+     "n": 6,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false,
+     "image": "assets/img/custom/20260715-172412-listening-ets-2026/p1-q6.jpg"
     }
    ]
   },
@@ -113,310 +101,304 @@
    "directions": "Nghe một câu hỏi/câu nói và 3 câu đáp, chọn câu đáp phù hợp nhất. Tất cả chỉ có trong audio.",
    "items": [
     {
-     "img": "assets/img/custom/20260715-172412-listening-ets-2026/page-006.jpg",
-     "ptype": "PDF snapshot page 6",
-     "questions": [
-      {
-       "n": 7,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 8,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 9,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 10,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 11,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 12,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 13,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 14,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 15,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 16,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 17,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 18,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 19,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 20,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 21,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 22,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 23,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 24,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 25,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 26,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 27,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "B",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 28,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "A",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 29,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 30,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      },
-      {
-       "n": 31,
-       "question": "",
-       "choices": {
-        "A": "",
-        "B": "",
-        "C": ""
-       },
-       "answer": "C",
-       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
-       "uncertain": false
-      }
-     ]
+     "n": 7,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 8,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 9,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 10,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 11,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 12,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 13,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 14,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 15,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 16,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 17,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 18,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 19,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 20,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 21,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 22,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 23,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 24,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 25,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 26,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 27,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 28,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 29,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 30,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
+    },
+    {
+     "n": 31,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 1.",
+     "uncertain": false
     }
    ]
   },

@@ -777,6 +777,8 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 }
 .runner-head h2 { font-size: 22px; font-weight: 850; line-height: 1.2; }
 .runner-head .sub { font-size: 13px; color: var(--muted); }
+.runner-audio { margin-top: 12px; max-width: 560px; }
+.runner-audio audio { display: block; width: 100%; height: 38px; }
 .runner-grid { grid-template-columns: minmax(0, 1fr) 268px; gap: 18px; }
 .runner-main { min-width: 0; }
 .qcard {

@@ -1019,6 +1019,11 @@
       ? `<div class="review-score">Kết quả: <b>${state.result.correct}/${state.result.total}</b> câu đúng (${Math.round(state.result.pct * 100)}%) · điểm quy đổi ~${state.result.scaled} <button class="btn btn-sm" style="margin-left:8px" onclick="App.showResult()">Bảng điểm</button></div>`
       : "";
     const partsHtml = t.parts.map((p) => renderPart(t, p)).join("");
+    const runnerAudio = t.audioSrc
+      ? `<div class="runner-audio">
+          <audio controls preload="metadata" src="${esc(t.audioSrc)}"></audio>
+        </div>`
+      : "";
     const mobileActions = state.finished
       ? `<button class="btn btn-sm" onclick="App.openQnavSheet()">${ICONS.grid}<span>Câu hỏi</span></button>
          <button class="btn btn-sm btn-primary" onclick="App.goHome()">Trang chủ</button>`
@@ -1030,6 +1035,7 @@
           <h2>${esc(t.title)} ${suffix}</h2>
           <div class="sub">${esc(t.desc)}</div>
           ${scoreBanner}
+          ${runnerAudio}
         </div>
       </div>
       <div class="runner-grid">
