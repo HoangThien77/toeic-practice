@@ -1016,7 +1016,9 @@
 
   function renderRunner() {
     const t = test();
-    screen.classList.toggle("wide", t.parts.some((p) => p.part >= 6));
+    const needsSplitView = t.parts.some((p) =>
+      p.part >= 6 || ((p.part === 3 || p.part === 4) && p.items.some((it) => it.img && it.questions)));
+    screen.classList.toggle("wide", needsSplitView);
     const inReview = state.finished;
     const suffix = state.keyOnly ? "— Đáp án & giải thích"
       : inReview ? "— Xem lại bài" : state.mode === "exam" ? "— Thi thử" : "— Luyện tập";
@@ -1092,13 +1094,14 @@
       const revealed = state.finished || (state.mode === "practice" && it.questions.every((q) => state.revealed[q.n]));
       const transcript = revealed ? renderTranscriptBox(it, true) : "";
       const qs = it.questions.map((q) => renderQuestion(t, p, q, it)).join("");
-      if (!isListening && passage) {
-        // reading P6/P7: keep the passage and its question group in the same card.
+      if (passage && (!isListening || p.part === 3 || p.part === 4)) {
+        // Reading P6/P7 and listening P3/P4 snapshots stay beside their question group.
         const hint = it.img ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
         return `<div class="qcard" id="qc-${it.questions[0].n}">
-          <div class="passage-split">
+          ${head}
+          <div class="passage-split ${isListening ? "listening-split" : ""}">
             <div class="ps-left">${passage}${hint}</div>
-            <div class="ps-right">${qs}</div>
+            <div class="ps-right">${graphic}${qs}${transcript}</div>
           </div></div>`;
       }
       return `<div class="qcard" id="qc-${it.questions[0].n}">${head}${passage}${graphic}${qs}${transcript}</div>`;
