@@ -1091,7 +1091,9 @@
         : "";
       const passage = (it.img || it.text != null) ? renderPassage(it) : "";
       const graphic = it.graphicImg ? `<img class="qgraphic" src="${it.graphicImg}" alt="graphic">` : "";
-      const revealed = state.finished || (state.mode === "practice" && it.questions.every((q) => state.revealed[q.n]));
+      const revealed = state.finished || (state.mode === "practice" && (isListening
+        ? it.questions.some((q) => state.revealed[q.n])
+        : it.questions.every((q) => state.revealed[q.n])));
       const transcript = revealed ? renderTranscriptBox(it, true) : "";
       const qs = it.questions.map((q) => renderQuestion(t, p, q, it)).join("");
       if (passage && (!isListening || p.part === 3 || p.part === 4)) {
