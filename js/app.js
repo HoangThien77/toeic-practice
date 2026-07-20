@@ -68,6 +68,82 @@
   function test() { return state.session || D.tests[state.testId]; }
   function qLabel(q) { return q && q.originalN ? q.originalN : q.n; }
 
+  const ERROR_PROFILES = {
+    listen_photo: { label: "Part 1 · Mô tả tranh", short: "Mô tả tranh", advice: "Tập bắt danh từ chính, hành động đang diễn ra và bẫy trạng thái bị động trong ảnh." },
+    listen_response: { label: "Part 2 · Hỏi đáp ngắn", short: "Hỏi đáp ngắn", advice: "Tập nghe từ hỏi, thì của câu hỏi và tránh chọn đáp án lặp lại từ nhưng sai ý." },
+    listen_graphic: { label: "Part 3-4 · Câu có biểu đồ", short: "Nghe + biểu đồ", advice: "Nghe thông tin rồi đối chiếu ngay với bảng/biểu đồ, không chỉ dựa vào chữ trong đáp án." },
+    listen_detail: { label: "Part 3-4 · Chi tiết", short: "Nghe chi tiết", advice: "Tập bắt tên riêng, thời gian, địa điểm, hành động tiếp theo và con số." },
+    listen_inference: { label: "Part 3-4 · Suy luận", short: "Nghe suy luận", advice: "Tập nối ý giữa nhiều câu thoại, nhất là câu hỏi implied/most likely/mean." },
+    read_grammar: { label: "Part 5-6 · Ngữ pháp/từ loại", short: "Ngữ pháp", advice: "Ôn cấu trúc câu quanh chỗ trống: dạng động từ, từ loại, liên từ, giới từ và mệnh đề." },
+    read_vocab: { label: "Reading · Từ vựng/ngữ nghĩa", short: "Từ vựng", advice: "Ghi lại collocation và nghĩa trong ngữ cảnh, đừng chỉ học nghĩa đơn lẻ của từ." },
+    read_sentence: { label: "Part 6-7 · Chèn câu/liên kết ý", short: "Liên kết ý", advice: "Đọc câu trước-sau vị trí trống để bắt đại từ, mốc thời gian và quan hệ nguyên nhân-kết quả." },
+    read_detail: { label: "Part 7 · Chi tiết", short: "Đọc chi tiết", advice: "Tập scan từ khóa rồi đối chiếu paraphrase, đặc biệt câu NOT/indicated/according to." },
+    read_inference: { label: "Part 7 · Suy luận", short: "Đọc suy luận", advice: "Tìm bằng chứng gián tiếp trong bài, tránh chọn đáp án đúng ngoài đời nhưng không được bài hỗ trợ." },
+    read_purpose: { label: "Part 7 · Mục đích/ý chính", short: "Mục đích", advice: "Xác định loại văn bản, người gửi-người nhận và lý do đoạn văn được viết." },
+    read_reference: { label: "Part 7 · Từ/cụm từ trong ngữ cảnh", short: "Từ trong ngữ cảnh", advice: "Thay đáp án vào câu gốc và kiểm tra sắc thái nghĩa thay vì chọn nghĩa quen thuộc nhất." },
+  };
+
+  function profileFallback(part) {
+    if (part === 1) return "listen_photo";
+    if (part === 2) return "listen_response";
+    if (part <= 4) return "listen_detail";
+    if (part === 5 || part === 6) return "read_grammar";
+    return "read_detail";
+  }
+
+  function choiceValues(q) {
+    return Object.keys(q.choices || q.spoken && q.spoken.choices || {}).map((L) => choiceText(q, L)).filter(Boolean);
+  }
+
+  function looksGrammarChoices(vals) {
+    const txt = vals.map(normText).join(" | ");
+    if (/\b(to [a-z]+|being [a-z]+|been [a-z]+|has|have|had|will|would|should|could|may|might)\b/.test(txt)) return true;
+    if (/\b(is|are|was|were|be|being|been)\b/.test(txt)) return true;
+    if (/\b(in|on|at|by|for|with|of|to|from|through|during|while|although|because|if|unless|despite)\b/.test(txt) && vals.every((v) => v.split(/\s+/).length <= 3)) return true;
+    const endings = vals.map((v) => normText(v).split(" ").pop() || "");
+    const suffixHits = endings.filter((w) => /(ly|tion|sion|ment|ness|ity|ive|al|ous|ing|ed|er|est|ize|ise)$/.test(w)).length;
+    return suffixHits >= 2 && vals.every((v) => v.split(/\s+/).length <= 4);
+  }
+
+  function classifyQuestionRef(ref) {
+    if (!ref) return ERROR_PROFILES.listen_detail;
+    const q = ref.q || {};
+    const part = ref.p ? ref.p.part : ref.part;
+    const question = normText(q.question || "");
+    const choices = choiceValues(q);
+    const hay = normText([q.question, q.explanation, choices.join(" ")].join(" "));
+    let id = profileFallback(part);
+    if (part === 1) id = "listen_photo";
+    else if (part === 2) id = "listen_response";
+    else if (part === 3 || part === 4) {
+      if (ref.item && ref.item.graphicImg) id = "listen_graphic";
+      else if (/\b(imply|implied|infer|suggest|mean|probably|most likely|will .* next|offer to do|purpose of the call|why is|why does)\b/.test(question)) id = "listen_inference";
+      else id = "listen_detail";
+    } else if (part === 5) {
+      id = looksGrammarChoices(choices) || /___|blank|complete/.test(question) ? "read_grammar" : "read_vocab";
+    } else if (part === 6) {
+      if (choices.some((v) => /[.!?]$/.test(v.trim()) || v.length > 55) || /sentence|position|best belong/.test(hay)) id = "read_sentence";
+      else id = looksGrammarChoices(choices) ? "read_grammar" : "read_vocab";
+    } else if (part === 7) {
+      if (/\b(purpose|main purpose|why was|why did .* write|intended for)\b/.test(question)) id = "read_purpose";
+      else if (/\b(closest in meaning|word|phrase|refer to)\b/.test(question)) id = "read_reference";
+      else if (/\b(implied|inferred|suggested|most likely|probably|indicate about .*?\?)\b/.test(question)) id = "read_inference";
+      else id = "read_detail";
+    }
+    return ERROR_PROFILES[id] || ERROR_PROFILES[profileFallback(part)];
+  }
+
+  function profileIdForRef(ref) {
+    const profile = classifyQuestionRef(ref);
+    return Object.keys(ERROR_PROFILES).find((id) => ERROR_PROFILES[id] === profile) || profileFallback(ref && ref.p ? ref.p.part : ref && ref.part);
+  }
+
+  function profileForEntry(entry, ref) {
+    const src = ref || findSourceQuestion(entry.testId, entry.qn);
+    const id = src ? profileIdForRef(src) : profileFallback(entry.part || 7);
+    return { id, ...(ERROR_PROFILES[id] || ERROR_PROFILES.read_detail) };
+  }
+
   /* ---------------- TOEIC score conversion (bảng quy đổi chuẩn, xấp xỉ ETS) ---------------- */
   const LISTENING_TABLE = [[0, 5], [5, 20], [10, 45], [15, 75], [20, 105], [25, 130], [30, 160], [35, 185], [40, 215], [45, 240], [50, 270], [55, 295], [60, 320], [65, 345], [70, 370], [75, 395], [80, 420], [85, 445], [90, 470], [95, 490], [100, 495]];
   const READING_TABLE = [[0, 5], [5, 5], [10, 15], [15, 30], [20, 50], [25, 75], [30, 100], [35, 125], [40, 155], [45, 180], [50, 210], [55, 235], [60, 265], [65, 290], [70, 320], [75, 350], [80, 375], [85, 405], [90, 435], [95, 465], [100, 495]];
@@ -261,16 +337,34 @@
 
   function wrongEntries(filter) {
     const now = Date.now();
+    const profileFilter = String(filter || "").startsWith("profile:") ? String(filter).slice(8) : null;
     return loadWrongBank().map((entry) => ({ entry, ref: findSourceQuestion(entry.testId, entry.qn) }))
-      .filter(({ entry }) => {
+      .filter(({ entry, ref }) => {
         if (filter === "all") return true;
         if (filter === "mastered") return !!entry.mastered;
+        if (profileFilter) return !entry.mastered && profileForEntry(entry, ref).id === profileFilter;
         if (filter === "reading") return !entry.mastered && entry.kind === "reading";
         if (filter === "listening") return !entry.mastered && entry.kind === "listening";
         if (filter === "due") return !entry.mastered && (!entry.dueAt || entry.dueAt <= now);
         return !entry.mastered;
       })
       .sort((a, b) => sortWrongBank([a.entry, b.entry]).findIndex((x) => x.id === a.entry.id) === 0 ? -1 : 1);
+  }
+
+  function wrongProfileStats() {
+    const rows = loadWrongBank().map((entry) => ({ entry, ref: findSourceQuestion(entry.testId, entry.qn) })).filter(({ entry }) => !entry.mastered);
+    const map = {};
+    rows.forEach(({ entry, ref }) => {
+      const p = profileForEntry(entry, ref);
+      if (!map[p.id]) map[p.id] = { ...p, count: 0, wrongs: 0, due: 0, reading: 0, listening: 0, examples: [] };
+      const bucket = map[p.id];
+      bucket.count++;
+      bucket.wrongs += entry.wrongCount || 1;
+      if (!entry.dueAt || entry.dueAt <= Date.now()) bucket.due++;
+      if (entry.kind === "listening") bucket.listening++; else bucket.reading++;
+      if (bucket.examples.length < 3) bucket.examples.push({ entry, ref });
+    });
+    return Object.values(map).sort((a, b) => (b.wrongs - a.wrongs) || (b.count - a.count));
   }
 
   function wrongStats() {
@@ -394,7 +488,7 @@
   }
 
   function stemTokens(q) {
-    return new Set(normText([q.question, ...Object.keys(q.choices || {}).map((L) => q.choices[L])].join(" ")).split(" ").filter((w) => w.length >= 4));
+    return new Set(normText([q.question, ...choiceValues(q)].join(" ")).split(" ").filter((w) => w.length >= 4));
   }
 
   function overlapScore(a, b) {
@@ -408,20 +502,23 @@
     const baseOptions = variantOptions(ref.q, "base");
     const baseCorrect = normText(baseOptions.find((o) => o.correct)?.text || choiceText(ref.q, ref.q.answer));
     const baseTokens = stemTokens(ref.q);
+    const baseProfile = profileIdForRef(ref);
     const all = [];
     Object.values(D.tests).forEach((t) => {
       allQuestions(t).forEach((candidate) => {
-        if (t.id === ref.test.id && qLabel(candidate.q) === ref.q.n) return;
+        if (t.id === ref.test.id && Number(qLabel(candidate.q)) === Number(qLabel(ref.q))) return;
+        const cRef = { test: t, p: { part: candidate.part }, item: candidate.item, q: candidate.q };
         const cOpts = variantOptions(candidate.q, "candidate");
         if (!cOpts.length) return;
         const cCorrect = normText(cOpts.find((o) => o.correct)?.text || choiceText(candidate.q, candidate.q.answer));
         let score = 0;
+        if (profileIdForRef(cRef) === baseProfile) score += 6;
         if (candidate.part === ref.p.part) score += 3;
         if ((candidate.part <= 4) === (ref.p.part <= 4)) score += 1;
         if (baseCorrect && cCorrect && baseCorrect === cCorrect) score += 8;
         score += Math.min(4, overlapScore(baseTokens, stemTokens(candidate.q)));
         if (String(ref.q.question || "").includes("___") && String(candidate.q.question || "").includes("___")) score += 2;
-        if (score >= 4) all.push({ score, test: t, p: { part: candidate.part }, item: candidate.item, q: candidate.q });
+        if (score >= 5) all.push({ score, test: t, p: { part: candidate.part }, item: candidate.item, q: candidate.q });
       });
     });
     return all.sort((a, b) => b.score - a.score).slice(0, limit || 3);
@@ -477,28 +574,36 @@
     };
   }
 
-  function buildSimilarExercises(testId, filter, qn) {
-    let rows;
-    if (qn != null) {
-      const entry = loadWrongBank().find((x) => x.id === wrongKey(testId, Number(qn)));
-      rows = entry ? [{ entry, ref: findSourceQuestion(testId, Number(qn)) }] : [];
-    } else {
-      rows = wrongEntries(filter || "active").filter(({ entry }) => entry.testId === testId);
-    }
+  function buildSimilarExercisesFromRows(rows) {
     const exercises = [];
     rows.filter((x) => x.ref).slice(0, 12).forEach(({ entry, ref }) => {
-      const base = makeSimilarExercise(ref, "Tráo đáp án", `${entry.id}:shuffle:${entry.wrongCount || 0}`, "Cùng câu gốc nhưng đổi vị trí đáp án để tránh học thuộc letter.");
+      const profile = profileForEntry(entry, ref);
+      const base = makeSimilarExercise(ref, "Tráo đáp án", `${entry.id}:shuffle:${entry.wrongCount || 0}`, `${profile.short}: cùng câu gốc nhưng đổi vị trí đáp án để tránh học thuộc letter.`);
       if (base) exercises.push(base);
       const focus = makeSimilarExercise(ref, "Nhắc lại lỗi", `${entry.id}:trap:${entry.lastUser || "x"}`, `Bạn từng chọn ${entry.lastUser || "sai"}; chọn lại dựa trên ngữ cảnh, không dựa vào letter cũ.`);
       if (focus) exercises.push(focus);
       const transcript = ref.p.part <= 4 ? makeTranscriptExercise(ref, `${entry.id}:listen`) : null;
       if (transcript) exercises.push(transcript);
       similarQuestionRefs(ref, 2).forEach((sim, i) => {
-        const ex = makeSimilarExercise(sim, `Câu thật tương tự ${i + 1}`, `${entry.id}:neighbor:${i}`, `Câu cùng dạng được lấy từ ${groupCardTitle(sim.test.title)}.`);
+        const simProfile = ERROR_PROFILES[profileIdForRef(sim)] || profile;
+        const ex = makeSimilarExercise(sim, `Câu thật tương tự ${i + 1}`, `${entry.id}:neighbor:${i}`, `${simProfile.short}: câu cùng dạng được lấy từ ${groupCardTitle(sim.test.title)}.`);
         if (ex) exercises.push(ex);
       });
     });
     return exercises.slice(0, 30);
+  }
+
+  function rowsForSimilarDrill(testId, filter, qn, profileId) {
+    if (profileId) return wrongEntries("profile:" + profileId).filter((x) => x.ref);
+    if (qn != null) {
+      const entry = loadWrongBank().find((x) => x.id === wrongKey(testId, Number(qn)));
+      return entry ? [{ entry, ref: findSourceQuestion(testId, Number(qn)) }] : [];
+    }
+    return wrongEntries(filter || "active").filter(({ entry, ref }) => entry.testId === testId && ref);
+  }
+
+  function buildSimilarExercises(testId, filter, qn, profileId) {
+    return buildSimilarExercisesFromRows(rowsForSimilarDrill(testId, filter, qn, profileId));
   }
 
   function goSimilarDrill(testId, filter, qn) {
@@ -515,24 +620,44 @@
     window.scrollTo(0, 0);
   }
 
+  function goProfileDrill(profileId) {
+    if (!ERROR_PROFILES[profileId]) return;
+    state.view = "similar";
+    state.similarDrill = { testId: null, filter: "profile:" + profileId, qn: null, profileId };
+    state.similarAnswers = {};
+    stopTimer(); audioEl.pause(); state.segEnd = null; showDock(false);
+    document.body.classList.remove("has-mbar");
+    screen.classList.remove("wide");
+    $("#btn-exit").classList.add("hidden");
+    renderSimilarDrill();
+    window.scrollTo(0, 0);
+  }
+
   function renderSimilarDrill() {
     const cfg = state.similarDrill;
     if (!cfg) return;
-    const src = D.tests[cfg.testId];
-    const exercises = buildSimilarExercises(cfg.testId, cfg.filter, cfg.qn);
+    const src = cfg.testId ? D.tests[cfg.testId] : null;
+    const profile = cfg.profileId ? ERROR_PROFILES[cfg.profileId] : null;
+    const exercises = buildSimilarExercises(cfg.testId, cfg.filter, cfg.qn, cfg.profileId);
     const answered = Object.keys(state.similarAnswers || {}).length;
     const correct = exercises.filter((ex, i) => state.similarAnswers[i] === ex.answer).length;
     const cards = exercises.map((ex, i) => renderSimilarCard(ex, i)).join("");
+    const scopeTitle = profile ? profile.label : groupCardTitle(src && src.title);
+    const scopeNote = profile ? profile.advice : "Bản này tạo offline từ dữ liệu đề hiện có, không cần API.";
+    const backFilter = profile ? "profile:" + cfg.profileId : (cfg.filter || "active");
+    const restart = profile
+      ? `App.goProfileDrill('${cfg.profileId}')`
+      : `App.goSimilarDrill('${cfg.testId}','${cfg.filter || "active"}'${cfg.qn == null ? "" : `,${cfg.qn}`})`;
     screen.innerHTML = `
       <div class="hero"><h1>Biến thể câu sai</h1>
-        <p>${esc(groupCardTitle(src.title))} · ${exercises.length} bài luyện nhỏ từ câu sai. Bản này tạo offline từ dữ liệu đề hiện có, không cần API.</p>
+        <p>${esc(scopeTitle)} · ${exercises.length} bài luyện nhỏ từ câu sai. ${esc(scopeNote)}</p>
       </div>
       <div class="similar-head">
         <div class="stat-box"><div class="v">${correct}/${answered}</div><div class="k">đúng / đã làm</div></div>
         <div class="stat-box"><div class="v">${exercises.length}</div><div class="k">bài luyện</div></div>
         <div class="similar-actions">
-          <button class="btn" onclick="App.goWrong('${cfg.filter || "active"}')">Về sổ câu sai</button>
-          <button class="btn btn-primary" onclick="App.goSimilarDrill('${cfg.testId}','${cfg.filter || "active"}'${cfg.qn == null ? "" : `,${cfg.qn}`})">Làm lượt mới</button>
+          <button class="btn" onclick="App.goWrong('${backFilter}')">Về sổ câu sai</button>
+          <button class="btn btn-primary" onclick="${restart}">Làm lượt mới</button>
         </div>
       </div>
       ${cards ? `<div class="similar-grid">${cards}</div>` : '<div class="history-empty">Chưa tạo được biến thể cho nhóm này. Hãy làm sai một câu có dữ liệu đáp án/transcript trước.</div>'}
@@ -604,6 +729,7 @@
       </div>` : "";
     const sourceLine = `${esc(groupCardTitle(test.title))} · ${test.kind === "listening" ? "Listening" : "Reading"} · Part ${p.part} · Câu ${qn}`;
     const qLine = q.question || (p.part <= 2 ? "Nghe audio và chọn đáp án" : "Xem câu hỏi và lựa chọn trong ảnh đề");
+    const profile = profileForEntry(entry, ref);
     openModal(`<h3>Drill lỗi — Câu ${qn}</h3>
       <div class="drill-modal">
         <div class="drill-source">${sourceLine}</div>
@@ -617,9 +743,11 @@
         </div>
         <div class="drill-card">
           <b>2. Lỗi cần nhớ</b>
+          <div class="wrong-profile-callout"><span>${esc(profile.label)}</span><p>${esc(profile.advice)}</p></div>
           <div class="drill-question">${esc(qLine)}</div>
           <div class="drill-choices">${choiceRows}</div>
           <div class="drill-note">${q.explanation ? esc(q.explanation) : "Chưa có giải thích riêng cho câu này."}</div>
+          <button class="btn btn-sm" onclick="App.closeModal(); App.goProfileDrill('${profile.id}')">Luyện cả dạng lỗi này</button>
         </div>
         ${audioTools ? `<div class="drill-card"><b>3. Luyện nghe lại điểm sai</b>${audioTools}${transcript ? `<details class="drill-details"><summary>Xem transcript</summary><pre>${esc(transcript)}</pre></details>` : ""}</div>` : ""}
         <div class="drill-card compact">
@@ -819,6 +947,103 @@
     grid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
   };
 
+  function mergeWrongBanks(current, incoming) {
+    const byId = {};
+    current.forEach((x) => { if (x && x.id) byId[x.id] = x; });
+    incoming.forEach((raw) => {
+      if (!raw || !raw.id || !raw.testId || raw.qn == null) return;
+      const old = byId[raw.id];
+      if (!old) { byId[raw.id] = raw; return; }
+      const rawNewer = (raw.lastWrongAt || raw.lastCorrectAt || raw.firstWrongAt || 0) >= (old.lastWrongAt || old.lastCorrectAt || old.firstWrongAt || 0);
+      byId[raw.id] = {
+        ...(rawNewer ? old : raw),
+        ...(rawNewer ? raw : old),
+        firstWrongAt: Math.min(old.firstWrongAt || raw.firstWrongAt || Date.now(), raw.firstWrongAt || old.firstWrongAt || Date.now()),
+        lastWrongAt: Math.max(old.lastWrongAt || 0, raw.lastWrongAt || 0) || null,
+        lastCorrectAt: Math.max(old.lastCorrectAt || 0, raw.lastCorrectAt || 0) || null,
+        wrongCount: Math.max(old.wrongCount || 0, raw.wrongCount || 0),
+        correctCount: Math.max(old.correctCount || 0, raw.correctCount || 0),
+        attemptCount: Math.max(old.attemptCount || 0, raw.attemptCount || 0),
+        correctStreak: rawNewer ? (raw.correctStreak || 0) : (old.correctStreak || 0),
+        mastered: !!old.mastered || !!raw.mastered,
+        dueAt: old.mastered || raw.mastered ? null : Math.min(old.dueAt || Date.now(), raw.dueAt || Date.now()),
+      };
+    });
+    return sortWrongBank(Object.values(byId));
+  }
+
+  function exportWrongBank() {
+    const payload = { version: 1, exportedAt: Date.now(), wrongBank: loadWrongBank(), importedHistory: loadImportedHistory() };
+    const text = JSON.stringify(payload, null, 2);
+    try {
+      const blob = new Blob([text], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `toeic-wrong-bank-${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch {}
+    openModal(`<h3>Xuất dữ liệu câu sai</h3>
+      <p>File JSON đã được tạo. Nếu trình duyệt không tự tải xuống, bạn có thể copy nội dung bên dưới để backup hoặc chuyển sang thiết bị khác.</p>
+      <textarea class="dict-input" rows="8" readonly>${esc(text)}</textarea>
+      <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`, true);
+  }
+
+  function openWrongImport() {
+    openModal(`<h3>Nhập dữ liệu câu sai</h3>
+      <p>Dán nội dung file JSON đã xuất từ thiết bị khác. Dữ liệu sẽ được gộp theo từng câu, không xoá sổ hiện tại.</p>
+      <textarea id="wrong-import-json" class="dict-input" rows="8" placeholder="Dán JSON backup vào đây..."></textarea>
+      <div id="wrong-import-status"></div>
+      <div class="modal-actions">
+        <button class="btn" onclick="App.closeModal()">Huỷ</button>
+        <button class="btn btn-primary" onclick="App.importWrongBankText()">Nhập dữ liệu</button>
+      </div>`, true);
+  }
+
+  function importWrongBankText() {
+    const box = document.getElementById("wrong-import-json");
+    const status = document.getElementById("wrong-import-status");
+    try {
+      const parsed = JSON.parse((box && box.value || "").trim());
+      const incoming = Array.isArray(parsed) ? parsed : parsed.wrongBank;
+      if (!Array.isArray(incoming)) throw new Error("Không tìm thấy danh sách wrongBank trong JSON.");
+      const merged = mergeWrongBanks(loadWrongBank(), incoming);
+      saveWrongBank(merged);
+      if (parsed.importedHistory) saveImportedHistory([...loadImportedHistory(), ...parsed.importedHistory]);
+      if (status) status.innerHTML = `<div class="dict-score good">Đã nhập ${incoming.length} dòng, sổ hiện có ${merged.length} câu.</div>`;
+      setTimeout(() => { closeModal(); if (state.view === "wrong") goWrong("active"); }, 500);
+    } catch (e) {
+      if (status) status.innerHTML = `<div class="dict-score low">Không nhập được: ${esc(e.message || String(e))}</div>`;
+    }
+  }
+
+  function renderWrongInsights(profiles, currentFilter) {
+    if (!profiles.length) return "";
+    const cards = profiles.slice(0, 6).map((p, idx) => {
+      const examples = p.examples.map(({ entry }) => `Part ${entry.part} câu ${entry.qn}`).join(" · ");
+      return `<div class="wrong-insight-card ${currentFilter === "profile:" + p.id ? "active" : ""}">
+        <div class="wic-rank">${idx + 1}</div>
+        <div class="wic-body">
+          <b>${esc(p.short)}</b>
+          <div class="muted">${p.count} câu · ${p.wrongs} lần sai${p.due ? ` · ${p.due} đến hạn` : ""}</div>
+          <p>${esc(p.advice)}</p>
+          ${examples ? `<small>${esc(examples)}</small>` : ""}
+        </div>
+        <div class="wic-actions">
+          <button class="btn btn-sm" onclick="App.goWrong('profile:${p.id}')">Xem lỗi</button>
+          <button class="btn btn-sm btn-primary" onclick="App.goProfileDrill('${p.id}')">Luyện dạng này</button>
+        </div>
+      </div>`;
+    }).join("");
+    return `<section class="wrong-insights">
+      <div class="sec-head"><h2>Dạng lỗi lặp lại</h2><span class="muted">Ưu tiên luyện các nhóm có tổng lần sai cao nhất</span></div>
+      <div class="wrong-insight-grid">${cards}</div>
+    </section>`;
+  }
+
   function renderWrongHomePanel(stats) {
     const active = stats.active;
     const due = stats.due;
@@ -860,6 +1085,9 @@
     $("#btn-exit").classList.add("hidden");
 
     const stats = wrongStats();
+    const profileStats = wrongProfileStats();
+    const profileFilterId = String(filter || "").startsWith("profile:") ? String(filter).slice(8) : null;
+    const profileFilter = profileFilterId ? ERROR_PROFILES[profileFilterId] : null;
     const entries = wrongEntries(filter);
     const filters = [
       ["active", `Đang cần ôn (${stats.active})`],
@@ -895,11 +1123,12 @@
           ? '<span class="badge badge-blue">Đang giãn cách</span>'
           : '<span class="badge badge-amber">Cần ôn</span>';
       const preview = entry.question || (ref && ref.q.question) || "Xem trong ảnh đề";
+      const profile = profileForEntry(entry, ref);
       const action = stale
         ? '<span class="muted">Đề gốc không còn trong dữ liệu</span>'
         : `<div class="wrong-row-actions"><button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button><button class="btn btn-sm" onclick="App.openWrongDrill('${entry.testId}',${entry.qn})">Drill lỗi</button><button class="btn btn-sm" onclick="App.goSimilarDrill('${entry.testId}','all',${entry.qn})">Biến thể</button></div>`;
       return `<tr>
-        <td><b>${esc(groupCardTitle(entry.testTitle || entry.testId))}</b><div class="muted">Part ${entry.part} · câu ${entry.qn}</div></td>
+        <td><b>${esc(groupCardTitle(entry.testTitle || entry.testId))}</b><div class="muted">Part ${entry.part} · câu ${entry.qn}</div><span class="wrong-mini-profile">${esc(profile.short)}</span></td>
         <td>${esc(preview)}</td>
         <td>${status}<div class="muted">Sai ${entry.wrongCount || 0} lần · đúng lại ${entry.correctStreak || 0}/${WRONG_MASTER_STREAK}</div></td>
         <td class="muted">${shortDate(entry.lastWrongAt || entry.firstWrongAt)}</td>
@@ -909,7 +1138,7 @@
 
     screen.innerHTML = `
       <div class="hero"><h1>Sổ câu sai</h1>
-        <p>Các câu bạn làm sai được lưu tự động theo đề gốc. Ôn đúng ${WRONG_MASTER_STREAK} lần liên tiếp thì câu đó sẽ tự chuyển sang đã thuộc.</p>
+        <p>${profileFilter ? `Đang xem riêng dạng ${esc(profileFilter.label)}. ${esc(profileFilter.advice)}` : `Các câu bạn làm sai được lưu tự động theo đề gốc. Ôn đúng ${WRONG_MASTER_STREAK} lần liên tiếp thì câu đó sẽ tự chuyển sang đã thuộc.`}</p>
       </div>
       <div class="wrong-summary">
         <div class="stat-box"><div class="v">${stats.active}</div><div class="k">đang cần ôn</div></div>
@@ -918,9 +1147,14 @@
         <div class="stat-box"><div class="v">${stats.listening}</div><div class="k">Listening</div></div>
         <div class="stat-box"><div class="v">${stats.mastered}</div><div class="k">đã thuộc</div></div>
       </div>
+      ${renderWrongInsights(profileStats, filter)}
       <div class="wrong-toolbar">
         <div class="time-chips">${filters}</div>
-        <button class="btn" onclick="App.goHome()">Trang chủ</button>
+        <div class="wrong-toolbar-actions">
+          <button class="btn" onclick="App.exportWrongBank()">Xuất dữ liệu</button>
+          <button class="btn" onclick="App.openWrongImport()">Nhập dữ liệu</button>
+          <button class="btn" onclick="App.goHome()">Trang chủ</button>
+        </div>
       </div>
       ${groupCards ? `<div class="wrong-tests">${groupCards}</div>` : ""}
       ${rows ? `<div class="table-scroll"><table class="history-table wrong-table"><thead><tr><th>Nguồn</th><th>Câu hỏi</th><th>Trạng thái</th><th>Lần sai gần nhất</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>` : '<div class="history-empty">Không có câu nào trong nhóm này.</div>'}
@@ -2597,7 +2831,7 @@
 
   /* ---------------- public API ---------------- */
   window.App = {
-    goHome, goWrong, goSimilarDrill, pickSimilar, startWrongReview, startQuestionPractice, openWrongDrill, openWrongDictation, playWrongAudio, markWrongMastered, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
+    goHome, goWrong, goSimilarDrill, goProfileDrill, pickSimilar, exportWrongBank, openWrongImport, importWrongBankText, startWrongReview, startQuestionPractice, openWrongDrill, openWrongDictation, playWrongAudio, markWrongMastered, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,

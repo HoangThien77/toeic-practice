@@ -453,6 +453,28 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 }
 .wrong-table td:nth-child(2) { max-width: 520px; }
 .wrong-row-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.wrong-toolbar-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.wrong-mini-profile {
+  display: inline-flex; margin-top: 5px; padding: 2px 7px; border-radius: 5px;
+  background: #f1f5fb; color: var(--muted); font-size: 11.5px; font-weight: 800;
+}
+.wrong-insights { margin: 0 0 18px; }
+.wrong-insights .sec-head { align-items: center; margin-bottom: 10px; }
+.wrong-insight-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+.wrong-insight-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 14px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px;
+}
+.wrong-insight-card.active { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+.wic-rank {
+  width: 28px; height: 28px; border-radius: 8px; background: var(--accent-soft); color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 900; font-size: 13px;
+}
+.wic-body { min-width: 0; }
+.wic-body b { display: block; font-size: 15px; }
+.wic-body p { color: #3c4658; font-size: 13px; margin: 6px 0 4px; }
+.wic-body small { color: var(--muted); font-size: 12px; }
+.wic-actions { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
 .drill-modal { display: flex; flex-direction: column; gap: 12px; }
 .drill-source { color: var(--muted); font-size: 13px; font-weight: 800; }
 .drill-card {
@@ -463,6 +485,11 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .drill-card b { font-size: 14px; }
 .drill-card p, .drill-note { color: #3c4658; font-size: 13.5px; margin: 0 !important; }
 .drill-question { font-size: 15px; font-weight: 750; }
+.wrong-profile-callout {
+  border: 1px solid #dbe5f6; background: #f7faff; border-radius: 8px; padding: 9px 10px;
+}
+.wrong-profile-callout span { display: block; color: var(--accent); font-size: 12px; font-weight: 900; text-transform: uppercase; letter-spacing: .4px; }
+.wrong-profile-callout p { color: #3c4658; font-size: 13px; margin-top: 2px !important; }
 .drill-choices { display: flex; flex-direction: column; gap: 6px; }
 .drill-choice {
   display: flex; align-items: flex-start; gap: 9px; border: 1px solid var(--line);
@@ -533,8 +560,8 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 @media (max-width: 900px) {
   .wrong-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .wrong-test-card { align-items: flex-start; flex-direction: column; }
-  .wrong-card-actions { width: 100%; justify-content: stretch; }
-  .wrong-card-actions .btn, .wrong-test-card .btn { flex: 1; min-width: 130px; }
+  .wrong-card-actions, .wrong-toolbar-actions { width: 100%; justify-content: stretch; }
+  .wrong-card-actions .btn, .wrong-test-card .btn, .wrong-toolbar-actions .btn { flex: 1; min-width: 130px; }
   .similar-head { flex-direction: column; }
   .similar-actions { width: 100%; margin-left: 0; }
   .similar-actions .btn { flex: 1; }
@@ -547,6 +574,8 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
   .tc-actions { width: 100%; }
   .tc-actions .btn { flex: 1; }
   .tc-count { display: none; }
+  .wrong-insight-grid { grid-template-columns: minmax(0, 1fr); }
+  .wic-actions .btn { flex: 1; }
   .similar-grid { grid-template-columns: minmax(0, 1fr); }
   .similar-card { padding: 13px; }
 }
