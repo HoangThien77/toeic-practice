@@ -420,7 +420,43 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .vp-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width .3s; }
 
 .badge-red { background: var(--red-soft); color: var(--red); }
+.stat-wrong .sv { color: var(--red); }
 .muted { color: var(--muted); }
+
+/* wrong-answer notebook */
+.wrong-home { margin-top: -4px; }
+.wrong-panel {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px 18px;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.wrong-panel.empty { background: #fbfdff; }
+.wp-icon { width: 42px; height: 42px; color: var(--red); background: var(--red-soft); }
+.wp-body { flex: 1; min-width: 240px; }
+.wp-title { font-size: 15px; }
+.wp-title span { color: var(--amber); font-weight: 800; }
+.wp-meta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.wp-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.wrong-summary {
+  display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px; margin: 0 0 16px;
+}
+.wrong-toolbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap; margin-bottom: 16px;
+}
+.wrong-tests { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.wrong-test-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 14px 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.wrong-table td:nth-child(2) { max-width: 520px; }
+@media (max-width: 900px) {
+  .wrong-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wrong-test-card { align-items: flex-start; flex-direction: column; }
+  .wrong-test-card .btn { width: 100%; }
+}
 
 @media (max-width: 900px) { .stats-strip { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 560px) {
@@ -665,7 +701,7 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 .hero h1, .home-head h1 { font-size: 32px; line-height: 1.15; font-weight: 850; }
 .hero p, .home-sub { max-width: 760px; color: var(--muted); font-size: 15px; }
 .stats-strip {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   margin: 0 0 30px;
 }

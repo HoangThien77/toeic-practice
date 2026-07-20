@@ -21,16 +21,25 @@
     rate: 1,             // playback speed (0.5/0.75/1) — practice & review only
     loop: false,         // auto-replay the current segment
     lastSeg: null,       // {start,end} of the segment last played
+    outcomeLogged: {},   // source question id -> true during the current run
   };
 
   /* ---------------- storage ---------------- */
   const LS_KEY = "toeic-practice-history-v1";
+  const WRONG_LS = "toeic-wrong-bank-v1";
+  const WRONG_MASTER_STREAK = 3;
   function loadHistory() {
     try { return JSON.parse(localStorage.getItem(LS_KEY)) || []; } catch { return []; }
   }
   function saveAttempt(a) {
     const h = loadHistory(); h.unshift(a);
     localStorage.setItem(LS_KEY, JSON.stringify(h.slice(0, 50)));
+  }
+  function loadWrongBank() {
+    try { return JSON.parse(localStorage.getItem(WRONG_LS)) || []; } catch { return []; }
+  }
+  function saveWrongBank(list) {
+    localStorage.setItem(WRONG_LS, JSON.stringify(list.slice(0, 500)));
   }
 
   /* ---------------- helpers ---------------- */
@@ -43,6 +52,7 @@
     return m + ":" + String(ss).padStart(2, "0");
   }
   function test() { return state.session || D.tests[state.testId]; }
+  function qLabel(q) { return q && q.originalN ? q.originalN : q.n; }
 
   /* ---------------- TOEIC score conversion (bảng quy đổi chuẩn, xấp xỉ ETS) ---------------- */
   const LISTENING_TABLE = [[0, 5], [5, 20], [10, 45], [15, 75], [20, 105], [25, 130], [30, 160], [35, 185], [40, 215], [45, 240], [50, 270], [55, 295], [60, 320], [65, 345], [70, 370], [75, 395], [80, 420], [85, 445], [90, 470], [95, 490], [100, 495]];
@@ -74,12 +84,147 @@
   function allQuestions(t) {
     const out = [];
     t.parts.forEach((p) => {
+      const sourceTestId = p.sourceTestId || (t && t.id !== "session" ? t.id : null);
+      const sourceTitle = p.sourceTitle || (sourceTestId && D.tests[sourceTestId] ? D.tests[sourceTestId].title : t.title);
       p.items.forEach((it) => {
-        if (it.questions) it.questions.forEach((q) => out.push({ q, part: p.part, item: it }));
-        else out.push({ q: it, part: p.part, item: it });
+        if (it.questions) it.questions.forEach((q) => out.push({ q, part: p.part, item: it, sourceTestId, sourceTitle }));
+        else out.push({ q: it, part: p.part, item: it, sourceTestId, sourceTitle });
       });
     });
     return out;
+  }
+
+  function wrongKey(testId, qn) { return `${testId}:${qn}`; }
+
+  function findSourceQuestion(testId, qn) {
+    const src = D.tests[testId];
+    const n = Number(qn);
+    if (!src) return null;
+    for (const p of src.parts) {
+      for (const it of p.items) {
+        const qlist = it.questions || [it];
+        for (const q of qlist) {
+          if (q.n === n) return { test: src, p, item: it, q };
+        }
+      }
+    }
+    return null;
+  }
+
+  function questionSource(f) {
+    if (!f) return null;
+    const t = test();
+    const testId = f.p.sourceTestId || f.q.sourceTestId || (t && t.id !== "session" ? t.id : null);
+    if (!testId) return null;
+    const qn = qLabel(f.q);
+    const source = findSourceQuestion(testId, qn);
+    return {
+      id: wrongKey(testId, qn), testId, qn,
+      testTitle: (source && source.test.title) || f.p.sourceTitle || (D.tests[testId] && D.tests[testId].title) || t.title,
+      kind: (source && source.test.kind) || t.kind,
+      part: f.p.part,
+      q: (source && source.q) || f.q,
+      item: (source && source.item) || f.item,
+    };
+  }
+
+  function recordQuestionOutcome(qn) {
+    const f = findQ(qn);
+    const src = questionSource(f);
+    if (!f || !src || state.keyOnly || state.outcomeLogged[src.id]) return;
+    const user = state.answers[qn] || null;
+    const isCorrect = user === f.q.answer;
+    const list = loadWrongBank();
+    const idx = list.findIndex((x) => x.id === src.id);
+    const now = Date.now();
+    if (isCorrect) {
+      if (idx >= 0) {
+        const entry = list[idx];
+        const streak = (entry.correctStreak || 0) + 1;
+        list[idx] = {
+          ...entry,
+          attemptCount: (entry.attemptCount || 0) + 1,
+          correctCount: (entry.correctCount || 0) + 1,
+          correctStreak: streak,
+          lastUser: user,
+          lastCorrectAt: now,
+          mastered: streak >= WRONG_MASTER_STREAK,
+          dueAt: streak >= WRONG_MASTER_STREAK ? null : now + (streak === 1 ? 86400000 : 3 * 86400000),
+        };
+        saveWrongBank(sortWrongBank(list));
+      }
+    } else {
+      const base = idx >= 0 ? list[idx] : {
+        id: src.id,
+        firstWrongAt: now,
+        wrongCount: 0,
+        correctCount: 0,
+        attemptCount: 0,
+      };
+      const q = src.q;
+      const preview = q.question || (src.part <= 2 ? "Nghe audio và chọn đáp án" : "Xem câu hỏi trong ảnh đề");
+      const next = {
+        ...base,
+        testId: src.testId,
+        testTitle: src.testTitle,
+        kind: src.kind,
+        part: src.part,
+        qn: src.qn,
+        question: preview,
+        answer: q.answer,
+        choices: q.choices || {},
+        explanation: q.explanation || "",
+        wrongCount: (base.wrongCount || 0) + 1,
+        attemptCount: (base.attemptCount || 0) + 1,
+        correctStreak: 0,
+        mastered: false,
+        lastUser: user,
+        lastWrongAt: now,
+        dueAt: now,
+      };
+      if (idx >= 0) list[idx] = next; else list.push(next);
+      saveWrongBank(sortWrongBank(list));
+    }
+    state.outcomeLogged[src.id] = true;
+  }
+
+  function sortWrongBank(list) {
+    return [...list].sort((a, b) => {
+      if (!!a.mastered !== !!b.mastered) return a.mastered ? 1 : -1;
+      if ((b.wrongCount || 0) !== (a.wrongCount || 0)) return (b.wrongCount || 0) - (a.wrongCount || 0);
+      return (b.lastWrongAt || b.firstWrongAt || 0) - (a.lastWrongAt || a.firstWrongAt || 0);
+    });
+  }
+
+  function wrongEntries(filter) {
+    const now = Date.now();
+    return loadWrongBank().map((entry) => ({ entry, ref: findSourceQuestion(entry.testId, entry.qn) }))
+      .filter(({ entry }) => {
+        if (filter === "all") return true;
+        if (filter === "mastered") return !!entry.mastered;
+        if (filter === "reading") return !entry.mastered && entry.kind === "reading";
+        if (filter === "listening") return !entry.mastered && entry.kind === "listening";
+        if (filter === "due") return !entry.mastered && (!entry.dueAt || entry.dueAt <= now);
+        return !entry.mastered;
+      })
+      .sort((a, b) => sortWrongBank([a.entry, b.entry]).findIndex((x) => x.id === a.entry.id) === 0 ? -1 : 1);
+  }
+
+  function wrongStats() {
+    const rows = loadWrongBank();
+    const now = Date.now();
+    return {
+      total: rows.length,
+      active: rows.filter((r) => !r.mastered).length,
+      due: rows.filter((r) => !r.mastered && (!r.dueAt || r.dueAt <= now)).length,
+      mastered: rows.filter((r) => r.mastered).length,
+      listening: rows.filter((r) => !r.mastered && r.kind === "listening").length,
+      reading: rows.filter((r) => !r.mastered && r.kind === "reading").length,
+    };
+  }
+
+  function shortDate(ts) {
+    return ts ? new Date(ts).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : "—";
   }
 
   /* ---------------- audio ---------------- */
@@ -271,6 +416,111 @@
     grid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
   };
 
+  function renderWrongHomePanel(stats) {
+    const active = stats.active;
+    const due = stats.due;
+    const body = active
+      ? `<div class="wrong-panel">
+          <span class="tc-icon wp-icon">${ICONS.cards}</span>
+          <div class="wp-body">
+            <div class="wp-title"><b>${active}</b> câu sai đang cần ôn${due ? ` · <span>${due} câu đến hạn hôm nay</span>` : ""}</div>
+            <div class="wp-meta">Reading ${stats.reading} · Listening ${stats.listening} · đã thuộc ${stats.mastered}</div>
+          </div>
+          <div class="wp-actions">
+            <button class="btn btn-primary" onclick="App.goWrong('${due ? "due" : "active"}')">Ôn câu sai</button>
+            <button class="btn" onclick="App.goWrong('all')">Mở sổ</button>
+          </div>
+        </div>`
+      : `<div class="wrong-panel empty">
+          <span class="tc-icon wp-icon">${ICONS.cards}</span>
+          <div class="wp-body">
+            <div class="wp-title"><b>Chưa có câu sai</b></div>
+            <div class="wp-meta">Khi bạn kiểm tra đáp án hoặc nộp bài, câu sai sẽ tự được gom vào đây để ôn lại.</div>
+          </div>
+        </div>`;
+    return `<section class="home-sec wrong-home">
+      <div class="sec-head">
+        <h2>Sổ câu sai</h2>
+        <button class="link-btn" onclick="App.goWrong('active')">Mở sổ →</button>
+      </div>
+      ${body}
+    </section>`;
+  }
+
+  function goWrong(filter) {
+    filter = filter || "active";
+    state.view = "wrong";
+    stopTimer(); audioEl.pause(); showDock(false);
+    document.body.classList.remove("has-mbar");
+    screen.classList.remove("wide");
+    $("#btn-exit").classList.add("hidden");
+
+    const stats = wrongStats();
+    const entries = wrongEntries(filter);
+    const filters = [
+      ["active", `Đang cần ôn (${stats.active})`],
+      ["due", `Đến hạn (${stats.due})`],
+      ["reading", `Reading (${stats.reading})`],
+      ["listening", `Listening (${stats.listening})`],
+      ["mastered", `Đã thuộc (${stats.mastered})`],
+      ["all", `Tất cả (${stats.total})`],
+    ].map(([k, label]) => `<button class="tchip ${filter === k ? "selected" : ""}" onclick="App.goWrong('${k}')">${label}</button>`).join("");
+
+    const byTest = {};
+    entries.forEach(({ entry, ref }) => {
+      if (!ref) return;
+      if (!byTest[entry.testId]) byTest[entry.testId] = { testId: entry.testId, title: entry.testTitle, kind: entry.kind, qns: [] };
+      byTest[entry.testId].qns.push(entry.qn);
+    });
+    const groupCards = Object.values(byTest).map((g) => `<div class="wrong-test-card">
+      <div>
+        <b>${esc(groupCardTitle(g.title))}</b>
+        <div class="muted">${g.kind === "listening" ? "Listening" : "Reading"} · ${g.qns.length} câu trong nhóm đang xem</div>
+      </div>
+      <button class="btn btn-primary" onclick="App.startWrongReview('${g.testId}','${filter}')">Ôn nhóm này</button>
+    </div>`).join("");
+
+    const rows = entries.map(({ entry, ref }) => {
+      const stale = !ref;
+      const status = entry.mastered
+        ? '<span class="badge badge-green">Đã thuộc</span>'
+        : entry.dueAt && entry.dueAt > Date.now()
+          ? '<span class="badge badge-blue">Đang giãn cách</span>'
+          : '<span class="badge badge-amber">Cần ôn</span>';
+      const preview = entry.question || (ref && ref.q.question) || "Xem trong ảnh đề";
+      const action = stale
+        ? '<span class="muted">Đề gốc không còn trong dữ liệu</span>'
+        : `<button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button>`;
+      return `<tr>
+        <td><b>${esc(groupCardTitle(entry.testTitle || entry.testId))}</b><div class="muted">Part ${entry.part} · câu ${entry.qn}</div></td>
+        <td>${esc(preview)}</td>
+        <td>${status}<div class="muted">Sai ${entry.wrongCount || 0} lần · đúng lại ${entry.correctStreak || 0}/${WRONG_MASTER_STREAK}</div></td>
+        <td class="muted">${shortDate(entry.lastWrongAt || entry.firstWrongAt)}</td>
+        <td>${action}</td>
+      </tr>`;
+    }).join("");
+
+    screen.innerHTML = `
+      <div class="hero"><h1>Sổ câu sai</h1>
+        <p>Các câu bạn làm sai được lưu tự động theo đề gốc. Ôn đúng ${WRONG_MASTER_STREAK} lần liên tiếp thì câu đó sẽ tự chuyển sang đã thuộc.</p>
+      </div>
+      <div class="wrong-summary">
+        <div class="stat-box"><div class="v">${stats.active}</div><div class="k">đang cần ôn</div></div>
+        <div class="stat-box"><div class="v">${stats.due}</div><div class="k">đến hạn hôm nay</div></div>
+        <div class="stat-box"><div class="v">${stats.reading}</div><div class="k">Reading</div></div>
+        <div class="stat-box"><div class="v">${stats.listening}</div><div class="k">Listening</div></div>
+        <div class="stat-box"><div class="v">${stats.mastered}</div><div class="k">đã thuộc</div></div>
+      </div>
+      <div class="wrong-toolbar">
+        <div class="time-chips">${filters}</div>
+        <button class="btn" onclick="App.goHome()">Trang chủ</button>
+      </div>
+      ${groupCards ? `<div class="wrong-tests">${groupCards}</div>` : ""}
+      ${rows ? `<div class="table-scroll"><table class="history-table wrong-table"><thead><tr><th>Nguồn</th><th>Câu hỏi</th><th>Trạng thái</th><th>Lần sai gần nhất</th><th></th></tr></thead><tbody>${rows}</tbody></table></div>` : '<div class="history-empty">Không có câu nào trong nhóm này.</div>'}
+    `;
+    window.scrollTo(0, 0);
+  }
+
   function renderHome() {
     const hist = loadHistory();
     const vocab = D.vocab || [];
@@ -280,6 +530,7 @@
     const groups = testGroups();
     const last = hist.find((h) => h.scaled != null);
     const totalQ = Object.values(D.tests).reduce((n, t) => n + allQuestions(t).length, 0);
+    const wstats = wrongStats();
 
     const testCards = groups.map((g) => {
       const hasL = g.tests.some((t) => t.kind === "listening");
@@ -335,7 +586,10 @@
         <div class="stat-tile"><span class="sv">${hist.length}</span><span class="sk">bài đã làm</span></div>
         <div class="stat-tile"><span class="sv">${last ? "~" + last.scaled : "—"}</span><span class="sk">điểm gần nhất</span></div>
         <div class="stat-tile${due ? " stat-due" : ""}"><span class="sv">${due}</span><span class="sk">từ cần ôn</span></div>
+        <div class="stat-tile${wstats.active ? " stat-wrong" : ""}"><span class="sv">${wstats.active}</span><span class="sk">câu sai cần ôn</span></div>
       </div>
+
+      ${renderWrongHomePanel(wstats)}
 
       <section class="home-sec">
         <div class="sec-head"><h2>Đề luyện tập</h2></div>
@@ -906,7 +1160,7 @@
   function startTest(testId, mode) {
     state.session = null;
     state.testId = testId; state.mode = mode; state.keyOnly = false;
-    state.answers = {}; state.revealed = {}; state.finished = false; state.result = null;
+    state.answers = {}; state.revealed = {}; state.outcomeLogged = {}; state.finished = false; state.result = null;
     state.startedAt = Date.now();
     state.view = "runner";
     $("#btn-exit").classList.remove("hidden");
@@ -925,6 +1179,7 @@
 
   /* ---------------- sessions: thi thật & luyện thi tuỳ chọn ---------------- */
   function buildSession(cfg) {
+    if (cfg && cfg.wrong) return buildWrongSessionCfg(cfg);
     // cfg: {title, real, sections: [{testId, parts: [..]}], timerMin, mode}
     const parts = [];
     let audioSrc = null, timings = null, hasL = false, hasR = false;
@@ -933,7 +1188,8 @@
       const src = D.tests[s.testId];
       if (!src) continue;
       const chosen = src.parts.filter((p) => s.parts.includes(p.part));
-      parts.push(...chosen);
+      const tagged = chosen.map((p) => ({ ...p, sourceTestId: src.id, sourceTitle: src.title }));
+      parts.push(...tagged);
       if (chosen.some((p) => p.part <= 4)) {
         hasL = true; audioSrc = src.audioSrc; timings = src.timings;
       }
@@ -949,6 +1205,39 @@
     };
   }
 
+  function buildWrongSessionCfg(cfg) {
+    const src = D.tests[cfg.testId];
+    if (!src) return null;
+    const wanted = new Set((cfg.qns || []).map(Number));
+    const parts = src.parts.map((p) => {
+      const items = [];
+      p.items.forEach((it) => {
+        const qlist = it.questions || [it];
+        const kept = qlist.filter((q) => wanted.has(q.n)).map((q) => ({ ...q, sourceTestId: src.id }));
+        if (!kept.length) return;
+        if (it.questions) items.push({ ...it, questions: kept });
+        else items.push({ ...kept[0] });
+      });
+      return items.length ? { ...p, sourceTestId: src.id, sourceTitle: src.title, items } : null;
+    }).filter(Boolean);
+    const hasL = parts.some((p) => p.part <= 4);
+    const hasR = parts.some((p) => p.part >= 5);
+    const count = parts.reduce((n, p) => n + p.items.reduce((m, it) => m + (it.questions ? it.questions.length : 1), 0), 0);
+    const sessionCfg = { wrong: true, testId: cfg.testId, qns: [...wanted].sort((a, b) => a - b), filter: cfg.filter || "active" };
+    return {
+      id: `wrong-${src.id}`,
+      title: `Ôn câu sai — ${groupCardTitle(src.title)}`,
+      desc: `${src.title} · ${count} câu cần làm lại · đúng ${WRONG_MASTER_STREAK} lần liên tiếp sẽ tự rời sổ câu sai`,
+      kind: hasL && hasR ? "mixed" : hasL ? "listening" : "reading",
+      audioSrc: hasL ? src.audioSrc : null,
+      timings: hasL ? src.timings : null,
+      timerMin: null,
+      parts,
+      sourceTestId: src.id,
+      sessionCfg,
+    };
+  }
+
   function audioSpan(t) {
     // playable span covering the selected listening parts
     if (!t.timings) return null;
@@ -960,11 +1249,42 @@
     return { start: Math.min(...ranges.map((r) => r.start)), end: Math.max(...ranges.map((r) => r.end)) };
   }
 
+  function startWrongReview(testId, filter, qn) {
+    filter = filter || "active";
+    let selected = wrongEntries(filter).filter(({ entry, ref }) => entry.testId === testId && ref);
+    if (qn != null) selected = loadWrongBank()
+      .filter((entry) => entry.testId === testId && entry.qn === Number(qn))
+      .map((entry) => ({ entry, ref: findSourceQuestion(entry.testId, entry.qn) }))
+      .filter((x) => x.ref);
+    if (!selected.length) {
+      openModal('<h3>Chưa có câu để ôn</h3><p>Nhóm này hiện không có câu sai hợp lệ trong dữ liệu đề.</p><div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>');
+      return;
+    }
+    startWrongSession({ wrong: true, testId, filter, qns: selected.map(({ entry }) => entry.qn) });
+  }
+
+  function startWrongSession(cfg) {
+    state.session = buildWrongSessionCfg(cfg);
+    if (!state.session || !state.session.parts.length) { state.session = null; return; }
+    state.testId = null;
+    state.mode = "practice";
+    state.keyOnly = false;
+    state.answers = {}; state.revealed = {}; state.outcomeLogged = {};
+    state.finished = false; state.result = null;
+    state.startedAt = Date.now();
+    state.view = "runner";
+    stopTimer(); audioEl.pause(); state.segEnd = null;
+    $("#btn-exit").classList.remove("hidden");
+    renderRunner();
+    if (state.session.audioSrc) { ensureAudio(); showDock(true); }
+    window.scrollTo(0, 0);
+  }
+
   function startSession(cfg) {
     state.session = buildSession(cfg);
-    if (!state.session.parts.length) { state.session = null; return; }
+    if (!state.session || !state.session.parts.length) { state.session = null; return; }
     state.testId = null; state.mode = cfg.mode; state.keyOnly = false;
-    state.answers = {}; state.revealed = {}; state.finished = false; state.result = null;
+    state.answers = {}; state.revealed = {}; state.outcomeLogged = {}; state.finished = false; state.result = null;
     state.startedAt = Date.now();
     state.view = "runner";
     $("#btn-exit").classList.remove("hidden");
@@ -1054,7 +1374,7 @@
 
   function qnavCellsHtml(t) {
     return allQuestions(t).map(({ q }) =>
-      `<div class="qnav-cell" data-q="${q.n}" onclick="App.jumpTo(${q.n}); App.closeModal();">${q.n}</div>`).join("");
+      `<div class="qnav-cell" data-q="${q.n}" onclick="App.jumpTo(${q.n}); App.closeModal();">${qLabel(q)}</div>`).join("");
   }
 
   function openQnavSheet() {
@@ -1086,7 +1406,7 @@
     if (it.questions) {
       const isListening = p.part <= 4;
       const head = isListening
-        ? `<div class="group-head"><span class="gh-label">Câu ${it.questions[0].n}–${it.questions[it.questions.length - 1].n}</span>
+        ? `<div class="group-head"><span class="gh-label">Câu ${qLabel(it.questions[0])}–${qLabel(it.questions[it.questions.length - 1])}</span>
            ${(state.mode === "practice" || state.finished) ? segButton(it.audio, "Nghe hội thoại") : ""}</div>`
         : "";
       const passage = (it.img || it.text != null) ? renderPassage(it) : "";
@@ -1252,7 +1572,7 @@
       return `<div class="${cls}" onclick="App.pick(${q.n},'${L}')"><span class="letter">${L}</span><span>${label}</span></div>`;
     }).join("");
 
-    const photo = q.image ? `<img class="qphoto" src="${q.image}" alt="Câu ${q.n}">` : "";
+    const photo = q.image ? `<img class="qphoto" src="${q.image}" alt="Câu ${qLabel(q)}">` : "";
     const segBtn = (state.mode === "practice" || state.finished) && q.audio && !parent
       ? segButton(q.audio, "Nghe câu này") : "";
 
@@ -1269,7 +1589,7 @@
       ? `<button class="btn btn-sm" style="margin-top:10px" onclick="App.check(${q.n})">Kiểm tra đáp án</button>` : "";
 
     return `<div class="q-block" data-q="${q.n}" style="margin-bottom:14px">
-      <div class="qtext"><span class="qnum">${q.n}.</span>${q.question ? esc(q.question) : p.part <= 2 ? "<i style='color:var(--muted)'>Nghe audio và chọn đáp án</i>" : ""}</div>
+      <div class="qtext"><span class="qnum">${qLabel(q)}.</span>${q.question ? esc(q.question) : p.part <= 2 ? "<i style='color:var(--muted)'>Nghe audio và chọn đáp án</i>" : ""}</div>
       ${photo}${segBtn}
       <div class="choices">${choices}</div>
       ${checkBtn}${feedback}
@@ -1278,7 +1598,7 @@
 
   function renderSidebar(t) {
     const qs = allQuestions(t);
-    const cells = qs.map(({ q }) => `<div class="qnav-cell" data-q="${q.n}" onclick="App.jumpTo(${q.n})">${q.n}</div>`).join("");
+    const cells = qs.map(({ q }) => `<div class="qnav-cell" data-q="${q.n}" onclick="App.jumpTo(${q.n})">${qLabel(q)}</div>`).join("");
     const action = state.finished
       ? (state.keyOnly
         ? `<button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`
@@ -1362,6 +1682,8 @@
   }
 
   function check(qn) {
+    if (state.revealed[qn]) return;
+    recordQuestionOutcome(qn);
     state.revealed[qn] = true;
     rerenderBlock(qn);
   }
@@ -1400,6 +1722,7 @@
     const scaleMax = (sec.listening.t ? 495 : 0) + (sec.reading.t ? 495 : 0);
     const durationSec = Math.round((Date.now() - state.startedAt) / 1000);
     state.result = { correct, total, pct, scaled, scaleMax, sections: sec, durationSec };
+    qs.forEach(({ q }) => recordQuestionOutcome(q.n));
     state.finished = true;
     saveAttempt({
       testId: state.session ? "session" : t.id,
@@ -1418,6 +1741,7 @@
     screen.classList.remove("wide");
     document.body.classList.remove("has-mbar");
     const r = state.result;
+    const wstats = wrongStats();
     // per-part breakdown
     const rows = t.parts.map((p) => {
       let c = 0, tot = 0;
@@ -1456,6 +1780,7 @@
         <button class="btn btn-primary" onclick="App.reviewAnswers()">Xem lại từng câu + giải thích</button>
         <button class="btn" onclick="App.exportAnswers()">Xuất phiếu đáp án</button>
         <button class="btn" onclick="${state.session ? "App.restartSession()" : `App.startTest('${t.id}','${state.mode}')`}">Làm lại</button>
+        ${wstats.active ? `<button class="btn" onclick="App.goWrong('${wstats.due ? "due" : "active"}')">Ôn câu sai (${wstats.active})</button>` : ""}
         <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
     `;
@@ -1538,7 +1863,7 @@
     // chuẩn TOEIC: 45 giây/câu Reading + thời lượng audio phần nghe đã chọn
     if (!sections.length) return null;
     const probe = buildSession({ title: "", sections, timerMin: null, mode: "exam" });
-    if (!probe.parts.length) return null;
+    if (!probe || !probe.parts.length) return null;
     const readingQ = allQuestions(probe).filter((x) => x.part >= 5).length;
     const span = audioSpan(probe);
     const listenMin = span ? ((span.end || 2740) - span.start) / 60 : 0;
@@ -1741,7 +2066,9 @@
   }
 
   function restartSession() {
-    if (state.session) startSession(state.session.sessionCfg);
+    if (!state.session || !state.session.sessionCfg) return;
+    if (state.session.sessionCfg.wrong) startWrongSession(state.session.sessionCfg);
+    else startSession(state.session.sessionCfg);
   }
 
   function openHistory(date) {
@@ -1749,7 +2076,7 @@
     if (!h) return;
     if (h.session) {
       state.session = buildSession(h.session);
-      if (!state.session.parts.length) { state.session = null; return; }
+      if (!state.session || !state.session.parts.length) { state.session = null; return; }
       state.testId = null;
     } else {
       if (!D.tests[h.testId]) return;
@@ -1764,6 +2091,7 @@
     state.keyOnly = false;
     state.answers = { ...h.answers };
     state.revealed = {};
+    state.outcomeLogged = {};
     state.finished = true;
     state.startedAt = h.date;
     const t = test();
@@ -1796,6 +2124,7 @@
     state.keyOnly = true;
     state.answers = {};
     state.revealed = {};
+    state.outcomeLogged = {};
     state.finished = true;
     state.result = null;
     state.startedAt = Date.now();
@@ -1849,7 +2178,7 @@
 
   /* ---------------- public API ---------------- */
   window.App = {
-    goHome, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
+    goHome, goWrong, startWrongReview, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
