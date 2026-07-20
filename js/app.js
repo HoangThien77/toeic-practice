@@ -22,6 +22,8 @@
     loop: false,         // auto-replay the current segment
     lastSeg: null,       // {start,end} of the segment last played
     outcomeLogged: {},   // source question id -> true during the current run
+    similarDrill: null,  // generated practice from wrong answers
+    similarAnswers: {},
   };
 
   /* ---------------- storage ---------------- */
@@ -350,6 +352,241 @@
     if (state.view === "wrong") goWrong("active");
   }
 
+  function normText(s) {
+    return String(s || "").toLowerCase().replace(/[^a-z0-9' ]/g, " ").replace(/\s+/g, " ").trim();
+  }
+
+  function hashStr(s) {
+    let h = 2166136261;
+    for (let i = 0; i < String(s).length; i++) {
+      h ^= String(s).charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+
+  function seededShuffle(arr, seedText) {
+    const out = [...arr];
+    let seed = hashStr(seedText) || 1;
+    for (let i = out.length - 1; i > 0; i--) {
+      seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
+  }
+
+  function cleanOptionText(txt) {
+    const s = String(txt || "").trim();
+    if (!s || /^\(?nghe audio\)?$/i.test(s)) return "";
+    if (/^Chọn [A-D] theo ảnh đề$/i.test(s)) return "";
+    return s;
+  }
+
+  function optionTextForVariant(q, L) {
+    return cleanOptionText(q.choices && q.choices[L]) || cleanOptionText(q.spoken && q.spoken.choices && q.spoken.choices[L]);
+  }
+
+  function variantOptions(q, seed) {
+    const keys = Object.keys(q.choices || (q.spoken && q.spoken.choices) || {}).filter((L) => optionTextForVariant(q, L));
+    const letters = ["A", "B", "C", "D", "E"];
+    return seededShuffle(keys, seed).map((orig, i) => ({ letter: letters[i], orig, text: optionTextForVariant(q, orig), correct: orig === q.answer }));
+  }
+
+  function stemTokens(q) {
+    return new Set(normText([q.question, ...Object.keys(q.choices || {}).map((L) => q.choices[L])].join(" ")).split(" ").filter((w) => w.length >= 4));
+  }
+
+  function overlapScore(a, b) {
+    let n = 0;
+    a.forEach((x) => { if (b.has(x)) n++; });
+    return n;
+  }
+
+  function similarQuestionRefs(ref, limit) {
+    if (!ref) return [];
+    const baseOptions = variantOptions(ref.q, "base");
+    const baseCorrect = normText(baseOptions.find((o) => o.correct)?.text || choiceText(ref.q, ref.q.answer));
+    const baseTokens = stemTokens(ref.q);
+    const all = [];
+    Object.values(D.tests).forEach((t) => {
+      allQuestions(t).forEach((candidate) => {
+        if (t.id === ref.test.id && qLabel(candidate.q) === ref.q.n) return;
+        const cOpts = variantOptions(candidate.q, "candidate");
+        if (!cOpts.length) return;
+        const cCorrect = normText(cOpts.find((o) => o.correct)?.text || choiceText(candidate.q, candidate.q.answer));
+        let score = 0;
+        if (candidate.part === ref.p.part) score += 3;
+        if ((candidate.part <= 4) === (ref.p.part <= 4)) score += 1;
+        if (baseCorrect && cCorrect && baseCorrect === cCorrect) score += 8;
+        score += Math.min(4, overlapScore(baseTokens, stemTokens(candidate.q)));
+        if (String(ref.q.question || "").includes("___") && String(candidate.q.question || "").includes("___")) score += 2;
+        if (score >= 4) all.push({ score, test: t, p: { part: candidate.part }, item: candidate.item, q: candidate.q });
+      });
+    });
+    return all.sort((a, b) => b.score - a.score).slice(0, limit || 3);
+  }
+
+  function makeSimilarExercise(ref, variant, seed, note) {
+    const opts = variantOptions(ref.q, seed);
+    if (!opts.length) return null;
+    const answer = opts.find((o) => o.correct)?.letter;
+    if (!answer) return null;
+    const audio = wrongAudioRef(ref);
+    const isListening = ref.p.part <= 4;
+    const fallbackPrompt = isListening ? "Nghe lại đoạn audio rồi chọn đáp án đúng." : "Chọn đáp án đúng nhất.";
+    return {
+      id: `${ref.test.id}:${ref.q.n}:${variant}:${seed}`,
+      testId: ref.test.id,
+      testTitle: ref.test.title,
+      qn: ref.q.n,
+      part: ref.p.part,
+      kind: ref.test.kind,
+      variant,
+      note,
+      prompt: ref.q.question || fallbackPrompt,
+      options: opts,
+      answer,
+      explanation: ref.q.explanation || "",
+      audio,
+      source: ref,
+    };
+  }
+
+  function makeTranscriptExercise(ref, seed) {
+    const spoken = ref.q.spoken && ref.q.spoken.choices ? ref.q.spoken.choices[ref.q.answer] : "";
+    if (!spoken) return null;
+    const opts = variantOptions(ref.q, seed);
+    const answer = opts.find((o) => o.correct)?.letter;
+    if (!answer) return null;
+    return {
+      id: `${ref.test.id}:${ref.q.n}:transcript:${seed}`,
+      testId: ref.test.id,
+      testTitle: ref.test.title,
+      qn: ref.q.n,
+      part: ref.p.part,
+      kind: ref.test.kind,
+      variant: "Nghe + nhận diện câu đúng",
+      note: "Biến thể từ audio/transcript của câu sai",
+      prompt: "Nghe lại câu này, sau đó chọn câu khớp nhất với nội dung bạn nghe được.",
+      options: opts,
+      answer,
+      explanation: ref.q.explanation || "",
+      audio: wrongAudioRef(ref),
+      source: ref,
+    };
+  }
+
+  function buildSimilarExercises(testId, filter, qn) {
+    let rows;
+    if (qn != null) {
+      const entry = loadWrongBank().find((x) => x.id === wrongKey(testId, Number(qn)));
+      rows = entry ? [{ entry, ref: findSourceQuestion(testId, Number(qn)) }] : [];
+    } else {
+      rows = wrongEntries(filter || "active").filter(({ entry }) => entry.testId === testId);
+    }
+    const exercises = [];
+    rows.filter((x) => x.ref).slice(0, 12).forEach(({ entry, ref }) => {
+      const base = makeSimilarExercise(ref, "Tráo đáp án", `${entry.id}:shuffle:${entry.wrongCount || 0}`, "Cùng câu gốc nhưng đổi vị trí đáp án để tránh học thuộc letter.");
+      if (base) exercises.push(base);
+      const focus = makeSimilarExercise(ref, "Nhắc lại lỗi", `${entry.id}:trap:${entry.lastUser || "x"}`, `Bạn từng chọn ${entry.lastUser || "sai"}; chọn lại dựa trên ngữ cảnh, không dựa vào letter cũ.`);
+      if (focus) exercises.push(focus);
+      const transcript = ref.p.part <= 4 ? makeTranscriptExercise(ref, `${entry.id}:listen`) : null;
+      if (transcript) exercises.push(transcript);
+      similarQuestionRefs(ref, 2).forEach((sim, i) => {
+        const ex = makeSimilarExercise(sim, `Câu thật tương tự ${i + 1}`, `${entry.id}:neighbor:${i}`, `Câu cùng dạng được lấy từ ${groupCardTitle(sim.test.title)}.`);
+        if (ex) exercises.push(ex);
+      });
+    });
+    return exercises.slice(0, 30);
+  }
+
+  function goSimilarDrill(testId, filter, qn) {
+    const src = D.tests[testId];
+    if (!src) return;
+    state.view = "similar";
+    state.similarDrill = { testId, filter: filter || "active", qn: qn == null ? null : Number(qn) };
+    state.similarAnswers = {};
+    stopTimer(); audioEl.pause(); state.segEnd = null; showDock(false);
+    document.body.classList.remove("has-mbar");
+    screen.classList.remove("wide");
+    $("#btn-exit").classList.add("hidden");
+    renderSimilarDrill();
+    window.scrollTo(0, 0);
+  }
+
+  function renderSimilarDrill() {
+    const cfg = state.similarDrill;
+    if (!cfg) return;
+    const src = D.tests[cfg.testId];
+    const exercises = buildSimilarExercises(cfg.testId, cfg.filter, cfg.qn);
+    const answered = Object.keys(state.similarAnswers || {}).length;
+    const correct = exercises.filter((ex, i) => state.similarAnswers[i] === ex.answer).length;
+    const cards = exercises.map((ex, i) => renderSimilarCard(ex, i)).join("");
+    screen.innerHTML = `
+      <div class="hero"><h1>Biến thể câu sai</h1>
+        <p>${esc(groupCardTitle(src.title))} · ${exercises.length} bài luyện nhỏ từ câu sai. Bản này tạo offline từ dữ liệu đề hiện có, không cần API.</p>
+      </div>
+      <div class="similar-head">
+        <div class="stat-box"><div class="v">${correct}/${answered}</div><div class="k">đúng / đã làm</div></div>
+        <div class="stat-box"><div class="v">${exercises.length}</div><div class="k">bài luyện</div></div>
+        <div class="similar-actions">
+          <button class="btn" onclick="App.goWrong('${cfg.filter || "active"}')">Về sổ câu sai</button>
+          <button class="btn btn-primary" onclick="App.goSimilarDrill('${cfg.testId}','${cfg.filter || "active"}'${cfg.qn == null ? "" : `,${cfg.qn}`})">Làm lượt mới</button>
+        </div>
+      </div>
+      ${cards ? `<div class="similar-grid">${cards}</div>` : '<div class="history-empty">Chưa tạo được biến thể cho nhóm này. Hãy làm sai một câu có dữ liệu đáp án/transcript trước.</div>'}
+    `;
+  }
+
+  function similarContextHtml(ex) {
+    const ref = ex.source;
+    if (!ref) return "";
+    const it = ref.item || {};
+    const q = ref.q || {};
+    const pieces = [];
+    if (it.img || it.text != null) pieces.push(`<div class="sim-context-passage">${renderPassage(it)}</div>`);
+    if (it.graphicImg) pieces.push(`<img class="qgraphic sim-context-img" src="${it.graphicImg}" alt="graphic">`);
+    if (q.image) pieces.push(`<img class="qphoto sim-context-img" src="${q.image}" alt="Câu ${qLabel(q)}">`);
+    if (!pieces.length) return "";
+    return `<div class="sim-context">${pieces.join("")}<div class="zoom-hint">Bấm vào ảnh để phóng to</div></div>`;
+  }
+
+  function renderSimilarCard(ex, idx) {
+    const picked = state.similarAnswers[idx];
+    const done = !!picked;
+    const qLine = `Part ${ex.part} · Câu ${ex.qn} · ${esc(groupCardTitle(ex.testTitle))}`;
+    const audioBtn = ex.audio ? `<button class="btn btn-sm" onclick="App.playWrongAudio('${ex.testId}',${ex.audio.start},${ex.audio.end || "null"})">${ICONS.sound}<span>Nghe đoạn</span></button>` : "";
+    const context = similarContextHtml(ex);
+    const options = ex.options.map((o) => {
+      let cls = "sim-choice";
+      if (done) {
+        if (o.letter === ex.answer) cls += " correct";
+        else if (picked === o.letter) cls += " wrong";
+        else cls += " dim";
+      }
+      return `<button type="button" class="${cls}" onclick="App.pickSimilar(${idx},'${o.letter}')"><span class="letter">${o.letter}</span><span>${esc(o.text)}</span></button>`;
+    }).join("");
+    const result = done ? `<div class="sim-result ${picked === ex.answer ? "ok" : "bad"}">
+      <b>${picked === ex.answer ? "Đúng" : `Chưa đúng — đáp án: ${ex.answer}`}</b>${ex.explanation ? `<div>${esc(ex.explanation)}</div>` : ""}
+    </div>` : "";
+    return `<article class="similar-card">
+      <div class="sim-meta"><span>${esc(ex.variant)}</span><small>${qLine}</small></div>
+      <div class="sim-note">${esc(ex.note || "")}</div>
+      ${context}
+      <div class="sim-prompt">${esc(ex.prompt)}</div>
+      ${audioBtn ? `<div class="sim-tools">${audioBtn}</div>` : ""}
+      <div class="sim-options">${options}</div>
+      ${result}
+      <div class="sim-foot"><button class="btn btn-sm" onclick="App.startQuestionPractice('${ex.testId}',${ex.qn})">Làm câu gốc</button></div>
+    </article>`;
+  }
+
+  function pickSimilar(idx, letter) {
+    state.similarAnswers[idx] = letter;
+    renderSimilarDrill();
+  }
+
   function openWrongDrill(testId, qn) {
     const ref = findSourceQuestion(testId, qn);
     const entry = loadWrongBank().find((x) => x.id === wrongKey(testId, qn));
@@ -373,7 +610,10 @@
         <div class="drill-card">
           <b>1. Làm lại câu gốc</b>
           <p>Vào chế độ luyện đúng câu này, chọn lại đáp án rồi bấm kiểm tra. Nếu đúng liên tiếp ${WRONG_MASTER_STREAK} lần, câu sẽ tự rời sổ câu sai.</p>
-          <button class="btn btn-primary" onclick="App.closeModal(); App.startWrongReview('${testId}','all',${qn})">Làm lại câu này</button>
+          <div class="drill-tools">
+            <button class="btn btn-primary" onclick="App.closeModal(); App.startWrongReview('${testId}','all',${qn})">Làm lại câu này</button>
+            <button class="btn" onclick="App.closeModal(); App.goSimilarDrill('${testId}','all',${qn})">Tạo biến thể</button>
+          </div>
         </div>
         <div class="drill-card">
           <b>2. Lỗi cần nhớ</b>
@@ -641,7 +881,10 @@
         <b>${esc(groupCardTitle(g.title))}</b>
         <div class="muted">${g.kind === "listening" ? "Listening" : "Reading"} · ${g.qns.length} câu trong nhóm đang xem</div>
       </div>
-      <button class="btn btn-primary" onclick="App.startWrongReview('${g.testId}','${filter}')">Ôn nhóm này</button>
+      <div class="wrong-card-actions">
+        <button class="btn" onclick="App.goSimilarDrill('${g.testId}','${filter}')">Biến thể</button>
+        <button class="btn btn-primary" onclick="App.startWrongReview('${g.testId}','${filter}')">Ôn nhóm này</button>
+      </div>
     </div>`).join("");
 
     const rows = entries.map(({ entry, ref }) => {
@@ -654,7 +897,7 @@
       const preview = entry.question || (ref && ref.q.question) || "Xem trong ảnh đề";
       const action = stale
         ? '<span class="muted">Đề gốc không còn trong dữ liệu</span>'
-        : `<div class="wrong-row-actions"><button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button><button class="btn btn-sm" onclick="App.openWrongDrill('${entry.testId}',${entry.qn})">Drill lỗi</button></div>`;
+        : `<div class="wrong-row-actions"><button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button><button class="btn btn-sm" onclick="App.openWrongDrill('${entry.testId}',${entry.qn})">Drill lỗi</button><button class="btn btn-sm" onclick="App.goSimilarDrill('${entry.testId}','all',${entry.qn})">Biến thể</button></div>`;
       return `<tr>
         <td><b>${esc(groupCardTitle(entry.testTitle || entry.testId))}</b><div class="muted">Part ${entry.part} · câu ${entry.qn}</div></td>
         <td>${esc(preview)}</td>
@@ -1426,6 +1669,15 @@
       return;
     }
     startWrongSession({ wrong: true, testId, filter, qns: selected.map(({ entry }) => entry.qn) });
+  }
+
+  function startQuestionPractice(testId, qn) {
+    const src = findSourceQuestion(testId, Number(qn));
+    if (!src) {
+      openModal('<h3>Không mở được câu gốc</h3><p>Câu này không còn trong dữ liệu đề hiện tại.</p><div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>');
+      return;
+    }
+    startWrongSession({ wrong: true, testId, filter: "single", qns: [Number(qn)] });
   }
 
   function startWrongSession(cfg) {
@@ -2345,7 +2597,7 @@
 
   /* ---------------- public API ---------------- */
   window.App = {
-    goHome, goWrong, startWrongReview, openWrongDrill, openWrongDictation, playWrongAudio, markWrongMastered, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
+    goHome, goWrong, goSimilarDrill, pickSimilar, startWrongReview, startQuestionPractice, openWrongDrill, openWrongDictation, playWrongAudio, markWrongMastered, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
