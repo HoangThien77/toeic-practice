@@ -452,6 +452,36 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
 }
 .wrong-table td:nth-child(2) { max-width: 520px; }
+.wrong-row-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.drill-modal { display: flex; flex-direction: column; gap: 12px; }
+.drill-source { color: var(--muted); font-size: 13px; font-weight: 800; }
+.drill-card {
+  border: 1px solid var(--line); border-radius: 8px; background: #fbfdff;
+  padding: 13px 14px; display: flex; flex-direction: column; gap: 8px;
+}
+.drill-card.compact p { margin-bottom: 2px !important; }
+.drill-card b { font-size: 14px; }
+.drill-card p, .drill-note { color: #3c4658; font-size: 13.5px; margin: 0 !important; }
+.drill-question { font-size: 15px; font-weight: 750; }
+.drill-choices { display: flex; flex-direction: column; gap: 6px; }
+.drill-choice {
+  display: flex; align-items: flex-start; gap: 9px; border: 1px solid var(--line);
+  border-radius: 8px; background: #fff; padding: 8px 10px; font-size: 13.5px;
+}
+.drill-choice .letter {
+  flex: none; width: 23px; height: 23px; border-radius: 50%; border: 1.5px solid var(--line);
+  display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 850; color: var(--muted);
+}
+.drill-choice.correct { border-color: var(--green); background: var(--green-soft); }
+.drill-choice.correct .letter { background: var(--green); border-color: var(--green); color: #fff; }
+.drill-choice.wrong { border-color: var(--red); background: var(--red-soft); }
+.drill-choice.wrong .letter { background: var(--red); border-color: var(--red); color: #fff; }
+.drill-tools { display: flex; gap: 8px; flex-wrap: wrap; }
+.drill-details summary { cursor: pointer; color: var(--accent); font-weight: 800; font-size: 13px; }
+.drill-details pre {
+  margin-top: 8px; white-space: pre-wrap; font: inherit; font-size: 13px; color: #3c4658;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px;
+}
 @media (max-width: 900px) {
   .wrong-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .wrong-test-card { align-items: flex-start; flex-direction: column; }

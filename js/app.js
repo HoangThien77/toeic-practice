@@ -27,6 +27,7 @@
   /* ---------------- storage ---------------- */
   const LS_KEY = "toeic-practice-history-v1";
   const WRONG_LS = "toeic-wrong-bank-v1";
+  const WRONG_IMPORT_LS = "toeic-wrong-history-imported-v1";
   const WRONG_MASTER_STREAK = 3;
   function loadHistory() {
     try { return JSON.parse(localStorage.getItem(LS_KEY)) || []; } catch { return []; }
@@ -40,6 +41,17 @@
   }
   function saveWrongBank(list) {
     localStorage.setItem(WRONG_LS, JSON.stringify(list.slice(0, 500)));
+  }
+  function loadImportedHistory() {
+    try { return JSON.parse(localStorage.getItem(WRONG_IMPORT_LS)) || []; } catch { return []; }
+  }
+  function saveImportedHistory(ids) {
+    localStorage.setItem(WRONG_IMPORT_LS, JSON.stringify([...new Set(ids)].slice(-500)));
+  }
+  function markHistoryImported(date) {
+    const ids = loadImportedHistory();
+    ids.push(String(date));
+    saveImportedHistory(ids);
   }
 
   /* ---------------- helpers ---------------- */
@@ -128,15 +140,13 @@
     };
   }
 
-  function recordQuestionOutcome(qn) {
-    const f = findQ(qn);
-    const src = questionSource(f);
-    if (!f || !src || state.keyOnly || state.outcomeLogged[src.id]) return;
-    const user = state.answers[qn] || null;
-    const isCorrect = user === f.q.answer;
-    const list = loadWrongBank();
+  function wrongPreview(src) {
+    const q = src.q;
+    return q.question || (src.part <= 2 ? "Nghe audio và chọn đáp án" : "Xem câu hỏi trong ảnh đề");
+  }
+
+  function applyWrongOutcome(list, src, user, isCorrect, when) {
     const idx = list.findIndex((x) => x.id === src.id);
-    const now = Date.now();
     if (isCorrect) {
       if (idx >= 0) {
         const entry = list[idx];
@@ -147,45 +157,96 @@
           correctCount: (entry.correctCount || 0) + 1,
           correctStreak: streak,
           lastUser: user,
-          lastCorrectAt: now,
+          lastCorrectAt: when,
           mastered: streak >= WRONG_MASTER_STREAK,
-          dueAt: streak >= WRONG_MASTER_STREAK ? null : now + (streak === 1 ? 86400000 : 3 * 86400000),
+          dueAt: streak >= WRONG_MASTER_STREAK ? null : when + (streak === 1 ? 86400000 : 3 * 86400000),
         };
-        saveWrongBank(sortWrongBank(list));
       }
-    } else {
-      const base = idx >= 0 ? list[idx] : {
-        id: src.id,
-        firstWrongAt: now,
-        wrongCount: 0,
-        correctCount: 0,
-        attemptCount: 0,
-      };
-      const q = src.q;
-      const preview = q.question || (src.part <= 2 ? "Nghe audio và chọn đáp án" : "Xem câu hỏi trong ảnh đề");
-      const next = {
-        ...base,
-        testId: src.testId,
-        testTitle: src.testTitle,
-        kind: src.kind,
-        part: src.part,
-        qn: src.qn,
-        question: preview,
-        answer: q.answer,
-        choices: q.choices || {},
-        explanation: q.explanation || "",
-        wrongCount: (base.wrongCount || 0) + 1,
-        attemptCount: (base.attemptCount || 0) + 1,
-        correctStreak: 0,
-        mastered: false,
-        lastUser: user,
-        lastWrongAt: now,
-        dueAt: now,
-      };
-      if (idx >= 0) list[idx] = next; else list.push(next);
-      saveWrongBank(sortWrongBank(list));
+      return list;
     }
+    const base = idx >= 0 ? list[idx] : {
+      id: src.id,
+      firstWrongAt: when,
+      wrongCount: 0,
+      correctCount: 0,
+      attemptCount: 0,
+    };
+    const q = src.q;
+    const next = {
+      ...base,
+      testId: src.testId,
+      testTitle: src.testTitle,
+      kind: src.kind,
+      part: src.part,
+      qn: src.qn,
+      question: wrongPreview(src),
+      answer: q.answer,
+      choices: q.choices || {},
+      explanation: q.explanation || "",
+      wrongCount: (base.wrongCount || 0) + 1,
+      attemptCount: (base.attemptCount || 0) + 1,
+      correctStreak: 0,
+      mastered: false,
+      lastUser: user,
+      lastWrongAt: when,
+      dueAt: when,
+    };
+    if (idx >= 0) list[idx] = next; else list.push(next);
+    return list;
+  }
+
+  function recordQuestionOutcome(qn) {
+    const f = findQ(qn);
+    const src = questionSource(f);
+    if (!f || !src || state.keyOnly || state.outcomeLogged[src.id]) return;
+    const user = state.answers[qn] || null;
+    const list = applyWrongOutcome(loadWrongBank(), src, user, user === f.q.answer, Date.now());
+    saveWrongBank(sortWrongBank(list));
     state.outcomeLogged[src.id] = true;
+  }
+
+  function sourceFromQuestionRef(ref) {
+    if (!ref || !ref.sourceTestId) return null;
+    const source = findSourceQuestion(ref.sourceTestId, qLabel(ref.q));
+    const srcTest = source && source.test ? source.test : D.tests[ref.sourceTestId];
+    return {
+      id: wrongKey(ref.sourceTestId, qLabel(ref.q)),
+      testId: ref.sourceTestId,
+      qn: qLabel(ref.q),
+      testTitle: (srcTest && srcTest.title) || ref.sourceTitle,
+      kind: (srcTest && srcTest.kind) || (ref.part <= 4 ? "listening" : "reading"),
+      part: ref.part,
+      q: (source && source.q) || ref.q,
+      item: (source && source.item) || ref.item,
+    };
+  }
+
+  function importWrongFromHistory() {
+    const imported = new Set(loadImportedHistory().map(String));
+    const pending = loadHistory()
+      .filter((h) => h && h.answers && !imported.has(String(h.date)) && !(h.session && h.session.wrong))
+      .sort((a, b) => (a.date || 0) - (b.date || 0));
+    if (!pending.length) return 0;
+    let list = loadWrongBank();
+    let added = 0;
+    pending.forEach((h) => {
+      let t = null;
+      try { t = h.session ? buildSession(h.session) : D.tests[h.testId]; } catch { t = null; }
+      if (t && t.parts) {
+        allQuestions(t).forEach((ref) => {
+          const src = sourceFromQuestionRef(ref);
+          if (!src) return;
+          const user = h.answers[ref.q.n] || null;
+          if (user === ref.q.answer) return;
+          list = applyWrongOutcome(list, src, user, false, h.date || Date.now());
+          added++;
+        });
+      }
+      imported.add(String(h.date));
+    });
+    if (added) saveWrongBank(sortWrongBank(list));
+    saveImportedHistory([...imported]);
+    return added;
   }
 
   function sortWrongBank(list) {
@@ -225,6 +286,108 @@
 
   function shortDate(ts) {
     return ts ? new Date(ts).toLocaleString("vi-VN", { hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" }) : "—";
+  }
+
+  function choiceText(q, L) {
+    const txt = q.choices && q.choices[L] ? q.choices[L] : q.spoken && q.spoken.choices ? q.spoken.choices[L] : "";
+    return txt || "(nghe audio)";
+  }
+
+  function playWrongAudio(testId, start, end) {
+    const src = D.tests[testId];
+    if (!src || !src.audioSrc) return;
+    if (!decodeURIComponent(audioEl.src || "").endsWith(src.audioSrc)) audioEl.src = src.audioSrc;
+    state.segEnd = end || null;
+    state.lastSeg = { start, end: end || null };
+    audioEl.currentTime = start;
+    audioEl.playbackRate = state.rate;
+    audioEl.play();
+    showDock(true);
+  }
+
+  function wrongAudioRef(ref) {
+    if (!ref) return null;
+    return ref.q.audio || ref.item.audio || null;
+  }
+
+  function openWrongDictation(testId, qn) {
+    const ref = findSourceQuestion(testId, qn);
+    if (!ref) return;
+    const audio = wrongAudioRef(ref);
+    const dictRef = spokenText(ref.item) || spokenText(ref.q);
+    if (!audio || !dictRef) return;
+    dictState = { ref: dictRef, audio };
+    openModal(`<h3>Chép chính tả — Câu ${qn}</h3>
+      <p style="margin-bottom:10px">Nghe lại đoạn chứa câu sai rồi gõ những gì bạn nghe được. Không cần viết hoa hay dấu câu.</p>
+      <div style="display:flex; gap:8px; margin-bottom:10px; flex-wrap:wrap">
+        <button class="btn btn-sm" onclick="App.playWrongAudio('${testId}',${audio.start},${audio.end || "null"})">${ICONS.sound}<span>Nghe đoạn này</span></button>
+        <button class="btn btn-sm" onclick="App.cycleSpeed()">Tốc độ chậm/nhanh</button>
+        <button class="btn btn-sm" onclick="App.toggleLoop()">Lặp lại</button>
+      </div>
+      <textarea id="dict-input" class="dict-input" rows="5" placeholder="Gõ những gì bạn nghe được..."></textarea>
+      <div id="dict-result"></div>
+      <div class="modal-actions">
+        <button class="btn" onclick="App.closeModal()">Đóng</button>
+        <button class="btn" onclick="App.dictReveal()">Xem transcript</button>
+        <button class="btn btn-primary" onclick="App.dictCheck()">Kiểm tra</button>
+      </div>`, true);
+  }
+
+  function markWrongMastered(testId, qn) {
+    const id = wrongKey(testId, qn);
+    const list = loadWrongBank();
+    const idx = list.findIndex((x) => x.id === id);
+    if (idx < 0) return;
+    list[idx] = {
+      ...list[idx],
+      mastered: true,
+      correctStreak: Math.max(WRONG_MASTER_STREAK, list[idx].correctStreak || 0),
+      dueAt: null,
+      lastCorrectAt: Date.now(),
+    };
+    saveWrongBank(sortWrongBank(list));
+    closeModal();
+    if (state.view === "wrong") goWrong("active");
+  }
+
+  function openWrongDrill(testId, qn) {
+    const ref = findSourceQuestion(testId, qn);
+    const entry = loadWrongBank().find((x) => x.id === wrongKey(testId, qn));
+    if (!ref || !entry) return;
+    const { test, p, item, q } = ref;
+    const letters = Object.keys(q.choices || q.spoken && q.spoken.choices || {}).filter((L) => choiceText(q, L));
+    const choiceRows = letters.map((L) => `<div class="drill-choice ${L === q.answer ? "correct" : entry.lastUser === L ? "wrong" : ""}">
+      <span class="letter">${L}</span><span>${esc(choiceText(q, L))}</span>
+    </div>`).join("");
+    const audio = wrongAudioRef(ref);
+    const transcript = spokenText(item) || spokenText(q);
+    const audioTools = audio ? `<div class="drill-tools">
+        <button class="btn btn-sm" onclick="App.playWrongAudio('${testId}',${audio.start},${audio.end || "null"})">${ICONS.sound}<span>Nghe lại đoạn lỗi</span></button>
+        ${transcript ? `<button class="btn btn-sm" onclick="App.openWrongDictation('${testId}',${qn})">Chép chính tả</button>` : ""}
+      </div>` : "";
+    const sourceLine = `${esc(groupCardTitle(test.title))} · ${test.kind === "listening" ? "Listening" : "Reading"} · Part ${p.part} · Câu ${qn}`;
+    const qLine = q.question || (p.part <= 2 ? "Nghe audio và chọn đáp án" : "Xem câu hỏi và lựa chọn trong ảnh đề");
+    openModal(`<h3>Drill lỗi — Câu ${qn}</h3>
+      <div class="drill-modal">
+        <div class="drill-source">${sourceLine}</div>
+        <div class="drill-card">
+          <b>1. Làm lại câu gốc</b>
+          <p>Vào chế độ luyện đúng câu này, chọn lại đáp án rồi bấm kiểm tra. Nếu đúng liên tiếp ${WRONG_MASTER_STREAK} lần, câu sẽ tự rời sổ câu sai.</p>
+          <button class="btn btn-primary" onclick="App.closeModal(); App.startWrongReview('${testId}','all',${qn})">Làm lại câu này</button>
+        </div>
+        <div class="drill-card">
+          <b>2. Lỗi cần nhớ</b>
+          <div class="drill-question">${esc(qLine)}</div>
+          <div class="drill-choices">${choiceRows}</div>
+          <div class="drill-note">${q.explanation ? esc(q.explanation) : "Chưa có giải thích riêng cho câu này."}</div>
+        </div>
+        ${audioTools ? `<div class="drill-card"><b>3. Luyện nghe lại điểm sai</b>${audioTools}${transcript ? `<details class="drill-details"><summary>Xem transcript</summary><pre>${esc(transcript)}</pre></details>` : ""}</div>` : ""}
+        <div class="drill-card compact">
+          <b>Tiến độ</b>
+          <p>Sai ${entry.wrongCount || 0} lần · đúng lại ${entry.correctStreak || 0}/${WRONG_MASTER_STREAK} · lần sai gần nhất ${shortDate(entry.lastWrongAt || entry.firstWrongAt)}.</p>
+          <button class="btn" onclick="App.markWrongMastered('${testId}',${qn})">Đánh dấu đã thuộc</button>
+        </div>
+      </div>`, true);
   }
 
   /* ---------------- audio ---------------- */
@@ -448,6 +611,7 @@
   }
 
   function goWrong(filter) {
+    importWrongFromHistory();
     filter = filter || "active";
     state.view = "wrong";
     stopTimer(); audioEl.pause(); showDock(false);
@@ -490,7 +654,7 @@
       const preview = entry.question || (ref && ref.q.question) || "Xem trong ảnh đề";
       const action = stale
         ? '<span class="muted">Đề gốc không còn trong dữ liệu</span>'
-        : `<button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button>`;
+        : `<div class="wrong-row-actions"><button class="btn btn-sm" onclick="App.startWrongReview('${entry.testId}','all',${entry.qn})">Ôn câu này</button><button class="btn btn-sm" onclick="App.openWrongDrill('${entry.testId}',${entry.qn})">Drill lỗi</button></div>`;
       return `<tr>
         <td><b>${esc(groupCardTitle(entry.testTitle || entry.testId))}</b><div class="muted">Part ${entry.part} · câu ${entry.qn}</div></td>
         <td>${esc(preview)}</td>
@@ -522,6 +686,7 @@
   }
 
   function renderHome() {
+    importWrongFromHistory();
     const hist = loadHistory();
     const vocab = D.vocab || [];
     const srs = vocabSrs();
@@ -1724,14 +1889,16 @@
     state.result = { correct, total, pct, scaled, scaleMax, sections: sec, durationSec };
     qs.forEach(({ q }) => recordQuestionOutcome(q.n));
     state.finished = true;
+    const attemptDate = Date.now();
     saveAttempt({
       testId: state.session ? "session" : t.id,
       title: t.title,
       session: state.session ? state.session.sessionCfg : undefined,
       mode: state.mode, correct, total, scaled, scaleMax,
-      date: Date.now(), durationSec,
+      date: attemptDate, durationSec,
       answers: { ...state.answers },
     });
+    markHistoryImported(attemptDate);
     renderResult(auto);
     window.scrollTo(0, 0);
   }
@@ -2178,7 +2345,7 @@
 
   /* ---------------- public API ---------------- */
   window.App = {
-    goHome, goWrong, startWrongReview, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
+    goHome, goWrong, startWrongReview, openWrongDrill, openWrongDictation, playWrongAudio, markWrongMastered, startTest, pick, check, jumpTo, trySubmit, submit, reviewAnswers,
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
