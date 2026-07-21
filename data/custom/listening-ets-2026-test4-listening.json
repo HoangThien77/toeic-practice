@@ -1,0 +1,3674 @@
+{
+ "id": "listening-ets-2026-test4-listening",
+ "kind": "listening",
+ "title": "Listening ETS 2026 — Test 4",
+ "desc": "Listening Test 4, câu 1–100 — file đề gốc dạng snapshot + audio. Đáp án theo key gốc cuối sách. Lưu ý: audio dùng file tải về tên \"Zalo Test 2.mp3\" vì file này khớp nội dung PDF Test 4, không khớp PDF Test 2.",
+ "custom": true,
+ "audioSrc": "assets/audio/listening-ets-2026-test4.mp3",
+ "timings": {
+  "parts": {
+   "1": {
+    "start": 31.2,
+    "end": 239.6
+   },
+   "2": {
+    "start": 239.6,
+    "end": 667.88
+   },
+   "3": {
+    "start": 667.88,
+    "end": 1690.28
+   },
+   "4": {
+    "start": 1690.28,
+    "end": 2472.28
+   }
+  },
+  "questions": {
+   "1": {
+    "start": 94.92,
+    "end": 118.21
+   },
+   "2": {
+    "start": 118.36,
+    "end": 142.17
+   },
+   "3": {
+    "start": 142.32,
+    "end": 165.97
+   },
+   "4": {
+    "start": 166.12,
+    "end": 190.01
+   },
+   "5": {
+    "start": 190.16,
+    "end": 214.69
+   },
+   "6": {
+    "start": 214.84,
+    "end": 239.45
+   },
+   "7": {
+    "start": 239.6,
+    "end": 255.65
+   },
+   "8": {
+    "start": 255.8,
+    "end": 271.53
+   },
+   "9": {
+    "start": 271.68,
+    "end": 287.41
+   },
+   "10": {
+    "start": 287.56,
+    "end": 303.81
+   },
+   "11": {
+    "start": 303.96,
+    "end": 321.69
+   },
+   "12": {
+    "start": 321.84,
+    "end": 337.77
+   },
+   "13": {
+    "start": 337.92,
+    "end": 354.25
+   },
+   "14": {
+    "start": 354.4,
+    "end": 373.45
+   },
+   "15": {
+    "start": 373.6,
+    "end": 390.01
+   },
+   "16": {
+    "start": 390.16,
+    "end": 405.37
+   },
+   "17": {
+    "start": 405.52,
+    "end": 422.45
+   },
+   "18": {
+    "start": 422.6,
+    "end": 439.49
+   },
+   "19": {
+    "start": 439.64,
+    "end": 456.97
+   },
+   "20": {
+    "start": 457.12,
+    "end": 474.65
+   },
+   "21": {
+    "start": 474.8,
+    "end": 492.37
+   },
+   "22": {
+    "start": 492.52,
+    "end": 509.33
+   },
+   "23": {
+    "start": 509.48,
+    "end": 527.89
+   },
+   "24": {
+    "start": 528.04,
+    "end": 545.25
+   },
+   "25": {
+    "start": 545.4,
+    "end": 564.53
+   },
+   "26": {
+    "start": 564.68,
+    "end": 583.01
+   },
+   "27": {
+    "start": 583.16,
+    "end": 599.89
+   },
+   "28": {
+    "start": 600.04,
+    "end": 617.49
+   },
+   "29": {
+    "start": 617.64,
+    "end": 633.13
+   },
+   "30": {
+    "start": 633.28,
+    "end": 650.93
+   },
+   "31": {
+    "start": 651.08,
+    "end": 698.73
+   }
+  },
+  "blocks": [
+   {
+    "questions": [
+     32,
+     33,
+     34
+    ],
+    "start": 667.88,
+    "end": 732.85
+   },
+   {
+    "questions": [
+     35,
+     36,
+     37
+    ],
+    "start": 733.0,
+    "end": 804.65
+   },
+   {
+    "questions": [
+     38,
+     39,
+     40
+    ],
+    "start": 804.8,
+    "end": 891.13
+   },
+   {
+    "questions": [
+     41,
+     42,
+     43
+    ],
+    "start": 891.28,
+    "end": 964.13
+   },
+   {
+    "questions": [
+     44,
+     45,
+     46
+    ],
+    "start": 964.28,
+    "end": 1041.13
+   },
+   {
+    "questions": [
+     47,
+     48,
+     49
+    ],
+    "start": 1041.28,
+    "end": 1118.13
+   },
+   {
+    "questions": [
+     50,
+     51,
+     52
+    ],
+    "start": 1118.28,
+    "end": 1189.13
+   },
+   {
+    "questions": [
+     53,
+     54,
+     55
+    ],
+    "start": 1189.28,
+    "end": 1266.13
+   },
+   {
+    "questions": [
+     56,
+     57,
+     58
+    ],
+    "start": 1266.28,
+    "end": 1357.13
+   },
+   {
+    "questions": [
+     59,
+     60,
+     61
+    ],
+    "start": 1357.28,
+    "end": 1431.13
+   },
+   {
+    "questions": [
+     62,
+     63,
+     64
+    ],
+    "start": 1431.28,
+    "end": 1519.13
+   },
+   {
+    "questions": [
+     65,
+     66,
+     67
+    ],
+    "start": 1519.28,
+    "end": 1609.13
+   },
+   {
+    "questions": [
+     68,
+     69,
+     70
+    ],
+    "start": 1609.28,
+    "end": 1690.13
+   },
+   {
+    "questions": [
+     71,
+     72,
+     73
+    ],
+    "start": 1690.28,
+    "end": 1765.13
+   },
+   {
+    "questions": [
+     74,
+     75,
+     76
+    ],
+    "start": 1765.28,
+    "end": 1848.13
+   },
+   {
+    "questions": [
+     77,
+     78,
+     79
+    ],
+    "start": 1848.28,
+    "end": 1921.13
+   },
+   {
+    "questions": [
+     80,
+     81,
+     82
+    ],
+    "start": 1921.28,
+    "end": 2000.13
+   },
+   {
+    "questions": [
+     83,
+     84,
+     85
+    ],
+    "start": 2000.28,
+    "end": 2070.13
+   },
+   {
+    "questions": [
+     86,
+     87,
+     88
+    ],
+    "start": 2070.28,
+    "end": 2150.13
+   },
+   {
+    "questions": [
+     89,
+     90,
+     91
+    ],
+    "start": 2150.28,
+    "end": 2233.13
+   },
+   {
+    "questions": [
+     92,
+     93,
+     94
+    ],
+    "start": 2233.28,
+    "end": 2306.13
+   },
+   {
+    "questions": [
+     95,
+     96,
+     97
+    ],
+    "start": 2306.28,
+    "end": 2390.13
+   },
+   {
+    "questions": [
+     98,
+     99,
+     100
+    ],
+    "start": 2390.28,
+    "end": 2472.13
+   }
+  ]
+ },
+ "parts": [
+  {
+   "part": 1,
+   "directions": "Nghe 4 câu mô tả về mỗi bức ảnh và chọn câu mô tả đúng nhất. Câu hỏi và đáp án chỉ có trong audio.",
+   "items": [
+    {
+     "n": 1,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q1.jpg",
+     "audio": {
+      "start": 94.92,
+      "end": 118.21
+     },
+     "spoken": {
+      "question": "Now part one will begin one look at the picture marked number one in your test book a\nShe's crossing a busy street\nB\nShe's removing her eyeglasses\nSee she's standing next to a bin D. She's getting into a taxicab",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 94.92,
+       "text": "Now part one will begin one look at the picture marked number one in your test book a"
+      },
+      {
+       "t": 103.36,
+       "text": "She's crossing a busy street"
+      },
+      {
+       "t": 105.88,
+       "text": "B"
+      },
+      {
+       "t": 107.04,
+       "text": "She's removing her eyeglasses"
+      },
+      {
+       "t": 109.72,
+       "text": "See she's standing next to a bin D. She's getting into a taxicab"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "D",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q2.jpg",
+     "audio": {
+      "start": 118.36,
+      "end": 142.17
+     },
+     "spoken": {
+      "question": "Number two look at the picture marked number two in your test book a\nSome trucks have stopped at a traffic signal\nB\nSome lights are being installed above a garage door\nSee a garden is being planted along a fence\nD\nSeveral vehicles are parked outside a building",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 118.36,
+       "text": "Number two look at the picture marked number two in your test book a"
+      },
+      {
+       "t": 125.16,
+       "text": "Some trucks have stopped at a traffic signal"
+      },
+      {
+       "t": 128.16,
+       "text": "B"
+      },
+      {
+       "t": 129.32,
+       "text": "Some lights are being installed above a garage door"
+      },
+      {
+       "t": 132.6,
+       "text": "See a garden is being planted along a fence"
+      },
+      {
+       "t": 136.72,
+       "text": "D"
+      },
+      {
+       "t": 138.0,
+       "text": "Several vehicles are parked outside a building"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q3.jpg",
+     "audio": {
+      "start": 142.32,
+      "end": 165.97
+     },
+     "spoken": {
+      "question": "Number three look at the picture marked number three in your test book a\nA woman is following a man down a corridor\nB a woman is putting together some cardboard boxes\nSee a man is emptying a large container\nD a man is climbing up a ladder",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 142.32,
+       "text": "Number three look at the picture marked number three in your test book a"
+      },
+      {
+       "t": 148.48,
+       "text": "A woman is following a man down a corridor"
+      },
+      {
+       "t": 152.48,
+       "text": "B a woman is putting together some cardboard boxes"
+      },
+      {
+       "t": 157.16,
+       "text": "See a man is emptying a large container"
+      },
+      {
+       "t": 161.16,
+       "text": "D a man is climbing up a ladder"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q4.jpg",
+     "audio": {
+      "start": 166.12,
+      "end": 190.01
+     },
+     "spoken": {
+      "question": "Number four look at the picture marked number four in your test book a\nHe's clearing some snow off a path\nB he's pulling a cart on a walkway\nSee he's leaning over to tie his shoe\nD he's taking some items out of a basket",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 166.12,
+       "text": "Number four look at the picture marked number four in your test book a"
+      },
+      {
+       "t": 172.88,
+       "text": "He's clearing some snow off a path"
+      },
+      {
+       "t": 176.16,
+       "text": "B he's pulling a cart on a walkway"
+      },
+      {
+       "t": 180.32,
+       "text": "See he's leaning over to tie his shoe"
+      },
+      {
+       "t": 184.4,
+       "text": "D he's taking some items out of a basket"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q5.jpg",
+     "audio": {
+      "start": 190.16,
+      "end": 214.69
+     },
+     "spoken": {
+      "question": "Number five look at the picture marked number five in your test book\na\nOne of the women is carrying a bag on her shoulder\nB one of the women is placing her luggage on a scale\nSee some suitcases have been lined up against the wall\nD some clothes are being packed in a bag",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 190.16,
+       "text": "Number five look at the picture marked number five in your test book"
+      },
+      {
+       "t": 196.16,
+       "text": "a"
+      },
+      {
+       "t": 197.28,
+       "text": "One of the women is carrying a bag on her shoulder"
+      },
+      {
+       "t": 200.72,
+       "text": "B one of the women is placing her luggage on a scale"
+      },
+      {
+       "t": 205.08,
+       "text": "See some suitcases have been lined up against the wall"
+      },
+      {
+       "t": 209.6,
+       "text": "D some clothes are being packed in a bag"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Xem transcript/audio để đối chiếu mô tả đúng với ảnh.",
+     "uncertain": false,
+     "image": "assets/img/custom/listening-ets-2026-test4-listening/p1-q6.jpg",
+     "audio": {
+      "start": 214.84,
+      "end": 239.45
+     },
+     "spoken": {
+      "question": "Number six look at the picture marked number six in your test book a\nSome customers are drinking from coffee cups\nB some coffee cups have been placed on a counter\nSee some aprons are hanging from hooks\nD one of the workers is wiping down a counter",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 214.84,
+       "text": "Number six look at the picture marked number six in your test book a"
+      },
+      {
+       "t": 221.76,
+       "text": "Some customers are drinking from coffee cups"
+      },
+      {
+       "t": 225.32,
+       "text": "B some coffee cups have been placed on a counter"
+      },
+      {
+       "t": 229.72,
+       "text": "See some aprons are hanging from hooks"
+      },
+      {
+       "t": 233.84,
+       "text": "D one of the workers is wiping down a counter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "directions": "Nghe 1 câu hỏi/câu nói và 3 câu đáp, chọn câu đáp phù hợp nhất. Tất cả chỉ có trong audio.",
+   "items": [
+    {
+     "n": 7,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 239.6,
+      "end": 255.65
+     },
+     "spoken": {
+      "question": "Number seven will you let me know when the catering order arrives a\na\nreservation for two\nB the front office\nSee sure I'll text you",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 239.6,
+       "text": "Number seven will you let me know when the catering order arrives a"
+      },
+      {
+       "t": 245.48,
+       "text": "a"
+      },
+      {
+       "t": 246.72,
+       "text": "reservation for two"
+      },
+      {
+       "t": 248.36,
+       "text": "B the front office"
+      },
+      {
+       "t": 251.24,
+       "text": "See sure I'll text you"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 255.8,
+      "end": 271.53
+     },
+     "spoken": {
+      "question": "Number eight why is the manager being replaced a\nLet's do that\nB I prefer working with a team\nSee because she's leaving the company",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 255.8,
+       "text": "Number eight why is the manager being replaced a"
+      },
+      {
+       "t": 261.44,
+       "text": "Let's do that"
+      },
+      {
+       "t": 263.24,
+       "text": "B I prefer working with a team"
+      },
+      {
+       "t": 266.88,
+       "text": "See because she's leaving the company"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 271.68,
+      "end": 287.41
+     },
+     "spoken": {
+      "question": "Number nine\nMiss Cho should close the store early on Friday\nHey, I prefer a salad\nbe\ncash register for\nSee yes, I agree",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 271.68,
+       "text": "Number nine"
+      },
+      {
+       "t": 273.24,
+       "text": "Miss Cho should close the store early on Friday"
+      },
+      {
+       "t": 276.76,
+       "text": "Hey, I prefer a salad"
+      },
+      {
+       "t": 279.92,
+       "text": "be"
+      },
+      {
+       "t": 281.04,
+       "text": "cash register for"
+      },
+      {
+       "t": 283.12,
+       "text": "See yes, I agree"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 287.56,
+      "end": 303.81
+     },
+     "spoken": {
+      "question": "Number ten why did you decide to become a pilot a\nIs there free internet access?\nBe I enjoy traveling\nSee he's on vacation in Argentina",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 287.56,
+       "text": "Number ten why did you decide to become a pilot a"
+      },
+      {
+       "t": 293.04,
+       "text": "Is there free internet access?"
+      },
+      {
+       "t": 295.88,
+       "text": "Be I enjoy traveling"
+      },
+      {
+       "t": 298.8,
+       "text": "See he's on vacation in Argentina"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 303.96,
+      "end": 321.69
+     },
+     "spoken": {
+      "question": "Number eleven have you always commuted by train a\nthe training starts at two o'clock\nBe I think the station is on mulberry Avenue\nSee yes, because I don't have a car",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 303.96,
+       "text": "Number eleven have you always commuted by train a"
+      },
+      {
+       "t": 309.4,
+       "text": "the training starts at two o'clock"
+      },
+      {
+       "t": 312.12,
+       "text": "Be I think the station is on mulberry Avenue"
+      },
+      {
+       "t": 316.48,
+       "text": "See yes, because I don't have a car"
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 321.84,
+      "end": 337.77
+     },
+     "spoken": {
+      "question": "Number twelve when does your manager usually come in a\nEarly in the morning\nBe no, I just left it there\nSee I haven't thanks",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 321.84,
+       "text": "Number twelve when does your manager usually come in a"
+      },
+      {
+       "t": 327.84,
+       "text": "Early in the morning"
+      },
+      {
+       "t": 329.56,
+       "text": "Be no, I just left it there"
+      },
+      {
+       "t": 333.36,
+       "text": "See I haven't thanks"
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 337.92,
+      "end": 354.25
+     },
+     "spoken": {
+      "question": "Number thirteen isn't there a discount on this computer monitor a\nYes, a 10% discount\nBe an inventory check\nSee mine is broken",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 337.92,
+       "text": "Number thirteen isn't there a discount on this computer monitor a"
+      },
+      {
+       "t": 344.16,
+       "text": "Yes, a 10% discount"
+      },
+      {
+       "t": 346.8,
+       "text": "Be an inventory check"
+      },
+      {
+       "t": 350.08,
+       "text": "See mine is broken"
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 354.4,
+      "end": 373.45
+     },
+     "spoken": {
+      "question": "Number fourteen how is the new group of interns doing a\nNo, we have five people in total\nBe I haven't heard any negative feedback at all\nSee let's pose for a group photo over there",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 354.4,
+       "text": "Number fourteen how is the new group of interns doing a"
+      },
+      {
+       "t": 360.68,
+       "text": "No, we have five people in total"
+      },
+      {
+       "t": 363.68,
+       "text": "Be I haven't heard any negative feedback at all"
+      },
+      {
+       "t": 368.0,
+       "text": "See let's pose for a group photo over there"
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 373.6,
+      "end": 390.01
+     },
+     "spoken": {
+      "question": "Number fifteen they're carrying those boxes to the storage room a\nThat's a good price\nBe no the store opens at noon today\nSee I'll go with them",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 373.6,
+       "text": "Number fifteen they're carrying those boxes to the storage room a"
+      },
+      {
+       "t": 379.88,
+       "text": "That's a good price"
+      },
+      {
+       "t": 381.8,
+       "text": "Be no the store opens at noon today"
+      },
+      {
+       "t": 385.92,
+       "text": "See I'll go with them"
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 390.16,
+      "end": 405.37
+     },
+     "spoken": {
+      "question": "Number sixteen where can I send the money a\nto my bank account\nBe I think that's expensive to see by next Tuesday",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 390.16,
+       "text": "Number sixteen where can I send the money a"
+      },
+      {
+       "t": 395.16,
+       "text": "to my bank account"
+      },
+      {
+       "t": 397.36,
+       "text": "Be I think that's expensive to see by next Tuesday"
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 405.52,
+      "end": 422.45
+     },
+     "spoken": {
+      "question": "Number seventeen who's coming in tomorrow to help us prepare for the grand opening a\nRebecca and Malik be an online job posting see some sales data",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 405.52,
+       "text": "Number seventeen who's coming in tomorrow to help us prepare for the grand opening a"
+      },
+      {
+       "t": 412.92,
+       "text": "Rebecca and Malik be an online job posting see some sales data"
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 422.6,
+      "end": 439.49
+     },
+     "spoken": {
+      "question": "Number eighteen how often does the bus stop at this location a\nI'll be visiting the office\nbe\nabout every 20 minutes\nSee a city council meeting",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 422.6,
+       "text": "Number eighteen how often does the bus stop at this location a"
+      },
+      {
+       "t": 429.08,
+       "text": "I'll be visiting the office"
+      },
+      {
+       "t": 431.4,
+       "text": "be"
+      },
+      {
+       "t": 432.64,
+       "text": "about every 20 minutes"
+      },
+      {
+       "t": 435.0,
+       "text": "See a city council meeting"
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 439.64,
+      "end": 456.97
+     },
+     "spoken": {
+      "question": "Number nineteen what's the candidate review process a\nWe review the resumes first\nbe a few good reviews\nSee okay, I'll just follow them",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 439.64,
+       "text": "Number nineteen what's the candidate review process a"
+      },
+      {
+       "t": 446.04,
+       "text": "We review the resumes first"
+      },
+      {
+       "t": 448.96,
+       "text": "be a few good reviews"
+      },
+      {
+       "t": 452.24,
+       "text": "See okay, I'll just follow them"
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 457.12,
+      "end": 474.65
+     },
+     "spoken": {
+      "question": "Number twenty there's coffee in the break room right a\nThat shift starts at noon\nBe we decided to paint this room gray\nSee yes, I just made a fresh pot",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 457.12,
+       "text": "Number twenty there's coffee in the break room right a"
+      },
+      {
+       "t": 463.16,
+       "text": "That shift starts at noon"
+      },
+      {
+       "t": 465.64,
+       "text": "Be we decided to paint this room gray"
+      },
+      {
+       "t": 469.68,
+       "text": "See yes, I just made a fresh pot"
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 474.8,
+      "end": 492.37
+     },
+     "spoken": {
+      "question": "Number twenty one who's going to the company picnic today a\nabout two hours long\nBe I'm leaving in a few minutes\nSee a two-year maintenance contract",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 474.8,
+       "text": "Number twenty one who's going to the company picnic today a"
+      },
+      {
+       "t": 481.08,
+       "text": "about two hours long"
+      },
+      {
+       "t": 483.36,
+       "text": "Be I'm leaving in a few minutes"
+      },
+      {
+       "t": 486.8,
+       "text": "See a two-year maintenance contract"
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 492.52,
+      "end": 509.33
+     },
+     "spoken": {
+      "question": "Number twenty two will the bakery be open tomorrow a\nNo, it's closed until mid-august\nBe have you checked the oven see the pound cake is delicious",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 492.52,
+       "text": "Number twenty two will the bakery be open tomorrow a"
+      },
+      {
+       "t": 498.24,
+       "text": "No, it's closed until mid-august"
+      },
+      {
+       "t": 501.28,
+       "text": "Be have you checked the oven see the pound cake is delicious"
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 509.48,
+      "end": 527.89
+     },
+     "spoken": {
+      "question": "Number twenty three, are you installing the new software on Monday or Tuesday a\nThanks, but they already have one\nBe I'll be out of the office all week\nSee it was an older model laptop",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 509.48,
+       "text": "Number twenty three, are you installing the new software on Monday or Tuesday a"
+      },
+      {
+       "t": 516.72,
+       "text": "Thanks, but they already have one"
+      },
+      {
+       "t": 519.16,
+       "text": "Be I'll be out of the office all week"
+      },
+      {
+       "t": 522.92,
+       "text": "See it was an older model laptop"
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 528.04,
+      "end": 545.25
+     },
+     "spoken": {
+      "question": "Number twenty four, let me find a sales associate to help you a\nat the top of the list\nBe my article is ready to be uploaded see I just found what I'm looking for",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 528.04,
+       "text": "Number twenty four, let me find a sales associate to help you a"
+      },
+      {
+       "t": 534.0,
+       "text": "at the top of the list"
+      },
+      {
+       "t": 536.28,
+       "text": "Be my article is ready to be uploaded see I just found what I'm looking for"
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 545.4,
+      "end": 564.53
+     },
+     "spoken": {
+      "question": "Number twenty five\nYou're offering discounts to students, right?\nHey\nNo, that's not my wallet\nBe you'll need valid identification\nSee I'm doing inventory this weekend",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 545.4,
+       "text": "Number twenty five"
+      },
+      {
+       "t": 547.48,
+       "text": "You're offering discounts to students, right?"
+      },
+      {
+       "t": 551.0,
+       "text": "Hey"
+      },
+      {
+       "t": 552.36,
+       "text": "No, that's not my wallet"
+      },
+      {
+       "t": 555.28,
+       "text": "Be you'll need valid identification"
+      },
+      {
+       "t": 559.4,
+       "text": "See I'm doing inventory this weekend"
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 564.68,
+      "end": 583.01
+     },
+     "spoken": {
+      "question": "Number twenty six\nthe sales department posted an advertisement for an assistant a\nI didn't know they were hiring\nbe an\nadditional charge for shipping\nSee no, I haven't been there",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 564.68,
+       "text": "Number twenty six"
+      },
+      {
+       "t": 566.68,
+       "text": "the sales department posted an advertisement for an assistant a"
+      },
+      {
+       "t": 571.28,
+       "text": "I didn't know they were hiring"
+      },
+      {
+       "t": 574.6,
+       "text": "be an"
+      },
+      {
+       "t": 576.24,
+       "text": "additional charge for shipping"
+      },
+      {
+       "t": 578.44,
+       "text": "See no, I haven't been there"
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 583.16,
+      "end": 599.89
+     },
+     "spoken": {
+      "question": "Number twenty seven does the new accounting software work? Well, hey, I haven't downloaded it yet\nBe we're not offering a discount see that was my reaction to",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 583.16,
+       "text": "Number twenty seven does the new accounting software work? Well, hey, I haven't downloaded it yet"
+      },
+      {
+       "t": 591.76,
+       "text": "Be we're not offering a discount see that was my reaction to"
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "A",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 600.04,
+      "end": 617.49
+     },
+     "spoken": {
+      "question": "Number twenty eight\nwhen's the finance department going to confirm our first quarter budget a\nTheir deadline is next week\nbe\nYes, I'll be there\nSee in the mail room",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 600.04,
+       "text": "Number twenty eight"
+      },
+      {
+       "t": 602.04,
+       "text": "when's the finance department going to confirm our first quarter budget a"
+      },
+      {
+       "t": 608.12,
+       "text": "Their deadline is next week"
+      },
+      {
+       "t": 610.52,
+       "text": "be"
+      },
+      {
+       "t": 611.64,
+       "text": "Yes, I'll be there"
+      },
+      {
+       "t": 613.64,
+       "text": "See in the mail room"
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 617.64,
+      "end": 633.13
+     },
+     "spoken": {
+      "question": "Number twenty nine who canceled the conference call a\nthe upstairs conference room\nbe\nIt's been rescheduled\nSee yes, you can",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 617.64,
+       "text": "Number twenty nine who canceled the conference call a"
+      },
+      {
+       "t": 623.32,
+       "text": "the upstairs conference room"
+      },
+      {
+       "t": 625.8,
+       "text": "be"
+      },
+      {
+       "t": 626.8,
+       "text": "It's been rescheduled"
+      },
+      {
+       "t": 628.96,
+       "text": "See yes, you can"
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "C",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 633.28,
+      "end": 650.93
+     },
+     "spoken": {
+      "question": "Number thirty, can you please transfer the service to my new phone a\nLet's put it in the backseat\nBe at the Maple Street station see there is a processing fee",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 633.28,
+       "text": "Number thirty, can you please transfer the service to my new phone a"
+      },
+      {
+       "t": 639.84,
+       "text": "Let's put it in the backseat"
+      },
+      {
+       "t": 642.44,
+       "text": "Be at the Maple Street station see there is a processing fee"
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "question": "",
+     "choices": {
+      "A": "",
+      "B": "",
+      "C": ""
+     },
+     "answer": "B",
+     "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Nghe lại câu hỏi và 3 phản hồi trong transcript/audio.",
+     "uncertain": false,
+     "audio": {
+      "start": 651.08,
+      "end": 698.73
+     },
+     "spoken": {
+      "question": "Number thirty one\nHow is today's manufacturing seminar?\nHey a new pair of shoes\nBe we didn't get there in time\nSee there's a user's manual in the drawer\nQuestions thirty two through thirty four refer to the following conversation\nGood morning. Thanks for coming to tour this apartment building. I'm glad I could visit in person\nI've always wanted to live in this neighborhood. It's so beautiful\nThis building is brand new, isn't it? Yes\nIn fact, you'd be among the very first tenants if you decide to move here before you look at some apartments\nWould you please sign your name here in our guest book? Oh, of course",
+      "choices": {}
+     },
+     "segs": [
+      {
+       "t": 651.08,
+       "text": "Number thirty one"
+      },
+      {
+       "t": 653.0,
+       "text": "How is today's manufacturing seminar?"
+      },
+      {
+       "t": 655.88,
+       "text": "Hey a new pair of shoes"
+      },
+      {
+       "t": 659.12,
+       "text": "Be we didn't get there in time"
+      },
+      {
+       "t": 662.6,
+       "text": "See there's a user's manual in the drawer"
+      },
+      {
+       "t": 667.88,
+       "text": "Questions thirty two through thirty four refer to the following conversation"
+      },
+      {
+       "t": 673.2,
+       "text": "Good morning. Thanks for coming to tour this apartment building. I'm glad I could visit in person"
+      },
+      {
+       "t": 679.16,
+       "text": "I've always wanted to live in this neighborhood. It's so beautiful"
+      },
+      {
+       "t": 683.16,
+       "text": "This building is brand new, isn't it? Yes"
+      },
+      {
+       "t": 686.12,
+       "text": "In fact, you'd be among the very first tenants if you decide to move here before you look at some apartments"
+      },
+      {
+       "t": 693.12,
+       "text": "Would you please sign your name here in our guest book? Oh, of course"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 3,
+   "directions": "Nghe đoạn hội thoại và trả lời 3 câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề bên trái.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 32,
+       "question": "Who most likely is the woman?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 33,
+       "question": "What is the man looking forward to?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 34,
+       "question": "What does the woman ask for?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 667.88,
+      "end": 732.85
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q032.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions thirty two through thirty four refer to the following conversation\nGood morning. Thanks for coming to tour this apartment building. I'm glad I could visit in person\nI've always wanted to live in this neighborhood. It's so beautiful\nThis building is brand new, isn't it? Yes\nIn fact, you'd be among the very first tenants if you decide to move here before you look at some apartments\nWould you please sign your name here in our guest book? Oh, of course\nNumber thirty two who most likely is the woman?\nNumber thirty three. What is the man looking forward to?\nNumber thirty four, what does the woman ask for?",
+     "segs": [
+      {
+       "t": 667.88,
+       "text": "Questions thirty two through thirty four refer to the following conversation"
+      },
+      {
+       "t": 673.2,
+       "text": "Good morning. Thanks for coming to tour this apartment building. I'm glad I could visit in person"
+      },
+      {
+       "t": 679.16,
+       "text": "I've always wanted to live in this neighborhood. It's so beautiful"
+      },
+      {
+       "t": 683.16,
+       "text": "This building is brand new, isn't it? Yes"
+      },
+      {
+       "t": 686.12,
+       "text": "In fact, you'd be among the very first tenants if you decide to move here before you look at some apartments"
+      },
+      {
+       "t": 693.12,
+       "text": "Would you please sign your name here in our guest book? Oh, of course"
+      },
+      {
+       "t": 698.88,
+       "text": "Number thirty two who most likely is the woman?"
+      },
+      {
+       "t": 711.4,
+       "text": "Number thirty three. What is the man looking forward to?"
+      },
+      {
+       "t": 723.88,
+       "text": "Number thirty four, what does the woman ask for?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 35,
+       "question": "What most likely is the man's job?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 36,
+       "question": "Why is the woman concerned?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 37,
+       "question": "What does the man say he will check?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 733.0,
+      "end": 804.65
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q035.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions thirty five through thirty seven refer to the following conversation\nChen I hope all is going well on your first day\nI saw you have some scheduled seafood deliveries across the bay in the Morgan district\nWhy haven't you left yet? I wasn't going to head over to that particular area for another hour\nDo the restaurants in the Morgan district want their deliveries earlier than scheduled? No, but I'm concerned about Bay Bridge traffic\nIt's routinely congested with vehicles so you should always add at least an extra hour to your trip out there\nThanks for the tip. I'll also check traffic webcams on the highway agency's website\nNumber thirty five. What most likely is the man's job?\nnumber thirty six. Why is the woman concerned?\nNumber thirty seven. What does the man say he will check?",
+     "segs": [
+      {
+       "t": 733.0,
+       "text": "Questions thirty five through thirty seven refer to the following conversation"
+      },
+      {
+       "t": 738.56,
+       "text": "Chen I hope all is going well on your first day"
+      },
+      {
+       "t": 742.0,
+       "text": "I saw you have some scheduled seafood deliveries across the bay in the Morgan district"
+      },
+      {
+       "t": 747.4,
+       "text": "Why haven't you left yet? I wasn't going to head over to that particular area for another hour"
+      },
+      {
+       "t": 753.24,
+       "text": "Do the restaurants in the Morgan district want their deliveries earlier than scheduled? No, but I'm concerned about Bay Bridge traffic"
+      },
+      {
+       "t": 761.24,
+       "text": "It's routinely congested with vehicles so you should always add at least an extra hour to your trip out there"
+      },
+      {
+       "t": 768.56,
+       "text": "Thanks for the tip. I'll also check traffic webcams on the highway agency's website"
+      },
+      {
+       "t": 775.76,
+       "text": "Number thirty five. What most likely is the man's job?"
+      },
+      {
+       "t": 783.24,
+       "text": "number thirty six. Why is the woman concerned?"
+      },
+      {
+       "t": 792.4,
+       "text": "Number thirty seven. What does the man say he will check?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 38,
+       "question": "According to the man. What does pelicon produce?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 39,
+       "question": "What does the woman say she is concerned about?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 40,
+       "question": "Why does the man recommend reading an email?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 804.8,
+      "end": 891.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q038.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions thirty eight through forty refer to the following conversation\nThis morning I got an email from pelicon a local producer of beauty products\nThey're interested in purchasing lanolin from us to use in their new line of all natural makeup\nI'm not sure about that. We're a fairly small farm and we already sell lanolin to another local business\nI'm worried that we don't produce enough lanolin to meet the demand of another client\nI don't want to expand and take on more wool production\nBut our contract with the business we currently supply lanolin to has almost expired. There's no guarantee it will be renewed\nI think you should at least read pelicon's proposal. Sure. Can you forward me the email?\nnumber thirty eight according to the man. What does pelicon produce?\nnumber thirty nine. What does the woman say she is concerned about?\nnumber forty. Why does the man recommend reading an email?",
+     "segs": [
+      {
+       "t": 804.8,
+       "text": "Questions thirty eight through forty refer to the following conversation"
+      },
+      {
+       "t": 813.76,
+       "text": "This morning I got an email from pelicon a local producer of beauty products"
+      },
+      {
+       "t": 819.92,
+       "text": "They're interested in purchasing lanolin from us to use in their new line of all natural makeup"
+      },
+      {
+       "t": 825.44,
+       "text": "I'm not sure about that. We're a fairly small farm and we already sell lanolin to another local business"
+      },
+      {
+       "t": 832.0,
+       "text": "I'm worried that we don't produce enough lanolin to meet the demand of another client"
+      },
+      {
+       "t": 836.92,
+       "text": "I don't want to expand and take on more wool production"
+      },
+      {
+       "t": 840.56,
+       "text": "But our contract with the business we currently supply lanolin to has almost expired. There's no guarantee it will be renewed"
+      },
+      {
+       "t": 848.44,
+       "text": "I think you should at least read pelicon's proposal. Sure. Can you forward me the email?"
+      },
+      {
+       "t": 856.44,
+       "text": "number thirty eight according to the man. What does pelicon produce?"
+      },
+      {
+       "t": 869.44,
+       "text": "number thirty nine. What does the woman say she is concerned about?"
+      },
+      {
+       "t": 882.28,
+       "text": "number forty. Why does the man recommend reading an email?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 41,
+       "question": "What will the woman do next month?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 42,
+       "question": "What does the man want the woman to do?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 43,
+       "question": "What does the woman ask the man for?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 891.28,
+      "end": 964.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q041.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions forty one through forty three refer to the following conversation\nMs. Rean, this is Lewis. I heard you're going to be working for our company overseas in the New Zealand office. What a great opportunity\nYes, thank you. I start next month and I'm really excited\nI'm calling to touch base with you about some of our vendor contracts\nIt's time to renew the contracts and I wanted to ask you to take care of that before you left\nNo problem. I know where those files are located on our shared computer drive. I'll just need the password to access them\nnumber forty one. What will the woman do next month?\nnumber forty two. What does the man want the woman to do?\nnumber forty three. What does the woman ask the man for?",
+     "segs": [
+      {
+       "t": 891.28,
+       "text": "Questions forty one through forty three refer to the following conversation"
+      },
+      {
+       "t": 897.28,
+       "text": "Ms. Rean, this is Lewis. I heard you're going to be working for our company overseas in the New Zealand office. What a great opportunity"
+      },
+      {
+       "t": 906.28,
+       "text": "Yes, thank you. I start next month and I'm really excited"
+      },
+      {
+       "t": 911.28,
+       "text": "I'm calling to touch base with you about some of our vendor contracts"
+      },
+      {
+       "t": 915.28,
+       "text": "It's time to renew the contracts and I wanted to ask you to take care of that before you left"
+      },
+      {
+       "t": 921.28,
+       "text": "No problem. I know where those files are located on our shared computer drive. I'll just need the password to access them"
+      },
+      {
+       "t": 930.28,
+       "text": "number forty one. What will the woman do next month?"
+      },
+      {
+       "t": 942.28,
+       "text": "number forty two. What does the man want the woman to do?"
+      },
+      {
+       "t": 954.28,
+       "text": "number forty three. What does the woman ask the man for?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 44,
+       "question": "Why is the woman calling?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 45,
+       "question": "Who most likely is Giovanni Marino?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 46,
+       "question": "What will the man send in an email?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 964.28,
+      "end": 1041.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q044.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions forty four through forty six refer to the following conversation\nHi, this is Giovanni Marino's agent. I'm calling to reschedule his planned appearance on the Sunday morning show\nRight. We have him booked to appear on the show in July to promote his new movie\nUnfortunately, the movie he's acting in is behind schedule and he'll now be on location through the end of August\nHmm. I see. Let me look at our guest calendar. I have a slot I'm looking to fill on September 14th. Would that work?\nYes, that would be great. Thanks.\nAll right. I'll update the contract with the new date and email it to you\nnumber forty four. Why is the woman calling?\nnumber forty five. Who most likely is Giovanni Marino?\nnumber forty six. What will the man send in an email?",
+     "segs": [
+      {
+       "t": 964.28,
+       "text": "Questions forty four through forty six refer to the following conversation"
+      },
+      {
+       "t": 970.28,
+       "text": "Hi, this is Giovanni Marino's agent. I'm calling to reschedule his planned appearance on the Sunday morning show"
+      },
+      {
+       "t": 977.28,
+       "text": "Right. We have him booked to appear on the show in July to promote his new movie"
+      },
+      {
+       "t": 982.28,
+       "text": "Unfortunately, the movie he's acting in is behind schedule and he'll now be on location through the end of August"
+      },
+      {
+       "t": 989.28,
+       "text": "Hmm. I see. Let me look at our guest calendar. I have a slot I'm looking to fill on September 14th. Would that work?"
+      },
+      {
+       "t": 998.28,
+       "text": "Yes, that would be great. Thanks."
+      },
+      {
+       "t": 1001.28,
+       "text": "All right. I'll update the contract with the new date and email it to you"
+      },
+      {
+       "t": 1007.28,
+       "text": "number forty four. Why is the woman calling?"
+      },
+      {
+       "t": 1019.28,
+       "text": "number forty five. Who most likely is Giovanni Marino?"
+      },
+      {
+       "t": 1032.28,
+       "text": "number forty six. What will the man send in an email?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 47,
+       "question": "What are the speakers discussing?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 48,
+       "question": "What do the men want to do?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 49,
+       "question": "What does the woman say she needs to do now?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1041.28,
+      "end": 1118.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q047.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions forty seven through forty nine refer to the following conversation with three speakers. Hello, Uscha. Hi, Pablo.\nHey, Constantine. We're talking about our thoughts on the new company policy for remote workers.\nOn the days I have to come into the office, I always worry about finding an appropriate workstation.\nYeah, I don't like the unpredictability either. Why can't we just sign up for our workstation sometime in advance?\nWhat do you think about it? These are good points. Let's all go to the director to discuss this with her.\nI believe she's in her office. So now's a good time. Oh, I can't go now. I have a report to finalize by noon.\nnumber forty seven. What are the speakers discussing?\nnumber forty eight. What do the men want to do?\nnumber forty nine. What does the woman say she needs to do now?",
+     "segs": [
+      {
+       "t": 1041.28,
+       "text": "Questions forty seven through forty nine refer to the following conversation with three speakers. Hello, Uscha. Hi, Pablo."
+      },
+      {
+       "t": 1050.28,
+       "text": "Hey, Constantine. We're talking about our thoughts on the new company policy for remote workers."
+      },
+      {
+       "t": 1056.28,
+       "text": "On the days I have to come into the office, I always worry about finding an appropriate workstation."
+      },
+      {
+       "t": 1062.28,
+       "text": "Yeah, I don't like the unpredictability either. Why can't we just sign up for our workstation sometime in advance?"
+      },
+      {
+       "t": 1069.28,
+       "text": "What do you think about it? These are good points. Let's all go to the director to discuss this with her."
+      },
+      {
+       "t": 1075.28,
+       "text": "I believe she's in her office. So now's a good time. Oh, I can't go now. I have a report to finalize by noon."
+      },
+      {
+       "t": 1084.28,
+       "text": "number forty seven. What are the speakers discussing?"
+      },
+      {
+       "t": 1096.28,
+       "text": "number forty eight. What do the men want to do?"
+      },
+      {
+       "t": 1108.28,
+       "text": "number forty nine. What does the woman say she needs to do now?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 50,
+       "question": "Who most likely is the woman?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 51,
+       "question": "What does the woman recommend that the man do?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 52,
+       "question": "What does the man say happens each month?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1118.28,
+      "end": 1189.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q050.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions fifty through fifty two refer to the following conversation.\nOkay, Mr. Jabreen. Here's your new library card. Remember that you can borrow books, CDs and DVDs from our collection with it.\nThank you. I read somewhere that people can also borrow digital items?\nYes. We offer the Cloud Camel application. All you have to do is download the app and use the information on your card to set up an account.\nThat's great. I go on a business trip every month, so having easy access to online content will be convenient.\nnumber fifty. Who most likely is the woman?\nnumber fifty one. What does the woman recommend that the man do?\nnumber fifty two. What does the man say happens each month?",
+     "segs": [
+      {
+       "t": 1118.28,
+       "text": "Questions fifty through fifty two refer to the following conversation."
+      },
+      {
+       "t": 1123.28,
+       "text": "Okay, Mr. Jabreen. Here's your new library card. Remember that you can borrow books, CDs and DVDs from our collection with it."
+      },
+      {
+       "t": 1132.28,
+       "text": "Thank you. I read somewhere that people can also borrow digital items?"
+      },
+      {
+       "t": 1137.28,
+       "text": "Yes. We offer the Cloud Camel application. All you have to do is download the app and use the information on your card to set up an account."
+      },
+      {
+       "t": 1145.28,
+       "text": "That's great. I go on a business trip every month, so having easy access to online content will be convenient."
+      },
+      {
+       "t": 1154.28,
+       "text": "number fifty. Who most likely is the woman?"
+      },
+      {
+       "t": 1166.28,
+       "text": "number fifty one. What does the woman recommend that the man do?"
+      },
+      {
+       "t": 1179.28,
+       "text": "number fifty two. What does the man say happens each month?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 53,
+       "question": "What does the woman want the man to look at?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 54,
+       "question": "What does the man imply when he says, \"The company's certainly had other priorities?\"",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 55,
+       "question": "What has the woman suggested in the past?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1189.28,
+      "end": 1266.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q053.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions fifty three through fifty five refer to the following conversation.\nHave you reviewed the data from the workplace survey? You really should.\nIt looks like most staff feel positive about the direction that the company is going in, but almost forty percent feel like their individual contributions aren't being recognized.\nWell, the company's certainly had other priorities. I wonder how the management team's going to respond.\nI've suggested many times that they give out awards every quarter for exceptional performance. Maybe now they'll finally start doing it.\nnumber fifty three. What does the woman want the man to look at?\nnumber fifty four. What does the man imply when he says, \"The company's certainly had other priorities?\"\nnumber fifty five. What has the woman suggested in the past?",
+     "segs": [
+      {
+       "t": 1189.28,
+       "text": "Questions fifty three through fifty five refer to the following conversation."
+      },
+      {
+       "t": 1194.28,
+       "text": "Have you reviewed the data from the workplace survey? You really should."
+      },
+      {
+       "t": 1199.28,
+       "text": "It looks like most staff feel positive about the direction that the company is going in, but almost forty percent feel like their individual contributions aren't being recognized."
+      },
+      {
+       "t": 1211.28,
+       "text": "Well, the company's certainly had other priorities. I wonder how the management team's going to respond."
+      },
+      {
+       "t": 1218.28,
+       "text": "I've suggested many times that they give out awards every quarter for exceptional performance. Maybe now they'll finally start doing it."
+      },
+      {
+       "t": 1228.28,
+       "text": "number fifty three. What does the woman want the man to look at?"
+      },
+      {
+       "t": 1241.28,
+       "text": "number fifty four. What does the man imply when he says, \"The company's certainly had other priorities?\""
+      },
+      {
+       "t": 1256.28,
+       "text": "number fifty five. What has the woman suggested in the past?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 56,
+       "question": "What type of business do the women own?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 57,
+       "question": "What does the man say regarding television?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 58,
+       "question": "According to the man, why would Saskia Hoffman be a good choice?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1266.28,
+      "end": 1357.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q056.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions fifty six through fifty eight refer to the following conversation with three speakers.\nHi, Agiola. As I mentioned on the phone, my colleague and I recently started a clothing company and are hoping your branding firm can help us promote our line of athletic apparel.\nYou think we should focus on advertising on social media, right?\nRight. Contrary to popular belief, television is definitely not the entire advertising landscape.\nAdvertising on the internet is also a great way for a company to increase its visibility.\nI heard you recommended working with an online influencer.\nYes, Saskia Hoffman. Saskia is very knowledgeable about exercise, and lots of people use her online exercise routines.\nHer viewers will pay attention to what she recommends and wears.\nnumber fifty six. What type of business do the women own?\nnumber fifty seven. What does the man say regarding television?\nnumber fifty eight. According to the man, why would Saskia Hoffman be a good choice?",
+     "segs": [
+      {
+       "t": 1266.28,
+       "text": "Questions fifty six through fifty eight refer to the following conversation with three speakers."
+      },
+      {
+       "t": 1272.28,
+       "text": "Hi, Agiola. As I mentioned on the phone, my colleague and I recently started a clothing company and are hoping your branding firm can help us promote our line of athletic apparel."
+      },
+      {
+       "t": 1284.28,
+       "text": "You think we should focus on advertising on social media, right?"
+      },
+      {
+       "t": 1289.28,
+       "text": "Right. Contrary to popular belief, television is definitely not the entire advertising landscape."
+      },
+      {
+       "t": 1296.28,
+       "text": "Advertising on the internet is also a great way for a company to increase its visibility."
+      },
+      {
+       "t": 1302.28,
+       "text": "I heard you recommended working with an online influencer."
+      },
+      {
+       "t": 1306.28,
+       "text": "Yes, Saskia Hoffman. Saskia is very knowledgeable about exercise, and lots of people use her online exercise routines."
+      },
+      {
+       "t": 1315.28,
+       "text": "Her viewers will pay attention to what she recommends and wears."
+      },
+      {
+       "t": 1320.28,
+       "text": "number fifty six. What type of business do the women own?"
+      },
+      {
+       "t": 1333.28,
+       "text": "number fifty seven. What does the man say regarding television?"
+      },
+      {
+       "t": 1346.28,
+       "text": "number fifty eight. According to the man, why would Saskia Hoffman be a good choice?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 59,
+       "question": "What does the speaker's company manufacture?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 60,
+       "question": "What does the woman imply when she says,",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 61,
+       "question": "What will the woman do next?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1357.28,
+      "end": 1431.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q059.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions fifty nine through sixty one refer to the following conversation.\nHi, Shinji. I wanted to ask you about the order we got from the department store chain.\nYou know, the one that placed an order for five thousand jigsaw puzzles?\nYes. They want the order in a week so they can stock them before the holiday.\nA week is not a long time.\nWe've had short timelines before. Anyway, our illustrators sent some new puzzle illustrations, right?\nI heard they're making a special edition.\nYes, and I'm so excited. I've got the sketches right here. Let me show you.\nnumber fifty nine. What does the speaker's company manufacture?\nnumber sixty. What does the woman imply when she says,\n\"A week is not a long time\"?\nnumber sixty one. What will the woman do next?",
+     "segs": [
+      {
+       "t": 1357.28,
+       "text": "Questions fifty nine through sixty one refer to the following conversation."
+      },
+      {
+       "t": 1363.28,
+       "text": "Hi, Shinji. I wanted to ask you about the order we got from the department store chain."
+      },
+      {
+       "t": 1368.28,
+       "text": "You know, the one that placed an order for five thousand jigsaw puzzles?"
+      },
+      {
+       "t": 1372.28,
+       "text": "Yes. They want the order in a week so they can stock them before the holiday."
+      },
+      {
+       "t": 1377.28,
+       "text": "A week is not a long time."
+      },
+      {
+       "t": 1379.28,
+       "text": "We've had short timelines before. Anyway, our illustrators sent some new puzzle illustrations, right?"
+      },
+      {
+       "t": 1386.28,
+       "text": "I heard they're making a special edition."
+      },
+      {
+       "t": 1388.28,
+       "text": "Yes, and I'm so excited. I've got the sketches right here. Let me show you."
+      },
+      {
+       "t": 1394.28,
+       "text": "number fifty nine. What does the speaker's company manufacture?"
+      },
+      {
+       "t": 1407.28,
+       "text": "number sixty. What does the woman imply when she says,"
+      },
+      {
+       "t": 1412.28,
+       "text": "\"A week is not a long time\"?"
+      },
+      {
+       "t": 1422.28,
+       "text": "number sixty one. What will the woman do next?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 62,
+       "question": "Where does the man most likely work?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 63,
+       "question": "Look at the graphic. Which amount does the woman ask about?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 64,
+       "question": "What does the man give the woman?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1431.28,
+      "end": 1519.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q062.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions sixty two through sixty four refer to the following conversation and billing statement.\nHi, Ms. Rottie. I understand you're concerned about a charge that appears on the statement for your business account.\nYes. I have a question about the charge on May 3rd. I don't remember purchasing anything for that amount.\nLet me review your statement now. Hmm. It looks like that purchase was made abroad,\nso an international transaction fee was added to the purchase amount.\nOh, yes. I was out of the country at that time. Thanks for clarifying.\nCan you provide me with a list of all the bank fees for transactions made abroad?\nYes, of course. Here's a document that lists all the information.\nnumber sixty two. Where does the man most likely work?\nnumber sixty three. Look at the graphic. Which amount does the woman ask about?\nnumber sixty four. What does the man give the woman?",
+     "segs": [
+      {
+       "t": 1431.28,
+       "text": "questions sixty two through sixty four refer to the following conversation and billing statement."
+      },
+      {
+       "t": 1438.28,
+       "text": "Hi, Ms. Rottie. I understand you're concerned about a charge that appears on the statement for your business account."
+      },
+      {
+       "t": 1445.28,
+       "text": "Yes. I have a question about the charge on May 3rd. I don't remember purchasing anything for that amount."
+      },
+      {
+       "t": 1452.28,
+       "text": "Let me review your statement now. Hmm. It looks like that purchase was made abroad,"
+      },
+      {
+       "t": 1459.28,
+       "text": "so an international transaction fee was added to the purchase amount."
+      },
+      {
+       "t": 1463.28,
+       "text": "Oh, yes. I was out of the country at that time. Thanks for clarifying."
+      },
+      {
+       "t": 1469.28,
+       "text": "Can you provide me with a list of all the bank fees for transactions made abroad?"
+      },
+      {
+       "t": 1474.28,
+       "text": "Yes, of course. Here's a document that lists all the information."
+      },
+      {
+       "t": 1480.28,
+       "text": "number sixty two. Where does the man most likely work?"
+      },
+      {
+       "t": 1492.28,
+       "text": "number sixty three. Look at the graphic. Which amount does the woman ask about?"
+      },
+      {
+       "t": 1510.28,
+       "text": "number sixty four. What does the man give the woman?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 65,
+       "question": "What does the man thank the woman for doing?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 66,
+       "question": "What does the man say he is worried about?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 67,
+       "question": "Look at the graphic. Where will a table be set up?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1519.28,
+      "end": 1609.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q065.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions sixty five through sixty seven refer to the following conversation and map.\nMagali, were you able to reserve the Performing Arts Center for the piano concert?\nYes. I booked their main auditorium for that day. They're sending me the contract.\nThanks for doing that. No problem. Hopefully it'll be as successful as last year.\nWe sold two thousand tickets last year, but we had three celebrity performers. I'm worried we won't sell as many tickets this year.\nWell, Xinyu Gu is a very popular pianist, and she's staying after the concert to sign autographs.\nWhich reminds me, where should we set up the table for that?\nGood question. Hmm. The cafe should be closed by then. Let's set it up next to the cafe.\nnumber sixty five. What does the man thank the woman for doing?\nnumber sixty six. What does the man say he is worried about?\nnumber sixty seven. Look at the graphic. Where will a table be set up?",
+     "segs": [
+      {
+       "t": 1519.28,
+       "text": "questions sixty five through sixty seven refer to the following conversation and map."
+      },
+      {
+       "t": 1526.28,
+       "text": "Magali, were you able to reserve the Performing Arts Center for the piano concert?"
+      },
+      {
+       "t": 1530.28,
+       "text": "Yes. I booked their main auditorium for that day. They're sending me the contract."
+      },
+      {
+       "t": 1536.28,
+       "text": "Thanks for doing that. No problem. Hopefully it'll be as successful as last year."
+      },
+      {
+       "t": 1541.28,
+       "text": "We sold two thousand tickets last year, but we had three celebrity performers. I'm worried we won't sell as many tickets this year."
+      },
+      {
+       "t": 1549.28,
+       "text": "Well, Xinyu Gu is a very popular pianist, and she's staying after the concert to sign autographs."
+      },
+      {
+       "t": 1556.28,
+       "text": "Which reminds me, where should we set up the table for that?"
+      },
+      {
+       "t": 1560.28,
+       "text": "Good question. Hmm. The cafe should be closed by then. Let's set it up next to the cafe."
+      },
+      {
+       "t": 1569.28,
+       "text": "number sixty five. What does the man thank the woman for doing?"
+      },
+      {
+       "t": 1582.28,
+       "text": "number sixty six. What does the man say he is worried about?"
+      },
+      {
+       "t": 1595.28,
+       "text": "number sixty seven. Look at the graphic. Where will a table be set up?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 68,
+       "question": "Why is the woman at the garden center?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 69,
+       "question": "Look at the graphic. Which month's post will the woman most likely read?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 70,
+       "question": "What kind of products will the man show to the woman?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1609.28,
+      "end": 1690.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p3-q068.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions sixty eight through seventy refer to the following conversation and blog post list.\nWelcome to the garden center. Can I help you?\nHi. I've started growing rose bushes, and I've heard they require special care. Are there any products you can recommend?\nYes, but first, I'd like to show you a great resource on our website. Have you seen our blog?\nNo, I haven't. We have monthly posts on many gardening topics, and there's a recent one about growing roses.\nI'll check it out. Thanks so much. You're welcome. Now, let me show you our fertilizers. They're in aisle six.\nnumber sixty eight. Why is the woman at the garden center?\nnumber sixty nine. Look at the graphic. Which month's post will the woman most likely read?\nnumber seventy. What kind of products will the man show to the woman?",
+     "segs": [
+      {
+       "t": 1609.28,
+       "text": "questions sixty eight through seventy refer to the following conversation and blog post list."
+      },
+      {
+       "t": 1616.28,
+       "text": "Welcome to the garden center. Can I help you?"
+      },
+      {
+       "t": 1619.28,
+       "text": "Hi. I've started growing rose bushes, and I've heard they require special care. Are there any products you can recommend?"
+      },
+      {
+       "t": 1626.28,
+       "text": "Yes, but first, I'd like to show you a great resource on our website. Have you seen our blog?"
+      },
+      {
+       "t": 1632.28,
+       "text": "No, I haven't. We have monthly posts on many gardening topics, and there's a recent one about growing roses."
+      },
+      {
+       "t": 1639.28,
+       "text": "I'll check it out. Thanks so much. You're welcome. Now, let me show you our fertilizers. They're in aisle six."
+      },
+      {
+       "t": 1649.28,
+       "text": "number sixty eight. Why is the woman at the garden center?"
+      },
+      {
+       "t": 1661.28,
+       "text": "number sixty nine. Look at the graphic. Which month's post will the woman most likely read?"
+      },
+      {
+       "t": 1680.28,
+       "text": "number seventy. What kind of products will the man show to the woman?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": 4,
+   "directions": "Nghe bài nói ngắn và trả lời 3 câu hỏi. Câu hỏi/lựa chọn nằm trong ảnh đề bên trái.",
+   "items": [
+    {
+     "questions": [
+      {
+       "n": 71,
+       "question": "What field does the speaker most likely work in?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 72,
+       "question": "What does the speaker say the listeners can receive notifications about?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 73,
+       "question": "According to the speaker, how can the listeners reduce a cost?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1690.28,
+      "end": 1765.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q071.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions seventy one through seventy three refer to the following announcement.\nAttention Cassella Transit customers. Maintenance work on the red and yellow lines will begin next week.\nYou can expect some disruptions to regular service, so please plan ahead. Use the latest version of our mobile phone application for real-time updates.\nYou can receive notifications regarding delays if your train is impacted. Want to save on commuter rides?\nPurchase your e-ticket through the mobile app as well. Printing a ticket at a kiosk is now subject to additional fees.\nnumber seventy one. What field does the speaker most likely work in?\nnumber seventy two. What does the speaker say the listeners can receive notifications about?\nnumber seventy three. According to the speaker, how can the listeners reduce a cost?",
+     "segs": [
+      {
+       "t": 1690.28,
+       "text": "questions seventy one through seventy three refer to the following announcement."
+      },
+      {
+       "t": 1695.28,
+       "text": "Attention Cassella Transit customers. Maintenance work on the red and yellow lines will begin next week."
+      },
+      {
+       "t": 1702.28,
+       "text": "You can expect some disruptions to regular service, so please plan ahead. Use the latest version of our mobile phone application for real-time updates."
+      },
+      {
+       "t": 1711.28,
+       "text": "You can receive notifications regarding delays if your train is impacted. Want to save on commuter rides?"
+      },
+      {
+       "t": 1717.28,
+       "text": "Purchase your e-ticket through the mobile app as well. Printing a ticket at a kiosk is now subject to additional fees."
+      },
+      {
+       "t": 1726.28,
+       "text": "number seventy one. What field does the speaker most likely work in?"
+      },
+      {
+       "t": 1739.28,
+       "text": "number seventy two. What does the speaker say the listeners can receive notifications about?"
+      },
+      {
+       "t": 1754.28,
+       "text": "number seventy three. According to the speaker, how can the listeners reduce a cost?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 74,
+       "question": "What is the purpose of the meeting?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 75,
+       "question": "According to the speaker, why will a task be challenging?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 76,
+       "question": "Who is Vivek Hazarika?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1765.28,
+      "end": 1848.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q074.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions seventy four through seventy six refer to the following excerpt from a meeting.\nGood morning, Glenman House Living Museum staff. Recently, researchers discovered the original plans for the house's gardens from the 18th century. So we're going to restore the gardens based on those plans.\nEven though we have the original designs, making an authentic recreation won't be an easy task. We don't know what specific varieties of plants were grown back then.\nThat's why we're so lucky to have Vivek Hazarika consulting on this project. As a gardener who has managed the grounds of many historic estates, he has extensive expertise in what would have been planted at the time.\nnumber seventy four. What is the purpose of the meeting?\nnumber seventy five. According to the speaker, why will a task be challenging?\nnumber seventy six. Who is Vivek Hazarika?",
+     "segs": [
+      {
+       "t": 1765.28,
+       "text": "questions seventy four through seventy six refer to the following excerpt from a meeting."
+      },
+      {
+       "t": 1771.28,
+       "text": "Good morning, Glenman House Living Museum staff. Recently, researchers discovered the original plans for the house's gardens from the 18th century. So we're going to restore the gardens based on those plans."
+      },
+      {
+       "t": 1786.28,
+       "text": "Even though we have the original designs, making an authentic recreation won't be an easy task. We don't know what specific varieties of plants were grown back then."
+      },
+      {
+       "t": 1797.28,
+       "text": "That's why we're so lucky to have Vivek Hazarika consulting on this project. As a gardener who has managed the grounds of many historic estates, he has extensive expertise in what would have been planted at the time."
+      },
+      {
+       "t": 1813.28,
+       "text": "number seventy four. What is the purpose of the meeting?"
+      },
+      {
+       "t": 1825.28,
+       "text": "number seventy five. According to the speaker, why will a task be challenging?"
+      },
+      {
+       "t": 1839.28,
+       "text": "number seventy six. Who is Vivek Hazarika?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 77,
+       "question": "What is the purpose of the session?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 78,
+       "question": "What will be on a list that the listeners will receive?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 79,
+       "question": "What will the listeners do next?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1848.28,
+      "end": 1921.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q077.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "question seventy seven through seventy nine refer to the following instructions. Welcome new sales representatives to today's session on cold calling, a sales technique where we call potential clients who haven't heard of us yet.\nToward the end of the session, you'll each be given a list of prospective parties to call. Now, the people you're contacting are busy and may not be receptive. Your job is to persuade them that what you have to say is worth their while.\nBe friendly and avoid using scripts. Now, we'll listen to some cold call recordings to learn what works and what doesn't.\nnumber seventy seven. What is the purpose of the session?\nnumber seventy eight. What will be on a list that the listeners will receive?\nnumber seventy nine. What will the listeners do next?",
+     "segs": [
+      {
+       "t": 1848.28,
+       "text": "question seventy seven through seventy nine refer to the following instructions. Welcome new sales representatives to today's session on cold calling, a sales technique where we call potential clients who haven't heard of us yet."
+      },
+      {
+       "t": 1863.28,
+       "text": "Toward the end of the session, you'll each be given a list of prospective parties to call. Now, the people you're contacting are busy and may not be receptive. Your job is to persuade them that what you have to say is worth their while."
+      },
+      {
+       "t": 1877.28,
+       "text": "Be friendly and avoid using scripts. Now, we'll listen to some cold call recordings to learn what works and what doesn't."
+      },
+      {
+       "t": 1887.28,
+       "text": "number seventy seven. What is the purpose of the session?"
+      },
+      {
+       "t": 1899.28,
+       "text": "number seventy eight. What will be on a list that the listeners will receive?"
+      },
+      {
+       "t": 1907.28,
+       "text": "number seventy nine. What will the listeners do next?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 80,
+       "question": "What does the speaker's company sell?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 81,
+       "question": "Why does the speaker say? We do use outside suppliers for parts.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 82,
+       "question": "What does the speaker say he will do today?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 1921.28,
+      "end": 2000.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q080.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions eighty through eighty two refer to the following telephone message.\nMiss Stewart, this is Rodrigo Gomez, president of Gomez and Sons. I want to apologize personally for the problems your restaurant experienced using our patio umbrellas. At our company, we pride ourselves on doing everything in house, from graphic design to production.\nThis gives us greater control over the quality of our products, but we do use outside suppliers for parts. Apparently, we receive some inferior metal components.\nWe will send you a replacement set of umbrellas at no cost today, constructed with new metal parts.\nnumber eighty. What does the speaker's company sell?\nnumber eighty one. Why does the speaker say? We do use outside suppliers for parts.\nnumber eighty two. What does the speaker say he will do today?",
+     "segs": [
+      {
+       "t": 1921.28,
+       "text": "questions eighty through eighty two refer to the following telephone message."
+      },
+      {
+       "t": 1926.28,
+       "text": "Miss Stewart, this is Rodrigo Gomez, president of Gomez and Sons. I want to apologize personally for the problems your restaurant experienced using our patio umbrellas. At our company, we pride ourselves on doing everything in house, from graphic design to production."
+      },
+      {
+       "t": 1944.28,
+       "text": "This gives us greater control over the quality of our products, but we do use outside suppliers for parts. Apparently, we receive some inferior metal components."
+      },
+      {
+       "t": 1955.28,
+       "text": "We will send you a replacement set of umbrellas at no cost today, constructed with new metal parts."
+      },
+      {
+       "t": 1963.28,
+       "text": "number eighty. What does the speaker's company sell?"
+      },
+      {
+       "t": 1975.28,
+       "text": "number eighty one. Why does the speaker say? We do use outside suppliers for parts."
+      },
+      {
+       "t": 1985.28,
+       "text": "number eighty two. What does the speaker say he will do today?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 83,
+       "question": "What type of business is being advertised?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 84,
+       "question": "What aspect of a business does the speaker emphasize?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 85,
+       "question": "How can the listeners receive a discount?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2000.28,
+      "end": 2070.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q083.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "questions eighty three through eighty five refer to the following advertisement.\ntemp time work solutions has hundreds of qualified temporary workers available to meet any of your staffing needs. Please call us to help your business fill open positions.\nWe are the largest temp agency in the region with branch offices in six locations. Let temp time help you find the right person to complete just about any job.\nCall us at 555-0145 and mention this ad to get a 20% discount off our fee.\nnumber eighty three. What type of business is being advertised?\nnumber eighty four. What aspect of a business does the speaker emphasize?\nnumber eighty five. How can the listeners receive a discount?",
+     "segs": [
+      {
+       "t": 2000.28,
+       "text": "questions eighty three through eighty five refer to the following advertisement."
+      },
+      {
+       "t": 2006.28,
+       "text": "temp time work solutions has hundreds of qualified temporary workers available to meet any of your staffing needs. Please call us to help your business fill open positions."
+      },
+      {
+       "t": 2016.28,
+       "text": "We are the largest temp agency in the region with branch offices in six locations. Let temp time help you find the right person to complete just about any job."
+      },
+      {
+       "t": 2026.28,
+       "text": "Call us at 555-0145 and mention this ad to get a 20% discount off our fee."
+      },
+      {
+       "t": 2036.28,
+       "text": "number eighty three. What type of business is being advertised?"
+      },
+      {
+       "t": 2048.28,
+       "text": "number eighty four. What aspect of a business does the speaker emphasize?"
+      },
+      {
+       "t": 2061.28,
+       "text": "number eighty five. How can the listeners receive a discount?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 86,
+       "question": "What does the speaker mean when he says? This is an important opportunity.",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 87,
+       "question": "What will the speaker's business do next year?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 88,
+       "question": "What will Thilo do next?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2070.28,
+      "end": 2150.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q086.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions eighty six through eighty eight refer to the following excerpt from a meeting. I've just received details about this year's hospitality conference.\nIt looks like it'll be particularly informative this year. It'll be held at the end of the month. Now, I know I've set your project due dates for the end of the month as well, but this is an important opportunity.\nThe conference will feature an expo of vendors who serve hotel chains, which could be useful given that we'll be opening hotels in two new cities next year.\nSpeaking of which, Thilo visited both of those construction sites last week and is now going to give us a progress report.\nnumber eighty six. What does the speaker mean when he says? This is an important opportunity.\nnumber eighty seven. What will the speaker's business do next year?\nnumber eighty eight. What will Thilo do next?",
+     "segs": [
+      {
+       "t": 2070.28,
+       "text": "Questions eighty six through eighty eight refer to the following excerpt from a meeting. I've just received details about this year's hospitality conference."
+      },
+      {
+       "t": 2080.28,
+       "text": "It looks like it'll be particularly informative this year. It'll be held at the end of the month. Now, I know I've set your project due dates for the end of the month as well, but this is an important opportunity."
+      },
+      {
+       "t": 2094.28,
+       "text": "The conference will feature an expo of vendors who serve hotel chains, which could be useful given that we'll be opening hotels in two new cities next year."
+      },
+      {
+       "t": 2104.28,
+       "text": "Speaking of which, Thilo visited both of those construction sites last week and is now going to give us a progress report."
+      },
+      {
+       "t": 2114.28,
+       "text": "number eighty six. What does the speaker mean when he says? This is an important opportunity."
+      },
+      {
+       "t": 2124.28,
+       "text": "number eighty seven. What will the speaker's business do next year?"
+      },
+      {
+       "t": 2140.28,
+       "text": "number eighty eight. What will Thilo do next?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 89,
+       "question": "What does the speaker say is new about this year's event?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 90,
+       "question": "One. According to the speaker, what will happen after Miss Alabi receives her award?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 91,
+       "question": "According to the speaker, what will happen after Miss Alabi receives her award?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2150.28,
+      "end": 2233.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q089.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions eighty nine through ninety one refer to the following introduction.\nIn the last two years, she has been responsible for discovering and developing some of today's leading composers. In fact, after Miss Alabi receives her award, some of her most famous clients will perform for us.\nnumber eighty nine. What does the speaker say is new about this year's event?\nwhy is Miss Alabi being recognized?\nnumber ninety one. According to the speaker, what will happen after Miss Alabi receives her award?",
+     "segs": [
+      {
+       "t": 2150.28,
+       "text": "Questions eighty nine through ninety one refer to the following introduction."
+      },
+      {
+       "t": 2180.28,
+       "text": "In the last two years, she has been responsible for discovering and developing some of today's leading composers. In fact, after Miss Alabi receives her award, some of her most famous clients will perform for us."
+      },
+      {
+       "t": 2196.28,
+       "text": "number eighty nine. What does the speaker say is new about this year's event?"
+      },
+      {
+       "t": 2210.28,
+       "text": "why is Miss Alabi being recognized?"
+      },
+      {
+       "t": 2221.28,
+       "text": "number ninety one. According to the speaker, what will happen after Miss Alabi receives her award?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 92,
+       "question": "Which department does the speaker most likely work in?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 93,
+       "question": "Why does the speaker say those have been popular lately?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 94,
+       "question": "What will the listeners do next?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2233.28,
+      "end": 2306.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q092.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions ninety two through ninety four refer to the following excerpt from a meeting.\nOkay, team. Let's discuss our first quarter sales figures. Unfortunately, retail sales of our smart watches and other products have continued to fall.\nOur president has proposed expanding the product line to include a virtual reality headset, and those have been popular lately.\nYou can expect a lot more information at a future meeting. Next on the agenda, Raya will be demonstrating the new software we'll be using to track consumer purchasing trends.\nnumber ninety two. Which department does the speaker most likely work in?\nnumber ninety three. Why does the speaker say those have been popular lately?\nnumber ninety four. What will the listeners do next?",
+     "segs": [
+      {
+       "t": 2233.28,
+       "text": "Questions ninety two through ninety four refer to the following excerpt from a meeting."
+      },
+      {
+       "t": 2240.28,
+       "text": "Okay, team. Let's discuss our first quarter sales figures. Unfortunately, retail sales of our smart watches and other products have continued to fall."
+      },
+      {
+       "t": 2249.28,
+       "text": "Our president has proposed expanding the product line to include a virtual reality headset, and those have been popular lately."
+      },
+      {
+       "t": 2258.28,
+       "text": "You can expect a lot more information at a future meeting. Next on the agenda, Raya will be demonstrating the new software we'll be using to track consumer purchasing trends."
+      },
+      {
+       "t": 2270.28,
+       "text": "number ninety two. Which department does the speaker most likely work in?"
+      },
+      {
+       "t": 2283.28,
+       "text": "number ninety three. Why does the speaker say those have been popular lately?"
+      },
+      {
+       "t": 2297.28,
+       "text": "number ninety four. What will the listeners do next?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 95,
+       "question": "Where are the listeners?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 96,
+       "question": "Look at the graphic. When is the tour taking place?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "A",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 97,
+       "question": "What will happen at the end of the tour?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2306.28,
+      "end": 2390.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q095.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions ninety five through ninety seven refer to the following tour information and weather forecast.\nPlease follow me and we'll begin today's tour. Now, I know not everyone who takes this all access tour is a football fan.\nMany of our visitors are just curious about how a modern sports facility of this size operates.\nWell, you'll get to see that and much more. And fortunately for us, today's forecast shows a mix of sun and clouds with no rain.\nThat's just the right combination for spending some time outside on the field comfortably.\nAlso, as a heads up, a shuttle bus will meet us at the end of the tour to bring us all back to the parking lot.\nnumber ninety five. Where are the listeners?\nnumber ninety six. Look at the graphic. When is the tour taking place?\nnumber ninety seven. What will happen at the end of the tour?",
+     "segs": [
+      {
+       "t": 2306.28,
+       "text": "Questions ninety five through ninety seven refer to the following tour information and weather forecast."
+      },
+      {
+       "t": 2313.28,
+       "text": "Please follow me and we'll begin today's tour. Now, I know not everyone who takes this all access tour is a football fan."
+      },
+      {
+       "t": 2321.28,
+       "text": "Many of our visitors are just curious about how a modern sports facility of this size operates."
+      },
+      {
+       "t": 2328.28,
+       "text": "Well, you'll get to see that and much more. And fortunately for us, today's forecast shows a mix of sun and clouds with no rain."
+      },
+      {
+       "t": 2338.28,
+       "text": "That's just the right combination for spending some time outside on the field comfortably."
+      },
+      {
+       "t": 2343.28,
+       "text": "Also, as a heads up, a shuttle bus will meet us at the end of the tour to bring us all back to the parking lot."
+      },
+      {
+       "t": 2352.28,
+       "text": "number ninety five. Where are the listeners?"
+      },
+      {
+       "t": 2363.28,
+       "text": "number ninety six. Look at the graphic. When is the tour taking place?"
+      },
+      {
+       "t": 2381.28,
+       "text": "number ninety seven. What will happen at the end of the tour?"
+      }
+     ]
+    },
+    {
+     "questions": [
+      {
+       "n": 98,
+       "question": "What type of event is being held tonight?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "C",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 99,
+       "question": "Look at the graphic. Which assignment will Kota be responsible for?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "B",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      },
+      {
+       "n": 100,
+       "question": "What does the speaker say she has to do at noon?",
+       "choices": {
+        "A": "Chọn A theo ảnh đề",
+        "B": "Chọn B theo ảnh đề",
+        "C": "Chọn C theo ảnh đề",
+        "D": "Chọn D theo ảnh đề"
+       },
+       "answer": "D",
+       "explanation": "Đáp án theo answer key gốc của Listening ETS 2026 Test 4. Đọc lựa chọn trong ảnh đề và đối chiếu với transcript/audio.",
+       "uncertain": false
+      }
+     ],
+     "audio": {
+      "start": 2390.28,
+      "end": 2472.13
+     },
+     "img": "assets/img/custom/listening-ets-2026-test4-listening/p4-q098.jpg",
+     "ptype": "listening snapshot",
+     "text": "",
+     "transcript": "Questions ninety eight through one hundred refer to the following excerpt from a meeting and assignment list.\nAs you all know, we're hosting a large event tonight. It's a dinner party to celebrate the retirement of a long time employee of Jelton Incorporated.\nThe chefs are already prepping dinner and I need you all to set up the ballroom. Here's the assignment list.\nThere's just one change. Amanda couldn't make it, so Kota's covering for her and will take Amanda's assignment.\nNow I have a meeting with a potential client at noon, but otherwise I'll be available all day if anything comes up.\nnumber ninety eight. What type of event is being held tonight?\nnumber ninety nine. Look at the graphic. Which assignment will Kota be responsible for?\nnumber one hundred. What does the speaker say she has to do at noon?\nnumber ninety eight. What does the speaker say she has to do at noon?",
+     "segs": [
+      {
+       "t": 2390.28,
+       "text": "Questions ninety eight through one hundred refer to the following excerpt from a meeting and assignment list."
+      },
+      {
+       "t": 2397.28,
+       "text": "As you all know, we're hosting a large event tonight. It's a dinner party to celebrate the retirement of a long time employee of Jelton Incorporated."
+      },
+      {
+       "t": 2406.28,
+       "text": "The chefs are already prepping dinner and I need you all to set up the ballroom. Here's the assignment list."
+      },
+      {
+       "t": 2412.28,
+       "text": "There's just one change. Amanda couldn't make it, so Kota's covering for her and will take Amanda's assignment."
+      },
+      {
+       "t": 2419.28,
+       "text": "Now I have a meeting with a potential client at noon, but otherwise I'll be available all day if anything comes up."
+      },
+      {
+       "t": 2427.28,
+       "text": "number ninety eight. What type of event is being held tonight?"
+      },
+      {
+       "t": 2436.28,
+       "text": "number ninety nine. Look at the graphic. Which assignment will Kota be responsible for?"
+      },
+      {
+       "t": 2458.28,
+       "text": "number one hundred. What does the speaker say she has to do at noon?"
+      },
+      {
+       "t": 2466.28,
+       "text": "number ninety eight. What does the speaker say she has to do at noon?"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
