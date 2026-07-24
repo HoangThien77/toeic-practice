@@ -30,7 +30,9 @@
   const LS_KEY = "toeic-practice-history-v1";
   const WRONG_LS = "toeic-wrong-bank-v1";
   const WRONG_IMPORT_LS = "toeic-wrong-history-imported-v1";
+  const ACTIVE_LS = "toeic-active-session-v1";
   const WRONG_MASTER_STREAK = 3;
+  let draftSaveTimer = null;
   function loadHistory() {
     try { return JSON.parse(localStorage.getItem(LS_KEY)) || []; } catch { return []; }
   }
@@ -54,6 +56,115 @@
     const ids = loadImportedHistory();
     ids.push(String(date));
     saveImportedHistory(ids);
+  }
+
+  function loadActiveDraft() {
+    try { return JSON.parse(localStorage.getItem(ACTIVE_LS)) || null; } catch { return null; }
+  }
+  function clearActiveDraft() {
+    try { localStorage.removeItem(ACTIVE_LS); } catch {}
+  }
+  function canSaveActiveDraft() {
+    return state.view === "runner" && !state.finished && !state.keyOnly && !!test();
+  }
+  function saveActiveDraft() {
+    if (!canSaveActiveDraft()) return;
+    const t = test();
+    const payload = {
+      version: 1,
+      savedAt: Date.now(),
+      source: state.session ? "session" : "test",
+      testId: state.session ? null : state.testId,
+      sessionCfg: state.session && state.session.sessionCfg ? state.session.sessionCfg : null,
+      title: t.title,
+      mode: state.mode,
+      answers: { ...state.answers },
+      revealed: { ...state.revealed },
+      outcomeLogged: { ...state.outcomeLogged },
+      startedAt: state.startedAt,
+      timerSec: state.timerSec,
+      timerEndsAt: state.timerSec != null ? Date.now() + state.timerSec * 1000 : null,
+      scrollY: Math.max(0, Math.round(window.scrollY || 0)),
+      audio: t.audioSrc ? {
+        currentTime: Number.isFinite(audioEl.currentTime) ? audioEl.currentTime : 0,
+        wasPlaying: !audioEl.paused,
+        segEnd: state.segEnd,
+        lastSeg: state.lastSeg,
+        rate: state.rate,
+        loop: state.loop,
+      } : null,
+    };
+    try { localStorage.setItem(ACTIVE_LS, JSON.stringify(payload)); } catch {}
+  }
+  function queueActiveDraftSave() {
+    if (!canSaveActiveDraft()) return;
+    clearTimeout(draftSaveTimer);
+    draftSaveTimer = setTimeout(saveActiveDraft, 350);
+  }
+  function sanitizeSavedMap(map, t, keepRevealed) {
+    const valid = {};
+    const refs = allQuestions(t);
+    refs.forEach(({ q }) => {
+      const raw = map && map[q.n];
+      if (raw == null) return;
+      if (keepRevealed) valid[q.n] = !!raw;
+      else if ((q.choices || {})[raw] != null) valid[q.n] = raw;
+    });
+    return valid;
+  }
+  function restoreActiveDraft() {
+    const draft = loadActiveDraft();
+    if (!draft || draft.version !== 1) return false;
+    let restored = null;
+    if (draft.source === "session" && draft.sessionCfg) {
+      restored = buildSession(draft.sessionCfg);
+      if (!restored || !restored.parts || !restored.parts.length) { clearActiveDraft(); return false; }
+      state.session = restored;
+      state.testId = null;
+    } else if (draft.testId && D.tests[draft.testId]) {
+      state.session = null;
+      state.testId = draft.testId;
+      restored = D.tests[draft.testId];
+    } else {
+      clearActiveDraft();
+      return false;
+    }
+    stopTimer(); audioEl.pause(); state.segEnd = null;
+    state.view = "runner";
+    state.mode = draft.mode || "practice";
+    state.keyOnly = false;
+    state.finished = false;
+    state.result = null;
+    state.startedAt = draft.startedAt || Date.now();
+    state.answers = sanitizeSavedMap(draft.answers, restored, false);
+    state.revealed = sanitizeSavedMap(draft.revealed, restored, true);
+    state.outcomeLogged = { ...(draft.outcomeLogged || {}) };
+    state.rate = draft.audio && draft.audio.rate ? draft.audio.rate : 1;
+    state.loop = !!(draft.audio && draft.audio.loop);
+    $("#btn-exit").classList.remove("hidden");
+    renderRunner();
+    if (restored.audioSrc) {
+      ensureAudio();
+      showDock(true);
+      const audioTime = Math.max(0, Number(draft.audio && draft.audio.currentTime) || 0);
+      state.segEnd = draft.audio ? draft.audio.segEnd || null : null;
+      state.lastSeg = draft.audio ? draft.audio.lastSeg || null : null;
+      audioEl.currentTime = audioTime;
+      audioEl.playbackRate = strictExam() ? 1 : state.rate;
+      if (draft.audio && draft.audio.wasPlaying && state.mode === "exam") {
+        audioEl.play().catch(() => {});
+      }
+    }
+    if (state.mode === "exam" && draft.timerSec != null) {
+      const sec = draft.timerEndsAt ? Math.round((draft.timerEndsAt - Date.now()) / 1000) : Math.round(draft.timerSec);
+      if (sec <= 0) setTimeout(() => submit(true), 0);
+      else startTimer(sec);
+    }
+    const y = Math.max(0, Number(draft.scrollY) || 0);
+    setTimeout(() => window.scrollTo(0, y), 0);
+    setTimeout(() => window.scrollTo(0, y), 300);
+    saveActiveDraft();
+    return true;
   }
 
   /* ---------------- helpers ---------------- */
@@ -824,8 +935,8 @@
   });
   function audioToggle() {
     const t = test();
-    // thi thật: không được tạm dừng audio
-    if (t && t.sessionCfg && t.sessionCfg.real && state.mode === "exam" && !state.finished) return;
+    // thi thật: không được tạm dừng audio; riêng sau khi refresh thì cho bấm phát tiếp nếu audio đang dừng.
+    if (t && t.sessionCfg && t.sessionCfg.real && state.mode === "exam" && !state.finished && !audioEl.paused) return;
     if (audioEl.paused) audioEl.play(); else audioEl.pause();
   }
   function initDock() {
@@ -891,9 +1002,11 @@
       const td = $("#timer-display");
       td.textContent = fmtTime(state.timerSec);
       td.classList.toggle("low", state.timerSec < 300);
+      if (state.timerSec % 5 === 0) saveActiveDraft();
       if (state.timerSec <= 0) { stopTimer(); submit(true); }
     }, 1000);
     $("#timer-display").textContent = fmtTime(sec);
+    saveActiveDraft();
   }
   function stopTimer() {
     clearInterval(state.timerInt); state.timerInt = null;
@@ -902,6 +1015,7 @@
 
   /* ---------------- views ---------------- */
   function goHome() {
+    if (state.view === "runner" && !state.finished && !state.keyOnly) clearActiveDraft();
     stopTimer(); audioEl.pause(); showDock(false);
     screen.classList.remove("wide");
     document.body.classList.remove("has-mbar");
@@ -1816,6 +1930,7 @@
     } else if (t.kind === "reading" && mode === "exam") {
       startTimer(t.timerMin * 60);
     }
+    saveActiveDraft();
     window.scrollTo(0, 0);
   }
 
@@ -1928,6 +2043,7 @@
     $("#btn-exit").classList.remove("hidden");
     renderRunner();
     if (state.session.audioSrc) { ensureAudio(); showDock(true); }
+    saveActiveDraft();
     window.scrollTo(0, 0);
   }
 
@@ -1953,6 +2069,7 @@
     if (cfg.mode === "exam" && cfg.timerMin) {
       startTimer(cfg.timerMin * 60);
     }
+    saveActiveDraft();
     window.scrollTo(0, 0);
   }
 
@@ -2256,7 +2373,7 @@
         : `<button class="btn" onclick="App.exportAnswers()">Xuất phiếu đáp án</button>
            <button class="btn btn-primary" onclick="App.goHome()">Về trang chủ</button>`)
       : `<button class="btn btn-primary" onclick="App.trySubmit()">Nộp bài</button>
-         <button class="btn" onclick="App.goHome()">Huỷ</button>`;
+         <button class="btn" onclick="App.confirmExit()">Huỷ</button>`;
     return `<div class="qnav">
       <div class="label">Bảng câu hỏi</div>
       <div class="qnav-grid">${cells}</div>
@@ -2305,6 +2422,7 @@
       }
     }
     updateSidebar();
+    queueActiveDraftSave();
   }
 
   function findQ(qn) {
@@ -2337,6 +2455,7 @@
     recordQuestionOutcome(qn);
     state.revealed[qn] = true;
     rerenderBlock(qn);
+    saveActiveDraft();
   }
 
   function jumpTo(qn) {
@@ -2375,6 +2494,7 @@
     state.result = { correct, total, pct, scaled, scaleMax, sections: sec, durationSec };
     qs.forEach(({ q }) => recordQuestionOutcome(q.n));
     state.finished = true;
+    clearActiveDraft();
     const attemptDate = Date.now();
     saveAttempt({
       testId: state.session ? "session" : t.id,
@@ -2821,11 +2941,11 @@
     $("#modal-backdrop").classList.add("hidden");
   }
   function confirmExit() {
-    if (state.finished) { goHome(); return; }
-    openModal(`<h3>Thoát bài làm?</h3><p>Tiến độ bài đang làm sẽ không được lưu.</p>
+    if (state.view !== "runner" || state.finished) { goHome(); return; }
+    openModal(`<h3>Thoát bài làm?</h3><p>Tiến độ đang được lưu tự động để chống mất khi refresh. Nếu bấm <b>Thoát</b>, bản lưu tạm này sẽ bị xoá.</p>
       <div class="modal-actions">
-        <button class="btn" onclick="App.closeModal()">Ở lại</button>
-        <button class="btn btn-primary" onclick="App.closeModal(); App.goHome()">Thoát</button>
+        <button class="btn" onclick="App.closeModal()">Làm tiếp</button>
+        <button class="btn btn-primary" onclick="App.closeModal(); App.goHome()">Thoát và xoá bản lưu</button>
       </div>`);
   }
 
@@ -2855,6 +2975,10 @@
     }
   });
 
+  window.addEventListener("beforeunload", saveActiveDraft);
+  document.addEventListener("visibilitychange", () => { if (document.hidden) saveActiveDraft(); });
+  window.addEventListener("scroll", queueActiveDraftSave, { passive: true });
+
   initDock();
-  goHome();
+  if (!restoreActiveDraft()) goHome();
 })();
