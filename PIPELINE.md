@@ -69,7 +69,8 @@ Nhiều file (nhất là sách luyện Hàn/Nhật kiểu "RC1000", "LC1000", "1
 - Crop bằng PIL (xem vị trí bằng cách Read ảnh trang, crop, Read lại crop để kiểm tra, chỉnh nếu cắt hụt).
 - Lưu vào `assets/img/custom/<upload-id>/`:
   - Listening P1: ảnh từng câu `p1-q1.jpg`...
-  - Graphic P3/P4: `g-<tên>.jpg`
+  - **Listening P3/P4: crop trọn 1 block 3 câu từ PDF/scan gốc** (`block-q32.jpg`, `block-q35.jpg`, ...): phải đủ cả 3 question stems + toàn bộ choices, kèm graphic nếu nhóm đó có hình/bảng. Không crop quá sát mép chữ; chừa gutter trắng an toàn hai bên để khi UI fit vào cột trái không bị mất chữ.
+  - Graphic P3/P4: `g-<tên>.jpg` nếu cần tách riêng graphic cho câu "Look at the graphic".
   - **Bài đọc Reading P6/P7: crop NGUYÊN passage trực tiếp từ PDF/ảnh scan gốc (kèm dòng "Questions X-Y refer to...") thành `passage-q<câuĐầu>.jpg`** — app hiển thị ảnh gốc thay vì chữ gõ lại (giống đề thật). KHÔNG được tạo ảnh bằng cách render lại text đã số hóa. KHÔNG gồm question stems/choices bên dưới, không gồm header/footer trang. Vẫn phải transcribe text passage (bước 2) để giải đề, nhưng UI sẽ dùng ảnh.
 
 ### 4. Audio (nếu có file nghe)

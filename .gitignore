@@ -3,6 +3,7 @@ tools/
 # teacher uploads inbox (processed locally)
 uploads/
 # junk
+exports/
 tmp/
 .DS_Store
 __pycache__/
