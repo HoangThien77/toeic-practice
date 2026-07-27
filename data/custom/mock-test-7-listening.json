@@ -1,0 +1,4425 @@
+{
+  "id": "mock-test-7-listening",
+  "kind": "listening",
+  "title": "Mock Test 7 - Listening",
+  "desc": "Du 100 cau Part 1-4, audio Test 02 from Zalo.mp3. Co dap an, giai thich va transcript.",
+  "custom": true,
+  "audioSrc": "assets/audio/mock-test-7.mp3",
+  "timings": {
+    "parts": {
+      "1": {
+        "start": 98,
+        "end": 266
+      },
+      "2": {
+        "start": 293,
+        "end": 800
+      },
+      "3": {
+        "start": 830,
+        "end": 1953
+      },
+      "4": {
+        "start": 1953,
+        "end": 2840
+      }
+    },
+    "questions": {
+      "1": {
+        "start": 98,
+        "end": 121
+      },
+      "2": {
+        "start": 121,
+        "end": 154
+      },
+      "3": {
+        "start": 154,
+        "end": 180
+      },
+      "4": {
+        "start": 180,
+        "end": 206
+      },
+      "5": {
+        "start": 206,
+        "end": 233
+      },
+      "6": {
+        "start": 233,
+        "end": 266
+      },
+      "7": {
+        "start": 293,
+        "end": 310
+      },
+      "8": {
+        "start": 310,
+        "end": 332
+      },
+      "9": {
+        "start": 332,
+        "end": 352
+      },
+      "10": {
+        "start": 352,
+        "end": 369
+      },
+      "11": {
+        "start": 369,
+        "end": 390
+      },
+      "12": {
+        "start": 390,
+        "end": 411
+      },
+      "13": {
+        "start": 411,
+        "end": 432
+      },
+      "14": {
+        "start": 432,
+        "end": 450
+      },
+      "15": {
+        "start": 450,
+        "end": 470
+      },
+      "16": {
+        "start": 470,
+        "end": 491
+      },
+      "17": {
+        "start": 491,
+        "end": 511
+      },
+      "18": {
+        "start": 511,
+        "end": 533
+      },
+      "19": {
+        "start": 533,
+        "end": 554
+      },
+      "20": {
+        "start": 554,
+        "end": 574
+      },
+      "21": {
+        "start": 574,
+        "end": 594
+      },
+      "22": {
+        "start": 594,
+        "end": 613
+      },
+      "23": {
+        "start": 613,
+        "end": 633
+      },
+      "24": {
+        "start": 633,
+        "end": 653
+      },
+      "25": {
+        "start": 653,
+        "end": 675
+      },
+      "26": {
+        "start": 675,
+        "end": 696
+      },
+      "27": {
+        "start": 696,
+        "end": 716
+      },
+      "28": {
+        "start": 716,
+        "end": 734
+      },
+      "29": {
+        "start": 734,
+        "end": 757
+      },
+      "30": {
+        "start": 757,
+        "end": 777
+      },
+      "31": {
+        "start": 777,
+        "end": 800
+      }
+    },
+    "blocks": [
+      {
+        "questions": [
+          32,
+          33,
+          34
+        ],
+        "start": 830,
+        "end": 910
+      },
+      {
+        "questions": [
+          35,
+          36,
+          37
+        ],
+        "start": 910,
+        "end": 989
+      },
+      {
+        "questions": [
+          38,
+          39,
+          40
+        ],
+        "start": 989,
+        "end": 1069
+      },
+      {
+        "questions": [
+          41,
+          42,
+          43
+        ],
+        "start": 1069,
+        "end": 1160
+      },
+      {
+        "questions": [
+          44,
+          45,
+          46
+        ],
+        "start": 1160,
+        "end": 1253
+      },
+      {
+        "questions": [
+          47,
+          48,
+          49
+        ],
+        "start": 1253,
+        "end": 1337
+      },
+      {
+        "questions": [
+          50,
+          51,
+          52
+        ],
+        "start": 1337,
+        "end": 1415
+      },
+      {
+        "questions": [
+          53,
+          54,
+          55
+        ],
+        "start": 1415,
+        "end": 1505
+      },
+      {
+        "questions": [
+          56,
+          57,
+          58
+        ],
+        "start": 1505,
+        "end": 1588
+      },
+      {
+        "questions": [
+          59,
+          60,
+          61
+        ],
+        "start": 1588,
+        "end": 1673
+      },
+      {
+        "questions": [
+          62,
+          63,
+          64
+        ],
+        "start": 1673,
+        "end": 1777
+      },
+      {
+        "questions": [
+          65,
+          66,
+          67
+        ],
+        "start": 1777,
+        "end": 1865
+      },
+      {
+        "questions": [
+          68,
+          69,
+          70
+        ],
+        "start": 1865,
+        "end": 1953
+      },
+      {
+        "questions": [
+          71,
+          72,
+          73
+        ],
+        "start": 1953,
+        "end": 2070
+      },
+      {
+        "questions": [
+          74,
+          75,
+          76
+        ],
+        "start": 2070,
+        "end": 2150
+      },
+      {
+        "questions": [
+          77,
+          78,
+          79
+        ],
+        "start": 2150,
+        "end": 2233
+      },
+      {
+        "questions": [
+          80,
+          81,
+          82
+        ],
+        "start": 2233,
+        "end": 2318
+      },
+      {
+        "questions": [
+          83,
+          84,
+          85
+        ],
+        "start": 2318,
+        "end": 2406
+      },
+      {
+        "questions": [
+          86,
+          87,
+          88
+        ],
+        "start": 2406,
+        "end": 2487
+      },
+      {
+        "questions": [
+          89,
+          90,
+          91
+        ],
+        "start": 2487,
+        "end": 2572
+      },
+      {
+        "questions": [
+          92,
+          93,
+          94
+        ],
+        "start": 2572,
+        "end": 2662
+      },
+      {
+        "questions": [
+          95,
+          96,
+          97
+        ],
+        "start": 2662,
+        "end": 2749
+      },
+      {
+        "questions": [
+          98,
+          99,
+          100
+        ],
+        "start": 2749,
+        "end": 2840
+      }
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "directions": "Nghe 4 cau mo ta ve moi buc anh va chon cau mo ta dung nhat. Cau hoi va dap an chi co trong audio.",
+      "items": [
+        {
+          "n": 1,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "The picture best matches putting leaves into a waste bin.",
+          "uncertain": false,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q1.jpg",
+          "audio": {
+            "start": 98,
+            "end": 121
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "He's putting leaves into a waste bin.",
+              "B": "He's adjusting his glasses.",
+              "C": "He's trimming some trees.",
+              "D": "He's holding a box of fruit."
+            }
+          },
+          "segs": [
+            {
+              "t": 98.0,
+              "text": "Look at the picture marked number one in your test book."
+            },
+            {
+              "t": 103.0,
+              "text": "He's putting leaves into a waste bin."
+            },
+            {
+              "t": 107.0,
+              "text": "He's adjusting his glasses."
+            },
+            {
+              "t": 111.0,
+              "text": "He's trimming some trees."
+            },
+            {
+              "t": 114.0,
+              "text": "He's holding a box of fruit."
+            }
+          ],
+          "viText": "(A) He's putting leaves into a waste bin.\n(B) He's adjusting his glasses.\n(C) He's trimming some trees.\n(D) He's holding a box of fruit."
+        },
+        {
+          "n": 2,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "The people are seated in a circle.",
+          "uncertain": true,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q2.jpg",
+          "audio": {
+            "start": 121,
+            "end": 154
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "One of the men is leaning on a table.",
+              "B": "One of the men is putting a cover over a laptop.",
+              "C": "They are arranging folders on a table.",
+              "D": "They are sitting in a circle."
+            }
+          },
+          "segs": [
+            {
+              "t": 121.0,
+              "text": "Look at the picture marked number two in your test book."
+            },
+            {
+              "t": 127.0,
+              "text": "One of the men is leaning on a table."
+            },
+            {
+              "t": 131.0,
+              "text": "One of the men is putting a cover over a laptop."
+            },
+            {
+              "t": 136.0,
+              "text": "They are arranging folders on a table."
+            },
+            {
+              "t": 141.0,
+              "text": "They are sitting in a circle."
+            },
+            {
+              "t": 147.0,
+              "text": "Go on to the next page."
+            }
+          ],
+          "viText": "(A) One of the men is leaning on a table.\n(B) One of the men is putting a cover over a laptop.\n(C) They are arranging folders on a table.\n(D) They are sitting in a circle."
+        },
+        {
+          "n": 3,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "The man is washing a vehicle.",
+          "uncertain": false,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q3.jpg",
+          "audio": {
+            "start": 154,
+            "end": 180
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "A man is pulling a cart.",
+              "B": "A man is washing a vehicle.",
+              "C": "Some tires are stacked in rows.",
+              "D": "Some hoses are stretched across a garden."
+            }
+          },
+          "segs": [
+            {
+              "t": 154.0,
+              "text": "Number three."
+            },
+            {
+              "t": 156.0,
+              "text": "Look at the picture marked number three in your test book."
+            },
+            {
+              "t": 160.0,
+              "text": "A. A man is pulling a cart."
+            },
+            {
+              "t": 163.0,
+              "text": "B. A man is washing a vehicle."
+            },
+            {
+              "t": 167.0,
+              "text": "C. Some tires are stacked in rows."
+            },
+            {
+              "t": 171.0,
+              "text": "D. Some hoses are stretched across a garden."
+            }
+          ],
+          "viText": "(A) A man is pulling a cart.\n(B) A man is washing a vehicle.\n(C) Some tires are stacked in rows.\n(D) Some hoses are stretched across a garden."
+        },
+        {
+          "n": 4,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "The woman is mounting shelves on a wall.",
+          "uncertain": true,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q4.jpg",
+          "audio": {
+            "start": 180,
+            "end": 206
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "A woman is holding a door open.",
+              "B": "A woman is wearing a pair of safety goggles.",
+              "C": "A woman is clearing food from a table.",
+              "D": "A woman's mounting shelves on a wall."
+            }
+          },
+          "segs": [
+            {
+              "t": 180.0,
+              "text": "Number four."
+            },
+            {
+              "t": 181.0,
+              "text": "Look at the picture marked number four in your test book."
+            },
+            {
+              "t": 185.0,
+              "text": "A. A woman is holding a door open."
+            },
+            {
+              "t": 189.0,
+              "text": "B. A woman is wearing a pair of safety goggles."
+            },
+            {
+              "t": 193.0,
+              "text": "C. A woman is clearing food from a table."
+            },
+            {
+              "t": 198.0,
+              "text": "D. A woman's mounting shelves on a wall."
+            }
+          ],
+          "viText": "(A) A woman is holding a door open.\n(B) A woman is wearing a pair of safety goggles.\n(C) A woman is clearing food from a table.\n(D) A woman's mounting shelves on a wall."
+        },
+        {
+          "n": 5,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "People are boarding a shuttle bus.",
+          "uncertain": true,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q5.jpg",
+          "audio": {
+            "start": 206,
+            "end": 233
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "A tree is being trimmed by a work crew.",
+              "B": "Pedestrians are walking in a plaza.",
+              "C": "People are boarding a shuttle bus.",
+              "D": "A pavement is being washed with a hose."
+            }
+          },
+          "segs": [
+            {
+              "t": 206.0,
+              "text": "Number five."
+            },
+            {
+              "t": 208.0,
+              "text": "Look at the picture marked number five in your test book."
+            },
+            {
+              "t": 212.0,
+              "text": "A. A tree is being trimmed by a work crew."
+            },
+            {
+              "t": 217.0,
+              "text": "B. Pedestrians are walking in a plaza."
+            },
+            {
+              "t": 221.0,
+              "text": "C. People are boarding a shuttle bus."
+            },
+            {
+              "t": 224.0,
+              "text": "D. A pavement is being washed with a hose."
+            }
+          ],
+          "viText": "(A) A tree is being trimmed by a work crew.\n(B) Pedestrians are walking in a plaza.\n(C) People are boarding a shuttle bus.\n(D) A pavement is being washed with a hose."
+        },
+        {
+          "n": 6,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "The chairs are facing a round table.",
+          "uncertain": true,
+          "image": "assets/img/custom/mock-test-7-listening/p1-q6.jpg",
+          "audio": {
+            "start": 233,
+            "end": 266
+          },
+          "spoken": {
+            "question": "",
+            "choices": {
+              "A": "Some railings are being painted.",
+              "B": "Rope is being wrapped around a pipe.",
+              "C": "Some chairs are facing a round table.",
+              "D": "People are seated on a viewing platform."
+            }
+          },
+          "segs": [
+            {
+              "t": 233.0,
+              "text": "Number six."
+            },
+            {
+              "t": 234.0,
+              "text": "Look at the picture marked number six in your test book."
+            },
+            {
+              "t": 238.0,
+              "text": "A. Some railings are being painted."
+            },
+            {
+              "t": 242.0,
+              "text": "B. Rope is being wrapped around a pipe."
+            },
+            {
+              "t": 246.0,
+              "text": "C. Some chairs are facing a round table."
+            },
+            {
+              "t": 250.0,
+              "text": "D. People are seated on a viewing platform."
+            },
+            {
+              "t": 259.0,
+              "text": "Go on to the next page."
+            }
+          ],
+          "viText": "(A) Some railings are being painted.\n(B) Rope is being wrapped around a pipe.\n(C) Some chairs are facing a round table.\n(D) People are seated on a viewing platform."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "directions": "Nghe 1 cau hoi/cau noi va 3 cau dap, chon cau dap phu hop nhat. Tat ca chi co trong audio.",
+      "items": [
+        {
+          "n": 7,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 293,
+            "end": 310
+          },
+          "spoken": {
+            "question": "Where are the organic fruit juices?",
+            "choices": {
+              "A": "Each bottle is 500 milliliters.",
+              "B": "In the aisle to your left.",
+              "C": "Know several different uses."
+            }
+          },
+          "segs": [
+            {
+              "t": 293.0,
+              "text": "Number seven."
+            },
+            {
+              "t": 295.0,
+              "text": "Where are the organic fruit juices?"
+            },
+            {
+              "t": 298.0,
+              "text": "A. Each bottle is 500 milliliters."
+            },
+            {
+              "t": 302.0,
+              "text": "B. In the aisle to your left."
+            },
+            {
+              "t": 305.0,
+              "text": "C. Know several different uses."
+            }
+          ],
+          "viText": "Where are the organic fruit juices?\n(A) Each bottle is 500 milliliters.\n(B) In the aisle to your left.\n(C) Know several different uses."
+        },
+        {
+          "n": 8,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 310,
+            "end": 332
+          },
+          "spoken": {
+            "question": "Why did the projector stop working?",
+            "choices": {
+              "A": "Because of a connection failure.",
+              "B": "She already finished that work.",
+              "C": "During the presentation."
+            }
+          },
+          "segs": [
+            {
+              "t": 310.0,
+              "text": "Number eight."
+            },
+            {
+              "t": 315.0,
+              "text": "Why did the projector stop working?"
+            },
+            {
+              "t": 318.0,
+              "text": "A. Because of a connection failure."
+            },
+            {
+              "t": 321.0,
+              "text": "B. She already finished that work."
+            },
+            {
+              "t": 325.0,
+              "text": "C. During the presentation."
+            }
+          ],
+          "viText": "Why did the projector stop working?\n(A) Because of a connection failure.\n(B) She already finished that work.\n(C) During the presentation."
+        },
+        {
+          "n": 9,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 332,
+            "end": 352
+          },
+          "spoken": {
+            "question": "Who got transferred to our marketing division?",
+            "choices": {
+              "A": "I got it at a farmer's market.",
+              "B": "Wasn't it Sally Park?",
+              "C": "Transfer at Central Station."
+            }
+          },
+          "segs": [
+            {
+              "t": 332.0,
+              "text": "Number nine."
+            },
+            {
+              "t": 334.0,
+              "text": "Who got transferred to our marketing division?"
+            },
+            {
+              "t": 337.0,
+              "text": "A."
+            },
+            {
+              "t": 338.0,
+              "text": "I got it at a farmer's market."
+            },
+            {
+              "t": 341.0,
+              "text": "B."
+            },
+            {
+              "t": 342.0,
+              "text": "Wasn't it Sally Park?"
+            },
+            {
+              "t": 344.0,
+              "text": "C."
+            },
+            {
+              "t": 345.0,
+              "text": "Transfer at Central Station."
+            }
+          ],
+          "viText": "Who got transferred to our marketing division?\n(A) I got it at a farmer's market.\n(B) Wasn't it Sally Park?\n(C) Transfer at Central Station."
+        },
+        {
+          "n": 10,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 352,
+            "end": 369
+          },
+          "spoken": {
+            "question": "Would you prefer tea or coffee?",
+            "choices": {
+              "A": "Two or three copies.",
+              "B": "Just water is fine, thanks.",
+              "C": "Five cups a day."
+            }
+          },
+          "segs": [
+            {
+              "t": 352.0,
+              "text": "Number ten."
+            },
+            {
+              "t": 353.0,
+              "text": "Would you prefer tea or coffee?"
+            },
+            {
+              "t": 356.0,
+              "text": "A. Two or three copies."
+            },
+            {
+              "t": 359.0,
+              "text": "B. Just water is fine, thanks."
+            },
+            {
+              "t": 363.0,
+              "text": "C. Five cups a day."
+            }
+          ],
+          "viText": "Would you prefer tea or coffee?\n(A) Two or three copies.\n(B) Just water is fine, thanks.\n(C) Five cups a day."
+        },
+        {
+          "n": 11,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 369,
+            "end": 390
+          },
+          "spoken": {
+            "question": "Didn't you get this memo about the laboratory remodeling?",
+            "choices": {
+              "A": "To the contractor.",
+              "B": "Oh, let me take a look at it.",
+              "C": "I have one of the older models."
+            }
+          },
+          "segs": [
+            {
+              "t": 369.0,
+              "text": "Number eleven."
+            },
+            {
+              "t": 372.0,
+              "text": "Didn't you get this memo about the laboratory remodeling?"
+            },
+            {
+              "t": 376.0,
+              "text": "A. To the contractor."
+            },
+            {
+              "t": 379.0,
+              "text": "B. Oh, let me take a look at it."
+            },
+            {
+              "t": 383.0,
+              "text": "C. I have one of the older models."
+            }
+          ],
+          "viText": "Didn't you get this memo about the laboratory remodeling?\n(A) To the contractor.\n(B) Oh, let me take a look at it.\n(C) I have one of the older models."
+        },
+        {
+          "n": 12,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 390,
+            "end": 411
+          },
+          "spoken": {
+            "question": "What restaurant did she pick for the department lunch?",
+            "choices": {
+              "A": "She's about to look over the options.",
+              "B": "I ordered the tomato pasta.",
+              "C": "Anne is selling her apartment."
+            }
+          },
+          "segs": [
+            {
+              "t": 390.0,
+              "text": "Number twelve."
+            },
+            {
+              "t": 392.0,
+              "text": "What restaurant did she pick for the department lunch?"
+            },
+            {
+              "t": 396.0,
+              "text": "A. She's about to look over the options."
+            },
+            {
+              "t": 400.0,
+              "text": "B. I ordered the tomato pasta."
+            },
+            {
+              "t": 403.0,
+              "text": "C. Anne is selling her apartment."
+            }
+          ],
+          "viText": "What restaurant did she pick for the department lunch?\n(A) She's about to look over the options.\n(B) I ordered the tomato pasta.\n(C) Anne is selling her apartment."
+        },
+        {
+          "n": 13,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 411,
+            "end": 432
+          },
+          "spoken": {
+            "question": "Why are you taking that company laptop home with you?",
+            "choices": {
+              "A": "An extended warranty period.",
+              "B": "My report is due tomorrow.",
+              "C": "Oh, did he do that?"
+            }
+          },
+          "segs": [
+            {
+              "t": 411.0,
+              "text": "Number thirteen."
+            },
+            {
+              "t": 413.0,
+              "text": "Why are you taking that company laptop home with you?"
+            },
+            {
+              "t": 417.0,
+              "text": "A. An extended warranty period."
+            },
+            {
+              "t": 420.0,
+              "text": "B. My report is due tomorrow."
+            },
+            {
+              "t": 424.0,
+              "text": "C. Oh, did he do that?"
+            }
+          ],
+          "viText": "Why are you taking that company laptop home with you?\n(A) An extended warranty period.\n(B) My report is due tomorrow.\n(C) Oh, did he do that?"
+        },
+        {
+          "n": 14,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 432,
+            "end": 450
+          },
+          "spoken": {
+            "question": "How was the new accounting clerk trained?",
+            "choices": {
+              "A": "They're being counted now.",
+              "B": "He already knew our system.",
+              "C": "The train is running late."
+            }
+          },
+          "segs": [
+            {
+              "t": 432.0,
+              "text": "Number fourteen."
+            },
+            {
+              "t": 434.0,
+              "text": "How was the new accounting clerk trained?"
+            },
+            {
+              "t": 437.0,
+              "text": "A. They're being counted now."
+            },
+            {
+              "t": 440.0,
+              "text": "B. He already knew our system."
+            },
+            {
+              "t": 443.0,
+              "text": "C. The train is running late."
+            }
+          ],
+          "viText": "How was the new accounting clerk trained?\n(A) They're being counted now.\n(B) He already knew our system.\n(C) The train is running late."
+        },
+        {
+          "n": 15,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 450,
+            "end": 470
+          },
+          "spoken": {
+            "question": "Could you give me a computer headset?",
+            "choices": {
+              "A": "Do you need one with a microphone?",
+              "B": "The head of a technology firm.",
+              "C": "My commute is fairly short."
+            }
+          },
+          "segs": [
+            {
+              "t": 450.0,
+              "text": "Number fifteen."
+            },
+            {
+              "t": 452.0,
+              "text": "Could you give me a computer headset?"
+            },
+            {
+              "t": 455.0,
+              "text": "A. Do you need one with a microphone?"
+            },
+            {
+              "t": 459.0,
+              "text": "B. The head of a technology firm."
+            },
+            {
+              "t": 462.0,
+              "text": "C. My commute is fairly short."
+            }
+          ],
+          "viText": "Could you give me a computer headset?\n(A) Do you need one with a microphone?\n(B) The head of a technology firm.\n(C) My commute is fairly short."
+        },
+        {
+          "n": 16,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 470,
+            "end": 491
+          },
+          "spoken": {
+            "question": "They seemed really satisfied with Mr. Jensen's interview performance.",
+            "choices": {
+              "A": "He certainly is a great candidate.",
+              "B": "You can write a product review.",
+              "C": "The band will perform next week."
+            }
+          },
+          "segs": [
+            {
+              "t": 470.0,
+              "text": "Number sixteen."
+            },
+            {
+              "t": 472.0,
+              "text": "They seemed really satisfied with Mr. Jensen's interview performance."
+            },
+            {
+              "t": 477.0,
+              "text": "A. He certainly is a great candidate."
+            },
+            {
+              "t": 480.0,
+              "text": "B. You can write a product review."
+            },
+            {
+              "t": 483.0,
+              "text": "C. The band will perform next week."
+            }
+          ],
+          "viText": "They seemed really satisfied with Mr. Jensen's interview performance.\n(A) He certainly is a great candidate.\n(B) You can write a product review.\n(C) The band will perform next week."
+        },
+        {
+          "n": 17,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 491,
+            "end": 511
+          },
+          "spoken": {
+            "question": "When will the next issue of the quarterly newsletter come out?",
+            "choices": {
+              "A": "On the twentieth of November.",
+              "B": "The article was quite useful.",
+              "C": "More than seven pages long."
+            }
+          },
+          "segs": [
+            {
+              "t": 491.0,
+              "text": "Number seventeen."
+            },
+            {
+              "t": 493.0,
+              "text": "When will the next issue of the quarterly newsletter come out?"
+            },
+            {
+              "t": 497.0,
+              "text": "A. On the twentieth of November."
+            },
+            {
+              "t": 500.0,
+              "text": "B. The article was quite useful."
+            },
+            {
+              "t": 504.0,
+              "text": "C. More than seven pages long."
+            }
+          ],
+          "viText": "When will the next issue of the quarterly newsletter come out?\n(A) On the twentieth of November.\n(B) The article was quite useful.\n(C) More than seven pages long."
+        },
+        {
+          "n": 18,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 511,
+            "end": 533
+          },
+          "spoken": {
+            "question": "Isn't the doctor supposed to arrive at the clinic by nine?",
+            "choices": {
+              "A": "That's right. He's setting up now.",
+              "B": "This is flu medicine.",
+              "C": "Almost a dozen appointments."
+            }
+          },
+          "segs": [
+            {
+              "t": 511.0,
+              "text": "Number eighteen."
+            },
+            {
+              "t": 514.0,
+              "text": "Isn't the doctor supposed to arrive at the clinic by nine?"
+            },
+            {
+              "t": 518.0,
+              "text": "A. That's right. He's setting up now."
+            },
+            {
+              "t": 522.0,
+              "text": "B. This is flu medicine."
+            },
+            {
+              "t": 525.0,
+              "text": "C. Almost a dozen appointments."
+            }
+          ],
+          "viText": "Isn't the doctor supposed to arrive at the clinic by nine?\n(A) That's right. He's setting up now.\n(B) This is flu medicine.\n(C) Almost a dozen appointments."
+        },
+        {
+          "n": 19,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 533,
+            "end": 554
+          },
+          "spoken": {
+            "question": "Will you need this rack installed or just delivered to your home?",
+            "choices": {
+              "A": "Actually, I'll pick it up myself.",
+              "B": "Right there is fine.",
+              "C": "For my kitchen towels."
+            }
+          },
+          "segs": [
+            {
+              "t": 533.0,
+              "text": "Number nineteen."
+            },
+            {
+              "t": 535.0,
+              "text": "Will you need this rack installed or just delivered to your home?"
+            },
+            {
+              "t": 539.0,
+              "text": "A. Actually, I'll pick it up myself."
+            },
+            {
+              "t": 543.0,
+              "text": "B. Right there is fine."
+            },
+            {
+              "t": 546.0,
+              "text": "C. For my kitchen towels."
+            }
+          ],
+          "viText": "Will you need this rack installed or just delivered to your home?\n(A) Actually, I'll pick it up myself.\n(B) Right there is fine.\n(C) For my kitchen towels."
+        },
+        {
+          "n": 20,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 554,
+            "end": 574
+          },
+          "spoken": {
+            "question": "The air conditioner is really loud these days, isn't it?",
+            "choices": {
+              "A": "No, it's in the instructions.",
+              "B": "I haven't noticed.",
+              "C": "A thicker jacket, maybe."
+            }
+          },
+          "segs": [
+            {
+              "t": 554.0,
+              "text": "Number twenty."
+            },
+            {
+              "t": 556.0,
+              "text": "The air conditioner is really loud these days, isn't it?"
+            },
+            {
+              "t": 559.0,
+              "text": "A. No, it's in the instructions."
+            },
+            {
+              "t": 563.0,
+              "text": "B. I haven't noticed."
+            },
+            {
+              "t": 566.0,
+              "text": "C. A thicker jacket, maybe."
+            }
+          ],
+          "viText": "The air conditioner is really loud these days, isn't it?\n(A) No, it's in the instructions.\n(B) I haven't noticed.\n(C) A thicker jacket, maybe."
+        },
+        {
+          "n": 21,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "The response in option C answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 574,
+            "end": 594
+          },
+          "spoken": {
+            "question": "Do we need a passcode to access the warehouse?",
+            "choices": {
+              "A": "I brought some extra boxes.",
+              "B": "A change of address form.",
+              "C": "Someone there can let you in."
+            }
+          },
+          "segs": [
+            {
+              "t": 574.0,
+              "text": "Number twenty-one."
+            },
+            {
+              "t": 576.0,
+              "text": "Do we need a passcode to access the warehouse?"
+            },
+            {
+              "t": 579.0,
+              "text": "A. I brought some extra boxes."
+            },
+            {
+              "t": 583.0,
+              "text": "B. A change of address form."
+            },
+            {
+              "t": 586.0,
+              "text": "C. Someone there can let you in."
+            }
+          ],
+          "viText": "Do we need a passcode to access the warehouse?\n(A) I brought some extra boxes.\n(B) A change of address form.\n(C) Someone there can let you in."
+        },
+        {
+          "n": 22,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 594,
+            "end": 613
+          },
+          "spoken": {
+            "question": "Who's going to pick up the clients from the hotel?",
+            "choices": {
+              "A": "Mary booked a taxi for them.",
+              "B": "Room service, please.",
+              "C": "Is that so?"
+            }
+          },
+          "segs": [
+            {
+              "t": 594.0,
+              "text": "Number twenty-two."
+            },
+            {
+              "t": 596.0,
+              "text": "Who's going to pick up the clients from the hotel?"
+            },
+            {
+              "t": 599.0,
+              "text": "A. Mary booked a taxi for them."
+            },
+            {
+              "t": 603.0,
+              "text": "B. Room service, please."
+            },
+            {
+              "t": 606.0,
+              "text": "C. Is that so?"
+            }
+          ],
+          "viText": "Who's going to pick up the clients from the hotel?\n(A) Mary booked a taxi for them.\n(B) Room service, please.\n(C) Is that so?"
+        },
+        {
+          "n": 23,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 613,
+            "end": 633
+          },
+          "spoken": {
+            "question": "We're taking a photo for the website tomorrow, aren't we?",
+            "choices": {
+              "A": "The photographer's phone number.",
+              "B": "Nobody's mentioned it to me.",
+              "C": "A scheduled site inspection."
+            }
+          },
+          "segs": [
+            {
+              "t": 613.0,
+              "text": "Number twenty-three."
+            },
+            {
+              "t": 615.0,
+              "text": "We're taking a photo for the website tomorrow, aren't we?"
+            },
+            {
+              "t": 619.0,
+              "text": "A. The photographer's phone number."
+            },
+            {
+              "t": 622.0,
+              "text": "B. Nobody's mentioned it to me."
+            },
+            {
+              "t": 625.0,
+              "text": "C. A scheduled site inspection."
+            }
+          ],
+          "viText": "We're taking a photo for the website tomorrow, aren't we?\n(A) The photographer's phone number.\n(B) Nobody's mentioned it to me.\n(C) A scheduled site inspection."
+        },
+        {
+          "n": 24,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 633,
+            "end": 653
+          },
+          "spoken": {
+            "question": "What date does the free shoe polishing service end?",
+            "choices": {
+              "A": "I've never heard of that.",
+              "B": "By getting a gift certificate.",
+              "C": "On the way to the shoe store."
+            }
+          },
+          "segs": [
+            {
+              "t": 633.0,
+              "text": "Number twenty-four."
+            },
+            {
+              "t": 635.0,
+              "text": "What date does the free shoe polishing service end?"
+            },
+            {
+              "t": 639.0,
+              "text": "A. I've never heard of that."
+            },
+            {
+              "t": 642.0,
+              "text": "B. By getting a gift certificate."
+            },
+            {
+              "t": 645.0,
+              "text": "C. On the way to the shoe store."
+            }
+          ],
+          "viText": "What date does the free shoe polishing service end?\n(A) I've never heard of that.\n(B) By getting a gift certificate.\n(C) On the way to the shoe store."
+        },
+        {
+          "n": 25,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 653,
+            "end": 675
+          },
+          "spoken": {
+            "question": "How about hiring more temporary workers during the busy season?",
+            "choices": {
+              "A": "I did walk there quite often.",
+              "B": "Why didn't I think of that before?",
+              "C": "They should be hung higher up."
+            }
+          },
+          "segs": [
+            {
+              "t": 653.0,
+              "text": "Number twenty-five."
+            },
+            {
+              "t": 655.0,
+              "text": "How about hiring more temporary workers during the busy season?"
+            },
+            {
+              "t": 660.0,
+              "text": "A. I did walk there quite often."
+            },
+            {
+              "t": 663.0,
+              "text": "B. Why didn't I think of that before?"
+            },
+            {
+              "t": 667.0,
+              "text": "C. There should be hung higher up."
+            }
+          ],
+          "viText": "How about hiring more temporary workers during the busy season?\n(A) I did walk there quite often.\n(B) Why didn't I think of that before?\n(C) They should be hung higher up."
+        },
+        {
+          "n": 26,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "The response in option A answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 675,
+            "end": 696
+          },
+          "spoken": {
+            "question": "What types of insurance are available?",
+            "choices": {
+              "A": "I'll send you the full list later.",
+              "B": "It's going to ensure our success.",
+              "C": "That's not my company's policy."
+            }
+          },
+          "segs": [
+            {
+              "t": 675.0,
+              "text": "Number twenty-six."
+            },
+            {
+              "t": 677.0,
+              "text": "What types of insurance are available?"
+            },
+            {
+              "t": 680.0,
+              "text": "A. I'll send you the full list later."
+            },
+            {
+              "t": 684.0,
+              "text": "B. It's going to ensure our success."
+            },
+            {
+              "t": 688.0,
+              "text": "C. That's not my company's policy."
+            }
+          ],
+          "viText": "What types of insurance are available?\n(A) I'll send you the full list later.\n(B) It's going to ensure our success.\n(C) That's not my company's policy."
+        },
+        {
+          "n": 27,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 696,
+            "end": 716
+          },
+          "spoken": {
+            "question": "Has Jeremy completed the market research?",
+            "choices": {
+              "A": "From Mexican consumers.",
+              "B": "He's been busy with the interns.",
+              "C": "They're respected scientists."
+            }
+          },
+          "segs": [
+            {
+              "t": 696.0,
+              "text": "Number twenty-seven."
+            },
+            {
+              "t": 698.0,
+              "text": "Has Jeremy completed the market research?"
+            },
+            {
+              "t": 701.0,
+              "text": "A. From Mexican consumers."
+            },
+            {
+              "t": 705.0,
+              "text": "B. He's been busy with the interns."
+            },
+            {
+              "t": 708.0,
+              "text": "C. They're respected scientists."
+            }
+          ],
+          "viText": "Has Jeremy completed the market research?\n(A) From Mexican consumers.\n(B) He's been busy with the interns.\n(C) They're respected scientists."
+        },
+        {
+          "n": 28,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "The response in option C answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 716,
+            "end": 734
+          },
+          "spoken": {
+            "question": "How many items are in the shop's inventory?",
+            "choices": {
+              "A": "From tomorrow's stock.",
+              "B": "He didn't invent it.",
+              "C": "Six or so."
+            }
+          },
+          "segs": [
+            {
+              "t": 716.0,
+              "text": "Number twenty-eight."
+            },
+            {
+              "t": 718.0,
+              "text": "How many items are in the shop's inventory?"
+            },
+            {
+              "t": 721.0,
+              "text": "A. From tomorrow's stock."
+            },
+            {
+              "t": 724.0,
+              "text": "B. He didn't invent it."
+            },
+            {
+              "t": 727.0,
+              "text": "C. Six or so."
+            }
+          ],
+          "viText": "How many items are in the shop's inventory?\n(A) From tomorrow's stock.\n(B) He didn't invent it.\n(C) Six or so."
+        },
+        {
+          "n": 29,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "The response in option C answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 734,
+            "end": 757
+          },
+          "spoken": {
+            "question": "This video game has the best graphics I've ever seen.",
+            "choices": {
+              "A": "Seven different characters to choose from.",
+              "B": "I'm done with the first level.",
+              "C": "I guess you haven't played Spray Quest."
+            }
+          },
+          "segs": [
+            {
+              "t": 734.0,
+              "text": "Number twenty-nine."
+            },
+            {
+              "t": 738.0,
+              "text": "This video game has the best graphics I've ever seen."
+            },
+            {
+              "t": 741.0,
+              "text": "A. Seven different characters to choose from."
+            },
+            {
+              "t": 745.0,
+              "text": "B. I'm done with the first level."
+            },
+            {
+              "t": 749.0,
+              "text": "C. I guess you haven't played spray quest."
+            }
+          ],
+          "viText": "This video game has the best graphics I've ever seen.\n(A) Seven different characters to choose from.\n(B) I'm done with the first level.\n(C) I guess you haven't played Spray Quest."
+        },
+        {
+          "n": 30,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "The response in option B answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 757,
+            "end": 777
+          },
+          "spoken": {
+            "question": "Where will the hands-on training sessions be held?",
+            "choices": {
+              "A": "About three or four hours.",
+              "B": "In the large meeting room.",
+              "C": "A group email sent last week."
+            }
+          },
+          "segs": [
+            {
+              "t": 757.0,
+              "text": "Number thirty."
+            },
+            {
+              "t": 759.0,
+              "text": "Where will the hands-on training sessions be held?"
+            },
+            {
+              "t": 763.0,
+              "text": "C. About three or four hours."
+            },
+            {
+              "t": 766.0,
+              "text": "B. In the large meeting room."
+            },
+            {
+              "t": 769.0,
+              "text": "C. A group email sent last week."
+            }
+          ],
+          "viText": "Where will the hands-on training sessions be held?\n(A) About three or four hours.\n(B) In the large meeting room.\n(C) A group email sent last week."
+        },
+        {
+          "n": 31,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "The response in option C answers the prompt naturally.",
+          "uncertain": false,
+          "audio": {
+            "start": 777,
+            "end": 800
+          },
+          "spoken": {
+            "question": "Is the downtown office space as expensive as they say?",
+            "choices": {
+              "A": "I'll let you know where he is.",
+              "B": "They said all office staff are invited.",
+              "C": "It's comparable to nearby properties."
+            }
+          },
+          "segs": [
+            {
+              "t": 777.0,
+              "text": "Number thirty-one."
+            },
+            {
+              "t": 779.0,
+              "text": "Is the downtown office space as expensive as they say?"
+            },
+            {
+              "t": 783.0,
+              "text": "A. I'll let you know where he is."
+            },
+            {
+              "t": 787.0,
+              "text": "B. They're said all office staff are invited."
+            },
+            {
+              "t": 791.0,
+              "text": "C. It's comparable to nearby properties."
+            }
+          ],
+          "viText": "Is the downtown office space as expensive as they say?\n(A) I'll let you know where he is.\n(B) They said all office staff are invited.\n(C) It's comparable to nearby properties."
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "directions": "Nghe hoi thoai va tra loi 3 cau hoi cho moi doan. Cau hoi va dap an nam trong anh de.",
+      "items": [
+        {
+          "questions": [
+            {
+              "n": 32,
+              "question": "Where do the speakers work?",
+              "choices": {
+                "A": "At an event planning agency",
+                "B": "At a marketing firm",
+                "C": "At a magazine publisher",
+                "D": "At a cooking equipment store"
+              },
+              "answer": "D",
+              "explanation": "They describe their company as a retailer of cooking equipment.",
+              "uncertain": false
+            },
+            {
+              "n": 33,
+              "question": "Who most likely is Ms. Yoon?",
+              "choices": {
+                "A": "A potential supplier",
+                "B": "A real estate agent",
+                "C": "A celebrity chef",
+                "D": "A Web site designer"
+              },
+              "answer": "D",
+              "explanation": "She originally designed the site and still works in that field.",
+              "uncertain": false
+            },
+            {
+              "n": 34,
+              "question": "What does the man say he will do in the afternoon?",
+              "choices": {
+                "A": "Edit a digital video",
+                "B": "Assemble a list",
+                "C": "Install a computer",
+                "D": "Lead a facility tour"
+              },
+              "answer": "B",
+              "explanation": "He will list all the brands they sell.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 830,
+            "end": 910
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q32.jpg",
+          "transcript": "Questions thirty-two through thirty-four refer to the following conversation. Maria, can I make a suggestion? I'm looking at our website and to enhance our position as the region's largest retailer of cooking equipment, I think we should add some features to the online product listings. Yes, I agree. The person who originally designed the site for us, Sarah Yoon, still works in that field as a freelancer. I'm sure she could upgrade the site for us. I'll call her today. Excellent. One thing I'd like to include is a product search by brand. So first, this afternoon, I'll put together a list of all the brands we sell. Number thirty-two. Where do the speakers work? Number thirty-three. Who most likely is Miss Yoon? Number thirty-four. What does the man say he will do in the afternoon?",
+          "segs": [
+            {
+              "t": 830.0,
+              "text": "Questions thirty-two through thirty-four refer to the following conversation."
+            },
+            {
+              "t": 835.0,
+              "text": "Maria, can I make a suggestion?"
+            },
+            {
+              "t": 838.0,
+              "text": "I'm looking at our website and to enhance our position as the region's largest retailer of cooking equipment,"
+            },
+            {
+              "t": 846.0,
+              "text": "I think we should add some features to the online product listings."
+            },
+            {
+              "t": 850.0,
+              "text": "Yes, I agree."
+            },
+            {
+              "t": 851.0,
+              "text": "The person who originally designed the site for us, Sarah Yoon, still works in that field as a freelancer."
+            },
+            {
+              "t": 858.0,
+              "text": "I'm sure she could upgrade the site for us. I'll call her today."
+            },
+            {
+              "t": 862.0,
+              "text": "Excellent."
+            },
+            {
+              "t": 863.0,
+              "text": "One thing I'd like to include is a product search by brand."
+            },
+            {
+              "t": 867.0,
+              "text": "So first, this afternoon, I'll put together a list of all the brands we sell."
+            },
+            {
+              "t": 874.0,
+              "text": "Number thirty-two."
+            },
+            {
+              "t": 876.0,
+              "text": "Where do the speakers work?"
+            },
+            {
+              "t": 885.0,
+              "text": "Number thirty-three."
+            },
+            {
+              "t": 887.0,
+              "text": "Who most likely is Miss Yoon?"
+            },
+            {
+              "t": 897.0,
+              "text": "Number thirty-four."
+            },
+            {
+              "t": 899.0,
+              "text": "What does the man say he will do in the afternoon?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 35,
+              "question": "What does the woman hope to do?",
+              "choices": {
+                "A": "Modify an online order",
+                "B": "Return a defective product",
+                "C": "Obtain a store credit card",
+                "D": "Cancel a loyalty club membership"
+              },
+              "answer": "C",
+              "explanation": "She applied for and is trying to receive a store credit card.",
+              "uncertain": false
+            },
+            {
+              "n": 36,
+              "question": "What information does the man ask for?",
+              "choices": {
+                "A": "An address",
+                "B": "An error code",
+                "C": "The spelling of a name",
+                "D": "The date of a transaction"
+              },
+              "answer": "C",
+              "explanation": "He asks her to spell her last name.",
+              "uncertain": false
+            },
+            {
+              "n": 37,
+              "question": "What does the man say the woman must do?",
+              "choices": {
+                "A": "Visit a store branch",
+                "B": "Pack an item for shipping",
+                "C": "Open a Web page",
+                "D": "Keep an invoice"
+              },
+              "answer": "A",
+              "explanation": "Her card was shipped to the Safton Heights branch.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 910,
+            "end": 989
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q35.jpg",
+          "transcript": "Questions thirty-five through thirty-seven refer to the following conversation. Customer service, how may I help you? Hi, my name is Lisa Denby. I applied for a Kohlberg store credit card online last week and was approved, but I haven't yet received my card in the mail. Can you find out what happened to it? Sure, I'd be happy to do that. Could you spell your last name for me? D-E-N-B-Y. Got it. Let's figure out what went wrong here. Ah, it appears that you checked the box marked in-store pickup, so we shipped your card to the Safton Heights branch. You'll have to go there to get it. Number thirty-five. What does the woman hope to do? Number thirty-six. What information does the man ask for? Number thirty-seven. What does the man say the woman must do?",
+          "segs": [
+            {
+              "t": 910.0,
+              "text": "Questions thirty-five through thirty-seven refer to the following conversation."
+            },
+            {
+              "t": 915.0,
+              "text": "Customer service, how may I help you?"
+            },
+            {
+              "t": 917.0,
+              "text": "Hi, my name is Lisa Denby."
+            },
+            {
+              "t": 920.0,
+              "text": "I applied for a Kohlberg store credit card online last week and was approved,"
+            },
+            {
+              "t": 925.0,
+              "text": "but I haven't yet received my card in the mail. Can you find out what happened to it?"
+            },
+            {
+              "t": 930.0,
+              "text": "Sure, I'd be happy to do that. Could you spell your last name for me?"
+            },
+            {
+              "t": 935.0,
+              "text": "D-E-N-B-Y."
+            },
+            {
+              "t": 937.0,
+              "text": "Got it. Let's figure out what went wrong here."
+            },
+            {
+              "t": 941.0,
+              "text": "Ah, it appears that you checked the box marked in-store pickup,"
+            },
+            {
+              "t": 945.0,
+              "text": "so we shipped your card to the Safton Heights branch. You'll have to go there to get it."
+            },
+            {
+              "t": 952.0,
+              "text": "Number thirty-five."
+            },
+            {
+              "t": 954.0,
+              "text": "What does the woman hope to do?"
+            },
+            {
+              "t": 964.0,
+              "text": "Number thirty-six."
+            },
+            {
+              "t": 966.0,
+              "text": "What information does the man ask for?"
+            },
+            {
+              "t": 976.0,
+              "text": "Number thirty-seven."
+            },
+            {
+              "t": 978.0,
+              "text": "What does the man say the woman must do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 38,
+              "question": "Why does the man talk to the woman?",
+              "choices": {
+                "A": "To offer help with a development process",
+                "B": "To inform her of a financial difficulty",
+                "C": "To arrange an educational opportunity",
+                "D": "To remind her about an upcoming merger"
+              },
+              "answer": "C",
+              "explanation": "He wants to bring a class to learn about the work.",
+              "uncertain": false
+            },
+            {
+              "n": 39,
+              "question": "What does the woman recommend doing?",
+              "choices": {
+                "A": "Hiring additional part-time staff",
+                "B": "Raising some quality standards",
+                "C": "Signing up for evening classes",
+                "D": "Showing product-testing methods"
+              },
+              "answer": "D",
+              "explanation": "She suggests the QA team walk students through product testing.",
+              "uncertain": false
+            },
+            {
+              "n": 40,
+              "question": "What does the man ask the woman to do?",
+              "choices": {
+                "A": "Clean a work area",
+                "B": "Speak with a team manager",
+                "C": "Update a software program",
+                "D": "Photocopy a report"
+              },
+              "answer": "B",
+              "explanation": "He asks her to talk to Donny, the QA manager.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 989,
+            "end": 1069
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q38.jpg",
+          "transcript": "Questions thirty-eight through forty refer to the following conversation. Vicki, you've heard how I sometimes teach at the local community college, right? Well, I'd like our product development division to help the students understand the work we do, so I was thinking of bringing the class here next week. Would that be alright with you? Sure. The golf simulator product we're developing is undergoing hands-on testing now, so we can have our quality assurance team walk them through the whole process. That would be great. Could you talk to Donny, the quality assurance manager, and make sure he updates their project's progress report? I'd like to show that to the students, too. Number thirty-eight. Why does the man talk to the woman? Number thirty-nine. What does the woman recommend doing? Number forty. What does the man ask the woman to do?",
+          "segs": [
+            {
+              "t": 989.0,
+              "text": "Questions thirty-eight through forty refer to the following conversation."
+            },
+            {
+              "t": 993.0,
+              "text": "Vicki, you've heard how I sometimes teach at the local community college, right?"
+            },
+            {
+              "t": 998.0,
+              "text": "Well, I'd like our product development division to help the students understand the work we do,"
+            },
+            {
+              "t": 1005.0,
+              "text": "so I was thinking of bringing the class here next week. Would that be alright with you?"
+            },
+            {
+              "t": 1010.0,
+              "text": "Sure. The golf simulator product we're developing is undergoing hands-on testing now,"
+            },
+            {
+              "t": 1016.0,
+              "text": "so we can have our quality assurance team walk them through the whole process."
+            },
+            {
+              "t": 1021.0,
+              "text": "That would be great. Could you talk to Donny, the quality assurance manager,"
+            },
+            {
+              "t": 1025.0,
+              "text": "and make sure he updates their project's progress report?"
+            },
+            {
+              "t": 1029.0,
+              "text": "I'd like to show that to the students, too."
+            },
+            {
+              "t": 1033.0,
+              "text": "Number thirty-eight."
+            },
+            {
+              "t": 1035.0,
+              "text": "Why does the man talk to the woman?"
+            },
+            {
+              "t": 1045.0,
+              "text": "Number thirty-nine."
+            },
+            {
+              "t": 1047.0,
+              "text": "What does the woman recommend doing?"
+            },
+            {
+              "t": 1057.0,
+              "text": "Number forty."
+            },
+            {
+              "t": 1059.0,
+              "text": "What does the man ask the woman to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 41,
+              "question": "What does the man want to have painted?",
+              "choices": {
+                "A": "A delivery vehicle",
+                "B": "Some store windows",
+                "C": "A warehouse floor",
+                "D": "Some furniture"
+              },
+              "answer": "A",
+              "explanation": "He wants a logo and graphics painted on a delivery van.",
+              "uncertain": false
+            },
+            {
+              "n": 42,
+              "question": "What kind of company does the man operate?",
+              "choices": {
+                "A": "A clothing shop",
+                "B": "A catering service",
+                "C": "A laundry-cleaning business",
+                "D": "A plumbing company"
+              },
+              "answer": "C",
+              "explanation": "He runs a laundry cleaning and delivery service.",
+              "uncertain": false
+            },
+            {
+              "n": 43,
+              "question": "What does the woman suggest the man do?",
+              "choices": {
+                "A": "Delay a promotional sale",
+                "B": "View some sample designs",
+                "C": "Load some packages into a van",
+                "D": "Choose a type of paint"
+              },
+              "answer": "B",
+              "explanation": "She tells him to look at sample graphic designs.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1069,
+            "end": 1160
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q41.jpg",
+          "transcript": "Questions forty-one through forty-three refer to the following conversation. Hi. I came to find out about your vehicle painting service. I'm interested in getting my company's logo, plus some graphics, painted onto the side and windows of this delivery van. Sure. Do you have a design idea in mind? Well, I run a garment cleaning service, and I just edit a delivery option. I bring the clean laundry to customers' homes. So, a design that emphasizes speed and convenience? Okay. We have many samples of graphic designs for your type of business here in our database. Take a look at them. I'm sure we have something that'll work for your van. Number forty-one. What does the man want to have painted? Number forty-two. What kind of company does the man operate? Number forty-three. What does the woman suggest the man do? Go on to the next page.",
+          "segs": [
+            {
+              "t": 1069.0,
+              "text": "Questions forty-one through forty-three refer to the following conversation."
+            },
+            {
+              "t": 1074.0,
+              "text": "Hi. I came to find out about your vehicle painting service."
+            },
+            {
+              "t": 1079.0,
+              "text": "I'm interested in getting my company's logo, plus some graphics, painted onto the side and windows of this delivery van."
+            },
+            {
+              "t": 1087.0,
+              "text": "Sure. Do you have a design idea in mind?"
+            },
+            {
+              "t": 1091.0,
+              "text": "Well, I run a garment cleaning service, and I just edit a delivery option."
+            },
+            {
+              "t": 1096.0,
+              "text": "I bring the clean laundry to customers' homes. So, a design that emphasizes speed and convenience?"
+            },
+            {
+              "t": 1104.0,
+              "text": "Okay. We have many samples of graphic designs for your type of business here in our database."
+            },
+            {
+              "t": 1110.0,
+              "text": "Take a look at them. I'm sure we have something that'll work for your van."
+            },
+            {
+              "t": 1116.0,
+              "text": "Number forty-one."
+            },
+            {
+              "t": 1118.0,
+              "text": "What does the man want to have painted?"
+            },
+            {
+              "t": 1127.0,
+              "text": "Number forty-two."
+            },
+            {
+              "t": 1129.0,
+              "text": "What kind of company does the man operate?"
+            },
+            {
+              "t": 1140.0,
+              "text": "Number forty-three."
+            },
+            {
+              "t": 1142.0,
+              "text": "What does the woman suggest the man do?"
+            },
+            {
+              "t": 1152.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 44,
+              "question": "Where does the conversation most likely take place?",
+              "choices": {
+                "A": "At a nature park",
+                "B": "At an art gallery",
+                "C": "At a plant nursery",
+                "D": "At a toy store"
+              },
+              "answer": "C",
+              "explanation": "They discuss flowers, soil, and potted roses.",
+              "uncertain": false
+            },
+            {
+              "n": 45,
+              "question": "What does the man say he will do tomorrow?",
+              "choices": {
+                "A": "Give a gift",
+                "B": "Decorate an office",
+                "C": "Move to a new house",
+                "D": "Go on a picnic"
+              },
+              "answer": "A",
+              "explanation": "He will give the rose bush to a new neighbor.",
+              "uncertain": false
+            },
+            {
+              "n": 46,
+              "question": "According to the man, what is most important about a product?",
+              "choices": {
+                "A": "How beautiful it is",
+                "B": "How inexpensive it is",
+                "C": "How easy it will be to maintain",
+                "D": "How soon it will be available"
+              },
+              "answer": "C",
+              "explanation": "He wants something that does not require much care.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1160,
+            "end": 1253
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q44.jpg",
+          "transcript": "Questions forty-four through forty-six refer to the following conversation with three speakers. Mr. Hilling, so nice to see you again. How are the flowers you bought from us? Do you need some more soil for them? No, they're doing just fine. I'm actually here to buy a potted rose bush. I'm going to give it to a new neighbor tomorrow. Oh, in that case, you should talk to Jodi. She's our expert on roses. Jodi? Mr. Hilling is looking to buy some roses. I'd be happy to help you with that. Since you are an experienced grower, how about this variety? It's very beautiful. Well, it's not for me, so I think I'd better get something that doesn't require too much care. In that case, I recommend these. Number forty-four. Where does the conversation most likely take place? Number forty-five. What does the man say he will do tomorrow? Number forty-six. According to the man, what is most important about a product?",
+          "segs": [
+            {
+              "t": 1160.0,
+              "text": "Questions forty-four through forty-six refer to the following conversation with three speakers."
+            },
+            {
+              "t": 1166.0,
+              "text": "Mr. Hilling, so nice to see you again. How are the flowers you bought from us? Do you need some more soil for them?"
+            },
+            {
+              "t": 1174.0,
+              "text": "No, they're doing just fine. I'm actually here to buy a potted rose bush. I'm going to give it to a new neighbor tomorrow."
+            },
+            {
+              "t": 1182.0,
+              "text": "Oh, in that case, you should talk to Jodi. She's our expert on roses. Jodi? Mr. Hilling is looking to buy some roses."
+            },
+            {
+              "t": 1192.0,
+              "text": "I'd be happy to help you with that. Since you are an experienced grower, how about this variety? It's very beautiful."
+            },
+            {
+              "t": 1202.0,
+              "text": "Well, it's not for me, so I think I'd better get something that doesn't require too much care."
+            },
+            {
+              "t": 1209.0,
+              "text": "In that case, I recommend these."
+            },
+            {
+              "t": 1213.0,
+              "text": "Number forty-four."
+            },
+            {
+              "t": 1215.0,
+              "text": "Where does the conversation most likely take place?"
+            },
+            {
+              "t": 1226.0,
+              "text": "Number forty-five."
+            },
+            {
+              "t": 1228.0,
+              "text": "What does the man say he will do tomorrow?"
+            },
+            {
+              "t": 1239.0,
+              "text": "Number forty-six."
+            },
+            {
+              "t": 1241.0,
+              "text": "According to the man, what is most important about a product?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 47,
+              "question": "What is the purpose of the man's visit?",
+              "choices": {
+                "A": "To meet a client for lunch",
+                "B": "To deliver some documents",
+                "C": "To conduct a site inspection",
+                "D": "To install some equipment"
+              },
+              "answer": "B",
+              "explanation": "He has an envelope with paperwork for Mr. Beckley.",
+              "uncertain": false
+            },
+            {
+              "n": 48,
+              "question": "What does the man express frustration with?",
+              "choices": {
+                "A": "A mobile app",
+                "B": "A carrying case",
+                "C": "A machine part",
+                "D": "A supervisor's instructions"
+              },
+              "answer": "A",
+              "explanation": "The location was not where his mobile app said it would be.",
+              "uncertain": false
+            },
+            {
+              "n": 49,
+              "question": "What does the woman imply when she says, \"it's really noticeable\"?",
+              "choices": {
+                "A": "She is proud of a project's results.",
+                "B": "The man cannot leave an item in the lobby.",
+                "C": "A problem must be addressed quickly.",
+                "D": "A location is not difficult to find."
+              },
+              "answer": "D",
+              "explanation": "She means Yelnick Associates will be easy to spot.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1253,
+            "end": 1337
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q47.jpg",
+          "transcript": "Questions forty-seven through forty-nine refer to the following conversation. Hi, I'm with La Trobe courier service. I have an envelope with paperwork for Mr. Max Beckley. Oh, you can leave it with me here at the reception desk, and I'll make sure he gets it. Thank you. Also, I'm sorry to bother you, but I was looking for another business just now, and it wasn't where my mobile app said it would be. Sometimes this technology is really frustrating. Do you happen to know where Yelnick Associates is located? Sure. Their office is in the alley a little up the street. Once you turn left at the Garden Lights Cafe, it's really noticeable. Ah, okay. Thanks. Number forty-seven. What is the purpose of the man's visit? Number forty-eight. What does the man express frustration with? Number forty-nine. What does the woman imply when she says, \"It's really noticeable\"?",
+          "segs": [
+            {
+              "t": 1253.0,
+              "text": "Questions forty-seven through forty-nine refer to the following conversation."
+            },
+            {
+              "t": 1258.0,
+              "text": "Hi, I'm with La Trobe courier service. I have an envelope with paperwork for Mr. Max Beckley."
+            },
+            {
+              "t": 1265.0,
+              "text": "Oh, you can leave it with me here at the reception desk, and I'll make sure he gets it."
+            },
+            {
+              "t": 1271.0,
+              "text": "Thank you. Also, I'm sorry to bother you, but I was looking for another business just now, and it wasn't where my mobile app said it would be."
+            },
+            {
+              "t": 1280.0,
+              "text": "Sometimes this technology is really frustrating. Do you happen to know where Yelnick Associates is located?"
+            },
+            {
+              "t": 1287.0,
+              "text": "Sure. Their office is in the alley a little up the street. Once you turn left at the Garden Lights Cafe, it's really noticeable."
+            },
+            {
+              "t": 1295.0,
+              "text": "Ah, okay. Thanks."
+            },
+            {
+              "t": 1299.0,
+              "text": "Number forty-seven."
+            },
+            {
+              "t": 1301.0,
+              "text": "What is the purpose of the man's visit?"
+            },
+            {
+              "t": 1311.0,
+              "text": "Number forty-eight."
+            },
+            {
+              "t": 1313.0,
+              "text": "What does the man express frustration with?"
+            },
+            {
+              "t": 1323.0,
+              "text": "Number forty-nine."
+            },
+            {
+              "t": 1325.0,
+              "text": "What does the woman imply when she says, \"It's really noticeable\"?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 50,
+              "question": "What is the conversation mainly about?",
+              "choices": {
+                "A": "Improving laboratory conditions",
+                "B": "Repeating an experiment",
+                "C": "Selecting student interns",
+                "D": "Publishing a scientific paper"
+              },
+              "answer": "B",
+              "explanation": "They discuss running the experiment again.",
+              "uncertain": false
+            },
+            {
+              "n": 51,
+              "question": "What does the woman want to change?",
+              "choices": {
+                "A": "A time frame",
+                "B": "The focus of a text",
+                "C": "A method of analysis",
+                "D": "The size of a budget"
+              },
+              "answer": "A",
+              "explanation": "She says they need to speed up the process.",
+              "uncertain": false
+            },
+            {
+              "n": 52,
+              "question": "What does the man say he will do?",
+              "choices": {
+                "A": "Buy a measuring device",
+                "B": "Register for a conference",
+                "C": "Edit some passages",
+                "D": "Schedule a meeting"
+              },
+              "answer": "D",
+              "explanation": "He will ask the team to gather that afternoon.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1337,
+            "end": 1415
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q50.jpg",
+          "transcript": "Questions fifty through fifty-two refer to the following conversation. I just finished looking over the data from our study on green technology, and the results are very surprising. We should run the experiment again to make sure that they're correct. I agree, but if we're going to present the findings at the Riggins Conference like we had hoped, we'll need to speed up the process. That's the only way we'll be able to complete our analysis in time. That's a good point. I'll ask the team to gather this afternoon to talk over the experiment process. They may have some ideas on how to shorten it without sacrificing accurate results. Number fifty. What is the conversation mainly about? Number fifty-one. What does the woman want to change? Number fifty-two. What does the man say he will do?",
+          "segs": [
+            {
+              "t": 1337.0,
+              "text": "Questions fifty through fifty-two refer to the following conversation."
+            },
+            {
+              "t": 1342.0,
+              "text": "I just finished looking over the data from our study on green technology, and the results are very surprising."
+            },
+            {
+              "t": 1349.0,
+              "text": "We should run the experiment again to make sure that they're correct."
+            },
+            {
+              "t": 1353.0,
+              "text": "I agree, but if we're going to present the findings at the Riggins Conference like we had hoped, we'll need to speed up the process."
+            },
+            {
+              "t": 1362.0,
+              "text": "That's the only way we'll be able to complete our analysis in time."
+            },
+            {
+              "t": 1366.0,
+              "text": "That's a good point. I'll ask the team to gather this afternoon to talk over the experiment process."
+            },
+            {
+              "t": 1372.0,
+              "text": "They may have some ideas on how to shorten it without sacrificing accurate results."
+            },
+            {
+              "t": 1379.0,
+              "text": "Number fifty."
+            },
+            {
+              "t": 1381.0,
+              "text": "What is the conversation mainly about?"
+            },
+            {
+              "t": 1391.0,
+              "text": "Number fifty-one."
+            },
+            {
+              "t": 1393.0,
+              "text": "What does the woman want to change?"
+            },
+            {
+              "t": 1403.0,
+              "text": "Number fifty-two."
+            },
+            {
+              "t": 1405.0,
+              "text": "What does the man say he will do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 53,
+              "question": "What will happen in June?",
+              "choices": {
+                "A": "A recycling program will be introduced.",
+                "B": "A parking area will be upgraded.",
+                "C": "A job recruitment campaign will begin.",
+                "D": "A series of staff workshops will be held."
+              },
+              "answer": "B",
+              "explanation": "The staff parking area will be upgraded.",
+              "uncertain": false
+            },
+            {
+              "n": 54,
+              "question": "What does the woman suggest doing?",
+              "choices": {
+                "A": "Spending more money on office electronics",
+                "B": "Providing staff discounts on goods",
+                "C": "Using a new transportation link",
+                "D": "Allowing staff to work from home."
+              },
+              "answer": "C",
+              "explanation": "She suggests using the new shuttle bus connection.",
+              "uncertain": false
+            },
+            {
+              "n": 55,
+              "question": "Where will the woman share some information with others?",
+              "choices": {
+                "A": "On a bulletin board near a door",
+                "B": "At an all-staff meeting",
+                "C": "In a text message",
+                "D": "On a company Web site"
+              },
+              "answer": "D",
+              "explanation": "She will post details on the staff website.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1415,
+            "end": 1505
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q53.jpg",
+          "transcript": "Questions fifty-three through fifty-five refer to the following conversation with three speakers. Quentin, Serena, I have some news. Starting in early June, our staff parking area will be closed so that crews can upgrade its landscaping and lighting systems. That's a big project. That area might be off limits for weeks. Right. So I was wondering if you two have ideas for easing the burden on staff. Hmm. At the Lake Avenue train station, there's a free shuttle bus connection that stops one block from this office. The service just started up last week. Most employees can access that station so that would work. Sounds good. Serena, could you tell everyone else about the shuttle? Sure. I'll post the details on our staff website now. Number fifty-three. What will happen in June? Number fifty-four. What does the woman suggest doing? Number fifty-five. Where will the woman share some information with others?",
+          "segs": [
+            {
+              "t": 1415.0,
+              "text": "Questions fifty-three through fifty-five refer to the following conversation with three speakers."
+            },
+            {
+              "t": 1421.0,
+              "text": "Quentin, Serena, I have some news."
+            },
+            {
+              "t": 1425.0,
+              "text": "Starting in early June, our staff parking area will be closed so that crews can upgrade its landscaping and lighting systems."
+            },
+            {
+              "t": 1434.0,
+              "text": "That's a big project. That area might be off limits for weeks."
+            },
+            {
+              "t": 1438.0,
+              "text": "Right. So I was wondering if you two have ideas for easing the burden on staff."
+            },
+            {
+              "t": 1444.0,
+              "text": "Hmm. At the Lake Avenue train station, there's a free shuttle bus connection that stops one block from this office."
+            },
+            {
+              "t": 1452.0,
+              "text": "The service just started up last week."
+            },
+            {
+              "t": 1455.0,
+              "text": "Most employees can access that station so that would work."
+            },
+            {
+              "t": 1459.0,
+              "text": "Sounds good. Serena, could you tell everyone else about the shuttle?"
+            },
+            {
+              "t": 1463.0,
+              "text": "Sure. I'll post the details on our staff website now."
+            },
+            {
+              "t": 1468.0,
+              "text": "Number fifty-three."
+            },
+            {
+              "t": 1470.0,
+              "text": "What will happen in June?"
+            },
+            {
+              "t": 1474.0,
+              "text": "Number fifty-four."
+            },
+            {
+              "t": 1482.0,
+              "text": "What does the woman suggest doing?"
+            },
+            {
+              "t": 1491.0,
+              "text": "Number fifty-five."
+            },
+            {
+              "t": 1494.0,
+              "text": "Where will the woman share some information with others?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 56,
+              "question": "Why does the man want to speak to the woman?",
+              "choices": {
+                "A": "To order a refill of a medication",
+                "B": "To reschedule an appointment",
+                "C": "To complain about a treatment",
+                "D": "To find out the results of a test"
+              },
+              "answer": "C",
+              "explanation": "He says the cream is making his symptoms worse.",
+              "uncertain": false
+            },
+            {
+              "n": 57,
+              "question": "What will the man do next week?",
+              "choices": {
+                "A": "Take a vacation",
+                "B": "Appear in a performance",
+                "C": "Increase his insurance coverage",
+                "D": "Undergo a surgical procedure"
+              },
+              "answer": "A",
+              "explanation": "He says he is going to the beach for vacation.",
+              "uncertain": false
+            },
+            {
+              "n": 58,
+              "question": "What does the woman recommend?",
+              "choices": {
+                "A": "Going to sleep earlier",
+                "B": "Avoiding excessive sunlight",
+                "C": "Seeing another doctor",
+                "D": "Reducing the amount of medication used"
+              },
+              "answer": "D",
+              "explanation": "She tells him to apply it once a day before bed.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1505,
+            "end": 1588
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q56.jpg",
+          "transcript": "Questions fifty-six through fifty-eight refer to the following conversation. Mr. York, this is Dr. Lloyd. You called the clinic earlier today? Yes, doctor. I want to talk to you about the cream you prescribed for my skin condition. I'm applying it as directed, but my symptoms are getting worse. Well, I warned you that this medication may do that at first. I know, but it wasn't supposed to last this long. I'm going to the beach for vacation next week, and I'm afraid I'll have to cover up to keep my condition from appearing at any pictures. In that case, you should lower the dosage amount by applying it just once a day before bed. But we should avoid stopping the treatment altogether. Number fifty-six. Why does the man want to speak to the woman? Number fifty-seven. What will the man do next week? Number fifty-eight. What does the woman recommend?",
+          "segs": [
+            {
+              "t": 1505.0,
+              "text": "Questions fifty-six through fifty-eight refer to the following conversation."
+            },
+            {
+              "t": 1510.0,
+              "text": "Mr. York, this is Dr. Lloyd. You called the clinic earlier today?"
+            },
+            {
+              "t": 1515.0,
+              "text": "Yes, doctor. I want to talk to you about the cream you prescribed for my skin condition."
+            },
+            {
+              "t": 1521.0,
+              "text": "I'm applying it as directed, but my symptoms are getting worse."
+            },
+            {
+              "t": 1526.0,
+              "text": "Well, I warned you that this medication may do that at first."
+            },
+            {
+              "t": 1530.0,
+              "text": "I know, but it wasn't supposed to last this long."
+            },
+            {
+              "t": 1534.0,
+              "text": "I'm going to the beach for vacation next week, and I'm afraid I'll have to cover up to keep my condition from appearing at any pictures."
+            },
+            {
+              "t": 1542.0,
+              "text": "In that case, you should lower the dosage amount by applying it just once a day before bed."
+            },
+            {
+              "t": 1548.0,
+              "text": "But we should avoid stopping the treatment altogether."
+            },
+            {
+              "t": 1552.0,
+              "text": "Number fifty-six."
+            },
+            {
+              "t": 1554.0,
+              "text": "Why does the man want to speak to the woman?"
+            },
+            {
+              "t": 1560.0,
+              "text": "Number fifty-seven."
+            },
+            {
+              "t": 1566.0,
+              "text": "What will the man do next week?"
+            },
+            {
+              "t": 1576.0,
+              "text": "Number fifty-eight."
+            },
+            {
+              "t": 1578.0,
+              "text": "What does the woman recommend?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 59,
+              "question": "What possibility is being discussed?",
+              "choices": {
+                "A": "The expansion of a company",
+                "B": "The renovation of a store",
+                "C": "The creation of an association",
+                "D": "The purchase of an appliance"
+              },
+              "answer": "A",
+              "explanation": "They discuss opening a second branch.",
+              "uncertain": false
+            },
+            {
+              "n": 60,
+              "question": "What does the woman imply when she says, \"It's just that business has been really good recently\"?",
+              "choices": {
+                "A": "She needs help with some work.",
+                "B": "She is surprised by a criticism.",
+                "C": "She is dissatisfied with a decision.",
+                "D": "She thinks a change is unnecessary."
+              },
+              "answer": "A",
+              "explanation": "Strong recent business suggests more capacity or help may be needed.",
+              "uncertain": false
+            },
+            {
+              "n": 61,
+              "question": "Why will the woman go to Wristville?",
+              "choices": {
+                "A": "To conduct market research",
+                "B": "To look into an application process",
+                "C": "To talk to a construction contractor",
+                "D": "To hand out promotional flyers"
+              },
+              "answer": "A",
+              "explanation": "She will look into current market conditions there.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1588,
+            "end": 1673
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q59.jpg",
+          "transcript": "Questions fifty-nine through sixty-one refer to the following conversation. Mr. Norris, did you know there's an empty storefront in downtown Wristville? How about buying it and opening a second branch of Norris Stationery? I don't think so. I've heard from other small business owners that that kind of thing is always more difficult than it seems. You may be right. It's just that business has been really good recently. I suppose. Why don't I put together a formal proposal for you? I'll spend some time in Wristville looking into its current market conditions. All right. But make sure you also think about how a location there might affect this branch. Number fifty-nine. What possibility is being discussed? Number sixty. What does the woman imply when she says? It's just that business has been really good recently. Number sixty-one. Why will the woman go to Wristville?",
+          "segs": [
+            {
+              "t": 1588.0,
+              "text": "Questions fifty-nine through sixty-one refer to the following conversation."
+            },
+            {
+              "t": 1594.0,
+              "text": "Mr. Norris, did you know there's an empty storefront in downtown Wristville?"
+            },
+            {
+              "t": 1599.0,
+              "text": "How about buying it and opening a second branch of Norris Stationery?"
+            },
+            {
+              "t": 1604.0,
+              "text": "I don't think so. I've heard from other small business owners that that kind of thing is always more difficult than it seems."
+            },
+            {
+              "t": 1613.0,
+              "text": "You may be right. It's just that business has been really good recently."
+            },
+            {
+              "t": 1618.0,
+              "text": "I suppose."
+            },
+            {
+              "t": 1620.0,
+              "text": "Why don't I put together a formal proposal for you? I'll spend some time in Wristville looking into its current market conditions."
+            },
+            {
+              "t": 1629.0,
+              "text": "All right. But make sure you also think about how a location there might affect this branch."
+            },
+            {
+              "t": 1636.0,
+              "text": "Number fifty-nine."
+            },
+            {
+              "t": 1638.0,
+              "text": "What possibility is being discussed?"
+            },
+            {
+              "t": 1643.0,
+              "text": "Number sixty."
+            },
+            {
+              "t": 1650.0,
+              "text": "What does the woman imply when she says?"
+            },
+            {
+              "t": 1653.0,
+              "text": "It's just that business has been really good recently."
+            },
+            {
+              "t": 1664.0,
+              "text": "Number sixty-one."
+            },
+            {
+              "t": 1666.0,
+              "text": "Why will the woman go to Wristville?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 62,
+              "question": "What does the woman say about Reilly beads?",
+              "choices": {
+                "A": "They are durable.",
+                "B": "They are attractive.",
+                "C": "They are cheap.",
+                "D": "They are small."
+              },
+              "answer": "B",
+              "explanation": "She says they are very pretty.",
+              "uncertain": false
+            },
+            {
+              "n": 63,
+              "question": "Look at the graphic. Which discount does the woman qualify for?",
+              "choices": {
+                "A": "5%",
+                "B": "10%",
+                "C": "15%",
+                "D": "20%"
+              },
+              "answer": "A",
+              "explanation": "She buys one assorted box, which gives 5% off.",
+              "uncertain": false
+            },
+            {
+              "n": 64,
+              "question": "What does the woman plan to do?",
+              "choices": {
+                "A": "Take a crafting class",
+                "B": "Make a birthday present",
+                "C": "Compete in a costume contest",
+                "D": "Sell handmade jewelry"
+              },
+              "answer": "B",
+              "explanation": "She will make a bracelet for a friend's birthday.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1673,
+            "end": 1777
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q62.jpg",
+          "transcript": "Questions sixty-two through sixty-four refer to the following conversation and coupon. Excuse me. Do you sell glass beads? Yes, they're over here. We're actually having a sale on Reilly beads right now, so I recommend those. Hmm. They are very pretty. Do the discounts apply to all the different sizes of beads available? Yes, they do. Here's a coupon. But if you're looking for variety, these boxes of assorted beads are a good choice. Oh, I see. Yes, I think just one assorted box would do. Sure. The counter is this way. So, you make jewelry? Well, not usually, but I'm going to make a bracelet to give my friend for her birthday this year. Oh, that's nice. Number sixty-two. What does the woman say about Reilly beads? Number sixty-three. Look at the graphic. Which discount does the woman qualify for? Number sixty-four. What does the woman plan to do? Go on to the next page.",
+          "segs": [
+            {
+              "t": 1673.0,
+              "text": "Questions sixty-two through sixty-four refer to the following conversation and coupon."
+            },
+            {
+              "t": 1682.0,
+              "text": "Excuse me. Do you sell glass beads?"
+            },
+            {
+              "t": 1686.0,
+              "text": "Yes, they're over here. We're actually having a sale on Reilly beads right now, so I recommend those."
+            },
+            {
+              "t": 1693.0,
+              "text": "Hmm. They are very pretty. Do the discounts apply to all the different sizes of beads available?"
+            },
+            {
+              "t": 1700.0,
+              "text": "Yes, they do. Here's a coupon. But if you're looking for variety, these boxes of assorted beads are a good choice."
+            },
+            {
+              "t": 1708.0,
+              "text": "Oh, I see. Yes, I think just one assorted box would do."
+            },
+            {
+              "t": 1713.0,
+              "text": "Sure. The counter is this way. So, you make jewelry?"
+            },
+            {
+              "t": 1718.0,
+              "text": "Well, not usually, but I'm going to make a bracelet to give my friend for her birthday this year."
+            },
+            {
+              "t": 1724.0,
+              "text": "Oh, that's nice."
+            },
+            {
+              "t": 1727.0,
+              "text": "Number sixty-two."
+            },
+            {
+              "t": 1730.0,
+              "text": "What does the woman say about Reilly beads?"
+            },
+            {
+              "t": 1740.0,
+              "text": "Number sixty-three."
+            },
+            {
+              "t": 1742.0,
+              "text": "Look at the graphic. Which discount does the woman qualify for?"
+            },
+            {
+              "t": 1758.0,
+              "text": "Number sixty-four."
+            },
+            {
+              "t": 1760.0,
+              "text": "What does the woman plan to do?"
+            },
+            {
+              "t": 1770.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 65,
+              "question": "Who most likely is the man?",
+              "choices": {
+                "A": "A government researcher",
+                "B": "A science professor",
+                "C": "An educational administrator",
+                "D": "A university student"
+              },
+              "answer": "D",
+              "explanation": "He says he is an undergraduate majoring in chemistry.",
+              "uncertain": false
+            },
+            {
+              "n": 66,
+              "question": "Look at the graphic. Which number will the woman dial?",
+              "choices": {
+                "A": "101",
+                "B": "102",
+                "C": "103",
+                "D": "104"
+              },
+              "answer": "B",
+              "explanation": "Housing is extension 102.",
+              "uncertain": false
+            },
+            {
+              "n": 67,
+              "question": "According to the woman, what makes some staff able to help?",
+              "choices": {
+                "A": "Their artistic skills",
+                "B": "Their convenient schedule",
+                "C": "Their relevant training",
+                "D": "Their access to an online database"
+              },
+              "answer": "C",
+              "explanation": "The housing staff have been specially trained.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1777,
+            "end": 1865
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q65.jpg",
+          "transcript": "Questions sixty-five through sixty-seven refer to the following conversation and directory. Hi, my name is Neil Powell, and I'm an undergraduate majoring in chemistry here. Hello, Neil. What can I do for you today? Well, my parents are coming to visit me this semester, and they need a place to stay. I live on campus, so I don't know the city very well. I was hoping you could recommend some inexpensive hotels. Hmm. You should talk to the housing department. I'll transfer you. The staff there has been specially trained to handle these sorts of inquiries, so they can offer you some good ideas. Please stay on the line while I look up the number. Number sixty-five. Who most likely is the man? Number sixty-six. Look at the graphic. Which number will the woman dial? Number sixty-seven. According to the woman, what makes some staff able to help?",
+          "segs": [
+            {
+              "t": 1777.0,
+              "text": "Questions sixty-five through sixty-seven refer to the following conversation and directory."
+            },
+            {
+              "t": 1786.0,
+              "text": "Hi, my name is Neil Powell, and I'm an undergraduate majoring in chemistry here."
+            },
+            {
+              "t": 1791.0,
+              "text": "Hello, Neil. What can I do for you today?"
+            },
+            {
+              "t": 1794.0,
+              "text": "Well, my parents are coming to visit me this semester, and they need a place to stay."
+            },
+            {
+              "t": 1799.0,
+              "text": "I live on campus, so I don't know the city very well. I was hoping you could recommend some inexpensive hotels."
+            },
+            {
+              "t": 1806.0,
+              "text": "Hmm. You should talk to the housing department. I'll transfer you."
+            },
+            {
+              "t": 1811.0,
+              "text": "The staff there has been specially trained to handle these sorts of inquiries, so they can offer you some good ideas."
+            },
+            {
+              "t": 1818.0,
+              "text": "Please stay on the line while I look up the number."
+            },
+            {
+              "t": 1822.0,
+              "text": "Number sixty-five."
+            },
+            {
+              "t": 1824.0,
+              "text": "Who most likely is the man?"
+            },
+            {
+              "t": 1834.0,
+              "text": "Number sixty-six."
+            },
+            {
+              "t": 1836.0,
+              "text": "Look at the graphic. Which number will the woman dial?"
+            },
+            {
+              "t": 1851.0,
+              "text": "Number sixty-seven."
+            },
+            {
+              "t": 1853.0,
+              "text": "According to the woman, what makes some staff able to help?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 68,
+              "question": "What most likely does the man like to watch?",
+              "choices": {
+                "A": "Music programs",
+                "B": "Travel documentaries",
+                "C": "Sports games",
+                "D": "Classic films"
+              },
+              "answer": "C",
+              "explanation": "He especially likes classic football matches.",
+              "uncertain": false
+            },
+            {
+              "n": 69,
+              "question": "Look at the graphic. How much will the man most likely pay per month?",
+              "choices": {
+                "A": "$60",
+                "B": "$45",
+                "C": "$40",
+                "D": "$35"
+              },
+              "answer": "D",
+              "explanation": "He chooses a two-year contract, which is $35 per month.",
+              "uncertain": false
+            },
+            {
+              "n": 70,
+              "question": "What will the woman do next?",
+              "choices": {
+                "A": "Look at a calendar",
+                "B": "Call a technician",
+                "C": "Provide a paper contract",
+                "D": "Turn on a model television"
+              },
+              "answer": "A",
+              "explanation": "She will check the calendar for technician availability.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1865,
+            "end": 1953
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q68.jpg",
+          "transcript": "Questions sixty-eight through seventy refer to the following conversation and chart. Hi, I'm interested in getting satellite television service for my home, and heard your company has packages with lots of sports channels. I especially like classic football matches. Yes, our standard package has more than twenty sports channels, and some of them show that kind of content. This brochure has the current list. Wow, these channels are awesome. How much does this package cost? It varies by the length of your contract. Here's the price chart. Hmm. I guess I'd better go with a two-year contract. Great choice. Just a second. I'll check our calendar to see when we could send a technician out to your home. Number sixty-eight. What most likely does the man like to watch? Number sixty-nine. Look at the graphic. How much will the man most likely pay per month? Number seventy. What will the woman do next?",
+          "segs": [
+            {
+              "t": 1865.0,
+              "text": "Questions sixty-eight through seventy refer to the following conversation and chart."
+            },
+            {
+              "t": 1871.0,
+              "text": "Hi, I'm interested in getting satellite television service for my home, and heard your company has packages with lots of sports channels."
+            },
+            {
+              "t": 1880.0,
+              "text": "I especially like classic football matches."
+            },
+            {
+              "t": 1883.0,
+              "text": "Yes, our standard package has more than twenty sports channels, and some of them show that kind of content."
+            },
+            {
+              "t": 1890.0,
+              "text": "This brochure has the current list."
+            },
+            {
+              "t": 1893.0,
+              "text": "Wow, these channels are awesome. How much does this package cost?"
+            },
+            {
+              "t": 1897.0,
+              "text": "It varies by the length of your contract. Here's the price chart."
+            },
+            {
+              "t": 1901.0,
+              "text": "Hmm. I guess I'd better go with a two-year contract."
+            },
+            {
+              "t": 1905.0,
+              "text": "Great choice. Just a second. I'll check our calendar to see when we could send a technician out to your home."
+            },
+            {
+              "t": 1914.0,
+              "text": "Number sixty-eight."
+            },
+            {
+              "t": 1916.0,
+              "text": "What most likely does the man like to watch?"
+            },
+            {
+              "t": 1923.0,
+              "text": "Number sixty-nine."
+            },
+            {
+              "t": 1928.0,
+              "text": "Look at the graphic. How much will the man most likely pay per month?"
+            },
+            {
+              "t": 1944.0,
+              "text": "Number seventy."
+            },
+            {
+              "t": 1946.0,
+              "text": "What will the woman do next?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "directions": "Nghe bai noi ngan va tra loi 3 cau hoi cho moi doan. Cau hoi va dap an nam trong anh de.",
+      "items": [
+        {
+          "questions": [
+            {
+              "n": 71,
+              "question": "Where does the speaker work?",
+              "choices": {
+                "A": "At a manufacturing plant",
+                "B": "At an appliance store",
+                "C": "At a shipping center",
+                "D": "At an industry association"
+              },
+              "answer": "A",
+              "explanation": "The film crew will visit the factory to film washing machines being made.",
+              "uncertain": false
+            },
+            {
+              "n": 72,
+              "question": "What does the company plan to use the video for?",
+              "choices": {
+                "A": "Organizing a celebration",
+                "B": "Publicizing its strengths",
+                "C": "Educating its employees",
+                "D": "Discovering potential problems"
+              },
+              "answer": "B",
+              "explanation": "The video will impress distributors and consumers.",
+              "uncertain": false
+            },
+            {
+              "n": 73,
+              "question": "What does the speaker instruct listeners to do?",
+              "choices": {
+                "A": "Write down any questions",
+                "B": "Leave at a certain time",
+                "C": "Read a notice",
+                "D": "Tidy up a space"
+              },
+              "answer": "C",
+              "explanation": "He asks them to read the memo on the break room board.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1953,
+            "end": 2070
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q71.jpg",
+          "transcript": "Part four. Directions. You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question, and mark the letter A, B, C, or D on your answer sheet. The talks will not be printed in your test book and will be spoken only one time. I gathered you all here today to announce that a film crew will be visiting us here at the factory over the next few days. They're going to film some of you at work in order to create a video about how washing machines are made, from raw materials to shipping preparation. It's going to be posted on the website for the organization of appliance manufacturers. This is a chance to impress distributors and consumers with our skill and high standards. I've posted a memo with more information on the break room board, and I need everyone to look it over before leaving today. If you have any questions, you can ask your managers. Thank you. Number seventy-one. Where does the speaker work? Number seventy-two. What does the company plan to use the video for? Number seventy-three. What does the speaker instruct listeners to do? Number seventy-two.",
+          "segs": [
+            {
+              "t": 1953.0,
+              "text": "Part four."
+            },
+            {
+              "t": 1958.0,
+              "text": "Directions."
+            },
+            {
+              "t": 1960.0,
+              "text": "You will hear some talks given by a single speaker."
+            },
+            {
+              "t": 1964.0,
+              "text": "You will be asked to answer three questions about what the speaker says in each talk."
+            },
+            {
+              "t": 1970.0,
+              "text": "Select the best response to each question, and mark the letter A, B, C, or D on your answer sheet."
+            },
+            {
+              "t": 1979.0,
+              "text": "The talks will not be printed in your test book and will be spoken only one time."
+            },
+            {
+              "t": 1991.0,
+              "text": "I gathered you all here today to announce that a film crew will be visiting us here at the factory over the next few days."
+            },
+            {
+              "t": 1998.0,
+              "text": "They're going to film some of you at work in order to create a video about how washing machines are made, from raw materials to shipping preparation."
+            },
+            {
+              "t": 2008.0,
+              "text": "It's going to be posted on the website for the organization of appliance manufacturers."
+            },
+            {
+              "t": 2013.0,
+              "text": "This is a chance to impress distributors and consumers with our skill and high standards."
+            },
+            {
+              "t": 2020.0,
+              "text": "I've posted a memo with more information on the break room board, and I need everyone to look it over before leaving today."
+            },
+            {
+              "t": 2027.0,
+              "text": "If you have any questions, you can ask your managers. Thank you."
+            },
+            {
+              "t": 2033.0,
+              "text": "Number seventy-one."
+            },
+            {
+              "t": 2035.0,
+              "text": "Where does the speaker work?"
+            },
+            {
+              "t": 2044.0,
+              "text": "Number seventy-two."
+            },
+            {
+              "t": 2046.0,
+              "text": "What does the company plan to use the video for?"
+            },
+            {
+              "t": 2057.0,
+              "text": "Number seventy-three."
+            },
+            {
+              "t": 2059.0,
+              "text": "What does the speaker instruct listeners to do?"
+            },
+            {
+              "t": 2065.0,
+              "text": "Number seventy-two."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 74,
+              "question": "Who most likely are the listeners?",
+              "choices": {
+                "A": "Dental clinic workers",
+                "B": "Tax accountants",
+                "C": "Hair salon staff",
+                "D": "Travel agents"
+              },
+              "answer": "A",
+              "explanation": "The meeting is about cosmetic dentistry advertisements and patients.",
+              "uncertain": false
+            },
+            {
+              "n": 75,
+              "question": "What problem is the speaker discussing?",
+              "choices": {
+                "A": "Mislabeled computer files",
+                "B": "Undersized equipment",
+                "C": "Unsatisfactory customer service",
+                "D": "Misleading advertisements"
+              },
+              "answer": "D",
+              "explanation": "Small print in ads created misunderstandings.",
+              "uncertain": false
+            },
+            {
+              "n": 76,
+              "question": "What will happen by the end of the day?",
+              "choices": {
+                "A": "A workshop will be announced.",
+                "B": "A form of compensation will be determined.",
+                "C": "Part of the workplace will be cleared out.",
+                "D": "Some coupons will be distributed."
+              },
+              "answer": "B",
+              "explanation": "They will decide how to make it up to customers.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2070,
+            "end": 2150
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q74.jpg",
+          "transcript": "Questions seventy-four through seventy-six refer to the following excerpt from a meeting. Let's get started. I called today's staff meeting to discuss some complaints we've received from our patients. The negative feedback has all been related to the advertisements promoting our cosmetic dentistry services. It seems the problem is with the design. Patients say the print explaining the restrictions on the promotion is too small. So, there are misunderstandings about the costs of the services and what's included. We've canceled these ads, but I'm worried about the people affected already. We're going to decide on a way to make it up to these customers by the end of the day. If you have any ideas, please let me know. Number seventy-four. Who most likely are the listeners? Number seventy-five. What problem is the speaker discussing? Number seventy-six. What will happen by the end of the day?",
+          "segs": [
+            {
+              "t": 2070.0,
+              "text": "Questions seventy-four through seventy-six refer to the following excerpt from a meeting."
+            },
+            {
+              "t": 2076.0,
+              "text": "Let's get started."
+            },
+            {
+              "t": 2078.0,
+              "text": "I called today's staff meeting to discuss some complaints we've received from our patients."
+            },
+            {
+              "t": 2083.0,
+              "text": "The negative feedback has all been related to the advertisements promoting our cosmetic dentistry services."
+            },
+            {
+              "t": 2089.0,
+              "text": "It seems the problem is with the design."
+            },
+            {
+              "t": 2092.0,
+              "text": "Patients say the print explaining the restrictions on the promotion is too small."
+            },
+            {
+              "t": 2097.0,
+              "text": "So, there are misunderstandings about the costs of the services and what's included."
+            },
+            {
+              "t": 2102.0,
+              "text": "We've canceled these ads, but I'm worried about the people affected already."
+            },
+            {
+              "t": 2106.0,
+              "text": "We're going to decide on a way to make it up to these customers by the end of the day."
+            },
+            {
+              "t": 2111.0,
+              "text": "If you have any ideas, please let me know."
+            },
+            {
+              "t": 2115.0,
+              "text": "Number seventy-four."
+            },
+            {
+              "t": 2117.0,
+              "text": "Who most likely are the listeners?"
+            },
+            {
+              "t": 2122.0,
+              "text": "Number seventy-five."
+            },
+            {
+              "t": 2127.0,
+              "text": "What problem is the speaker discussing?"
+            },
+            {
+              "t": 2138.0,
+              "text": "Number seventy-six."
+            },
+            {
+              "t": 2140.0,
+              "text": "What will happen by the end of the day?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 77,
+              "question": "What most likely did the speaker do last Thursday?",
+              "choices": {
+                "A": "He attended a seminar.",
+                "B": "He trained a sales associate.",
+                "C": "He gave a building tour.",
+                "D": "He helped renovate an office."
+              },
+              "answer": "C",
+              "explanation": "He showed the listener around the apartment building.",
+              "uncertain": false
+            },
+            {
+              "n": 78,
+              "question": "Why does the speaker say, \"you'd be among the first residents to move in\"?",
+              "choices": {
+                "A": "To highlight possible inconveniences",
+                "B": "To express frustration with a timeline",
+                "C": "To emphasize that an area is quiet",
+                "D": "To recommend seizing an opportunity"
+              },
+              "answer": "A",
+              "explanation": "Crews are still finishing painting and electrical work.",
+              "uncertain": false
+            },
+            {
+              "n": 79,
+              "question": "What is the listener asked to do?",
+              "choices": {
+                "A": "Fill out a form",
+                "B": "Return a phone call",
+                "C": "Look for a contact list",
+                "D": "Check an e-mail"
+              },
+              "answer": "D",
+              "explanation": "The rental contract will be sent by email.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2150,
+            "end": 2233
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q77.jpg",
+          "transcript": "Questions seventy-seven through seventy-nine refer to the following telephone message. Hi, this is Bill Johnson with Standeck Real Estate. I'm glad I could show you around the new Courtway apartment building last Thursday. I just want to confirm that you're still interested in renting the one-bedroom unit. Its rental price is, of course, quite affordable. Now, you'd be among the first residents to move in. You may need a little patience as crews finish up painting and electrical work. Still, I think it's a great option for you. I'm going to email you the rental contract right now, so take a look at it when you get a chance. Then I'll call you later this week to discuss it. Number seventy-seven. What most likely did the speaker do last Thursday? Number seventy-eight. Why does the speaker say, \"You'd be among the first residents to move in\"? Number seventy-nine. What is the listener asked to do?",
+          "segs": [
+            {
+              "t": 2150.0,
+              "text": "Questions seventy-seven through seventy-nine refer to the following telephone message."
+            },
+            {
+              "t": 2156.0,
+              "text": "Hi, this is Bill Johnson with Standeck Real Estate."
+            },
+            {
+              "t": 2159.0,
+              "text": "I'm glad I could show you around the new Courtway apartment building last Thursday."
+            },
+            {
+              "t": 2164.0,
+              "text": "I just want to confirm that you're still interested in renting the one-bedroom unit."
+            },
+            {
+              "t": 2169.0,
+              "text": "Its rental price is, of course, quite affordable."
+            },
+            {
+              "t": 2172.0,
+              "text": "Now, you'd be among the first residents to move in."
+            },
+            {
+              "t": 2176.0,
+              "text": "You may need a little patience as crews finish up painting and electrical work."
+            },
+            {
+              "t": 2181.0,
+              "text": "Still, I think it's a great option for you."
+            },
+            {
+              "t": 2184.0,
+              "text": "I'm going to email you the rental contract right now, so take a look at it when you get a chance."
+            },
+            {
+              "t": 2189.0,
+              "text": "Then I'll call you later this week to discuss it."
+            },
+            {
+              "t": 2193.0,
+              "text": "Number seventy-seven."
+            },
+            {
+              "t": 2195.0,
+              "text": "What most likely did the speaker do last Thursday?"
+            },
+            {
+              "t": 2207.0,
+              "text": "Number seventy-eight."
+            },
+            {
+              "t": 2209.0,
+              "text": "Why does the speaker say, \"You'd be among the first residents to move in\"?"
+            },
+            {
+              "t": 2221.0,
+              "text": "Number seventy-nine."
+            },
+            {
+              "t": 2223.0,
+              "text": "What is the listener asked to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 80,
+              "question": "What is the speaker preparing to do?",
+              "choices": {
+                "A": "Rehearse a performance",
+                "B": "Photograph a concert hall",
+                "C": "Hold auditions for a position",
+                "D": "Make supplies for a play"
+              },
+              "answer": "C",
+              "explanation": "The speaker is beginning orchestra auditions for a new violinist.",
+              "uncertain": false
+            },
+            {
+              "n": 81,
+              "question": "What are the listeners asked to take from a box?",
+              "choices": {
+                "A": "A piece of sheet music",
+                "B": "A numbered ticket",
+                "C": "A cleaning tool",
+                "D": "A pencil sketch"
+              },
+              "answer": "B",
+              "explanation": "They take numbered tickets to set the order.",
+              "uncertain": false
+            },
+            {
+              "n": 82,
+              "question": "What will happen after the session?",
+              "choices": {
+                "A": "Finalists will be chosen.",
+                "B": "Permits will be issued.",
+                "C": "A song will be recorded",
+                "D": "A stage will be redecorated"
+              },
+              "answer": "A",
+              "explanation": "Judges will choose three candidates for the final stage.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2233,
+            "end": 2318
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q80.jpg",
+          "transcript": "Questions eighty through eighty-two refer to the following talk. Alright, it's almost time to begin auditions for the Kent City Orchestra's new violinist. So, let me explain our process to you. Each of you will be asked to take the stage individually and play the musical pieces that were listed in the online job posting. To determine the order, please take a ticket from the box on this table. The person who draws the ticket numbered one will go first, two will go second and so on. Shortly after you've all finished, our judges will choose three candidates to move on to the second and final stage, which will take place later this week. Good luck, everyone. Number eighty. What is the speaker preparing to do? Number eighty-one. What are the listeners asked to take from a box? Number eighty-two. What will happen after the session? Go on to the next page.",
+          "segs": [
+            {
+              "t": 2233.0,
+              "text": "Questions eighty through eighty-two refer to the following talk."
+            },
+            {
+              "t": 2237.0,
+              "text": "Alright, it's almost time to begin auditions for the Kent City Orchestra's new violinist."
+            },
+            {
+              "t": 2243.0,
+              "text": "So, let me explain our process to you."
+            },
+            {
+              "t": 2246.0,
+              "text": "Each of you will be asked to take the stage individually"
+            },
+            {
+              "t": 2249.0,
+              "text": "and play the musical pieces that were listed in the online job posting."
+            },
+            {
+              "t": 2253.0,
+              "text": "To determine the order, please take a ticket from the box on this table."
+            },
+            {
+              "t": 2257.0,
+              "text": "The person who draws the ticket numbered one will go first, two will go second and so on."
+            },
+            {
+              "t": 2263.0,
+              "text": "Shortly after you've all finished, our judges will choose three candidates"
+            },
+            {
+              "t": 2267.0,
+              "text": "to move on to the second and final stage, which will take place later this week."
+            },
+            {
+              "t": 2272.0,
+              "text": "Good luck, everyone."
+            },
+            {
+              "t": 2275.0,
+              "text": "Number eighty."
+            },
+            {
+              "t": 2277.0,
+              "text": "What is the speaker preparing to do?"
+            },
+            {
+              "t": 2287.0,
+              "text": "Number eighty-one."
+            },
+            {
+              "t": 2289.0,
+              "text": "What are the listeners asked to take from a box?"
+            },
+            {
+              "t": 2299.0,
+              "text": "Number eighty-two."
+            },
+            {
+              "t": 2301.0,
+              "text": "What will happen after the session?"
+            },
+            {
+              "t": 2311.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 83,
+              "question": "What does the speaker say is opening this week?",
+              "choices": {
+                "A": "A bicycle trail",
+                "B": "A concert venue",
+                "C": "A roller coaster",
+                "D": "A water fountain"
+              },
+              "answer": "A",
+              "explanation": "A new cycling trail opens this Friday.",
+              "uncertain": false
+            },
+            {
+              "n": 84,
+              "question": "What did a citizens group do to support the project?",
+              "choices": {
+                "A": "Removed trash from the park",
+                "B": "Spoke to government officials",
+                "C": "Donated necessary funds",
+                "D": "Assisted with construction"
+              },
+              "answer": "B",
+              "explanation": "The group asked the City Council to fund the trail.",
+              "uncertain": false
+            },
+            {
+              "n": 85,
+              "question": "What will park visitors get for free on Friday?",
+              "choices": {
+                "A": "Parking",
+                "B": "Fitness instruction",
+                "C": "Beverages",
+                "D": "T-shirts"
+              },
+              "answer": "C",
+              "explanation": "Visitors will get free lemonade and juice drinks.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2318,
+            "end": 2406
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q83.jpg",
+          "transcript": "Questions 83 through 85 refer to the following broadcast. This is Terry Ruiz with a local news update. The City of Lamott has announced that the new cycling trail at Lamott City Park will open this Friday. The trail development project began a year ago thanks to the persistence of the Lamott Association, a citizens group. Its members repeatedly asked the City Council to set aside government funds for a new trail. Once the Council finally approved the idea in March, construction proceeded quickly. Everyone in the community is encouraged to come out and ride the trail on opening day, and the Park district will provide visitors with free lemonade and juice drinks all day long.",
+          "segs": [
+            {
+              "t": 2318.0,
+              "text": "Questions eighty-three through eighty-five refer to the following broadcast."
+            },
+            {
+              "t": 2347.0,
+              "text": "Number eighty-three."
+            },
+            {
+              "t": 2370.0,
+              "text": "What does the speaker say is opening this week?"
+            },
+            {
+              "t": 2377.0,
+              "text": "Number eighty-four."
+            },
+            {
+              "t": 2382.0,
+              "text": "What did a citizens group do to support the project?"
+            },
+            {
+              "t": 2393.0,
+              "text": "Number eighty-five."
+            },
+            {
+              "t": 2395.0,
+              "text": "What will park visitors get for free on Friday?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 86,
+              "question": "What is the telephone message mainly about?",
+              "choices": {
+                "A": "A written proposal",
+                "B": "A team's decision",
+                "C": "A colleague's retirement",
+                "D": "A malfunctioning machine"
+              },
+              "answer": "A",
+              "explanation": "The speaker comments on Griffin's paper/proposal.",
+              "uncertain": false
+            },
+            {
+              "n": 87,
+              "question": "What does the speaker offer to do?",
+              "choices": {
+                "A": "Circulate a technical memo",
+                "B": "Revise a detail of a financial plan",
+                "C": "Assign a certain type of task to the listener",
+                "D": "Obtain an outside specialist's input on an idea"
+              },
+              "answer": "C",
+              "explanation": "He offers to assign Griffin more writing work.",
+              "uncertain": false
+            },
+            {
+              "n": 88,
+              "question": "Why does the speaker say, \"Not everyone can do that\"?",
+              "choices": {
+                "A": "To give a compliment",
+                "B": "To oppose a recommendation",
+                "C": "To clarify his job duties",
+                "D": "To offer an apology"
+              },
+              "answer": "A",
+              "explanation": "He is praising Griffin's clear, persuasive writing.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2406,
+            "end": 2487
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q86.jpg",
+          "transcript": "Questions 86 through 88 refer to the following telephone message. Hi Griffin, it's Yasser from work. I wanted to let you know my thoughts on the paper you wrote summarizing your suggestion for how to spend the team's budget surplus. Sorry to bother you on the weekend, but I couldn't catch you before you left yesterday. Now I know you mostly do technical tasks, but if you're interested I'd like to assign you more writing work in the future. There is a shortage of specialists, and reading the paper I was struck by how you explained a complicated idea in such clear, persuasive language. Not everyone can do that. I believe you have a promising future in our company. Please give my offer some thought.",
+          "segs": [
+            {
+              "t": 2406.0,
+              "text": "Questions eighty-six through eighty-eight refer to the following telephone message."
+            },
+            {
+              "t": 2436.0,
+              "text": "I was struck by how you explained a complicated idea in such clear, persuasive language."
+            },
+            {
+              "t": 2441.0,
+              "text": "Not everyone can do that."
+            },
+            {
+              "t": 2443.0,
+              "text": "I believe you have a promising future in our company."
+            },
+            {
+              "t": 2446.0,
+              "text": "Please give my offer some thought."
+            },
+            {
+              "t": 2450.0,
+              "text": "Number eighty-six."
+            },
+            {
+              "t": 2452.0,
+              "text": "What is the telephone message mainly about?"
+            },
+            {
+              "t": 2462.0,
+              "text": "Number eighty-seven."
+            },
+            {
+              "t": 2464.0,
+              "text": "What does the speaker offer to do?"
+            },
+            {
+              "t": 2474.0,
+              "text": "Number eighty-eight."
+            },
+            {
+              "t": 2476.0,
+              "text": "Why does the speaker say?"
+            },
+            {
+              "t": 2478.0,
+              "text": "Not everyone can do that."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 89,
+              "question": "What is the speaker mainly discussing?",
+              "choices": {
+                "A": "Product demonstration procedures",
+                "B": "Strategies for negotiating contracts",
+                "C": "Nominations for staff awards",
+                "D": "Travel reimbursement policies"
+              },
+              "answer": "D",
+              "explanation": "The talk explains reimbursement rules for business trips.",
+              "uncertain": false
+            },
+            {
+              "n": 90,
+              "question": "What recently happened at the speaker's company?",
+              "choices": {
+                "A": "A new client was acquired.",
+                "B": "An executive was transferred.",
+                "C": "Some departments were restructured.",
+                "D": "Some rules were changed."
+              },
+              "answer": "A",
+              "explanation": "Jackson-Welter Holdings became a new client.",
+              "uncertain": false
+            },
+            {
+              "n": 91,
+              "question": "What will the speaker give to the listeners?",
+              "choices": {
+                "A": "Corporate credit cards",
+                "B": "Hotel vouchers",
+                "C": "Reference guides",
+                "D": "Photo ID badges"
+              },
+              "answer": "C",
+              "explanation": "He will hand out paper guidebooks.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2487,
+            "end": 2572
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q89.jpg",
+          "transcript": "Questions eighty-nine through ninety-one refer to the following talk. Alright, I'd like to briefly go over our company's procedures for reimbursing expenses that are incurred while on business trips. All staff must submit paper receipts to the finance department for expenses to be repaid, and all travel must be authorised. I'm raising this subject now because our recent good fortune in convincing Jackson-Welter Holdings to bring their business to us will mean an increased number of business trips. Management wants to make sure that this change doesn't cause unnecessary problems. For easy reference, all our corporate expense policies are covered in this paper guidebook. I'll hand one out to each of you now. Number eighty-nine. What is the speaker mainly discussing? Number ninety. What recently happened at the speaker's company? Number ninety-one. What will the speaker give to the listeners?",
+          "segs": [
+            {
+              "t": 2487.0,
+              "text": "Questions eighty-nine through ninety-one refer to the following talk."
+            },
+            {
+              "t": 2491.0,
+              "text": "Alright, I'd like to briefly go over our company's procedures for reimbursing expenses that are incurred while on business trips."
+            },
+            {
+              "t": 2501.0,
+              "text": "All staff must submit paper receipts to the finance department for expenses to be repaid, and all travel must be authorised."
+            },
+            {
+              "t": 2510.0,
+              "text": "I'm raising this subject now because our recent good fortune in convincing Jackson-Welter Holdings to bring their business to us will mean an increased number of business trips."
+            },
+            {
+              "t": 2520.0,
+              "text": "Management wants to make sure that this change doesn't cause unnecessary problems."
+            },
+            {
+              "t": 2525.0,
+              "text": "For easy reference, all our corporate expense policies are covered in this paper guidebook."
+            },
+            {
+              "t": 2531.0,
+              "text": "I'll hand one out to each of you now."
+            },
+            {
+              "t": 2535.0,
+              "text": "Number eighty-nine."
+            },
+            {
+              "t": 2537.0,
+              "text": "What is the speaker mainly discussing?"
+            },
+            {
+              "t": 2547.0,
+              "text": "Number ninety."
+            },
+            {
+              "t": 2549.0,
+              "text": "What recently happened at the speaker's company?"
+            },
+            {
+              "t": 2560.0,
+              "text": "Number ninety-one."
+            },
+            {
+              "t": 2562.0,
+              "text": "What will the speaker give to the listeners?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 92,
+              "question": "What does the speaker suggest doing?",
+              "choices": {
+                "A": "Finding cheaper sources of office supplies",
+                "B": "Rehearsing for future sales presentations",
+                "C": "Updating a company's customer list",
+                "D": "Moving up a production deadline"
+              },
+              "answer": "A",
+              "explanation": "He suggests cheaper office-supply vendors.",
+              "uncertain": false
+            },
+            {
+              "n": 93,
+              "question": "What does the speaker say he will do in the afternoon?",
+              "choices": {
+                "A": "Drive to a research center",
+                "B": "Schedule client visits",
+                "C": "Use a messaging service",
+                "D": "Design a consumer survey"
+              },
+              "answer": "C",
+              "explanation": "He will use the company messenger service.",
+              "uncertain": false
+            },
+            {
+              "n": 94,
+              "question": "What does the speaker mean when he says, \"use your best judgment\"?",
+              "choices": {
+                "A": "There is no fixed dress code for an event.",
+                "B": "Listeners may prioritize other assignments.",
+                "C": "Listeners can decide when to go home.",
+                "D": "He will not be available all day today."
+              },
+              "answer": "B",
+              "explanation": "The task is not urgent, so people may prioritize other work.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2572,
+            "end": 2662
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q92.jpg",
+          "transcript": "Questions ninety-two through ninety-four refer to the following excerpt from a meeting. Now, I'd like to finish this meeting with an update on our budget. As you know, we've set aside unusually high levels of funding for developing our Amida 3 software package. It now looks like we'll have to make up for this by reducing some of our other expenses. To start with, we should find less expensive vendors to provide us with office supplies. Let's research some options online this morning, and then I'll contact you through the company messenger service this afternoon to compare results. Probably around 3 p.m. This isn't an urgent matter, though, so those of you with a lot of other work to do, use your best judgment. Alright, that'll be all for today. Number ninety-two. What does the speaker suggest doing? Number ninety-three. What does the speaker say he will do in the afternoon? Number ninety-four. What does the speaker mean when he says, \"Use your best judgment\"?",
+          "segs": [
+            {
+              "t": 2572.0,
+              "text": "Questions ninety-two through ninety-four refer to the following excerpt from a meeting."
+            },
+            {
+              "t": 2578.0,
+              "text": "Now, I'd like to finish this meeting with an update on our budget."
+            },
+            {
+              "t": 2582.0,
+              "text": "As you know, we've set aside unusually high levels of funding for developing our Amida 3 software package."
+            },
+            {
+              "t": 2590.0,
+              "text": "It now looks like we'll have to make up for this by reducing some of our other expenses."
+            },
+            {
+              "t": 2595.0,
+              "text": "To start with, we should find less expensive vendors to provide us with office supplies."
+            },
+            {
+              "t": 2601.0,
+              "text": "Let's research some options online this morning, and then I'll contact you through the company messenger service this afternoon to compare results."
+            },
+            {
+              "t": 2610.0,
+              "text": "Probably around 3 p.m."
+            },
+            {
+              "t": 2613.0,
+              "text": "This isn't an urgent matter, though, so those of you with a lot of other work to do, use your best judgment."
+            },
+            {
+              "t": 2619.0,
+              "text": "Alright, that'll be all for today."
+            },
+            {
+              "t": 2623.0,
+              "text": "Number ninety-two."
+            },
+            {
+              "t": 2625.0,
+              "text": "What does the speaker suggest doing?"
+            },
+            {
+              "t": 2631.0,
+              "text": "Number ninety-three."
+            },
+            {
+              "t": 2637.0,
+              "text": "What does the speaker say he will do in the afternoon?"
+            },
+            {
+              "t": 2647.0,
+              "text": "Number ninety-four."
+            },
+            {
+              "t": 2650.0,
+              "text": "What does the speaker mean when he says, \"Use your best judgment\"?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 95,
+              "question": "What is the speaker concerned about?",
+              "choices": {
+                "A": "Inaccurate reporting",
+                "B": "Damage to plants",
+                "C": "Bad weather conditions",
+                "D": "Inconvenience to visitors"
+              },
+              "answer": "D",
+              "explanation": "She worries photographers will get in visitors' way.",
+              "uncertain": false
+            },
+            {
+              "n": 96,
+              "question": "What will the speaker post a notice about?",
+              "choices": {
+                "A": "The opening hours of a business",
+                "B": "The requirements for obtaining a refund",
+                "C": "The presence of photographers on site",
+                "D": "The remodeling of an indoor space"
+              },
+              "answer": "C",
+              "explanation": "The notice will explain the photographers' presence.",
+              "uncertain": false
+            },
+            {
+              "n": 97,
+              "question": "Look at the graphic. Which day does the speaker suggest scheduling the photo shoot for?",
+              "choices": {
+                "A": "Tuesday",
+                "B": "Wednesday",
+                "C": "Thursday",
+                "D": "Friday"
+              },
+              "answer": "B",
+              "explanation": "The picnic is on Thursday, so the day before is Wednesday.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2662,
+            "end": 2749
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q95.jpg",
+          "transcript": "Questions ninety-five through ninety-seven refer to the following telephone message and calendar. Arturo, I just got a call from Keller's Monthly about doing a photo shoot featuring our Botanical Gardens. The photographers want to come for an entire day to capture the plants in different lighting conditions. It's a great opportunity, but I'm worried that the magazine staff will get in the way of our paying visitors. I'll post a notice near the entrance that explains the situation to visitors. That way, it won't be a surprise for them. Uh, as for the date, I'd like to suggest the day before the Homanwe picnic so that we have time to prepare after the weekly lecture. How does that sound? Number ninety-five. What is the speaker concerned about? Number ninety-six. What will the speaker post a notice about? Number ninety-seven. Look at the graphic. Which day does the speaker suggest scheduling the photo shoot for?",
+          "segs": [
+            {
+              "t": 2662.0,
+              "text": "Questions ninety-five through ninety-seven refer to the following telephone message and calendar."
+            },
+            {
+              "t": 2668.0,
+              "text": "Arturo, I just got a call from Keller's Monthly about doing a photo shoot featuring our Botanical Gardens."
+            },
+            {
+              "t": 2676.0,
+              "text": "The photographers want to come for an entire day to capture the plants in different lighting conditions."
+            },
+            {
+              "t": 2682.0,
+              "text": "It's a great opportunity, but I'm worried that the magazine staff will get in the way of our paying visitors."
+            },
+            {
+              "t": 2688.0,
+              "text": "I'll post a notice near the entrance that explains the situation to visitors."
+            },
+            {
+              "t": 2692.0,
+              "text": "That way, it won't be a surprise for them."
+            },
+            {
+              "t": 2695.0,
+              "text": "Uh, as for the date, I'd like to suggest the day before the Homanwe picnic so that we have time to prepare after the weekly lecture."
+            },
+            {
+              "t": 2704.0,
+              "text": "How does that sound?"
+            },
+            {
+              "t": 2707.0,
+              "text": "Number ninety-five."
+            },
+            {
+              "t": 2709.0,
+              "text": "What is the speaker concerned about?"
+            },
+            {
+              "t": 2719.0,
+              "text": "Number ninety-six."
+            },
+            {
+              "t": 2721.0,
+              "text": "What will the speaker post a notice about?"
+            },
+            {
+              "t": 2731.0,
+              "text": "Number ninety-seven."
+            },
+            {
+              "t": 2733.0,
+              "text": "Look at the graphic."
+            },
+            {
+              "t": 2735.0,
+              "text": "Which day does the speaker suggest scheduling the photo shoot for?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 98,
+              "question": "What department does the speaker most likely work for?",
+              "choices": {
+                "A": "Customer Service",
+                "B": "Public Relations",
+                "C": "Human Resources",
+                "D": "Information Technology"
+              },
+              "answer": "D",
+              "explanation": "The department is hiring an information technology specialist.",
+              "uncertain": false
+            },
+            {
+              "n": 99,
+              "question": "Look at the graphic. Which step does the speaker say was added recently?",
+              "choices": {
+                "A": "Document screening",
+                "B": "Online exam",
+                "C": "Phone interview",
+                "D": "In-person interview with executives"
+              },
+              "answer": "B",
+              "explanation": "The new step after document screening is the online exam.",
+              "uncertain": false
+            },
+            {
+              "n": 100,
+              "question": "What does the speaker say about the position?",
+              "choices": {
+                "A": "It comes with excellent benefits.",
+                "B": "It is attracting many applicants.",
+                "C": "It is currently held by Yumiko.",
+                "D": "It will be temporary."
+              },
+              "answer": "B",
+              "explanation": "They have received dozens of applications.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2749,
+            "end": 2840
+          },
+          "img": "assets/img/custom/mock-test-7-listening/block-q98.jpg",
+          "transcript": "Questions ninety-eight through one hundred refer to the following announcement and flowchart. Okay, quick announcement about hiring. Human Resources has responded to our department's concerns and agreed to let us test out a new hiring stage in the search for our newest information technology specialist. I'll just put the hiring process flowchart up on the screen. Alright, there's the new step, after the document screening. I really think this move is going to be beneficial. And we'll find out soon, because we've received dozens of applications for the specialist position just in the short time since the opening was posted. Now, before I let you all go, I want to thank Yumiko again for proposing this idea. Excellent work. Number ninety-eight. What department does the speaker most likely work for? Number ninety-nine. Look at the graphic. Which step does the speaker say was added recently? Number one hundred. What does the speaker say about the position? Number one hundred. What does the speaker say about the position?",
+          "segs": [
+            {
+              "t": 2749.0,
+              "text": "Questions ninety-eight through one hundred refer to the following announcement and flowchart."
+            },
+            {
+              "t": 2756.0,
+              "text": "Okay, quick announcement about hiring."
+            },
+            {
+              "t": 2759.0,
+              "text": "Human Resources has responded to our department's concerns and agreed to let us test out a new hiring stage in the search for our newest information technology specialist."
+            },
+            {
+              "t": 2769.0,
+              "text": "I'll just put the hiring process flowchart up on the screen."
+            },
+            {
+              "t": 2773.0,
+              "text": "Alright, there's the new step, after the document screening. I really think this move is going to be beneficial."
+            },
+            {
+              "t": 2780.0,
+              "text": "And we'll find out soon, because we've received dozens of applications for the specialist position just in the short time since the opening was posted."
+            },
+            {
+              "t": 2788.0,
+              "text": "Now, before I let you all go, I want to thank Yumiko again for proposing this idea. Excellent work."
+            },
+            {
+              "t": 2796.0,
+              "text": "Number ninety-eight."
+            },
+            {
+              "t": 2798.0,
+              "text": "What department does the speaker most likely work for?"
+            },
+            {
+              "t": 2804.0,
+              "text": "Number ninety-nine."
+            },
+            {
+              "t": 2806.0,
+              "text": "Look at the graphic."
+            },
+            {
+              "t": 2808.0,
+              "text": "Which step does the speaker say was added recently?"
+            },
+            {
+              "t": 2822.0,
+              "text": "Number one hundred."
+            },
+            {
+              "t": 2824.0,
+              "text": "What does the speaker say about the position?"
+            },
+            {
+              "t": 2828.0,
+              "text": "Number one hundred."
+            },
+            {
+              "t": 2835.0,
+              "text": "What does the speaker say about the position?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

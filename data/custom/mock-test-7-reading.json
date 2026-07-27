@@ -1,0 +1,995 @@
+{
+  "id": "mock-test-7-reading",
+  "kind": "reading",
+  "title": "Mock Test 7 - Reading",
+  "desc": "Part 5-7, cau 101-167 (67 cau - PDF goc chi co toi cau 167, thieu 168-200). Co dap an va giai thich.",
+  "timerMin": 50,
+  "custom": true,
+  "parts": [
+    {
+      "part": 5,
+      "directions": "Chon tu/cum tu dung nhat de hoan thanh cau.",
+      "items": [
+        {
+          "n": 101,
+          "question": "Several local food makers offer ------- own products to employees at reduced prices.",
+          "choices": {
+            "A": "themselves",
+            "B": "they",
+            "C": "them",
+            "D": "their"
+          },
+          "answer": "D",
+          "explanation": "Before own products, a possessive adjective is needed.",
+          "uncertain": false
+        },
+        {
+          "n": 102,
+          "question": "Fawley Academy's ------- on absences caused by medical issues are explained in the student handbook.",
+          "choices": {
+            "A": "solutions",
+            "B": "classrooms",
+            "C": "instructors",
+            "D": "guidelines"
+          },
+          "answer": "D",
+          "explanation": "Guidelines on absences is the natural noun phrase.",
+          "uncertain": false
+        },
+        {
+          "n": 103,
+          "question": "Check that the lid of the container is ------- sealed to prevent its contents from leaking.",
+          "choices": {
+            "A": "firm",
+            "B": "firmly",
+            "C": "firming",
+            "D": "firmness"
+          },
+          "answer": "B",
+          "explanation": "Firmly is an adverb modifying sealed.",
+          "uncertain": false
+        },
+        {
+          "n": 104,
+          "question": "It is ------- that the accuracy of measuring instruments be tested yearly.",
+          "choices": {
+            "A": "active",
+            "B": "initial",
+            "C": "vital",
+            "D": "fluent"
+          },
+          "answer": "C",
+          "explanation": "Vital fits the importance of yearly testing.",
+          "uncertain": false
+        },
+        {
+          "n": 105,
+          "question": "The new law will not affect homeowners whose property has been ------- at less than $80,000 in value.",
+          "choices": {
+            "A": "assess",
+            "B": "assessed",
+            "C": "assessor",
+            "D": "assessment"
+          },
+          "answer": "B",
+          "explanation": "Has been assessed is the correct passive form.",
+          "uncertain": false
+        },
+        {
+          "n": 106,
+          "question": "Taxi service should ------- be used when there is cheaper alternative transportation available during your business travel.",
+          "choices": {
+            "A": "overly",
+            "B": "too",
+            "C": "never",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Never fits the warning not to use taxis when cheaper options exist.",
+          "uncertain": false
+        },
+        {
+          "n": 107,
+          "question": "This technique is meant to be ------- in treating muscle-related soreness.",
+          "choices": {
+            "A": "employment",
+            "B": "employed",
+            "C": "employs",
+            "D": "employing"
+          },
+          "answer": "B",
+          "explanation": "Be employed is the correct passive form.",
+          "uncertain": false
+        },
+        {
+          "n": 108,
+          "question": "------- this summer's unusual weather, it is no surprise that ice cream sales fell.",
+          "choices": {
+            "A": "Into",
+            "B": "Until",
+            "C": "Given",
+            "D": "Amid"
+          },
+          "answer": "C",
+          "explanation": "Given means considering the unusual weather.",
+          "uncertain": false
+        },
+        {
+          "n": 109,
+          "question": "To minimize any negative impact on tourism, the ------- of the famous statue will require careful timing.",
+          "choices": {
+            "A": "relocate",
+            "B": "relocates",
+            "C": "relocation",
+            "D": "relocated"
+          },
+          "answer": "C",
+          "explanation": "The noun relocation is needed after the.",
+          "uncertain": false
+        },
+        {
+          "n": 110,
+          "question": "Ms. Migliacio asked that corrections to online articles be made ------- upon noticing errors.",
+          "choices": {
+            "A": "accidentally",
+            "B": "chiefly",
+            "C": "promptly",
+            "D": "highly"
+          },
+          "answer": "C",
+          "explanation": "Promptly means immediately after errors are noticed.",
+          "uncertain": false
+        },
+        {
+          "n": 111,
+          "question": "All of our products undergo ------- inspections at our manufacturing facility to ensure they meet high quality standards.",
+          "choices": {
+            "A": "strict",
+            "B": "bent",
+            "C": "aware",
+            "D": "vacant"
+          },
+          "answer": "A",
+          "explanation": "Strict inspections fits quality control.",
+          "uncertain": false
+        },
+        {
+          "n": 112,
+          "question": "Dr. Itaru Matsuda's studies have proven the ------- effects of the new medication on patients.",
+          "choices": {
+            "A": "advantageously",
+            "B": "advantageous",
+            "C": "advantage",
+            "D": "advantages"
+          },
+          "answer": "B",
+          "explanation": "Advantageous is the adjective modifying effects.",
+          "uncertain": false
+        },
+        {
+          "n": 113,
+          "question": "You are provided a license to use Crombee until the end of next month under the ------- of this agreement.",
+          "choices": {
+            "A": "conditions",
+            "B": "penalties",
+            "C": "approaches",
+            "D": "phrases"
+          },
+          "answer": "A",
+          "explanation": "Under the conditions of this agreement is the fixed meaning.",
+          "uncertain": false
+        },
+        {
+          "n": 114,
+          "question": "A company that is ------- for its corporate values will have greater success in attracting qualified job candidates.",
+          "choices": {
+            "A": "respecting",
+            "B": "respects",
+            "C": "respect",
+            "D": "respected"
+          },
+          "answer": "D",
+          "explanation": "Is respected for is the correct passive structure.",
+          "uncertain": false
+        },
+        {
+          "n": 115,
+          "question": "Although relatively few surveyed residents commute to work by bike, recreational bicycle use is -------.",
+          "choices": {
+            "A": "impatient",
+            "B": "widespread",
+            "C": "talented",
+            "D": "empty"
+          },
+          "answer": "B",
+          "explanation": "Widespread contrasts with relatively few commuters.",
+          "uncertain": false
+        },
+        {
+          "n": 116,
+          "question": "Managers must submit revised deadline schedules ------- their projects face delays.",
+          "choices": {
+            "A": "behind",
+            "B": "when",
+            "C": "over",
+            "D": "whereas"
+          },
+          "answer": "B",
+          "explanation": "When introduces the condition of project delays.",
+          "uncertain": false
+        },
+        {
+          "n": 117,
+          "question": "The traffic sign was ------- visible from the road until the branches of a nearby tree obscured it.",
+          "choices": {
+            "A": "clearest",
+            "B": "clearer",
+            "C": "clearly",
+            "D": "cleared"
+          },
+          "answer": "C",
+          "explanation": "Clearly is an adverb modifying visible.",
+          "uncertain": false
+        },
+        {
+          "n": 118,
+          "question": "Deenad Import-Export Ltd. operates a modern warehouse with floor space ------- 27,000 square meters.",
+          "choices": {
+            "A": "finishing",
+            "B": "obtaining",
+            "C": "developing",
+            "D": "covering"
+          },
+          "answer": "D",
+          "explanation": "Covering 27,000 square meters describes the floor space.",
+          "uncertain": false
+        },
+        {
+          "n": 119,
+          "question": "Clothing sales revenues are ------- even though the store's home goods remain popular.",
+          "choices": {
+            "A": "declining",
+            "B": "declines",
+            "C": "declined",
+            "D": "decline"
+          },
+          "answer": "A",
+          "explanation": "Are declining is the correct progressive form.",
+          "uncertain": false
+        },
+        {
+          "n": 120,
+          "question": "The executive committee is proud to announce that ------- will soon resume negotiations with Pruneda Holdings.",
+          "choices": {
+            "A": "we",
+            "B": "us",
+            "C": "our",
+            "D": "ourselves"
+          },
+          "answer": "A",
+          "explanation": "We is the subject of will resume.",
+          "uncertain": false
+        },
+        {
+          "n": 121,
+          "question": "Human Resources reports that staff in a majority of departments are ------- absent during weeks that include national holidays.",
+          "choices": {
+            "A": "persisted",
+            "B": "persisting",
+            "C": "persistent",
+            "D": "persistently"
+          },
+          "answer": "D",
+          "explanation": "Persistently is an adverb modifying absent.",
+          "uncertain": false
+        },
+        {
+          "n": 122,
+          "question": "Tours of select apartments ------- now that construction on the complex has been completed.",
+          "choices": {
+            "A": "are allowing",
+            "B": "to allow",
+            "C": "have allowed",
+            "D": "will be allowed"
+          },
+          "answer": "D",
+          "explanation": "Tours receive the action, so passive will be allowed is needed.",
+          "uncertain": false
+        },
+        {
+          "n": 123,
+          "question": "------- you find our mobile app satisfactory, please tap on the button below to leave a five-star review.",
+          "choices": {
+            "A": "If",
+            "B": "Either",
+            "C": "Regardless",
+            "D": "So that"
+          },
+          "answer": "A",
+          "explanation": "If introduces the condition.",
+          "uncertain": false
+        },
+        {
+          "n": 124,
+          "question": "The Karvex-K's advanced features are ------- with what professional photographers expect from a digital camera.",
+          "choices": {
+            "A": "incapable",
+            "B": "excited",
+            "C": "thankful",
+            "D": "consistent"
+          },
+          "answer": "D",
+          "explanation": "Consistent with means matching expectations.",
+          "uncertain": false
+        },
+        {
+          "n": 125,
+          "question": "Shoppers are encouraged to look around our store's entire showroom floor ------- they decide not to purchase anything.",
+          "choices": {
+            "A": "even if",
+            "B": "in case",
+            "C": "now that",
+            "D": "such as"
+          },
+          "answer": "A",
+          "explanation": "Even if gives the concessive meaning.",
+          "uncertain": false
+        },
+        {
+          "n": 126,
+          "question": "The IT team ------- that all database systems be upgraded monthly.",
+          "choices": {
+            "A": "expires",
+            "B": "believes",
+            "C": "recalls",
+            "D": "advises"
+          },
+          "answer": "D",
+          "explanation": "Advises that systems be upgraded is correct.",
+          "uncertain": false
+        },
+        {
+          "n": 127,
+          "question": "Quality control officials found defects in a Phung's Apparel item just ------- over the course of a weeklong visit.",
+          "choices": {
+            "A": "yet",
+            "B": "for",
+            "C": "about",
+            "D": "once"
+          },
+          "answer": "D",
+          "explanation": "Just once means only one time.",
+          "uncertain": false
+        },
+        {
+          "n": 128,
+          "question": "------- to package a new food product depends heavily on the item's brand image and target customer.",
+          "choices": {
+            "A": "Which",
+            "B": "How",
+            "C": "Nothing",
+            "D": "Whatever"
+          },
+          "answer": "B",
+          "explanation": "How to package means the method of packaging.",
+          "uncertain": false
+        },
+        {
+          "n": 129,
+          "question": "Patient records ------- with \"Confidential\" in red ink are subject to stronger protection measures.",
+          "choices": {
+            "A": "stamping",
+            "B": "stamped",
+            "C": "that stamp",
+            "D": "are stamped"
+          },
+          "answer": "B",
+          "explanation": "Stamped is the reduced passive modifier.",
+          "uncertain": false
+        },
+        {
+          "n": 130,
+          "question": "The Snell Herald's career advice column enables readers to seize opportunities they may ------- at work.",
+          "choices": {
+            "A": "come across",
+            "B": "take apart",
+            "C": "go through",
+            "D": "back up"
+          },
+          "answer": "A",
+          "explanation": "Come across opportunities means encounter opportunities.",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "directions": "Doc doan van co 4 cho trong, chon phuong an phu hop nhat cho moi cho trong.",
+      "items": [
+        {
+          "ptype": "e-mail",
+          "title": "Response",
+          "text": "Harold Bjorneby replies to Reba Shelton about a rental application and a credit check.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q131.jpg",
+          "questions": [
+            {
+              "n": 131,
+              "question": "",
+              "choices": {
+                "A": "unit",
+                "B": "post",
+                "C": "major",
+                "D": "vehicle"
+              },
+              "answer": "A",
+              "explanation": "The two-bedroom property is the unit.",
+              "uncertain": false
+            },
+            {
+              "n": 132,
+              "question": "",
+              "choices": {
+                "A": "Still",
+                "B": "Therefore",
+                "C": "Furthermore",
+                "D": "Luckily"
+              },
+              "answer": "A",
+              "explanation": "Still contrasts the approval with the uncertainty about move-in date.",
+              "uncertain": false
+            },
+            {
+              "n": 133,
+              "question": "",
+              "choices": {
+                "A": "had",
+                "B": "have",
+                "C": "will have had",
+                "D": "have had"
+              },
+              "answer": "B",
+              "explanation": "I have to take time is correct.",
+              "uncertain": false
+            },
+            {
+              "n": 134,
+              "question": "",
+              "choices": {
+                "A": "The attached report explains the reasons for this refusal.",
+                "B": "Your e-mail did not clarify where to pay these fees.",
+                "C": "I will contact you again once the process is complete.",
+                "D": "We require the contract to be signed in person."
+              },
+              "answer": "C",
+              "explanation": "It naturally leads into In the meantime.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "memo",
+          "title": "Employee Satisfaction Survey",
+          "text": "Human Resources explains that this year's survey will be anonymous and handled by an outside survey company.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q135.jpg",
+          "questions": [
+            {
+              "n": 135,
+              "question": "",
+              "choices": {
+                "A": "displeases",
+                "B": "displeasing",
+                "C": "displeased",
+                "D": "displeasure"
+              },
+              "answer": "D",
+              "explanation": "Expressing displeasure is the correct noun phrase.",
+              "uncertain": false
+            },
+            {
+              "n": 136,
+              "question": "",
+              "choices": {
+                "A": "Namely",
+                "B": "Accordingly",
+                "C": "Additionally",
+                "D": "Formerly"
+              },
+              "answer": "B",
+              "explanation": "Accordingly shows the decision follows from the concern.",
+              "uncertain": false
+            },
+            {
+              "n": 137,
+              "question": "",
+              "choices": {
+                "A": "seen",
+                "B": "see",
+                "C": "will be seen",
+                "D": "have been seen"
+              },
+              "answer": "C",
+              "explanation": "Answers will be seen is the correct passive future.",
+              "uncertain": false
+            },
+            {
+              "n": 138,
+              "question": "",
+              "choices": {
+                "A": "Last year, its findings were mostly positive.",
+                "B": "We hope that this puts your concerns to rest.",
+                "C": "It may take time to give thoughtful answers.",
+                "D": "Finally, organize the data collected into graphs."
+              },
+              "answer": "B",
+              "explanation": "This reassures employees after explaining anonymity.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Membership confirmation",
+          "text": "Underwood Home Forums welcomes a member and recommends reviewing its customized dictionary.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q139.jpg",
+          "questions": [
+            {
+              "n": 139,
+              "question": "",
+              "choices": {
+                "A": "estimates",
+                "B": "replacements",
+                "C": "venues",
+                "D": "topics"
+              },
+              "answer": "D",
+              "explanation": "Forums have topics.",
+              "uncertain": false
+            },
+            {
+              "n": 140,
+              "question": "",
+              "choices": {
+                "A": "for instance",
+                "B": "likewise",
+                "C": "though",
+                "D": "in fact"
+              },
+              "answer": "C",
+              "explanation": "Though gives the transition to advice.",
+              "uncertain": false
+            },
+            {
+              "n": 141,
+              "question": "",
+              "choices": {
+                "A": "The terms of use agreement forbids the replication of our content.",
+                "B": "While using the site, you may encounter unfamiliar expressions.",
+                "C": "Although debate is encouraged, we ask that you remain polite.",
+                "D": "We do not verify claims made in member profiles or posts."
+              },
+              "answer": "B",
+              "explanation": "The next sentence explains unfamiliar shorthand terms.",
+              "uncertain": false
+            },
+            {
+              "n": 142,
+              "question": "",
+              "choices": {
+                "A": "reviewing",
+                "B": "a review",
+                "C": "reviewers",
+                "D": "that review"
+              },
+              "answer": "A",
+              "explanation": "Recommend reviewing is the correct structure.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "article",
+          "title": "Coffee Machines in the Office",
+          "text": "Resnell employees now have new coffee machines in each pantry.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q143.jpg",
+          "questions": [
+            {
+              "n": 143,
+              "question": "",
+              "choices": {
+                "A": "Pantries will be off-limits while they are installed.",
+                "B": "The reusable cups must be washed regularly.",
+                "C": "Interested employees should speak to their managers.",
+                "D": "The move is meant as a reward for a great first quarter."
+              },
+              "answer": "D",
+              "explanation": "This explains the new benefit.",
+              "uncertain": false
+            },
+            {
+              "n": 144,
+              "question": "",
+              "choices": {
+                "A": "was greeted",
+                "B": "will be greeting",
+                "C": "have greeted",
+                "D": "is greeting"
+              },
+              "answer": "A",
+              "explanation": "Their appearance was greeted is passive past.",
+              "uncertain": false
+            },
+            {
+              "n": 145,
+              "question": "",
+              "choices": {
+                "A": "Nevertheless",
+                "B": "Consequently",
+                "C": "Conversely",
+                "D": "Previously"
+              },
+              "answer": "B",
+              "explanation": "Consequently connects the positive reaction to more pantry trips.",
+              "uncertain": false
+            },
+            {
+              "n": 146,
+              "question": "",
+              "choices": {
+                "A": "transportation",
+                "B": "development",
+                "C": "ranking",
+                "D": "usage"
+              },
+              "answer": "D",
+              "explanation": "Limit usage of the machines is the intended meaning.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "directions": "Doc doan van va tra loi cac cau hoi.",
+      "items": [
+        {
+          "ptype": "note",
+          "title": "A Word from the Publisher",
+          "text": "Drager's Weekly introduces a special issue honoring scientists.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q147.jpg",
+          "questions": [
+            {
+              "n": 147,
+              "question": "Where would the note most likely appear?",
+              "choices": {
+                "A": "In a science journal",
+                "B": "In a laboratory newsletter",
+                "C": "In a book of collected writings",
+                "D": "In a news magazine"
+              },
+              "answer": "D",
+              "explanation": "Drager's Weekly usually covers current affairs, so it is a news magazine.",
+              "uncertain": false
+            },
+            {
+              "n": 148,
+              "question": "What can be found on the page mentioned?",
+              "choices": {
+                "A": "A photograph of a ceremony",
+                "B": "A republished article",
+                "C": "The names of some interviewees",
+                "D": "The results of a reader poll"
+              },
+              "answer": "C",
+              "explanation": "The note says a complete list of interviewees is on page four.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "advertisement",
+          "title": "The K270 Speaker by Prauss",
+          "text": "Prauss advertises a portable outdoor speaker for barbecues and pool parties.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q149.jpg",
+          "questions": [
+            {
+              "n": 149,
+              "question": "For whom is the advertisement most likely intended?",
+              "choices": {
+                "A": "People who enjoy spending time outdoors",
+                "B": "People who are seeking discount electronics",
+                "C": "People who listen to music while driving",
+                "D": "People who play music professionally"
+              },
+              "answer": "A",
+              "explanation": "The ad mentions backyard barbecues and pool parties.",
+              "uncertain": false
+            },
+            {
+              "n": 150,
+              "question": "What is stated about the K270 Speaker?",
+              "choices": {
+                "A": "It is large.",
+                "B": "It is sold online.",
+                "C": "It is brightly colored.",
+                "D": "It comes with a carrying case."
+              },
+              "answer": "C",
+              "explanation": "The shell is available in brilliant shades.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "text-message chain",
+          "title": "Valeria Kwon and Don Trousdale",
+          "text": "Valeria and Don coordinate a model home tour for a potential buyer.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q151.jpg",
+          "questions": [
+            {
+              "n": 151,
+              "question": "Who most likely is Mr. Trousdale?",
+              "choices": {
+                "A": "A property manager",
+                "B": "An administrative assistant",
+                "C": "A potential buyer",
+                "D": "An interior designer"
+              },
+              "answer": "A",
+              "explanation": "He fixes a tenant's door handle and helps with home tours.",
+              "uncertain": false
+            },
+            {
+              "n": 152,
+              "question": "At 10:28 A.M., what does Mr. Trousdale most likely mean when he writes, \"Go right ahead\"?",
+              "choices": {
+                "A": "He is happy to lend out a vehicle.",
+                "B": "A street may be inaccessible.",
+                "C": "Ms. Kwon should lead a house tour.",
+                "D": "He will return some keys to Ms. Kwon later."
+              },
+              "answer": "C",
+              "explanation": "He agrees that Ms. Kwon should start showing the model home.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "manual",
+          "title": "Maire Laundry Manual",
+          "text": "The manual gives counter clerks procedures for serving laundry customers.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q153.jpg",
+          "questions": [
+            {
+              "n": 153,
+              "question": "What is indicated about Maire Laundry?",
+              "choices": {
+                "A": "It serves commercial enterprises.",
+                "B": "It is a chain business.",
+                "C": "It has self-service machines.",
+                "D": "It sends out electronic notifications."
+              },
+              "answer": "B",
+              "explanation": "The manual refers to all Maire Laundry locations.",
+              "uncertain": false
+            },
+            {
+              "n": 154,
+              "question": "What are clerks instructed to do before accepting payment?",
+              "choices": {
+                "A": "Print a claim ticket",
+                "B": "Sort clothing into bins",
+                "C": "Estimate a completion date",
+                "D": "Ask about special requests"
+              },
+              "answer": "D",
+              "explanation": "Clerks clarify services such as stain removal before payment.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "advertisement",
+          "title": "Busbyton Mall",
+          "text": "Busbyton Mall promotes its new additions, restaurants, stage, architecture, playground, and VIP lounge.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q155.jpg",
+          "questions": [
+            {
+              "n": 155,
+              "question": "What is indicated about Busbyton Mall?",
+              "choices": {
+                "A": "It recently expanded.",
+                "B": "It produces a monthly publication.",
+                "C": "It has more than two floors.",
+                "D": "It has changed ownership."
+              },
+              "answer": "A",
+              "explanation": "The ad says the mall has grown and has new additions.",
+              "uncertain": false
+            },
+            {
+              "n": 156,
+              "question": "What is NOT mentioned as a feature of Busbyton Mall?",
+              "choices": {
+                "A": "Easy access to public transportation",
+                "B": "A play facility for children",
+                "C": "Charming architecture",
+                "D": "A concert venue"
+              },
+              "answer": "A",
+              "explanation": "Public transportation is not mentioned.",
+              "uncertain": false
+            },
+            {
+              "n": 157,
+              "question": "What are visitors who hold special memberships allowed to do?",
+              "choices": {
+                "A": "Enter prize drawings",
+                "B": "Use a relaxation room",
+                "C": "Accumulate rewards points",
+                "D": "Park in the closest area"
+              },
+              "answer": "B",
+              "explanation": "VIP members may unwind in the VIP lounge.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Box plan",
+          "text": "Field Hughes confirms a three-month Burst of Glamour box plan and explains package cards and referral rewards.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q158.jpg",
+          "questions": [
+            {
+              "n": 158,
+              "question": "What is one purpose of the e-mail?",
+              "choices": {
+                "A": "To respond to an inquiry",
+                "B": "To confirm a subscription",
+                "C": "To alert Ms. Joo to a shipping delay",
+                "D": "To recommend a new product"
+              },
+              "answer": "B",
+              "explanation": "The email thanks her for signing up for a three-month plan.",
+              "uncertain": false
+            },
+            {
+              "n": 159,
+              "question": "What is Ms. Joo instructed to read carefully?",
+              "choices": {
+                "A": "A Web page",
+                "B": "A product label",
+                "C": "A text message",
+                "D": "A package insert"
+              },
+              "answer": "D",
+              "explanation": "She should examine the card describing the package contents.",
+              "uncertain": false
+            },
+            {
+              "n": 160,
+              "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The ingredients of all cosmetics and edible goods are listed in full.\"",
+              "choices": {
+                "A": "[1]",
+                "B": "[2]",
+                "C": "[3]",
+                "D": "[4]"
+              },
+              "answer": "C",
+              "explanation": "The sentence fits after the warning about allergy-inducing products.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Vides Design Internship Program",
+          "text": "Human Resources announces a summer internship program for Vides Design managers.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q161.jpg",
+          "questions": [
+            {
+              "n": 161,
+              "question": "Why was the e-mail written?",
+              "choices": {
+                "A": "To recruit speakers for a seminar series",
+                "B": "To announce an internship program",
+                "C": "To describe the purpose of a new branch office",
+                "D": "To correct misunderstandings about a hiring process"
+              },
+              "answer": "B",
+              "explanation": "The email says the company will begin a summer internship program.",
+              "uncertain": false
+            },
+            {
+              "n": 162,
+              "question": "What is indicated about Bostwick University?",
+              "choices": {
+                "A": "It has an excellent Graphic Design Department.",
+                "B": "It leads professional development courses in the summer.",
+                "C": "Vides Design is collaborating with it on a public art project.",
+                "D": "Several Vides Design employees graduated from it."
+              },
+              "answer": "D",
+              "explanation": "A number of Vides staff are alumni of the university.",
+              "uncertain": false
+            },
+            {
+              "n": 163,
+              "question": "What are readers of the e-mail asked to consider?",
+              "choices": {
+                "A": "The mutual benefits of a possible relationship.",
+                "B": "The qualities of successful leaders",
+                "C": "The basis for a customer complaint",
+                "D": "The best channel through which to advertise a position"
+              },
+              "answer": "A",
+              "explanation": "Managers must consider intern qualities and what their department can offer in return.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "form",
+          "title": "One-Day Workshop with Sophia Hong",
+          "text": "The form gives the schedule for Sophia Hong's writing workshop and feedback gifts.",
+          "img": "assets/img/custom/mock-test-7-reading/passage-q164.jpg",
+          "questions": [
+            {
+              "n": 164,
+              "question": "What is the workshop most likely about?",
+              "choices": {
+                "A": "How to give effective presentations",
+                "B": "Starting a carpentry business",
+                "C": "How to succeed as a writer",
+                "D": "Various ways to make handicrafts"
+              },
+              "answer": "C",
+              "explanation": "Sophia Hong is a successful author and reviews story proposals.",
+              "uncertain": false
+            },
+            {
+              "n": 165,
+              "question": "What were participants required to do before the workshop?",
+              "choices": {
+                "A": "Gather in the lobby of a building",
+                "B": "Submit questions for Ms. Hong",
+                "C": "Purchase a set of note-taking tools",
+                "D": "Prepare ideas for a potential project"
+              },
+              "answer": "D",
+              "explanation": "Each participant submitted a story proposal before attending.",
+              "uncertain": false
+            },
+            {
+              "n": 166,
+              "question": "What information is NOT included on the form?",
+              "choices": {
+                "A": "The schedule for rest times.",
+                "B": "The number of participants",
+                "C": "The location of the workshop.",
+                "D": "The topic of the morning discussion"
+              },
+              "answer": "C",
+              "explanation": "The form does not state the workshop location.",
+              "uncertain": false
+            },
+            {
+              "n": 167,
+              "question": "What is indicated about participants who give feedback?",
+              "choices": {
+                "A": "They can receive a cloth sack.",
+                "B": "They probably disliked the workshop.",
+                "C": "They must send in a form by post.",
+                "D": "They may register for a future event."
+              },
+              "answer": "A",
+              "explanation": "One gift option is a canvas bookbag.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
