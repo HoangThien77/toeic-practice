@@ -375,7 +375,7 @@
             "D": ""
           },
           "answer": "A",
-          "explanation": "The picture best matches putting leaves into a waste bin.",
+          "explanation": "Ảnh phù hợp nhất với hành động đang bỏ lá vào thùng rác.",
           "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q1.jpg",
           "audio": {
@@ -425,7 +425,7 @@
             "D": ""
           },
           "answer": "D",
-          "explanation": "The people are seated in a circle.",
+          "explanation": "Ảnh cho thấy mọi người đang ngồi thành vòng tròn.",
           "uncertain": true,
           "image": "assets/img/custom/mock-test-7-listening/p1-q2.jpg",
           "audio": {
@@ -479,7 +479,7 @@
             "D": ""
           },
           "answer": "B",
-          "explanation": "The man is washing a vehicle.",
+          "explanation": "Ảnh cho thấy người đàn ông đang rửa một chiếc xe.",
           "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q3.jpg",
           "audio": {
@@ -533,7 +533,7 @@
             "D": ""
           },
           "answer": "D",
-          "explanation": "The woman is mounting shelves on a wall.",
+          "explanation": "Ảnh phù hợp với việc người phụ nữ đang lắp kệ lên tường.",
           "uncertain": true,
           "image": "assets/img/custom/mock-test-7-listening/p1-q4.jpg",
           "audio": {
@@ -587,7 +587,7 @@
             "D": ""
           },
           "answer": "C",
-          "explanation": "People are boarding a shuttle bus.",
+          "explanation": "Ảnh cho thấy mọi người đang lên xe buýt đưa đón.",
           "uncertain": true,
           "image": "assets/img/custom/mock-test-7-listening/p1-q5.jpg",
           "audio": {
@@ -641,7 +641,7 @@
             "D": ""
           },
           "answer": "C",
-          "explanation": "The chairs are facing a round table.",
+          "explanation": "Các ghế trong ảnh đang hướng về một chiếc bàn tròn.",
           "uncertain": true,
           "image": "assets/img/custom/mock-test-7-listening/p1-q6.jpg",
           "audio": {
@@ -704,7 +704,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 293,
@@ -751,7 +751,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 310,
@@ -798,7 +798,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 332,
@@ -857,7 +857,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 352,
@@ -904,7 +904,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 369,
@@ -951,7 +951,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 390,
@@ -998,7 +998,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 411,
@@ -1045,7 +1045,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 432,
@@ -1092,7 +1092,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 450,
@@ -1139,7 +1139,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 470,
@@ -1186,7 +1186,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 491,
@@ -1233,7 +1233,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 511,
@@ -1280,7 +1280,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 533,
@@ -1327,7 +1327,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 554,
@@ -1374,7 +1374,7 @@
             "C": ""
           },
           "answer": "C",
-          "explanation": "The response in option C answers the prompt naturally.",
+          "explanation": "Phương án C là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 574,
@@ -1421,7 +1421,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 594,
@@ -1468,7 +1468,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 613,
@@ -1515,7 +1515,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 633,
@@ -1562,7 +1562,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 653,
@@ -1609,7 +1609,7 @@
             "C": ""
           },
           "answer": "A",
-          "explanation": "The response in option A answers the prompt naturally.",
+          "explanation": "Phương án A là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 675,
@@ -1656,7 +1656,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 696,
@@ -1703,7 +1703,7 @@
             "C": ""
           },
           "answer": "C",
-          "explanation": "The response in option C answers the prompt naturally.",
+          "explanation": "Phương án C là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 716,
@@ -1750,7 +1750,7 @@
             "C": ""
           },
           "answer": "C",
-          "explanation": "The response in option C answers the prompt naturally.",
+          "explanation": "Phương án C là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 734,
@@ -1797,7 +1797,7 @@
             "C": ""
           },
           "answer": "B",
-          "explanation": "The response in option B answers the prompt naturally.",
+          "explanation": "Phương án B là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 757,
@@ -1844,7 +1844,7 @@
             "C": ""
           },
           "answer": "C",
-          "explanation": "The response in option C answers the prompt naturally.",
+          "explanation": "Phương án C là câu đáp tự nhiên và phù hợp nhất với câu hỏi trong audio.",
           "uncertain": false,
           "audio": {
             "start": 777,
@@ -1900,7 +1900,7 @@
                 "D": "At a cooking equipment store"
               },
               "answer": "D",
-              "explanation": "They describe their company as a retailer of cooking equipment.",
+              "explanation": "Hai người mô tả công ty của họ là một nhà bán lẻ thiết bị nấu ăn.",
               "uncertain": false
             },
             {
@@ -1913,7 +1913,7 @@
                 "D": "A Web site designer"
               },
               "answer": "D",
-              "explanation": "She originally designed the site and still works in that field.",
+              "explanation": "Người phụ nữ từng thiết kế trang web ban đầu và hiện vẫn làm trong lĩnh vực đó.",
               "uncertain": false
             },
             {
@@ -1926,7 +1926,7 @@
                 "D": "Lead a facility tour"
               },
               "answer": "B",
-              "explanation": "He will list all the brands they sell.",
+              "explanation": "Người đàn ông sẽ liệt kê tất cả các thương hiệu mà công ty đang bán.",
               "uncertain": false
             }
           ],
@@ -2015,7 +2015,7 @@
                 "D": "Cancel a loyalty club membership"
               },
               "answer": "C",
-              "explanation": "She applied for and is trying to receive a store credit card.",
+              "explanation": "Người phụ nữ đã đăng ký và đang muốn nhận thẻ tín dụng của cửa hàng.",
               "uncertain": false
             },
             {
@@ -2028,7 +2028,7 @@
                 "D": "The date of a transaction"
               },
               "answer": "C",
-              "explanation": "He asks her to spell her last name.",
+              "explanation": "Người đàn ông yêu cầu cô ấy đánh vần họ của mình.",
               "uncertain": false
             },
             {
@@ -2041,7 +2041,7 @@
                 "D": "Keep an invoice"
               },
               "answer": "A",
-              "explanation": "Her card was shipped to the Safton Heights branch.",
+              "explanation": "Thẻ của cô ấy đã được gửi đến chi nhánh Safton Heights.",
               "uncertain": false
             }
           ],
@@ -2130,7 +2130,7 @@
                 "D": "To remind her about an upcoming merger"
               },
               "answer": "C",
-              "explanation": "He wants to bring a class to learn about the work.",
+              "explanation": "Người đàn ông muốn đưa lớp học đến để tìm hiểu về công việc tại đó.",
               "uncertain": false
             },
             {
@@ -2143,7 +2143,7 @@
                 "D": "Showing product-testing methods"
               },
               "answer": "D",
-              "explanation": "She suggests the QA team walk students through product testing.",
+              "explanation": "Người phụ nữ đề nghị đội kiểm định chất lượng hướng dẫn học sinh xem quy trình thử nghiệm sản phẩm.",
               "uncertain": false
             },
             {
@@ -2156,7 +2156,7 @@
                 "D": "Photocopy a report"
               },
               "answer": "B",
-              "explanation": "He asks her to talk to Donny, the QA manager.",
+              "explanation": "Người đàn ông nhờ cô ấy trao đổi với Donny, quản lý bộ phận kiểm định chất lượng.",
               "uncertain": false
             }
           ],
@@ -2241,7 +2241,7 @@
                 "D": "Some furniture"
               },
               "answer": "A",
-              "explanation": "He wants a logo and graphics painted on a delivery van.",
+              "explanation": "Người đàn ông muốn sơn logo và hình ảnh lên xe giao hàng.",
               "uncertain": false
             },
             {
@@ -2254,7 +2254,7 @@
                 "D": "A plumbing company"
               },
               "answer": "C",
-              "explanation": "He runs a laundry cleaning and delivery service.",
+              "explanation": "Anh ấy điều hành dịch vụ giặt ủi và giao nhận quần áo.",
               "uncertain": false
             },
             {
@@ -2267,7 +2267,7 @@
                 "D": "Choose a type of paint"
               },
               "answer": "B",
-              "explanation": "She tells him to look at sample graphic designs.",
+              "explanation": "Người phụ nữ bảo anh ấy xem các mẫu thiết kế đồ họa.",
               "uncertain": false
             }
           ],
@@ -2352,7 +2352,7 @@
                 "D": "At a toy store"
               },
               "answer": "C",
-              "explanation": "They discuss flowers, soil, and potted roses.",
+              "explanation": "Hai người đang nói về hoa, đất và các chậu hoa hồng.",
               "uncertain": false
             },
             {
@@ -2365,7 +2365,7 @@
                 "D": "Go on a picnic"
               },
               "answer": "A",
-              "explanation": "He will give the rose bush to a new neighbor.",
+              "explanation": "Người đàn ông sẽ tặng bụi hoa hồng cho một người hàng xóm mới.",
               "uncertain": false
             },
             {
@@ -2378,7 +2378,7 @@
                 "D": "How soon it will be available"
               },
               "answer": "C",
-              "explanation": "He wants something that does not require much care.",
+              "explanation": "Anh ấy muốn một loại cây không cần chăm sóc nhiều.",
               "uncertain": false
             }
           ],
@@ -2455,7 +2455,7 @@
                 "D": "To install some equipment"
               },
               "answer": "B",
-              "explanation": "He has an envelope with paperwork for Mr. Beckley.",
+              "explanation": "Anh ấy có một phong bì chứa giấy tờ gửi cho ông Beckley.",
               "uncertain": false
             },
             {
@@ -2468,7 +2468,7 @@
                 "D": "A supervisor's instructions"
               },
               "answer": "A",
-              "explanation": "The location was not where his mobile app said it would be.",
+              "explanation": "Địa điểm thực tế không giống vị trí mà ứng dụng trên điện thoại của anh ấy chỉ.",
               "uncertain": false
             },
             {
@@ -2481,7 +2481,7 @@
                 "D": "A location is not difficult to find."
               },
               "answer": "D",
-              "explanation": "She means Yelnick Associates will be easy to spot.",
+              "explanation": "Ý cô ấy là tòa nhà Yelnick Associates sẽ rất dễ nhận ra.",
               "uncertain": false
             }
           ],
@@ -2558,7 +2558,7 @@
                 "D": "Publishing a scientific paper"
               },
               "answer": "B",
-              "explanation": "They discuss running the experiment again.",
+              "explanation": "Hai người đang bàn về việc chạy lại thí nghiệm.",
               "uncertain": false
             },
             {
@@ -2571,7 +2571,7 @@
                 "D": "The size of a budget"
               },
               "answer": "A",
-              "explanation": "She says they need to speed up the process.",
+              "explanation": "Cô ấy nói rằng họ cần đẩy nhanh quy trình.",
               "uncertain": false
             },
             {
@@ -2584,7 +2584,7 @@
                 "D": "Schedule a meeting"
               },
               "answer": "D",
-              "explanation": "He will ask the team to gather that afternoon.",
+              "explanation": "Anh ấy sẽ yêu cầu nhóm tập hợp vào chiều hôm đó.",
               "uncertain": false
             }
           ],
@@ -2661,7 +2661,7 @@
                 "D": "A series of staff workshops will be held."
               },
               "answer": "B",
-              "explanation": "The staff parking area will be upgraded.",
+              "explanation": "Khu vực đậu xe của nhân viên sẽ được nâng cấp.",
               "uncertain": false
             },
             {
@@ -2674,7 +2674,7 @@
                 "D": "Allowing staff to work from home."
               },
               "answer": "C",
-              "explanation": "She suggests using the new shuttle bus connection.",
+              "explanation": "Cô ấy đề nghị dùng tuyến xe buýt đưa đón mới.",
               "uncertain": false
             },
             {
@@ -2687,7 +2687,7 @@
                 "D": "On a company Web site"
               },
               "answer": "D",
-              "explanation": "She will post details on the staff website.",
+              "explanation": "Cô ấy sẽ đăng thông tin chi tiết lên trang web nội bộ của nhân viên.",
               "uncertain": false
             }
           ],
@@ -2776,7 +2776,7 @@
                 "D": "To find out the results of a test"
               },
               "answer": "C",
-              "explanation": "He says the cream is making his symptoms worse.",
+              "explanation": "Người đàn ông nói kem bôi đang làm triệu chứng của anh ấy nặng hơn.",
               "uncertain": false
             },
             {
@@ -2789,7 +2789,7 @@
                 "D": "Undergo a surgical procedure"
               },
               "answer": "A",
-              "explanation": "He says he is going to the beach for vacation.",
+              "explanation": "Anh ấy nói mình sẽ đi nghỉ ở bãi biển.",
               "uncertain": false
             },
             {
@@ -2802,7 +2802,7 @@
                 "D": "Reducing the amount of medication used"
               },
               "answer": "D",
-              "explanation": "She tells him to apply it once a day before bed.",
+              "explanation": "Cô ấy dặn anh ấy bôi kem mỗi ngày một lần trước khi đi ngủ.",
               "uncertain": false
             }
           ],
@@ -2887,7 +2887,7 @@
                 "D": "The purchase of an appliance"
               },
               "answer": "A",
-              "explanation": "They discuss opening a second branch.",
+              "explanation": "Hai người đang bàn về việc mở chi nhánh thứ hai.",
               "uncertain": false
             },
             {
@@ -2900,7 +2900,7 @@
                 "D": "She thinks a change is unnecessary."
               },
               "answer": "A",
-              "explanation": "Strong recent business suggests more capacity or help may be needed.",
+              "explanation": "Tình hình kinh doanh gần đây rất tốt, nên họ có thể cần thêm sức chứa hoặc thêm nhân sự.",
               "uncertain": false
             },
             {
@@ -2913,7 +2913,7 @@
                 "D": "To hand out promotional flyers"
               },
               "answer": "A",
-              "explanation": "She will look into current market conditions there.",
+              "explanation": "Cô ấy sẽ tìm hiểu điều kiện thị trường hiện tại ở khu vực đó.",
               "uncertain": false
             }
           ],
@@ -2998,7 +2998,7 @@
                 "D": "They are small."
               },
               "answer": "B",
-              "explanation": "She says they are very pretty.",
+              "explanation": "Cô ấy nói những món đó rất đẹp.",
               "uncertain": false
             },
             {
@@ -3011,7 +3011,7 @@
                 "D": "20%"
               },
               "answer": "A",
-              "explanation": "She buys one assorted box, which gives 5% off.",
+              "explanation": "Cô ấy mua một hộp tổng hợp, loại được giảm giá 5%.",
               "uncertain": false
             },
             {
@@ -3024,7 +3024,7 @@
                 "D": "Sell handmade jewelry"
               },
               "answer": "B",
-              "explanation": "She will make a bracelet for a friend's birthday.",
+              "explanation": "Cô ấy sẽ làm một chiếc vòng tay cho sinh nhật của bạn mình.",
               "uncertain": false
             }
           ],
@@ -3113,7 +3113,7 @@
                 "D": "A university student"
               },
               "answer": "D",
-              "explanation": "He says he is an undergraduate majoring in chemistry.",
+              "explanation": "Anh ấy nói mình là sinh viên đại học chuyên ngành hóa học.",
               "uncertain": false
             },
             {
@@ -3126,7 +3126,7 @@
                 "D": "104"
               },
               "answer": "B",
-              "explanation": "Housing is extension 102.",
+              "explanation": "Bộ phận nhà ở là số máy nhánh 102.",
               "uncertain": false
             },
             {
@@ -3139,7 +3139,7 @@
                 "D": "Their access to an online database"
               },
               "answer": "C",
-              "explanation": "The housing staff have been specially trained.",
+              "explanation": "Nhân viên bộ phận nhà ở đã được đào tạo chuyên biệt.",
               "uncertain": false
             }
           ],
@@ -3220,7 +3220,7 @@
                 "D": "Classic films"
               },
               "answer": "C",
-              "explanation": "He especially likes classic football matches.",
+              "explanation": "Anh ấy đặc biệt thích các trận bóng đá kinh điển.",
               "uncertain": false
             },
             {
@@ -3233,7 +3233,7 @@
                 "D": "$35"
               },
               "answer": "D",
-              "explanation": "He chooses a two-year contract, which is $35 per month.",
+              "explanation": "Anh ấy chọn hợp đồng hai năm, có giá 35 đô la mỗi tháng.",
               "uncertain": false
             },
             {
@@ -3246,7 +3246,7 @@
                 "D": "Turn on a model television"
               },
               "answer": "A",
-              "explanation": "She will check the calendar for technician availability.",
+              "explanation": "Cô ấy sẽ kiểm tra lịch để xem kỹ thuật viên còn thời gian trống không.",
               "uncertain": false
             }
           ],
@@ -3337,7 +3337,7 @@
                 "D": "At an industry association"
               },
               "answer": "A",
-              "explanation": "The film crew will visit the factory to film washing machines being made.",
+              "explanation": "Đoàn làm phim sẽ đến nhà máy để quay quy trình sản xuất máy giặt.",
               "uncertain": false
             },
             {
@@ -3350,7 +3350,7 @@
                 "D": "Discovering potential problems"
               },
               "answer": "B",
-              "explanation": "The video will impress distributors and consumers.",
+              "explanation": "Video này sẽ tạo ấn tượng với cả nhà phân phối và người tiêu dùng.",
               "uncertain": false
             },
             {
@@ -3363,7 +3363,7 @@
                 "D": "Tidy up a space"
               },
               "answer": "C",
-              "explanation": "He asks them to read the memo on the break room board.",
+              "explanation": "Anh ấy yêu cầu mọi người đọc bản ghi nhớ trên bảng thông báo trong phòng nghỉ.",
               "uncertain": false
             }
           ],
@@ -3464,7 +3464,7 @@
                 "D": "Travel agents"
               },
               "answer": "A",
-              "explanation": "The meeting is about cosmetic dentistry advertisements and patients.",
+              "explanation": "Cuộc họp nói về quảng cáo nha khoa thẩm mỹ và phản hồi của bệnh nhân.",
               "uncertain": false
             },
             {
@@ -3477,7 +3477,7 @@
                 "D": "Misleading advertisements"
               },
               "answer": "D",
-              "explanation": "Small print in ads created misunderstandings.",
+              "explanation": "Phần chữ nhỏ trong quảng cáo đã gây hiểu nhầm.",
               "uncertain": false
             },
             {
@@ -3490,7 +3490,7 @@
                 "D": "Some coupons will be distributed."
               },
               "answer": "B",
-              "explanation": "They will decide how to make it up to customers.",
+              "explanation": "Họ sẽ quyết định cách bù đắp cho khách hàng.",
               "uncertain": false
             }
           ],
@@ -3579,7 +3579,7 @@
                 "D": "He helped renovate an office."
               },
               "answer": "C",
-              "explanation": "He showed the listener around the apartment building.",
+              "explanation": "Anh ấy đã dẫn người nghe tham quan tòa nhà căn hộ.",
               "uncertain": false
             },
             {
@@ -3592,7 +3592,7 @@
                 "D": "To recommend seizing an opportunity"
               },
               "answer": "A",
-              "explanation": "Crews are still finishing painting and electrical work.",
+              "explanation": "Các đội thi công vẫn đang hoàn tất sơn và hệ thống điện.",
               "uncertain": false
             },
             {
@@ -3605,7 +3605,7 @@
                 "D": "Check an e-mail"
               },
               "answer": "D",
-              "explanation": "The rental contract will be sent by email.",
+              "explanation": "Hợp đồng thuê sẽ được gửi qua e-mail.",
               "uncertain": false
             }
           ],
@@ -3694,7 +3694,7 @@
                 "D": "Make supplies for a play"
               },
               "answer": "C",
-              "explanation": "The speaker is beginning orchestra auditions for a new violinist.",
+              "explanation": "Người nói đang bắt đầu buổi thử giọng để tuyển nghệ sĩ violin mới cho dàn nhạc.",
               "uncertain": false
             },
             {
@@ -3707,7 +3707,7 @@
                 "D": "A pencil sketch"
               },
               "answer": "B",
-              "explanation": "They take numbered tickets to set the order.",
+              "explanation": "Ứng viên lấy số thứ tự để xác định lượt biểu diễn.",
               "uncertain": false
             },
             {
@@ -3720,7 +3720,7 @@
                 "D": "A stage will be redecorated"
               },
               "answer": "A",
-              "explanation": "Judges will choose three candidates for the final stage.",
+              "explanation": "Ban giám khảo sẽ chọn ba ứng viên vào vòng cuối.",
               "uncertain": false
             }
           ],
@@ -3813,7 +3813,7 @@
                 "D": "A water fountain"
               },
               "answer": "A",
-              "explanation": "A new cycling trail opens this Friday.",
+              "explanation": "Một đường mòn đạp xe mới sẽ mở vào thứ Sáu tuần này.",
               "uncertain": false
             },
             {
@@ -3826,7 +3826,7 @@
                 "D": "Assisted with construction"
               },
               "answer": "B",
-              "explanation": "The group asked the City Council to fund the trail.",
+              "explanation": "Nhóm đã đề nghị Hội đồng Thành phố tài trợ cho đường mòn này.",
               "uncertain": false
             },
             {
@@ -3839,7 +3839,7 @@
                 "D": "T-shirts"
               },
               "answer": "C",
-              "explanation": "Visitors will get free lemonade and juice drinks.",
+              "explanation": "Khách tham dự sẽ được nhận miễn phí nước chanh và nước trái cây.",
               "uncertain": false
             }
           ],
@@ -3892,7 +3892,7 @@
                 "D": "A malfunctioning machine"
               },
               "answer": "A",
-              "explanation": "The speaker comments on Griffin's paper/proposal.",
+              "explanation": "Người nói đang nhận xét về bài viết hoặc đề xuất của Griffin.",
               "uncertain": false
             },
             {
@@ -3905,7 +3905,7 @@
                 "D": "Obtain an outside specialist's input on an idea"
               },
               "answer": "C",
-              "explanation": "He offers to assign Griffin more writing work.",
+              "explanation": "Anh ấy đề nghị giao thêm việc viết cho Griffin.",
               "uncertain": false
             },
             {
@@ -3918,7 +3918,7 @@
                 "D": "To offer an apology"
               },
               "answer": "A",
-              "explanation": "He is praising Griffin's clear, persuasive writing.",
+              "explanation": "Anh ấy đang khen cách viết rõ ràng và thuyết phục của Griffin.",
               "uncertain": false
             }
           ],
@@ -3991,7 +3991,7 @@
                 "D": "Travel reimbursement policies"
               },
               "answer": "D",
-              "explanation": "The talk explains reimbursement rules for business trips.",
+              "explanation": "Bài nói giải thích quy định hoàn tiền cho các chuyến công tác.",
               "uncertain": false
             },
             {
@@ -4004,7 +4004,7 @@
                 "D": "Some rules were changed."
               },
               "answer": "A",
-              "explanation": "Jackson-Welter Holdings became a new client.",
+              "explanation": "Jackson-Welter Holdings đã trở thành khách hàng mới.",
               "uncertain": false
             },
             {
@@ -4017,7 +4017,7 @@
                 "D": "Photo ID badges"
               },
               "answer": "C",
-              "explanation": "He will hand out paper guidebooks.",
+              "explanation": "Anh ấy sẽ phát sổ hướng dẫn bản giấy.",
               "uncertain": false
             }
           ],
@@ -4094,7 +4094,7 @@
                 "D": "Moving up a production deadline"
               },
               "answer": "A",
-              "explanation": "He suggests cheaper office-supply vendors.",
+              "explanation": "Anh ấy gợi ý các nhà cung cấp văn phòng phẩm rẻ hơn.",
               "uncertain": false
             },
             {
@@ -4107,7 +4107,7 @@
                 "D": "Design a consumer survey"
               },
               "answer": "C",
-              "explanation": "He will use the company messenger service.",
+              "explanation": "Anh ấy sẽ dùng dịch vụ chuyển phát nội bộ của công ty.",
               "uncertain": false
             },
             {
@@ -4120,7 +4120,7 @@
                 "D": "He will not be available all day today."
               },
               "answer": "B",
-              "explanation": "The task is not urgent, so people may prioritize other work.",
+              "explanation": "Nhiệm vụ này không gấp, nên mọi người có thể ưu tiên các việc khác trước.",
               "uncertain": false
             }
           ],
@@ -4205,7 +4205,7 @@
                 "D": "Inconvenience to visitors"
               },
               "answer": "D",
-              "explanation": "She worries photographers will get in visitors' way.",
+              "explanation": "Cô ấy lo rằng các nhiếp ảnh gia sẽ cản trở khách tham quan.",
               "uncertain": false
             },
             {
@@ -4218,7 +4218,7 @@
                 "D": "The remodeling of an indoor space"
               },
               "answer": "C",
-              "explanation": "The notice will explain the photographers' presence.",
+              "explanation": "Thông báo sẽ giải thích lý do có các nhiếp ảnh gia ở đó.",
               "uncertain": false
             },
             {
@@ -4231,7 +4231,7 @@
                 "D": "Friday"
               },
               "answer": "B",
-              "explanation": "The picnic is on Thursday, so the day before is Wednesday.",
+              "explanation": "Buổi dã ngoại diễn ra vào thứ Năm, nên ngày hôm trước là thứ Tư.",
               "uncertain": false
             }
           ],
@@ -4316,7 +4316,7 @@
                 "D": "Information Technology"
               },
               "answer": "D",
-              "explanation": "The department is hiring an information technology specialist.",
+              "explanation": "Bộ phận đang tuyển một chuyên viên công nghệ thông tin.",
               "uncertain": false
             },
             {
@@ -4329,7 +4329,7 @@
                 "D": "In-person interview with executives"
               },
               "answer": "B",
-              "explanation": "The new step after document screening is the online exam.",
+              "explanation": "Bước mới sau khi sàng lọc hồ sơ là bài kiểm tra trực tuyến.",
               "uncertain": false
             },
             {
@@ -4342,7 +4342,7 @@
                 "D": "It will be temporary."
               },
               "answer": "B",
-              "explanation": "They have received dozens of applications.",
+              "explanation": "Họ đã nhận được hàng chục đơn ứng tuyển.",
               "uncertain": false
             }
           ],
