@@ -500,6 +500,20 @@
     return txt || "(nghe audio)";
   }
 
+  function speakVocab(text) {
+    const word = String(text || "").trim();
+    if (!word || !("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+    audioEl.pause();
+    state.segEnd = null;
+    showDock(false);
+    window.speechSynthesis.cancel();
+    const u = new window.SpeechSynthesisUtterance(word);
+    u.lang = "en-US";
+    u.rate = /\s/.test(word) ? 0.82 : 0.88;
+    u.pitch = 1;
+    window.speechSynthesis.speak(u);
+  }
+
   function playWrongAudio(testId, start, end) {
     const src = D.tests[testId];
     if (!src || !src.audioSrc) return;
@@ -1457,22 +1471,24 @@
     return list.map((v) => {
       const lv = srs[v.id] ? srs[v.id].lv : null;
       const kind = vocabKind(v);
-      const audioBtn = v.audio ? `<button class="btn btn-sm" title="Nghe đoạn chứa từ này" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
+      const wordArg = encodeURIComponent(v.word || "");
+      const speakBtn = `<button class="btn btn-sm" title="Phát âm từ/cụm này" onclick="App.speakVocab(decodeURIComponent('${wordArg}'))">${ICONS.sound}</button>`;
+      const contextBtn = v.audio ? `<button class="btn btn-sm" title="Nghe đoạn gốc trong đề" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}<span>Nghe trong đề</span></button>` : "";
       const stateBadge = lv != null ? `<span class="badge ${lv >= 3 ? "badge-green" : "badge-amber"}">${lv >= 3 ? "đã thuộc" : "đang học"}</span>` : `<span class="badge badge-blue">mới</span>`;
       return `<div class="vocab-row" data-vocab-id="${esc(v.id)}">
         <div class="vr-head">
           <b>${esc(v.word)}</b> <span class="vr-type">${esc(v.type || "")}</span>
+          ${speakBtn}
           <span class="badge ${kind === "phrase" ? "badge-green" : "badge-blue"}">${vocabKindLabel(v)}</span>
           ${v.custom ? '<span class="badge badge-amber">đề upload</span>' : ""}
           ${stateBadge}
-          ${audioBtn}
         </div>
         <div class="vr-meaning">${esc(v.meaning)}</div>
         <div class="vr-source">${esc(vocabSourceLabel(v))}</div>
         <div class="vr-ex">"${esc(v.example || "")}"</div>
         ${v.exampleVi ? `<div class="vr-exvi">→ ${esc(v.exampleVi)}</div>` : ""}
         ${renderRelatedChips(v)}
-        <div class="vr-actions"><button class="btn btn-sm" onclick="App.startFlashcards('one','${esc(v.id)}')">Ôn thẻ này</button></div>
+        <div class="vr-actions">${contextBtn}<button class="btn btn-sm" onclick="App.startFlashcards('one','${esc(v.id)}')">Ôn thẻ này</button></div>
       </div>`;
     }).join("");
   }
@@ -1581,7 +1597,9 @@
     }
     fcShown = false;
     const v = fcQueue[fcIdx];
-    const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
+    const wordArg = encodeURIComponent(v.word || "");
+    const audioBtn = `<button class="btn btn-round" title="Phát âm từ/cụm này" onclick="App.speakVocab(decodeURIComponent('${wordArg}'))">${ICONS.sound}</button>`;
+    const contextBtn = v.audio ? `<div class="fc-context"><button class="btn btn-sm" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}<span>Nghe trong đề</span></button></div>` : "";
     screen.innerHTML = `
       <div class="fc-wrap">
         <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length} · ${vocabKindLabel(v)} · ${esc(v.custom ? "đề upload" : "bộ gốc")}</div>
@@ -1594,6 +1612,7 @@
             <div class="fc-ex">"${esc(v.example || "")}"</div>
             ${v.exampleVi ? `<div class="fc-exvi">→ ${esc(v.exampleVi)}</div>` : ""}
             ${renderRelatedChips(v)}
+            ${contextBtn}
           </div>
         </div>
         <div class="fc-actions" id="fc-actions">
@@ -3063,7 +3082,7 @@
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
-    goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
+    goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer, speakVocab,
     audioToggle, confirmExit,
     playSeg: (s, e) => playSegment(s, e),
     playVocabAudio: (testId, s, e) => playWrongAudio(testId, s, e),
