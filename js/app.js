@@ -1457,7 +1457,7 @@
     return list.map((v) => {
       const lv = srs[v.id] ? srs[v.id].lv : null;
       const kind = vocabKind(v);
-      const audioBtn = v.audio ? `<button class="btn btn-sm" title="Nghe đoạn chứa từ này" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
+      const audioBtn = v.audio ? `<button class="btn btn-sm" title="Nghe đoạn chứa từ này" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
       const stateBadge = lv != null ? `<span class="badge ${lv >= 3 ? "badge-green" : "badge-amber"}">${lv >= 3 ? "đã thuộc" : "đang học"}</span>` : `<span class="badge badge-blue">mới</span>`;
       return `<div class="vocab-row" data-vocab-id="${esc(v.id)}">
         <div class="vr-head">
@@ -1581,7 +1581,7 @@
     }
     fcShown = false;
     const v = fcQueue[fcIdx];
-    const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
+    const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playVocabAudio('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
     screen.innerHTML = `
       <div class="fc-wrap">
         <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length} · ${vocabKindLabel(v)} · ${esc(v.custom ? "đề upload" : "bộ gốc")}</div>
@@ -3066,6 +3066,7 @@
     goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
     audioToggle, confirmExit,
     playSeg: (s, e) => playSegment(s, e),
+    playVocabAudio: (testId, s, e) => playWrongAudio(testId, s, e),
     closeModal: (e) => { $("#modal-backdrop").classList.add("hidden"); },
   };
 
