@@ -1446,7 +1446,7 @@
     return vocab.filter((v) => {
       if (!vocabMatches(v, filter, srs, now)) return false;
       if (!q) return true;
-      const hay = normText([v.word, v.meaning, v.example, v.exampleVi, v.family, vocabSourceLabel(v), (v.related || []).join(" ")].join(" "));
+      const hay = normText([v.word, v.meaning, v.example, v.exampleVi, v.family, vocabSourceLabel(v), (v.synonyms || v.related || []).join(" ")].join(" "));
       return hay.includes(q);
     });
   }
@@ -1463,9 +1463,10 @@
     };
   }
   function renderRelatedChips(v) {
-    const rel = (v.related || []).slice(0, 5).map((w) => `<span class="vocab-rel">${esc(w)}</span>`).join("");
-    const family = v.family ? `<button class="vocab-family" onclick="App.goVocab('list','family:${esc(v.family)}')">nhóm ${esc(v.family)}</button>` : "";
-    return rel || family ? `<div class="vr-related">${family}${rel}</div>` : "";
+    const words = (v.synonyms || v.related || []).filter(Boolean).slice(0, 6);
+    if (!words.length) return "";
+    const rel = words.map((w) => `<span class="vocab-rel">${esc(w)}</span>`).join("");
+    return `<div class="vr-related"><span class="vocab-rel-label">Đồng nghĩa/gần nghĩa</span>${rel}</div>`;
   }
   function renderVocabRows(list, srs) {
     return list.map((v) => {
@@ -1536,7 +1537,7 @@
       </div>
       <div class="vocab-filterbar">
         <div class="time-chips">${filterChips}</div>
-        <input id="vocab-search" class="vocab-search" value="${esc(query)}" placeholder="Tìm từ, nghĩa, nhóm hoặc tên đề..." oninput="App.filterVocabList()">
+        <input id="vocab-search" class="vocab-search" value="${esc(query)}" placeholder="Tìm từ, nghĩa, đồng nghĩa hoặc tên đề..." oninput="App.filterVocabList()">
       </div>
       <div class="vocab-count"><b id="vocab-visible-count">${list.length}</b> mục đang hiển thị ${famLabel}</div>
       <div id="vocab-list" class="vocab-list">${renderVocabRows(list, srs) || '<div class="history-empty">Không có từ nào trong nhóm này.</div>'}</div>
@@ -1605,7 +1606,7 @@
         <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length} · ${vocabKindLabel(v)} · ${esc(v.custom ? "đề upload" : "bộ gốc")}</div>
         <div class="fc-card" id="fc-card">
           <div class="fc-word">${esc(v.word)} ${audioBtn}</div>
-          <div class="fc-type">${esc(v.type || "")} ${v.family ? `· nhóm ${esc(v.family)}` : ""}</div>
+          <div class="fc-type">${esc(v.type || vocabKindLabel(v))}</div>
           <div id="fc-back" class="hidden">
             <div class="fc-meaning">${esc(v.meaning)}</div>
             <div class="fc-source">${esc(vocabSourceLabel(v))}</div>

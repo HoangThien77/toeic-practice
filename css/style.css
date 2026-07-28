@@ -627,8 +627,9 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .vr-exvi { color: #1c5c38; font-size: 12.5px; }
 .vr-source { color: var(--muted); font-size: 12px; margin-top: 2px; }
 .vr-related { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
-.vocab-rel, .vocab-family { border: 1px solid #d9e2f1; background: #f8fafd; color: #51607a; border-radius: 999px; padding: 4px 9px; font: 750 11.5px inherit; }
+.vocab-rel, .vocab-family, .vocab-rel-label { border: 1px solid #d9e2f1; background: #f8fafd; color: #51607a; border-radius: 999px; padding: 4px 9px; font: 750 11.5px inherit; }
 .vocab-family { cursor: pointer; color: var(--accent); background: var(--accent-soft); border-color: #cfe0ff; }
+.vocab-rel-label { color: var(--accent); background: var(--accent-soft); border-color: #cfe0ff; }
 .vr-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; margin-top: 12px; }
 .fc-source { color: var(--muted); font-size: 13px; margin-top: 5px; }
 .fc-context { display: flex; justify-content: center; margin-top: 12px; }
