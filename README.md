@@ -51,15 +51,22 @@ python3 server.py
 
 ```
 toeic-app/
-├── index.html          # app 1 trang (vanilla JS, không cần build)
-├── css/style.css
-├── js/app.js           # logic app
-├── js/data.js          # toàn bộ dữ liệu đề (sinh tự động)
-├── data/source/        # dữ liệu số hóa gốc (JSON) — để chỉnh sửa/mở rộng
-├── assets/audio/mock5.mp3
-├── assets/img/         # ảnh Part 1 + biểu đồ Part 3/4
-├── server.py           # server local hỗ trợ HTTP Range cho audio
+├── index.html              # app 1 trang (vanilla JS, không cần build)
+├── css/style.css           # giao diện
+├── js/app.js               # logic app
+├── js/data.js              # dữ liệu deploy, sinh tự động từ data/assemble.py
+├── data/assemble.py        # script ghép đề + vocab thành js/data.js
+├── data/source/            # dữ liệu gốc đã review: key, transcript, vocab, synonym
+├── data/custom/            # các đề upload đã số hóa hoàn chỉnh
+├── assets/audio/           # audio production đang được app tham chiếu
+├── assets/img/             # ảnh production đang được app tham chiếu
+├── uploads/                # hàng chờ/source upload local, bị gitignore
+├── tmp/                    # render/OCR/transcribe tạm, bị gitignore và có thể xóa
+├── tools/                  # model/công cụ local nặng, bị gitignore
+├── server.py               # server local hỗ trợ HTTP Range cho audio
 └── Start TOEIC App.command
 ```
 
-Muốn sửa đáp án/giải thích: sửa JSON trong `data/source/` rồi chạy lại script ghép (hoặc sửa trực tiếp `js/data.js`).
+Muốn sửa đáp án/giải thích: sửa JSON trong `data/source/` hoặc `data/custom/`, rồi chạy `python3 data/assemble.py` để sinh lại `js/data.js`. Không sửa tay `js/data.js` nếu có thể, vì file này là output deploy.
+
+Muốn thêm/sửa nhóm đồng nghĩa cho sổ từ: sửa `data/source/vocab-synonyms.json`, sau đó chạy lại `python3 data/assemble.py`.
