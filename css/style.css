@@ -610,6 +610,14 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .dw-miss { color: var(--red); font-weight: 600; text-decoration: underline dotted; }
 .dict-legend { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
+
+.vocab-hero p { max-width: 880px; }
+.vocab-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: -4px 0 16px; }
+.vocab-toolbar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.vocab-filterbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 420px); gap: 12px; align-items: center; margin-bottom: 10px; }
+.vocab-search { width: 100%; border: 1.5px solid var(--line); border-radius: 10px; padding: 11px 13px; font: 650 14px inherit; background: #fff; color: var(--ink); }
+.vocab-search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.vocab-count { color: var(--muted); font-size: 13px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .vocab-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
 .vocab-row { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; box-shadow: var(--shadow); }
 .vr-head { display: flex; align-items: center; gap: 8px; font-size: 16px; flex-wrap: wrap; }
@@ -617,6 +625,12 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .vr-meaning { color: var(--ink); font-size: 14px; margin: 3px 0; }
 .vr-ex { color: var(--muted); font-size: 13px; font-style: italic; }
 .vr-exvi { color: #1c5c38; font-size: 12.5px; }
+.vr-source { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.vr-related { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-top: 10px; }
+.vocab-rel, .vocab-family { border: 1px solid #d9e2f1; background: #f8fafd; color: #51607a; border-radius: 999px; padding: 4px 9px; font: 750 11.5px inherit; }
+.vocab-family { cursor: pointer; color: var(--accent); background: var(--accent-soft); border-color: #cfe0ff; }
+.vr-actions { display: flex; justify-content: flex-end; margin-top: 12px; }
+.fc-source { color: var(--muted); font-size: 13px; margin-top: 5px; }
 
 .fc-wrap { max-width: 560px; margin: 0 auto; text-align: center; }
 .fc-progress { color: var(--muted); font-size: 13px; font-weight: 700; margin-bottom: 12px; }
@@ -1077,4 +1091,10 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .result-stats + .actions .btn { flex: 1 1 100%; }
   .dock-inner { padding: 10px 12px; }
   .mb-actions .btn span { display: none; }
+}
+
+@media (max-width: 760px) {
+  .vocab-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vocab-filterbar { grid-template-columns: 1fr; }
+  .vocab-toolbar .btn { flex: 1; min-width: 140px; }
 }

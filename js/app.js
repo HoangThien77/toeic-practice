@@ -1393,13 +1393,91 @@
   function saveVocabSrs(s) { localStorage.setItem(VOCAB_LS, JSON.stringify(s)); }
   const SRS_STEPS_DAYS = [0.007, 1, 2, 4, 8, 16, 32]; // level 0 ≈ 10 phút
 
+  function vocabKind(v) {
+    if ((v.studyMode || "").toLowerCase() === "phrase") return "phrase";
+    if ((v.type || "").toLowerCase() === "phr") return "phrase";
+    return /\s/.test(String(v.word || "").trim()) ? "phrase" : "word";
+  }
+  function vocabKindLabel(v) { return vocabKind(v) === "phrase" ? "Cụm/collocation" : "Từ đơn"; }
+  function vocabChannel(v) {
+    if (v.sourceKind) return v.sourceKind;
+    return v.testId === "m5-listening" ? "listening" : "reading";
+  }
+  function vocabSourceLabel(v) {
+    const title = v.testTitle || (v.testId && D.tests[v.testId] ? D.tests[v.testId].title : v.testId) || "TOEIC Practice";
+    return `${title}${v.firstQ ? ` · câu ${v.firstQ}` : ""}`;
+  }
   function vocabDue() {
     const srs = vocabSrs();
     const now = Date.now();
     return (D.vocab || []).filter((v) => srs[v.id] && srs[v.id].due <= now);
   }
+  function vocabMatches(v, filter, srs, now) {
+    filter = filter || "all";
+    if (filter === "all") return true;
+    if (filter === "listening") return vocabChannel(v) === "listening";
+    if (filter === "reading") return vocabChannel(v) !== "listening";
+    if (filter === "uploaded") return !!v.custom;
+    if (filter === "phrase") return vocabKind(v) === "phrase";
+    if (filter === "word") return vocabKind(v) === "word";
+    if (filter === "due") return !!(srs[v.id] && srs[v.id].due <= now);
+    if (filter.startsWith("family:")) return (v.family || "general") === filter.slice(7);
+    return true;
+  }
+  function vocabFiltered(filter, query) {
+    const vocab = D.vocab || [];
+    const srs = vocabSrs();
+    const now = Date.now();
+    const q = normText(query || "");
+    return vocab.filter((v) => {
+      if (!vocabMatches(v, filter, srs, now)) return false;
+      if (!q) return true;
+      const hay = normText([v.word, v.meaning, v.example, v.exampleVi, v.family, vocabSourceLabel(v), (v.related || []).join(" ")].join(" "));
+      return hay.includes(q);
+    });
+  }
+  function vocabStats() {
+    const vocab = D.vocab || [];
+    const srs = vocabSrs();
+    return {
+      total: vocab.length,
+      phrase: vocab.filter((v) => vocabKind(v) === "phrase").length,
+      word: vocab.filter((v) => vocabKind(v) === "word").length,
+      uploaded: vocab.filter((v) => v.custom).length,
+      learned: vocab.filter((v) => srs[v.id] && srs[v.id].lv >= 3).length,
+      due: vocabDue().length,
+    };
+  }
+  function renderRelatedChips(v) {
+    const rel = (v.related || []).slice(0, 5).map((w) => `<span class="vocab-rel">${esc(w)}</span>`).join("");
+    const family = v.family ? `<button class="vocab-family" onclick="App.goVocab('list','family:${esc(v.family)}')">nhóm ${esc(v.family)}</button>` : "";
+    return rel || family ? `<div class="vr-related">${family}${rel}</div>` : "";
+  }
+  function renderVocabRows(list, srs) {
+    return list.map((v) => {
+      const lv = srs[v.id] ? srs[v.id].lv : null;
+      const kind = vocabKind(v);
+      const audioBtn = v.audio ? `<button class="btn btn-sm" title="Nghe đoạn chứa từ này" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
+      const stateBadge = lv != null ? `<span class="badge ${lv >= 3 ? "badge-green" : "badge-amber"}">${lv >= 3 ? "đã thuộc" : "đang học"}</span>` : `<span class="badge badge-blue">mới</span>`;
+      return `<div class="vocab-row" data-vocab-id="${esc(v.id)}">
+        <div class="vr-head">
+          <b>${esc(v.word)}</b> <span class="vr-type">${esc(v.type || "")}</span>
+          <span class="badge ${kind === "phrase" ? "badge-green" : "badge-blue"}">${vocabKindLabel(v)}</span>
+          ${v.custom ? '<span class="badge badge-amber">đề upload</span>' : ""}
+          ${stateBadge}
+          ${audioBtn}
+        </div>
+        <div class="vr-meaning">${esc(v.meaning)}</div>
+        <div class="vr-source">${esc(vocabSourceLabel(v))}</div>
+        <div class="vr-ex">"${esc(v.example || "")}"</div>
+        ${v.exampleVi ? `<div class="vr-exvi">→ ${esc(v.exampleVi)}</div>` : ""}
+        ${renderRelatedChips(v)}
+        <div class="vr-actions"><button class="btn btn-sm" onclick="App.startFlashcards('one','${esc(v.id)}')">Ôn thẻ này</button></div>
+      </div>`;
+    }).join("");
+  }
 
-  function goVocab(tab, filter) {
+  function goVocab(tab, filter, query) {
     state.view = "vocab";
     document.body.classList.remove("has-mbar");
     screen.classList.remove("wide");
@@ -1409,68 +1487,94 @@
       screen.innerHTML = `<div class="hero"><h1>Sổ từ vựng</h1><p>Chưa có dữ liệu từ vựng.</p></div><button class="btn" onclick="App.goHome()">Trang chủ</button>`;
       return;
     }
-    tab = tab || "list"; filter = filter || "all";
+    tab = tab || "list"; filter = filter || "all"; query = query || "";
     const srs = vocabSrs();
-    const now = Date.now();
-    const due = vocab.filter((v) => srs[v.id] && srs[v.id].due <= now);
-    const learned = vocab.filter((v) => srs[v.id] && srs[v.id].lv >= 3).length;
-    let list = vocab;
-    if (filter === "listening") list = vocab.filter((v) => v.testId === "m5-listening");
-    if (filter === "reading") list = vocab.filter((v) => v.testId !== "m5-listening");
-    if (filter === "due") list = due;
-
-    const filterChips = [["all", `Tất cả (${vocab.length})`], ["listening", "Listening"], ["reading", "Reading"], ["due", `Cần ôn (${due.length})`]]
-      .map(([k, label]) => `<button class="tchip ${filter === k ? "selected" : ""}" onclick="App.goVocab('list','${k}')">${label}</button>`).join("");
-
-    const rows = list.map((v) => {
-      const lv = srs[v.id] ? srs[v.id].lv : null;
-      const audioBtn = v.audio ? `<button class="btn btn-sm" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
-      return `<div class="vocab-row">
-        <div class="vr-head">
-          <b>${esc(v.word)}</b> <span class="vr-type">(${esc(v.type || "")})</span>
-          ${lv != null ? `<span class="badge ${lv >= 3 ? "badge-green" : "badge-amber"}">${lv >= 3 ? "✓ thuộc" : "đang học"}</span>` : ""}
-          ${audioBtn}
-        </div>
-        <div class="vr-meaning">${esc(v.meaning)}</div>
-        <div class="vr-ex">"${esc(v.example || "")}"</div>
-        ${v.exampleVi ? `<div class="vr-exvi">→ ${esc(v.exampleVi)}</div>` : ""}
-      </div>`;
-    }).join("");
-
+    const stats = vocabStats();
+    const list = vocabFiltered(filter, query);
+    const filterChips = [
+      ["all", `Tất cả (${stats.total})`],
+      ["uploaded", `Đề upload (${stats.uploaded})`],
+      ["phrase", `Cụm (${stats.phrase})`],
+      ["word", `Từ đơn (${stats.word})`],
+      ["listening", "Listening"],
+      ["reading", "Reading"],
+      ["due", `Cần ôn (${stats.due})`],
+    ].map(([k, label]) => `<button class="tchip ${filter === k ? "selected" : ""}" onclick="App.goVocab('list','${k}', document.getElementById('vocab-search') ? document.getElementById('vocab-search').value : '')">${label}</button>`).join("");
+    const famLabel = filter.startsWith("family:") ? `<span class="badge badge-blue">Nhóm: ${esc(filter.slice(7))}</span>` : "";
     screen.innerHTML = `
-      <div class="hero"><h1>Sổ từ vựng</h1>
-        <p>${vocab.length} từ trích từ chính bộ đề của bạn · đã thuộc ${learned} · cần ôn hôm nay ${due.length}. Từ Listening có nút loa phát đúng đoạn audio chứa từ đó.</p>
+      <div class="hero vocab-hero"><h1>Sổ từ vựng TOEIC</h1>
+        <p>${stats.total} từ/cụm từ lấy từ bộ đề của bạn, gồm ${stats.uploaded} mục sinh từ đề upload. Nên học theo cụm trước để nhớ nghĩa trong ngữ cảnh, sau đó ôn từ đơn bằng SRS.</p>
       </div>
-      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px">
-        <button class="btn btn-primary" onclick="App.startFlashcards()">Học flashcard${due.length ? ` · ${due.length} từ cần ôn` : ""}</button>
+      <div class="vocab-summary">
+        <div class="stat-box"><div class="v">${stats.phrase}</div><div class="k">cụm/collocation</div></div>
+        <div class="stat-box"><div class="v">${stats.word}</div><div class="k">từ đơn</div></div>
+        <div class="stat-box"><div class="v">${stats.uploaded}</div><div class="k">từ từ đề upload</div></div>
+        <div class="stat-box"><div class="v">${stats.learned}</div><div class="k">đã thuộc</div></div>
+      </div>
+      <div class="vocab-toolbar">
+        <button class="btn btn-primary" onclick="App.startFlashcards('due')">Ôn đến hạn${stats.due ? ` · ${stats.due}` : ""}</button>
+        <button class="btn" onclick="App.startFlashcards('phrase')">Học cụm</button>
+        <button class="btn" onclick="App.startFlashcards('word')">Học từ đơn</button>
+        <button class="btn" onclick="App.startFlashcards('uploaded')">Từ đề upload</button>
         <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
-      <div class="time-chips" style="margin-bottom:14px">${filterChips}</div>
-      <div class="vocab-list">${rows || '<div class="history-empty">Không có từ nào trong nhóm này.</div>'}</div>
+      <div class="vocab-filterbar">
+        <div class="time-chips">${filterChips}</div>
+        <input id="vocab-search" class="vocab-search" value="${esc(query)}" placeholder="Tìm từ, nghĩa, nhóm hoặc tên đề..." oninput="App.filterVocabList()">
+      </div>
+      <div class="vocab-count"><b id="vocab-visible-count">${list.length}</b> mục đang hiển thị ${famLabel}</div>
+      <div id="vocab-list" class="vocab-list">${renderVocabRows(list, srs) || '<div class="history-empty">Không có từ nào trong nhóm này.</div>'}</div>
     `;
     window.scrollTo(0, 0);
   }
 
-  let fcQueue = [], fcIdx = 0, fcShown = false;
+  function filterVocabList() {
+    const input = document.getElementById("vocab-search");
+    const q = normText(input ? input.value : "");
+    const rows = Array.from(document.querySelectorAll("#vocab-list .vocab-row"));
+    let visible = 0;
+    rows.forEach((row) => {
+      const id = row.getAttribute("data-vocab-id");
+      const v = (D.vocab || []).find((x) => x.id === id);
+      const hay = v ? normText([v.word, v.meaning, v.example, v.exampleVi, v.family, vocabSourceLabel(v), (v.related || []).join(" ")].join(" ")) : normText(row.textContent);
+      const show = !q || hay.includes(q);
+      row.style.display = show ? "" : "none";
+      if (show) visible++;
+    });
+    const count = document.getElementById("vocab-visible-count");
+    if (count) count.textContent = visible;
+  }
 
-  function startFlashcards() {
+  let fcQueue = [], fcIdx = 0, fcShown = false, fcMode = "mixed";
+
+  function startFlashcards(mode, filter) {
     const vocab = D.vocab || [];
     const srs = vocabSrs();
     const now = Date.now();
-    const due = vocab.filter((v) => srs[v.id] && srs[v.id].due <= now);
-    const fresh = vocab.filter((v) => !srs[v.id]);
-    const rest = vocab.filter((v) => srs[v.id] && srs[v.id].due > now);
-    fcQueue = [...due, ...fresh, ...rest].slice(0, 20);
+    mode = mode || "mixed";
+    fcMode = mode;
+    let pool = vocab;
+    if (mode === "one") pool = vocab.filter((v) => v.id === filter);
+    else if (mode === "phrase") pool = vocab.filter((v) => vocabKind(v) === "phrase");
+    else if (mode === "word") pool = vocab.filter((v) => vocabKind(v) === "word");
+    else if (mode === "uploaded") pool = vocab.filter((v) => v.custom);
+    else if (mode === "due") pool = vocab.filter((v) => srs[v.id] && srs[v.id].due <= now);
+    else if (filter) pool = vocabFiltered(filter, "");
+    const due = pool.filter((v) => srs[v.id] && srs[v.id].due <= now);
+    const fresh = pool.filter((v) => !srs[v.id]);
+    const rest = pool.filter((v) => srs[v.id] && srs[v.id].due > now);
+    fcQueue = (mode === "due" ? due : [...due, ...fresh, ...rest]).slice(0, mode === "one" ? 1 : 24);
     fcIdx = 0;
     renderFlashcard();
   }
 
   function renderFlashcard() {
+    state.view = "vocab";
     if (fcIdx >= fcQueue.length) {
-      screen.innerHTML = `<div class="hero" style="text-align:center"><h1>Hết lượt ôn 🎉</h1>
-        <p>Bạn vừa ôn ${fcQueue.length} từ. Quay lại sau để ôn tiếp các từ đến hạn.</p></div>
-        <div style="display:flex; gap:10px; justify-content:center">
-          <button class="btn btn-primary" onclick="App.startFlashcards()">Lượt mới</button>
+      screen.innerHTML = `<div class="hero" style="text-align:center"><h1>Hết lượt ôn</h1>
+        <p>Bạn vừa ôn ${fcQueue.length} mục. Quay lại sau để ôn tiếp các từ đến hạn.</p></div>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap">
+          <button class="btn btn-primary" onclick="App.startFlashcards('${fcMode}')">Lượt mới</button>
           <button class="btn" onclick="App.goVocab()">Sổ từ</button>
         </div>`;
       return;
@@ -1480,14 +1584,16 @@
     const audioBtn = v.audio ? `<button class="btn btn-round" onclick="App.playSeg(${v.audio.start},${v.audio.end})">${ICONS.sound}</button>` : "";
     screen.innerHTML = `
       <div class="fc-wrap">
-        <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length}</div>
+        <div class="fc-progress">${fcIdx + 1} / ${fcQueue.length} · ${vocabKindLabel(v)} · ${esc(v.custom ? "đề upload" : "bộ gốc")}</div>
         <div class="fc-card" id="fc-card">
           <div class="fc-word">${esc(v.word)} ${audioBtn}</div>
-          <div class="fc-type">(${esc(v.type || "")})</div>
+          <div class="fc-type">${esc(v.type || "")} ${v.family ? `· nhóm ${esc(v.family)}` : ""}</div>
           <div id="fc-back" class="hidden">
             <div class="fc-meaning">${esc(v.meaning)}</div>
+            <div class="fc-source">${esc(vocabSourceLabel(v))}</div>
             <div class="fc-ex">"${esc(v.example || "")}"</div>
             ${v.exampleVi ? `<div class="fc-exvi">→ ${esc(v.exampleVi)}</div>` : ""}
+            ${renderRelatedChips(v)}
           </div>
         </div>
         <div class="fc-actions" id="fc-actions">
@@ -2957,7 +3063,7 @@
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
-    goVocab, startFlashcards, fcFlip, fcAnswer,
+    goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
     audioToggle, confirmExit,
     playSeg: (s, e) => playSegment(s, e),
     closeModal: (e) => { $("#modal-backdrop").classList.add("hidden"); },
