@@ -70,3 +70,5 @@ toeic-app/
 Muốn sửa đáp án/giải thích: sửa JSON trong `data/source/` hoặc `data/custom/`, rồi chạy `python3 data/assemble.py` để sinh lại `js/data.js`. Không sửa tay `js/data.js` nếu có thể, vì file này là output deploy.
 
 Muốn thêm/sửa nhóm đồng nghĩa cho sổ từ: sửa `data/source/vocab-synonyms.json`, sau đó chạy lại `python3 data/assemble.py`.
+
+Muốn thêm/sửa danh sách từ vựng tự nhận diện từ các đề upload: sửa `data/source/vocab-auto-bank.json`, sau đó chạy lại `python3 data/assemble.py`.

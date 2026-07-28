@@ -245,136 +245,6 @@ if CUSTOM_DIR.is_dir():
         tests[ct["id"]] = ct
         print(f"custom test loaded: {ct['id']} ({cf.name})")
 
-
-# ---- auto vocabulary from uploaded/custom tests ----
-# Keep this list curated. We only create cards for terms with a reviewed Vietnamese meaning,
-# so uploaded tests gain useful vocabulary without noisy token extraction.
-AUTO_VOCAB_BANK = [
-    {"word": "be responsible for", "type": "phr", "meaning": "chịu trách nhiệm về", "family": "responsibility", "variants": ["responsible for"]},
-    {"word": "purchase", "type": "v/n", "meaning": "mua; giao dịch mua", "family": "buying", "variants": ["purchase", "purchases", "purchasing", "purchased"]},
-    {"word": "office supplies", "type": "n", "meaning": "văn phòng phẩm", "family": "office", "variants": ["office supply", "office supplies"]},
-    {"word": "approval", "type": "n", "meaning": "sự chấp thuận, phê duyệt", "family": "approval", "variants": ["approval", "approvals"]},
-    {"word": "present", "type": "v", "meaning": "trình bày, giới thiệu", "family": "presentation", "variants": ["present", "presents", "presented", "presenting"]},
-    {"word": "research", "type": "n/v", "meaning": "nghiên cứu; tìm hiểu", "family": "research", "variants": ["research", "researches", "researched", "researching"]},
-    {"word": "marketing team", "type": "n", "meaning": "nhóm/bộ phận tiếp thị", "family": "marketing", "variants": ["marketing team", "marketing department"]},
-    {"word": "available", "type": "adj", "meaning": "có sẵn, còn trống, sẵn dùng", "family": "availability", "variants": ["available", "availability"]},
-    {"word": "ship", "type": "v", "meaning": "gửi hàng, vận chuyển", "family": "shipping", "variants": ["ship", "ships", "shipped", "shipping"]},
-    {"word": "branch", "type": "n", "meaning": "chi nhánh", "family": "branch", "variants": ["branch", "branches"]},
-    {"word": "quality assurance", "type": "n", "meaning": "đảm bảo/kiểm định chất lượng", "family": "quality", "variants": ["quality assurance", "QA", "quality control"]},
-    {"word": "product testing", "type": "n", "meaning": "việc thử nghiệm sản phẩm", "family": "quality", "variants": ["product testing", "testing products", "test products"]},
-    {"word": "delivery van", "type": "n", "meaning": "xe tải/xe van giao hàng", "family": "delivery", "variants": ["delivery van", "delivery vehicle"]},
-    {"word": "graphic design", "type": "n", "meaning": "thiết kế đồ họa", "family": "design", "variants": ["graphic design", "graphic designs", "graphics"]},
-    {"word": "sample", "type": "n/adj", "meaning": "mẫu, bản mẫu", "family": "sample", "variants": ["sample", "samples"]},
-    {"word": "require", "type": "v", "meaning": "yêu cầu, cần", "family": "requirement", "variants": ["require", "requires", "required", "requiring", "requirement", "requirements"]},
-    {"word": "maintenance", "type": "n", "meaning": "bảo trì, chăm sóc duy trì", "family": "maintenance", "variants": ["maintenance", "maintain"]},
-    {"word": "paperwork", "type": "n", "meaning": "giấy tờ, hồ sơ", "family": "documentation", "variants": ["paperwork"]},
-    {"word": "mobile app", "type": "n", "meaning": "ứng dụng điện thoại", "family": "technology", "variants": ["mobile app", "app"]},
-    {"word": "recognize", "type": "v", "meaning": "nhận ra, nhận diện", "family": "recognition", "variants": ["recognize", "recognizes", "recognized", "recognition"]},
-    {"word": "experiment", "type": "n", "meaning": "thí nghiệm, thử nghiệm", "family": "research", "variants": ["experiment", "experiments"]},
-    {"word": "speed up", "type": "phr", "meaning": "đẩy nhanh, tăng tốc", "family": "process", "variants": ["speed up", "speeding up", "sped up"]},
-    {"word": "process", "type": "n/v", "meaning": "quy trình; xử lý", "family": "process", "variants": ["process", "processes", "processed", "processing"]},
-    {"word": "upgrade", "type": "v/n", "meaning": "nâng cấp; sự nâng cấp", "family": "improvement", "variants": ["upgrade", "upgrades", "upgraded", "upgrading"]},
-    {"word": "shuttle bus", "type": "n", "meaning": "xe buýt đưa đón", "family": "transportation", "variants": ["shuttle bus", "shuttle"]},
-    {"word": "staff website", "type": "n", "meaning": "trang web nội bộ của nhân viên", "family": "office", "variants": ["staff website"]},
-    {"word": "symptom", "type": "n", "meaning": "triệu chứng", "family": "health", "variants": ["symptom", "symptoms"]},
-    {"word": "apply", "type": "v", "meaning": "bôi/thoa; nộp đơn; áp dụng", "family": "application", "variants": ["apply", "applies", "applied", "applying"]},
-    {"word": "market conditions", "type": "n", "meaning": "điều kiện/tình hình thị trường", "family": "business", "variants": ["market condition", "market conditions"]},
-    {"word": "assorted", "type": "adj", "meaning": "nhiều loại, tổng hợp", "family": "product", "variants": ["assorted"]},
-    {"word": "discount", "type": "n/v", "meaning": "giảm giá; khoản giảm giá", "family": "pricing", "variants": ["discount", "discounts", "discounted"]},
-    {"word": "undergraduate", "type": "n/adj", "meaning": "sinh viên đại học; bậc đại học", "family": "education", "variants": ["undergraduate", "undergraduates"]},
-    {"word": "major in", "type": "phr", "meaning": "học/chuyên ngành", "family": "education", "variants": ["majoring in", "major in", "majored in"]},
-    {"word": "specially trained", "type": "phr", "meaning": "được đào tạo chuyên biệt", "family": "training", "variants": ["specially trained", "special training"]},
-    {"word": "contract", "type": "n", "meaning": "hợp đồng", "family": "contract", "variants": ["contract", "contracts"]},
-    {"word": "technician", "type": "n", "meaning": "kỹ thuật viên", "family": "job", "variants": ["technician", "technicians"]},
-    {"word": "manufacturer", "type": "n", "meaning": "nhà sản xuất", "family": "manufacturing", "variants": ["manufacturer", "manufacturers"]},
-    {"word": "raw materials", "type": "n", "meaning": "nguyên vật liệu thô", "family": "manufacturing", "variants": ["raw material", "raw materials"]},
-    {"word": "distributor", "type": "n", "meaning": "nhà phân phối", "family": "sales", "variants": ["distributor", "distributors"]},
-    {"word": "consumer", "type": "n", "meaning": "người tiêu dùng", "family": "sales", "variants": ["consumer", "consumers"]},
-    {"word": "memo", "type": "n", "meaning": "bản ghi nhớ, thông báo nội bộ", "family": "office", "variants": ["memo", "memorandum"]},
-    {"word": "break room", "type": "n", "meaning": "phòng nghỉ của nhân viên", "family": "office", "variants": ["break room"]},
-    {"word": "customer", "type": "n", "meaning": "khách hàng", "family": "customer", "variants": ["customer", "customers"]},
-    {"word": "misunderstanding", "type": "n", "meaning": "sự hiểu nhầm", "family": "communication", "variants": ["misunderstanding", "misunderstandings"]},
-    {"word": "make it up to", "type": "phr", "meaning": "bù đắp cho ai", "family": "customer", "variants": ["make it up to", "make up for"]},
-    {"word": "rental contract", "type": "n", "meaning": "hợp đồng thuê", "family": "contract", "variants": ["rental contract", "lease"]},
-    {"word": "audition", "type": "n/v", "meaning": "buổi thử giọng; thử giọng", "family": "recruitment", "variants": ["audition", "auditions", "auditioning"]},
-    {"word": "candidate", "type": "n", "meaning": "ứng viên", "family": "recruitment", "variants": ["candidate", "candidates"]},
-    {"word": "cycling trail", "type": "n", "meaning": "đường mòn/đường dành cho xe đạp", "family": "travel", "variants": ["cycling trail", "bike trail"]},
-    {"word": "fund", "type": "v/n", "meaning": "tài trợ; quỹ", "family": "finance", "variants": ["fund", "funds", "funded", "funding"]},
-    {"word": "proposal", "type": "n", "meaning": "đề xuất, bản đề xuất", "family": "planning", "variants": ["proposal", "proposals"]},
-    {"word": "persuasive", "type": "adj", "meaning": "có sức thuyết phục", "family": "communication", "variants": ["persuasive", "persuade"]},
-    {"word": "reimbursement", "type": "n", "meaning": "sự hoàn tiền/hoàn chi phí", "family": "finance", "variants": ["reimbursement", "reimburse", "reimbursed"]},
-    {"word": "business trip", "type": "n", "meaning": "chuyến công tác", "family": "travel", "variants": ["business trip", "business trips"]},
-    {"word": "client", "type": "n", "meaning": "khách hàng, khách hàng doanh nghiệp", "family": "customer", "variants": ["client", "clients"]},
-    {"word": "guidebook", "type": "n", "meaning": "sổ/sách hướng dẫn", "family": "documentation", "variants": ["guidebook", "guidebooks"]},
-    {"word": "vendor", "type": "n", "meaning": "nhà cung cấp", "family": "sales", "variants": ["vendor", "vendors"]},
-    {"word": "messenger service", "type": "n", "meaning": "dịch vụ chuyển phát/nội bộ", "family": "delivery", "variants": ["messenger service"]},
-    {"word": "urgent", "type": "adj", "meaning": "khẩn cấp, gấp", "family": "priority", "variants": ["urgent", "urgency"]},
-    {"word": "prioritize", "type": "v", "meaning": "ưu tiên", "family": "priority", "variants": ["prioritize", "prioritise", "priority", "priorities"]},
-    {"word": "visitor", "type": "n", "meaning": "khách tham quan", "family": "visitor", "variants": ["visitor", "visitors"]},
-    {"word": "presence", "type": "n", "meaning": "sự hiện diện", "family": "presence", "variants": ["presence"]},
-    {"word": "specialist", "type": "n", "meaning": "chuyên viên, chuyên gia", "family": "job", "variants": ["specialist", "specialists"]},
-    {"word": "screening", "type": "n", "meaning": "sàng lọc; buổi chiếu", "family": "recruitment", "variants": ["screening", "screenings"]},
-    {"word": "application", "type": "n", "meaning": "đơn ứng tuyển; sự đăng ký/ứng dụng", "family": "application", "variants": ["application", "applications"]},
-    {"word": "reduced prices", "type": "n", "meaning": "giá giảm, giá ưu đãi", "family": "pricing", "variants": ["reduced price", "reduced prices"]},
-    {"word": "guidelines", "type": "n", "meaning": "hướng dẫn, quy định", "family": "policy", "variants": ["guideline", "guidelines"]},
-    {"word": "absence", "type": "n", "meaning": "sự vắng mặt", "family": "attendance", "variants": ["absence", "absences", "absent"]},
-    {"word": "firmly sealed", "type": "phr", "meaning": "được đóng kín chắc chắn", "family": "packaging", "variants": ["firmly sealed", "sealed firmly"]},
-    {"word": "vital", "type": "adj", "meaning": "rất quan trọng, thiết yếu", "family": "importance", "variants": ["vital"]},
-    {"word": "assess", "type": "v", "meaning": "đánh giá, thẩm định", "family": "evaluation", "variants": ["assess", "assesses", "assessed", "assessment"]},
-    {"word": "relocation", "type": "n", "meaning": "việc chuyển địa điểm/di dời", "family": "relocation", "variants": ["relocation", "relocate", "relocated"]},
-    {"word": "promptly", "type": "adv", "meaning": "nhanh chóng, ngay lập tức", "family": "speed", "variants": ["promptly"]},
-    {"word": "inspection", "type": "n", "meaning": "sự kiểm tra, thanh tra", "family": "quality", "variants": ["inspection", "inspections"]},
-    {"word": "agreement", "type": "n", "meaning": "thỏa thuận, hợp đồng", "family": "contract", "variants": ["agreement", "agreements"]},
-    {"word": "commuter", "type": "n", "meaning": "người đi làm hằng ngày", "family": "transportation", "variants": ["commuter", "commuters"]},
-    {"word": "floor space", "type": "n", "meaning": "diện tích mặt sàn", "family": "real_estate", "variants": ["floor space"]},
-    {"word": "compatible", "type": "adj", "meaning": "tương thích, phù hợp", "family": "technology", "variants": ["compatible", "compatibility"]},
-    {"word": "package", "type": "v/n", "meaning": "đóng gói; gói hàng", "family": "packaging", "variants": ["package", "packages", "packaging", "packaged"]},
-    {"word": "come across", "type": "phr", "meaning": "tình cờ gặp/tìm thấy", "family": "discovery", "variants": ["come across", "came across"]},
-    {"word": "anonymity", "type": "n", "meaning": "sự ẩn danh", "family": "privacy", "variants": ["anonymity", "anonymous"]},
-    {"word": "forum", "type": "n", "meaning": "diễn đàn, buổi thảo luận", "family": "communication", "variants": ["forum", "forums"]},
-    {"word": "shorthand", "type": "n", "meaning": "cách viết tắt, ký hiệu viết tắt", "family": "communication", "variants": ["shorthand"]},
-    {"word": "pantry", "type": "n", "meaning": "phòng/khu để đồ ăn, phòng ăn nhỏ", "family": "office", "variants": ["pantry", "pantries"]},
-    {"word": "current affairs", "type": "n", "meaning": "thời sự, các vấn đề hiện tại", "family": "media", "variants": ["current affairs"]},
-    {"word": "interviewee", "type": "n", "meaning": "người được phỏng vấn", "family": "interview", "variants": ["interviewee", "interviewees"]},
-    {"word": "backyard barbecue", "type": "n", "meaning": "tiệc nướng ở sân sau", "family": "event", "variants": ["backyard barbecue", "backyard barbecues"]},
-    {"word": "pool party", "type": "n", "meaning": "tiệc bên hồ bơi", "family": "event", "variants": ["pool party", "pool parties"]},
-    {"word": "model home", "type": "n", "meaning": "nhà mẫu", "family": "real_estate", "variants": ["model home", "model homes"]},
-    {"word": "stain removal", "type": "n", "meaning": "dịch vụ/việc tẩy vết bẩn", "family": "service", "variants": ["stain removal", "remove stains"]},
-    {"word": "complimentary", "type": "adj", "meaning": "miễn phí, được tặng kèm", "family": "pricing", "variants": ["complimentary"]},
-    {"word": "internship program", "type": "n", "meaning": "chương trình thực tập", "family": "recruitment", "variants": ["internship program", "internship"]},
-    {"word": "alumni", "type": "n", "meaning": "cựu sinh viên", "family": "education", "variants": ["alumni", "alumnus", "alumna"]},
-    {"word": "workshop", "type": "n", "meaning": "buổi hội thảo/lớp thực hành", "family": "training", "variants": ["workshop", "workshops"]},
-    {"word": "participant", "type": "n", "meaning": "người tham dự", "family": "event", "variants": ["participant", "participants"]},
-]
-
-
-# TOEIC paraphrase bank. These are intentionally synonyms / near-synonyms, not loose topic groups.
-# If a word is not listed here, the UI should show no synonym chips instead of guessing.
-SYNONYM_BANK = load_if("vocab-synonyms.json") or {}
-
-
-def synonym_key(word):
-    return clean_text(word).lower()
-
-
-def synonym_suggestions(item):
-    explicit = item.get("synonyms") or item.get("paraphrases")
-    if explicit:
-        vals = explicit if isinstance(explicit, list) else [explicit]
-    else:
-        vals = SYNONYM_BANK.get(synonym_key(item.get("word", "")), [])
-    out = []
-    word_l = synonym_key(item.get("word", ""))
-    for raw in vals:
-        w = clean_text(raw)
-        if not w or synonym_key(w) == word_l:
-            continue
-        if synonym_key(w) in {synonym_key(x) for x in out}:
-            continue
-        out.append(w)
-    return out[:6]
-
-
 def clean_text(s):
     return re.sub(r"\s+", " ", str(s or "")).strip()
 
@@ -395,6 +265,38 @@ def source_sentence(text, terms):
             return sent[:260]
     return text[:260]
 
+# ---- auto vocabulary from uploaded/custom tests ----
+# Keep this list curated. We only create cards for terms with a reviewed Vietnamese meaning,
+# so uploaded tests gain useful vocabulary without noisy token extraction.
+AUTO_VOCAB_BANK = load_if("vocab-auto-bank.json") or []
+
+
+# TOEIC paraphrase bank. These are intentionally synonyms / near-synonyms, not loose topic groups.
+# If a word is not listed here, the UI should show no synonym chips instead of guessing.
+SYNONYM_BANK = load_if("vocab-synonyms.json") or {}
+
+
+def synonym_key(word):
+    return clean_text(word).lower()
+
+
+def synonym_suggestions(item):
+    explicit = item.get("synonyms") or item.get("paraphrases")
+    if explicit:
+        vals = explicit if isinstance(explicit, list) else [explicit]
+    else:
+        vals = SYNONYM_BANK.get(synonym_key(item.get("word", "")), [])
+    out = []
+    seen = set()
+    word_l = synonym_key(item.get("word", ""))
+    for raw in vals:
+        w = clean_text(raw)
+        key = synonym_key(w)
+        if not w or key == word_l or key in seen:
+            continue
+        seen.add(key)
+        out.append(w)
+    return out[:6]
 
 def iter_vocab_sources(test):
     for part in test.get("parts", []):
