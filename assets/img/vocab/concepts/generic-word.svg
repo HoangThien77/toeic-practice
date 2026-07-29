@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vocabulary word concept">
+  <rect width="800" height="450" rx="28" fill="#f7fbff"/>
+  <rect x="104" y="86" width="592" height="278" rx="24" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <rect x="166" y="138" width="190" height="132" rx="20" fill="#eef4ff" stroke="#9db8f6" stroke-width="5"/>
+  <circle cx="261" cy="204" r="44" fill="#4770df"/>
+  <path d="M424 150h190M424 198h154M424 246h118" stroke="#66748d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M189 314h422" stroke="#e1e9f5" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="190" cy="314" r="16" fill="#45a267"/>
+  <circle cx="610" cy="314" r="16" fill="#d49a2c"/>
+</svg>

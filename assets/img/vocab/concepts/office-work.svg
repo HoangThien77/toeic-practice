@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Office desk and supplies">
+  <rect width="800" height="450" rx="28" fill="#f7faff"/>
+  <rect x="95" y="94" width="610" height="270" rx="24" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <rect x="136" y="245" width="330" height="86" rx="13" fill="#dfe9f6"/>
+  <rect x="151" y="260" width="300" height="22" rx="8" fill="#f9fbff"/>
+  <rect x="151" y="294" width="300" height="22" rx="8" fill="#f9fbff"/>
+  <circle cx="423" cy="272" r="7" fill="#88a3c4"/>
+  <circle cx="423" cy="306" r="7" fill="#88a3c4"/>
+  <rect x="500" y="150" width="92" height="130" rx="14" fill="#eff6ff" stroke="#9bb8f4" stroke-width="5"/>
+  <path d="M522 182h48M522 207h42M522 232h50" stroke="#4770df" stroke-width="10" stroke-linecap="round"/>
+  <path d="M164 200h220" stroke="#28344d" stroke-width="18" stroke-linecap="round"/>
+  <path d="M195 200v45M354 200v45" stroke="#28344d" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="638" cy="273" r="36" fill="#e7f5ec" stroke="#7cc490" stroke-width="5"/>
+  <path d="M638 239v68M608 273h60" stroke="#33945a" stroke-width="10" stroke-linecap="round"/>
+</svg>

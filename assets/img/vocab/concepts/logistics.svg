@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Delivery truck and packages">
+  <rect width="800" height="450" rx="28" fill="#f8fbff"/>
+  <rect x="96" y="96" width="608" height="258" rx="24" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <rect x="156" y="206" width="300" height="94" rx="18" fill="#4770df"/>
+  <rect x="456" y="232" width="142" height="68" rx="16" fill="#7fa2ff"/>
+  <path d="M490 232l42-52h38l28 52" fill="#9db8ff"/>
+  <rect x="180" y="126" width="96" height="80" rx="12" fill="#fff4db" stroke="#e2b85d" stroke-width="5"/>
+  <rect x="302" y="146" width="88" height="60" rx="10" fill="#e7f5ec" stroke="#7cc490" stroke-width="5"/>
+  <path d="M228 126v80M346 146v60" stroke="#d49a2c" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="228" cy="313" r="32" fill="#29364f"/>
+  <circle cx="228" cy="313" r="13" fill="#d9e3f3"/>
+  <circle cx="542" cy="313" r="32" fill="#29364f"/>
+  <circle cx="542" cy="313" r="13" fill="#d9e3f3"/>
+  <path d="M634 164h42M622 192h54M644 220h32" stroke="#91a2bf" stroke-width="12" stroke-linecap="round"/>
+</svg>

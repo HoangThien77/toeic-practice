@@ -1,0 +1,292 @@
+{
+  "availability": {
+    "img": "assets/img/vocab/concepts/availability.svg",
+    "alt": "Available products on a shelf.",
+    "caption": "Minh hoạ trạng thái có sẵn/còn hàng."
+  },
+  "office": {
+    "img": "assets/img/vocab/concepts/office-work.svg",
+    "alt": "Office desk, drawer, and supplies.",
+    "caption": "Minh hoạ bối cảnh văn phòng."
+  },
+  "marketing": {
+    "img": "assets/img/vocab/marketing-team.png",
+    "alt": "A marketing team planning a campaign together.",
+    "caption": "Minh hoạ nhóm marketing đang làm việc."
+  },
+  "research": {
+    "img": "assets/img/vocab/concepts/team-work.svg",
+    "alt": "A team reviewing research charts together.",
+    "caption": "Minh hoạ nhóm cùng nghiên cứu/thảo luận."
+  },
+  "presentation": {
+    "img": "assets/img/vocab/concepts/team-work.svg",
+    "alt": "A team discussing a presentation board.",
+    "caption": "Minh hoạ trình bày và trao đổi trong nhóm."
+  },
+  "communication": {
+    "img": "assets/img/vocab/concepts/team-work.svg",
+    "alt": "People exchanging ideas in a meeting.",
+    "caption": "Minh hoạ giao tiếp trong công việc."
+  },
+  "planning": {
+    "img": "assets/img/vocab/concepts/team-work.svg",
+    "alt": "A team planning work together.",
+    "caption": "Minh hoạ lập kế hoạch."
+  },
+  "business": {
+    "img": "assets/img/vocab/concepts/team-work.svg",
+    "alt": "Business team working together.",
+    "caption": "Minh hoạ bối cảnh kinh doanh."
+  },
+  "shipping": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Packages being shipped by truck.",
+    "caption": "Minh hoạ vận chuyển/gửi hàng."
+  },
+  "delivery": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Delivery truck with packages.",
+    "caption": "Minh hoạ giao hàng."
+  },
+  "transportation": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Transportation and delivery vehicle.",
+    "caption": "Minh hoạ di chuyển/vận tải."
+  },
+  "travel": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Travel and transportation route.",
+    "caption": "Minh hoạ đi lại/công tác."
+  },
+  "relocation": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Moving boxes and transport.",
+    "caption": "Minh hoạ chuyển địa điểm."
+  },
+  "packaging": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Packages prepared for shipment.",
+    "caption": "Minh hoạ đóng gói hàng hoá."
+  },
+  "finance": {
+    "img": "assets/img/vocab/concepts/finance-contract.svg",
+    "alt": "Finance paperwork and coins.",
+    "caption": "Minh hoạ tài chính/chi phí."
+  },
+  "pricing": {
+    "img": "assets/img/vocab/concepts/finance-contract.svg",
+    "alt": "Price and payment documents.",
+    "caption": "Minh hoạ giá cả/thanh toán."
+  },
+  "contract": {
+    "img": "assets/img/vocab/concepts/finance-contract.svg",
+    "alt": "Signed business document.",
+    "caption": "Minh hoạ hợp đồng/thỏa thuận."
+  },
+  "approval": {
+    "img": "assets/img/vocab/concepts/finance-contract.svg",
+    "alt": "Approved document with a check mark.",
+    "caption": "Minh hoạ phê duyệt/chấp thuận."
+  },
+  "quality": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Quality checklist and process gear.",
+    "caption": "Minh hoạ kiểm định chất lượng."
+  },
+  "technology": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Technology process and gear.",
+    "caption": "Minh hoạ công nghệ/quy trình."
+  },
+  "maintenance": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Maintenance and process check.",
+    "caption": "Minh hoạ bảo trì/kiểm tra."
+  },
+  "manufacturing": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Manufacturing quality process.",
+    "caption": "Minh hoạ sản xuất/quy trình."
+  },
+  "product": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Product and process check.",
+    "caption": "Minh hoạ sản phẩm/quy trình."
+  },
+  "process": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Process and quality check.",
+    "caption": "Minh hoạ quy trình xử lý."
+  },
+  "inspection": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Inspection checklist.",
+    "caption": "Minh hoạ kiểm tra/thanh tra."
+  },
+  "improvement": {
+    "img": "assets/img/vocab/concepts/quality-tech.svg",
+    "alt": "Improvement process chart.",
+    "caption": "Minh hoạ cải tiến."
+  },
+  "job": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Person learning from a training board.",
+    "caption": "Minh hoạ công việc/nghề nghiệp."
+  },
+  "recruitment": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Training board and candidate profile.",
+    "caption": "Minh hoạ tuyển dụng/đào tạo."
+  },
+  "training": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Training session.",
+    "caption": "Minh hoạ buổi đào tạo."
+  },
+  "education": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Learning and training material.",
+    "caption": "Minh hoạ học tập/đào tạo."
+  },
+  "application": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Application document and training board.",
+    "caption": "Minh hoạ hồ sơ/ứng tuyển."
+  },
+  "interview": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Interview and candidate document.",
+    "caption": "Minh hoạ phỏng vấn."
+  },
+  "evaluation": {
+    "img": "assets/img/vocab/concepts/career-training.svg",
+    "alt": "Evaluation and training checklist.",
+    "caption": "Minh hoạ đánh giá."
+  },
+  "event": {
+    "img": "assets/img/vocab/concepts/event-venue.svg",
+    "alt": "Event venue with a calendar.",
+    "caption": "Minh hoạ sự kiện."
+  },
+  "recognition": {
+    "img": "assets/img/vocab/concepts/event-venue.svg",
+    "alt": "Recognition event stage.",
+    "caption": "Minh hoạ trao giải/công nhận."
+  },
+  "visitor": {
+    "img": "assets/img/vocab/concepts/event-venue.svg",
+    "alt": "Visitors at an event venue.",
+    "caption": "Minh hoạ khách tham dự/tham quan."
+  },
+  "presence": {
+    "img": "assets/img/vocab/concepts/event-venue.svg",
+    "alt": "People attending an event.",
+    "caption": "Minh hoạ sự hiện diện/tham dự."
+  },
+  "real_estate": {
+    "img": "assets/img/vocab/concepts/place-service.svg",
+    "alt": "Business building and service counter.",
+    "caption": "Minh hoạ địa điểm/mặt bằng."
+  },
+  "branch": {
+    "img": "assets/img/vocab/concepts/place-service.svg",
+    "alt": "Business branch location.",
+    "caption": "Minh hoạ chi nhánh/địa điểm."
+  },
+  "service": {
+    "img": "assets/img/vocab/concepts/place-service.svg",
+    "alt": "Service counter in a business location.",
+    "caption": "Minh hoạ dịch vụ."
+  },
+  "customer": {
+    "img": "assets/img/vocab/concepts/place-service.svg",
+    "alt": "Customer service counter.",
+    "caption": "Minh hoạ khách hàng/dịch vụ."
+  },
+  "sales": {
+    "img": "assets/img/vocab/concepts/place-service.svg",
+    "alt": "Sales counter and business location.",
+    "caption": "Minh hoạ bán hàng/khách hàng."
+  },
+  "health": {
+    "img": "assets/img/vocab/concepts/health-service.svg",
+    "alt": "Health service and prescription.",
+    "caption": "Minh hoạ y tế/thuốc men."
+  },
+  "documentation": {
+    "img": "assets/img/vocab/concepts/generic-phrase.svg",
+    "alt": "Documented instructions and phrase cards.",
+    "caption": "Minh hoạ tài liệu/hướng dẫn."
+  },
+  "policy": {
+    "img": "assets/img/vocab/concepts/generic-phrase.svg",
+    "alt": "Policy and instruction cards.",
+    "caption": "Minh hoạ quy định/hướng dẫn."
+  },
+  "requirement": {
+    "img": "assets/img/vocab/concepts/generic-phrase.svg",
+    "alt": "Requirement cards connected together.",
+    "caption": "Minh hoạ yêu cầu/điều kiện."
+  },
+  "sample": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Sample object card.",
+    "caption": "Minh hoạ mẫu/ví dụ."
+  },
+  "design": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Design concept card.",
+    "caption": "Minh hoạ thiết kế."
+  },
+  "media": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Media concept card.",
+    "caption": "Minh hoạ truyền thông/nội dung."
+  },
+  "priority": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Priority concept card.",
+    "caption": "Minh hoạ sự ưu tiên."
+  },
+  "importance": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Important concept card.",
+    "caption": "Minh hoạ mức độ quan trọng."
+  },
+  "attendance": {
+    "img": "assets/img/vocab/concepts/event-venue.svg",
+    "alt": "Attendance at an event.",
+    "caption": "Minh hoạ tham dự/vắng mặt."
+  },
+  "privacy": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Privacy concept card.",
+    "caption": "Minh hoạ quyền riêng tư/ẩn danh."
+  },
+  "speed": {
+    "img": "assets/img/vocab/concepts/logistics.svg",
+    "alt": "Fast delivery route.",
+    "caption": "Minh hoạ tốc độ/xử lý nhanh."
+  },
+  "discovery": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Discovery concept card.",
+    "caption": "Minh hoạ phát hiện/tìm thấy."
+  },
+  "word": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "Vocabulary word illustration.",
+    "caption": "Minh hoạ từ vựng."
+  },
+  "phrase": {
+    "img": "assets/img/vocab/concepts/generic-phrase.svg",
+    "alt": "Vocabulary phrase illustration.",
+    "caption": "Minh hoạ cụm từ/collocation."
+  },
+  "general": {
+    "img": "assets/img/vocab/concepts/generic-word.svg",
+    "alt": "General vocabulary illustration.",
+    "caption": "Minh hoạ từ vựng TOEIC."
+  }
+}

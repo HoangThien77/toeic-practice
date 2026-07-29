@@ -275,6 +275,7 @@ AUTO_VOCAB_BANK = load_if("vocab-auto-bank.json") or []
 # If a word is not listed here, the UI should show no synonym chips instead of guessing.
 SYNONYM_BANK = load_if("vocab-synonyms.json") or {}
 VOCAB_VISUALS = load_if("vocab-visuals.json") or {}
+VOCAB_VISUAL_FAMILIES = load_if("vocab-visual-families.json") or {}
 
 
 def synonym_key(word):
@@ -298,6 +299,26 @@ def synonym_suggestions(item):
         seen.add(key)
         out.append(w)
     return out[:6]
+
+
+def visual_for_item(item):
+    visual = VOCAB_VISUALS.get(synonym_key(item.get("word", "")))
+    if visual:
+        return dict(visual)
+    family_key = synonym_key(item.get("family", ""))
+    if family_key in VOCAB_VISUAL_FAMILIES:
+        visual = dict(VOCAB_VISUAL_FAMILIES[family_key])
+        visual["fallback"] = True
+        return visual
+    study_key = synonym_key(item.get("studyMode", "word"))
+    if study_key in VOCAB_VISUAL_FAMILIES:
+        visual = dict(VOCAB_VISUAL_FAMILIES[study_key])
+        visual["fallback"] = True
+        return visual
+    visual = dict(VOCAB_VISUAL_FAMILIES.get("general", {}))
+    if visual:
+        visual["fallback"] = True
+    return visual
 
 def iter_vocab_sources(test):
     for part in test.get("parts", []):
@@ -382,9 +403,9 @@ def enrich_vocab_items(items):
         item["synonyms"] = synonyms
         # Keep the old field name for UI/backward compatibility, but its meaning is now paraphrase/synonym.
         item["related"] = synonyms
-        visual = VOCAB_VISUALS.get(synonym_key(item.get("word", "")))
+        visual = visual_for_item(item)
         if visual:
-            item["visual"] = dict(visual)
+            item["visual"] = visual
         deduped.append(item)
     for i, item in enumerate(deduped):
         item["id"] = f"w{i}"

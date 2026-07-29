@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Business location and service counter">
+  <rect width="800" height="450" rx="28" fill="#f8fbff"/>
+  <rect x="96" y="80" width="608" height="292" rx="24" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <path d="M176 184l224-88 224 88v156H176z" fill="#eef4ff" stroke="#9db8f6" stroke-width="6"/>
+  <rect x="250" y="222" width="118" height="118" rx="12" fill="#fff"/>
+  <rect x="432" y="222" width="118" height="118" rx="12" fill="#fff"/>
+  <path d="M400 96v244" stroke="#4770df" stroke-width="12" stroke-linecap="round"/>
+  <rect x="210" y="340" width="380" height="28" rx="14" fill="#e7f5ec"/>
+  <path d="M286 160h228" stroke="#29364f" stroke-width="16" stroke-linecap="round"/>
+</svg>

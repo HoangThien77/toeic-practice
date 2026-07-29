@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Available items on a shelf">
+  <rect width="800" height="450" rx="28" fill="#f6fbff"/>
+  <rect x="88" y="82" width="624" height="282" rx="22" fill="#ffffff" stroke="#d6e2f2" stroke-width="5"/>
+  <rect x="136" y="150" width="528" height="18" rx="9" fill="#d8e6f7"/>
+  <rect x="136" y="265" width="528" height="18" rx="9" fill="#d8e6f7"/>
+  <rect x="162" y="188" width="110" height="77" rx="13" fill="#e7f5ec" stroke="#82c99a" stroke-width="5"/>
+  <path d="M190 227l20 20 42-48" fill="none" stroke="#33945a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="338" y="187" width="116" height="78" rx="13" fill="#eef4ff" stroke="#9db8f6" stroke-width="5"/>
+  <path d="M366 219h60M366 239h42" stroke="#4770df" stroke-width="11" stroke-linecap="round"/>
+  <rect x="516" y="187" width="116" height="78" rx="13" fill="#fff6e6" stroke="#efbf67" stroke-width="5"/>
+  <circle cx="554" cy="226" r="15" fill="#d49a2c"/>
+  <circle cx="590" cy="226" r="15" fill="#d49a2c"/>
+  <rect x="185" y="306" width="430" height="36" rx="18" fill="#e7f5ec"/>
+  <circle cx="221" cy="324" r="12" fill="#45a267"/>
+  <path d="M214 324l6 6 12-15" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

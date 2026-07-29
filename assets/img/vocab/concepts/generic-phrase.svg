@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Vocabulary phrase concept">
+  <rect width="800" height="450" rx="28" fill="#f8fbff"/>
+  <rect x="96" y="78" width="608" height="294" rx="24" fill="#fff" stroke="#d7e2f0" stroke-width="5"/>
+  <rect x="154" y="132" width="220" height="76" rx="38" fill="#eef4ff" stroke="#9db8f6" stroke-width="5"/>
+  <rect x="426" y="132" width="220" height="76" rx="38" fill="#e7f5ec" stroke="#7cc490" stroke-width="5"/>
+  <rect x="212" y="242" width="376" height="76" rx="38" fill="#fff4db" stroke="#e2b85d" stroke-width="5"/>
+  <path d="M198 170h132M470 170h132M276 280h248" stroke="#66748d" stroke-width="13" stroke-linecap="round"/>
+  <path d="M374 170h52M400 208v34" stroke="#4770df" stroke-width="10" stroke-linecap="round"/>
+</svg>

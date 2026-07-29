@@ -1437,7 +1437,9 @@
     return null;
   }
   function vocabVisual(v) {
-    return v && v.visual && v.visual.img ? v.visual : vocabSourceVisual(v);
+    const visual = v && v.visual && v.visual.img ? v.visual : null;
+    if (visual && !visual.fallback) return visual;
+    return vocabSourceVisual(v) || visual;
   }
   function vocabDue() {
     const srs = vocabSrs();
