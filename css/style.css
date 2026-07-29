@@ -650,7 +650,7 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .fc-actions { display: flex; gap: 12px; justify-content: center; margin-top: 18px; }
 .fc-actions .btn { min-width: 140px; }
 
-.vocab-video { max-width: 1120px; margin: 0 auto; }
+.vocab-video { max-width: 1280px; margin: 0 auto; }
 .vv-top {
   display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
   margin-bottom: 18px;
@@ -671,13 +671,13 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
   display: flex; flex-direction: column; justify-content: center; gap: 14px;
 }
 .vv-card.has-visual {
-  width: min(980px, 100%); display: grid; grid-template-columns: minmax(280px, .95fr) minmax(0, 1.05fr);
+  width: min(1120px, 100%); display: grid; grid-template-columns: minmax(360px, 1.08fr) minmax(0, .92fr);
   align-items: center; gap: 28px;
 }
 .vv-copy { display: flex; flex-direction: column; justify-content: center; gap: 14px; min-width: 0; }
 .vv-visual { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .vv-visual img {
-  width: 100%; max-height: 360px; object-fit: contain;
+  width: 100%; max-height: 430px; object-fit: contain;
   border: 1px solid var(--line); border-radius: 14px; background: #fff;
 }
 .vv-visual-caption { color: var(--muted); font-size: 13px; font-weight: 700; text-align: center; }

@@ -3,5 +3,10 @@
     "img": "assets/img/vocab/office-supplies-box.svg",
     "alt": "Office supplies are being put into a box.",
     "caption": "Văn phòng phẩm đang được xếp vào một chiếc hộp."
+  },
+  "marketing team": {
+    "img": "assets/img/vocab/marketing-team.png",
+    "alt": "A marketing team planning a campaign together in an office.",
+    "caption": "Nhóm marketing đang cùng lập kế hoạch chiến dịch."
   }
 }

@@ -1434,12 +1434,6 @@
     if (ref.q.image && matchesAnswerImage) {
       return { img: ref.q.image, alt: v.example || v.word, caption: "Ảnh gốc trong đề khớp với câu ví dụ." };
     }
-    if (ref.item.graphicImg) {
-      return { img: ref.item.graphicImg, alt: "Graphic context", caption: "Biểu đồ/ngữ cảnh gốc trong đề." };
-    }
-    if (ref.item.img && ref.test.kind === "reading") {
-      return { img: ref.item.img, alt: "Reading passage context", caption: "Ảnh ngữ cảnh bài đọc trong đề." };
-    }
     return null;
   }
   function vocabVisual(v) {
