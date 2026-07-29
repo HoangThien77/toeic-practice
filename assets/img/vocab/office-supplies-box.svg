@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Office supplies being put into a box</title>
+  <desc id="desc">A clean illustration of pens, sticky notes, folders, paper clips, and notebooks placed inside an open cardboard box.</desc>
+  <rect width="960" height="560" fill="#f4f7fc"/>
+  <rect x="96" y="80" width="768" height="400" rx="28" fill="#ffffff" stroke="#d9e2f1" stroke-width="4"/>
+  <ellipse cx="480" cy="424" rx="290" ry="44" fill="#dfe7f4"/>
+  <path d="M260 240h440l-54 188H314z" fill="#d59b52" stroke="#9b642c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M260 240l-82-70h220l82 70z" fill="#f0bd74" stroke="#9b642c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M700 240l82-70H562l-82 70z" fill="#efb267" stroke="#9b642c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M314 428h332l54-188H260z" fill="#c98538" opacity=".18"/>
+  <rect x="334" y="114" width="124" height="166" rx="10" fill="#2f6fed" transform="rotate(-9 396 197)"/>
+  <rect x="354" y="139" width="84" height="20" rx="5" fill="#dce8ff" transform="rotate(-9 396 149)"/>
+  <rect x="354" y="174" width="70" height="10" rx="5" fill="#dce8ff" transform="rotate(-9 389 179)"/>
+  <rect x="510" y="112" width="128" height="170" rx="10" fill="#27a766" transform="rotate(8 574 197)"/>
+  <rect x="532" y="139" width="84" height="20" rx="5" fill="#e7f8ef" transform="rotate(8 574 149)"/>
+  <rect x="532" y="176" width="74" height="10" rx="5" fill="#e7f8ef" transform="rotate(8 569 181)"/>
+  <rect x="418" y="102" width="116" height="156" rx="10" fill="#f6b23c"/>
+  <rect x="440" y="128" width="72" height="18" rx="5" fill="#fff2cf"/>
+  <rect x="440" y="164" width="62" height="10" rx="5" fill="#fff2cf"/>
+  <rect x="606" y="188" width="32" height="170" rx="16" fill="#233044" transform="rotate(17 622 273)"/>
+  <rect x="606" y="188" width="32" height="36" rx="16" fill="#f4dfb9" transform="rotate(17 622 206)"/>
+  <rect x="656" y="190" width="30" height="154" rx="15" fill="#d94a4a" transform="rotate(26 671 267)"/>
+  <rect x="656" y="190" width="30" height="34" rx="15" fill="#f4dfb9" transform="rotate(26 671 207)"/>
+  <rect x="278" y="186" width="34" height="168" rx="17" fill="#5c6b82" transform="rotate(-20 295 270)"/>
+  <rect x="278" y="186" width="34" height="36" rx="17" fill="#f4dfb9" transform="rotate(-20 295 204)"/>
+  <rect x="386" y="278" width="158" height="106" rx="12" fill="#fff6c7" stroke="#e1c45a" stroke-width="5"/>
+  <line x1="414" y1="314" x2="516" y2="314" stroke="#c8ad43" stroke-width="7" stroke-linecap="round"/>
+  <line x1="414" y1="342" x2="496" y2="342" stroke="#c8ad43" stroke-width="7" stroke-linecap="round"/>
+  <path d="M570 324c18-32 62-32 82 0 18 30-8 64-40 66-31-2-58-36-42-66z" fill="none" stroke="#2f6fed" stroke-width="10" stroke-linecap="round"/>
+  <path d="M622 324c18-32 62-32 82 0 18 30-8 64-40 66-31-2-58-36-42-66z" fill="none" stroke="#2f6fed" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="238" cy="310" r="20" fill="#f3f6fb" stroke="#9cabbd" stroke-width="7"/>
+  <circle cx="262" cy="338" r="20" fill="#f3f6fb" stroke="#9cabbd" stroke-width="7"/>
+  <circle cx="286" cy="366" r="20" fill="#f3f6fb" stroke="#9cabbd" stroke-width="7"/>
+  <text x="480" y="514" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#1a2333">Office supplies are being put into a box.</text>
+</svg>

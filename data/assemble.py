@@ -274,6 +274,7 @@ AUTO_VOCAB_BANK = load_if("vocab-auto-bank.json") or []
 # TOEIC paraphrase bank. These are intentionally synonyms / near-synonyms, not loose topic groups.
 # If a word is not listed here, the UI should show no synonym chips instead of guessing.
 SYNONYM_BANK = load_if("vocab-synonyms.json") or {}
+VOCAB_VISUALS = load_if("vocab-visuals.json") or {}
 
 
 def synonym_key(word):
@@ -381,6 +382,9 @@ def enrich_vocab_items(items):
         item["synonyms"] = synonyms
         # Keep the old field name for UI/backward compatibility, but its meaning is now paraphrase/synonym.
         item["related"] = synonyms
+        visual = VOCAB_VISUALS.get(synonym_key(item.get("word", "")))
+        if visual:
+            item["visual"] = dict(visual)
         deduped.append(item)
     for i, item in enumerate(deduped):
         item["id"] = f"w{i}"

@@ -670,6 +670,17 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
   box-shadow: 0 20px 60px rgba(28,42,76,.12);
   display: flex; flex-direction: column; justify-content: center; gap: 14px;
 }
+.vv-card.has-visual {
+  width: min(980px, 100%); display: grid; grid-template-columns: minmax(280px, .95fr) minmax(0, 1.05fr);
+  align-items: center; gap: 28px;
+}
+.vv-copy { display: flex; flex-direction: column; justify-content: center; gap: 14px; min-width: 0; }
+.vv-visual { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.vv-visual img {
+  width: 100%; max-height: 360px; object-fit: contain;
+  border: 1px solid var(--line); border-radius: 14px; background: #fff;
+}
+.vv-visual-caption { color: var(--muted); font-size: 13px; font-weight: 700; text-align: center; }
 .vv-word-row { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
 .vv-word {
   max-width: 100%; overflow-wrap: anywhere;
@@ -1149,6 +1160,8 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .vv-top .btn { width: 100%; }
   .vv-stage { min-height: 430px; padding: 14px; }
   .vv-card { min-height: 330px; padding: 26px 18px; }
+  .vv-card.has-visual { grid-template-columns: 1fr; gap: 18px; }
+  .vv-visual img { max-height: 240px; }
   .vv-word { font-size: 42px; }
   .vv-meaning { font-size: 24px; }
   .vv-example { font-size: 16.5px; }

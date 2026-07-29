@@ -72,3 +72,5 @@ Muốn sửa đáp án/giải thích: sửa JSON trong `data/source/` hoặc `da
 Muốn thêm/sửa nhóm đồng nghĩa cho sổ từ: sửa `data/source/vocab-synonyms.json`, sau đó chạy lại `python3 data/assemble.py`.
 
 Muốn thêm/sửa danh sách từ vựng tự nhận diện từ các đề upload: sửa `data/source/vocab-auto-bank.json`, sau đó chạy lại `python3 data/assemble.py`.
+
+Muốn thêm/sửa ảnh minh hoạ cho video học từ vựng: thêm asset vào `assets/img/vocab/`, khai báo trong `data/source/vocab-visuals.json`, sau đó chạy lại `python3 data/assemble.py`.

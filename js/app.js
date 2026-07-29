@@ -1425,6 +1425,26 @@
     const title = v.testTitle || (v.testId && D.tests[v.testId] ? D.tests[v.testId].title : v.testId) || "TOEIC Practice";
     return `${title}${v.firstQ ? ` · câu ${v.firstQ}` : ""}`;
   }
+  function vocabSourceVisual(v) {
+    const ref = v && v.testId && v.firstQ ? findSourceQuestion(v.testId, v.firstQ) : null;
+    if (!ref) return null;
+    const example = normText(v.example || "");
+    const spoken = ref.q.spoken && ref.q.spoken.choices ? ref.q.spoken.choices[ref.q.answer] : "";
+    const matchesAnswerImage = example && spoken && normText(spoken) === example;
+    if (ref.q.image && matchesAnswerImage) {
+      return { img: ref.q.image, alt: v.example || v.word, caption: "Ảnh gốc trong đề khớp với câu ví dụ." };
+    }
+    if (ref.item.graphicImg) {
+      return { img: ref.item.graphicImg, alt: "Graphic context", caption: "Biểu đồ/ngữ cảnh gốc trong đề." };
+    }
+    if (ref.item.img && ref.test.kind === "reading") {
+      return { img: ref.item.img, alt: "Reading passage context", caption: "Ảnh ngữ cảnh bài đọc trong đề." };
+    }
+    return null;
+  }
+  function vocabVisual(v) {
+    return v && v.visual && v.visual.img ? v.visual : vocabSourceVisual(v);
+  }
   function vocabDue() {
     const srs = vocabSrs();
     const now = Date.now();
@@ -1721,6 +1741,11 @@
     const pct = Math.round(((vocabVideoIdx + 1) / vocabVideoQueue.length) * 100);
     const playLabel = vocabVideoPlaying ? "Tạm dừng" : "Tiếp tục";
     const contextBtn = v.audio ? `<button class="btn" onclick="App.playVocabVideoContext('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}<span>Nghe trong đề</span></button>` : "";
+    const visual = vocabVisual(v);
+    const visualHtml = visual ? `<div class="vv-visual">
+        <img src="${esc(visual.img)}" alt="${esc(visual.alt || v.word)}" loading="eager">
+        ${visual.caption ? `<div class="vv-visual-caption">${esc(visual.caption)}</div>` : ""}
+      </div>` : "";
     screen.innerHTML = `
       <div class="vocab-video">
         <div class="vv-top">
@@ -1733,16 +1758,19 @@
         </div>
 
         <div class="vv-stage">
-          <div class="vv-card">
-            <div class="vv-word-row">
-              <div class="vv-word">${esc(v.word)}</div>
-              <button class="btn btn-round" title="Phát âm từ/cụm này" onclick="App.speakVocab(decodeURIComponent('${wordArg}'))">${ICONS.sound}</button>
+          <div class="vv-card ${visual ? "has-visual" : ""}">
+            ${visualHtml}
+            <div class="vv-copy">
+              <div class="vv-word-row">
+                <div class="vv-word">${esc(v.word)}</div>
+                <button class="btn btn-round" title="Phát âm từ/cụm này" onclick="App.speakVocab(decodeURIComponent('${wordArg}'))">${ICONS.sound}</button>
+              </div>
+              <div class="vv-meaning">${esc(v.meaning)}</div>
+              ${v.example ? `<div class="vv-example">"${esc(v.example)}"</div>` : ""}
+              ${v.exampleVi ? `<div class="vv-example-vi">→ ${esc(v.exampleVi)}</div>` : ""}
+              ${chips ? `<div class="vv-synonyms"><span>Đồng nghĩa/gần nghĩa</span>${chips}</div>` : ""}
+              <div class="vv-source">${esc(vocabSourceLabel(v))}</div>
             </div>
-            <div class="vv-meaning">${esc(v.meaning)}</div>
-            ${v.example ? `<div class="vv-example">"${esc(v.example)}"</div>` : ""}
-            ${v.exampleVi ? `<div class="vv-example-vi">→ ${esc(v.exampleVi)}</div>` : ""}
-            ${chips ? `<div class="vv-synonyms"><span>Đồng nghĩa/gần nghĩa</span>${chips}</div>` : ""}
-            <div class="vv-source">${esc(vocabSourceLabel(v))}</div>
           </div>
         </div>
 
