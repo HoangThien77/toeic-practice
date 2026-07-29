@@ -418,6 +418,7 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .vp-due { color: var(--amber); font-weight: 700; }
 .vp-bar { height: 6px; border-radius: 3px; background: #edf0f7; overflow: hidden; }
 .vp-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width .3s; }
+.vp-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
 .badge-red { background: var(--red-soft); color: var(--red); }
 .stat-wrong .sv { color: var(--red); }
@@ -648,6 +649,49 @@ footer.appfoot { text-align: center; color: var(--muted); font-size: 12.5px; mar
 .fc-exvi { color: #1c5c38; font-size: 14px; margin-top: 4px; }
 .fc-actions { display: flex; gap: 12px; justify-content: center; margin-top: 18px; }
 .fc-actions .btn { min-width: 140px; }
+
+.vocab-video { max-width: 1120px; margin: 0 auto; }
+.vv-top {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+  margin-bottom: 18px;
+}
+.vv-kicker { color: var(--muted); font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; }
+.vv-top h1 { font-size: 34px; letter-spacing: 0; line-height: 1.1; margin: 4px 0; }
+.vv-meta { color: var(--muted); font-size: 14px; font-weight: 700; }
+.vv-stage {
+  min-height: 520px; border-radius: 18px; padding: 28px;
+  background: linear-gradient(135deg, #eef4ff 0%, #f8fafc 46%, #edf8f1 100%);
+  border: 1px solid var(--line); box-shadow: var(--shadow);
+  display: flex; align-items: center; justify-content: center;
+}
+.vv-card {
+  width: min(820px, 100%); min-height: 390px; background: rgba(255,255,255,.94);
+  border: 1px solid rgba(210,220,238,.9); border-radius: 18px; padding: 38px;
+  box-shadow: 0 20px 60px rgba(28,42,76,.12);
+  display: flex; flex-direction: column; justify-content: center; gap: 14px;
+}
+.vv-word-row { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
+.vv-word {
+  max-width: 100%; overflow-wrap: anywhere;
+  font-size: 72px; line-height: 1; font-weight: 900; letter-spacing: 0; text-align: center;
+}
+.vv-meaning { font-size: 32px; line-height: 1.25; color: #153f2a; font-weight: 850; text-align: center; }
+.vv-example { color: #3e4a61; font-style: italic; font-size: 20px; line-height: 1.45; text-align: center; }
+.vv-example-vi { color: #1c5c38; font-size: 18px; line-height: 1.45; text-align: center; }
+.vv-synonyms { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; margin-top: 2px; }
+.vv-synonyms span:first-child {
+  color: var(--accent); background: var(--accent-soft); border: 1px solid #cfe0ff;
+  border-radius: 999px; padding: 6px 10px; font-weight: 850; font-size: 13px;
+}
+.vv-chip {
+  border: 1px solid #d9e2f1; background: #fff; color: #4b5870;
+  border-radius: 999px; padding: 6px 12px; font-weight: 800; font-size: 15px;
+}
+.vv-source { color: var(--muted); font-size: 13px; text-align: center; margin-top: 4px; }
+.vv-controls { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin: 18px 0 12px; }
+.vv-progress { max-width: 720px; margin: 0 auto; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: center; color: var(--muted); font-weight: 800; font-size: 13px; }
+.vv-progress-track { height: 8px; background: #e6ebf4; border-radius: 999px; overflow: hidden; }
+.vv-progress-track div { height: 100%; background: var(--accent); border-radius: inherit; transition: width .25s ease; }
 
 /* ---------- Mode cards (thi thật / luyện thi) ---------- */
 .mode-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
@@ -1099,4 +1143,16 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .vocab-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .vocab-filterbar { grid-template-columns: 1fr; }
   .vocab-toolbar .btn { flex: 1; min-width: 140px; }
+  .vp-actions { width: 100%; }
+  .vp-actions .btn { flex: 1; min-width: 140px; }
+  .vv-top { flex-direction: column; }
+  .vv-top .btn { width: 100%; }
+  .vv-stage { min-height: 430px; padding: 14px; }
+  .vv-card { min-height: 330px; padding: 26px 18px; }
+  .vv-word { font-size: 42px; }
+  .vv-meaning { font-size: 24px; }
+  .vv-example { font-size: 16.5px; }
+  .vv-example-vi { font-size: 15.5px; }
+  .vv-controls .btn { flex: 1 1 44%; min-width: 140px; }
+  .vv-progress { grid-template-columns: 1fr; }
 }

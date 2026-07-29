@@ -1030,6 +1030,7 @@
   /* ---------------- views ---------------- */
   function goHome() {
     if (state.view === "runner" && !state.finished && !state.keyOnly) clearActiveDraft();
+    stopVocabVideo();
     stopTimer(); audioEl.pause(); showDock(false);
     screen.classList.remove("wide");
     document.body.classList.remove("has-mbar");
@@ -1377,7 +1378,10 @@
             <div class="vp-line"><b>${learned}/${vocab.length}</b> từ đã thuộc${due ? ` · <span class="vp-due">${due} từ đến hạn ôn hôm nay</span>` : " · hôm nay không có từ đến hạn"}</div>
             <div class="vp-bar"><div class="vp-fill" style="width:${vocabPct}%"></div></div>
           </div>
-          <button class="btn btn-primary" onclick="App.startFlashcards()">Ôn flashcard</button>
+          <div class="vp-actions">
+            <button class="btn btn-primary" onclick="App.startVocabVideo('${due ? "due" : "mixed"}')">Video học</button>
+            <button class="btn" onclick="App.startFlashcards()">Ôn flashcard</button>
+          </div>
         </div>
       </section>
 
@@ -1462,6 +1466,25 @@
       due: vocabDue().length,
     };
   }
+  function buildVocabStudyQueue(mode, filter, limit, query) {
+    const vocab = D.vocab || [];
+    const srs = vocabSrs();
+    const now = Date.now();
+    mode = mode || "mixed";
+    let pool = vocab;
+    if (mode === "one") pool = vocab.filter((v) => v.id === filter);
+    else if (mode === "phrase") pool = vocab.filter((v) => vocabKind(v) === "phrase");
+    else if (mode === "word") pool = vocab.filter((v) => vocabKind(v) === "word");
+    else if (mode === "uploaded") pool = vocab.filter((v) => v.custom);
+    else if (mode === "due") pool = vocab.filter((v) => srs[v.id] && srs[v.id].due <= now);
+    else if (mode === "filter" && filter) pool = vocabFiltered(filter, query || "");
+    else if (filter) pool = vocabFiltered(filter, query || "");
+    const due = pool.filter((v) => srs[v.id] && srs[v.id].due <= now);
+    const fresh = pool.filter((v) => !srs[v.id]);
+    const rest = pool.filter((v) => srs[v.id] && srs[v.id].due > now);
+    const ordered = mode === "due" ? due : [...due, ...fresh, ...rest];
+    return typeof limit === "number" ? ordered.slice(0, limit) : ordered;
+  }
   function renderRelatedChips(v) {
     const words = (v.synonyms || v.related || []).filter(Boolean).slice(0, 6);
     if (!words.length) return "";
@@ -1495,6 +1518,7 @@
   }
 
   function goVocab(tab, filter, query) {
+    stopVocabVideo();
     state.view = "vocab";
     document.body.classList.remove("has-mbar");
     screen.classList.remove("wide");
@@ -1518,6 +1542,7 @@
       ["due", `Cần ôn (${stats.due})`],
     ].map(([k, label]) => `<button class="tchip ${filter === k ? "selected" : ""}" onclick="App.goVocab('list','${k}', document.getElementById('vocab-search') ? document.getElementById('vocab-search').value : '')">${label}</button>`).join("");
     const famLabel = filter.startsWith("family:") ? `<span class="badge badge-blue">Nhóm: ${esc(filter.slice(7))}</span>` : "";
+    const filterArg = encodeURIComponent(filter);
     screen.innerHTML = `
       <div class="hero vocab-hero"><h1>Sổ từ vựng TOEIC</h1>
         <p>${stats.total} từ/cụm từ lấy từ bộ đề của bạn, gồm ${stats.uploaded} mục sinh từ đề upload. Nên học theo cụm trước để nhớ nghĩa trong ngữ cảnh, sau đó ôn từ đơn bằng SRS.</p>
@@ -1529,10 +1554,12 @@
         <div class="stat-box"><div class="v">${stats.learned}</div><div class="k">đã thuộc</div></div>
       </div>
       <div class="vocab-toolbar">
+        <button class="btn btn-primary" onclick="App.startVocabVideo('filter', decodeURIComponent('${filterArg}'), document.getElementById('vocab-search') ? document.getElementById('vocab-search').value : '')">Video học mục đang xem</button>
         <button class="btn btn-primary" onclick="App.startFlashcards('due')">Ôn đến hạn${stats.due ? ` · ${stats.due}` : ""}</button>
         <button class="btn" onclick="App.startFlashcards('phrase')">Học cụm</button>
         <button class="btn" onclick="App.startFlashcards('word')">Học từ đơn</button>
         <button class="btn" onclick="App.startFlashcards('uploaded')">Từ đề upload</button>
+        <button class="btn" onclick="App.startVocabVideo('uploaded')">Video đề upload</button>
         <button class="btn" onclick="App.goHome()">Trang chủ</button>
       </div>
       <div class="vocab-filterbar">
@@ -1565,22 +1592,10 @@
   let fcQueue = [], fcIdx = 0, fcShown = false, fcMode = "mixed";
 
   function startFlashcards(mode, filter) {
-    const vocab = D.vocab || [];
-    const srs = vocabSrs();
-    const now = Date.now();
+    stopVocabVideo();
     mode = mode || "mixed";
     fcMode = mode;
-    let pool = vocab;
-    if (mode === "one") pool = vocab.filter((v) => v.id === filter);
-    else if (mode === "phrase") pool = vocab.filter((v) => vocabKind(v) === "phrase");
-    else if (mode === "word") pool = vocab.filter((v) => vocabKind(v) === "word");
-    else if (mode === "uploaded") pool = vocab.filter((v) => v.custom);
-    else if (mode === "due") pool = vocab.filter((v) => srs[v.id] && srs[v.id].due <= now);
-    else if (filter) pool = vocabFiltered(filter, "");
-    const due = pool.filter((v) => srs[v.id] && srs[v.id].due <= now);
-    const fresh = pool.filter((v) => !srs[v.id]);
-    const rest = pool.filter((v) => srs[v.id] && srs[v.id].due > now);
-    fcQueue = (mode === "due" ? due : [...due, ...fresh, ...rest]).slice(0, mode === "one" ? 1 : 24);
+    fcQueue = buildVocabStudyQueue(mode, filter, mode === "one" ? 1 : 24);
     fcIdx = 0;
     renderFlashcard();
   }
@@ -1642,6 +1657,143 @@
     saveVocabSrs(srs);
     fcIdx++;
     renderFlashcard();
+  }
+
+  let vocabVideoQueue = [], vocabVideoIdx = 0, vocabVideoPlaying = false, vocabVideoMode = "mixed", vocabVideoTimer = null;
+  const VOCAB_VIDEO_CONFIG = {
+    delayMs: 5600,
+    maxItems: 48,
+    speechDelayMs: 120,
+  };
+
+  function clearVocabVideoTimer() {
+    clearTimeout(vocabVideoTimer);
+    vocabVideoTimer = null;
+  }
+
+  function stopVocabVideo() {
+    clearVocabVideoTimer();
+    vocabVideoPlaying = false;
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+  }
+
+  function scheduleVocabVideo() {
+    clearVocabVideoTimer();
+    if (!vocabVideoPlaying || !vocabVideoQueue.length) return;
+    vocabVideoTimer = setTimeout(() => vocabVideoNext(true), VOCAB_VIDEO_CONFIG.delayMs);
+  }
+
+  function vocabVideoTitle(mode) {
+    if (mode === "due") return "Từ đến hạn";
+    if (mode === "phrase") return "Cụm/collocation";
+    if (mode === "word") return "Từ đơn";
+    if (mode === "uploaded") return "Từ đề upload";
+    return "Sổ từ vựng";
+  }
+
+  function startVocabVideo(mode, filter, query) {
+    stopVocabVideo();
+    mode = mode || "mixed";
+    vocabVideoMode = mode;
+    vocabVideoQueue = buildVocabStudyQueue(mode, filter, mode === "one" ? 1 : VOCAB_VIDEO_CONFIG.maxItems, query);
+    vocabVideoIdx = 0;
+    vocabVideoPlaying = !!vocabVideoQueue.length;
+    renderVocabVideo(true);
+  }
+
+  function renderVocabVideo(autoSpeak) {
+    state.view = "vocab-video";
+    document.body.classList.remove("has-mbar");
+    screen.classList.add("wide");
+    $("#btn-exit").classList.add("hidden");
+    if (!vocabVideoQueue.length) {
+      screen.innerHTML = `<div class="hero" style="text-align:center"><h1>Chưa có từ để chạy video</h1>
+        <p>Nhóm này chưa có từ phù hợp. Bạn có thể quay lại sổ từ và chọn nhóm khác.</p></div>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap">
+          <button class="btn btn-primary" onclick="App.goVocab()">Về sổ từ</button>
+        </div>`;
+      return;
+    }
+    const v = vocabVideoQueue[vocabVideoIdx];
+    const wordArg = encodeURIComponent(v.word || "");
+    const related = (v.synonyms || v.related || []).filter(Boolean).slice(0, 5);
+    const chips = related.map((w) => `<span class="vv-chip">${esc(w)}</span>`).join("");
+    const pct = Math.round(((vocabVideoIdx + 1) / vocabVideoQueue.length) * 100);
+    const playLabel = vocabVideoPlaying ? "Tạm dừng" : "Tiếp tục";
+    const contextBtn = v.audio ? `<button class="btn" onclick="App.playVocabVideoContext('${esc(v.testId || "")}',${v.audio.start},${v.audio.end})">${ICONS.sound}<span>Nghe trong đề</span></button>` : "";
+    screen.innerHTML = `
+      <div class="vocab-video">
+        <div class="vv-top">
+          <div>
+            <div class="vv-kicker">Video học · ${esc(vocabVideoTitle(vocabVideoMode))}</div>
+            <h1>${esc(v.word)}</h1>
+            <div class="vv-meta">${esc(v.type || vocabKindLabel(v))} · ${esc(vocabKindLabel(v))} · ${esc(v.custom ? "đề upload" : "bộ gốc")}</div>
+          </div>
+          <button class="btn" onclick="App.goVocab()">Về sổ từ</button>
+        </div>
+
+        <div class="vv-stage">
+          <div class="vv-card">
+            <div class="vv-word-row">
+              <div class="vv-word">${esc(v.word)}</div>
+              <button class="btn btn-round" title="Phát âm từ/cụm này" onclick="App.speakVocab(decodeURIComponent('${wordArg}'))">${ICONS.sound}</button>
+            </div>
+            <div class="vv-meaning">${esc(v.meaning)}</div>
+            ${v.example ? `<div class="vv-example">"${esc(v.example)}"</div>` : ""}
+            ${v.exampleVi ? `<div class="vv-example-vi">→ ${esc(v.exampleVi)}</div>` : ""}
+            ${chips ? `<div class="vv-synonyms"><span>Đồng nghĩa/gần nghĩa</span>${chips}</div>` : ""}
+            <div class="vv-source">${esc(vocabSourceLabel(v))}</div>
+          </div>
+        </div>
+
+        <div class="vv-controls">
+          <button class="btn" onclick="App.vocabVideoPrev()">← Từ trước</button>
+          <button class="btn btn-primary" onclick="App.vocabVideoToggle()">${playLabel}</button>
+          <button class="btn" onclick="App.vocabVideoNext(false)">Từ tiếp →</button>
+          ${contextBtn}
+          <button class="btn" onclick="App.startFlashcards('one','${esc(v.id)}')">Ôn thẻ này</button>
+        </div>
+        <div class="vv-progress">
+          <div class="vv-progress-label">${vocabVideoIdx + 1}/${vocabVideoQueue.length}</div>
+          <div class="vv-progress-track"><div style="width:${pct}%"></div></div>
+        </div>
+      </div>`;
+    window.scrollTo(0, 0);
+    if (autoSpeak && vocabVideoPlaying) {
+      setTimeout(() => {
+        if (state.view === "vocab-video" && vocabVideoPlaying) speakVocab(v.word);
+      }, VOCAB_VIDEO_CONFIG.speechDelayMs);
+    }
+    scheduleVocabVideo();
+  }
+
+  function vocabVideoNext(fromTimer) {
+    if (!vocabVideoQueue.length) return;
+    if (vocabVideoIdx >= vocabVideoQueue.length - 1) {
+      vocabVideoPlaying = false;
+      renderVocabVideo(false);
+      return;
+    }
+    vocabVideoIdx++;
+    renderVocabVideo(!!fromTimer || vocabVideoPlaying);
+  }
+
+  function vocabVideoPrev() {
+    if (!vocabVideoQueue.length) return;
+    vocabVideoIdx = Math.max(0, vocabVideoIdx - 1);
+    renderVocabVideo(vocabVideoPlaying);
+  }
+
+  function vocabVideoToggle() {
+    vocabVideoPlaying = !vocabVideoPlaying;
+    renderVocabVideo(vocabVideoPlaying);
+  }
+
+  function playVocabVideoContext(testId, start, end) {
+    vocabVideoPlaying = false;
+    clearVocabVideoTimer();
+    renderVocabVideo(false);
+    playWrongAudio(testId, start, end);
   }
 
   /* ---------------- uploads / inbox ---------------- */
@@ -3083,7 +3235,8 @@
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
-    goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer, speakVocab,
+    goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
+    startVocabVideo, vocabVideoNext, vocabVideoPrev, vocabVideoToggle, playVocabVideoContext, speakVocab,
     audioToggle, confirmExit,
     playSeg: (s, e) => playSegment(s, e),
     playVocabAudio: (testId, s, e) => playWrongAudio(testId, s, e),
