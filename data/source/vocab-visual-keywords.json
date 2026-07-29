@@ -1,0 +1,89 @@
+{
+  "responsibility": [
+    "responsible", "be responsible for", "in charge", "phụ trách", "chịu trách nhiệm",
+    "handle", "oversee", "supervise", "coordinate", "assign", "hiring", "recruit"
+  ],
+  "office": [
+    "drawer", "office", "desk", "cabinet", "supplies", "agenda", "briefing", "meeting",
+    "pantry", "client care", "workspace"
+  ],
+  "presentation": [
+    "present", "presentation", "speaker", "talk", "briefing", "seminar", "training session"
+  ],
+  "communication": [
+    "contact", "message", "e-mail", "email", "forum", "feedback", "reminder", "respond",
+    "discussion", "announcement", "notify", "call", "phone"
+  ],
+  "planning": [
+    "plan", "schedule", "deadline", "appointment", "reservation", "arrangement",
+    "prepare", "proposal", "priority", "prioritize"
+  ],
+  "shipping": [
+    "ship", "shipment", "shipping", "delivery", "deliver", "package", "packaging",
+    "courier", "messenger service", "freight", "van", "truck", "transport"
+  ],
+  "transportation": [
+    "shuttle", "commuter", "passenger", "route", "travel", "trip", "business trip",
+    "parking", "vehicle", "bike path"
+  ],
+  "finance": [
+    "budget", "earnings", "finance", "financial", "invoice", "fund", "reimbursement",
+    "refund", "deposit", "interest", "expense", "cost", "payment", "purchase"
+  ],
+  "pricing": [
+    "price", "pricing", "discount", "reduced prices", "reasonable", "bulk purchase",
+    "lower prices", "markdown"
+  ],
+  "contract": [
+    "agreement", "contract", "rental", "policy", "consent", "approval", "approve",
+    "renew", "expire", "membership"
+  ],
+  "quality": [
+    "quality", "assurance", "inspection", "inspect", "review", "accurate",
+    "reliable", "proof", "evaluate", "evaluation", "meticulous"
+  ],
+  "technology": [
+    "technology", "technical", "software", "compatible", "equipment", "prototype",
+    "component", "machine", "device", "platform"
+  ],
+  "manufacturing": [
+    "manufacturing", "factory", "production", "product", "inventory", "stock",
+    "stock up", "prototype", "component"
+  ],
+  "recruitment": [
+    "intern", "internship", "interview", "interviewee", "application", "applicant",
+    "candidate", "salary requirements", "hiring", "recruitment"
+  ],
+  "training": [
+    "training", "workshop", "guidebook", "manual", "guidelines", "instructions",
+    "walk someone through", "learn", "education"
+  ],
+  "event": [
+    "event", "conference", "festival", "picnic", "banquet", "award", "recognition",
+    "attendee", "participant", "visitor", "presence", "party", "pool party"
+  ],
+  "sales": [
+    "sales", "customer", "client", "vendor", "supplier", "buyer", "shop",
+    "browse", "purchase", "order", "place an order", "fill an order"
+  ],
+  "service": [
+    "service", "customer service", "maintenance", "support", "branch", "location",
+    "service counter"
+  ],
+  "availability": [
+    "available", "availability", "vacant", "in stock", "obtainable", "accessible",
+    "open", "ready", "free"
+  ],
+  "media": [
+    "cover", "video", "photography", "graphic design", "advertisement", "brochure",
+    "promotional", "marketing"
+  ],
+  "real_estate": [
+    "model home", "floor space", "building", "apartment", "property", "relocation",
+    "relocate", "facility"
+  ],
+  "health": [
+    "health", "fitness", "pharmacy", "prescription", "medication", "refill",
+    "clinic", "medical"
+  ]
+}

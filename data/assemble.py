@@ -276,6 +276,12 @@ AUTO_VOCAB_BANK = load_if("vocab-auto-bank.json") or []
 SYNONYM_BANK = load_if("vocab-synonyms.json") or {}
 VOCAB_VISUALS = load_if("vocab-visuals.json") or {}
 VOCAB_VISUAL_FAMILIES = load_if("vocab-visual-families.json") or {}
+VOCAB_VISUAL_KEYWORDS = load_if("vocab-visual-keywords.json") or {}
+GENERIC_VISUAL_FAMILIES = {"word", "phrase", "general"}
+GENERIC_VISUAL_ASSETS = {
+    "assets/img/vocab/concepts/generic-word.svg",
+    "assets/img/vocab/concepts/generic-phrase.svg",
+}
 
 
 def synonym_key(word):
@@ -301,24 +307,47 @@ def synonym_suggestions(item):
     return out[:6]
 
 
+def keyword_visual_family(item):
+    word_text = clean_text(item.get("word", ""))
+    for family, keywords in VOCAB_VISUAL_KEYWORDS.items():
+        for keyword in keywords:
+            if keyword and term_pattern(clean_text(keyword)).search(word_text):
+                return synonym_key(family)
+    haystack = clean_text(" ".join(
+        str(x) for x in [
+            item.get("word", ""),
+            item.get("meaning", ""),
+            item.get("example", ""),
+            item.get("exampleVi", ""),
+            " ".join(item.get("synonyms") or []),
+        ] if x
+    ))
+    for family, keywords in VOCAB_VISUAL_KEYWORDS.items():
+        for keyword in keywords:
+            if keyword and term_pattern(clean_text(keyword)).search(haystack):
+                return synonym_key(family)
+    return ""
+
+
 def visual_for_item(item):
     visual = VOCAB_VISUALS.get(synonym_key(item.get("word", "")))
     if visual:
         return dict(visual)
     family_key = synonym_key(item.get("family", ""))
-    if family_key in VOCAB_VISUAL_FAMILIES:
+    if family_key in VOCAB_VISUAL_FAMILIES and family_key not in GENERIC_VISUAL_FAMILIES:
         visual = dict(VOCAB_VISUAL_FAMILIES[family_key])
+        if visual.get("img") in GENERIC_VISUAL_ASSETS:
+            return {}
         visual["fallback"] = True
         return visual
-    study_key = synonym_key(item.get("studyMode", "word"))
-    if study_key in VOCAB_VISUAL_FAMILIES:
-        visual = dict(VOCAB_VISUAL_FAMILIES[study_key])
+    inferred_family = keyword_visual_family(item)
+    if inferred_family in VOCAB_VISUAL_FAMILIES:
+        visual = dict(VOCAB_VISUAL_FAMILIES[inferred_family])
+        if visual.get("img") in GENERIC_VISUAL_ASSETS:
+            return {}
         visual["fallback"] = True
         return visual
-    visual = dict(VOCAB_VISUAL_FAMILIES.get("general", {}))
-    if visual:
-        visual["fallback"] = True
-    return visual
+    return {}
 
 def iter_vocab_sources(test):
     for part in test.get("parts", []):
