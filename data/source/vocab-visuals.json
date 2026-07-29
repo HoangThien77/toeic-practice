@@ -1,17 +1,1326 @@
 {
+  "drawer": {
+    "img": "assets/img/vocab/generated/001-drawer.png",
+    "alt": "A woman opening a drawer in an office cabinet.",
+    "caption": "Một người phụ nữ đang mở ngăn kéo trong tủ hồ sơ."
+  },
   "office supplies": {
-    "img": "assets/img/vocab/office-supplies-box.svg",
-    "alt": "Office supplies are being put into a box.",
+    "img": "assets/img/vocab/generated/002-office-supplies.png",
+    "alt": "Office supplies are being packed into a cardboard box.",
     "caption": "Văn phòng phẩm đang được xếp vào một chiếc hộp."
   },
+  "potted plant": {
+    "img": "assets/img/vocab/generated/003-potted-plant.png",
+    "alt": "A man standing near a display of potted plants.",
+    "caption": "Một người đàn ông đứng cạnh khu trưng bày cây trồng trong chậu."
+  },
+  "equipment": {
+    "img": "assets/img/vocab/generated/004-equipment.png",
+    "alt": "A person choosing fitness equipment in a store.",
+    "caption": "Một người đang chọn thiết bị tập luyện trong cửa hàng."
+  },
+  "browse": {
+    "img": "assets/img/vocab/generated/005-browse.png",
+    "alt": "Customers browsing products in a shop.",
+    "caption": "Khách hàng đang xem hàng trong cửa hàng."
+  },
   "marketing team": {
-    "img": "assets/img/vocab/marketing-team.png",
-    "alt": "A marketing team planning a campaign together in an office.",
+    "img": "assets/img/vocab/generated/204-marketing-team.png",
+    "alt": "A marketing team planning a campaign together.",
     "caption": "Nhóm marketing đang cùng lập kế hoạch chiến dịch."
   },
   "be responsible for": {
     "img": "assets/img/vocab/be-responsible-for.png",
     "alt": "A manager coordinating hiring responsibilities at a fitness center.",
     "caption": "Người quản lý đang phụ trách và điều phối việc tuyển dụng."
+  },
+  "purchase": {
+    "img": "assets/img/vocab/generated/007-purchase.png",
+    "alt": "A person purchasing office supplies at a store counter.",
+    "caption": "Một người đang mua văn phòng phẩm tại quầy."
+  },
+  "present": {
+    "img": "assets/img/vocab/generated/008-present.png",
+    "alt": "A business professional presenting research to a team.",
+    "caption": "Một người đang trình bày nghiên cứu trước nhóm làm việc."
+  },
+  "be supposed to": {
+    "img": "assets/img/vocab/generated/009-be-supposed-to.png",
+    "alt": "A commuter waiting at a bus stop expecting a bus to stop there.",
+    "caption": "Một người đang chờ xe buýt ở đúng điểm dừng dự kiến."
+  },
+  "fill an order": {
+    "img": "assets/img/vocab/generated/010-fill-an-order.png",
+    "alt": "A warehouse worker filling an order by packing a box.",
+    "caption": "Nhân viên kho đang đóng gói để hoàn thành đơn hàng."
+  },
+  "client": {
+    "img": "assets/img/vocab/generated/011-client.png",
+    "alt": "A consultant meeting with an important client in an office.",
+    "caption": "Một chuyên viên đang trao đổi với khách hàng trong văn phòng."
+  },
+  "take a break": {
+    "img": "assets/img/vocab/generated/012-take-a-break.png",
+    "alt": "An office worker taking a short coffee break.",
+    "caption": "Một nhân viên văn phòng đang nghỉ giải lao với ly cà phê."
+  },
+  "intern": {
+    "img": "assets/img/vocab/generated/013-intern.png",
+    "alt": "An intern working at a laptop while a mentor gives guidance.",
+    "caption": "Một thực tập sinh đang làm việc và được hướng dẫn."
+  },
+  "handle": {
+    "img": "assets/img/vocab/generated/014-handle.png",
+    "alt": "A manager handling a customer service issue at a counter.",
+    "caption": "Một nhân viên đang xử lý vấn đề của khách hàng."
+  },
+  "mean to": {
+    "img": "assets/img/vocab/generated/015-mean-to.png",
+    "alt": "A person holding a food container beside an open refrigerator.",
+    "caption": "Một người đang định cất hộp thức ăn vào tủ lạnh."
+  },
+  "agenda": {
+    "img": "assets/img/vocab/generated/016-agenda.png",
+    "alt": "An office worker collecting printed meeting agenda sheets.",
+    "caption": "Nhân viên đang lấy tài liệu chương trình họp từ máy in."
+  },
+  "out of town": {
+    "img": "assets/img/vocab/generated/017-out-of-town.png",
+    "alt": "A business traveler with a suitcase at an airport.",
+    "caption": "Một người đi công tác xa, không có mặt trong thành phố."
+  },
+  "renew": {
+    "img": "assets/img/vocab/generated/018-renew.png",
+    "alt": "A person filling out a passport renewal form.",
+    "caption": "Một người đang làm thủ tục gia hạn hộ chiếu."
+  },
+  "expire": {
+    "img": "assets/img/vocab/generated/019-expire.png",
+    "alt": "A passport beside a calendar showing an upcoming expiration idea.",
+    "caption": "Hộ chiếu sắp đến ngày hết hạn."
+  },
+  "replacement part": {
+    "img": "assets/img/vocab/generated/020-replacement-part.png",
+    "alt": "A technician helping find a replacement computer part.",
+    "caption": "Kỹ thuật viên đang tìm linh kiện thay thế cho máy tính."
+  },
+  "inventory": {
+    "img": "assets/img/vocab/generated/021-inventory.png",
+    "alt": "A store employee checking inventory on stocked shelves.",
+    "caption": "Nhân viên đang kiểm tra hàng tồn kho trên kệ."
+  },
+  "make it": {
+    "img": "assets/img/vocab/generated/022-make-it.png",
+    "alt": "A person looking at a phone while unable to attend a dinner.",
+    "caption": "Một người không thể đến kịp buổi ăn tối của công ty."
+  },
+  "earnings": {
+    "img": "assets/img/vocab/generated/023-earnings.png",
+    "alt": "A business team reviewing quarterly earnings charts.",
+    "caption": "Nhóm kinh doanh đang xem báo cáo lợi nhuận quý."
+  },
+  "reminder": {
+    "img": "assets/img/vocab/generated/024-reminder.png",
+    "alt": "An office worker noticing an email reminder.",
+    "caption": "Một nhân viên nhận được email nhắc nhở."
+  },
+  "pass along": {
+    "img": "assets/img/vocab/generated/025-pass-along.png",
+    "alt": "A manager passing along a document to colleagues.",
+    "caption": "Một người đang chuyển tiếp tài liệu cho đồng nghiệp cần nó."
+  },
+  "promotion": {
+    "img": "assets/img/vocab/generated/026-promotion.png",
+    "alt": "Coworkers congratulating an employee on a promotion.",
+    "caption": "Đồng nghiệp đang chúc mừng một nhân viên được thăng chức."
+  },
+  "on time": {
+    "img": "assets/img/vocab/generated/027-on-time.png",
+    "alt": "A team finishing a project on time.",
+    "caption": "Nhóm làm việc hoàn thành dự án đúng hạn."
+  },
+  "reliable": {
+    "img": "assets/img/vocab/generated/028-reliable.png",
+    "alt": "A person frustrated by unreliable software on a laptop.",
+    "caption": "Phần mềm không đáng tin cậy làm công việc bị gián đoạn."
+  },
+  "cover": {
+    "img": "assets/img/vocab/generated/029-cover.png",
+    "alt": "A photographer covering a business event.",
+    "caption": "Nhiếp ảnh gia đang chụp ảnh/đưa tin cho sự kiện."
+  },
+  "make an exception": {
+    "img": "assets/img/vocab/generated/030-make-an-exception.png",
+    "alt": "A supervisor granting an exception during a discussion.",
+    "caption": "Người quản lý đồng ý tạo ngoại lệ trong một trường hợp đặc biệt."
+  },
+  "shipment": {
+    "img": "assets/img/vocab/generated/031-shipment.png",
+    "alt": "Workers packing a large shipment of boxes.",
+    "caption": "Nhân viên đang chuẩn bị một lô hàng lớn."
+  },
+  "package": {
+    "img": "assets/img/vocab/generated/032-package.png",
+    "alt": "A person packaging several items into boxes.",
+    "caption": "Một người đang đóng gói nhiều món hàng vào hộp."
+  },
+  "corporate retreat": {
+    "img": "assets/img/vocab/generated/033-corporate-retreat.png",
+    "alt": "Coworkers doing a team activity at a corporate retreat.",
+    "caption": "Đồng nghiệp đang tham gia hoạt động gắn kết trong chuyến retreat công ty."
+  },
+  "convenient": {
+    "img": "assets/img/vocab/generated/034-convenient.png",
+    "alt": "Coworkers walking from a hotel to a nearby meeting venue.",
+    "caption": "Địa điểm gần khách sạn nên rất thuận tiện để đi bộ tới."
+  },
+  "catering": {
+    "img": "assets/img/vocab/generated/035-catering.png",
+    "alt": "A catering team preparing food trays for an event.",
+    "caption": "Đội catering đang chuẩn bị đồ ăn cho sự kiện."
+  },
+  "feedback": {
+    "img": "assets/img/vocab/generated/036-feedback.png",
+    "alt": "Employees giving feedback during a product meeting.",
+    "caption": "Nhân viên đang đưa ra phản hồi trong cuộc họp sản phẩm."
+  },
+  "on schedule": {
+    "img": "assets/img/vocab/generated/037-on-schedule.png",
+    "alt": "A project team reviewing a timeline that is on schedule.",
+    "caption": "Nhóm dự án đang theo dõi tiến độ đúng lịch."
+  },
+  "hand off": {
+    "img": "assets/img/vocab/generated/038-hand-off.png",
+    "alt": "A team member handing off completed materials to another team.",
+    "caption": "Một nhóm đang bàn giao tài liệu đã hoàn thành cho nhóm khác."
+  },
+  "follow up": {
+    "img": "assets/img/vocab/generated/039-follow-up.png",
+    "alt": "A service worker following up with a customer after a job.",
+    "caption": "Nhân viên đang liên hệ lại với khách sau khi hoàn tất công việc."
+  },
+  "reach out": {
+    "img": "assets/img/vocab/generated/040-reach-out.png",
+    "alt": "A person reaching out to a business contact by phone.",
+    "caption": "Một người đang chủ động liên hệ với đối tác qua điện thoại."
+  },
+  "refill": {
+    "img": "assets/img/vocab/generated/041-refill.png",
+    "alt": "A pharmacist preparing a medication refill for a customer.",
+    "caption": "Dược sĩ đang chuẩn bị lần lấy thuốc tiếp theo cho khách hàng."
+  },
+  "pharmacy": {
+    "img": "assets/img/vocab/generated/042-pharmacy.png",
+    "alt": "A pharmacist helping a customer at a pharmacy counter.",
+    "caption": "Dược sĩ đang hỗ trợ khách tại quầy nhà thuốc."
+  },
+  "prescription": {
+    "img": "assets/img/vocab/generated/043-prescription.png",
+    "alt": "A doctor sending a prescription electronically.",
+    "caption": "Bác sĩ đang gửi đơn thuốc điện tử cho bệnh nhân."
+  },
+  "medication": {
+    "img": "assets/img/vocab/generated/044-medication.png",
+    "alt": "A pharmacist preparing medication for delivery.",
+    "caption": "Dược sĩ đang chuẩn bị thuốc để giao cho khách."
+  },
+  "budget": {
+    "img": "assets/img/vocab/generated/045-budget.png",
+    "alt": "A business team reviewing a budget with financial papers.",
+    "caption": "Nhóm đang xem lại ngân sách với tài liệu tài chính."
+  },
+  "bulk purchase": {
+    "img": "assets/img/vocab/generated/046-bulk-purchase.png",
+    "alt": "An office manager buying a large quantity of uniforms.",
+    "caption": "Một người đang mua số lượng lớn đồng phục/hàng hóa."
+  },
+  "reasonable": {
+    "img": "assets/img/vocab/generated/047-reasonable.png",
+    "alt": "A customer comparing affordable uniform options in a store.",
+    "caption": "Khách hàng đang so sánh các lựa chọn có giá hợp lý."
+  },
+  "place an order": {
+    "img": "assets/img/vocab/generated/048-place-an-order.png",
+    "alt": "A person placing an order by phone while viewing an order form.",
+    "caption": "Một người đang gọi điện để đặt hàng."
+  },
+  "be out of": {
+    "img": "assets/img/vocab/generated/049-be-out-of.png",
+    "alt": "A store clerk looking at empty flower shelves.",
+    "caption": "Cửa hàng đã hết mặt hàng cần bán."
+  },
+  "supplier": {
+    "img": "assets/img/vocab/generated/050-supplier.png",
+    "alt": "A supplier delivering boxes to a business customer.",
+    "caption": "Nhà cung cấp đang giao hàng cho khách doanh nghiệp."
+  },
+  "approval": {
+    "img": "assets/img/vocab/generated/202-approval.png",
+    "alt": "A city department manager approving a recycling program document.",
+    "caption": "Người quản lý đang phê duyệt tài liệu chương trình tái chế."
+  },
+  "research": {
+    "img": "assets/img/vocab/generated/203-research.png",
+    "alt": "A product team researching sleeping habits and pillow designs.",
+    "caption": "Nhóm sản phẩm đang nghiên cứu thói quen ngủ và thiết kế gối."
+  },
+  "available": {
+    "img": "assets/img/vocab/generated/205-available.png",
+    "alt": "Free cookies available for customers at a cafe counter.",
+    "caption": "Bánh quy có sẵn cho khách tại quầy."
+  },
+  "ship": {
+    "img": "assets/img/vocab/generated/206-ship.png",
+    "alt": "Mailroom staff preparing documents to be shipped by mail.",
+    "caption": "Nhân viên phòng thư đang chuẩn bị giấy tờ để gửi đi."
+  },
+  "branch": {
+    "img": "assets/img/vocab/generated/207-branch.png",
+    "alt": "Employees working at a company branch office.",
+    "caption": "Nhân viên đang làm việc tại một chi nhánh công ty."
+  },
+  "quality assurance": {
+    "img": "assets/img/vocab/generated/208-quality-assurance.png",
+    "alt": "A quality assurance team testing a golf simulator product.",
+    "caption": "Đội kiểm định chất lượng đang thử nghiệm sản phẩm golf simulator."
+  },
+  "delivery van": {
+    "img": "assets/img/vocab/generated/209-delivery-van.png",
+    "alt": "A delivery van being painted with company graphics.",
+    "caption": "Xe van giao hàng đang được sơn đồ họa thương hiệu."
+  },
+  "graphic design": {
+    "img": "assets/img/vocab/generated/210-graphic-design.png",
+    "alt": "A graphic designer working on layout designs at a computer.",
+    "caption": "Nhà thiết kế đồ họa đang chỉnh bố cục trên máy tính."
+  },
+  "sample": {
+    "img": "assets/img/vocab/generated/211-sample.png",
+    "alt": "An office worker enclosing a sample notice in a packet.",
+    "caption": "Nhân viên đang đính kèm một mẫu thông báo làm ví dụ."
+  },
+  "require": {
+    "img": "assets/img/vocab/generated/212-require.png",
+    "alt": "A building manager reviewing safety requirements with tenants.",
+    "caption": "Người quản lý đang trao đổi các yêu cầu an toàn với cư dân."
+  },
+  "maintenance": {
+    "img": "assets/img/vocab/generated/213-maintenance.png",
+    "alt": "Maintenance workers repairing equipment in a building lobby.",
+    "caption": "Nhân viên bảo trì đang sửa thiết bị trong tòa nhà."
+  },
+  "paperwork": {
+    "img": "assets/img/vocab/generated/214-paperwork.png",
+    "alt": "A worker organizing necessary paperwork before shipping.",
+    "caption": "Nhân viên đang sắp xếp giấy tờ cần thiết trước khi gửi hàng."
+  },
+  "mobile app": {
+    "img": "assets/img/vocab/generated/215-mobile-app.png",
+    "alt": "A person using a mobile app for museum admission.",
+    "caption": "Một người dùng ứng dụng điện thoại để vào bảo tàng."
+  },
+  "recognize": {
+    "img": "assets/img/vocab/generated/216-recognize.png",
+    "alt": "A performing group being recognized with an award on stage.",
+    "caption": "Một nhóm biểu diễn được công nhận bằng giải thưởng trên sân khấu."
+  },
+  "experiment": {
+    "img": "assets/img/vocab/generated/217-experiment.png",
+    "alt": "A scientist running an experiment with lab equipment.",
+    "caption": "Nhà khoa học đang thực hiện thí nghiệm trong phòng lab."
+  },
+  "speed up": {
+    "img": "assets/img/vocab/generated/218-speed-up.png",
+    "alt": "A team working quickly to speed up a computer workflow.",
+    "caption": "Nhóm đang xử lý nhanh để đẩy nhanh quy trình."
+  },
+  "process": {
+    "img": "assets/img/vocab/generated/219-process.png",
+    "alt": "Warehouse workers following a packing process step by step.",
+    "caption": "Nhân viên kho đang làm theo quy trình đóng gói từng bước."
+  },
+  "upgrade": {
+    "img": "assets/img/vocab/generated/220-upgrade.png",
+    "alt": "Technicians upgrading a building safety system.",
+    "caption": "Kỹ thuật viên đang nâng cấp hệ thống an toàn của tòa nhà."
+  },
+  "shuttle bus": {
+    "img": "assets/img/vocab/generated/221-shuttle-bus.png",
+    "alt": "A shuttle bus picking up passengers at a stop.",
+    "caption": "Xe buýt đưa đón đang đón hành khách."
+  },
+  "staff website": {
+    "img": "assets/img/vocab/generated/222-staff-website.png",
+    "alt": "An employee posting details on a staff website.",
+    "caption": "Nhân viên đang đăng thông tin lên trang web nội bộ."
+  },
+  "apply": {
+    "img": "assets/img/vocab/generated/223-apply.png",
+    "alt": "A worker applying a protective coating to a parking lot.",
+    "caption": "Công nhân đang phủ lớp bảo vệ lên bề mặt bãi đỗ xe."
+  },
+  "market conditions": {
+    "img": "assets/img/vocab/generated/224-market-conditions.png",
+    "alt": "A business analyst researching market conditions in a town.",
+    "caption": "Nhà phân tích đang tìm hiểu tình hình thị trường địa phương."
+  },
+  "assorted": {
+    "img": "assets/img/vocab/generated/225-assorted.png",
+    "alt": "Assorted colorful craft beads in storage boxes.",
+    "caption": "Nhiều loại hạt thủ công khác nhau được sắp trong hộp."
+  },
+  "discount": {
+    "img": "assets/img/vocab/generated/226-discount.png",
+    "alt": "A customer using a discount voucher at checkout.",
+    "caption": "Khách hàng đang dùng phiếu giảm giá tại quầy thanh toán."
+  },
+  "undergraduate": {
+    "img": "assets/img/vocab/generated/227-undergraduate.png",
+    "alt": "An undergraduate student in a chemistry lab.",
+    "caption": "Một sinh viên đại học trong phòng thí nghiệm hóa học."
+  },
+  "major in": {
+    "img": "assets/img/vocab/generated/228-major-in.png",
+    "alt": "A college student majoring in science studying in a dorm room.",
+    "caption": "Sinh viên chuyên ngành khoa học đang học trong phòng ký túc xá."
+  },
+  "specially trained": {
+    "img": "assets/img/vocab/generated/229-specially-trained.png",
+    "alt": "Specially trained staff giving guidance at an information desk.",
+    "caption": "Nhân viên được đào tạo chuyên biệt đang hướng dẫn khách."
+  },
+  "contract": {
+    "img": "assets/img/vocab/generated/230-contract.png",
+    "alt": "Two business people signing an official contract.",
+    "caption": "Hai người đang ký hợp đồng chính thức."
+  },
+  "technician": {
+    "img": "assets/img/vocab/generated/231-technician.png",
+    "alt": "A technician operating sensitive laboratory instruments.",
+    "caption": "Kỹ thuật viên đang vận hành thiết bị phòng thí nghiệm nhạy cảm."
+  },
+  "manufacturer": {
+    "img": "assets/img/vocab/generated/232-manufacturer.png",
+    "alt": "A manufacturer shipping goods from a warehouse to a store.",
+    "caption": "Nhà sản xuất đang gửi hàng từ kho tới cửa hàng."
+  },
+  "raw materials": {
+    "img": "assets/img/vocab/generated/233-raw-materials.png",
+    "alt": "Raw materials being delivered to a factory loading area.",
+    "caption": "Nguyên vật liệu thô đang được giao tới khu vực sản xuất."
+  },
+  "consumer": {
+    "img": "assets/img/vocab/generated/234-consumer.png",
+    "alt": "A consumer comparing products before buying.",
+    "caption": "Người tiêu dùng đang so sánh sản phẩm trước khi mua."
+  },
+  "memo": {
+    "img": "assets/img/vocab/generated/235-memo.png",
+    "alt": "An internal memo printed on an office desk.",
+    "caption": "Một bản ghi nhớ nội bộ được đặt trên bàn làm việc."
+  },
+  "break room": {
+    "img": "assets/img/vocab/generated/236-break-room.png",
+    "alt": "Employees waiting in a break room after lunch.",
+    "caption": "Nhân viên đang chờ trong phòng nghỉ sau giờ ăn trưa."
+  },
+  "customer": {
+    "img": "assets/img/vocab/generated/237-customer.png",
+    "alt": "A customer at a service counter discussing an agreement.",
+    "caption": "Khách hàng đang trao đổi tại quầy dịch vụ."
+  },
+  "misunderstanding": {
+    "img": "assets/img/vocab/generated/238-misunderstanding.png",
+    "alt": "Two business people clarifying a misunderstanding.",
+    "caption": "Hai người đang giải thích để tháo gỡ sự hiểu nhầm."
+  },
+  "make it up to": {
+    "img": "assets/img/vocab/generated/239-make-it-up-to.png",
+    "alt": "A manager offering compensation to unhappy customers.",
+    "caption": "Người quản lý đang bù đắp cho khách hàng không hài lòng."
+  },
+  "rental contract": {
+    "img": "assets/img/vocab/generated/240-rental-contract.png",
+    "alt": "A tenant and owner reviewing a rental contract and keys.",
+    "caption": "Người thuê và chủ nhà đang xem hợp đồng thuê và bàn giao chìa khóa."
+  },
+  "audition": {
+    "img": "assets/img/vocab/generated/241-audition.png",
+    "alt": "A performer attending a television audition in a studio.",
+    "caption": "Một người biểu diễn đang tham gia buổi thử vai/thử giọng trong studio."
+  },
+  "candidate": {
+    "img": "assets/img/vocab/generated/242-candidate.png",
+    "alt": "A job candidate describing experience in an interview.",
+    "caption": "Ứng viên đang trình bày kinh nghiệm trong buổi phỏng vấn."
+  },
+  "cycling trail": {
+    "img": "assets/img/vocab/generated/243-cycling-trail.png",
+    "alt": "People riding bicycles on a park cycling trail.",
+    "caption": "Mọi người đang đạp xe trên đường dành cho xe đạp trong công viên."
+  },
+  "fund": {
+    "img": "assets/img/vocab/generated/244-fund.png",
+    "alt": "Volunteers raising funds at a community event.",
+    "caption": "Tình nguyện viên đang gây quỹ trong một sự kiện cộng đồng."
+  },
+  "proposal": {
+    "img": "assets/img/vocab/generated/245-proposal.png",
+    "alt": "City council members reviewing a proposal.",
+    "caption": "Hội đồng thành phố đang xem xét một đề xuất."
+  },
+  "persuasive": {
+    "img": "assets/img/vocab/generated/246-persuasive.png",
+    "alt": "A speaker delivering a persuasive talk to an audience.",
+    "caption": "Diễn giả đang thuyết trình thuyết phục trước khán giả."
+  },
+  "reimbursement": {
+    "img": "assets/img/vocab/generated/247-reimbursement.png",
+    "alt": "An employee submitting receipts for reimbursement.",
+    "caption": "Nhân viên đang nộp hóa đơn để được hoàn chi phí."
+  },
+  "business trip": {
+    "img": "assets/img/vocab/generated/248-business-trip.png",
+    "alt": "Sales team members traveling with luggage on a business trip.",
+    "caption": "Nhân viên đang đi công tác với hành lý."
+  },
+  "guidebook": {
+    "img": "assets/img/vocab/generated/249-guidebook.png",
+    "alt": "An employee reading a corporate policy guidebook.",
+    "caption": "Nhân viên đang đọc sách hướng dẫn chính sách công ty."
+  },
+  "vendor": {
+    "img": "assets/img/vocab/generated/250-vendor.png",
+    "alt": "A vendor warning a project team about a software delay.",
+    "caption": "Nhà cung cấp đang cảnh báo nhóm dự án về nguy cơ chậm tiến độ."
+  },
+  "messenger service": {
+    "img": "assets/img/vocab/generated/251-messenger-service.png",
+    "alt": "A messenger service employee delivering documents to an office.",
+    "caption": "Nhân viên chuyển phát đang giao tài liệu tới văn phòng."
+  },
+  "urgent": {
+    "img": "assets/img/vocab/generated/252-urgent.png",
+    "alt": "A person urgently calling a mobile phone about a business issue.",
+    "caption": "Một người đang gọi điện gấp về vấn đề công việc."
+  },
+  "prioritize": {
+    "img": "assets/img/vocab/generated/253-prioritize.png",
+    "alt": "A manager prioritizing tasks on a board.",
+    "caption": "Người quản lý đang sắp xếp thứ tự ưu tiên công việc."
+  },
+  "visitor": {
+    "img": "assets/img/vocab/generated/254-visitor.png",
+    "alt": "Visitors walking through a downtown shopping area.",
+    "caption": "Khách tham quan đang đi qua khu mua sắm trung tâm."
+  },
+  "presence": {
+    "img": "assets/img/vocab/generated/255-presence.png",
+    "alt": "Photographers present on site at an indoor remodeling project.",
+    "caption": "Các nhiếp ảnh gia có mặt tại địa điểm đang sửa chữa."
+  },
+  "specialist": {
+    "img": "assets/img/vocab/generated/256-specialist.png",
+    "alt": "Factory-trained vehicle specialists servicing a car.",
+    "caption": "Chuyên viên được đào tạo đang bảo dưỡng xe."
+  },
+  "screening": {
+    "img": "assets/img/vocab/generated/257-screening.png",
+    "alt": "People attending a film screening at a theater.",
+    "caption": "Mọi người đang vào rạp tham dự buổi chiếu phim."
+  },
+  "application": {
+    "img": "assets/img/vocab/generated/258-application.png",
+    "alt": "A person filling out an application form online.",
+    "caption": "Một người đang điền đơn đăng ký/ứng tuyển trên máy tính."
+  },
+  "reduced prices": {
+    "img": "assets/img/vocab/generated/259-reduced-prices.png",
+    "alt": "Employees buying products at reduced prices.",
+    "caption": "Nhân viên đang mua sản phẩm với giá ưu đãi."
+  },
+  "guidelines": {
+    "img": "assets/img/vocab/generated/260-guidelines.png",
+    "alt": "A user reading comprehensive guidelines beside software.",
+    "caption": "Người dùng đang đọc tài liệu hướng dẫn chi tiết."
+  },
+  "absence": {
+    "img": "assets/img/vocab/generated/261-absence.png",
+    "alt": "An empty supervisor desk in a workplace.",
+    "caption": "Bàn làm việc trống thể hiện sự vắng mặt của giám sát viên."
+  },
+  "vital": {
+    "img": "assets/img/vocab/generated/262-vital.png",
+    "alt": "A speaker sharing vital information with guests.",
+    "caption": "Diễn giả đang chia sẻ thông tin rất quan trọng với khách tham dự."
+  },
+  "relocation": {
+    "img": "assets/img/vocab/generated/263-relocation.png",
+    "alt": "Movers relocating boxes and desks to a new office.",
+    "caption": "Nhân viên đang di dời đồ đạc sang văn phòng mới."
+  },
+  "promptly": {
+    "img": "assets/img/vocab/generated/264-promptly.png",
+    "alt": "An office worker moving quickly with documents.",
+    "caption": "Một nhân viên đang xử lý tài liệu nhanh chóng."
+  },
+  "inspection": {
+    "img": "assets/img/vocab/generated/265-inspection.png",
+    "alt": "A technician inspecting a car part closely.",
+    "caption": "Kỹ thuật viên đang kiểm tra chi tiết một bộ phận xe."
+  },
+  "agreement": {
+    "img": "assets/img/vocab/generated/266-agreement.png",
+    "alt": "Two people signing an agreement.",
+    "caption": "Hai bên đang ký một thỏa thuận/hợp đồng."
+  },
+  "commuter": {
+    "img": "assets/img/vocab/generated/267-commuter.png",
+    "alt": "Commuters waiting for public transportation.",
+    "caption": "Người đi làm hằng ngày đang chờ phương tiện công cộng."
+  },
+  "floor space": {
+    "img": "assets/img/vocab/generated/268-floor-space.png",
+    "alt": "A cafe expanding its floor space into a nearby building.",
+    "caption": "Quán cà phê đang mở rộng diện tích mặt sàn."
+  },
+  "compatible": {
+    "img": "assets/img/vocab/generated/269-compatible.png",
+    "alt": "Software and devices working together compatibly.",
+    "caption": "Thiết bị và phần mềm hoạt động tương thích với nhau."
+  },
+  "come across": {
+    "img": "assets/img/vocab/generated/270-come-across.png",
+    "alt": "A student unexpectedly finding an opportunity online.",
+    "caption": "Một người tình cờ tìm thấy cơ hội khi đọc thông báo."
+  },
+  "anonymity": {
+    "img": "assets/img/vocab/generated/271-anonymity.png",
+    "alt": "An anonymous donor making a contribution.",
+    "caption": "Một khoản đóng góp được gửi ẩn danh."
+  },
+  "forum": {
+    "img": "assets/img/vocab/generated/272-forum.png",
+    "alt": "Coworkers discussing an online forum thread.",
+    "caption": "Đồng nghiệp đang thảo luận vấn đề trên diễn đàn trực tuyến."
+  },
+  "pantry": {
+    "img": "assets/img/vocab/generated/273-pantry.png",
+    "alt": "Employees using an office pantry with coffee machines.",
+    "caption": "Nhân viên đang sử dụng khu pantry có máy pha cà phê."
+  },
+  "interviewee": {
+    "img": "assets/img/vocab/generated/274-interviewee.png",
+    "alt": "An interviewee submitting salary requirements in a job interview.",
+    "caption": "Người được phỏng vấn đang nộp thông tin yêu cầu lương và thời gian rảnh."
+  },
+  "pool party": {
+    "img": "assets/img/vocab/generated/275-pool-party.png",
+    "alt": "People at a pool party with a portable speaker.",
+    "caption": "Mọi người đang tham dự tiệc bên hồ bơi với loa ngoài trời."
+  },
+  "model home": {
+    "img": "assets/img/vocab/generated/276-model-home.png",
+    "alt": "A real estate agent showing a model home to a buyer.",
+    "caption": "Môi giới đang dẫn khách xem nhà mẫu."
+  },
+  "internship program": {
+    "img": "assets/img/vocab/generated/277-internship-program.png",
+    "alt": "A student in an internship program at a dental office.",
+    "caption": "Sinh viên thực tập đang làm việc tại phòng nha."
+  },
+  "workshop": {
+    "img": "assets/img/vocab/generated/278-workshop.png",
+    "alt": "People attending a practical workshop or training session.",
+    "caption": "Mọi người đang tham dự buổi hội thảo/lớp thực hành."
+  },
+  "participant": {
+    "img": "assets/img/vocab/generated/279-participant.png",
+    "alt": "Festival participants learning about healthy food choices.",
+    "caption": "Người tham dự lễ hội đang học về lựa chọn thực phẩm lành mạnh."
+  },
+  "push back": {
+    "img": "assets/img/vocab/generated/051-push-back.png",
+    "alt": "A project manager pushing back a deadline.",
+    "caption": "Người quản lý đang dời lùi hạn chót của dự án."
+  },
+  "prototype": {
+    "img": "assets/img/vocab/generated/052-prototype.png",
+    "alt": "Engineers reviewing a physical prototype.",
+    "caption": "Kỹ sư đang xem xét bản mẫu sản phẩm."
+  },
+  "component": {
+    "img": "assets/img/vocab/generated/053-component.png",
+    "alt": "A technician holding a small device component.",
+    "caption": "Kỹ thuật viên đang kiểm tra một linh kiện nhỏ."
+  },
+  "deadline": {
+    "img": "assets/img/vocab/generated/054-deadline.png",
+    "alt": "A team looking at an approaching deadline.",
+    "caption": "Nhóm đang theo dõi hạn chót đang đến gần."
+  },
+  "briefing": {
+    "img": "assets/img/vocab/generated/055-briefing.png",
+    "alt": "An employee giving a short briefing to coworkers.",
+    "caption": "Nhân viên đang báo cáo ngắn cho đồng nghiệp."
+  },
+  "shuttle": {
+    "img": "assets/img/vocab/generated/056-shuttle.png",
+    "alt": "A corporate shuttle picking up guests.",
+    "caption": "Xe đưa đón đang đón khách tại khách sạn/công ty."
+  },
+  "shortage": {
+    "img": "assets/img/vocab/generated/057-shortage.png",
+    "alt": "Staff checking shelves during a supply shortage.",
+    "caption": "Nhân viên đang kiểm tra kệ hàng bị thiếu nguồn cung."
+  },
+  "remodeling": {
+    "img": "assets/img/vocab/generated/058-remodeling.png",
+    "alt": "Workers remodeling an office interior.",
+    "caption": "Công nhân đang sửa sang lại không gian văn phòng."
+  },
+  "make a reservation": {
+    "img": "assets/img/vocab/generated/059-make-a-reservation.png",
+    "alt": "A person making a restaurant reservation by phone.",
+    "caption": "Một người đang gọi điện đặt chỗ nhà hàng."
+  },
+  "nominee": {
+    "img": "assets/img/vocab/generated/060-nominee.png",
+    "alt": "A committee reviewing nominee profiles.",
+    "caption": "Ủy ban đang xem hồ sơ các ứng viên được đề cử."
+  },
+  "award": {
+    "img": "assets/img/vocab/generated/061-award.png",
+    "alt": "A person receiving an award at a company event.",
+    "caption": "Một người đang nhận giải thưởng trong sự kiện công ty."
+  },
+  "venue": {
+    "img": "assets/img/vocab/generated/062-venue.png",
+    "alt": "People inspecting a conference venue.",
+    "caption": "Mọi người đang kiểm tra địa điểm tổ chức hội nghị."
+  },
+  "final": {
+    "img": "assets/img/vocab/generated/063-final.png",
+    "alt": "Finalists standing together before a competition final.",
+    "caption": "Các thí sinh lọt vào vòng chung kết đang đứng cùng nhau."
+  },
+  "renovation": {
+    "img": "assets/img/vocab/generated/064-renovation.png",
+    "alt": "Construction workers doing an indoor renovation.",
+    "caption": "Công nhân đang cải tạo bên trong tòa nhà."
+  },
+  "crew": {
+    "img": "assets/img/vocab/generated/065-crew.png",
+    "alt": "A work crew coordinating at a job site.",
+    "caption": "Đội thi công đang phối hợp tại công trường."
+  },
+  "permit": {
+    "img": "assets/img/vocab/generated/066-permit.png",
+    "alt": "A person showing a permit at a reception desk.",
+    "caption": "Một người đang xuất trình giấy phép/thẻ ra vào tại quầy."
+  },
+  "enroll": {
+    "img": "assets/img/vocab/generated/067-enroll.png",
+    "alt": "An employee enrolling in a training course online.",
+    "caption": "Nhân viên đang đăng ký khóa đào tạo trên máy tính."
+  },
+  "walk someone through": {
+    "img": "assets/img/vocab/generated/068-walk-someone-through.png",
+    "alt": "A trainer walking someone through laptop steps.",
+    "caption": "Người hướng dẫn đang chỉ từng bước trên máy tính."
+  },
+  "freight elevator": {
+    "img": "assets/img/vocab/generated/069-freight-elevator.png",
+    "alt": "A freight elevator with boxes waiting nearby.",
+    "caption": "Thang máy chở hàng với các thùng hàng đang chờ vận chuyển."
+  },
+  "overseas": {
+    "img": "assets/img/vocab/generated/070-overseas.png",
+    "alt": "A business traveler preparing for an overseas trip.",
+    "caption": "Một người đang chuẩn bị cho chuyến đi nước ngoài."
+  },
+  "step in": {
+    "img": "assets/img/vocab/generated/071-step-in.png",
+    "alt": "A singer stepping in for another performer.",
+    "caption": "Một ca sĩ đang thay thế người biểu diễn khác."
+  },
+  "launch": {
+    "img": "assets/img/vocab/generated/072-launch.png",
+    "alt": "A toy company launching a remote control car.",
+    "caption": "Công ty đang ra mắt sản phẩm xe điều khiển từ xa."
+  },
+  "rechargeable": {
+    "img": "assets/img/vocab/generated/073-rechargeable.png",
+    "alt": "A rechargeable battery charging beside a toy car.",
+    "caption": "Pin có thể sạc lại đang được sạc cạnh xe đồ chơi."
+  },
+  "giveaway": {
+    "img": "assets/img/vocab/generated/074-giveaway.png",
+    "alt": "A retail store running a giveaway event.",
+    "caption": "Cửa hàng đang tổ chức chương trình tặng quà."
+  },
+  "gift certificate": {
+    "img": "assets/img/vocab/generated/075-gift-certificate.png",
+    "alt": "A customer receiving a gift certificate at checkout.",
+    "caption": "Khách hàng đang nhận phiếu quà tặng tại quầy."
+  },
+  "stock up": {
+    "img": "assets/img/vocab/generated/076-stock-up.png",
+    "alt": "Shoppers stocking up on sale items.",
+    "caption": "Khách hàng đang mua tích trữ nhiều mặt hàng."
+  },
+  "distributor": {
+    "img": "assets/img/vocab/generated/077-distributor.png",
+    "alt": "A distributor delivering hardwood flooring materials.",
+    "caption": "Nhà phân phối đang giao vật liệu sàn gỗ."
+  },
+  "reduction": {
+    "img": "assets/img/vocab/generated/078-reduction.png",
+    "alt": "A manager showing a price reduction chart.",
+    "caption": "Người quản lý đang trình bày mức giảm giá."
+  },
+  "install": {
+    "img": "assets/img/vocab/generated/079-install.png",
+    "alt": "Volunteers installing a bird nesting box outdoors.",
+    "caption": "Tình nguyện viên đang lắp đặt hộp làm tổ ngoài trời."
+  },
+  "wholesale": {
+    "img": "assets/img/vocab/generated/080-wholesale.png",
+    "alt": "Warehouse workers preparing wholesale orders of dinnerware.",
+    "caption": "Nhân viên kho đang chuẩn bị đơn hàng bán sỉ."
+  },
+  "pay off": {
+    "img": "assets/img/vocab/generated/081-pay-off.png",
+    "alt": "A business team celebrating a successful investment.",
+    "caption": "Nhóm kinh doanh vui mừng vì khoản đầu tư đã sinh lợi."
+  },
+  "discontinue": {
+    "img": "assets/img/vocab/generated/082-discontinue.png",
+    "alt": "A store manager removing a discontinued product from shelves.",
+    "caption": "Nhân viên đang gỡ sản phẩm ngừng kinh doanh khỏi kệ."
+  },
+  "be described as": {
+    "img": "assets/img/vocab/generated/083-be-described-as.png",
+    "alt": "A new nutritional energy drink on display.",
+    "caption": "Sản phẩm mới được mô tả là nước uống năng lượng dinh dưỡng."
+  },
+  "ultimately": {
+    "img": "assets/img/vocab/generated/084-ultimately.png",
+    "alt": "A manufacturing investment finally creating factory jobs.",
+    "caption": "Khoản đầu tư cuối cùng tạo ra nhiều việc làm trong nhà máy."
+  },
+  "result in": {
+    "img": "assets/img/vocab/generated/085-result-in.png",
+    "alt": "Factory investment resulting in new employees being hired.",
+    "caption": "Việc đầu tư dẫn đến tuyển thêm nhân viên mới."
+  },
+  "clarify": {
+    "img": "assets/img/vocab/generated/086-clarify.png",
+    "alt": "An office manager clarifying policy changes in a meeting.",
+    "caption": "Quản lý đang làm rõ các thay đổi chính sách trong cuộc họp."
+  },
+  "concentrate": {
+    "img": "assets/img/vocab/generated/087-concentrate.png",
+    "alt": "An office worker trying to concentrate despite construction noise.",
+    "caption": "Nhân viên cố tập trung dù có tiếng ồn xây dựng bên ngoài."
+  },
+  "approach (to)": {
+    "img": "assets/img/vocab/generated/088-approach-to.png",
+    "alt": "Managers brainstorming a new approach.",
+    "caption": "Nhóm quản lý đang tìm cách tiếp cận mới."
+  },
+  "numerous": {
+    "img": "assets/img/vocab/generated/089-numerous.png",
+    "alt": "A service team handling numerous complaints.",
+    "caption": "Đội hỗ trợ đang xử lý rất nhiều khiếu nại."
+  },
+  "recall": {
+    "img": "assets/img/vocab/generated/090-recall.png",
+    "alt": "Defective smartphones being recalled by an electronics company.",
+    "caption": "Công ty điện tử đang thu hồi điện thoại bị lỗi."
+  },
+  "bid": {
+    "img": "assets/img/vocab/generated/091-bid.png",
+    "alt": "Council members reviewing submitted bids.",
+    "caption": "Hội đồng đang xem xét các hồ sơ dự thầu đã nộp."
+  },
+  "costly": {
+    "img": "assets/img/vocab/generated/092-costly.png",
+    "alt": "A team selecting a costly contractor option.",
+    "caption": "Nhóm đang chọn phương án đắt hơn nhưng có kinh nghiệm."
+  },
+  "accompany": {
+    "img": "assets/img/vocab/generated/093-accompany.png",
+    "alt": "A physician explaining symptoms that accompany dehydration.",
+    "caption": "Bác sĩ đang giải thích triệu chứng đi kèm mất nước."
+  },
+  "emphasis (on)": {
+    "img": "assets/img/vocab/generated/094-emphasis-on.png",
+    "alt": "A company emphasizing teamwork.",
+    "caption": "Công ty đang nhấn mạnh tinh thần làm việc nhóm."
+  },
+  "vacate": {
+    "img": "assets/img/vocab/generated/095-vacate.png",
+    "alt": "Employees vacating a building during a fire alarm.",
+    "caption": "Nhân viên đang rời khỏi tòa nhà khi báo cháy."
+  },
+  "demand (for)": {
+    "img": "assets/img/vocab/generated/096-demand-for.png",
+    "alt": "Analysts reviewing demand for hybrid vehicles.",
+    "caption": "Nhà phân tích đang xem nhu cầu đối với xe hybrid."
+  },
+  "admirably": {
+    "img": "assets/img/vocab/generated/097-admirably.png",
+    "alt": "A manager handling emergency procedures admirably.",
+    "caption": "Người quản lý xử lý tình huống khẩn cấp rất đáng khâm phục."
+  },
+  "power outage": {
+    "img": "assets/img/vocab/generated/098-power-outage.png",
+    "alt": "Employees working during a power outage with emergency lights.",
+    "caption": "Nhân viên đang làm việc trong lúc mất điện."
+  },
+  "fragile": {
+    "img": "assets/img/vocab/generated/099-fragile.png",
+    "alt": "A worker carefully handling a fragile package.",
+    "caption": "Nhân viên đang cẩn thận xử lý kiện hàng dễ vỡ."
+  },
+  "courier": {
+    "img": "assets/img/vocab/generated/100-courier.png",
+    "alt": "A courier carrying a delicate package.",
+    "caption": "Nhân viên chuyển phát đang giao kiện hàng."
+  },
+  "needlessly": {
+    "img": "assets/img/vocab/generated/101-needlessly.png",
+    "alt": "Sales staff relieved after worrying needlessly.",
+    "caption": "Nhân viên nhận ra mình đã lo lắng không cần thiết."
+  },
+  "exceed": {
+    "img": "assets/img/vocab/generated/102-exceed.png",
+    "alt": "A product launch exceeding sales projections.",
+    "caption": "Kết quả ra mắt sản phẩm vượt quá dự báo."
+  },
+  "valid": {
+    "img": "assets/img/vocab/generated/103-valid.png",
+    "alt": "A spa therapist showing a valid certification.",
+    "caption": "Nhân viên spa có chứng chỉ hợp lệ."
+  },
+  "certification": {
+    "img": "assets/img/vocab/generated/104-certification.png",
+    "alt": "A professional certification in a spa workspace.",
+    "caption": "Chứng nhận nghề nghiệp được đặt trong khu làm việc."
+  },
+  "take precautions": {
+    "img": "assets/img/vocab/generated/105-take-precautions.png",
+    "alt": "Jet ski users taking safety precautions.",
+    "caption": "Người dùng mô tô nước đang thực hiện biện pháp phòng ngừa an toàn."
+  },
+  "regarding": {
+    "img": "assets/img/vocab/generated/106-regarding.png",
+    "alt": "Tenants discussing a decision regarding new lights.",
+    "caption": "Cư dân đang trao đổi về quyết định liên quan đến đèn cảm biến."
+  },
+  "tenant": {
+    "img": "assets/img/vocab/generated/107-tenant.png",
+    "alt": "A tenant entering an apartment building.",
+    "caption": "Người thuê nhà đang vào tòa nhà căn hộ."
+  },
+  "landlord": {
+    "img": "assets/img/vocab/generated/108-landlord.png",
+    "alt": "A landlord speaking with tenants.",
+    "caption": "Chủ nhà đang trao đổi với người thuê."
+  },
+  "eliminate": {
+    "img": "assets/img/vocab/generated/109-eliminate.png",
+    "alt": "A cleaner spraying carpet to eliminate odor.",
+    "caption": "Nhân viên đang xịt thảm để khử mùi."
+  },
+  "advancement": {
+    "img": "assets/img/vocab/generated/110-advancement.png",
+    "alt": "Engineers celebrating an advancement in network technology.",
+    "caption": "Kỹ sư vui mừng trước bước tiến công nghệ mạng."
+  },
+  "procure": {
+    "img": "assets/img/vocab/generated/111-procure.png",
+    "alt": "Museum staff procuring a rare painting.",
+    "caption": "Nhân viên bảo tàng đã thu mua được một bức tranh hiếm."
+  },
+  "counterfeit": {
+    "img": "assets/img/vocab/generated/112-counterfeit.png",
+    "alt": "Officials examining counterfeit currency.",
+    "caption": "Nhân viên chức năng đang kiểm tra tiền giả."
+  },
+  "operational": {
+    "img": "assets/img/vocab/generated/113-operational.png",
+    "alt": "Operational battery packs separated from defective packs.",
+    "caption": "Pin còn hoạt động được được tách khỏi pin lỗi."
+  },
+  "prove otherwise": {
+    "img": "assets/img/vocab/generated/114-prove-otherwise.png",
+    "alt": "A researcher conducting a study to prove otherwise.",
+    "caption": "Nhà nghiên cứu đang tiến hành nghiên cứu để chứng minh điều ngược lại."
+  },
+  "rather than": {
+    "img": "assets/img/vocab/generated/115-rather-than.png",
+    "caption": "Một người chọn chuyến đi văn hóa ở nước ngoài thay vì kỳ nghỉ biển."
+  },
+  "enduringly": {
+    "img": "assets/img/vocab/generated/116-enduringly.png",
+    "caption": "Sách thiếu nhi được yêu thích lâu bền qua nhiều thế hệ."
+  },
+  "be committed to": {
+    "img": "assets/img/vocab/generated/117-be-committed-to.png",
+    "caption": "Nhân viên nhà hàng tận tâm mang lại trải nghiệm ăn uống tốt."
+  },
+  "courteous": {
+    "img": "assets/img/vocab/generated/118-courteous.png",
+    "caption": "Khách giữ giọng nhỏ để cư xử lịch sự vào buổi tối."
+  },
+  "accommodate": {
+    "img": "assets/img/vocab/generated/119-accommodate.png",
+    "caption": "Nhân viên nhà hàng sắp xếp chỗ trong nhà cho khách."
+  },
+  "fill out": {
+    "img": "assets/img/vocab/generated/120-fill-out.png",
+    "caption": "Một người đang điền biểu mẫu."
+  },
+  "loan": {
+    "img": "assets/img/vocab/generated/121-loan.png",
+    "caption": "Chủ doanh nghiệp nhỏ đang trao đổi về khoản vay ngân hàng."
+  },
+  "accurate": {
+    "img": "assets/img/vocab/generated/122-accurate.png",
+    "caption": "Một người đang nhập thông tin chính xác vào biểu mẫu."
+  },
+  "rejection": {
+    "img": "assets/img/vocab/generated/123-rejection.png",
+    "caption": "Đơn đăng ký bị từ chối và được trả lại."
+  },
+  "issue": {
+    "img": "assets/img/vocab/generated/124-issue.png",
+    "caption": "Nhân viên ngân hàng đang cấp/phát hành khoản tiền được duyệt."
+  },
+  "apparent": {
+    "img": "assets/img/vocab/generated/125-apparent.png",
+    "caption": "Vấn đề giấc ngủ không dễ nhận thấy với người bị ảnh hưởng."
+  },
+  "symptom": {
+    "img": "assets/img/vocab/generated/126-symptom.png",
+    "caption": "Bác sĩ đang trao đổi với bệnh nhân về triệu chứng."
+  },
+  "diagnose": {
+    "img": "assets/img/vocab/generated/127-diagnose.png",
+    "caption": "Kỹ thuật viên đang chẩn đoán vấn đề giấc ngủ."
+  },
+  "assess": {
+    "img": "assets/img/vocab/generated/128-assess.png",
+    "caption": "Kỹ thuật viên đang đánh giá tình trạng của bệnh nhân bằng thiết bị."
+  },
+  "step down": {
+    "img": "assets/img/vocab/generated/129-step-down.png",
+    "caption": "Một lãnh đạo rút lui khỏi vị trí và người khác đảm nhận vai trò."
+  },
+  "expertise": {
+    "img": "assets/img/vocab/generated/130-expertise.png",
+    "caption": "Chuyên gia an ninh đang tư vấn cho nhóm giao thông."
+  },
+  "outstanding": {
+    "img": "assets/img/vocab/generated/131-outstanding.png",
+    "caption": "Nhân viên được khen vì thành tích làm việc xuất sắc."
+  },
+  "representative": {
+    "img": "assets/img/vocab/generated/132-representative.png",
+    "caption": "Nhân viên đại diện chăm sóc khách hàng đang hỗ trợ qua điện thoại."
+  },
+  "come up": {
+    "img": "assets/img/vocab/generated/133-come-up.png",
+    "caption": "Hạn chót đang sắp đến trên lịch làm việc."
+  },
+  "exhibition": {
+    "img": "assets/img/vocab/generated/134-exhibition.png",
+    "caption": "Khách tham quan một cuộc triển lãm cây cảnh trong nhà kính."
+  },
+  "greenhouse": {
+    "img": "assets/img/vocab/generated/135-greenhouse.png",
+    "caption": "Quán cà phê được cải tạo từ nhà kính đầy cây xanh."
+  },
+  "performance evaluation": {
+    "img": "assets/img/vocab/generated/136-performance-evaluation.png",
+    "caption": "Quản lý đang xem bản đánh giá hiệu suất với nhân viên."
+  },
+  "privatization": {
+    "img": "assets/img/vocab/generated/137-privatization.png",
+    "caption": "Dịch vụ giao thông công cộng được bàn giao cho công ty tư nhân vận hành."
+  },
+  "generate": {
+    "img": "assets/img/vocab/generated/138-generate.png",
+    "caption": "Hoạt động bán hàng tạo ra lợi nhuận cho doanh nghiệp."
+  },
+  "cordially": {
+    "img": "assets/img/vocab/generated/139-cordially.png",
+    "caption": "Nhân viên bảo tàng trân trọng chào đón khách dự sự kiện."
+  },
+  "on display": {
+    "img": "assets/img/vocab/generated/140-on-display.png",
+    "caption": "Các bức tranh đang được trưng bày trong bảo tàng."
+  },
+  "unsubscribe": {
+    "img": "assets/img/vocab/generated/141-unsubscribe.png",
+    "caption": "Một người đang hủy đăng ký nhận bản tin trên máy tính."
+  },
+  "apparel": {
+    "img": "assets/img/vocab/generated/142-apparel.png",
+    "caption": "Trang phục được treo gọn trong cửa hàng quần áo."
+  },
+  "commemorate": {
+    "img": "assets/img/vocab/generated/144-commemorate.png",
+    "caption": "Nhóm nhân viên tổ chức buổi kỷ niệm một thành tựu."
+  },
+  "availability": {
+    "img": "assets/img/vocab/generated/145-availability.png",
+    "caption": "Nhóm làm việc đang so lịch để chọn thời gian rảnh phù hợp."
+  },
+  "take part in": {
+    "img": "assets/img/vocab/generated/146-take-part-in.png",
+    "caption": "Một tình nguyện viên tham gia hoạt động nhóm ngoài trời."
+  },
+  "no later than": {
+    "img": "assets/img/vocab/generated/147-no-later-than.png",
+    "caption": "Một người gửi email trước hạn chót."
+  },
+  "questionnaire": {
+    "img": "assets/img/vocab/generated/148-questionnaire.png",
+    "caption": "Khách hàng điền bảng khảo sát dịch vụ trên máy tính bảng."
+  },
+  "off limits": {
+    "img": "assets/img/vocab/generated/149-off-limits.png",
+    "caption": "Khu đậu xe bị rào lại và không được sử dụng tạm thời."
+  },
+  "reimburse": {
+    "img": "assets/img/vocab/generated/150-reimburse.png",
+    "caption": "Nhân viên hoàn tiền lại cho khách hàng."
+  },
+  "incur": {
+    "img": "assets/img/vocab/generated/151-incur.png",
+    "caption": "Người đi đường nhìn các hóa đơn chi phí phát sinh."
+  },
+  "carry out": {
+    "img": "assets/img/vocab/generated/152-carry-out.png",
+    "caption": "Công nhân đang thực hiện dự án sửa chữa bãi đậu xe."
+  },
+  "put forward": {
+    "img": "assets/img/vocab/generated/153-put-forward.png",
+    "caption": "Nhân viên đưa ra ý tưởng cho quản lý công trường."
+  },
+  "inconvenience": {
+    "img": "assets/img/vocab/generated/154-inconvenience.png",
+    "caption": "Khách phải đi vòng vì công trình sửa chữa gây bất tiện."
+  },
+  "waive": {
+    "img": "assets/img/vocab/generated/155-waive.png",
+    "caption": "Nhân viên thu ngân bỏ phí giao hàng cho đơn mua."
+  },
+  "be eligible for": {
+    "img": "assets/img/vocab/generated/156-be-eligible-for.png",
+    "caption": "Khách hàng đủ điều kiện nhận giao hàng miễn phí."
+  },
+  "a vast array of": {
+    "img": "assets/img/vocab/generated/157-a-vast-array-of.png",
+    "caption": "Cửa hàng có rất nhiều loại đồ cắm trại để lựa chọn."
+  },
+  "compile": {
+    "img": "assets/img/vocab/generated/158-compile.png",
+    "caption": "Nhân viên tổng hợp thông tin sản phẩm thành một báo cáo."
+  },
+  "a wide selection of": {
+    "img": "assets/img/vocab/generated/159-a-wide-selection-of.png",
+    "caption": "Cửa hàng phụ tùng có lựa chọn phong phú các ống xả."
+  },
+  "expand": {
+    "img": "assets/img/vocab/generated/160-expand.png",
+    "caption": "Cửa hàng mở rộng khu đồ gia dụng với nhiều kệ hàng hơn."
+  },
+  "deep discount": {
+    "img": "assets/img/vocab/generated/161-deep-discount.png",
+    "caption": "Khách mua hàng trong đợt giảm giá mạnh tại cửa hàng nông sản."
+  },
+  "warranty": {
+    "img": "assets/img/vocab/generated/162-warranty.png",
+    "caption": "Chủ xe nhận dịch vụ sửa chữa theo bảo hành."
+  },
+  "on behalf of": {
+    "img": "assets/img/vocab/generated/163-on-behalf-of.png",
+    "caption": "Quản lý ngân hàng thay mặt cả đội ngũ cảm ơn khách hàng."
+  },
+  "patronage": {
+    "img": "assets/img/vocab/generated/164-patronage.png",
+    "caption": "Nhân viên cảm ơn khách hàng thân thiết vì sự ủng hộ lâu dài."
+  },
+  "new hire": {
+    "img": "assets/img/vocab/generated/165-new-hire.png",
+    "caption": "Nhân viên mới đến văn phòng trong ngày đầu làm việc."
+  },
+  "orientation": {
+    "img": "assets/img/vocab/generated/166-orientation.png",
+    "caption": "Người hướng dẫn đang đào tạo định hướng cho nhân viên mới."
+  },
+  "be expected to": {
+    "img": "assets/img/vocab/generated/167-be-expected-to.png",
+    "caption": "Nhân viên đọc sổ tay và làm theo quy trình tiêu chuẩn."
+  },
+  "embark on": {
+    "img": "assets/img/vocab/generated/168-embark-on.png",
+    "caption": "Nhóm xuất bản bắt đầu một dự án mở rộng lớn."
+  },
+  "ambitious": {
+    "img": "assets/img/vocab/generated/169-ambitious.png",
+    "caption": "Nhóm làm việc lên kế hoạch cho mục tiêu mở rộng tham vọng."
+  },
+  "collaboration": {
+    "img": "assets/img/vocab/generated/170-collaboration.png",
+    "caption": "Các lập trình viên hợp tác để hoàn thiện sản phẩm phần mềm."
+  },
+  "relocate": {
+    "img": "assets/img/vocab/generated/171-relocate.png",
+    "caption": "Nhân viên chuyển thùng đồ sang trụ sở mới."
+  },
+  "headquarters": {
+    "img": "assets/img/vocab/generated/172-headquarters.png",
+    "caption": "Tòa nhà trụ sở chính hiện đại của công ty."
+  },
+  "authentic": {
+    "img": "assets/img/vocab/generated/173-authentic.png",
+    "caption": "Đồ nội thất và trang phục cổ nguyên bản được trưng bày trong bảo tàng."
+  },
+  "under the direction of": {
+    "img": "assets/img/vocab/generated/174-under-the-direction-of.png",
+    "caption": "Các quản lý vùng làm việc dưới sự chỉ đạo của phó chủ tịch."
+  },
+  "owing to": {
+    "img": "assets/img/vocab/generated/175-owing-to.png",
+    "caption": "Nhân viên phục vụ chuẩn bị thêm đồ ăn do nhu cầu tăng."
+  },
+  "surge": {
+    "img": "assets/img/vocab/generated/176-surge.png",
+    "caption": "Nhà bếp bận rộn vì lượng đơn hàng tăng đột biến."
+  },
+  "revised": {
+    "img": "assets/img/vocab/generated/177-revised.png",
+    "caption": "Giáo sư xem lại bản sách đã được chỉnh sửa."
+  },
+  "durable": {
+    "img": "assets/img/vocab/generated/178-durable.png",
+    "caption": "Túi nylon bền chắc được dùng để đựng thực phẩm quyên góp."
+  },
+  "dismantle": {
+    "img": "assets/img/vocab/generated/179-dismantle.png",
+    "caption": "Công nhân tháo dỡ một phần vỉa hè bằng dụng cụ chuyên dụng."
+  },
+  "oversight": {
+    "img": "assets/img/vocab/generated/180-oversight.png",
+    "caption": "Quản lý phát hiện một sơ suất nghiêm trọng trong hồ sơ công việc."
+  },
+  "commit (an act)": {
+    "img": "assets/img/vocab/generated/181-commit-an-act.png",
+    "caption": "Cư dân nghi ngờ hành động thi công ban đêm là một việc làm sai trái."
+  },
+  "spoiled": {
+    "img": "assets/img/vocab/generated/182-spoiled.png",
+    "caption": "Hộp nguyên liệu chứa thực phẩm đã bị hư hỏng."
+  },
+  "refund": {
+    "img": "assets/img/vocab/generated/183-refund.png",
+    "caption": "Nhân viên hoàn tiền cho khách vì đơn hàng bị lỗi."
+  },
+  "adjacent": {
+    "img": "assets/img/vocab/generated/184-adjacent.png",
+    "caption": "Bãi đậu xe nằm liền kề ngay bên cạnh tòa nhà bảo tàng."
+  },
+  "in advance": {
+    "img": "assets/img/vocab/generated/185-in-advance.png",
+    "caption": "Trưởng nhóm đặt chỗ tham quan trước ngày đi."
+  },
+  "spacious": {
+    "img": "assets/img/vocab/generated/186-spacious.png",
+    "caption": "Cốp xe rộng rãi chứa được nhiều hành lý."
+  },
+  "sophisticated": {
+    "img": "assets/img/vocab/generated/187-sophisticated.png",
+    "caption": "Kỹ thuật viên kiểm tra hệ thống phanh hiện đại của xe."
+  },
+  "dependable": {
+    "img": "assets/img/vocab/generated/188-dependable.png",
+    "caption": "Nhân viên bán xe giao một chiếc xe đáng tin cậy cho khách."
+  },
+  "rent out": {
+    "img": "assets/img/vocab/generated/189-rent-out.png",
+    "caption": "Nhân viên cho thuê xe giải thích chiếc xe van cuối cùng đã được thuê."
+  },
+  "documentation": {
+    "img": "assets/img/vocab/generated/190-documentation.png",
+    "caption": "Khách đưa giấy tờ cần thiết tại quầy thuê xe."
+  },
+  "sufficient": {
+    "img": "assets/img/vocab/generated/191-sufficient.png",
+    "caption": "Chiếc xe nhỏ không đủ chỗ cho hành lý và hành khách."
+  },
+  "be entitled to": {
+    "img": "assets/img/vocab/generated/192-be-entitled-to.png",
+    "caption": "Thành viên được hưởng quyền lợi giảm giá tại bảo tàng."
+  },
+  "enclosed": {
+    "img": "assets/img/vocab/generated/193-enclosed.png",
+    "caption": "Một người mở phong bì có tài liệu đính kèm bên trong."
+  },
+  "complimentary": {
+    "img": "assets/img/vocab/generated/194-complimentary.png",
+    "caption": "Khách tham quan nhận vé miễn phí từ nhân viên bảo tàng."
+  },
+  "admission": {
+    "img": "assets/img/vocab/generated/301-admission.png",
+    "caption": "Khách tham quan nhận vé vào cửa tại quầy bảo tàng."
+  },
+  "milestone": {
+    "img": "assets/img/vocab/generated/302-milestone.png",
+    "caption": "Nhóm công ty tổ chức kỷ niệm một cột mốc quan trọng."
+  },
+  "exclusively": {
+    "img": "assets/img/vocab/generated/303-exclusively.png",
+    "caption": "Hàng phiên bản giới hạn được bày bán độc quyền trong khu riêng."
+  },
+  "merchandise": {
+    "img": "assets/img/vocab/generated/304-merchandise.png",
+    "caption": "Kệ hàng hóa gồm quần áo và phụ kiện trong cửa hàng."
+  },
+  "don't hesitate to": {
+    "img": "assets/img/vocab/generated/305-dont-hesitate-to.png",
+    "caption": "Quản lý thân thiện mời đồng nghiệp liên hệ nếu có câu hỏi."
+  },
+  "account for": {
+    "img": "assets/img/vocab/generated/306-account-for.png",
+    "caption": "Nhà phân tích trình bày phần doanh số chiếm hơn một nửa tổng doanh số."
+  },
+  "rival": {
+    "img": "assets/img/vocab/generated/307-rival.png",
+    "caption": "Hai nhóm kinh doanh đối thủ cạnh tranh trực tiếp với nhau."
+  },
+  "mutually beneficial": {
+    "img": "assets/img/vocab/generated/308-mutually-beneficial.png",
+    "caption": "Hai đối tác bắt tay sau thỏa thuận đôi bên cùng có lợi."
+  },
+  "minimize": {
+    "img": "assets/img/vocab/generated/309-minimize.png",
+    "caption": "Nhóm kho vận điều chỉnh kế hoạch để giảm thiểu chậm trễ giao hàng."
+  },
+  "coordinate": {
+    "img": "assets/img/vocab/generated/310-coordinate.png",
+    "caption": "Người điều phối gọi điện sắp lịch lắp đặt thiết bị nhà bếp."
+  },
+  "appliance": {
+    "img": "assets/img/vocab/generated/311-appliance.png",
+    "caption": "Các thiết bị gia dụng trong bếp đã sẵn sàng để lắp đặt."
+  },
+  "i owe you one": {
+    "img": "assets/img/vocab/generated/143-i-owe-you-one.png",
+    "caption": "Một đồng nghiệp cảm ơn người khác vì đã giúp đỡ."
   }
 }

@@ -1678,7 +1678,7 @@
   let vocabVideoQueue = [], vocabVideoIdx = 0, vocabVideoPlaying = false, vocabVideoMode = "mixed", vocabVideoTimer = null;
   const VOCAB_VIDEO_CONFIG = {
     delayMs: 5600,
-    maxItems: 48,
+    maxItems: null,
     speechDelayMs: 120,
   };
 

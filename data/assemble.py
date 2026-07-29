@@ -329,10 +329,15 @@ def keyword_visual_family(item):
     return ""
 
 
+STRICT_CONTEXTUAL_VOCAB_VISUALS = True
+
+
 def visual_for_item(item):
     visual = VOCAB_VISUALS.get(synonym_key(item.get("word", "")))
     if visual:
         return dict(visual)
+    if STRICT_CONTEXTUAL_VOCAB_VISUALS:
+        return {}
     family_key = synonym_key(item.get("family", ""))
     if family_key in VOCAB_VISUAL_FAMILIES and family_key not in GENERIC_VISUAL_FAMILIES:
         visual = dict(VOCAB_VISUAL_FAMILIES[family_key])
