@@ -2621,6 +2621,191 @@
     </div>`;
   }
 
+  const READING_OPTION_ROLES = {
+    "i": "đại từ chủ ngữ",
+    "we": "đại từ chủ ngữ",
+    "you": "đại từ chủ ngữ/tân ngữ",
+    "he": "đại từ chủ ngữ",
+    "she": "đại từ chủ ngữ",
+    "they": "đại từ chủ ngữ",
+    "me": "đại từ tân ngữ",
+    "us": "đại từ tân ngữ",
+    "him": "đại từ tân ngữ",
+    "her": "đại từ tân ngữ/tính từ sở hữu",
+    "them": "đại từ tân ngữ",
+    "my": "tính từ sở hữu",
+    "your": "tính từ sở hữu",
+    "his": "tính từ sở hữu/đại từ sở hữu",
+    "its": "tính từ sở hữu",
+    "our": "tính từ sở hữu",
+    "their": "tính từ sở hữu",
+    "mine": "đại từ sở hữu",
+    "yours": "đại từ sở hữu",
+    "hers": "đại từ sở hữu",
+    "ours": "đại từ sở hữu",
+    "theirs": "đại từ sở hữu",
+    "myself": "đại từ phản thân",
+    "yourself": "đại từ phản thân",
+    "himself": "đại từ phản thân",
+    "herself": "đại từ phản thân",
+    "itself": "đại từ phản thân",
+    "ourselves": "đại từ phản thân",
+    "themselves": "đại từ phản thân",
+    "each": "từ hạn định đi với danh từ số ít",
+    "another": "từ hạn định đi với danh từ số ít",
+    "others": "đại từ",
+    "all": "từ hạn định đi với danh từ số nhiều/không đếm được",
+    "soon": "trạng từ dạng thường",
+    "sooner": "dạng so sánh hơn",
+    "soonest": "dạng so sánh nhất",
+    "sooners": "dạng không chuẩn trong ngữ cảnh",
+    "minimal": "tính từ",
+    "minimally": "trạng từ",
+    "minimalist": "danh từ/người theo chủ nghĩa tối giản",
+    "minimalism": "danh từ",
+  };
+
+  function readingContext(t, p, q, parent) {
+    if (p && p.part >= 5) return true;
+    if (t && t.kind === "reading") return true;
+    if (q && q.n >= 101 && q.n <= 200 && !(q.audio || parent && parent.audio)) return true;
+    return false;
+  }
+
+  function ruleText(s) {
+    return String(s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/đ/g, "d")
+      .replace(/[^a-z0-9' +_.-]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function optionRole(txt, q, explanation) {
+    const raw = cleanOptionText(txt);
+    const key = normText(raw);
+    const exp = ruleText(explanation || "");
+    const question = ruleText(q && q.question || "");
+    if (!raw) return "";
+    if (READING_OPTION_ROLES[key]) return READING_OPTION_ROLES[key];
+    if (/^to [a-z]+$/.test(key)) return "to + động từ nguyên mẫu";
+    if (/^(is|are|was|were|be|been|being|has been|have been|had been) [a-z]+ed$/.test(key)) return "dạng bị động";
+    if (/^(is|are|was|were|be|been|being) [a-z]+ing$/.test(key)) return "dạng tiếp diễn";
+    if (/^(has|have|had) [a-z]+ed$/.test(key)) return "dạng hoàn thành";
+    if (/\bthan\b/.test(question) || /\bso sanh hon\b/.test(exp) || /\bcomparative\b/.test(exp)) {
+      if (/\bmore [a-z]+\b/.test(key) || /er$/.test(key)) return "dạng so sánh hơn";
+      if (/\bmost [a-z]+\b/.test(key) || /est$/.test(key)) return "dạng so sánh nhất";
+    }
+    if (/ly$/.test(key)) return "trạng từ";
+    if (/(tion|sion|ment|ness|ity|ism|ance|ence|cy|ship|ure|al)$/.test(key)) return "danh từ";
+    if (/(able|ible|ive|ous|ful|less|ic|al|ary|ent|ant)$/.test(key)) return "tính từ";
+    if (/ing$/.test(key)) return "V-ing/hiện tại phân từ";
+    if (/ed$/.test(key)) return "V-ed/quá khứ phân từ";
+    if (/s$/.test(key) && key.split(" ").length === 1) return "danh từ số nhiều hoặc động từ ngôi ba số ít";
+    return "";
+  }
+
+  function parseExplicitEliminations(explanation) {
+    const out = {};
+    const ex = String(explanation || "");
+    const patterns = [
+      /(?:^|[\n;。.!?,(]\s*)([A-D])\s*(?:sai|không đúng|loại)(?:\s+vì)?\s*[:：-]?\s*([^;\n.。!?)]+)/gi,
+      /(?:^|[\n;])\s*([A-D])\.\s*([^;\n]+)/gi,
+    ];
+    patterns.forEach((re) => {
+      let m;
+      while ((m = re.exec(ex))) {
+        const letter = m[1].toUpperCase();
+        const reason = cleanTextForFeedback(m[2]);
+        if (reason && !out[letter]) out[letter] = reason;
+      }
+    });
+    return out;
+  }
+
+  function cleanTextForFeedback(text) {
+    return String(text || "")
+      .replace(/^["“”'‘’\s:：-]+|["“”'‘’\s]+$/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function stripExplicitEliminations(explanation) {
+    return cleanTextForFeedback(String(explanation || "")
+      .replace(/(?:^|[\n;。.!?,(]\s*)[A-D]\s*(?:sai|không đúng|loại)(?:\s+vì)?\s*[:：-]?\s*([^;\n.。!?)]+)/gi, "")
+      .replace(/(?:^|\n)\s*Loại\s*[:：][\s\S]*$/i, "")
+      .replace(/\s*Chọn\s+[A-D]\s*\)?\s*\.?$/i, "")
+      .replace(/\(\s*\)/g, ""));
+  }
+
+  function optionReason(q, L, explanation, explicit) {
+    if (explicit && explicit[L]) return explicit[L];
+    const text = cleanOptionText(q.choices && q.choices[L]);
+    const role = optionRole(text, q, explanation);
+    const exp = ruleText(explanation || "");
+    const question = ruleText(q.question || "");
+    const label = role ? `${role}, ` : "";
+    if (/tinh tu so huu|possessive adjective/.test(exp)) return `${label}không bổ nghĩa đúng cho danh từ/cụm danh từ cần tính từ sở hữu.`;
+    if (/dai tu chu ngu|chu ngu/.test(exp) && /can chu ngu/.test(exp)) return `${label}không làm đúng vai trò chủ ngữ trong mệnh đề này.`;
+    if (/dai tu tan ngu|tan ngu/.test(exp) && /can tan ngu/.test(exp)) return `${label}không làm đúng vai trò tân ngữ trong cấu trúc này.`;
+    if (/trang tu|adverb/.test(exp)) return `${label}không phải dạng trạng từ cần để bổ nghĩa trong câu.`;
+    if (/tinh tu|adjective/.test(exp) && /can/.test(exp)) return `${label}không phải dạng tính từ phù hợp với danh từ/cụm danh từ sau chỗ trống.`;
+    if (/danh tu|noun/.test(exp) && /can/.test(exp)) return `${label}không phải danh từ phù hợp với vị trí này.`;
+    if (/so sanh hon|comparative/.test(exp) || /\bthan\b/.test(question)) return `${label}không phải dạng so sánh hơn cần đi với “than”.`;
+    if (/bi dong|passive|be \+ v3|has been|have been/.test(exp)) return `${label}không tạo đúng cấu trúc bị động trong câu.`;
+    if (/to-v|to \+ v|dong tu nguyen mau|nguyen mau/.test(exp) || /\b(to)\s+_{2,}/.test(question)) return `${label}không đúng dạng động từ sau “to”.`;
+    if (/collocation|cum co dinh|cum danh tu|cum tu nhien|cach dien dat tu nhien/.test(exp)) return `${label}không tạo thành cụm tự nhiên hoặc không hợp collocation trong ngữ cảnh.`;
+    if (/hop nghia|ngu canh|paraphrase|doi chieu|bai viet|bai doc|hoa don|email|thong bao/.test(exp)) return `${label}không khớp ý hoặc bằng chứng trong bài đọc.`;
+    return `${label}không phù hợp với cấu trúc hoặc nghĩa của câu.`;
+  }
+
+  function quotedPhrase(text) {
+    const m = String(text || "").match(/[\"“']([^\"”']{3,80})[\"”']/);
+    return m ? cleanTextForFeedback(m[1]) : "";
+  }
+
+  function readingMemoryNote(q, explanation) {
+    const exp = ruleText(explanation || "");
+    const quote = quotedPhrase(explanation);
+    if (/tinh tu so huu|possessive adjective/.test(exp)) return "Trước danh từ/cụm danh từ có thể cần tính từ sở hữu: my/your/his/her/our/their + N.";
+    if (/so sanh hon|comparative/.test(exp) || /\bthan\b/.test(ruleText(q.question || ""))) return "Gặp “than” thì kiểm tra dạng so sánh hơn: adj/adv-er hoặc more + adj/adv.";
+    if (/trang tu|adverb/.test(exp)) return "Trạng từ thường bổ nghĩa cho động từ, tính từ hoặc quá khứ phân từ: V/adj/V3 + adv.";
+    if (/bi dong|passive|be \+ v3|has been|have been/.test(exp)) return "Câu bị động dùng be/have been + V3; chủ ngữ là đối tượng nhận hành động.";
+    if (/to-v|to \+ v|dong tu nguyen mau|nguyen mau/.test(exp)) return "Sau một số cấu trúc như choose/hope/decide/need + to, dùng động từ nguyên mẫu.";
+    if (/collocation|cum co dinh|cum tu nhien|cach dien dat tu nhien/.test(exp)) return quote ? `Học theo cụm: “${quote}”.` : "Với câu từ vựng TOEIC, nên học theo cụm/collocation thay vì học nghĩa rời.";
+    if (/bang chung|doi chieu|bai viet|bai doc|hoa don|email|thong bao/.test(exp)) return "Part 7: luôn gạch bằng chứng trong bài rồi đối chiếu paraphrase, đặc biệt với câu NOT/indicated/according to.";
+    return "";
+  }
+
+  function renderReadingFeedback(q, user, ok) {
+    const explanation = stripExplicitEliminations(q.explanation) || q.explanation || "Chưa có giải thích riêng cho câu này.";
+    const explicit = parseExplicitEliminations(q.explanation);
+    const letters = Object.keys(q.choices || {}).filter((L) => q.choices[L] != null && L !== q.answer);
+    const eliminated = letters.map((L) => {
+      const choice = cleanOptionText(q.choices[L]);
+      const reason = optionReason(q, L, q.explanation, explicit);
+      return `<li><b>${L}. ${esc(choice)}</b>: ${esc(reason)}</li>`;
+    }).join("");
+    const note = readingMemoryNote(q, q.explanation);
+    return `<div class="explain reading-explain ${ok ? "" : "was-wrong"}">
+      <div class="ans-line">${ok ? "Chính xác" : user ? "Chưa đúng — bạn chọn " + user + ", đáp án: " + q.answer : "Đáp án đúng: " + q.answer}
+      ${q.uncertain ? ' <span class="uncertain-flag">đáp án chưa chắc chắn 100%</span>' : ""}</div>
+      <div class="reading-explain-body">
+        <div class="reading-explain-section reading-reason">
+          <div class="rx-label">Vì sao chọn ${esc(q.answer)}</div>
+          <p>${esc(explanation)}</p>
+        </div>
+        ${eliminated ? `<div class="reading-explain-section reading-eliminate">
+          <div class="rx-label">Loại đáp án sai</div>
+          <ul>${eliminated}</ul>
+        </div>` : ""}
+        ${note ? `<div class="reading-memory"><b>Ghi nhớ</b><span>${esc(note)}</span></div>` : ""}
+      </div>
+    </div>`;
+  }
+
   function renderQuestion(t, p, q, parent) {
     const reveal = state.finished || state.revealed[q.n];
     const user = state.answers[q.n];
@@ -2649,7 +2834,7 @@
     let feedback = "";
     if (reveal) {
       const ok = user === q.answer;
-      feedback = `<div class="explain ${ok ? "" : "was-wrong"}">
+      feedback = readingContext(t, p, q, parent) ? renderReadingFeedback(q, user, ok) : `<div class="explain ${ok ? "" : "was-wrong"}">
         <div class="ans-line">${ok ? "Chính xác" : user ? "Chưa đúng — bạn chọn " + user + ", đáp án: " + q.answer : "Đáp án đúng: " + q.answer}
         ${q.uncertain ? ' <span class="uncertain-flag">đáp án chưa chắc chắn 100%</span>' : ""}</div>
         ${q.explanation ? esc(q.explanation) : ""}

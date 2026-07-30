@@ -267,6 +267,73 @@ body.has-dock { padding-bottom: 96px; }
 }
 .explain.was-wrong { background: var(--red-soft); border-color: #f2cccc; }
 .explain .ans-line { font-weight: 700; margin-bottom: 4px; }
+.reading-explain {
+  background: #fff;
+  border-color: #d8e1ee;
+  color: var(--ink);
+  overflow: hidden;
+}
+.reading-explain.was-wrong {
+  background: #fff;
+  border-color: #efb8b8;
+}
+.reading-explain .ans-line {
+  margin: -12px -14px 12px;
+  padding: 11px 14px;
+  background: var(--green-soft);
+  border-bottom: 1px solid #c4e8d4;
+}
+.reading-explain.was-wrong .ans-line {
+  background: var(--red-soft);
+  border-bottom-color: #f2cccc;
+}
+.reading-explain-body {
+  display: grid;
+  gap: 12px;
+}
+.reading-explain-section {
+  background: #fbfcff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px 12px;
+}
+.reading-explain-section p {
+  margin: 0;
+}
+.rx-label {
+  color: var(--red);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: .4px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.reading-reason {
+  border-left: 3px solid var(--red);
+}
+.reading-eliminate ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.reading-eliminate li {
+  margin: 6px 0;
+}
+.reading-memory {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 14px;
+  align-items: start;
+  background: #f4fbf7;
+  border: 1px solid #9fd5b7;
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: #244d34;
+}
+.reading-memory b {
+  color: #16824b;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
 .transcript-box {
   margin-top: 10px; background: #f7f8fc; border: 1px solid var(--line); border-radius: 10px;
   padding: 12px 14px; font-size: 13.5px; color: #3c4658; white-space: pre-wrap;
@@ -1140,6 +1207,8 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .runner-head { padding: 14px; }
   .runner-head h2 { font-size: 19px; }
   .qcard { padding: 14px; }
+  .reading-explain-section { padding: 10px; }
+  .reading-memory { grid-template-columns: 1fr; gap: 4px; }
   .choice { min-height: 46px; padding: 10px 12px; font-size: 14.5px; }
   .passage-split { grid-template-columns: 1fr; }
   .passage-split .ps-left { position: static; max-height: none; padding: 8px; }
