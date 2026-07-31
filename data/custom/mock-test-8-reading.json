@@ -1,0 +1,995 @@
+{
+  "id": "mock-test-8-reading",
+  "kind": "reading",
+  "title": "Mock Test 8 - Reading",
+  "desc": "Part 5-7, cau 101-167 (67 cau - PDF goc chi co toi cau 167, thieu 168-200). Co dap an va giai thich tieng Viet.",
+  "timerMin": 50,
+  "custom": true,
+  "parts": [
+    {
+      "part": 5,
+      "directions": "Chon tu/cum tu dung nhat de hoan thanh cau.",
+      "items": [
+        {
+          "n": 101,
+          "question": "Invited guests must confirm their intention to attend the banquet ------- the end of the week.",
+          "choices": {
+            "A": "behind",
+            "B": "by",
+            "C": "on",
+            "D": "across"
+          },
+          "answer": "B",
+          "explanation": "“By the end of the week” nghĩa là trước hoặc chậm nhất vào cuối tuần; đây là cụm thời hạn đúng.",
+          "uncertain": false
+        },
+        {
+          "n": 102,
+          "question": "Applicants will be asked to provide proof of ------- accounting certification at the first interview.",
+          "choices": {
+            "A": "they",
+            "B": "them",
+            "C": "their",
+            "D": "themselves"
+          },
+          "answer": "C",
+          "explanation": "Trước cụm danh từ “accounting certification” cần tính từ sở hữu; “their” bổ nghĩa cho chứng chỉ của ứng viên.",
+          "uncertain": false
+        },
+        {
+          "n": 103,
+          "question": "------- resembling sculptures from previous eras, Mr. Florence's artwork depicts everyday scenes.",
+          "choices": {
+            "A": "Closer",
+            "B": "Close",
+            "C": "Closely",
+            "D": "Closest"
+          },
+          "answer": "C",
+          "explanation": "“Closely resembling” là cụm đúng: trạng từ “closely” bổ nghĩa cho “resembling”.",
+          "uncertain": false
+        },
+        {
+          "n": 104,
+          "question": "Mr. Parza will take part in a contract ------- in Singapore to finalize the details of the acquisition.",
+          "choices": {
+            "A": "negotiate",
+            "B": "negotiation",
+            "C": "negotiates",
+            "D": "negotiator"
+          },
+          "answer": "B",
+          "explanation": "Sau “contract” cần danh từ chỉ sự kiện/quá trình; “contract negotiation” là cuộc đàm phán hợp đồng.",
+          "uncertain": false
+        },
+        {
+          "n": 105,
+          "question": "The audience gave an enthusiastic round of applause when the musicians stepped ------- the stage.",
+          "choices": {
+            "A": "onto",
+            "B": "until",
+            "C": "with",
+            "D": "as"
+          },
+          "answer": "A",
+          "explanation": "“Step onto the stage” nghĩa là bước lên sân khấu.",
+          "uncertain": false
+        },
+        {
+          "n": 106,
+          "question": "Hikers should bring ------- they need with them, as there are no shops along the trail.",
+          "choices": {
+            "A": "wherever",
+            "B": "this",
+            "C": "everything",
+            "D": "then"
+          },
+          "answer": "C",
+          "explanation": "Vì không có cửa hàng trên đường, người đi bộ nên mang theo mọi thứ họ cần.",
+          "uncertain": false
+        },
+        {
+          "n": 107,
+          "question": "Upon examination, Ms. Seo discovered that the figures her department ------- last week were incorrect.",
+          "choices": {
+            "A": "has calculated",
+            "B": "calculates",
+            "C": "will calculate",
+            "D": "calculated"
+          },
+          "answer": "D",
+          "explanation": "“Last week” là mốc quá khứ rõ ràng, nên dùng quá khứ đơn “calculated”.",
+          "uncertain": false
+        },
+        {
+          "n": 108,
+          "question": "Partnering with Apor Footwear could be a profitable ------- for Pasadena Department Store thanks to the retailer's excellent reputation.",
+          "choices": {
+            "A": "atmosphere",
+            "B": "content",
+            "C": "arrangement",
+            "D": "source"
+          },
+          "answer": "C",
+          "explanation": "“A profitable arrangement” nghĩa là một sự hợp tác/sắp xếp có lợi nhuận, phù hợp với partnering.",
+          "uncertain": false
+        },
+        {
+          "n": 109,
+          "question": "------- the merger is authorized by the board members, an official valuation of the company must be made.",
+          "choices": {
+            "A": "Before",
+            "B": "Despite",
+            "C": "Nor",
+            "D": "How"
+          },
+          "answer": "A",
+          "explanation": "Việc định giá chính thức phải được thực hiện trước khi vụ sáp nhập được hội đồng phê duyệt.",
+          "uncertain": false
+        },
+        {
+          "n": 110,
+          "question": "Fairnay Manufacturing ------- standards set by the National Health and Safety Association regarding exposure to chemicals.",
+          "choices": {
+            "A": "insisted",
+            "B": "conducted",
+            "C": "adopted",
+            "D": "underwent"
+          },
+          "answer": "C",
+          "explanation": "“Adopt standards” là áp dụng các tiêu chuẩn; các lựa chọn khác không kết hợp tự nhiên với “standards”.",
+          "uncertain": false
+        },
+        {
+          "n": 111,
+          "question": "The increase in mobile phone usage brought ------- the need for stricter laws against texting while driving.",
+          "choices": {
+            "A": "among",
+            "B": "toward",
+            "C": "down",
+            "D": "about"
+          },
+          "answer": "D",
+          "explanation": "“Bring about” nghĩa là gây ra/dẫn đến; sự tăng dùng điện thoại dẫn đến nhu cầu luật chặt hơn.",
+          "uncertain": false
+        },
+        {
+          "n": 112,
+          "question": "Visitors to Bellucci Orchard can become active ------- in the harvest process by registering for a VIP tour.",
+          "choices": {
+            "A": "participants",
+            "B": "participate",
+            "C": "participatory",
+            "D": "participation"
+          },
+          "answer": "A",
+          "explanation": "Sau “become active” cần danh từ chỉ người; “participants” là người tham gia.",
+          "uncertain": false
+        },
+        {
+          "n": 113,
+          "question": "The resort offers a daily pass and a season ticket, ------- of which can be used to access the ski lift.",
+          "choices": {
+            "A": "either",
+            "B": "it",
+            "C": "those",
+            "D": "what"
+          },
+          "answer": "A",
+          "explanation": "Có hai lựa chọn, và “either of which” nghĩa là bất kỳ cái nào trong hai cái đó đều dùng được.",
+          "uncertain": false
+        },
+        {
+          "n": 114,
+          "question": "The company's CEO reacted ------- to the news that stockholders had called for a last-minute meeting.",
+          "choices": {
+            "A": "predictable",
+            "B": "predictably",
+            "C": "predicts",
+            "D": "prediction"
+          },
+          "answer": "B",
+          "explanation": "Chỗ trống bổ nghĩa cho động từ “reacted”, nên cần trạng từ “predictably”.",
+          "uncertain": false
+        },
+        {
+          "n": 115,
+          "question": "An extensive construction project on Highway 17 has ------- the exit ramps to improve motorist safety.",
+          "choices": {
+            "A": "broad",
+            "B": "broaden",
+            "C": "broadly",
+            "D": "broadened"
+          },
+          "answer": "D",
+          "explanation": "Cấu trúc hiện tại hoàn thành “has + V3”; “broadened” nghĩa là đã mở rộng.",
+          "uncertain": false
+        },
+        {
+          "n": 116,
+          "question": "The community basketball tournament is ------- supported by city government funds, with local businesses making up the remainder.",
+          "choices": {
+            "A": "partially",
+            "B": "approximately",
+            "C": "overly",
+            "D": "briefly"
+          },
+          "answer": "A",
+          "explanation": "Vế sau nói phần còn lại do doanh nghiệp địa phương chi trả, nên quỹ thành phố chỉ hỗ trợ một phần.",
+          "uncertain": false
+        },
+        {
+          "n": 117,
+          "question": "Only employees with ------- sales of $30,000 for domestic and international goods will be eligible for promotions.",
+          "choices": {
+            "A": "combines",
+            "B": "combined",
+            "C": "to have combined",
+            "D": "to combine"
+          },
+          "answer": "B",
+          "explanation": "“Combined sales” là tổng doanh số cộng gộp từ hàng trong nước và quốc tế.",
+          "uncertain": false
+        },
+        {
+          "n": 118,
+          "question": "The upcoming city council meeting is intended for residents ------- wish to voice concerns about the proposed commercial district expansion.",
+          "choices": {
+            "A": "several",
+            "B": "others",
+            "C": "but",
+            "D": "who"
+          },
+          "answer": "D",
+          "explanation": "Cần đại từ quan hệ chỉ người để nối “residents” với mệnh đề “wish to voice concerns”.",
+          "uncertain": false
+        },
+        {
+          "n": 119,
+          "question": "Although the costs of the top-selling hybrid vehicles differ -------, the gas mileage results are nearly the same.",
+          "choices": {
+            "A": "signify",
+            "B": "significant",
+            "C": "significantly",
+            "D": "signifying"
+          },
+          "answer": "C",
+          "explanation": "“Differ” là động từ, cần trạng từ “significantly” để bổ nghĩa.",
+          "uncertain": false
+        },
+        {
+          "n": 120,
+          "question": "Many passengers choose to travel solely with a carry-on bag ------- than pay the required fee for checked luggage.",
+          "choices": {
+            "A": "whenever",
+            "B": "rather",
+            "C": "better",
+            "D": "regardless"
+          },
+          "answer": "B",
+          "explanation": "Cấu trúc “rather than” nghĩa là thay vì; hành khách chọn hành lý xách tay thay vì trả phí ký gửi.",
+          "uncertain": false
+        },
+        {
+          "n": 121,
+          "question": "Driven by demand for ways to share information quickly, a number of new social media sites ------- in the past year alone.",
+          "choices": {
+            "A": "to emerge",
+            "B": "are emerged",
+            "C": "have emerged",
+            "D": "will emerge"
+          },
+          "answer": "C",
+          "explanation": "“In the past year” phù hợp với hiện tại hoàn thành; “sites have emerged” nghĩa là các trang đã xuất hiện.",
+          "uncertain": false
+        },
+        {
+          "n": 122,
+          "question": "An online education platform, Eleshade allows users to take technology courses from the ------- of their own home.",
+          "choices": {
+            "A": "appreciation",
+            "B": "decoration",
+            "C": "layout",
+            "D": "comfort"
+          },
+          "answer": "D",
+          "explanation": "“From the comfort of their own home” là cụm cố định: trong sự thoải mái tại nhà.",
+          "uncertain": false
+        },
+        {
+          "n": 123,
+          "question": "Management chose to ------- the office picnic due to a forecast of adverse weather.",
+          "choices": {
+            "A": "call off",
+            "B": "fill out",
+            "C": "back up",
+            "D": "hand in"
+          },
+          "answer": "A",
+          "explanation": "“Call off” nghĩa là hủy; thời tiết xấu khiến ban quản lý hủy buổi picnic.",
+          "uncertain": false
+        },
+        {
+          "n": 124,
+          "question": "The San Marino Ballet Company will perform at Welburn Theater, and troupe members will sign autographs -------.",
+          "choices": {
+            "A": "somewhat",
+            "B": "afterward",
+            "C": "alike",
+            "D": "otherwise"
+          },
+          "answer": "B",
+          "explanation": "Sau buổi biểu diễn, thành viên đoàn sẽ ký tặng; “afterward” nghĩa là sau đó.",
+          "uncertain": false
+        },
+        {
+          "n": 125,
+          "question": "Attendees of the International Unity Summit come from ------- cultural backgrounds and speak a variety of languages.",
+          "choices": {
+            "A": "ongoing",
+            "B": "conscious",
+            "C": "adjustable",
+            "D": "diverse"
+          },
+          "answer": "D",
+          "explanation": "“Diverse cultural backgrounds” nghĩa là nhiều nền văn hóa khác nhau.",
+          "uncertain": false
+        },
+        {
+          "n": 126,
+          "question": "The report demonstrated that rush hour traffic downtown and the average congestion on Nicall Bridge are roughly -------.",
+          "choices": {
+            "A": "compares",
+            "B": "comparable",
+            "C": "comparing",
+            "D": "comparison"
+          },
+          "answer": "B",
+          "explanation": "Sau “are roughly” cần tính từ; “comparable” nghĩa là có thể so sánh/tương đương.",
+          "uncertain": false
+        },
+        {
+          "n": 127,
+          "question": "Each club official must remain in office ------- to the expiration date of his or her term of office until a successor can be found.",
+          "choices": {
+            "A": "prospective",
+            "B": "subsequent",
+            "C": "likely",
+            "D": "eager"
+          },
+          "answer": "B",
+          "explanation": "“Subsequent to” nghĩa là sau; quan chức vẫn ở vị trí sau ngày hết nhiệm kỳ cho tới khi có người kế nhiệm.",
+          "uncertain": false
+        },
+        {
+          "n": 128,
+          "question": "When she concludes her assignment overseas on June 30, Ms. Adrian ------- over one hundred production facilities.",
+          "choices": {
+            "A": "would inspect",
+            "B": "will be inspected",
+            "C": "is inspecting",
+            "D": "will have inspected"
+          },
+          "answer": "D",
+          "explanation": "Tới thời điểm tương lai June 30, hành động kiểm tra sẽ đã hoàn tất, nên dùng tương lai hoàn thành.",
+          "uncertain": false
+        },
+        {
+          "n": 129,
+          "question": "Items that do not meet customers' expectations may be returned for a refund or exchanged for merchandise of ------- value.",
+          "choices": {
+            "A": "competent",
+            "B": "receptive",
+            "C": "initial",
+            "D": "equivalent"
+          },
+          "answer": "D",
+          "explanation": "“Merchandise of equivalent value” nghĩa là hàng hóa có giá trị tương đương.",
+          "uncertain": false
+        },
+        {
+          "n": 130,
+          "question": "University administration asked the committee to analyze the ------- of the change for faculty and students.",
+          "choices": {
+            "A": "implications",
+            "B": "alliances",
+            "C": "aptitudes",
+            "D": "supplements"
+          },
+          "answer": "A",
+          "explanation": "“Implications of the change” là các hệ quả/tác động của thay đổi.",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "directions": "Doc doan van co 4 cho trong, chon phuong an phu hop nhat cho moi cho trong.",
+      "items": [
+        {
+          "ptype": "notice",
+          "title": "Notice of Construction",
+          "text": "Routine maintenance work is planned for October 3 to 7 on Line 3. Passengers should check schedules because trains between Sunnyvale and Campbell will be replaced by regular bus service.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q131.jpg",
+          "questions": [
+            {
+              "n": 131,
+              "question": "",
+              "choices": {
+                "A": "is planned",
+                "B": "was being planned",
+                "C": "to plan",
+                "D": "has been planning"
+              },
+              "answer": "A",
+              "explanation": "Chủ ngữ “routine maintenance work” là vật và lịch bảo trì đã được lên kế hoạch, nên dùng bị động hiện tại “is planned”.",
+              "uncertain": false
+            },
+            {
+              "n": 132,
+              "question": "",
+              "choices": {
+                "A": "Other",
+                "B": "One another",
+                "C": "Those",
+                "D": "Anyone"
+              },
+              "answer": "D",
+              "explanation": "Chỗ trống làm chủ ngữ cho mệnh đề “who is traveling”; “Anyone who is traveling” là bất kỳ ai đi lại trong thời gian đó.",
+              "uncertain": false
+            },
+            {
+              "n": 133,
+              "question": "",
+              "choices": {
+                "A": "We appreciate the patience you showed during the project.",
+                "B": "Passengers may use it by presenting a valid train ticket.",
+                "C": "The subway system transports commuters daily.",
+                "D": "The route depends on your driver's license category."
+              },
+              "answer": "B",
+              "explanation": "Ngay trước đó nhắc “replacement bus service”, nên câu tiếp theo hợp lý là hành khách có thể dùng dịch vụ đó bằng vé tàu hợp lệ.",
+              "uncertain": false
+            },
+            {
+              "n": 134,
+              "question": "",
+              "choices": {
+                "A": "so that",
+                "B": "as much as",
+                "C": "aside from",
+                "D": "whether"
+              },
+              "answer": "B",
+              "explanation": "“Minimize the inconvenience as much as we can” nghĩa là giảm bất tiện nhiều nhất có thể.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "memo",
+          "title": "Brian Whitaker",
+          "text": "Brian Whitaker is retiring from director but will work part-time in an advisory role, providing financial advice and recommending revisions to contracts. A reception will be held to recognize his contribution.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q135.jpg",
+          "questions": [
+            {
+              "n": 135,
+              "question": "",
+              "choices": {
+                "A": "adequate",
+                "B": "estimated",
+                "C": "advisory",
+                "D": "equal"
+              },
+              "answer": "C",
+              "explanation": "Vai trò cung cấp lời khuyên tài chính là “advisory role” - vai trò cố vấn.",
+              "uncertain": false
+            },
+            {
+              "n": 136,
+              "question": "",
+              "choices": {
+                "A": "revised",
+                "B": "revisable",
+                "C": "revisions",
+                "D": "revises"
+              },
+              "answer": "C",
+              "explanation": "Sau “recommending” cần danh từ chỉ điều được đề xuất; “revisions to contracts” là các sửa đổi hợp đồng.",
+              "uncertain": false
+            },
+            {
+              "n": 137,
+              "question": "",
+              "choices": {
+                "A": "his",
+                "B": "their",
+                "C": "our",
+                "D": "your"
+              },
+              "answer": "A",
+              "explanation": "Đang nói về chuyên môn của Brian Whitaker, nên dùng tính từ sở hữu “his”.",
+              "uncertain": false
+            },
+            {
+              "n": 138,
+              "question": "",
+              "choices": {
+                "A": "We couldn't have reached our goals without the staff.",
+                "B": "A reception will be held at 4 p.m. on April 30.",
+                "C": "Several new clients have enrolled with us.",
+                "D": "He developed policies to improve efficiency."
+              },
+              "answer": "B",
+              "explanation": "Sau đó nói “We hope to see you there”, nên trước đó phải là thông tin về buổi reception và thời gian.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "advertisement",
+          "title": "Silvana Russo Talk",
+          "text": "The Ramke Gallery hosts a rare public talk by painter Silvana Russo. She will discuss her journey from hotel housekeeper to world-renowned artist and answer audience questions.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q139.jpg",
+          "questions": [
+            {
+              "n": 139,
+              "question": "",
+              "choices": {
+                "A": "This is a rare opportunity for art lovers.",
+                "B": "Each one is signed by the artist herself.",
+                "C": "These paintings are valued in the thousands.",
+                "D": "Regular lectures help to inform the public."
+              },
+              "answer": "A",
+              "explanation": "Ngay sau chỗ trống nói Russo hiếm khi xuất hiện công khai, nên đây là cơ hội hiếm cho người yêu nghệ thuật.",
+              "uncertain": false
+            },
+            {
+              "n": 140,
+              "question": "",
+              "choices": {
+                "A": "involvement",
+                "B": "absence",
+                "C": "journey",
+                "D": "release"
+              },
+              "answer": "C",
+              "explanation": "“Journey from A to B” nghĩa là hành trình từ người dọn phòng khách sạn tới nghệ sĩ nổi tiếng.",
+              "uncertain": false
+            },
+            {
+              "n": 141,
+              "question": "",
+              "choices": {
+                "A": "will submit",
+                "B": "be submitted",
+                "C": "must submit",
+                "D": "had submitted"
+              },
+              "answer": "C",
+              "explanation": "Chủ ngữ là “Audience members”, nên cần động từ chủ động “must submit them by e-mail”.",
+              "uncertain": false
+            },
+            {
+              "n": 142,
+              "question": "",
+              "choices": {
+                "A": "rejected",
+                "B": "originated",
+                "C": "undiscovered",
+                "D": "talented"
+              },
+              "answer": "D",
+              "explanation": "Mô tả nghệ sĩ nổi tiếng thế giới, đáp án tích cực phù hợp là “talented artist”.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Staff Meeting",
+          "text": "Sebastian updates Venita about a staff meeting. The company plans to design a new logo because the current one is strikingly similar to a competitor’s logo, and the in-house graphics team will collaborate with BC Art.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q143.jpg",
+          "questions": [
+            {
+              "n": 143,
+              "question": "",
+              "choices": {
+                "A": "Even so, attendance is mandatory for everyone.",
+                "B": "It has been rescheduled for Friday at 4 P.M.",
+                "C": "Therefore, I wanted to give you an update.",
+                "D": "Your presentation was extremely informative."
+              },
+              "answer": "C",
+              "explanation": "Venita không dự họp, nên người gửi nói “vì vậy tôi muốn cập nhật cho bạn” là hợp ngữ cảnh.",
+              "uncertain": false
+            },
+            {
+              "n": 144,
+              "question": "",
+              "choices": {
+                "A": "strikingly",
+                "B": "strike",
+                "C": "struck",
+                "D": "striking"
+              },
+              "answer": "A",
+              "explanation": "“Similar” là tính từ, cần trạng từ “strikingly” để bổ nghĩa: giống một cách nổi bật.",
+              "uncertain": false
+            },
+            {
+              "n": 145,
+              "question": "",
+              "choices": {
+                "A": "beyond",
+                "B": "against",
+                "C": "upon",
+                "D": "apart"
+              },
+              "answer": "D",
+              "explanation": "“Set ourselves apart from competitors” là cụm cố định: tạo sự khác biệt với đối thủ.",
+              "uncertain": false
+            },
+            {
+              "n": 146,
+              "question": "",
+              "choices": {
+                "A": "identify",
+                "B": "collaborate",
+                "C": "uphold",
+                "D": "coincide"
+              },
+              "answer": "B",
+              "explanation": "“Collaborate with designers” nghĩa là hợp tác với các nhà thiết kế.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "directions": "Doc doan van va tra loi cac cau hoi.",
+      "items": [
+        {
+          "ptype": "advertisement",
+          "title": "Sandhill & Co. Job Advertisement",
+          "text": "Sandhill & Co. is looking for a receptionist at its new Milwaukee office. Applicants should send an up-to-date resume and cover letter by e-mail to the HR manager.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q147.jpg",
+          "questions": [
+            {
+              "n": 147,
+              "question": "What position is being advertised?",
+              "choices": {
+                "A": "PR assistant",
+                "B": "Lawyer",
+                "C": "Receptionist",
+                "D": "HR manager"
+              },
+              "answer": "C",
+              "explanation": "Thông báo nói vị trí có sẵn tại “the reception desk” và công việc là chào khách, trả lời điện thoại, hỗ trợ pháp lý.",
+              "uncertain": false
+            },
+            {
+              "n": 148,
+              "question": "What are interested individuals encouraged to do?",
+              "choices": {
+                "A": "Send an e-mail",
+                "B": "Complete an online form",
+                "C": "Visit the business",
+                "D": "Make a phone call"
+              },
+              "answer": "A",
+              "explanation": "Ứng viên được yêu cầu gửi résumé và cover letter tới email của HR manager.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "memo",
+          "title": "Stanley Cooper Retirement Party",
+          "text": "The retirement party venue has changed from the Diamond Ballroom to the Marigold Hotel because the guest list grew too large. Frank Grimey will ask employees for menu preferences.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q149.jpg",
+          "questions": [
+            {
+              "n": 149,
+              "question": "Why was the memo sent?",
+              "choices": {
+                "A": "To inform staff of alterations to arrangements",
+                "B": "To encourage employees to bring refreshments to an event",
+                "C": "To announce that an event has been canceled",
+                "D": "To request suggestions for event entertainment"
+              },
+              "answer": "A",
+              "explanation": "Memo thông báo thay đổi địa điểm và một số sắp xếp cho tiệc nghỉ hưu, không phải hủy sự kiện.",
+              "uncertain": false
+            },
+            {
+              "n": 150,
+              "question": "What is Frank Grimey planning to do on Wednesday?",
+              "choices": {
+                "A": "Contact a catering manager",
+                "B": "Practice a musical performance",
+                "C": "Attend a sales meeting",
+                "D": "Speak to staff about dinner options"
+              },
+              "answer": "D",
+              "explanation": "Frank sẽ tới bàn làm việc của từng người để lấy lựa chọn thực đơn.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "invitation",
+          "title": "Awards Ceremony",
+          "text": "Twittledon town council invites residents to an awards ceremony for young volunteers. Attendees receive a soft drink, newsletter, and discount voucher booklet. Reservations are by email.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q151.jpg",
+          "questions": [
+            {
+              "n": 151,
+              "question": "What is the main purpose of the event?",
+              "choices": {
+                "A": "To mark the opening of a catering company",
+                "B": "To outline a new trash collection policy",
+                "C": "To discuss planning permission for local businesses",
+                "D": "To celebrate the achievements of volunteers"
+              },
+              "answer": "D",
+              "explanation": "Thư mời nói sự kiện nhằm ghi nhận thành tích của các tình nguyện viên trẻ.",
+              "uncertain": false
+            },
+            {
+              "n": 152,
+              "question": "What is NOT indicated about the event?",
+              "choices": {
+                "A": "Elderly residents may enter free of charge.",
+                "B": "It will be attended by the town mayor.",
+                "C": "Tickets can be reserved by e-mail.",
+                "D": "Drinks will be provided."
+              },
+              "answer": "A",
+              "explanation": "Bài chỉ nói tình nguyện viên phục vụ người cao tuổi, không nói người cao tuổi được vào miễn phí.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "text message chain",
+          "title": "Training Workshop",
+          "text": "Susan missed the morning training workshop because traffic was blocked by an accident. Peter agrees to arrange for her to attend a workshop in October and tells her to ask Caroline for the minutes.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q153.jpg",
+          "questions": [
+            {
+              "n": 153,
+              "question": "What is indicated about Ms. Barkley?",
+              "choices": {
+                "A": "She is currently attending a trade fair.",
+                "B": "She led a workshop in the morning.",
+                "C": "She was late for work.",
+                "D": "She was in a car accident."
+              },
+              "answer": "C",
+              "explanation": "Susan nói bị kẹt xe do tai nạn nên không thể tới đúng giờ, không phải cô ấy bị tai nạn.",
+              "uncertain": false
+            },
+            {
+              "n": 154,
+              "question": "At 3:21 P.M., what does Mr. Redmond mean when he writes, “Sure thing”?",
+              "choices": {
+                "A": "He believes that the HR manager is in his office.",
+                "B": "He is accepting Ms. Barkley's request for a document.",
+                "C": "He is certain that a trade fair will produce many sales.",
+                "D": "He is agreeing that Ms. Barkley can attend an October workshop."
+              },
+              "answer": "D",
+              "explanation": "Trước đó Susan hỏi có thể dự workshop tháng 10 không; “Sure thing” là Peter đồng ý sắp xếp.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "article",
+          "title": "Stanberg Museum Expansion",
+          "text": "The Stanberg Museum received a grant to improve facilities and build a new wing for Renaissance arts and crafts. The money arrives after financial difficulties threatened the museum.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q155.jpg",
+          "questions": [
+            {
+              "n": 155,
+              "question": "What is the main topic of the article?",
+              "choices": {
+                "A": "The life of a famous artist",
+                "B": "The expansion of a museum",
+                "C": "A town hall meeting",
+                "D": "The art of the Renaissance era"
+              },
+              "answer": "B",
+              "explanation": "Bài tập trung vào hợp đồng cải thiện cơ sở vật chất và xây thêm cánh mới cho bảo tàng.",
+              "uncertain": false
+            },
+            {
+              "n": 156,
+              "question": "What is suggested about the Stanberg Museum?",
+              "choices": {
+                "A": "It currently employs over one hundred staff members.",
+                "B": "It is changing its name to the Charlie Hamilton Museum.",
+                "C": "Its exhibits have been moved to a different building.",
+                "D": "It was recently assumed to be near the point of bankruptcy."
+              },
+              "answer": "D",
+              "explanation": "Bài nói có đồn đoán bảo tàng gặp khó khăn tài chính và có thể không còn khả năng tiếp tục hoạt động.",
+              "uncertain": false
+            },
+            {
+              "n": 157,
+              "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “Some of these pieces have been held in storage for several months due to a lack of space.”",
+              "choices": {
+                "A": "[1]",
+                "B": "[2]",
+                "C": "[3]",
+                "D": "[4]"
+              },
+              "answer": "C",
+              "explanation": "Câu này nói “these pieces” chỉ bộ sưu tập Renaissance vừa được nhắc ngay trước vị trí [3], đồng thời giải thích vì sao cần cánh mới.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "memo",
+          "title": "Mandatory Training",
+          "text": "Remical Ltd. received new laboratory equipment. Staff must attend training before using the equipment and choose a size for new heatproof safety apparel.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q158.jpg",
+          "questions": [
+            {
+              "n": 158,
+              "question": "Who is the memo most likely intended for?",
+              "choices": {
+                "A": "Scientists",
+                "B": "Delivery drivers",
+                "C": "Safety inspectors",
+                "D": "Training officers"
+              },
+              "answer": "A",
+              "explanation": "Memo gửi cho những người sẽ dùng lab equipment để thực hiện experiments, nên nhiều khả năng là nhà khoa học/nhân viên phòng thí nghiệm.",
+              "uncertain": false
+            },
+            {
+              "n": 159,
+              "question": "What has Ms. Grahams included with the memo?",
+              "choices": {
+                "A": "An invoice",
+                "B": "A training schedule",
+                "C": "New equipment",
+                "D": "An employee handbook"
+              },
+              "answer": "B",
+              "explanation": "Cô ấy nói đã đính kèm agenda cho buổi training thứ Sáu.",
+              "uncertain": false
+            },
+            {
+              "n": 160,
+              "question": "What is NOT indicated about the safety apparel?",
+              "choices": {
+                "A": "It is available in a range of sizes.",
+                "B": "It is brightly colored.",
+                "C": "It is heat resistant.",
+                "D": "It will be paid for by employees."
+              },
+              "answer": "D",
+              "explanation": "Memo nói đồ bảo hộ có màu vàng sáng, chịu nhiệt, có nhiều size; không nói nhân viên phải trả tiền.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "article",
+          "title": "Melwood Grove Development",
+          "text": "Righthome Ltd. bought the land of the Jonesville Automotive factory and plans to build a five-story condominium building called Melwood Grove with a pool, gym, and free high-speed Internet.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q161.jpg",
+          "questions": [
+            {
+              "n": 161,
+              "question": "What is the article mainly about?",
+              "choices": {
+                "A": "The construction of a car factory",
+                "B": "The founding of a law firm",
+                "C": "The opening of a gym",
+                "D": "The building of some new structure"
+              },
+              "answer": "D",
+              "explanation": "Bài nói về việc mua đất và xây dựng khu căn hộ Melwood Grove, tức một công trình mới.",
+              "uncertain": false
+            },
+            {
+              "n": 162,
+              "question": "Who most likely is Pablo Lopez?",
+              "choices": {
+                "A": "A lawyer",
+                "B": "A town planner",
+                "C": "A property developer",
+                "D": "An Internet salesman"
+              },
+              "answer": "C",
+              "explanation": "Pablo Lopez là CEO của Righthome, công ty phát triển bất động sản đang xây khu căn hộ.",
+              "uncertain": false
+            },
+            {
+              "n": 163,
+              "question": "What is NOT indicated about Melwood Grove?",
+              "choices": {
+                "A": "It contains leisure facilities.",
+                "B": "It will require keycard access.",
+                "C": "It will be targeted at young professionals.",
+                "D": "It will have free Internet access."
+              },
+              "answer": "B",
+              "explanation": "Bài nói có hồ bơi, phòng gym, Internet miễn phí và nhắm tới người trẻ đi làm; không nhắc keycard access.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "online chat",
+          "title": "Warehouse Construction",
+          "text": "Dale says directors are upset about slow warehouse construction and may need a new construction company. Beth thinks the change is inconvenient because the current contract took a long time to agree on.",
+          "img": "assets/img/custom/mock-test-8-reading/passage-q164.jpg",
+          "questions": [
+            {
+              "n": 164,
+              "question": "What is the main topic of the discussion?",
+              "choices": {
+                "A": "The arrangements for a meeting",
+                "B": "The appointing of a director",
+                "C": "The construction of a warehouse",
+                "D": "The manufacturing of some clothing"
+              },
+              "answer": "C",
+              "explanation": "Toàn bộ đoạn chat xoay quanh tiến độ xây nhà kho và việc có thể đổi công ty xây dựng.",
+              "uncertain": false
+            },
+            {
+              "n": 165,
+              "question": "What is one issue the directors are concerned about?",
+              "choices": {
+                "A": "Terms of a contract may be changed.",
+                "B": "Delivery times may be increased.",
+                "C": "Building materials may become more expensive.",
+                "D": "Planning permission may not be granted."
+              },
+              "answer": "B",
+              "explanation": "Nếu kho không xong đúng hạn, công ty sẽ không đủ chỗ chứa quần áo và giao hàng cho khách lâu hơn.",
+              "uncertain": false
+            },
+            {
+              "n": 166,
+              "question": "What can be inferred about Ms. Toadie?",
+              "choices": {
+                "A": "She is involved in clothing design.",
+                "B": "She conducted a conference call earlier today.",
+                "C": "She is the manager of a construction firm.",
+                "D": "She is meeting with some directors next week."
+              },
+              "answer": "D",
+              "explanation": "Beth nói tuần sau cô ấy sẽ nói ý kiến với họ tại cuộc họp, tức sẽ gặp các giám đốc.",
+              "uncertain": false
+            },
+            {
+              "n": 167,
+              "question": "At 4:40 P.M., what does Ms. Toadie mean when she writes, “That’s a pain in the neck”?",
+              "choices": {
+                "A": "She would prefer to take a break.",
+                "B": "She believes a construction site is too far away.",
+                "C": "She thinks a change will be inconvenient.",
+                "D": "She is concerned about a budget limit."
+              },
+              "answer": "C",
+              "explanation": "“A pain in the neck” là điều phiền phức; Beth thấy đổi nhà thầu bất tiện vì đã mất nhiều thời gian thống nhất hợp đồng.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
