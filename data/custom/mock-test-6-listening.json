@@ -399,7 +399,7 @@
           },
           "answer": "B",
           "explanation": "Ảnh cho thấy người đàn ông đang ghi chú trên clipboard, nên (B) khớp nhất. Các đáp án khác nói tìm bút, sửa thiết bị hoặc chỉnh nút máy không phải hành động chính.",
-          "uncertain": true,
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-6-listening/p1-q1.jpg",
           "audio": {
             "start": 97.4,
@@ -441,7 +441,7 @@
           },
           "answer": "D",
           "explanation": "Một người đàn ông đang đưa/căng tay ra, phù hợp với (D). Các lựa chọn còn lại không mô tả đúng hành động trong ảnh.",
-          "uncertain": true,
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-6-listening/p1-q2.jpg",
           "audio": {
             "start": 122.62,

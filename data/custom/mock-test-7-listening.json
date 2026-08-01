@@ -424,9 +424,9 @@
             "C": "",
             "D": ""
           },
-          "answer": "D",
-          "explanation": "Ảnh cho thấy mọi người đang ngồi thành vòng tròn.",
-          "uncertain": true,
+          "answer": "A",
+          "explanation": "Ảnh cho thấy một người đàn ông đang nghiêng người/tựa vào bàn trong phòng họp, nên (A) khớp nhất. Không có cảnh mọi người ngồi thành vòng tròn rõ như đáp án D.",
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q2.jpg",
           "audio": {
             "start": 121,
@@ -532,9 +532,9 @@
             "C": "",
             "D": ""
           },
-          "answer": "D",
-          "explanation": "Ảnh phù hợp với việc người phụ nữ đang lắp kệ lên tường.",
-          "uncertain": true,
+          "answer": "B",
+          "explanation": "Ảnh cho thấy người phụ nữ đang đeo kính bảo hộ khi làm việc, nên (B) là mô tả đúng nhất. Không có kệ trên tường để chọn D.",
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q4.jpg",
           "audio": {
             "start": 180,
@@ -586,9 +586,9 @@
             "C": "",
             "D": ""
           },
-          "answer": "C",
-          "explanation": "Ảnh cho thấy mọi người đang lên xe buýt đưa đón.",
-          "uncertain": true,
+          "answer": "B",
+          "explanation": "Ảnh là một quảng trường/lối đi có nhiều người đi bộ, nên (B) đúng. Không có xe buýt đưa đón trong ảnh để chọn C.",
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q5.jpg",
           "audio": {
             "start": 206,
@@ -641,8 +641,8 @@
             "D": ""
           },
           "answer": "C",
-          "explanation": "Các ghế trong ảnh đang hướng về một chiếc bàn tròn.",
-          "uncertain": true,
+          "explanation": "Các ghế trong ảnh đang hướng về một chiếc bàn tròn, nên (C) đúng.",
+          "uncertain": false,
           "image": "assets/img/custom/mock-test-7-listening/p1-q6.jpg",
           "audio": {
             "start": 233,
