@@ -1155,6 +1155,20 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 .exam-tool-count { color: var(--amber); font-size: 12px; }
 .exam-tool-crown { color: var(--amber); font-size: 11px; }
 .exam-strip { margin: 14px 0; }
+.exam-context-row {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.exam-context-row > .section-label {
+  margin: 0;
+}
+.exam-context-row .directions-box {
+  margin: 0;
+}
+.exam-context-row .inline-audio {
+  margin-bottom: 0;
+}
 .exam-console-main {
   display: grid;
   grid-template-columns: minmax(0, 1.18fr) minmax(430px, .92fr);
@@ -1169,7 +1183,6 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   top: 86px;
   align-self: start;
 }
-.exam-media-pane > .section-label { margin-top: 0; }
 .exam-media-card {
   border: 1px solid var(--line);
   border-radius: 8px;

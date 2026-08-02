@@ -2642,7 +2642,7 @@
   function unitHasMedia(unit) {
     const it = unit && unit.item;
     if (!it) return false;
-    return !!(unitAudio(unit) || it.img || it.image || it.graphicImg || it.text != null);
+    return !!(it.img || it.image || it.graphicImg || it.text != null);
   }
 
   function audioArgs(seg) {
@@ -2687,8 +2687,15 @@
       : "";
     const hint = media && (it.img || it.image || it.graphicImg) ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
     return `<div class="exam-media-card">
-      ${renderInlineAudioPanel(unit)}
       <div class="exam-media-body">${media}${graphic}${hint}${empty}</div>
+    </div>`;
+  }
+
+  function renderPracticeContext(unit, dir) {
+    return `<div class="exam-context-row">
+      <div class="section-label">Part ${unit.part}</div>
+      ${dir}
+      ${renderInlineAudioPanel(unit)}
     </div>`;
   }
 
@@ -2749,14 +2756,12 @@
             <div class="practice-meter"><i style="width:${pct}%"></i></div>
           </div>
         </div>
+        ${renderPracticeContext(unit, dir)}
         <div class="exam-console-main">
           <section class="exam-media-pane">
-            <div class="section-label">Part ${unit.part}</div>
-            ${dir}
             ${renderPracticeMediaPane(unit)}
           </section>
           <section class="exam-question-pane">
-            ${!hasMedia ? `<div class="section-label">Part ${unit.part}</div>${dir}` : ""}
             ${renderPracticeQuestionPane(t, unit)}
           </section>
         </div>
