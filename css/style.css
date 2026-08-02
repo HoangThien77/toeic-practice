@@ -1064,8 +1064,34 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 }
 .runner-head h2 { font-size: 22px; font-weight: 850; line-height: 1.2; }
 .runner-head .sub { font-size: 13px; color: var(--muted); }
+.practice-head { align-items: center; }
+.practice-head-stat {
+  display: flex; flex-direction: column; align-items: flex-end; gap: 2px;
+  color: var(--muted); font-size: 12px; font-weight: 800;
+}
+.practice-head-stat b { color: var(--ink); font-size: 20px; line-height: 1; }
+.practice-strip {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  margin: -4px 0 14px;
+}
+.practice-strip .part-tabs { margin: 0; }
+.practice-progress {
+  min-width: 260px; display: grid; grid-template-columns: auto minmax(120px, 1fr);
+  align-items: center; gap: 10px; color: var(--muted); font-size: 12px; font-weight: 800;
+}
+.practice-meter { height: 8px; border-radius: 999px; background: #e6edf7; overflow: hidden; }
+.practice-meter i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
 .runner-grid { grid-template-columns: minmax(0, 1fr) 268px; gap: 18px; }
 .runner-main { min-width: 0; }
+.practice-main { min-width: 0; }
+.focus-part > .section-label { margin-top: 0; }
+.practice-controls {
+  display: flex; flex-wrap: wrap; gap: 9px; justify-content: flex-end; align-items: center;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: var(--shadow); padding: 12px; margin: 0 0 18px;
+}
+.practice-controls .btn svg { width: 16px; height: 16px; }
+.practice-controls .btn[disabled] { opacity: .45; pointer-events: none; }
 .qcard {
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -1136,6 +1162,10 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 .qnav-cell.answered { background: var(--accent); }
 .qnav-cell.right { background: var(--green); }
 .qnav-cell.wrongc { background: var(--red); }
+.qnav-cell.current {
+  box-shadow: 0 0 0 2px var(--ink) inset;
+  border-color: var(--ink);
+}
 .side-actions { gap: 9px; margin-top: 14px; }
 .side-actions .btn { width: 100%; }
 .side-stat { font-weight: 800; }
@@ -1178,6 +1208,9 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   #screen.wide { padding: 22px 20px 80px; }
   .runner-grid { grid-template-columns: 1fr; }
   .mobile-bar { padding-left: 20px; padding-right: 20px; }
+  .practice-strip { flex-direction: column; align-items: stretch; }
+  .practice-progress { min-width: 0; }
+  .practice-controls { margin-bottom: 88px; }
 }
 @media (max-width: 1080px) {
   .upload-wrap.has-guide { grid-template-columns: 1fr; }
@@ -1206,6 +1239,11 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .guide-panel h3 { font-size: 19px; flex-direction: column; align-items: flex-start; }
   .runner-head { padding: 14px; }
   .runner-head h2 { font-size: 19px; }
+  .practice-head { align-items: flex-start; }
+  .practice-head-stat { align-items: flex-start; }
+  .practice-progress { grid-template-columns: 1fr; gap: 6px; }
+  .practice-controls { justify-content: stretch; }
+  .practice-controls .btn { flex: 1 1 140px; }
   .qcard { padding: 14px; }
   .reading-explain-section { padding: 10px; }
   .reading-memory { grid-template-columns: 1fr; gap: 4px; }

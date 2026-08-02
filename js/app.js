@@ -21,6 +21,7 @@
     rate: 1,             // playback speed (0.5/0.75/1) — practice & review only
     loop: false,         // auto-replay the current segment
     lastSeg: null,       // {start,end} of the segment last played
+    focusIndex: 0,       // practice player: current question/group unit
     outcomeLogged: {},   // source question id -> true during the current run
     similarDrill: null,  // generated practice from wrong answers
     similarAnswers: {},
@@ -81,6 +82,7 @@
       answers: { ...state.answers },
       revealed: { ...state.revealed },
       outcomeLogged: { ...state.outcomeLogged },
+      focusIndex: state.focusIndex || 0,
       startedAt: state.startedAt,
       timerSec: state.timerSec,
       timerEndsAt: state.timerSec != null ? Date.now() + state.timerSec * 1000 : null,
@@ -139,6 +141,7 @@
     state.answers = sanitizeSavedMap(draft.answers, restored, false);
     state.revealed = sanitizeSavedMap(draft.revealed, restored, true);
     state.outcomeLogged = { ...(draft.outcomeLogged || {}) };
+    state.focusIndex = Math.max(0, Number(draft.focusIndex) || 0);
     state.rate = draft.audio && draft.audio.rate ? draft.audio.rate : 1;
     state.loop = !!(draft.audio && draft.audio.loop);
     $("#btn-exit").classList.remove("hidden");
@@ -293,6 +296,68 @@
       });
     });
     return out;
+  }
+
+  function practiceUnits(t) {
+    const out = [];
+    if (!t || !t.parts) return out;
+    t.parts.forEach((p) => {
+      const sourceTestId = p.sourceTestId || (t && t.id !== "session" ? t.id : null);
+      const sourceTitle = p.sourceTitle || (sourceTestId && D.tests[sourceTestId] ? D.tests[sourceTestId].title : t.title);
+      p.items.forEach((it) => {
+        const questions = it.questions || [it];
+        if (!questions.length) return;
+        out.push({
+          p,
+          item: it,
+          part: p.part,
+          questions,
+          firstQ: questions[0],
+          lastQ: questions[questions.length - 1],
+          sourceTestId,
+          sourceTitle,
+        });
+      });
+    });
+    return out;
+  }
+
+  function practicePlayerActive() {
+    return state.view === "runner" && state.mode === "practice" && !state.finished && !state.keyOnly;
+  }
+
+  function clampFocusIndex(t) {
+    const units = practiceUnits(t);
+    if (!units.length) return 0;
+    const idx = Math.max(0, Math.min(units.length - 1, Number(state.focusIndex) || 0));
+    state.focusIndex = idx;
+    return idx;
+  }
+
+  function currentPracticeUnit(t) {
+    const units = practiceUnits(t);
+    if (!units.length) return null;
+    return units[clampFocusIndex(t)];
+  }
+
+  function unitIndexForQuestion(t, qn) {
+    const n = Number(qn);
+    return practiceUnits(t).findIndex((unit) => unit.questions.some((q) => q.n === n));
+  }
+
+  function unitLabel(unit) {
+    if (!unit) return "";
+    const a = qLabel(unit.firstQ);
+    const b = qLabel(unit.lastQ);
+    return a === b ? `Câu ${a}` : `Câu ${a}–${b}`;
+  }
+
+  function unitAnswered(unit) {
+    return !!unit && unit.questions.every((q) => !!state.answers[q.n]);
+  }
+
+  function unitRevealed(unit) {
+    return !!unit && unit.questions.every((q) => !!state.revealed[q.n]);
   }
 
   function wrongKey(testId, qn) { return `${testId}:${qn}`; }
@@ -2219,6 +2284,7 @@
     state.session = null;
     state.testId = testId; state.mode = mode; state.keyOnly = false;
     state.answers = {}; state.revealed = {}; state.outcomeLogged = {}; state.finished = false; state.result = null;
+    state.focusIndex = 0;
     state.startedAt = Date.now();
     state.view = "runner";
     $("#btn-exit").classList.remove("hidden");
@@ -2338,6 +2404,7 @@
     state.mode = "practice";
     state.keyOnly = false;
     state.answers = {}; state.revealed = {}; state.outcomeLogged = {};
+    state.focusIndex = 0;
     state.finished = false; state.result = null;
     state.startedAt = Date.now();
     state.view = "runner";
@@ -2354,13 +2421,14 @@
     if (!state.session || !state.session.parts.length) { state.session = null; return; }
     state.testId = null; state.mode = cfg.mode; state.keyOnly = false;
     state.answers = {}; state.revealed = {}; state.outcomeLogged = {}; state.finished = false; state.result = null;
+    state.focusIndex = 0;
     state.startedAt = Date.now();
     state.view = "runner";
     $("#btn-exit").classList.remove("hidden");
     renderRunner();
     const t = state.session;
     if (t.audioSrc) {
-      if (cfg.mode === "exam") {
+      if (cfg.mode === "exam" || cfg.listeningMode === "continuous") {
         const span = audioSpan(t);
         playSegment(span ? span.start : 0, span ? span.end : null);
       } else {
@@ -2404,8 +2472,93 @@
     });
   }
 
+  function renderPracticePlayer(t) {
+    const units = practiceUnits(t);
+    if (!units.length) {
+      screen.innerHTML = '<div class="history-empty">Đề này chưa có câu hỏi để luyện.</div>';
+      return;
+    }
+    const idx = clampFocusIndex(t);
+    const unit = units[idx];
+    const needsSplitView = unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
+    screen.classList.toggle("wide", needsSplitView);
+    const answered = allQuestions(t).filter(({ q }) => state.answers[q.n]).length;
+    const total = allQuestions(t).length;
+    const pct = total ? Math.round((answered / total) * 100) : 0;
+    const partTags = [...new Set(t.parts.map((p) => p.part))]
+      .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
+      .join("");
+    const dir = unit.p.directions ? `<div class="directions-box"><b>Part ${unit.part}.</b> ${esc(unit.p.directions)}</div>` : "";
+    const card = `<div class="part-block focus-part" id="part-${unit.part}">
+      <div class="section-label">Part ${unit.part}</div>${dir}${renderItem(t, unit.p, unit.item)}
+    </div>`;
+    screen.innerHTML = `
+      <div class="runner-head practice-head">
+        <div>
+          <h2>${esc(t.title)} — Luyện tập</h2>
+          <div class="sub">${esc(t.desc)}</div>
+        </div>
+        <div class="practice-head-stat">
+          <b>${idx + 1}/${units.length}</b>
+          <span>${esc(unitLabel(unit))}</span>
+        </div>
+      </div>
+      <div class="practice-strip">
+        <div class="part-tabs">${partTags}</div>
+        <div class="practice-progress">
+          <span>Đã trả lời ${answered}/${total}</span>
+          <div class="practice-meter"><i style="width:${pct}%"></i></div>
+        </div>
+      </div>
+      <div class="runner-grid practice-grid">
+        <div id="q-list" class="practice-main">${card}${renderPracticeControls(t, units, unit)}</div>
+        <div class="side-panel">${renderSidebar(t)}</div>
+      </div>
+      <div class="mobile-bar" id="mobile-bar">
+        <span class="mb-stat" id="mb-stat"></span>
+        <div class="mb-actions">
+          <button class="btn btn-sm" onclick="App.openQnavSheet()">${ICONS.grid}<span>Câu hỏi</span></button>
+          <button class="btn btn-sm btn-primary" onclick="App.trySubmit()">Nộp bài</button>
+        </div>
+      </div>
+    `;
+    document.body.classList.add("has-mbar");
+    updateSidebar();
+  }
+
+  function renderPracticeControls(t, units, unit) {
+    const idx = clampFocusIndex(t);
+    const last = idx >= units.length - 1;
+    const answered = unitAnswered(unit);
+    const revealed = unitRevealed(unit);
+    const primary = !revealed
+      ? `<button class="btn btn-primary" ${answered ? "" : "disabled"} onclick="App.checkCurrentUnit()">Kiểm tra</button>`
+      : last
+        ? `<button class="btn btn-primary" onclick="App.trySubmit()">Hoàn thành</button>`
+        : `<button class="btn btn-primary" onclick="App.practiceNext()">Câu tiếp →</button>`;
+    const nextBtn = !revealed && !last
+      ? `<button class="btn" onclick="App.practiceNext()">Câu tiếp →</button>`
+      : "";
+    const audio = unit.item.audio || (unit.questions.length === 1 ? unit.questions[0].audio : null);
+    const audioBtn = audio
+      ? `<button class="btn" onclick="App.playSeg(${audio.start},${audio.end || "null"})">${ICONS.sound}<span>${unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này"}</span></button>`
+      : "";
+    return `<div class="practice-controls">
+      <button class="btn" ${idx <= 0 ? "disabled" : ""} onclick="App.practicePrev()">← Câu trước</button>
+      ${audioBtn}
+      <button class="btn" onclick="App.openQnavSheet()">${ICONS.grid}<span>Bảng câu hỏi</span></button>
+      ${primary}
+      ${nextBtn}
+      <button class="btn" onclick="App.trySubmit()">Nộp bài</button>
+    </div>`;
+  }
+
   function renderRunner() {
     const t = test();
+    if (practicePlayerActive()) {
+      renderPracticePlayer(t);
+      return;
+    }
     const needsSplitView = t.parts.some((p) =>
       p.part >= 6 || ((p.part === 3 || p.part === 4) && p.items.some((it) => it.img && it.questions)));
     screen.classList.toggle("wide", needsSplitView);
@@ -2841,6 +2994,7 @@
       </div>`;
     }
     const checkBtn = state.mode === "practice" && !reveal && user
+      && !practicePlayerActive()
       ? `<button class="btn btn-sm" style="margin-top:10px" onclick="App.check(${q.n})">Kiểm tra đáp án</button>` : "";
 
     return `<div class="q-block" data-q="${q.n}" style="margin-bottom:14px">
@@ -2872,6 +3026,8 @@
   function updateSidebar() {
     const t = test();
     const qs = allQuestions(t);
+    const curUnit = practicePlayerActive() ? currentPracticeUnit(t) : null;
+    const currentQns = new Set(curUnit ? curUnit.questions.map((q) => q.n) : []);
     let answered = 0;
     qs.forEach(({ q }) => {
       const user = state.answers[q.n];
@@ -2882,6 +3038,7 @@
           if (user === q.answer) cell.classList.add("right");
           else if (user) cell.classList.add("wrongc");
         } else if (user) cell.classList.add("answered");
+        if (currentQns.has(q.n)) cell.classList.add("current");
       });
       if (user) answered++;
     });
@@ -2894,12 +3051,59 @@
     if (mb) mb.textContent = statText;
   }
 
+  function focusUnit(index) {
+    const t = test();
+    const units = practiceUnits(t);
+    if (!units.length) return;
+    state.focusIndex = Math.max(0, Math.min(units.length - 1, Number(index) || 0));
+    renderRunner();
+    queueActiveDraftSave();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function practicePrev() {
+    focusUnit((state.focusIndex || 0) - 1);
+  }
+
+  function practiceNext() {
+    focusUnit((state.focusIndex || 0) + 1);
+  }
+
+  function jumpToPart(part) {
+    const t = test();
+    if (practicePlayerActive()) {
+      const idx = practiceUnits(t).findIndex((unit) => unit.part === Number(part));
+      if (idx >= 0) focusUnit(idx);
+      return;
+    }
+    const el = document.getElementById("part-" + Number(part));
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function checkCurrentUnit() {
+    const t = test();
+    const unit = currentPracticeUnit(t);
+    if (!unit) return;
+    if (!unitAnswered(unit)) {
+      openModal(`<h3>Chưa chọn đủ đáp án</h3><p>${esc(unitLabel(unit))} còn câu chưa chọn. Hãy chọn đủ đáp án rồi bấm kiểm tra.</p>
+        <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">OK</button></div>`);
+      return;
+    }
+    unit.questions.forEach((q) => {
+      if (!state.revealed[q.n]) recordQuestionOutcome(q.n);
+      state.revealed[q.n] = true;
+    });
+    renderRunner();
+    saveActiveDraft();
+  }
+
   /* ---------------- interactions ---------------- */
   function pick(qn, L) {
     if (state.finished || state.revealed[qn]) return;
     state.answers[qn] = L;
     if (state.mode === "practice") {
-      rerenderBlock(qn); // shows the "check answer" button
+      if (practicePlayerActive()) renderRunner();
+      else rerenderBlock(qn); // shows the "check answer" button
     } else {
       const block = document.querySelector(`.q-block[data-q="${qn}"]`);
       if (block) {
@@ -2948,6 +3152,13 @@
   function jumpTo(qn) {
     const f = findQ(qn);
     if (!f) return;
+    if (practicePlayerActive()) {
+      const idx = unitIndexForQuestion(test(), qn);
+      if (idx >= 0) {
+        focusUnit(idx);
+        return;
+      }
+    }
     const rootN = f.item.questions ? f.item.questions[0].n : qn;
     const el = document.getElementById("qc-" + rootN);
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -3090,9 +3301,15 @@
         <div class="time-hint" id="time-hint"></div>
         <label class="up-label">Bước 3 · Chế độ</label>
         <select id="su-mode" class="up-input">
-          <option value="exam">Làm bài — chấm điểm khi nộp</option>
           <option value="practice">Luyện từng câu — xem đáp án + giải thích ngay</option>
+          <option value="exam">Làm bài — chấm điểm khi nộp</option>
         </select>
+        <label class="up-label">Bước 4 · Cách nghe Listening</label>
+        <select id="su-listening-mode" class="up-input">
+          <option value="select">Tự bấm nghe từng câu/đoạn — phù hợp luyện đề</option>
+          <option value="continuous">Nghe liên tục theo phần đã chọn — giống thi thử</option>
+        </select>
+        <div class="time-hint">Chế độ luyện sẽ mở từng câu/nhóm câu, có nút nghe riêng và bảng câu hỏi để nhảy nhanh.</div>
         <div class="actions">
           <button class="btn btn-primary" onclick="App.startCustomSession()">Bắt đầu luyện</button>
           <button class="btn" onclick="App.goHome()">Huỷ</button>
@@ -3188,8 +3405,68 @@
     startSession({
       title: "Luyện thi — Part " + [...new Set(parts)].sort((a, b) => a - b).join(", "),
       mode, timerMin: mode === "exam" ? timerMin : null,
+      listeningMode: $("#su-listening-mode") ? $("#su-listening-mode").value : "select",
       sections,
     });
+  }
+
+  function slugText(s) {
+    return String(s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/đ/g, "d")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function parseParts(raw) {
+    return [...new Set(String(raw || "")
+      .split(",")
+      .map((x) => Number(x.trim()))
+      .filter((n) => n >= 1 && n <= 7))];
+  }
+
+  function groupMatchesQuery(g, token) {
+    if (!token) return true;
+    const s = slugText(token);
+    return slugText(g.base) === s
+      || slugText(g.title) === s
+      || g.tests.some((t) => slugText(t.id) === s || slugText(t.title) === s);
+  }
+
+  function sectionsFromGroup(g, parts) {
+    const wanted = new Set(parts);
+    return g.tests.map((t) => {
+      const available = new Set(t.parts.map((p) => p.part));
+      const picked = parts.filter((p) => wanted.has(p) && available.has(p));
+      return picked.length ? { testId: t.id, parts: picked.sort((a, b) => a - b) } : null;
+    }).filter(Boolean);
+  }
+
+  function startPracticeFromQuery() {
+    const params = new URLSearchParams(window.location.search || "");
+    if (!params.has("parts")) return false;
+    const parts = parseParts(params.get("parts"));
+    if (!parts.length) return false;
+    const token = params.get("base") || params.get("test") || params.get("testId") || params.get("mock");
+    const groups = testGroups();
+    const group = groups.find((g) => groupMatchesQuery(g, token) && sectionsFromGroup(g, parts).length)
+      || groups.find((g) => sectionsFromGroup(g, parts).length);
+    if (!group) return false;
+    const sections = sectionsFromGroup(group, parts);
+    if (!sections.length) return false;
+    const mode = params.get("mode") === "exam" ? "exam" : "practice";
+    const listeningMode = params.get("listening_mode") === "continuous" ? "continuous" : "select";
+    const timerMin = mode === "exam" ? (standardMinutes(sections) || realExamTimer(group)) : null;
+    startSession({
+      title: `${mode === "exam" ? "Thi thử" : "Luyện thi"} — ${group.title}: Part ${parts.slice().sort((a, b) => a - b).join(", ")}`,
+      mode,
+      timerMin,
+      listeningMode,
+      sections,
+    });
+    return true;
   }
 
   /* ---------------- export answers ---------------- */
@@ -3442,6 +3719,7 @@
     exportAnswers, answerSheetText, buildAnswerSheetCanvas, openHistory, openKeyView, showResult,
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
+    practicePrev, practiceNext, checkCurrentUnit, jumpToPart,
     pickTimeChip, bumpCustomTime,
     cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
     goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
@@ -3469,5 +3747,5 @@
   window.addEventListener("scroll", queueActiveDraftSave, { passive: true });
 
   initDock();
-  if (!restoreActiveDraft()) goHome();
+  if (!restoreActiveDraft() && !startPracticeFromQuery()) goHome();
 })();
