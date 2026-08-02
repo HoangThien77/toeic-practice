@@ -2645,6 +2645,10 @@
     return !!(it.img || it.image || it.graphicImg || it.text != null);
   }
 
+  function unitHasMediaPane(unit) {
+    return unitHasMedia(unit) || !!unitAudio(unit);
+  }
+
   function audioArgs(seg) {
     return `${Number(seg.start || 0)},${seg.end != null ? Number(seg.end) : "null"}`;
   }
@@ -2678,24 +2682,21 @@
 
   function renderPracticeMediaPane(unit) {
     const it = unit.item;
+    const audioPanel = renderInlineAudioPanel(unit);
     const media = it.questions
       ? ((it.img || it.text != null) ? renderPassage(it) : "")
       : (it.image ? `<img class="qphoto practice-photo" src="${it.image}" alt="Câu ${qLabel(it)}">` : "");
     const graphic = it.graphicImg ? `<img class="qgraphic" src="${it.graphicImg}" alt="graphic">` : "";
-    const empty = !media && !graphic
+    const empty = !media && !graphic && !audioPanel
       ? `<div class="practice-media-empty"><b>Part ${unit.part}</b><span>Làm câu hỏi ở khung bên phải.</span></div>`
       : "";
     const hint = media && (it.img || it.image || it.graphicImg) ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
+    const body = media || graphic || hint || empty
+      ? `<div class="exam-media-body">${media}${graphic}${hint}${empty}</div>`
+      : "";
     return `<div class="exam-media-card">
-      <div class="exam-media-body">${media}${graphic}${hint}${empty}</div>
-    </div>`;
-  }
-
-  function renderPracticeContext(unit) {
-    const audioPanel = renderInlineAudioPanel(unit);
-    if (!audioPanel) return "";
-    return `<div class="exam-context-row">
       ${audioPanel}
+      ${body}
     </div>`;
   }
 
@@ -2724,8 +2725,8 @@
     }
     const idx = clampFocusIndex(t);
     const unit = units[idx];
-    const hasMedia = unitHasMedia(unit);
-    const needsSplitView = hasMedia || unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
+    const hasMediaPane = unitHasMediaPane(unit);
+    const needsSplitView = hasMediaPane || unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
     screen.classList.toggle("wide", needsSplitView);
     const answered = allQuestions(t).filter(({ q }) => state.answers[q.n]).length;
     const total = allQuestions(t).length;
@@ -2735,7 +2736,7 @@
       .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
       .join("");
     screen.innerHTML = `
-      <div class="exam-console ${hasMedia ? "" : "no-media"}">
+      <div class="exam-console ${hasMediaPane ? "" : "no-media"}">
         <div class="exam-console-top">
           <div class="exam-title">
             <span class="exam-kicker">TOEIC Practice</span>
@@ -2755,7 +2756,7 @@
             <div class="practice-meter"><i style="width:${pct}%"></i></div>
           </div>
         </div>
-        ${renderPracticeContext(unit)}
+        ${renderPracticeControls(t, units, unit)}
         <div class="exam-console-main">
           <section class="exam-media-pane">
             ${renderPracticeMediaPane(unit)}
@@ -2764,7 +2765,6 @@
             ${renderPracticeQuestionPane(t, unit)}
           </section>
         </div>
-        ${renderPracticeControls(t, units, unit)}
       </div>
       <div class="runner-grid practice-grid hidden-runner-grid">
         <div id="q-list" class="practice-main"></div>
