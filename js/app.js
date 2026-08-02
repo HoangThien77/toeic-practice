@@ -2868,10 +2868,9 @@
   }
 
   function renderPart(t, p) {
-    const dir = p.directions ? `<div class="directions-box"><b>Part ${p.part}.</b> ${esc(p.directions)}</div>` : "";
     const items = p.items.map((it) => renderItem(t, p, it)).join("");
     return `<div class="part-block" id="part-${p.part}">
-      <div class="section-label">Part ${p.part}</div>${dir}${items}
+      <div class="section-label">Part ${p.part}</div>${items}
     </div>`;
   }
 
