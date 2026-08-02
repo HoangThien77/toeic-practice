@@ -2691,10 +2691,11 @@
     </div>`;
   }
 
-  function renderPracticeContext(unit, dir) {
+  function renderPracticeContext(unit) {
+    const audioPanel = renderInlineAudioPanel(unit);
+    if (!audioPanel) return "";
     return `<div class="exam-context-row">
-      ${dir}
-      ${renderInlineAudioPanel(unit)}
+      ${audioPanel}
     </div>`;
   }
 
@@ -2733,7 +2734,6 @@
     const partTags = [...new Set(t.parts.map((p) => p.part))]
       .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
       .join("");
-    const dir = unit.p.directions ? `<div class="directions-box"><b>Part ${unit.part}.</b> ${esc(unit.p.directions)}</div>` : "";
     screen.innerHTML = `
       <div class="exam-console ${hasMedia ? "" : "no-media"}">
         <div class="exam-console-top">
@@ -2755,7 +2755,7 @@
             <div class="practice-meter"><i style="width:${pct}%"></i></div>
           </div>
         </div>
-        ${renderPracticeContext(unit, dir)}
+        ${renderPracticeContext(unit)}
         <div class="exam-console-main">
           <section class="exam-media-pane">
             ${renderPracticeMediaPane(unit)}
