@@ -2693,7 +2693,6 @@
 
   function renderPracticeContext(unit, dir) {
     return `<div class="exam-context-row">
-      <div class="section-label">Part ${unit.part}</div>
       ${dir}
       ${renderInlineAudioPanel(unit)}
     </div>`;
@@ -2801,13 +2800,8 @@
     const nextBtn = !revealed && !last
       ? `<button class="btn" onclick="App.practiceNext()">Câu tiếp →</button>`
       : "";
-    const audio = unit.item.audio || (unit.questions.length === 1 ? unit.questions[0].audio : null);
-    const audioBtn = audio
-      ? `<button class="btn" onclick="App.playSeg(${audio.start},${audio.end || "null"})">${ICONS.sound}<span>${unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này"}</span></button>`
-      : "";
     return `<div class="practice-controls">
       <button class="btn" ${idx <= 0 ? "disabled" : ""} onclick="App.practicePrev()">← Câu trước</button>
-      ${audioBtn}
       <button class="btn" onclick="App.openQnavSheet()">${ICONS.grid}<span>Bảng câu hỏi</span></button>
       ${primary}
       ${nextBtn}
