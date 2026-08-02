@@ -950,9 +950,14 @@
 
   /* ---------------- audio ---------------- */
   let dockTicker = null;
+  function useInlineAudioDock() {
+    return state.view === "runner" && practicePlayerActive() && !!document.querySelector(".inline-audio");
+  }
   function showDock(show) {
-    $("#audio-dock").classList.toggle("hidden", !show);
-    document.body.classList.toggle("has-dock", show);
+    const inline = show && useInlineAudioDock();
+    $("#audio-dock").classList.toggle("hidden", !show || inline);
+    document.body.classList.toggle("has-dock", show && !inline);
+    if (inline) syncAudioControls();
   }
   function ensureAudio() {
     const t = test();
@@ -972,6 +977,7 @@
     audioEl.playbackRate = strictExam() ? 1 : state.rate;
     audioEl.play();
     showDock(true);
+    syncAudioControls();
   }
   function cycleSpeed() {
     if (strictExam()) return;
@@ -979,11 +985,13 @@
     audioEl.playbackRate = state.rate;
     $("#dock-speed").textContent = state.rate + "x";
     $("#dock-speed").classList.toggle("active", state.rate !== 1);
+    syncAudioControls();
   }
   function toggleLoop() {
     if (strictExam()) return;
     state.loop = !state.loop;
     $("#dock-loop").classList.toggle("active", state.loop);
+    syncAudioControls();
   }
   function seekAudioBy(delta) {
     if (strictExam()) return;
@@ -991,6 +999,57 @@
     const next = Math.max(0, (audioEl.currentTime || 0) + Number(delta || 0));
     audioEl.currentTime = next;
     showDock(true);
+    syncAudioControls();
+  }
+  function inlineAudioRange(box) {
+    const fullDur = audioEl.duration || 0;
+    const start = Number(box && box.dataset.start || 0);
+    const rawEnd = box && box.dataset.end;
+    const end = rawEnd ? Number(rawEnd) : fullDur;
+    const duration = Math.max(0, (end || fullDur) - start);
+    return { start, end: end || fullDur, duration: duration || fullDur };
+  }
+  function syncAudioControls() {
+    const dur = audioEl.duration || 0;
+    const current = audioEl.currentTime || 0;
+    const playText = audioEl.paused ? "▶" : "⏸";
+    $("#dock-play").textContent = playText;
+    $("#dock-progress").style.width = dur ? (audioEl.currentTime / dur) * 100 + "%" : "0%";
+    $("#dock-time").textContent = fmtTime(audioEl.currentTime) + " / " + fmtTime(dur);
+    document.querySelectorAll(".inline-audio").forEach((box) => {
+      const range = inlineAudioRange(box);
+      const inRange = range.duration ? current >= range.start && current <= range.end + 0.25 : false;
+      const pos = inRange ? Math.max(0, current - range.start) : 0;
+      const pct = range.duration ? Math.max(0, Math.min(100, (pos / range.duration) * 100)) : 0;
+      const playing = !audioEl.paused && inRange;
+      box.classList.toggle("playing", playing);
+      const play = box.querySelector(".inline-audio-play");
+      if (play) play.textContent = playing ? "⏸" : "▶";
+      const progress = box.querySelector(".inline-progress");
+      if (progress) progress.style.width = pct + "%";
+      const time = box.querySelector(".inline-time");
+      if (time) time.textContent = fmtTime(pos) + " / " + fmtTime(range.duration);
+      const speed = box.querySelector(".inline-speed");
+      if (speed) {
+        speed.textContent = state.rate + "x";
+        speed.classList.toggle("active", state.rate !== 1);
+      }
+      const loop = box.querySelector(".inline-loop");
+      if (loop) loop.classList.toggle("active", state.loop);
+    });
+  }
+  function seekInlineAudio(e) {
+    if (strictExam()) return;
+    const track = e && e.currentTarget;
+    if (!track) return;
+    const box = track.closest(".inline-audio");
+    ensureAudio();
+    const r = track.getBoundingClientRect();
+    const ratio = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+    const range = inlineAudioRange(box);
+    audioEl.currentTime = range.start + ratio * (range.duration || 0);
+    showDock(true);
+    syncAudioControls();
   }
   audioEl.addEventListener("timeupdate", () => {
     if (state.segEnd && audioEl.currentTime >= state.segEnd) {
@@ -1027,10 +1086,7 @@
   }
   function initDock() {
     setInterval(() => {
-      $("#dock-play").textContent = audioEl.paused ? "▶" : "⏸";
-      const dur = audioEl.duration || 0;
-      $("#dock-progress").style.width = dur ? (audioEl.currentTime / dur) * 100 + "%" : "0%";
-      $("#dock-time").textContent = fmtTime(audioEl.currentTime) + " / " + fmtTime(dur);
+      syncAudioControls();
       document.querySelectorAll(".dock-tool").forEach((b) => { b.style.display = strictExam() ? "none" : ""; });
       // karaoke highlight on transcript lines
       if (!audioEl.paused) {
@@ -2566,14 +2622,21 @@
       return `<i class="${cls}" style="height:${h}px"></i>`;
     }).join("");
     const label = unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này";
-    return `<div class="inline-audio">
+    return `<div class="inline-audio" data-start="${Number(seg.start || 0)}" data-end="${seg.end != null ? Number(seg.end) : ""}">
       <button class="inline-audio-play" onclick="App.playSeg(${audioArgs(seg)})" title="${label}">${ICONS.sound}</button>
-      <div class="inline-wave" aria-hidden="true">${bars}</div>
-      <span class="inline-audio-label">${label}</span>
+      <button class="inline-track" onclick="App.seekInlineAudio(event)" title="Tua trong đoạn đang nghe">
+        <span class="inline-progress"></span>
+        <span class="inline-wave" aria-hidden="true">${bars}</span>
+      </button>
+      <div class="inline-audio-meta">
+        <span class="inline-audio-label">${label}</span>
+        <span class="inline-time">0:00 / 0:00</span>
+      </div>
       <div class="inline-audio-tools">
         <button onclick="App.seekAudioBy(-3)">-3s</button>
         <button onclick="App.seekAudioBy(-5)">-5s</button>
-        <button onclick="App.cycleSpeed()">1x</button>
+        <button class="inline-speed" onclick="App.cycleSpeed()">1x</button>
+        <button class="inline-loop" onclick="App.toggleLoop()">Loop</button>
       </div>
     </div>`;
   }
@@ -2677,6 +2740,11 @@
       </div>
     `;
     document.body.classList.add("has-mbar");
+    if (useInlineAudioDock()) {
+      $("#audio-dock").classList.add("hidden");
+      document.body.classList.remove("has-dock");
+      syncAudioControls();
+    }
     updateSidebar();
   }
 
@@ -3876,7 +3944,7 @@
     practicePrev, practiceNext, checkCurrentUnit, jumpToPart,
     openRunnerTool, saveRunnerNote,
     pickTimeChip, bumpCustomTime,
-    cycleSpeed, toggleLoop, seekAudioBy, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
+    cycleSpeed, toggleLoop, seekAudioBy, seekInlineAudio, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
     goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
     startVocabVideo, vocabVideoNext, vocabVideoPrev, vocabVideoToggle, playVocabVideoContext, speakVocab,
     audioToggle, confirmExit,

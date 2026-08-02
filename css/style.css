@@ -1205,7 +1205,7 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 .practice-media-empty span { display: block; margin-top: 6px; }
 .inline-audio {
   display: grid;
-  grid-template-columns: 38px minmax(180px, 1fr) auto;
+  grid-template-columns: 38px minmax(220px, 1fr) auto;
   align-items: center;
   gap: 10px;
   background: #f1f5fb;
@@ -1227,8 +1227,33 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   cursor: pointer;
 }
 .inline-audio-play svg { width: 17px; height: 17px; }
+.inline-audio.playing .inline-audio-play {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.inline-track {
+  position: relative;
+  height: 48px;
+  display: block;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.inline-progress {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  border-radius: inherit;
+  background: rgba(53,106,230,.10);
+}
 .inline-wave {
-  height: 44px;
+  position: relative;
+  z-index: 1;
+  height: 48px;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -1243,10 +1268,24 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
 .inline-wave i.hot {
   background: linear-gradient(180deg, #29c6b0, var(--accent));
 }
+.inline-audio-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+  min-width: 116px;
+}
 .inline-audio-label {
   color: var(--muted);
   font-size: 13px;
   font-weight: 800;
+  white-space: nowrap;
+}
+.inline-time {
+  color: #4e5b72;
+  font-size: 12px;
+  font-weight: 850;
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 .inline-audio-tools {
@@ -1266,6 +1305,12 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   padding: 2px 0;
 }
 .inline-audio-tools button:hover { color: var(--accent); }
+.inline-audio-tools button.active {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 6px;
+  padding: 2px 6px;
+}
 .exam-question-pane { min-width: 0; }
 .exam-question-card {
   margin-bottom: 0;
@@ -1448,6 +1493,7 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   .exam-toolbar { gap: 6px; }
   .exam-tool { flex: 1 1 124px; justify-content: center; padding: 8px; }
   .inline-audio { grid-template-columns: 38px minmax(0, 1fr); }
+  .inline-audio-meta { grid-column: 1 / -1; align-items: flex-start; min-width: 0; }
   .inline-audio-label { display: none; }
   .inline-audio-tools { grid-column: 1 / -1; }
   .exam-media-card, .exam-media-body { padding: 8px; }
