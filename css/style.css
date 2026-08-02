@@ -1264,9 +1264,18 @@ body { background: var(--bg); color: var(--ink); font-feature-settings: "tnum" 1
   min-width: 5px;
   border-radius: 999px;
   background: #aeb8c8;
+  transition: background .16s ease, opacity .16s ease, transform .16s ease;
 }
-.inline-wave i.hot {
+.inline-wave i.played,
+.inline-wave i.current {
   background: linear-gradient(180deg, #29c6b0, var(--accent));
+}
+.inline-wave i.current {
+  animation: inlineWavePulse .5s ease-in-out infinite alternate;
+}
+@keyframes inlineWavePulse {
+  from { transform: scaleY(.74); opacity: .72; }
+  to { transform: scaleY(1.12); opacity: 1; }
 }
 .inline-audio-meta {
   display: flex;

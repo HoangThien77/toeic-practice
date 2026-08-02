@@ -979,6 +979,33 @@
     showDock(true);
     syncAudioControls();
   }
+  function sameAudioSegment(start, end) {
+    const last = state.lastSeg;
+    if (!last) return false;
+    const lastEnd = last.end == null ? null : Number(last.end);
+    const nextEnd = end == null ? null : Number(end);
+    return Math.abs(Number(last.start || 0) - Number(start || 0)) < 0.01 && lastEnd === nextEnd;
+  }
+  function toggleInlineSegment(start, end) {
+    ensureAudio();
+    const segStart = Number(start || 0);
+    const segEnd = end == null ? null : Number(end);
+    const current = audioEl.currentTime || 0;
+    const inRange = current >= segStart && (segEnd == null || current <= segEnd);
+    if (sameAudioSegment(segStart, segEnd) && inRange) {
+      state.segEnd = segEnd;
+      if (audioEl.paused) {
+        audioEl.playbackRate = strictExam() ? 1 : state.rate;
+        audioEl.play();
+      } else {
+        audioEl.pause();
+      }
+      showDock(true);
+      syncAudioControls();
+      return;
+    }
+    playSegment(segStart, segEnd);
+  }
   function cycleSpeed() {
     if (strictExam()) return;
     state.rate = state.rate === 1 ? 0.75 : state.rate === 0.75 ? 0.5 : 1;
@@ -1027,6 +1054,12 @@
       if (play) play.textContent = playing ? "⏸" : "▶";
       const progress = box.querySelector(".inline-progress");
       if (progress) progress.style.width = pct + "%";
+      const bars = box.querySelectorAll(".inline-wave i");
+      const playedCount = Math.floor((pct / 100) * bars.length);
+      bars.forEach((bar, i) => {
+        bar.classList.toggle("played", i < playedCount);
+        bar.classList.toggle("current", playing && i === Math.min(playedCount, bars.length - 1));
+      });
       const time = box.querySelector(".inline-time");
       if (time) time.textContent = fmtTime(pos) + " / " + fmtTime(range.duration);
       const speed = box.querySelector(".inline-speed");
@@ -1072,7 +1105,10 @@
   });
   audioEl.addEventListener("play", () => {
     audioEl.playbackRate = strictExam() ? 1 : state.rate;
+    syncAudioControls();
   });
+  audioEl.addEventListener("pause", syncAudioControls);
+  audioEl.addEventListener("loadedmetadata", syncAudioControls);
   audioEl.addEventListener("ended", () => {
     if (state.view === "runner" && state.mode === "exam" && !state.finished && test().kind === "listening") {
       trySubmit();
@@ -2618,12 +2654,11 @@
     if (!seg) return "";
     const bars = Array.from({ length: 52 }, (_, i) => {
       const h = 18 + ((i * 17) % 30);
-      const cls = i < 34 ? "hot" : "";
-      return `<i class="${cls}" style="height:${h}px"></i>`;
+      return `<i style="height:${h}px"></i>`;
     }).join("");
     const label = unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này";
     return `<div class="inline-audio" data-start="${Number(seg.start || 0)}" data-end="${seg.end != null ? Number(seg.end) : ""}">
-      <button class="inline-audio-play" onclick="App.playSeg(${audioArgs(seg)})" title="${label}">${ICONS.sound}</button>
+      <button class="inline-audio-play" onclick="App.toggleInlineSeg(${audioArgs(seg)})" title="${label}">▶</button>
       <button class="inline-track" onclick="App.seekInlineAudio(event)" title="Tua trong đoạn đang nghe">
         <span class="inline-progress"></span>
         <span class="inline-wave" aria-hidden="true">${bars}</span>
@@ -3944,7 +3979,7 @@
     practicePrev, practiceNext, checkCurrentUnit, jumpToPart,
     openRunnerTool, saveRunnerNote,
     pickTimeChip, bumpCustomTime,
-    cycleSpeed, toggleLoop, seekAudioBy, seekInlineAudio, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
+    cycleSpeed, toggleLoop, seekAudioBy, seekInlineAudio, toggleInlineSeg: toggleInlineSegment, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
     goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
     startVocabVideo, vocabVideoNext, vocabVideoPrev, vocabVideoToggle, playVocabVideoContext, speakVocab,
     audioToggle, confirmExit,
