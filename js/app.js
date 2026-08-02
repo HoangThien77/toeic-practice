@@ -985,6 +985,13 @@
     state.loop = !state.loop;
     $("#dock-loop").classList.toggle("active", state.loop);
   }
+  function seekAudioBy(delta) {
+    if (strictExam()) return;
+    ensureAudio();
+    const next = Math.max(0, (audioEl.currentTime || 0) + Number(delta || 0));
+    audioEl.currentTime = next;
+    showDock(true);
+  }
   audioEl.addEventListener("timeupdate", () => {
     if (state.segEnd && audioEl.currentTime >= state.segEnd) {
       if (state.loop && !strictExam() && state.lastSeg) {
@@ -2472,6 +2479,138 @@
     });
   }
 
+  const RUNNER_TOOLS = [
+    { id: "bilingual", label: "Song ngữ", icon: "A" },
+    { id: "notes", label: "Ghi chú", icon: "N" },
+    { id: "annotator", label: "Annotator", icon: "P", count: "1/5", active: true },
+    { id: "dictation", label: "Điền Từ", icon: "F" },
+    { id: "flipword", label: "Lật Từ", icon: "T" },
+  ];
+
+  function renderExamFeatureToolbar() {
+    return `<div class="exam-toolbar" aria-label="Công cụ luyện đề">
+      ${RUNNER_TOOLS.map((tool) => `<button class="exam-tool ${tool.active ? "active" : ""}" onclick="App.openRunnerTool('${tool.id}')">
+        <span class="exam-tool-icon">${tool.icon}</span>
+        <span>${tool.label}</span>
+        ${tool.count ? `<b class="exam-tool-count">${tool.count}</b>` : ""}
+        <span class="exam-tool-crown">*</span>
+      </button>`).join("")}
+    </div>`;
+  }
+
+  function openRunnerTool(toolId) {
+    const labels = {
+      bilingual: "Song ngữ",
+      notes: "Ghi chú",
+      annotator: "Annotator",
+      dictation: "Điền Từ",
+      flipword: "Lật Từ",
+    };
+    if (toolId === "flipword") {
+      goVocab();
+      return;
+    }
+    const t = test();
+    const unit = practicePlayerActive() ? currentPracticeUnit(t) : null;
+    if (toolId === "dictation" && unit) {
+      const first = unit.questions && unit.questions[0];
+      const it = unit.item || first;
+      if (first && it && it.audio && spokenText(it)) {
+        openDictation(first.n);
+        return;
+      }
+    }
+    if (toolId === "notes") {
+      const key = `toeic-note:${state.testId || "test"}:${unit && unit.questions ? unit.questions[0].n : "general"}`;
+      const saved = localStorage.getItem(key) || "";
+      openModal(`<h3>Ghi chú câu này</h3>
+        <textarea id="runner-note-input" class="dict-input" rows="6" placeholder="Ghi lại bẫy, từ vựng, lý do sai...">${esc(saved)}</textarea>
+        <div class="modal-actions">
+          <button class="btn" onclick="App.closeModal()">Đóng</button>
+          <button class="btn btn-primary" onclick="App.saveRunnerNote('${key}')">Lưu ghi chú</button>
+        </div>`, true);
+      return;
+    }
+    openModal(`<h3>${esc(labels[toolId] || "Công cụ")}</h3>
+      <p>Công cụ này đã được đặt vào giao diện luyện đề mới. Phần xử lý nâng cao sẽ dùng dữ liệu sẵn có của từng đề khi đủ transcript, bản dịch hoặc từ vựng.</p>
+      <div class="modal-actions"><button class="btn btn-primary" onclick="App.closeModal()">Đóng</button></div>`);
+  }
+
+  function saveRunnerNote(key) {
+    const input = $("#runner-note-input");
+    localStorage.setItem(key, input ? input.value || "" : "");
+    closeModal();
+  }
+
+  function unitAudio(unit) {
+    if (!unit) return null;
+    return unit.item.audio || (unit.questions && unit.questions.length === 1 ? unit.questions[0].audio : null);
+  }
+
+  function unitHasMedia(unit) {
+    const it = unit && unit.item;
+    if (!it) return false;
+    return !!(unitAudio(unit) || it.img || it.image || it.graphicImg || it.text != null);
+  }
+
+  function audioArgs(seg) {
+    return `${Number(seg.start || 0)},${seg.end != null ? Number(seg.end) : "null"}`;
+  }
+
+  function renderInlineAudioPanel(unit) {
+    const seg = unitAudio(unit);
+    if (!seg) return "";
+    const bars = Array.from({ length: 52 }, (_, i) => {
+      const h = 18 + ((i * 17) % 30);
+      const cls = i < 34 ? "hot" : "";
+      return `<i class="${cls}" style="height:${h}px"></i>`;
+    }).join("");
+    const label = unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này";
+    return `<div class="inline-audio">
+      <button class="inline-audio-play" onclick="App.playSeg(${audioArgs(seg)})" title="${label}">${ICONS.sound}</button>
+      <div class="inline-wave" aria-hidden="true">${bars}</div>
+      <span class="inline-audio-label">${label}</span>
+      <div class="inline-audio-tools">
+        <button onclick="App.seekAudioBy(-3)">-3s</button>
+        <button onclick="App.seekAudioBy(-5)">-5s</button>
+        <button onclick="App.cycleSpeed()">1x</button>
+      </div>
+    </div>`;
+  }
+
+  function renderPracticeMediaPane(unit) {
+    const it = unit.item;
+    const media = it.questions
+      ? ((it.img || it.text != null) ? renderPassage(it) : "")
+      : (it.image ? `<img class="qphoto practice-photo" src="${it.image}" alt="Câu ${qLabel(it)}">` : "");
+    const graphic = it.graphicImg ? `<img class="qgraphic" src="${it.graphicImg}" alt="graphic">` : "";
+    const empty = !media && !graphic
+      ? `<div class="practice-media-empty"><b>Part ${unit.part}</b><span>Làm câu hỏi ở khung bên phải.</span></div>`
+      : "";
+    const hint = media && (it.img || it.image || it.graphicImg) ? '<div class="zoom-hint">Bấm vào ảnh để phóng to</div>' : "";
+    return `<div class="exam-media-card">
+      ${renderInlineAudioPanel(unit)}
+      <div class="exam-media-body">${media}${graphic}${hint}${empty}</div>
+    </div>`;
+  }
+
+  function renderPracticeQuestionPane(t, unit) {
+    const it = unit.item;
+    if (it.questions) {
+      const revealed = state.finished || it.questions.some((q) => state.revealed[q.n]);
+      const transcript = revealed ? renderTranscriptBox(it, true) : "";
+      return `<div class="exam-question-card qcard" id="qc-${it.questions[0].n}">
+        <div class="exam-question-title">Câu ${qLabel(it.questions[0])}${it.questions.length > 1 ? "–" + qLabel(it.questions[it.questions.length - 1]) : ""}</div>
+        ${it.questions.map((q) => renderQuestion(t, unit.p, q, it)).join("")}
+        ${transcript}
+      </div>`;
+    }
+    const qForPanel = it.image ? { ...it, image: null } : it;
+    const soloRevealed = state.finished || state.revealed[it.n];
+    const soloExtras = soloRevealed && unit.part <= 4 ? renderTranscriptBox(it, true) : "";
+    return `<div class="exam-question-card qcard" id="qc-${it.n}">${renderQuestion(t, unit.p, qForPanel, null)}${soloExtras}</div>`;
+  }
+
   function renderPracticePlayer(t) {
     const units = practiceUnits(t);
     if (!units.length) {
@@ -2480,38 +2619,53 @@
     }
     const idx = clampFocusIndex(t);
     const unit = units[idx];
-    const needsSplitView = unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
+    const hasMedia = unitHasMedia(unit);
+    const needsSplitView = hasMedia || unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
     screen.classList.toggle("wide", needsSplitView);
     const answered = allQuestions(t).filter(({ q }) => state.answers[q.n]).length;
     const total = allQuestions(t).length;
     const pct = total ? Math.round((answered / total) * 100) : 0;
+    const title = `${esc(t.title)} — Luyện tập`;
     const partTags = [...new Set(t.parts.map((p) => p.part))]
       .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
       .join("");
     const dir = unit.p.directions ? `<div class="directions-box"><b>Part ${unit.part}.</b> ${esc(unit.p.directions)}</div>` : "";
-    const card = `<div class="part-block focus-part" id="part-${unit.part}">
-      <div class="section-label">Part ${unit.part}</div>${dir}${renderItem(t, unit.p, unit.item)}
-    </div>`;
     screen.innerHTML = `
-      <div class="runner-head practice-head">
-        <div>
-          <h2>${esc(t.title)} — Luyện tập</h2>
-          <div class="sub">${esc(t.desc)}</div>
+      <div class="exam-console ${hasMedia ? "" : "no-media"}">
+        <div class="exam-console-top">
+          <div class="exam-title">
+            <span class="exam-kicker">TOEIC Practice</span>
+            <h2>${title}</h2>
+            <div class="sub">${esc(t.desc)}</div>
+          </div>
+          ${renderExamFeatureToolbar()}
+          <div class="practice-head-stat">
+            <b>${idx + 1}/${units.length}</b>
+            <span>${esc(unitLabel(unit))}</span>
+          </div>
         </div>
-        <div class="practice-head-stat">
-          <b>${idx + 1}/${units.length}</b>
-          <span>${esc(unitLabel(unit))}</span>
+        <div class="practice-strip exam-strip">
+          <div class="part-tabs">${partTags}</div>
+          <div class="practice-progress">
+            <span>Đã trả lời ${answered}/${total}</span>
+            <div class="practice-meter"><i style="width:${pct}%"></i></div>
+          </div>
         </div>
+        <div class="exam-console-main">
+          <section class="exam-media-pane">
+            <div class="section-label">Part ${unit.part}</div>
+            ${dir}
+            ${renderPracticeMediaPane(unit)}
+          </section>
+          <section class="exam-question-pane">
+            ${!hasMedia ? `<div class="section-label">Part ${unit.part}</div>${dir}` : ""}
+            ${renderPracticeQuestionPane(t, unit)}
+          </section>
+        </div>
+        ${renderPracticeControls(t, units, unit)}
       </div>
-      <div class="practice-strip">
-        <div class="part-tabs">${partTags}</div>
-        <div class="practice-progress">
-          <span>Đã trả lời ${answered}/${total}</span>
-          <div class="practice-meter"><i style="width:${pct}%"></i></div>
-        </div>
-      </div>
-      <div class="runner-grid practice-grid">
-        <div id="q-list" class="practice-main">${card}${renderPracticeControls(t, units, unit)}</div>
+      <div class="runner-grid practice-grid hidden-runner-grid">
+        <div id="q-list" class="practice-main"></div>
         <div class="side-panel">${renderSidebar(t)}</div>
       </div>
       <div class="mobile-bar" id="mobile-bar">
@@ -3720,8 +3874,9 @@
     goUpload, submitUpload, submitCloudUpload, retryCloudUpload, processUpload, openQnavSheet, upRemoveFile,
     goRealExam, startRealExam, goPracticeSetup, startCustomSession, setupPartChanged, restartSession,
     practicePrev, practiceNext, checkCurrentUnit, jumpToPart,
+    openRunnerTool, saveRunnerNote,
     pickTimeChip, bumpCustomTime,
-    cycleSpeed, toggleLoop, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
+    cycleSpeed, toggleLoop, seekAudioBy, seekLine, toggleVi, openDictation, dictCheck, dictReveal,
     goVocab, filterVocabList, startFlashcards, fcFlip, fcAnswer,
     startVocabVideo, vocabVideoNext, vocabVideoPrev, vocabVideoToggle, playVocabVideoContext, speakVocab,
     audioToggle, confirmExit,
