@@ -1,0 +1,5199 @@
+{
+  "id": "zalo-test-4-listening",
+  "kind": "listening",
+  "title": "Zalo Test 4 - Listening",
+  "desc": "Listening Test 4, câu 1-100 — PDF Zalo Test 4 + audio Test 04 from Zalo.mp3. Dữ liệu được số hóa từ scan/audio, có crop ảnh, transcript và giải thích tiếng Việt.",
+  "custom": true,
+  "audioSrc": "assets/audio/zalo-test-4.mp3",
+  "timings": {
+    "parts": {
+      "1": {
+        "start": 98,
+        "end": 260
+      },
+      "2": {
+        "start": 288,
+        "end": 800
+      },
+      "3": {
+        "start": 824,
+        "end": 1900
+      },
+      "4": {
+        "start": 1928,
+        "end": 2771
+      }
+    },
+    "questions": {
+      "1": {
+        "start": 98,
+        "end": 122
+      },
+      "2": {
+        "start": 122,
+        "end": 155
+      },
+      "3": {
+        "start": 155,
+        "end": 180
+      },
+      "4": {
+        "start": 180,
+        "end": 205
+      },
+      "5": {
+        "start": 205,
+        "end": 232
+      },
+      "6": {
+        "start": 232,
+        "end": 292
+      },
+      "7": {
+        "start": 292,
+        "end": 309
+      },
+      "8": {
+        "start": 309,
+        "end": 329
+      },
+      "9": {
+        "start": 329,
+        "end": 350
+      },
+      "10": {
+        "start": 350,
+        "end": 369
+      },
+      "11": {
+        "start": 369,
+        "end": 390
+      },
+      "12": {
+        "start": 390,
+        "end": 410
+      },
+      "13": {
+        "start": 410,
+        "end": 426
+      },
+      "14": {
+        "start": 426,
+        "end": 444
+      },
+      "15": {
+        "start": 444,
+        "end": 462
+      },
+      "16": {
+        "start": 462,
+        "end": 488
+      },
+      "17": {
+        "start": 488,
+        "end": 507
+      },
+      "18": {
+        "start": 507,
+        "end": 527
+      },
+      "19": {
+        "start": 527,
+        "end": 550
+      },
+      "20": {
+        "start": 550,
+        "end": 571
+      },
+      "21": {
+        "start": 571,
+        "end": 593
+      },
+      "22": {
+        "start": 593,
+        "end": 613
+      },
+      "23": {
+        "start": 613,
+        "end": 633
+      },
+      "24": {
+        "start": 633,
+        "end": 653
+      },
+      "25": {
+        "start": 653,
+        "end": 673
+      },
+      "26": {
+        "start": 673,
+        "end": 692
+      },
+      "27": {
+        "start": 692,
+        "end": 712
+      },
+      "28": {
+        "start": 712,
+        "end": 732
+      },
+      "29": {
+        "start": 732,
+        "end": 752
+      },
+      "30": {
+        "start": 752,
+        "end": 769
+      },
+      "31": {
+        "start": 769,
+        "end": 800
+      },
+      "32": {
+        "start": 865,
+        "end": 876
+      },
+      "33": {
+        "start": 876,
+        "end": 883
+      },
+      "34": {
+        "start": 883,
+        "end": 900
+      },
+      "35": {
+        "start": 940,
+        "end": 952
+      },
+      "36": {
+        "start": 952,
+        "end": 964
+      },
+      "37": {
+        "start": 964,
+        "end": 976
+      },
+      "38": {
+        "start": 1022,
+        "end": 1035
+      },
+      "39": {
+        "start": 1035,
+        "end": 1047
+      },
+      "40": {
+        "start": 1047,
+        "end": 1059
+      },
+      "41": {
+        "start": 1107,
+        "end": 1114
+      },
+      "42": {
+        "start": 1114,
+        "end": 1122
+      },
+      "43": {
+        "start": 1122,
+        "end": 1151
+      },
+      "44": {
+        "start": 1190,
+        "end": 1203
+      },
+      "45": {
+        "start": 1203,
+        "end": 1215
+      },
+      "46": {
+        "start": 1215,
+        "end": 1227
+      },
+      "47": {
+        "start": 1267,
+        "end": 1279
+      },
+      "48": {
+        "start": 1279,
+        "end": 1290
+      },
+      "49": {
+        "start": 1290,
+        "end": 1303
+      },
+      "50": {
+        "start": 1347,
+        "end": 1359
+      },
+      "51": {
+        "start": 1359,
+        "end": 1371
+      },
+      "52": {
+        "start": 1371,
+        "end": 1384
+      },
+      "53": {
+        "start": 1424,
+        "end": 1436
+      },
+      "54": {
+        "start": 1436,
+        "end": 1449
+      },
+      "55": {
+        "start": 1449,
+        "end": 1461
+      },
+      "56": {
+        "start": 1507,
+        "end": 1520
+      },
+      "57": {
+        "start": 1520,
+        "end": 1532
+      },
+      "58": {
+        "start": 1532,
+        "end": 1547
+      },
+      "59": {
+        "start": 1592,
+        "end": 1605
+      },
+      "60": {
+        "start": 1605,
+        "end": 1618
+      },
+      "61": {
+        "start": 1618,
+        "end": 1629
+      },
+      "62": {
+        "start": 1675,
+        "end": 1688
+      },
+      "63": {
+        "start": 1688,
+        "end": 1700
+      },
+      "64": {
+        "start": 1700,
+        "end": 1724
+      },
+      "65": {
+        "start": 1772,
+        "end": 1790
+      },
+      "66": {
+        "start": 1790,
+        "end": 1803
+      },
+      "67": {
+        "start": 1803,
+        "end": 1815
+      },
+      "68": {
+        "start": 1858,
+        "end": 1870
+      },
+      "69": {
+        "start": 1870,
+        "end": 1888
+      },
+      "70": {
+        "start": 1888,
+        "end": 1928
+      },
+      "71": {
+        "start": 1971,
+        "end": 1983
+      },
+      "72": {
+        "start": 1983,
+        "end": 1996
+      },
+      "73": {
+        "start": 1996,
+        "end": 2008
+      },
+      "74": {
+        "start": 2055,
+        "end": 2067
+      },
+      "75": {
+        "start": 2067,
+        "end": 2080
+      },
+      "76": {
+        "start": 2080,
+        "end": 2092
+      },
+      "77": {
+        "start": 2128,
+        "end": 2140
+      },
+      "78": {
+        "start": 2140,
+        "end": 2154
+      },
+      "79": {
+        "start": 2154,
+        "end": 2166
+      },
+      "80": {
+        "start": 2214,
+        "end": 2226
+      },
+      "81": {
+        "start": 2226,
+        "end": 2238
+      },
+      "82": {
+        "start": 2238,
+        "end": 2257
+      },
+      "83": {
+        "start": 2305,
+        "end": 2317
+      },
+      "84": {
+        "start": 2317,
+        "end": 2329
+      },
+      "85": {
+        "start": 2329,
+        "end": 2348
+      },
+      "86": {
+        "start": 2396,
+        "end": 2408
+      },
+      "87": {
+        "start": 2408,
+        "end": 2422
+      },
+      "88": {
+        "start": 2422,
+        "end": 2434
+      },
+      "89": {
+        "start": 2482,
+        "end": 2494
+      },
+      "90": {
+        "start": 2494,
+        "end": 2506
+      },
+      "91": {
+        "start": 2506,
+        "end": 2519
+      },
+      "92": {
+        "start": 2559,
+        "end": 2571
+      },
+      "93": {
+        "start": 2571,
+        "end": 2583
+      },
+      "94": {
+        "start": 2583,
+        "end": 2597
+      },
+      "95": {
+        "start": 2639,
+        "end": 2651
+      },
+      "96": {
+        "start": 2651,
+        "end": 2670
+      },
+      "97": {
+        "start": 2670,
+        "end": 2683
+      },
+      "98": {
+        "start": 2728,
+        "end": 2740
+      },
+      "99": {
+        "start": 2740,
+        "end": 2759
+      },
+      "100": {
+        "start": 2759,
+        "end": 2771
+      }
+    },
+    "blocks": [
+      {
+        "questions": [
+          32,
+          33,
+          34
+        ],
+        "start": 824,
+        "end": 900
+      },
+      {
+        "questions": [
+          35,
+          36,
+          37
+        ],
+        "start": 900,
+        "end": 976
+      },
+      {
+        "questions": [
+          38,
+          39,
+          40
+        ],
+        "start": 976,
+        "end": 1059
+      },
+      {
+        "questions": [
+          41,
+          42,
+          43
+        ],
+        "start": 1059,
+        "end": 1151
+      },
+      {
+        "questions": [
+          44,
+          45,
+          46
+        ],
+        "start": 1151,
+        "end": 1227
+      },
+      {
+        "questions": [
+          47,
+          48,
+          49
+        ],
+        "start": 1227,
+        "end": 1303
+      },
+      {
+        "questions": [
+          50,
+          51,
+          52
+        ],
+        "start": 1303,
+        "end": 1384
+      },
+      {
+        "questions": [
+          53,
+          54,
+          55
+        ],
+        "start": 1384,
+        "end": 1461
+      },
+      {
+        "questions": [
+          56,
+          57,
+          58
+        ],
+        "start": 1461,
+        "end": 1547
+      },
+      {
+        "questions": [
+          59,
+          60,
+          61
+        ],
+        "start": 1547,
+        "end": 1629
+      },
+      {
+        "questions": [
+          62,
+          63,
+          64
+        ],
+        "start": 1629,
+        "end": 1724
+      },
+      {
+        "questions": [
+          65,
+          66,
+          67
+        ],
+        "start": 1724,
+        "end": 1815
+      },
+      {
+        "questions": [
+          68,
+          69,
+          70
+        ],
+        "start": 1815,
+        "end": 1928
+      },
+      {
+        "questions": [
+          71,
+          72,
+          73
+        ],
+        "start": 1928,
+        "end": 2008
+      },
+      {
+        "questions": [
+          74,
+          75,
+          76
+        ],
+        "start": 2008,
+        "end": 2092
+      },
+      {
+        "questions": [
+          77,
+          78,
+          79
+        ],
+        "start": 2092,
+        "end": 2166
+      },
+      {
+        "questions": [
+          80,
+          81,
+          82
+        ],
+        "start": 2166,
+        "end": 2257
+      },
+      {
+        "questions": [
+          83,
+          84,
+          85
+        ],
+        "start": 2257,
+        "end": 2348
+      },
+      {
+        "questions": [
+          86,
+          87,
+          88
+        ],
+        "start": 2348,
+        "end": 2434
+      },
+      {
+        "questions": [
+          89,
+          90,
+          91
+        ],
+        "start": 2434,
+        "end": 2519
+      },
+      {
+        "questions": [
+          92,
+          93,
+          94
+        ],
+        "start": 2519,
+        "end": 2597
+      },
+      {
+        "questions": [
+          95,
+          96,
+          97
+        ],
+        "start": 2597,
+        "end": 2683
+      },
+      {
+        "questions": [
+          98,
+          99,
+          100
+        ],
+        "start": 2683,
+        "end": 2771
+      }
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "directions": "Nghe 4 cau mo ta ve moi buc anh va chon cau mo ta dung nhat. Cau hoi va dap an chi co trong audio.",
+      "items": [
+        {
+          "n": 1,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "She's pushing a shopping cart.",
+            "B": "She's reaching for a product.",
+            "C": "She's wiping off a counter.",
+            "D": "She's piling up serving trays."
+          },
+          "answer": "B",
+          "explanation": "Người phụ nữ đang với tay lấy sản phẩm trong quầy hàng, khớp với B.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q1.jpg",
+          "audio": {
+            "start": 98,
+            "end": 122
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "She's pushing a shopping cart.",
+              "B": "She's reaching for a product.",
+              "C": "She's wiping off a counter.",
+              "D": "She's piling up serving trays."
+            }
+          },
+          "segs": [
+            {
+              "t": 98.0,
+              "text": "Look at the picture marked number one in your test book."
+            },
+            {
+              "t": 104.0,
+              "text": "She's pushing a shopping cart."
+            },
+            {
+              "t": 107.0,
+              "text": "She's reaching for a product."
+            },
+            {
+              "t": 111.0,
+              "text": "She's wiping off a counter."
+            },
+            {
+              "t": 114.0,
+              "text": "She's piling up serving trays."
+            }
+          ],
+          "viText": "(A) She's pushing a shopping cart.\n(B) She's reaching for a product.\n(C) She's wiping off a counter.\n(D) She's piling up serving trays."
+        },
+        {
+          "n": 2,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "Some people are climbing up a staircase.",
+            "B": "A wheelbarrow is being loaded with plants.",
+            "C": "Some people are walking near an open kiln.",
+            "D": "A cable is hanging from a ceiling."
+          },
+          "answer": "C",
+          "explanation": "Hai người đang đi gần khu lò/thiết bị mở, khớp nhất với C.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q2.jpg",
+          "audio": {
+            "start": 122,
+            "end": 155
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "Some people are climbing up a staircase.",
+              "B": "A wheelbarrow is being loaded with plants.",
+              "C": "Some people are walking near an open kiln.",
+              "D": "A cable is hanging from a ceiling."
+            }
+          },
+          "segs": [
+            {
+              "t": 122.0,
+              "text": "Look at the picture marked number two in your test book."
+            },
+            {
+              "t": 128.0,
+              "text": "Some people are climbing up a staircase."
+            },
+            {
+              "t": 132.0,
+              "text": "A wheelbarrow is being loaded with plants."
+            },
+            {
+              "t": 136.0,
+              "text": "Some people are waking near an open climb."
+            },
+            {
+              "t": 141.0,
+              "text": "A kibble is hanging from a ceiling."
+            },
+            {
+              "t": 148.0,
+              "text": "Go on to the next page."
+            }
+          ],
+          "viText": "(A) Some people are climbing up a staircase.\n(B) A wheelbarrow is being loaded with plants.\n(C) Some people are walking near an open kiln.\n(D) A cable is hanging from a ceiling."
+        },
+        {
+          "n": 3,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "A man is placing soil into a pot.",
+            "B": "A man is working with a rake.",
+            "C": "A man is holding a tree branch.",
+            "D": "A man is putting on a hat."
+          },
+          "answer": "B",
+          "explanation": "Người đàn ông đang dùng cào trên mặt đất, nên chọn B.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q3.jpg",
+          "audio": {
+            "start": 155,
+            "end": 180
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "A man is placing soil into a pot.",
+              "B": "A man is working with a rake.",
+              "C": "A man is holding a tree branch.",
+              "D": "A man is putting on a hat."
+            }
+          },
+          "segs": [
+            {
+              "t": 155.0,
+              "text": "Number three."
+            },
+            {
+              "t": 156.0,
+              "text": "Look at the picture marked number three in your test book."
+            },
+            {
+              "t": 160.0,
+              "text": "A."
+            },
+            {
+              "t": 161.0,
+              "text": "A man is placing soil into a pot."
+            },
+            {
+              "t": 165.0,
+              "text": "B."
+            },
+            {
+              "t": 166.0,
+              "text": "A man is working with a rake."
+            },
+            {
+              "t": 168.0,
+              "text": "C."
+            },
+            {
+              "t": 169.0,
+              "text": "A man is holding a tree branch."
+            },
+            {
+              "t": 172.0,
+              "text": "D."
+            },
+            {
+              "t": 173.0,
+              "text": "A man is putting on a hat."
+            }
+          ],
+          "viText": "(A) A man is placing soil into a pot.\n(B) A man is working with a rake.\n(C) A man is holding a tree branch.\n(D) A man is putting on a hat."
+        },
+        {
+          "n": 4,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "They are examining a file.",
+            "B": "They are moving a table.",
+            "C": "The man is closing a notebook computer.",
+            "D": "The woman is pouring coffee into a cup."
+          },
+          "answer": "A",
+          "explanation": "Hai người đang xem/kiểm tra tài liệu, khớp với A.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q4.jpg",
+          "audio": {
+            "start": 180,
+            "end": 205
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "They are examining a file.",
+              "B": "They are moving a table.",
+              "C": "The man is closing a notebook computer.",
+              "D": "The woman is pouring coffee into a cup."
+            }
+          },
+          "segs": [
+            {
+              "t": 180.0,
+              "text": "Number four."
+            },
+            {
+              "t": 181.0,
+              "text": "Look at the picture marked number four in your test book."
+            },
+            {
+              "t": 185.0,
+              "text": "A."
+            },
+            {
+              "t": 186.0,
+              "text": "They are examining a file."
+            },
+            {
+              "t": 189.0,
+              "text": "B."
+            },
+            {
+              "t": 190.0,
+              "text": "They are moving a table."
+            },
+            {
+              "t": 192.0,
+              "text": "C."
+            },
+            {
+              "t": 193.0,
+              "text": "The man is closing a notebook computer."
+            },
+            {
+              "t": 196.0,
+              "text": "D."
+            },
+            {
+              "t": 197.0,
+              "text": "The woman is pouring coffee into a cup."
+            }
+          ],
+          "viText": "(A) They are examining a file.\n(B) They are moving a table.\n(C) The man is closing a notebook computer.\n(D) The woman is pouring coffee into a cup."
+        },
+        {
+          "n": 5,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "Some people are folding napkins.",
+            "B": "Bottles are being arranged on a shelf.",
+            "C": "Glasses have been placed in a dishwasher.",
+            "D": "Some people are gathered at a table."
+          },
+          "answer": "D",
+          "explanation": "Nhiều người đang ngồi/tập trung quanh bàn, nên D đúng.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q5.jpg",
+          "audio": {
+            "start": 205,
+            "end": 232
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "Some people are folding napkins.",
+              "B": "Bottles are being arranged on a shelf.",
+              "C": "Glasses have been placed in a dishwasher.",
+              "D": "Some people are gathered at a table."
+            }
+          },
+          "segs": [
+            {
+              "t": 205.0,
+              "text": "Number five."
+            },
+            {
+              "t": 207.0,
+              "text": "Look at the picture marked number five in your test book."
+            },
+            {
+              "t": 211.0,
+              "text": "A."
+            },
+            {
+              "t": 212.0,
+              "text": "Some people are folding napkins."
+            },
+            {
+              "t": 215.0,
+              "text": "B."
+            },
+            {
+              "t": 216.0,
+              "text": "Bottles are being arranged on a shelf."
+            },
+            {
+              "t": 219.0,
+              "text": "C."
+            },
+            {
+              "t": 220.0,
+              "text": "Glasses have been placed in a dishwasher."
+            },
+            {
+              "t": 223.0,
+              "text": "D."
+            },
+            {
+              "t": 224.0,
+              "text": "Some people are gathered at a table."
+            }
+          ],
+          "viText": "(A) Some people are folding napkins.\n(B) Bottles are being arranged on a shelf.\n(C) Glasses have been placed in a dishwasher.\n(D) Some people are gathered at a table."
+        },
+        {
+          "n": 6,
+          "question": "Nghe audio và chọn đáp án",
+          "choices": {
+            "A": "Plants are lined up along a ramp.",
+            "B": "Some chairs are unoccupied.",
+            "C": "A table is being removed from a room.",
+            "D": "A painting is propped against a chair."
+          },
+          "answer": "B",
+          "explanation": "Ảnh có nhiều ghế trống, khớp với B.",
+          "uncertain": false,
+          "image": "assets/img/custom/zalo-test-4-listening/p1-q6.jpg",
+          "audio": {
+            "start": 232,
+            "end": 292
+          },
+          "spoken": {
+            "question": "Look at the picture and choose the best description.",
+            "choices": {
+              "A": "Plants are lined up along a ramp.",
+              "B": "Some chairs are unoccupied.",
+              "C": "A table is being removed from a room.",
+              "D": "A painting is propped against a chair."
+            }
+          },
+          "segs": [
+            {
+              "t": 232.0,
+              "text": "Number six."
+            },
+            {
+              "t": 233.0,
+              "text": "Look at the picture marked number six in your test book."
+            },
+            {
+              "t": 237.0,
+              "text": "A."
+            },
+            {
+              "t": 238.0,
+              "text": "Plants are lined up along a ramp."
+            },
+            {
+              "t": 241.0,
+              "text": "B."
+            },
+            {
+              "t": 242.0,
+              "text": "Some chairs are unoccupied."
+            },
+            {
+              "t": 245.0,
+              "text": "C."
+            },
+            {
+              "t": 246.0,
+              "text": "A table is being removed from a room."
+            },
+            {
+              "t": 249.0,
+              "text": "D."
+            },
+            {
+              "t": 250.0,
+              "text": "A painting is propped against a chair."
+            },
+            {
+              "t": 254.0,
+              "text": "."
+            },
+            {
+              "t": 258.0,
+              "text": "Go on to the next page."
+            },
+            {
+              "t": 265.0,
+              "text": "Part two."
+            },
+            {
+              "t": 266.0,
+              "text": "Directions."
+            },
+            {
+              "t": 267.0,
+              "text": "You will hear a question or statement and three responses spoken in English."
+            },
+            {
+              "t": 273.0,
+              "text": "They will not be printed in your test book and will be spoken only one time."
+            },
+            {
+              "t": 278.0,
+              "text": "Select the best response to the question or statement and mark the letter A, B, or C on your answer sheet."
+            },
+            {
+              "t": 288.0,
+              "text": "Now, let us begin with question number seven."
+            }
+          ],
+          "viText": "(A) Plants are lined up along a ramp.\n(B) Some chairs are unoccupied.\n(C) A table is being removed from a room.\n(D) A painting is propped against a chair."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "directions": "Nghe 1 cau hoi/cau noi va 3 cau dap, chon cau dap phu hop nhat. Tat ca chi co trong audio.",
+      "items": [
+        {
+          "n": 7,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "C trả lời thời lượng của cuộc họp: gần hết buổi chiều.",
+          "uncertain": false,
+          "audio": {
+            "start": 292,
+            "end": 309
+          },
+          "spoken": {
+            "question": "How long will the meeting take?",
+            "choices": {
+              "A": "I prefer the bus.",
+              "B": "A couple of feet.",
+              "C": "Most of the afternoon."
+            }
+          },
+          "segs": [
+            {
+              "t": 292.0,
+              "text": "Number seven."
+            },
+            {
+              "t": 294.0,
+              "text": "How long will the meeting take?"
+            },
+            {
+              "t": 296.0,
+              "text": "A."
+            },
+            {
+              "t": 297.0,
+              "text": "I prefer the bus."
+            },
+            {
+              "t": 299.0,
+              "text": "B."
+            },
+            {
+              "t": 300.0,
+              "text": "A couple of feet."
+            },
+            {
+              "t": 302.0,
+              "text": "C."
+            },
+            {
+              "t": 303.0,
+              "text": "Most of the afternoon."
+            }
+          ],
+          "viText": "How long will the meeting take?\n(A) I prefer the bus.\n(B) A couple of feet.\n(C) Most of the afternoon."
+        },
+        {
+          "n": 8,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "Biển nhỏ nên khó đọc, C phản hồi tự nhiên nhất.",
+          "uncertain": false,
+          "audio": {
+            "start": 309,
+            "end": 329
+          },
+          "spoken": {
+            "question": "The sign is smaller than I anticipated.",
+            "choices": {
+              "A": "Sorry, I can't do that.",
+              "B": "In a wide range.",
+              "C": "Yes, it's hard to read."
+            }
+          },
+          "segs": [
+            {
+              "t": 309.0,
+              "text": "Number eight."
+            },
+            {
+              "t": 311.0,
+              "text": "The sign is smaller than I anticipated."
+            },
+            {
+              "t": 315.0,
+              "text": "A."
+            },
+            {
+              "t": 316.0,
+              "text": "Sorry, I can't do that."
+            },
+            {
+              "t": 318.0,
+              "text": "B."
+            },
+            {
+              "t": 319.0,
+              "text": "In a wide range."
+            },
+            {
+              "t": 321.0,
+              "text": "C."
+            },
+            {
+              "t": 322.0,
+              "text": "Yes, it's hard to read."
+            }
+          ],
+          "viText": "The sign is smaller than I anticipated.\n(A) Sorry, I can't do that.\n(B) In a wide range.\n(C) Yes, it's hard to read."
+        },
+        {
+          "n": 9,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "C trả lời thời điểm Janice đi hội nghị.",
+          "uncertain": false,
+          "audio": {
+            "start": 329,
+            "end": 350
+          },
+          "spoken": {
+            "question": "When is Janice supposed to be away at the conference?",
+            "choices": {
+              "A": "That's the shortest route possible.",
+              "B": "Now, she's giving a presentation.",
+              "C": "Late August, I believe."
+            }
+          },
+          "segs": [
+            {
+              "t": 329.0,
+              "text": "Number nine."
+            },
+            {
+              "t": 330.0,
+              "text": "When is Janice supposed to be away at the conference?"
+            },
+            {
+              "t": 334.0,
+              "text": "A."
+            },
+            {
+              "t": 335.0,
+              "text": "That's the shortest route possible."
+            },
+            {
+              "t": 338.0,
+              "text": "B."
+            },
+            {
+              "t": 339.0,
+              "text": "Now, she's giving a presentation."
+            },
+            {
+              "t": 342.0,
+              "text": "C."
+            },
+            {
+              "t": 343.0,
+              "text": "Light August, I believe."
+            }
+          ],
+          "viText": "When is Janice supposed to be away at the conference?\n(A) That's the shortest route possible.\n(B) Now, she's giving a presentation.\n(C) Late August, I believe."
+        },
+        {
+          "n": 10,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "A nói anh ấy có vẻ tự xoay sở được, phù hợp câu hỏi có cần giúp thêm không.",
+          "uncertain": false,
+          "audio": {
+            "start": 350,
+            "end": 369
+          },
+          "spoken": {
+            "question": "Does he want any more help carrying those pots next door?",
+            "choices": {
+              "A": "It looks like he can manage it.",
+              "B": "Packing services are free.",
+              "C": "Some carrying cases."
+            }
+          },
+          "segs": [
+            {
+              "t": 350.0,
+              "text": "Number ten."
+            },
+            {
+              "t": 352.0,
+              "text": "Does he want any more help carrying those pots next door?"
+            },
+            {
+              "t": 356.0,
+              "text": "A."
+            },
+            {
+              "t": 357.0,
+              "text": "It looks like he can manage it."
+            },
+            {
+              "t": 359.0,
+              "text": "B."
+            },
+            {
+              "t": 360.0,
+              "text": "Packing services are free."
+            },
+            {
+              "t": 363.0,
+              "text": "C."
+            },
+            {
+              "t": 364.0,
+              "text": "Some carrying cases."
+            }
+          ],
+          "viText": "Does he want any more help carrying those pots next door?\n(A) It looks like he can manage it.\n(B) Packing services are free.\n(C) Some carrying cases."
+        },
+        {
+          "n": 11,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B đồng ý treo tranh và hỏi vị trí cần treo.",
+          "uncertain": false,
+          "audio": {
+            "start": 369,
+            "end": 390
+          },
+          "spoken": {
+            "question": "Would you mind hanging these paintings on the wall?",
+            "choices": {
+              "A": "In the wooden frames.",
+              "B": "Sure, show me where you want them.",
+              "C": "They're landscape painters."
+            }
+          },
+          "segs": [
+            {
+              "t": 369.0,
+              "text": "Number eleven."
+            },
+            {
+              "t": 372.0,
+              "text": "Would you mind hanging these paintings on the wall?"
+            },
+            {
+              "t": 375.0,
+              "text": "A."
+            },
+            {
+              "t": 376.0,
+              "text": "In the wooden frames."
+            },
+            {
+              "t": 378.0,
+              "text": "B."
+            },
+            {
+              "t": 379.0,
+              "text": "Sure, show me where you want them."
+            },
+            {
+              "t": 382.0,
+              "text": "C."
+            },
+            {
+              "t": 383.0,
+              "text": "They're landscape painters."
+            }
+          ],
+          "viText": "Would you mind hanging these paintings on the wall?\n(A) In the wooden frames.\n(B) Sure, show me where you want them.\n(C) They're landscape painters."
+        },
+        {
+          "n": 12,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "Câu hỏi hỏi người phụ trách; B nêu tên Mr. Jung.",
+          "uncertain": false,
+          "audio": {
+            "start": 390,
+            "end": 410
+          },
+          "spoken": {
+            "question": "Who is going to supervise our new night shift?",
+            "choices": {
+              "A": "By adding part-time staff.",
+              "B": "Mr. Jung, most likely.",
+              "C": "From four to midnight."
+            }
+          },
+          "segs": [
+            {
+              "t": 390.0,
+              "text": "Number twelve."
+            },
+            {
+              "t": 392.0,
+              "text": "Who is going to supervise our new night shift?"
+            },
+            {
+              "t": 395.0,
+              "text": "A."
+            },
+            {
+              "t": 396.0,
+              "text": "By adding part-time staff."
+            },
+            {
+              "t": 399.0,
+              "text": "B."
+            },
+            {
+              "t": 400.0,
+              "text": "Mr. Jung, most likely."
+            },
+            {
+              "t": 402.0,
+              "text": "C."
+            },
+            {
+              "t": 403.0,
+              "text": "From four to midnight."
+            }
+          ],
+          "viText": "Who is going to supervise our new night shift?\n(A) By adding part-time staff.\n(B) Mr. Jung, most likely.\n(C) From four to midnight."
+        },
+        {
+          "n": 13,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "Hết vé thì cần thông báo cho khách, nên A phù hợp nhất.",
+          "uncertain": false,
+          "audio": {
+            "start": 410,
+            "end": 426
+          },
+          "spoken": {
+            "question": "No tickets are left for tonight's performance.",
+            "choices": {
+              "A": "Have the ushers put up a notice?",
+              "B": "Two seats near the front.",
+              "C": "My friend really liked it."
+            }
+          },
+          "segs": [
+            {
+              "t": 410.0,
+              "text": "Number thirteen."
+            },
+            {
+              "t": 412.0,
+              "text": "No tickets are left for tonight's performance."
+            },
+            {
+              "t": 415.0,
+              "text": "A."
+            },
+            {
+              "t": 416.0,
+              "text": "Have the ushers put up a notice?"
+            },
+            {
+              "t": 419.0,
+              "text": "B."
+            },
+            {
+              "t": 420.0,
+              "text": "Two seats near the front."
+            },
+            {
+              "t": 422.0,
+              "text": "C."
+            },
+            {
+              "t": 423.0,
+              "text": "My friend really liked it."
+            }
+          ],
+          "viText": "No tickets are left for tonight's performance.\n(A) Have the ushers put up a notice?\n(B) Two seats near the front.\n(C) My friend really liked it."
+        },
+        {
+          "n": 14,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "A cho biết bàn số 5 sắp gọi món, phù hợp câu hỏi về món tráng miệng.",
+          "uncertain": false,
+          "audio": {
+            "start": 426,
+            "end": 444
+          },
+          "spoken": {
+            "question": "What does table five want for dessert?",
+            "choices": {
+              "A": "They're about to order now.",
+              "B": "No, thank you. I'm full.",
+              "C": "Another set of spoons."
+            }
+          },
+          "segs": [
+            {
+              "t": 426.0,
+              "text": "Number fourteen."
+            },
+            {
+              "t": 428.0,
+              "text": "What does table five want for dessert?"
+            },
+            {
+              "t": 431.0,
+              "text": "A."
+            },
+            {
+              "t": 432.0,
+              "text": "They're about to order now."
+            },
+            {
+              "t": 434.0,
+              "text": "B."
+            },
+            {
+              "t": 435.0,
+              "text": "No, thank you."
+            },
+            {
+              "t": 436.0,
+              "text": "I'm full."
+            },
+            {
+              "t": 437.0,
+              "text": "C."
+            },
+            {
+              "t": 438.0,
+              "text": "Another set of spoons."
+            }
+          ],
+          "viText": "What does table five want for dessert?\n(A) They're about to order now.\n(B) No, thank you. I'm full.\n(C) Another set of spoons."
+        },
+        {
+          "n": 15,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B trực tiếp trả lời đã trả sách rồi.",
+          "uncertain": false,
+          "audio": {
+            "start": 444,
+            "end": 462
+          },
+          "spoken": {
+            "question": "Did you return those poetry books?",
+            "choices": {
+              "A": "Traditional pottery.",
+              "B": "Yes, I dropped them off earlier.",
+              "C": "An informational booklet."
+            }
+          },
+          "segs": [
+            {
+              "t": 444.0,
+              "text": "Number fifteen."
+            },
+            {
+              "t": 446.0,
+              "text": "Did you return those poetry books?"
+            },
+            {
+              "t": 449.0,
+              "text": "A."
+            },
+            {
+              "t": 450.0,
+              "text": "Traditional pottery."
+            },
+            {
+              "t": 451.0,
+              "text": "C."
+            },
+            {
+              "t": 452.0,
+              "text": "Yes, I dropped them off earlier."
+            },
+            {
+              "t": 456.0,
+              "text": "C."
+            },
+            {
+              "t": 457.0,
+              "text": "An informational booklet."
+            }
+          ],
+          "viText": "Did you return those poetry books?\n(A) Traditional pottery.\n(B) Yes, I dropped them off earlier.\n(C) An informational booklet."
+        },
+        {
+          "n": 16,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "Người trả lời không biết vì năm ngoái chưa làm ở đây.",
+          "uncertain": false,
+          "audio": {
+            "start": 462,
+            "end": 488
+          },
+          "spoken": {
+            "question": "Last year's team-building event was wonderful, wasn't it?",
+            "choices": {
+              "A": "It's at the convention center.",
+              "B": "Our whole company.",
+              "C": "I wasn't working here then."
+            }
+          },
+          "segs": [
+            {
+              "t": 462.0,
+              "text": "Number sixteen."
+            },
+            {
+              "t": 464.0,
+              "text": "Last year's team-building event was wonderful, wasn't it?"
+            },
+            {
+              "t": 468.0,
+              "text": "A."
+            },
+            {
+              "t": 469.0,
+              "text": "It's at the convention center."
+            },
+            {
+              "t": 471.0,
+              "text": "B."
+            },
+            {
+              "t": 472.0,
+              "text": "Our whole company."
+            },
+            {
+              "t": 474.0,
+              "text": "C."
+            },
+            {
+              "t": 475.0,
+              "text": "I want to go to a hotel."
+            },
+            {
+              "t": 477.0,
+              "text": "C."
+            },
+            {
+              "t": 478.0,
+              "text": "Our whole company."
+            },
+            {
+              "t": 482.0,
+              "text": "C."
+            },
+            {
+              "t": 483.0,
+              "text": "I wasn't working here then."
+            }
+          ],
+          "viText": "Last year's team-building event was wonderful, wasn't it?\n(A) It's at the convention center.\n(B) Our whole company.\n(C) I wasn't working here then."
+        },
+        {
+          "n": 17,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "Câu hỏi hỏi vị trí; B trả lời ở tầng hai.",
+          "uncertain": false,
+          "audio": {
+            "start": 488,
+            "end": 507
+          },
+          "spoken": {
+            "question": "Where can I find the women's clothing section?",
+            "choices": {
+              "A": "Some formal suits.",
+              "B": "It's on the second floor.",
+              "C": "I'll look in the fitting rooms."
+            }
+          },
+          "segs": [
+            {
+              "t": 488.0,
+              "text": "Number seventeen."
+            },
+            {
+              "t": 490.0,
+              "text": "Where can I find the women's clothing section?"
+            },
+            {
+              "t": 494.0,
+              "text": "A."
+            },
+            {
+              "t": 495.0,
+              "text": "Some formal suits."
+            },
+            {
+              "t": 497.0,
+              "text": "B."
+            },
+            {
+              "t": 498.0,
+              "text": "It's on the second floor."
+            },
+            {
+              "t": 500.0,
+              "text": "C."
+            },
+            {
+              "t": 501.0,
+              "text": "I'll look in the fitting rooms."
+            }
+          ],
+          "viText": "Where can I find the women's clothing section?\n(A) Some formal suits.\n(B) It's on the second floor.\n(C) I'll look in the fitting rooms."
+        },
+        {
+          "n": 18,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B nêu lý do mua: vì chúng đang được giảm giá.",
+          "uncertain": false,
+          "audio": {
+            "start": 507,
+            "end": 527
+          },
+          "spoken": {
+            "question": "Why did we purchase all these new pieces of equipment?",
+            "choices": {
+              "A": "Try plugging it in.",
+              "B": "They were on sale.",
+              "C": "By next week at the latest."
+            }
+          },
+          "segs": [
+            {
+              "t": 507.0,
+              "text": "Number eighteen."
+            },
+            {
+              "t": 509.0,
+              "text": "Why did we purchase all these new pieces of equipment?"
+            },
+            {
+              "t": 513.0,
+              "text": "A."
+            },
+            {
+              "t": 514.0,
+              "text": "Try plugging it in."
+            },
+            {
+              "t": 516.0,
+              "text": "B."
+            },
+            {
+              "t": 517.0,
+              "text": "Buy our own style."
+            },
+            {
+              "t": 519.0,
+              "text": "C."
+            },
+            {
+              "t": 520.0,
+              "text": "Buy next week at the lightest."
+            }
+          ],
+          "viText": "Why did we purchase all these new pieces of equipment?\n(A) Try plugging it in.\n(B) They were on sale.\n(C) By next week at the latest."
+        },
+        {
+          "n": 19,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B phản hồi hợp lý khi chọn loại tour: còn tùy chi phí.",
+          "uncertain": false,
+          "audio": {
+            "start": 527,
+            "end": 550
+          },
+          "spoken": {
+            "question": "Are you interested in an individual tour or a customized group tour?",
+            "choices": {
+              "A": "The display seems quite visible.",
+              "B": "It depends on what the costs are.",
+              "C": "Yes, it was an interesting trip."
+            }
+          },
+          "segs": [
+            {
+              "t": 527.0,
+              "text": "Number nineteen."
+            },
+            {
+              "t": 529.0,
+              "text": "Are you interested in an individual tour or a customized group tour?"
+            },
+            {
+              "t": 534.0,
+              "text": "A."
+            },
+            {
+              "t": 535.0,
+              "text": "The display seems quite visible."
+            },
+            {
+              "t": 538.0,
+              "text": "B."
+            },
+            {
+              "t": 539.0,
+              "text": "It depends on what the costs are."
+            },
+            {
+              "t": 542.0,
+              "text": "C."
+            },
+            {
+              "t": 543.0,
+              "text": "Yes, it was an interesting trip."
+            }
+          ],
+          "viText": "Are you interested in an individual tour or a customized group tour?\n(A) The display seems quite visible.\n(B) It depends on what the costs are.\n(C) Yes, it was an interesting trip."
+        },
+        {
+          "n": 20,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "C nói chưa có thông báo chính thức, phù hợp câu hỏi xác nhận địa điểm.",
+          "uncertain": false,
+          "audio": {
+            "start": 550,
+            "end": 571
+          },
+          "spoken": {
+            "question": "Won't the company banquet be held at Acorn Steakhouse?",
+            "choices": {
+              "A": "It's an investment bank.",
+              "B": "I put both of the calls on hold.",
+              "C": "Nothing has been announced yet."
+            }
+          },
+          "segs": [
+            {
+              "t": 550.0,
+              "text": "Number twenty."
+            },
+            {
+              "t": 552.0,
+              "text": "Won't the company banquet be held at Acorn Steakhouse?"
+            },
+            {
+              "t": 556.0,
+              "text": "A."
+            },
+            {
+              "t": 557.0,
+              "text": "It's an investment bank."
+            },
+            {
+              "t": 559.0,
+              "text": "B."
+            },
+            {
+              "t": 560.0,
+              "text": "I put both of the calls on hold."
+            },
+            {
+              "t": 563.0,
+              "text": "C."
+            },
+            {
+              "t": 565.0,
+              "text": "Nothing has been announced yet."
+            }
+          ],
+          "viText": "Won't the company banquet be held at Acorn Steakhouse?\n(A) It's an investment bank.\n(B) I put both of the calls on hold.\n(C) Nothing has been announced yet."
+        },
+        {
+          "n": 21,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B trả lời mốc thời gian/lý do bắt đầu kế hoạch.",
+          "uncertain": false,
+          "audio": {
+            "start": 571,
+            "end": 593
+          },
+          "spoken": {
+            "question": "When did Zach make plans to replace the office's light fixtures?",
+            "choices": {
+              "A": "From the hardware store.",
+              "B": "As soon as our energy bills rose.",
+              "C": "The one in my office is bright enough."
+            }
+          },
+          "segs": [
+            {
+              "t": 571.0,
+              "text": "Number twenty-one."
+            },
+            {
+              "t": 573.0,
+              "text": "When did Zack make plans to replace the office's light fixtures?"
+            },
+            {
+              "t": 578.0,
+              "text": "A."
+            },
+            {
+              "t": 579.0,
+              "text": "From the hardware store."
+            },
+            {
+              "t": 581.0,
+              "text": "B."
+            },
+            {
+              "t": 582.0,
+              "text": "As soon as our energy bills rose."
+            },
+            {
+              "t": 585.0,
+              "text": "C."
+            },
+            {
+              "t": 586.0,
+              "text": "The one in my office is bright enough."
+            }
+          ],
+          "viText": "When did Zach make plans to replace the office's light fixtures?\n(A) From the hardware store.\n(B) As soon as our energy bills rose.\n(C) The one in my office is bright enough."
+        },
+        {
+          "n": 22,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B trả lời tần suất: khoảng hai tháng một lần.",
+          "uncertain": false,
+          "audio": {
+            "start": 593,
+            "end": 613
+          },
+          "spoken": {
+            "question": "How often does this shop refresh its inventory?",
+            "choices": {
+              "A": "Mine seemed rather old.",
+              "B": "About every two months.",
+              "C": "By pressing the screen key."
+            }
+          },
+          "segs": [
+            {
+              "t": 593.0,
+              "text": "Number twenty-two."
+            },
+            {
+              "t": 595.0,
+              "text": "How often does this shop refresh its inventory?"
+            },
+            {
+              "t": 599.0,
+              "text": "A."
+            },
+            {
+              "t": 600.0,
+              "text": "Mine seemed rather old."
+            },
+            {
+              "t": 602.0,
+              "text": "B."
+            },
+            {
+              "t": 603.0,
+              "text": "About every two months."
+            },
+            {
+              "t": 605.0,
+              "text": "C."
+            },
+            {
+              "t": 606.0,
+              "text": "By pressing the screen key."
+            }
+          ],
+          "viText": "How often does this shop refresh its inventory?\n(A) Mine seemed rather old.\n(B) About every two months.\n(C) By pressing the screen key."
+        },
+        {
+          "n": 23,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "A trả lời câu hỏi đuôi: tôi tin là anh ấy đã sửa rồi.",
+          "uncertain": false,
+          "audio": {
+            "start": 613,
+            "end": 633
+          },
+          "spoken": {
+            "question": "Diego hasn't repaired the printer yet, has he?",
+            "choices": {
+              "A": "I believe he has.",
+              "B": "The print edition.",
+              "C": "Oh, we only need two."
+            }
+          },
+          "segs": [
+            {
+              "t": 613.0,
+              "text": "Number twenty-three."
+            },
+            {
+              "t": 615.0,
+              "text": "Diego hasn't repaired the printer yet, has he?"
+            },
+            {
+              "t": 619.0,
+              "text": "A."
+            },
+            {
+              "t": 620.0,
+              "text": "I believe he has."
+            },
+            {
+              "t": 622.0,
+              "text": "B."
+            },
+            {
+              "t": 623.0,
+              "text": "The print edition."
+            },
+            {
+              "t": 625.0,
+              "text": "C."
+            },
+            {
+              "t": 626.0,
+              "text": "Oh, we only need two."
+            }
+          ],
+          "viText": "Diego hasn't repaired the printer yet, has he?\n(A) I believe he has.\n(B) The print edition.\n(C) Oh, we only need two."
+        },
+        {
+          "n": 24,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "Câu hỏi hỏi người; B mô tả người lãnh đạo mới.",
+          "uncertain": false,
+          "audio": {
+            "start": 633,
+            "end": 653
+          },
+          "spoken": {
+            "question": "Who's the new sales team leader?",
+            "choices": {
+              "A": "About four promising candidates.",
+              "B": "A former consultant, I heard.",
+              "C": "In the building's east wing."
+            }
+          },
+          "segs": [
+            {
+              "t": 633.0,
+              "text": "Number twenty-four."
+            },
+            {
+              "t": 635.0,
+              "text": "Who's the new sales team leader?"
+            },
+            {
+              "t": 638.0,
+              "text": "A."
+            },
+            {
+              "t": 639.0,
+              "text": "About four promising candidates."
+            },
+            {
+              "t": 641.0,
+              "text": "B."
+            },
+            {
+              "t": 642.0,
+              "text": "A former consultant I heard."
+            },
+            {
+              "t": 645.0,
+              "text": "C."
+            },
+            {
+              "t": 646.0,
+              "text": "In the building's east wing."
+            }
+          ],
+          "viText": "Who's the new sales team leader?\n(A) About four promising candidates.\n(B) A former consultant, I heard.\n(C) In the building's east wing."
+        },
+        {
+          "n": 25,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "Transcript câu hỏi nghe chưa thật khớp, nhưng B là lựa chọn duy nhất liên quan trực tiếp đến seminar/người tổ chức.",
+          "uncertain": true,
+          "audio": {
+            "start": 653,
+            "end": 673
+          },
+          "spoken": {
+            "question": "Where will the staff seminars be held?",
+            "choices": {
+              "A": "In less than two hours.",
+              "B": "By a local entrepreneur.",
+              "C": "We didn't know you were interested."
+            }
+          },
+          "segs": [
+            {
+              "t": 653.0,
+              "text": "Number twenty-five."
+            },
+            {
+              "t": 655.0,
+              "text": "Where will the staff seminars be held?"
+            },
+            {
+              "t": 658.0,
+              "text": "A."
+            },
+            {
+              "t": 659.0,
+              "text": "In less than two hours."
+            },
+            {
+              "t": 661.0,
+              "text": "B."
+            },
+            {
+              "t": 662.0,
+              "text": "By a local entrepreneur."
+            },
+            {
+              "t": 665.0,
+              "text": "C."
+            },
+            {
+              "t": 666.0,
+              "text": "We didn't know you were interested."
+            }
+          ],
+          "viText": "Where will the staff seminars be held?\n(A) In less than two hours.\n(B) By a local entrepreneur.\n(C) We didn't know you were interested."
+        },
+        {
+          "n": 26,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "A là câu trả lời tự nhiên khi nhân viên hỏi có cần hỗ trợ tìm gì không.",
+          "uncertain": false,
+          "audio": {
+            "start": 673,
+            "end": 692
+          },
+          "spoken": {
+            "question": "Can I assist you in finding anything today?",
+            "choices": {
+              "A": "I'm just looking around.",
+              "B": "It was a small fine.",
+              "C": "Sorry, we don't have any."
+            }
+          },
+          "segs": [
+            {
+              "t": 673.0,
+              "text": "Number twenty-six."
+            },
+            {
+              "t": 675.0,
+              "text": "Can I assist you in finding anything today?"
+            },
+            {
+              "t": 678.0,
+              "text": "A."
+            },
+            {
+              "t": 679.0,
+              "text": "I'm just looking around."
+            },
+            {
+              "t": 681.0,
+              "text": "B."
+            },
+            {
+              "t": 682.0,
+              "text": "It was a small fine."
+            },
+            {
+              "t": 684.0,
+              "text": "C."
+            },
+            {
+              "t": 685.0,
+              "text": "Sorry, we don't have any."
+            }
+          ],
+          "viText": "Can I assist you in finding anything today?\n(A) I'm just looking around.\n(B) It was a small fine.\n(C) Sorry, we don't have any."
+        },
+        {
+          "n": 27,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "C",
+          "explanation": "C giải thích chỗ đã đặt là cho Ms. Fuller, không phải người nói.",
+          "uncertain": false,
+          "audio": {
+            "start": 692,
+            "end": 712
+          },
+          "spoken": {
+            "question": "Didn't you already book a seat at this conference?",
+            "choices": {
+              "A": "A brand new phone book.",
+              "B": "Metal folding chairs.",
+              "C": "That was for Ms. Fuller."
+            }
+          },
+          "segs": [
+            {
+              "t": 692.0,
+              "text": "Number twenty-seven."
+            },
+            {
+              "t": 694.0,
+              "text": "Didn't you already book a seat at this conference?"
+            },
+            {
+              "t": 698.0,
+              "text": "A."
+            },
+            {
+              "t": 699.0,
+              "text": "A brand new phone book."
+            },
+            {
+              "t": 701.0,
+              "text": "B."
+            },
+            {
+              "t": 702.0,
+              "text": "Metal folding chairs."
+            },
+            {
+              "t": 704.0,
+              "text": "C."
+            },
+            {
+              "t": 705.0,
+              "text": "That was for Ms. Fuller."
+            }
+          ],
+          "viText": "Didn't you already book a seat at this conference?\n(A) A brand new phone book.\n(B) Metal folding chairs.\n(C) That was for Ms. Fuller."
+        },
+        {
+          "n": 28,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B đưa lý do sách ở phòng họp: Harold đang nghiên cứu.",
+          "uncertain": false,
+          "audio": {
+            "start": 712,
+            "end": 732
+          },
+          "spoken": {
+            "question": "Why are these books in the conference room?",
+            "choices": {
+              "A": "Thanks, I appreciate that.",
+              "B": "Harold was working on some research.",
+              "C": "At a stationery store down the street."
+            }
+          },
+          "segs": [
+            {
+              "t": 712.0,
+              "text": "Number twenty-eight."
+            },
+            {
+              "t": 714.0,
+              "text": "Why are these books in the conference room?"
+            },
+            {
+              "t": 716.0,
+              "text": "A."
+            },
+            {
+              "t": 717.0,
+              "text": "Thanks, I appreciate that."
+            },
+            {
+              "t": 720.0,
+              "text": "B."
+            },
+            {
+              "t": 721.0,
+              "text": "Harold was working on some research."
+            },
+            {
+              "t": 724.0,
+              "text": "C."
+            },
+            {
+              "t": 725.0,
+              "text": "At a stationery store down the street."
+            }
+          ],
+          "viText": "Why are these books in the conference room?\n(A) Thanks, I appreciate that.\n(B) Harold was working on some research.\n(C) At a stationery store down the street."
+        },
+        {
+          "n": 29,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B nhận phần bắt đầu/dẫn tour.",
+          "uncertain": false,
+          "audio": {
+            "start": 732,
+            "end": 752
+          },
+          "spoken": {
+            "question": "Do you want to lead the facility tour, or should I?",
+            "choices": {
+              "A": "Yes, I led him there.",
+              "B": "I'll start things off.",
+              "C": "That sounds good to me."
+            }
+          },
+          "segs": [
+            {
+              "t": 732.0,
+              "text": "Number twenty-nine."
+            },
+            {
+              "t": 734.0,
+              "text": "Do you want to lay to the facility tour, or should I?"
+            },
+            {
+              "t": 738.0,
+              "text": "A."
+            },
+            {
+              "t": 739.0,
+              "text": "Yes, I led him there."
+            },
+            {
+              "t": 741.0,
+              "text": "B."
+            },
+            {
+              "t": 742.0,
+              "text": "I'll start things off."
+            },
+            {
+              "t": 745.0,
+              "text": "C."
+            },
+            {
+              "t": 746.0,
+              "text": "That sounds good to me."
+            }
+          ],
+          "viText": "Do you want to lead the facility tour, or should I?\n(A) Yes, I led him there.\n(B) I'll start things off.\n(C) That sounds good to me."
+        },
+        {
+          "n": 30,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "A",
+          "explanation": "A nói cần suy nghĩ thêm, đúng với câu hỏi đã quyết định chưa.",
+          "uncertain": false,
+          "audio": {
+            "start": 752,
+            "end": 769
+          },
+          "spoken": {
+            "question": "Have you made a decision about the job transfer offer?",
+            "choices": {
+              "A": "I'd like to think about it some more.",
+              "B": "From the branch manager.",
+              "C": "Click here to send it."
+            }
+          },
+          "segs": [
+            {
+              "t": 752.0,
+              "text": "Number thirty."
+            },
+            {
+              "t": 754.0,
+              "text": "Have you made a decision about the job transfer offer?"
+            },
+            {
+              "t": 758.0,
+              "text": "A."
+            },
+            {
+              "t": 759.0,
+              "text": "I'd like to think about it some more."
+            },
+            {
+              "t": 762.0,
+              "text": "B."
+            },
+            {
+              "t": 763.0,
+              "text": "From the branch manager."
+            },
+            {
+              "t": 765.0,
+              "text": "C."
+            },
+            {
+              "t": 766.0,
+              "text": "Click here to send it."
+            }
+          ],
+          "viText": "Have you made a decision about the job transfer offer?\n(A) I'd like to think about it some more.\n(B) From the branch manager.\n(C) Click here to send it."
+        },
+        {
+          "n": 31,
+          "question": "",
+          "choices": {
+            "A": "",
+            "B": "",
+            "C": ""
+          },
+          "answer": "B",
+          "explanation": "B trả lời thời điểm được nghỉ: bất cứ lúc nào nhưng phải xin trước.",
+          "uncertain": false,
+          "audio": {
+            "start": 769,
+            "end": 800
+          },
+          "spoken": {
+            "question": "When do staff take their summer vacation?",
+            "choices": {
+              "A": "Among the human resources staff.",
+              "B": "Any time, but they have to ask in advance.",
+              "C": "How long is the summary you saw?"
+            }
+          },
+          "segs": [
+            {
+              "t": 769.0,
+              "text": "Number thirty-one."
+            },
+            {
+              "t": 772.0,
+              "text": "When do staff take their summer vacation?"
+            },
+            {
+              "t": 775.0,
+              "text": "A."
+            },
+            {
+              "t": 776.0,
+              "text": "Among the human resources staff."
+            },
+            {
+              "t": 779.0,
+              "text": "B."
+            },
+            {
+              "t": 780.0,
+              "text": "Any time, but they have to ask in advance."
+            },
+            {
+              "t": 783.0,
+              "text": "C."
+            },
+            {
+              "t": 784.0,
+              "text": "How long is the summary you saw?"
+            },
+            {
+              "t": 792.0,
+              "text": "Part three."
+            },
+            {
+              "t": 793.0,
+              "text": "Directions."
+            },
+            {
+              "t": 794.0,
+              "text": "You will hear some conversations."
+            },
+            {
+              "t": 796.0,
+              "text": "between two or more people."
+            },
+            {
+              "t": 799.0,
+              "text": "You will be asked to answer three questions about what the speakers say in each conversation."
+            }
+          ],
+          "viText": "When do staff take their summer vacation?\n(A) Among the human resources staff.\n(B) Any time, but they have to ask in advance.\n(C) How long is the summary you saw?"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "directions": "Nghe doan hoi thoai va tra loi 3 cau hoi. Hoi thoai chi nghe duoc 1 lan trong che do thi.",
+      "items": [
+        {
+          "questions": [
+            {
+              "n": 32,
+              "question": "What is the problem?",
+              "choices": {
+                "A": "A missing name",
+                "B": "An outdated logo",
+                "C": "A blurred image",
+                "D": "A dull color"
+              },
+              "answer": "A",
+              "explanation": "Tên công ty tài trợ bị bỏ sót trên áo thun, nên vấn đề là thiếu tên.",
+              "uncertain": false
+            },
+            {
+              "n": 33,
+              "question": "Why is the man concerned?",
+              "choices": {
+                "A": "An event may be postponed.",
+                "B": "A type of shirt may not sell well.",
+                "C": "A sponsor may be displeased.",
+                "D": "An event budget may be exceeded."
+              },
+              "answer": "C",
+              "explanation": "Công ty đó là nhà tài trợ lớn nên anh ấy lo họ sẽ không hài lòng.",
+              "uncertain": false
+            },
+            {
+              "n": 34,
+              "question": "What does the woman offer to do?",
+              "choices": {
+                "A": "Waive a production charge",
+                "B": "Dispose of some items",
+                "C": "Expedite a delivery",
+                "D": "Conceal some defects"
+              },
+              "answer": "A",
+              "explanation": "Cô ấy đề nghị làm lô áo thay thế miễn phí, tức không tính phí sản xuất.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 824,
+            "end": 900
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q32.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions thirty-two through thirty-four refer to the following conversation. Hi. This is Dana from Orwig Printing. I was told that you called about a company name being left off of some t-shirts we printed for your upcoming fundraiser. I'm terribly sorry about that. How can we make it up to you? Well, that company is one of the major sponsors of our fundraiser, and I'm concerned that this mistake could damage our good relationship with them. Could you print up new shirts without the defect? Yes. We'd be happy to provide a replacement batch for free. We'll begin right away so that you can pick it up by Friday. Number thirty-two. What is the problem? Number thirty-three. Why is the man concerned? Number thirty-four. What does the woman offer to do?",
+          "segs": [
+            {
+              "t": 824.0,
+              "text": "Questions thirty-two through thirty-four refer to the following conversation."
+            },
+            {
+              "t": 829.0,
+              "text": "Hi."
+            },
+            {
+              "t": 830.0,
+              "text": "This is Dana from Orwig Printing."
+            },
+            {
+              "t": 833.0,
+              "text": "I was told that you called about a company name being left off of some t-shirts we printed for your upcoming fundraiser."
+            },
+            {
+              "t": 841.0,
+              "text": "I'm terribly sorry about that."
+            },
+            {
+              "t": 843.0,
+              "text": "How can we make it up to you?"
+            },
+            {
+              "t": 845.0,
+              "text": "Well, that company is one of the major sponsors of our fundraiser,"
+            },
+            {
+              "t": 849.0,
+              "text": "and I'm concerned that this mistake could damage our good relationship with them."
+            },
+            {
+              "t": 853.0,
+              "text": "Could you print up new shirts without the defect?"
+            },
+            {
+              "t": 856.0,
+              "text": "Yes."
+            },
+            {
+              "t": 857.0,
+              "text": "We'd be happy to provide a replacement batch for free."
+            },
+            {
+              "t": 860.0,
+              "text": "We'll begin right away so that you can pick it up by Friday."
+            },
+            {
+              "t": 865.0,
+              "text": "Number thirty-two."
+            },
+            {
+              "t": 867.0,
+              "text": "What is the problem?"
+            },
+            {
+              "t": 876.0,
+              "text": "Number thirty-three."
+            },
+            {
+              "t": 878.0,
+              "text": "Why is the man concerned?"
+            },
+            {
+              "t": 883.0,
+              "text": "Number thirty-four."
+            },
+            {
+              "t": 890.0,
+              "text": "What does the woman offer to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 35,
+              "question": "Where most likely are the speakers?",
+              "choices": {
+                "A": "In a job placement agency",
+                "B": "In an electronics store",
+                "C": "In a bank",
+                "D": "In a dental clinic"
+              },
+              "answer": "B",
+              "explanation": "Người nam nói về chương trình đổi thiết bị điện tử cũ lấy thẻ quà tặng, nên bối cảnh là cửa hàng điện tử.",
+              "uncertain": false
+            },
+            {
+              "n": 36,
+              "question": "According to the man, what is a problem?",
+              "choices": {
+                "A": "A Web site is not operating.",
+                "B": "A promotional offer has ended.",
+                "C": "A mobile phone has no power.",
+                "D": "A meeting room is unavailable."
+              },
+              "answer": "A",
+              "explanation": "Anh ấy nói website đang bảo trì/down nên không tra được giá trị thiết bị.",
+              "uncertain": false
+            },
+            {
+              "n": 37,
+              "question": "What does the man say he will do?",
+              "choices": {
+                "A": "Lower a price",
+                "B": "Supply an additional form",
+                "C": "Find a manager",
+                "D": "Reschedule an appointment"
+              },
+              "answer": "C",
+              "explanation": "Anh ấy nói sẽ tìm Jeff, quản lý sàn, để giúp khách.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 900,
+            "end": 976
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q35.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions thirty-five through thirty-seven refer to the following conversation. Hi. I heard your store started a used item exchange deal for all the electronic items you sell here. Can you tell me how that works? Sure. You simply bring in your older device in good condition, and we'll give you a gift card to use toward purchasing a newer device. Oh. How much could I get for this DX7 mobile phone? The DX7's current value is listed on our website, but the site is down for maintenance at the moment, so let me find Jeff, our floor manager, to help you. I'd appreciate that. Number thirty-five. Where most likely are the speakers? Number thirty-six. According to the man, what is the problem? Number thirty-seven. What does the man say he will do?",
+          "segs": [
+            {
+              "t": 900.0,
+              "text": "Questions thirty-five through thirty-seven refer to the following conversation."
+            },
+            {
+              "t": 905.0,
+              "text": "Hi."
+            },
+            {
+              "t": 906.0,
+              "text": "I heard your store started a used item exchange deal for all the electronic items you sell here."
+            },
+            {
+              "t": 912.0,
+              "text": "Can you tell me how that works?"
+            },
+            {
+              "t": 914.0,
+              "text": "Sure."
+            },
+            {
+              "t": 915.0,
+              "text": "You simply bring in your older device in good condition,"
+            },
+            {
+              "t": 918.0,
+              "text": "and we'll give you a gift card to use toward purchasing a newer device."
+            },
+            {
+              "t": 922.0,
+              "text": "Oh."
+            },
+            {
+              "t": 923.0,
+              "text": "How much could I get for this DX7 mobile phone?"
+            },
+            {
+              "t": 927.0,
+              "text": "The DX7's current value is listed on our website,"
+            },
+            {
+              "t": 930.0,
+              "text": "but the site is down for maintenance at the moment,"
+            },
+            {
+              "t": 933.0,
+              "text": "so let me find Jeff, our floor manager, to help you."
+            },
+            {
+              "t": 937.0,
+              "text": "I'd appreciate that."
+            },
+            {
+              "t": 940.0,
+              "text": "Number thirty-five."
+            },
+            {
+              "t": 942.0,
+              "text": "Where most likely are the speakers?"
+            },
+            {
+              "t": 952.0,
+              "text": "Number thirty-six."
+            },
+            {
+              "t": 954.0,
+              "text": "According to the man, what is the problem?"
+            },
+            {
+              "t": 964.0,
+              "text": "Number thirty-seven."
+            },
+            {
+              "t": 966.0,
+              "text": "What does the man say he will do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 38,
+              "question": "Where most likely does the woman work?",
+              "choices": {
+                "A": "At an insurance provider",
+                "B": "At a marketing company",
+                "C": "At a paper manufacturer",
+                "D": "At a customer service call center"
+              },
+              "answer": "A",
+              "explanation": "Người nữ nói công ty bảo hiểm của mình cần phần mềm cho nhân viên làm từ xa.",
+              "uncertain": false
+            },
+            {
+              "n": 39,
+              "question": "What does the man say about BaxterShare?",
+              "choices": {
+                "A": "It is difficult to use.",
+                "B": "It has limited features.",
+                "C": "It is available in a trial version.",
+                "D": "It offers strong security."
+              },
+              "answer": "D",
+              "explanation": "Anh ấy nói BaxterShare bảo vệ dữ liệu khỏi truy cập trái phép, tức bảo mật mạnh.",
+              "uncertain": false
+            },
+            {
+              "n": 40,
+              "question": "What does the woman agree to do?",
+              "choices": {
+                "A": "Copy some important files",
+                "B": "Download some software",
+                "C": "View a demonstration",
+                "D": "Buy a notebook computer"
+              },
+              "answer": "C",
+              "explanation": "Cô ấy đồng ý xem người nam trình diễn phần mềm trên máy tính xách tay.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 976,
+            "end": 1059
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q38.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions thirty-eight through forty refer to the following conversation. Thank you for coming in. As I mentioned on the phone, our insurance company is looking for software that will allow employees to work from home. Okay. So, your employees will need to open and edit company files remotely, right? Are there any other features you need? Not really, but since some of the files will contain sensitive information, the software should be extremely secure. Let me see. BaxterShare fully protects data from unauthorised access. It's probably your best choice. Okay. Tell me more. Well, if you'd like, I could show you how it works using the copy on my notebook. That would be great. Number thirty-eight. Where most likely does the woman work? Number thirty-nine. What does the man say about BaxterShare? Number forty. What does the woman agree to do? Number forty-five.",
+          "segs": [
+            {
+              "t": 976.0,
+              "text": "Questions thirty-eight through forty refer to the following conversation."
+            },
+            {
+              "t": 980.0,
+              "text": "Thank you for coming in."
+            },
+            {
+              "t": 982.0,
+              "text": "As I mentioned on the phone,"
+            },
+            {
+              "t": 984.0,
+              "text": "our insurance company is looking for software that will allow employees to work from home."
+            },
+            {
+              "t": 989.0,
+              "text": "Okay."
+            },
+            {
+              "t": 990.0,
+              "text": "So, your employees will need to open and edit company files remotely, right?"
+            },
+            {
+              "t": 995.0,
+              "text": "Are there any other features you need?"
+            },
+            {
+              "t": 998.0,
+              "text": "Not really, but since some of the files will contain sensitive information,"
+            },
+            {
+              "t": 1002.0,
+              "text": "the software should be extremely secure."
+            },
+            {
+              "t": 1005.0,
+              "text": "Let me see."
+            },
+            {
+              "t": 1006.0,
+              "text": "BaxterShare fully protects data from unauthorised access."
+            },
+            {
+              "t": 1010.0,
+              "text": "It's probably your best choice."
+            },
+            {
+              "t": 1012.0,
+              "text": "Okay."
+            },
+            {
+              "t": 1013.0,
+              "text": "Tell me more."
+            },
+            {
+              "t": 1014.0,
+              "text": "Well, if you'd like, I could show you how it works using the copy on my notebook."
+            },
+            {
+              "t": 1019.0,
+              "text": "That would be great."
+            },
+            {
+              "t": 1022.0,
+              "text": "Number thirty-eight."
+            },
+            {
+              "t": 1024.0,
+              "text": "Where most likely does the woman work?"
+            },
+            {
+              "t": 1035.0,
+              "text": "Number thirty-nine."
+            },
+            {
+              "t": 1037.0,
+              "text": "What does the man say about BaxterShare?"
+            },
+            {
+              "t": 1047.0,
+              "text": "Number forty."
+            },
+            {
+              "t": 1049.0,
+              "text": "What does the woman agree to do?"
+            },
+            {
+              "t": 1054.0,
+              "text": "Number forty-five."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 41,
+              "question": "What does the woman say will happen next month?",
+              "choices": {
+                "A": "Special shipments will arrive.",
+                "B": "A city festival will take place.",
+                "C": "A new location will open.",
+                "D": "Temporary employees will be hired."
+              },
+              "answer": "C",
+              "explanation": "Cửa hàng cà phê thứ hai sẽ mở vào giữa tháng 7, tức tháng tới sẽ có địa điểm mới.",
+              "uncertain": false
+            },
+            {
+              "n": 42,
+              "question": "What does the man offer to do?",
+              "choices": {
+                "A": "Clean a sidewalk area",
+                "B": "Print some flyers",
+                "C": "Move a display case",
+                "D": "Take some photographs"
+              },
+              "answer": "D",
+              "explanation": "Anh ấy đề nghị ra Third Street chụp ảnh mặt tiền cửa hàng.",
+              "uncertain": false
+            },
+            {
+              "n": 43,
+              "question": "What does the woman say she will research?",
+              "choices": {
+                "A": "The layout of a store showroom",
+                "B": "The best place to buy some kitchen equipment",
+                "C": "The wholesale price of a coffee drink",
+                "D": "The costs for some online advertisements"
+              },
+              "answer": "D",
+              "explanation": "Cô ấy sẽ tìm chi phí chạy quảng cáo chữ trên các website về cà phê.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1059,
+            "end": 1151
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q41.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions forty-one through forty-three refer to the following conversation. Well, Andy, it's hard to believe, but our coffee shop's second store is set to open in mid-July. That's only one month away. Yes, it's quite soon. But I think our preparations are going well, don't you? Actually, I think we could be doing more to promote the opening. Hmm. If you'd like, I could head out to Third Street and take some pictures of the storefront. Then we can post them on social media to build excitement in the community. Good idea. Oh, and I'll visit some websites that target specialty coffee enthusiasts to find out how much it would cost to run text advertisements on them. We may have enough of a budget to do that. Number forty-one. What does the woman say will happen next month? Number forty-two. What does the man offer to do? Number forty-three. What does the woman say she will research? Number forty-three. What does the woman say she will research?",
+          "segs": [
+            {
+              "t": 1059.0,
+              "text": "Questions forty-one through forty-three refer to the following conversation."
+            },
+            {
+              "t": 1064.0,
+              "text": "Well, Andy, it's hard to believe, but our coffee shop's second store is set to open in mid-July."
+            },
+            {
+              "t": 1072.0,
+              "text": "That's only one month away."
+            },
+            {
+              "t": 1074.0,
+              "text": "Yes, it's quite soon."
+            },
+            {
+              "t": 1076.0,
+              "text": "But I think our preparations are going well, don't you?"
+            },
+            {
+              "t": 1079.0,
+              "text": "Actually, I think we could be doing more to promote the opening."
+            },
+            {
+              "t": 1083.0,
+              "text": "Hmm."
+            },
+            {
+              "t": 1084.0,
+              "text": "If you'd like, I could head out to Third Street and take some pictures of the storefront."
+            },
+            {
+              "t": 1088.0,
+              "text": "Then we can post them on social media to build excitement in the community."
+            },
+            {
+              "t": 1093.0,
+              "text": "Good idea."
+            },
+            {
+              "t": 1094.0,
+              "text": "Oh, and I'll visit some websites that target specialty coffee enthusiasts"
+            },
+            {
+              "t": 1099.0,
+              "text": "to find out how much it would cost to run text advertisements on them."
+            },
+            {
+              "t": 1103.0,
+              "text": "We may have enough of a budget to do that."
+            },
+            {
+              "t": 1107.0,
+              "text": "Number forty-one."
+            },
+            {
+              "t": 1109.0,
+              "text": "What does the woman say will happen next month?"
+            },
+            {
+              "t": 1114.0,
+              "text": "Number forty-two."
+            },
+            {
+              "t": 1116.0,
+              "text": "What does the man offer to do?"
+            },
+            {
+              "t": 1122.0,
+              "text": "Number forty-three."
+            },
+            {
+              "t": 1125.0,
+              "text": "What does the woman say she will research?"
+            },
+            {
+              "t": 1131.0,
+              "text": "Number forty-three."
+            },
+            {
+              "t": 1133.0,
+              "text": "What does the woman say she will research?"
+            },
+            {
+              "t": 1144.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 44,
+              "question": "Why has the man come to the train station?",
+              "choices": {
+                "A": "To reserve a ticket",
+                "B": "To work in a shop",
+                "C": "To pick up a client",
+                "D": "To leave on a train"
+              },
+              "answer": "C",
+              "explanation": "Anh ấy đến ga để đón một khách hàng đi tàu đến.",
+              "uncertain": false
+            },
+            {
+              "n": 45,
+              "question": "What does the woman offer to help the man do?",
+              "choices": {
+                "A": "Carry some luggage",
+                "B": "Understand a wall display",
+                "C": "Locate a meeting site",
+                "D": "Obtain an access card"
+              },
+              "answer": "C",
+              "explanation": "Cô ấy đề nghị chỉ đường tới nơi anh ấy định gặp khách.",
+              "uncertain": false
+            },
+            {
+              "n": 46,
+              "question": "What is the man told to do?",
+              "choices": {
+                "A": "Make a change to a plan",
+                "B": "Wait for an attendant",
+                "C": "Save some printed receipts",
+                "D": "Double-check some instructions"
+              },
+              "answer": "A",
+              "explanation": "Cửa hàng Jorgens đã đóng nên anh ấy phải chọn địa điểm gặp khác.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1151,
+            "end": 1227
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q44.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions forty-four through forty-six refer to the following conversation. Thank you for visiting the information desk here at Patton train station. How can I help you? Well, a client of mine is coming in on the train and I'm supposed to pick him up. He'll be here any minute, but I can't find the place we're supposed to meet. Okay, just tell me the name of the place and I'll direct you there. Thanks. It's the Jorgens store. I was told it would be hard to miss, but I don't see it. Oh, that store closed down last month. I'm afraid you'll have to choose a different place to meet. The west exit has a nice waiting area. Number forty-four. Why has the man come to the train station? Number forty-five. What does the woman offer to help the man do? Number forty-six. What is the man told to do?",
+          "segs": [
+            {
+              "t": 1151.0,
+              "text": "Questions forty-four through forty-six refer to the following conversation."
+            },
+            {
+              "t": 1156.0,
+              "text": "Thank you for visiting the information desk here at Patton train station."
+            },
+            {
+              "t": 1160.0,
+              "text": "How can I help you?"
+            },
+            {
+              "t": 1162.0,
+              "text": "Well, a client of mine is coming in on the train and I'm supposed to pick him up."
+            },
+            {
+              "t": 1166.0,
+              "text": "He'll be here any minute, but I can't find the place we're supposed to meet."
+            },
+            {
+              "t": 1170.0,
+              "text": "Okay, just tell me the name of the place and I'll direct you there."
+            },
+            {
+              "t": 1174.0,
+              "text": "Thanks."
+            },
+            {
+              "t": 1175.0,
+              "text": "It's the Jorgens store."
+            },
+            {
+              "t": 1177.0,
+              "text": "I was told it would be hard to miss, but I don't see it."
+            },
+            {
+              "t": 1180.0,
+              "text": "Oh, that store closed down last month."
+            },
+            {
+              "t": 1183.0,
+              "text": "I'm afraid you'll have to choose a different place to meet."
+            },
+            {
+              "t": 1186.0,
+              "text": "The west exit has a nice waiting area."
+            },
+            {
+              "t": 1190.0,
+              "text": "Number forty-four."
+            },
+            {
+              "t": 1192.0,
+              "text": "Why has the man come to the train station?"
+            },
+            {
+              "t": 1203.0,
+              "text": "Number forty-five."
+            },
+            {
+              "t": 1205.0,
+              "text": "What does the woman offer to help the man do?"
+            },
+            {
+              "t": 1215.0,
+              "text": "Number forty-six."
+            },
+            {
+              "t": 1217.0,
+              "text": "What is the man told to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 47,
+              "question": "Who most likely is the woman?",
+              "choices": {
+                "A": "A safety inspector",
+                "B": "A new employee",
+                "C": "A board member",
+                "D": "A potential vendor"
+              },
+              "answer": "B",
+              "explanation": "Cô ấy vừa tham gia buổi định hướng để làm người vận hành máy may, nên là nhân viên mới.",
+              "uncertain": false
+            },
+            {
+              "n": 48,
+              "question": "What does the woman ask about?",
+              "choices": {
+                "A": "The need for some repair instruments",
+                "B": "The speed of some machines",
+                "C": "The placement of a workstation",
+                "D": "The difficulty of hiring technicians"
+              },
+              "answer": "A",
+              "explanation": "Cô ấy hỏi có cần tự mang dụng cụ để sửa máy nhỏ không.",
+              "uncertain": false
+            },
+            {
+              "n": 49,
+              "question": "What will the woman most likely do next?",
+              "choices": {
+                "A": "Put on a uniform",
+                "B": "Monitor some procedures",
+                "C": "Gather some supervisors",
+                "D": "Make a reminder note"
+              },
+              "answer": "D",
+              "explanation": "Cô ấy nói sẽ ghi lại để tối nhớ chuẩn bị các dụng cụ cần thiết.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1227,
+            "end": 1303
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q47.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions forty-seven through forty-nine refer to the following conversation. Okay, that's it. I hope this orientation session has taught you everything you'll need to know about being a sewing machine operator in this factory. Yes, it was very helpful. Uh, but you mentioned that I'll be expected to perform minor repairs on the machine myself. Do I need to bring in my own tools for that? It's not a bad idea. We have all of the required items, but sometimes other operators might be using them. I see. Let me write that down so that tonight I'll remember to collect everything I might want. Number forty-seven. Who most likely is the woman? Number forty-eight. What does the woman ask about? Number forty-nine. What will the woman most likely do next?",
+          "segs": [
+            {
+              "t": 1227.0,
+              "text": "Questions forty-seven through forty-nine refer to the following conversation."
+            },
+            {
+              "t": 1232.0,
+              "text": "Okay, that's it."
+            },
+            {
+              "t": 1234.0,
+              "text": "I hope this orientation session has taught you everything you'll need to know about being a sewing machine operator in this factory."
+            },
+            {
+              "t": 1241.0,
+              "text": "Yes, it was very helpful."
+            },
+            {
+              "t": 1243.0,
+              "text": "Uh, but you mentioned that I'll be expected to perform minor repairs on the machine myself. Do I need to bring in my own tools for that?"
+            },
+            {
+              "t": 1252.0,
+              "text": "It's not a bad idea."
+            },
+            {
+              "t": 1254.0,
+              "text": "We have all of the required items, but sometimes other operators might be using them."
+            },
+            {
+              "t": 1259.0,
+              "text": "I see."
+            },
+            {
+              "t": 1260.0,
+              "text": "Let me write that down so that tonight I'll remember to collect everything I might want."
+            },
+            {
+              "t": 1267.0,
+              "text": "Number forty-seven."
+            },
+            {
+              "t": 1269.0,
+              "text": "Who most likely is the woman?"
+            },
+            {
+              "t": 1279.0,
+              "text": "Number forty-eight."
+            },
+            {
+              "t": 1281.0,
+              "text": "What does the woman ask about?"
+            },
+            {
+              "t": 1290.0,
+              "text": "Number forty-nine."
+            },
+            {
+              "t": 1292.0,
+              "text": "What will the woman most likely do next?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 50,
+              "question": "Who most likely are the speakers?",
+              "choices": {
+                "A": "Financial consultants",
+                "B": "School teachers",
+                "C": "Travel photographers",
+                "D": "Research scientists"
+              },
+              "answer": "B",
+              "explanation": "Họ nói về workshop dạy học và dự án lớp học, nên nhiều khả năng là giáo viên.",
+              "uncertain": false
+            },
+            {
+              "n": 51,
+              "question": "What does the woman say about a workshop?",
+              "choices": {
+                "A": "It was full.",
+                "B": "It began late.",
+                "C": "It was recorded.",
+                "D": "It involved role-playing."
+              },
+              "answer": "A",
+              "explanation": "Cô ấy nói mọi ghế đều đã có người, nghĩa là workshop đã kín chỗ.",
+              "uncertain": false
+            },
+            {
+              "n": 52,
+              "question": "Why does the woman say, \"He’s wearing a green shirt\"?",
+              "choices": {
+                "A": "To complain about a person's appearance",
+                "B": "To clarify why some lighting is unsuitable",
+                "C": "To help the man identify a person",
+                "D": "To indicate what the man should wear"
+              },
+              "answer": "C",
+              "explanation": "Cô ấy mô tả áo xanh để người nam nhận ra diễn giả.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1303,
+            "end": 1384
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q50.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions fifty through fifty-two refer to the following conversation. Carl, it's good to see you again. Have you been enjoying the conference? Hi, Mijung. Yes, I've picked up some good tips on how to make science enjoyable for my students. Me too. And I just attended a great workshop on getting funding for classroom projects. Oh, I wanted to go to that workshop, but I registered too late. Yeah, every available seat was taken. I can understand why. The speaker was excellent. I'd heard that. I'd love to meet him. Well, here's your chance. That's him next to the banquet table. Do you see him? He's wearing a green shirt. Ah, okay. Thanks. Number fifty. Who most likely are the speakers? Number fifty-one. What does the woman say about a workshop? Number fifty-two. Why does the woman say? He's wearing a green shirt.",
+          "segs": [
+            {
+              "t": 1303.0,
+              "text": "Questions fifty through fifty-two refer to the following conversation."
+            },
+            {
+              "t": 1307.0,
+              "text": "Carl, it's good to see you again. Have you been enjoying the conference?"
+            },
+            {
+              "t": 1312.0,
+              "text": "Hi, Mijung. Yes, I've picked up some good tips on how to make science enjoyable for my students."
+            },
+            {
+              "t": 1318.0,
+              "text": "Me too. And I just attended a great workshop on getting funding for classroom projects."
+            },
+            {
+              "t": 1324.0,
+              "text": "Oh, I wanted to go to that workshop, but I registered too late."
+            },
+            {
+              "t": 1328.0,
+              "text": "Yeah, every available seat was taken. I can understand why. The speaker was excellent."
+            },
+            {
+              "t": 1334.0,
+              "text": "I'd heard that. I'd love to meet him."
+            },
+            {
+              "t": 1336.0,
+              "text": "Well, here's your chance. That's him next to the banquet table. Do you see him? He's wearing a green shirt."
+            },
+            {
+              "t": 1343.0,
+              "text": "Ah, okay. Thanks."
+            },
+            {
+              "t": 1347.0,
+              "text": "Number fifty."
+            },
+            {
+              "t": 1349.0,
+              "text": "Who most likely are the speakers?"
+            },
+            {
+              "t": 1359.0,
+              "text": "Number fifty-one."
+            },
+            {
+              "t": 1361.0,
+              "text": "What does the woman say about a workshop?"
+            },
+            {
+              "t": 1371.0,
+              "text": "Number fifty-two."
+            },
+            {
+              "t": 1373.0,
+              "text": "Why does the woman say?"
+            },
+            {
+              "t": 1375.0,
+              "text": "He's wearing a green shirt."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 53,
+              "question": "What does the woman want to do?",
+              "choices": {
+                "A": "Attend an upcoming event",
+                "B": "Apply for a position",
+                "C": "Place a special order",
+                "D": "Promote her work"
+              },
+              "answer": "A",
+              "explanation": "Cô ấy thấy thông báo đọc sách của tác giả địa phương và muốn tham dự một buổi.",
+              "uncertain": false
+            },
+            {
+              "n": 54,
+              "question": "What does the man warn the woman about?",
+              "choices": {
+                "A": "An extra fee",
+                "B": "A new restriction",
+                "C": "A possible delay",
+                "D": "A dissatisfied customer"
+              },
+              "answer": "B",
+              "explanation": "Anh ấy nhắc quy định mới là khách không được mang đồ ăn nhẹ vào.",
+              "uncertain": false
+            },
+            {
+              "n": 55,
+              "question": "What does the man encourage the woman to do?",
+              "choices": {
+                "A": "Enter a writing contest",
+                "B": "Register for an e-mail update program",
+                "C": "Participate in a local trade show",
+                "D": "Visit another store location"
+              },
+              "answer": "B",
+              "explanation": "Anh ấy khuyến khích cô đăng ký chương trình bản tin email để nhận cập nhật.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1384,
+            "end": 1461
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q53.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions fifty-three through fifty-five refer to the following conversation. Hi. I saw the sign on your bookstore's window about book readings by local authors. I'd like to go to one. Could you tell me about them? Sure. This flyer here lists our upcoming readings. They're free to attend. Just one thing that's not on the flyer. We no longer allow customers to bring in any snacks. Oh, okay. Do they require advance registration? No. You can just show up, but I'd encourage you to visit our website to sign up for our email newsletter program for updates on sales and other events. Number fifty-three. What does the woman want to do? Number fifty-four. What does the man warn the woman about? Number fifty-five. What does the man encourage the woman to do?",
+          "segs": [
+            {
+              "t": 1384.0,
+              "text": "Questions fifty-three through fifty-five refer to the following conversation."
+            },
+            {
+              "t": 1389.0,
+              "text": "Hi. I saw the sign on your bookstore's window about book readings by local authors."
+            },
+            {
+              "t": 1395.0,
+              "text": "I'd like to go to one. Could you tell me about them?"
+            },
+            {
+              "t": 1398.0,
+              "text": "Sure. This flyer here lists our upcoming readings. They're free to attend. Just one thing that's not on the flyer."
+            },
+            {
+              "t": 1406.0,
+              "text": "We no longer allow customers to bring in any snacks."
+            },
+            {
+              "t": 1409.0,
+              "text": "Oh, okay. Do they require advance registration?"
+            },
+            {
+              "t": 1413.0,
+              "text": "No. You can just show up, but I'd encourage you to visit our website to sign up for our email newsletter program for updates on sales and other events."
+            },
+            {
+              "t": 1424.0,
+              "text": "Number fifty-three."
+            },
+            {
+              "t": 1426.0,
+              "text": "What does the woman want to do?"
+            },
+            {
+              "t": 1436.0,
+              "text": "Number fifty-four."
+            },
+            {
+              "t": 1438.0,
+              "text": "What does the man warn the woman about?"
+            },
+            {
+              "t": 1449.0,
+              "text": "Number fifty-five."
+            },
+            {
+              "t": 1451.0,
+              "text": "What does the man encourage the woman to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 56,
+              "question": "What does the woman ask the man to do?",
+              "choices": {
+                "A": "Start preparing a presentation",
+                "B": "Proofread a section of an article",
+                "C": "Explain a feature of a software program",
+                "D": "Purchase some office supplies online"
+              },
+              "answer": "C",
+              "explanation": "Cô ấy hỏi người nam có thể hướng dẫn tính năng data merge của phần mềm không.",
+              "uncertain": false
+            },
+            {
+              "n": 57,
+              "question": "What did the man do yesterday?",
+              "choices": {
+                "A": "Paid a utility bill",
+                "B": "Toured a warehouse",
+                "C": "Met a technician",
+                "D": "Reviewed a manual"
+              },
+              "answer": "D",
+              "explanation": "Anh ấy nói hôm qua đã xem các mẹo xử lý sự cố trong sách hướng dẫn người dùng.",
+              "uncertain": false
+            },
+            {
+              "n": 58,
+              "question": "What does the man mean when he says \"I was on my way to a meeting\"?",
+              "choices": {
+                "A": "He traveled to a site separately from others.",
+                "B": "He was not in the area when a problem occurred.",
+                "C": "He will not be able to make a phone call immediately.",
+                "D": "He can make an announcement to a group of staff."
+              },
+              "answer": "C",
+              "explanation": "Anh ấy nói đang trên đường đi họp để giải thích rằng chưa thể gọi hỗ trợ kỹ thuật ngay.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1461,
+            "end": 1547
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q56.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions fifty-six through fifty-eight refer to the following conversation. Mike, I need to edit some figures with the new database software, but I still don't know how to use the data merge feature. Could you give me a tutorial on that before I start? I wanted to talk to you about that program. It's been running slowly, and it's making calculation errors. I looked through all the troubleshooting tips in the user's manual yesterday. Nothing helped. Oh, I see. Well, I guess we'll have to call technical support. Could you do it, since you know the program best? Well, I was on my way to a meeting. Okay. You can just try to get it worked out by the end of the day. Number fifty-six. What does the woman ask the man to do? Number fifty-seven. What did the man do yesterday? Number fifty-eight. What does the man mean when he says, \"I was on my way to a meeting\"?",
+          "segs": [
+            {
+              "t": 1461.0,
+              "text": "Questions fifty-six through fifty-eight refer to the following conversation."
+            },
+            {
+              "t": 1466.0,
+              "text": "Mike, I need to edit some figures with the new database software, but I still don't know how to use the data merge feature. Could you give me a tutorial on that before I start?"
+            },
+            {
+              "t": 1479.0,
+              "text": "I wanted to talk to you about that program. It's been running slowly, and it's making calculation errors."
+            },
+            {
+              "t": 1485.0,
+              "text": "I looked through all the troubleshooting tips in the user's manual yesterday. Nothing helped."
+            },
+            {
+              "t": 1490.0,
+              "text": "Oh, I see. Well, I guess we'll have to call technical support. Could you do it, since you know the program best?"
+            },
+            {
+              "t": 1498.0,
+              "text": "Well, I was on my way to a meeting."
+            },
+            {
+              "t": 1501.0,
+              "text": "Okay. You can just try to get it worked out by the end of the day."
+            },
+            {
+              "t": 1507.0,
+              "text": "Number fifty-six."
+            },
+            {
+              "t": 1509.0,
+              "text": "What does the woman ask the man to do?"
+            },
+            {
+              "t": 1520.0,
+              "text": "Number fifty-seven."
+            },
+            {
+              "t": 1522.0,
+              "text": "What did the man do yesterday?"
+            },
+            {
+              "t": 1532.0,
+              "text": "Number fifty-eight."
+            },
+            {
+              "t": 1534.0,
+              "text": "What does the man mean when he says, \"I was on my way to a meeting\"?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 59,
+              "question": "According to the woman, what is the problem with the fan?",
+              "choices": {
+                "A": "It cannot be turned on.",
+                "B": "It has stopped rotating.",
+                "C": "It may fall off of the wall.",
+                "D": "It is making loud noises."
+              },
+              "answer": "D",
+              "explanation": "Cô ấy nói mỗi lần quạt quay lại có tiếng click lớn, rất phiền.",
+              "uncertain": false
+            },
+            {
+              "n": 60,
+              "question": "Why is Itaru unable to assist the woman?",
+              "choices": {
+                "A": "His work space is being used by a colleague.",
+                "B": "He does not have the necessary skills.",
+                "C": "He has to handle another task.",
+                "D": "His job description does not allow it."
+              },
+              "answer": "C",
+              "explanation": "Itaru phải xử lý vấn đề ống nước nghiêm trọng nên không thể giúp ngay.",
+              "uncertain": false
+            },
+            {
+              "n": 61,
+              "question": "What does Adam ask about?",
+              "choices": {
+                "A": "A building floor",
+                "B": "A contact method",
+                "C": "A department name",
+                "D": "A vacation period"
+              },
+              "answer": "A",
+              "explanation": "Adam hỏi phòng kế toán ở tầng mấy.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1547,
+            "end": 1629
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q59.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions fifty-nine through sixty-one refer to the following conversation with three speakers. Hi, Itaru. It's Nicole in the accounting department. We're having an issue with one of our Wahl fans. Every time it rotates, there's a loud clicking sound. It's really annoying. I'd like to help you, but I need to deal with a serious plumbing problem now. Let me put you on with Adam. He's new here at the maintenance department, but he's very skilled. Okay. Thank you. Hi, this is Adam. I can take a look at your fan right now. But I'm sorry, I don't know my way around yet. What floor is the accounting department? It's the sixth. Once you're up here, please wait for me at the elevators. Number fifty-nine. According to the woman, what is the problem with the fan? Number sixty. Why is Itaru unable to assist the woman? Number sixty-one. What does Adam ask about?",
+          "segs": [
+            {
+              "t": 1547.0,
+              "text": "Questions fifty-nine through sixty-one refer to the following conversation with three speakers."
+            },
+            {
+              "t": 1553.0,
+              "text": "Hi, Itaru. It's Nicole in the accounting department. We're having an issue with one of our Wahl fans."
+            },
+            {
+              "t": 1560.0,
+              "text": "Every time it rotates, there's a loud clicking sound. It's really annoying."
+            },
+            {
+              "t": 1564.0,
+              "text": "I'd like to help you, but I need to deal with a serious plumbing problem now. Let me put you on with Adam."
+            },
+            {
+              "t": 1570.0,
+              "text": "He's new here at the maintenance department, but he's very skilled."
+            },
+            {
+              "t": 1574.0,
+              "text": "Okay. Thank you."
+            },
+            {
+              "t": 1576.0,
+              "text": "Hi, this is Adam. I can take a look at your fan right now. But I'm sorry, I don't know my way around yet."
+            },
+            {
+              "t": 1584.0,
+              "text": "What floor is the accounting department?"
+            },
+            {
+              "t": 1586.0,
+              "text": "It's the sixth. Once you're up here, please wait for me at the elevators."
+            },
+            {
+              "t": 1592.0,
+              "text": "Number fifty-nine."
+            },
+            {
+              "t": 1594.0,
+              "text": "According to the woman, what is the problem with the fan?"
+            },
+            {
+              "t": 1605.0,
+              "text": "Number sixty."
+            },
+            {
+              "t": 1607.0,
+              "text": "Why is Itaru unable to assist the woman?"
+            },
+            {
+              "t": 1618.0,
+              "text": "Number sixty-one."
+            },
+            {
+              "t": 1620.0,
+              "text": "What does Adam ask about?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 62,
+              "question": "Where is the conversation most likely taking place?",
+              "choices": {
+                "A": "In a copy room",
+                "B": "In a break area",
+                "C": "In a reception area",
+                "D": "In a conference room"
+              },
+              "answer": "B",
+              "explanation": "Họ nhắc có nhiều bát đĩa trong bồn rửa và người nam vào để thư giãn, nên là khu nghỉ/break area.",
+              "uncertain": false
+            },
+            {
+              "n": 63,
+              "question": "What is the woman having trouble with?",
+              "choices": {
+                "A": "Designing new merchandise",
+                "B": "Completing a training course",
+                "C": "Using a filing system",
+                "D": "Developing a sales plan"
+              },
+              "answer": "D",
+              "explanation": "Cô ấy đang mất nhiều thời gian hoàn thành action plan về chiến lược và mục tiêu bán hàng.",
+              "uncertain": false
+            },
+            {
+              "n": 64,
+              "question": "Look at the graphic. Who sent the e-mail that the man mentions?",
+              "choices": {
+                "A": "Mariana Sanchez",
+                "B": "Georgina Lewis",
+                "C": "Wyatt Rayburn",
+                "D": "Suraj Sidhu"
+              },
+              "answer": "B",
+              "explanation": "Người nam nhắc email về thay đổi timeline; trong hộp thư, “Revision to timeline” do Georgina Lewis gửi.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1629,
+            "end": 1724
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q62.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions sixty-two through sixty-four refer to the following conversation and email inbox. Good morning, Lynette. Wow, there are a lot of dishes in the sink. Good morning, Barry. Yes, it's a bit messy in here. Oh, I just remembered something. I know you're in here to relax, but could I talk to you about a problem I've been having? Sure. Well, it's taking me a long time to complete the action plan. You know, an outline of our sales strategies and targets. Finding information about our competitors has been hard. Oh, actually, there was a team email just now about a change to our project timetable. It said that the deadline will be pushed back a little. You should be fine. Number sixty-two. Where is the conversation most likely taking place? Number sixty-three. What is the woman having trouble with? Number sixty-four. Look at the graphic. Who sent the email that the man mentions?",
+          "segs": [
+            {
+              "t": 1629.0,
+              "text": "Questions sixty-two through sixty-four refer to the following conversation and email inbox."
+            },
+            {
+              "t": 1636.0,
+              "text": "Good morning, Lynette. Wow, there are a lot of dishes in the sink."
+            },
+            {
+              "t": 1640.0,
+              "text": "Good morning, Barry. Yes, it's a bit messy in here. Oh, I just remembered something."
+            },
+            {
+              "t": 1646.0,
+              "text": "I know you're in here to relax, but could I talk to you about a problem I've been having?"
+            },
+            {
+              "t": 1651.0,
+              "text": "Sure."
+            },
+            {
+              "t": 1652.0,
+              "text": "Well, it's taking me a long time to complete the action plan. You know, an outline of our sales strategies and targets."
+            },
+            {
+              "t": 1660.0,
+              "text": "Finding information about our competitors has been hard."
+            },
+            {
+              "t": 1663.0,
+              "text": "Oh, actually, there was a team email just now about a change to our project timetable."
+            },
+            {
+              "t": 1669.0,
+              "text": "It said that the deadline will be pushed back a little. You should be fine."
+            },
+            {
+              "t": 1675.0,
+              "text": "Number sixty-two."
+            },
+            {
+              "t": 1677.0,
+              "text": "Where is the conversation most likely taking place?"
+            },
+            {
+              "t": 1688.0,
+              "text": "Number sixty-three."
+            },
+            {
+              "t": 1690.0,
+              "text": "What is the woman having trouble with?"
+            },
+            {
+              "t": 1700.0,
+              "text": "Number sixty-four."
+            },
+            {
+              "t": 1702.0,
+              "text": "Look at the graphic. Who sent the email that the man mentions?"
+            },
+            {
+              "t": 1718.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 65,
+              "question": "Look at the graphic. What amount from the invoice will be modified?",
+              "choices": {
+                "A": "$110.00",
+                "B": "$35.00",
+                "C": "$8.00",
+                "D": "$153.00"
+              },
+              "answer": "D",
+              "explanation": "Phiếu giảm 5% áp dụng cho toàn bộ hóa đơn nên tổng tiền $153.00 sẽ được chỉnh.",
+              "uncertain": false
+            },
+            {
+              "n": 66,
+              "question": "What service does the man's company most likely provide?",
+              "choices": {
+                "A": "Commercial moving",
+                "B": "Carpet cleaning",
+                "C": "Garden care",
+                "D": "Grocery delivery"
+              },
+              "answer": "B",
+              "explanation": "Người nữ hỏi cho bạn cần giặt thảm, nên công ty cung cấp dịch vụ vệ sinh thảm.",
+              "uncertain": false
+            },
+            {
+              "n": 67,
+              "question": "What does the woman want to know about?",
+              "choices": {
+                "A": "Customized services",
+                "B": "Rewards for client referrals",
+                "C": "Appointment cancellation policies",
+                "D": "Employment opportunities"
+              },
+              "answer": "A",
+              "explanation": "Cô ấy hỏi công ty có những dịch vụ vệ sinh tùy chỉnh nào.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1724,
+            "end": 1815
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q65.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions sixty-five through sixty-seven refer to the following conversation and invoice. Okay, Miss Brody, thank you for holding. I'm looking at the invoice for your evening visit now. What was the problem? My coupon for five percent off the entire bill wasn't applied. Oh, I apologize. I remember saying that coupon. I'll send you out a new invoice with a title that reflects the discount. Great. Uh, and I'd also like to ask a question for a friend of mine who needs her carpets cleaned. Go ahead. Well, she doesn't want all the services included in your basic package, so I was wondering what kind of customized cleaning services you offer. Sure. I'd be happy to go over those with you. Number sixty-five. Look at the graphic. What amount from the invoice will be modified? Number sixty-six. What service does the man's company most likely provide? Number sixty-seven. What does the woman want to know about?",
+          "segs": [
+            {
+              "t": 1724.0,
+              "text": "Questions sixty-five through sixty-seven refer to the following conversation and invoice."
+            },
+            {
+              "t": 1731.0,
+              "text": "Okay, Miss Brody, thank you for holding. I'm looking at the invoice for your evening visit now. What was the problem?"
+            },
+            {
+              "t": 1738.0,
+              "text": "My coupon for five percent off the entire bill wasn't applied."
+            },
+            {
+              "t": 1743.0,
+              "text": "Oh, I apologize. I remember saying that coupon. I'll send you out a new invoice with a title that reflects the discount."
+            },
+            {
+              "t": 1751.0,
+              "text": "Great. Uh, and I'd also like to ask a question for a friend of mine who needs her carpets cleaned."
+            },
+            {
+              "t": 1757.0,
+              "text": "Go ahead."
+            },
+            {
+              "t": 1758.0,
+              "text": "Well, she doesn't want all the services included in your basic package, so I was wondering what kind of customized cleaning services you offer."
+            },
+            {
+              "t": 1767.0,
+              "text": "Sure. I'd be happy to go over those with you."
+            },
+            {
+              "t": 1772.0,
+              "text": "Number sixty-five."
+            },
+            {
+              "t": 1774.0,
+              "text": "Look at the graphic. What amount from the invoice will be modified?"
+            },
+            {
+              "t": 1790.0,
+              "text": "Number sixty-six."
+            },
+            {
+              "t": 1792.0,
+              "text": "What service does the man's company most likely provide?"
+            },
+            {
+              "t": 1803.0,
+              "text": "Number sixty-seven."
+            },
+            {
+              "t": 1805.0,
+              "text": "What does the woman want to know about?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 68,
+              "question": "Why is the woman in the area?",
+              "choices": {
+                "A": "To see a performance",
+                "B": "To interview for a job",
+                "C": "To speak at a conference",
+                "D": "To spend time with a friend"
+              },
+              "answer": "A",
+              "explanation": "Bạn cô đưa vé concert trong khu vực này, nên cô đến để xem biểu diễn.",
+              "uncertain": false
+            },
+            {
+              "n": 69,
+              "question": "Look at the graphic. How much will the woman most likely pay?",
+              "choices": {
+                "A": "£130",
+                "B": "£100",
+                "C": "£115",
+                "D": "£85"
+              },
+              "answer": "C",
+              "explanation": "Cô ấy không cần phòng view biển nhưng muốn có bữa sáng; bảng giá là £115.",
+              "uncertain": false
+            },
+            {
+              "n": 70,
+              "question": "What does the man recommend doing?",
+              "choices": {
+                "A": "Arriving early for a meal",
+                "B": "Parking in front of a hotel",
+                "C": "Taking a shuttle bus downtown",
+                "D": "Getting a second room key"
+              },
+              "answer": "C",
+              "explanation": "Anh ấy khuyên dùng shuttle bus downtown vì điểm dừng thứ hai ở trước trung tâm concert.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1815,
+            "end": 1928
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q68.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions sixty-eight through seventy refer to the following conversation and price chart. Welcome to the Sharula Hotel. Do you have a reservation? No, I don't. This was a sudden decision. A friend of mine had an urgent problem at her job, so she gave me her ticket for a concert in this area. Oh, I see. Well, we do have several rooms available. Would you like a view of the sea? That won't be necessary, but I'd like to have breakfast here before going home tomorrow morning. All right. Is the concert at Ladden Center by chance? Yes, it is. In that case, you should use our downtown shuttle bus. Its second stop is right in front of there. Number sixty-eight. Why is the woman in the area? Number sixty-nine. Look at the graphic. How much will the woman most likely pay? Number seventy. Part four. Directions. You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter A, B, C, or D on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+          "segs": [
+            {
+              "t": 1815.0,
+              "text": "Questions sixty-eight through seventy refer to the following conversation and price chart."
+            },
+            {
+              "t": 1822.0,
+              "text": "Welcome to the Sharula Hotel. Do you have a reservation?"
+            },
+            {
+              "t": 1825.0,
+              "text": "No, I don't. This was a sudden decision. A friend of mine had an urgent problem at her job, so she gave me her ticket for a concert in this area."
+            },
+            {
+              "t": 1834.0,
+              "text": "Oh, I see. Well, we do have several rooms available. Would you like a view of the sea?"
+            },
+            {
+              "t": 1841.0,
+              "text": "That won't be necessary, but I'd like to have breakfast here before going home tomorrow morning."
+            },
+            {
+              "t": 1846.0,
+              "text": "All right. Is the concert at Ladden Center by chance?"
+            },
+            {
+              "t": 1850.0,
+              "text": "Yes, it is."
+            },
+            {
+              "t": 1851.0,
+              "text": "In that case, you should use our downtown shuttle bus. Its second stop is right in front of there."
+            },
+            {
+              "t": 1858.0,
+              "text": "Number sixty-eight."
+            },
+            {
+              "t": 1860.0,
+              "text": "Why is the woman in the area?"
+            },
+            {
+              "t": 1870.0,
+              "text": "Number sixty-nine."
+            },
+            {
+              "t": 1872.0,
+              "text": "Look at the graphic. How much will the woman most likely pay?"
+            },
+            {
+              "t": 1888.0,
+              "text": "Number seventy."
+            },
+            {
+              "t": 1900.0,
+              "text": "Part four."
+            },
+            {
+              "t": 1901.0,
+              "text": "Directions."
+            },
+            {
+              "t": 1903.0,
+              "text": "You will hear some talks given by a single speaker."
+            },
+            {
+              "t": 1907.0,
+              "text": "You will be asked to answer three questions about what the speaker says in each talk."
+            },
+            {
+              "t": 1913.0,
+              "text": "Select the best response to each question and mark the letter A, B, C, or D on your answer sheet."
+            },
+            {
+              "t": 1922.0,
+              "text": "The talks will not be printed in your test book and will be spoken only one time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "directions": "Nghe bai noi ngan va tra loi 3 cau hoi.",
+      "items": [
+        {
+          "questions": [
+            {
+              "n": 71,
+              "question": "What kind of business is being advertised?",
+              "choices": {
+                "A": "An ocean cruise provider",
+                "B": "A sportswear store",
+                "C": "A seaside café",
+                "D": "A boat repair shop"
+              },
+              "answer": "D",
+              "explanation": "Quảng cáo nói mang thuyền đến để thợ máy kiểm tra và sửa, nên là tiệm sửa thuyền.",
+              "uncertain": false
+            },
+            {
+              "n": 72,
+              "question": "What does the speaker emphasize about the business?",
+              "choices": {
+                "A": "Its numerous branches",
+                "B": "Its famous customers",
+                "C": "Its advanced technology",
+                "D": "Its relaxed atmosphere"
+              },
+              "answer": "B",
+              "explanation": "Quảng cáo nhấn mạnh vận động viên trượt nước nổi tiếng cũng tin dùng dịch vụ.",
+              "uncertain": false
+            },
+            {
+              "n": 73,
+              "question": "How can listeners get a free gift?",
+              "choices": {
+                "A": "By mentioning an advertisement",
+                "B": "By signing up for a loyalty card",
+                "C": "By visiting on a certain day",
+                "D": "By referring a friend"
+              },
+              "answer": "A",
+              "explanation": "Khi đặt dịch vụ, khách nói đã nghe quảng cáo này thì nhận mũ miễn phí.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 1928,
+            "end": 2008
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q71.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions seventy-one through seventy-three refer to the following advertisement. Is your boat not running as smoothly as it used to? Make an appointment to bring it down to Gritsards Marine today. Our experienced mechanics will find out the problem and fix it quickly and for a reasonable price. No problem is too big or too small. There's a reason why people like renowned water skier Tricia Harless entrust their boats only to Gritsards. Our excellent service is just a short drive away. And during your service appointment, tell us you heard this ad to get a free fishing hat branded with the Gritsards logo. Number seventy-one. What kind of business is being advertised? Number seventy-two. What does the speaker emphasize about the business? Number seventy-three. How can listeners get a free gift?",
+          "segs": [
+            {
+              "t": 1928.0,
+              "text": "Questions seventy-one through seventy-three refer to the following advertisement."
+            },
+            {
+              "t": 1934.0,
+              "text": "Is your boat not running as smoothly as it used to?"
+            },
+            {
+              "t": 1937.0,
+              "text": "Make an appointment to bring it down to Gritsards Marine today. Our experienced mechanics will find out the problem and fix it quickly and for a reasonable price."
+            },
+            {
+              "t": 1948.0,
+              "text": "No problem is too big or too small."
+            },
+            {
+              "t": 1951.0,
+              "text": "There's a reason why people like renowned water skier Tricia Harless entrust their boats only to Gritsards."
+            },
+            {
+              "t": 1958.0,
+              "text": "Our excellent service is just a short drive away."
+            },
+            {
+              "t": 1962.0,
+              "text": "And during your service appointment, tell us you heard this ad to get a free fishing hat branded with the Gritsards logo."
+            },
+            {
+              "t": 1971.0,
+              "text": "Number seventy-one."
+            },
+            {
+              "t": 1973.0,
+              "text": "What kind of business is being advertised?"
+            },
+            {
+              "t": 1983.0,
+              "text": "Number seventy-two."
+            },
+            {
+              "t": 1985.0,
+              "text": "What does the speaker emphasize about the business?"
+            },
+            {
+              "t": 1996.0,
+              "text": "Number seventy-three."
+            },
+            {
+              "t": 1998.0,
+              "text": "How can listeners get a free gift?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 74,
+              "question": "Who most likely is making the announcement?",
+              "choices": {
+                "A": "A public official",
+                "B": "An event coordinator",
+                "C": "A bank manager",
+                "D": "A radio program host"
+              },
+              "answer": "D",
+              "explanation": "Người nói đang dẫn chương trình Mofford Money trên radio.",
+              "uncertain": false
+            },
+            {
+              "n": 75,
+              "question": "What will Mr. Jensen speak about at the event?",
+              "choices": {
+                "A": "A regional economy",
+                "B": "A negotiation method",
+                "C": "Business management",
+                "D": "Personal finance"
+              },
+              "answer": "D",
+              "explanation": "Curtis Jensen sẽ nói về quản lý tiền cá nhân.",
+              "uncertain": false
+            },
+            {
+              "n": 76,
+              "question": "What is mentioned about the event?",
+              "choices": {
+                "A": "Its attendees will be given handouts.",
+                "B": "It will be followed by a reception.",
+                "C": "Its date has been moved.",
+                "D": "It is predicted to sell out."
+              },
+              "answer": "B",
+              "explanation": "Sau bài nói, người tham dự có thể gặp ông Jensen tại một buổi reception.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2008,
+            "end": 2092
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q74.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions seventy-four through seventy-six refer to the following announcement. You're listening to Mofford Money, the only radio show that provides financial advice to Mofford area residents. Before we finish today, I'd like to promote an exciting upcoming event. Curtis Jensen will give a talk on personal money management at the Botkin Center on October 16. I have often recommended his work to those who are looking for useful tips, so I urge you to take advantage of this rare opportunity. Attendees will even be able to speak with Mr. Jensen personally at a reception afterwards. Visit the Botkin Center website for details. Alright, that's it for this week on Mofford Money. Number seventy-four. Number seventy-five. What will Mr. Jensen speak about at the event? Number seventy-six. What is mentioned about the event?",
+          "segs": [
+            {
+              "t": 2008.0,
+              "text": "Questions seventy-four through seventy-six refer to the following announcement."
+            },
+            {
+              "t": 2015.0,
+              "text": "You're listening to Mofford Money, the only radio show that provides financial advice to Mofford area residents."
+            },
+            {
+              "t": 2022.0,
+              "text": "Before we finish today, I'd like to promote an exciting upcoming event."
+            },
+            {
+              "t": 2027.0,
+              "text": "Curtis Jensen will give a talk on personal money management at the Botkin Center on October 16."
+            },
+            {
+              "t": 2033.0,
+              "text": "I have often recommended his work to those who are looking for useful tips, so I urge you to take advantage of this rare opportunity."
+            },
+            {
+              "t": 2041.0,
+              "text": "Attendees will even be able to speak with Mr. Jensen personally at a reception afterwards."
+            },
+            {
+              "t": 2047.0,
+              "text": "Visit the Botkin Center website for details."
+            },
+            {
+              "t": 2050.0,
+              "text": "Alright, that's it for this week on Mofford Money."
+            },
+            {
+              "t": 2055.0,
+              "text": "Number seventy-four."
+            },
+            {
+              "t": 2067.0,
+              "text": "Number seventy-five."
+            },
+            {
+              "t": 2069.0,
+              "text": "What will Mr. Jensen speak about at the event?"
+            },
+            {
+              "t": 2080.0,
+              "text": "Number seventy-six."
+            },
+            {
+              "t": 2082.0,
+              "text": "What is mentioned about the event?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 77,
+              "question": "What is the speaker calling about?",
+              "choices": {
+                "A": "A furniture order",
+                "B": "A broken appliance",
+                "C": "A rental contract",
+                "D": "A delivery van"
+              },
+              "answer": "A",
+              "explanation": "Cuộc gọi nói về kệ sách nhỏ mà khách dự định đến lấy, tức đơn hàng nội thất.",
+              "uncertain": false
+            },
+            {
+              "n": 78,
+              "question": "What does the speaker imply when he says, \"don’t get your hopes up\"?",
+              "choices": {
+                "A": "An item may not arrive on time.",
+                "B": "A phone number may not be correct.",
+                "C": "A space may be too small for a vehicle.",
+                "D": "An item may be damaged in transit."
+              },
+              "answer": "A",
+              "explanation": "Ông ấy ngụ ý nhà cung cấp có thể không giao kệ sách kịp trước ngày mai.",
+              "uncertain": false
+            },
+            {
+              "n": 79,
+              "question": "What does the speaker request that the listener do?",
+              "choices": {
+                "A": "Leave a message on a door",
+                "B": "Speak to his coworker",
+                "C": "Look for some records",
+                "D": "Take some measurements"
+              },
+              "answer": "B",
+              "explanation": "Ông ấy yêu cầu khách gọi cửa hàng và nói chuyện với Lisa, trợ lý quản lý.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2092,
+            "end": 2166
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q77.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions seventy-seven through seventy-nine refer to the following telephone message. Hi, Ms. Lundquist, it's Ted calling from Artisan's Central Furniture Shop about the small bookshelf you were supposed to pick up from us tomorrow. Unfortunately, it still hasn't been delivered to our store. We've contacted our wholesale supplier and are waiting to hear back from them, but, uh, don't get your hopes up. Anyway, we should talk before tomorrow. I'll be leaving for the day shortly, but please call the store and speak to Lisa, the assistant manager, and she'll help you. Thanks. Number seventy-seven. What is the speaker calling about? Number seventy-eight. What does the speaker imply when he says, \"Don't get your hopes up\"? Number seventy-nine. What does the speaker request that the listener do?",
+          "segs": [
+            {
+              "t": 2092.0,
+              "text": "Questions seventy-seven through seventy-nine refer to the following telephone message."
+            },
+            {
+              "t": 2097.0,
+              "text": "Hi, Ms. Lundquist, it's Ted calling from Artisan's Central Furniture Shop about the small bookshelf you were supposed to pick up from us tomorrow."
+            },
+            {
+              "t": 2106.0,
+              "text": "Unfortunately, it still hasn't been delivered to our store."
+            },
+            {
+              "t": 2109.0,
+              "text": "We've contacted our wholesale supplier and are waiting to hear back from them, but, uh, don't get your hopes up."
+            },
+            {
+              "t": 2116.0,
+              "text": "Anyway, we should talk before tomorrow."
+            },
+            {
+              "t": 2118.0,
+              "text": "I'll be leaving for the day shortly, but please call the store and speak to Lisa, the assistant manager, and she'll help you."
+            },
+            {
+              "t": 2125.0,
+              "text": "Thanks."
+            },
+            {
+              "t": 2128.0,
+              "text": "Number seventy-seven."
+            },
+            {
+              "t": 2130.0,
+              "text": "What is the speaker calling about?"
+            },
+            {
+              "t": 2140.0,
+              "text": "Number seventy-eight."
+            },
+            {
+              "t": 2142.0,
+              "text": "What does the speaker imply when he says, \"Don't get your hopes up\"?"
+            },
+            {
+              "t": 2154.0,
+              "text": "Number seventy-nine."
+            },
+            {
+              "t": 2156.0,
+              "text": "What does the speaker request that the listener do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 80,
+              "question": "What is the purpose of the talk?",
+              "choices": {
+                "A": "To persuade the listeners to purchase some items",
+                "B": "To educate listeners about a manufacturing process",
+                "C": "To report on the progress of a design project",
+                "D": "To introduce the new head of a department"
+              },
+              "answer": "A",
+              "explanation": "Người nói giới thiệu sản phẩm để thuyết phục cửa hàng đưa vào kho hàng.",
+              "uncertain": false
+            },
+            {
+              "n": 81,
+              "question": "What does the speaker's company make?",
+              "choices": {
+                "A": "Portable electronic devices",
+                "B": "Skin care goods",
+                "C": "Food packaging",
+                "D": "Stationery products"
+              },
+              "answer": "D",
+              "explanation": "Công ty làm journals, notebooks, notepads, thuộc văn phòng phẩm.",
+              "uncertain": false
+            },
+            {
+              "n": 82,
+              "question": "What does the speaker show on a screen?",
+              "choices": {
+                "A": "A sales chart",
+                "B": "A regional map",
+                "C": "Pictures of an event",
+                "D": "Results from a survey"
+              },
+              "answer": "A",
+              "explanation": "Người nói đưa biểu đồ doanh số lên màn hình.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2166,
+            "end": 2257
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q80.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions eighty-through-eighty-two refer to the following talk. My colleague and I really appreciate this chance to tell you all about the great products we offer at DoBMA Company. By the time we're finished, I'm sure you'll agree that they would be the perfect addition to your store's inventory. Now, as you know, we specialize in making durable, inattractive journals, notebooks, and notepads. Our unique designs and high-quality materials have proved appealing to customers throughout the region, and our popularity is rising. As you can see from the chat I'm putting up on the screen, our sales have increased steadily since our founding five years ago. Considering that we only partner with boutique stores, I think you'll agree that these numbers are remarkable. Number eighty- what is the purpose of the talk? Number eighty-one. What does the speaker's company make? Number eighty-two. What does the speaker show on a screen?",
+          "segs": [
+            {
+              "t": 2166.0,
+              "text": "Questions eighty-through-eighty-two refer to the following talk."
+            },
+            {
+              "t": 2170.0,
+              "text": "My colleague and I really appreciate this chance to tell you all about the great products we offer at DoBMA Company."
+            },
+            {
+              "t": 2178.0,
+              "text": "By the time we're finished, I'm sure you'll agree that they would be the perfect addition to your store's inventory."
+            },
+            {
+              "t": 2184.0,
+              "text": "Now, as you know, we specialize in making durable, inattractive journals, notebooks, and notepads."
+            },
+            {
+              "t": 2191.0,
+              "text": "Our unique designs and high-quality materials have proved appealing to customers throughout the region, and our popularity is rising."
+            },
+            {
+              "t": 2200.0,
+              "text": "As you can see from the chat I'm putting up on the screen, our sales have increased steadily since our founding five years ago."
+            },
+            {
+              "t": 2207.0,
+              "text": "Considering that we only partner with boutique stores, I think you'll agree that these numbers are remarkable."
+            },
+            {
+              "t": 2214.0,
+              "text": "Number eighty- what is the purpose of the talk?"
+            },
+            {
+              "t": 2226.0,
+              "text": "Number eighty-one."
+            },
+            {
+              "t": 2228.0,
+              "text": "What does the speaker's company make?"
+            },
+            {
+              "t": 2238.0,
+              "text": "Number eighty-two."
+            },
+            {
+              "t": 2240.0,
+              "text": "What does the speaker show on a screen?"
+            },
+            {
+              "t": 2250.0,
+              "text": "Go on to the next page."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 83,
+              "question": "What will take place at the end of the year?",
+              "choices": {
+                "A": "The launch of a product line",
+                "B": "A retirement ceremony",
+                "C": "The renovation of a store",
+                "D": "A holiday banquet"
+              },
+              "answer": "A",
+              "explanation": "Dòng thiệp chúc mừng mới sẽ xuất hiện ở các cửa hàng cuối năm.",
+              "uncertain": false
+            },
+            {
+              "n": 84,
+              "question": "What are the listeners asked to do?",
+              "choices": {
+                "A": "Forward an e-mail to some contacts",
+                "B": "Stay later than usual today",
+                "C": "Outline some goals",
+                "D": "Participate in a vote"
+              },
+              "answer": "D",
+              "explanation": "Người nghe sẽ nhận email các lựa chọn thưởng và được yêu cầu bỏ phiếu.",
+              "uncertain": false
+            },
+            {
+              "n": 85,
+              "question": "What does the speaker imply when she says, \"That was really something\"?",
+              "choices": {
+                "A": "She hopes to avoid repeating a mistake.",
+                "B": "Customers appreciated a special service.",
+                "C": "An achievement was impressive.",
+                "D": "A proposal was too impractical."
+              },
+              "answer": "C",
+              "explanation": "Câu này khen thành tích tạo nội dung sáng tạo rất nhanh là ấn tượng.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2257,
+            "end": 2348
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q83.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions eighty-three through eighty-five refer to the following excerpt from a meeting. Now, I've saved the best part of today's meeting for last. As you know, our new line of greeting cards will appear in stores nationwide at the end of the year, just in time to benefit from the winter holidays. Well, upper management is so thankful for the hard work that made this possible that they want to give you a recognition reward, something like bonus pay or some time off. You'll get an email later today outlining the options, so please vote for the one you like best. Isn't that exciting? You certainly earned it with the great job you all did producing that creative content so quickly. That was really something. Alright, that's all. Number eighty-three. What will take place at the end of the year? Number eighty-four. What are the listeners asked to do? Number eighty-five. What does the speaker imply when she says... That was really something.",
+          "segs": [
+            {
+              "t": 2257.0,
+              "text": "Questions eighty-three through eighty-five refer to the following excerpt from a meeting."
+            },
+            {
+              "t": 2263.0,
+              "text": "Now, I've saved the best part of today's meeting for last. As you know, our new line of greeting cards will appear in stores nationwide at the end of the year,"
+            },
+            {
+              "t": 2273.0,
+              "text": "just in time to benefit from the winter holidays."
+            },
+            {
+              "t": 2276.0,
+              "text": "Well, upper management is so thankful for the hard work that made this possible that they want to give you a recognition reward,"
+            },
+            {
+              "t": 2284.0,
+              "text": "something like bonus pay or some time off."
+            },
+            {
+              "t": 2287.0,
+              "text": "You'll get an email later today outlining the options, so please vote for the one you like best."
+            },
+            {
+              "t": 2293.0,
+              "text": "Isn't that exciting? You certainly earned it with the great job you all did producing that creative content so quickly."
+            },
+            {
+              "t": 2300.0,
+              "text": "That was really something. Alright, that's all."
+            },
+            {
+              "t": 2305.0,
+              "text": "Number eighty-three."
+            },
+            {
+              "t": 2307.0,
+              "text": "What will take place at the end of the year?"
+            },
+            {
+              "t": 2317.0,
+              "text": "Number eighty-four."
+            },
+            {
+              "t": 2319.0,
+              "text": "What are the listeners asked to do?"
+            },
+            {
+              "t": 2329.0,
+              "text": "Number eighty-five."
+            },
+            {
+              "t": 2331.0,
+              "text": "What does the speaker imply when she says... That was really something."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 86,
+              "question": "What is the main topic of the broadcast?",
+              "choices": {
+                "A": "A video game",
+                "B": "A television series",
+                "C": "A classic novel",
+                "D": "A recent film"
+              },
+              "answer": "B",
+              "explanation": "Chương trình đang nói về phim truyền hình Trandall City.",
+              "uncertain": false
+            },
+            {
+              "n": 87,
+              "question": "According to the speaker, what did Mr. Tarver do last year?",
+              "choices": {
+                "A": "He starred in a commercial.",
+                "B": "He met a politician.",
+                "C": "He wrote a play.",
+                "D": "He traveled abroad."
+              },
+              "answer": "D",
+              "explanation": "Một tập được quay ở Mexico năm ngoái, nghĩa là ông đã đi nước ngoài.",
+              "uncertain": false
+            },
+            {
+              "n": 88,
+              "question": "What will the speaker do next?",
+              "choices": {
+                "A": "Bring out a guest",
+                "B": "Give a Web site address",
+                "C": "Describe a story’s contents",
+                "D": "Read letters from viewers"
+              },
+              "answer": "C",
+              "explanation": "Người dẫn nói trước tiên sẽ tóm tắt tập cuối cho khán giả chưa xem.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2348,
+            "end": 2434
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q86.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Hello, and welcome to Nightly Entertainment. On tonight's show, we're going to talk about Trandall City, currently the most popular drama on TV. Its second season has just finished with a thrilling episode that left its main character, politician Devin Grant, in a difficult position. In contrast, John Tarver, the actor that plays him, is enjoying a career high point, and we're lucky enough to have him here today. I'm going to speak with Mr. Tarver about Trandall City, his co-stars, and his experiences traveling to exotic locations in Mexico, where one memorable episode was filmed last year. We'll also show exclusive behind-the-scenes footage from this season. But first, let me start by summarizing the last episode for viewers who may not have seen it. Number eighty-six. What is the main topic of the broadcast? Number eighty-seven. According to the speaker, what did Mr. Tarver do last year? Number eighty-eight. What will the speaker do next?",
+          "segs": [
+            {
+              "t": 2348.0,
+              "text": "Hello, and welcome to Nightly Entertainment."
+            },
+            {
+              "t": 2351.0,
+              "text": "On tonight's show, we're going to talk about Trandall City, currently the most popular drama on TV."
+            },
+            {
+              "t": 2357.0,
+              "text": "Its second season has just finished with a thrilling episode that left its main character, politician Devin Grant, in a difficult position."
+            },
+            {
+              "t": 2366.0,
+              "text": "In contrast, John Tarver, the actor that plays him, is enjoying a career high point, and we're lucky enough to have him here today."
+            },
+            {
+              "t": 2374.0,
+              "text": "I'm going to speak with Mr. Tarver about Trandall City, his co-stars, and his experiences traveling to exotic locations in Mexico,"
+            },
+            {
+              "t": 2382.0,
+              "text": "where one memorable episode was filmed last year. We'll also show exclusive behind-the-scenes footage from this season."
+            },
+            {
+              "t": 2389.0,
+              "text": "But first, let me start by summarizing the last episode for viewers who may not have seen it."
+            },
+            {
+              "t": 2396.0,
+              "text": "Number eighty-six."
+            },
+            {
+              "t": 2398.0,
+              "text": "What is the main topic of the broadcast?"
+            },
+            {
+              "t": 2408.0,
+              "text": "Number eighty-seven."
+            },
+            {
+              "t": 2410.0,
+              "text": "According to the speaker, what did Mr. Tarver do last year?"
+            },
+            {
+              "t": 2422.0,
+              "text": "Number eighty-eight."
+            },
+            {
+              "t": 2424.0,
+              "text": "What will the speaker do next?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 89,
+              "question": "What is mentioned about the train?",
+              "choices": {
+                "A": "It does not go above ground.",
+                "B": "It offers wireless Internet service.",
+                "C": "It crosses a national border.",
+                "D": "It does not stop at all stations."
+              },
+              "answer": "D",
+              "explanation": "Đây là tàu express trực tiếp và không dừng ở các ga khác trong thành phố.",
+              "uncertain": false
+            },
+            {
+              "n": 90,
+              "question": "What information does the speaker announce?",
+              "choices": {
+                "A": "The number of passengers on board",
+                "B": "The time of an arrival",
+                "C": "The location of a dining car",
+                "D": "The charge for transferring to a bus"
+              },
+              "answer": "B",
+              "explanation": "Người nói thông báo tàu sẽ đến lúc 1:20 chiều.",
+              "uncertain": false
+            },
+            {
+              "n": 91,
+              "question": "What does the speaker encourage listeners to do?",
+              "choices": {
+                "A": "Browse around some stores",
+                "B": "Buy special transport passes",
+                "C": "Use a short-term storage facility",
+                "D": "Install a new mobile app"
+              },
+              "answer": "A",
+              "explanation": "Người nói khuyến khích hành khách khám phá các cửa hàng mới trong ga.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2434,
+            "end": 2519
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q89.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions eighty-nine through ninety-one refer to the following announcement. Thank you for using the District Transit Authority's commuter railway system. This is a special express train offering direct service to the downtown Central Square railway station. We will not be stopping at other stations in the city. It looks like we'll arrive at our destination at 1.20 pm, which is actually five minutes ahead of schedule. To connect to city bus and subway services, please refer to the boarding information on the large electronic signs throughout the station. Also, on behalf of the Transit Authority, I'd like to encourage all passengers to spend some time exploring the new shops and boutiques at our recently renovated Central Square station. Number eighty-nine. What is mentioned about the train? Number ninety. What information does the speaker announce? Number ninety-one. What does the speaker encourage listeners to do?",
+          "segs": [
+            {
+              "t": 2434.0,
+              "text": "Questions eighty-nine through ninety-one refer to the following announcement."
+            },
+            {
+              "t": 2438.0,
+              "text": "Thank you for using the District Transit Authority's commuter railway system."
+            },
+            {
+              "t": 2443.0,
+              "text": "This is a special express train offering direct service to the downtown Central Square railway station."
+            },
+            {
+              "t": 2450.0,
+              "text": "We will not be stopping at other stations in the city."
+            },
+            {
+              "t": 2453.0,
+              "text": "It looks like we'll arrive at our destination at 1.20 pm, which is actually five minutes ahead of schedule."
+            },
+            {
+              "t": 2460.0,
+              "text": "To connect to city bus and subway services, please refer to the boarding information on the large electronic signs throughout the station."
+            },
+            {
+              "t": 2468.0,
+              "text": "Also, on behalf of the Transit Authority, I'd like to encourage all passengers to spend some time exploring the new shops and boutiques at our recently renovated Central Square station."
+            },
+            {
+              "t": 2482.0,
+              "text": "Number eighty-nine."
+            },
+            {
+              "t": 2484.0,
+              "text": "What is mentioned about the train?"
+            },
+            {
+              "t": 2494.0,
+              "text": "Number ninety."
+            },
+            {
+              "t": 2496.0,
+              "text": "What information does the speaker announce?"
+            },
+            {
+              "t": 2506.0,
+              "text": "Number ninety-one."
+            },
+            {
+              "t": 2508.0,
+              "text": "What does the speaker encourage listeners to do?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 92,
+              "question": "What has caused a problem?",
+              "choices": {
+                "A": "Shortages of special ingredients",
+                "B": "New city regulations for restaurants",
+                "C": "Improvements to another neighborhood",
+                "D": "Negative customer reviews posted online"
+              },
+              "answer": "C",
+              "explanation": "Các doanh nghiệp khu này gặp khó vì market district bên kia thành phố được nâng cấp.",
+              "uncertain": false
+            },
+            {
+              "n": 93,
+              "question": "What does the speaker intend to do?",
+              "choices": {
+                "A": "Build some parking garages",
+                "B": "Extend some opening hours",
+                "C": "Schedule a press conference",
+                "D": "Reconsider a hiring requirement"
+              },
+              "answer": "B",
+              "explanation": "Người nói sẽ kéo dài giờ mở cửa đến 11 giờ tối.",
+              "uncertain": false
+            },
+            {
+              "n": 94,
+              "question": "Why does the speaker say, \"it will be a temporary situation\"?",
+              "choices": {
+                "A": "To give a reason for a decision",
+                "B": "To express frustration with an agreement",
+                "C": "To suggest postponing an announcement",
+                "D": "To reassure the listeners about a change"
+              },
+              "answer": "D",
+              "explanation": "Câu này dùng để trấn an nhân viên rằng thay đổi lịch làm việc chỉ tạm thời.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2519,
+            "end": 2597
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q92.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions ninety-two through ninety-four refer to the following excerpt from a meeting. All right. Those of you who've worked here for a while have probably noticed that businesses in our neighborhood have been struggling since the market district across town was revitalized. It appears that we'll need to work harder to ensure that our restaurant remains an attractive dining destination. I'm going to start by extending our hours of operation to eleven pm. This is going to bring some changes to your working schedule that may require flexibility on your part, but with luck, it will be a temporary situation. Okay. Any questions about this? Number ninety-two. What has caused a problem? Number ninety-three. What does the speaker intend to do? Number ninety-four. Why does the speaker say? It will be a temporary situation.",
+          "segs": [
+            {
+              "t": 2519.0,
+              "text": "Questions ninety-two through ninety-four refer to the following excerpt from a meeting."
+            },
+            {
+              "t": 2525.0,
+              "text": "All right. Those of you who've worked here for a while have probably noticed that businesses in our neighborhood have been struggling since the market district across town was revitalized. It appears that we'll need to work harder to ensure that our restaurant remains an attractive dining destination."
+            },
+            {
+              "t": 2542.0,
+              "text": "I'm going to start by extending our hours of operation to eleven pm."
+            },
+            {
+              "t": 2546.0,
+              "text": "This is going to bring some changes to your working schedule that may require flexibility on your part, but with luck, it will be a temporary situation."
+            },
+            {
+              "t": 2555.0,
+              "text": "Okay. Any questions about this?"
+            },
+            {
+              "t": 2559.0,
+              "text": "Number ninety-two."
+            },
+            {
+              "t": 2561.0,
+              "text": "What has caused a problem?"
+            },
+            {
+              "t": 2571.0,
+              "text": "Number ninety-three."
+            },
+            {
+              "t": 2573.0,
+              "text": "What does the speaker intend to do?"
+            },
+            {
+              "t": 2583.0,
+              "text": "Number ninety-four."
+            },
+            {
+              "t": 2585.0,
+              "text": "Why does the speaker say?"
+            },
+            {
+              "t": 2587.0,
+              "text": "It will be a temporary situation."
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 95,
+              "question": "Who most likely are the listeners?",
+              "choices": {
+                "A": "Medical clinic staff",
+                "B": "Magazine designers",
+                "C": "Librarians",
+                "D": "Journalism students"
+              },
+              "answer": "C",
+              "explanation": "Người nói bàn về ngân sách tạp chí của thư viện, nên người nghe là thủ thư/nhân viên thư viện.",
+              "uncertain": false
+            },
+            {
+              "n": 96,
+              "question": "Look at the graphic. Which title did the speaker read recently?",
+              "choices": {
+                "A": "Celebrity Gossip",
+                "B": "Wise Consumer",
+                "C": "Games for Children",
+                "D": "Earth in Photographs"
+              },
+              "answer": "A",
+              "explanation": "Người nói đọc ấn phẩm đắt nhất; bảng cho thấy Celebrity Gossip có giá £96 cao nhất.",
+              "uncertain": false
+            },
+            {
+              "n": 97,
+              "question": "What will most likely be discussed next?",
+              "choices": {
+                "A": "Who will take on an assignment",
+                "B": "Whether to renew a subscription",
+                "C": "How to arrange a magazine rack",
+                "D": "Why some expenses have increased"
+              },
+              "answer": "B",
+              "explanation": "Người nói hỏi có nên đăng ký lại tạp chí đó năm tới không, nên họ sẽ bàn việc gia hạn subscription.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2597,
+            "end": 2683
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q95.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions ninety-five through ninety-seven refer to the following excerpt from a meeting and expense report. Now, if you'll turn to page three of the expense report, we can talk about balancing the library's magazine budget. We're going to have a slight deficit in this area next year, and I was hoping to cancel one of our subscriptions. So I read the latest edition of the most expensive periodical, and I wasn't impressed. I'm not sure that it's a good fit for our facility, but I think we may need it to keep drawing in visitors, especially younger ones. What do you all think? Should we subscribe to it again next year? Let's talk it over. Number ninety-five. Who most likely are the listeners? Number ninety-six. Look at the graphic. Which title did the speaker read recently? Number ninety-seven. What will most likely be discussed next?",
+          "segs": [
+            {
+              "t": 2597.0,
+              "text": "Questions ninety-five through ninety-seven refer to the following excerpt from a meeting and expense report."
+            },
+            {
+              "t": 2604.0,
+              "text": "Now, if you'll turn to page three of the expense report, we can talk about balancing the library's magazine budget."
+            },
+            {
+              "t": 2612.0,
+              "text": "We're going to have a slight deficit in this area next year, and I was hoping to cancel one of our subscriptions. So I read the latest edition of the most expensive periodical, and I wasn't impressed. I'm not sure that it's a good fit for our facility, but I think we may need it to keep drawing in visitors, especially younger ones."
+            },
+            {
+              "t": 2632.0,
+              "text": "What do you all think? Should we subscribe to it again next year? Let's talk it over."
+            },
+            {
+              "t": 2639.0,
+              "text": "Number ninety-five."
+            },
+            {
+              "t": 2642.0,
+              "text": "Who most likely are the listeners?"
+            },
+            {
+              "t": 2651.0,
+              "text": "Number ninety-six."
+            },
+            {
+              "t": 2654.0,
+              "text": "Look at the graphic. Which title did the speaker read recently?"
+            },
+            {
+              "t": 2670.0,
+              "text": "Number ninety-seven."
+            },
+            {
+              "t": 2672.0,
+              "text": "What will most likely be discussed next?"
+            }
+          ]
+        },
+        {
+          "questions": [
+            {
+              "n": 98,
+              "question": "Look at the graphic. On what day was a meeting scheduled?",
+              "choices": {
+                "A": "Tuesday",
+                "B": "Wednesday",
+                "C": "Thursday",
+                "D": "Friday"
+              },
+              "answer": "B",
+              "explanation": "Người nói muốn đổi lịch vì hôm gặp dự báo mưa; trong bảng, ngày mưa là Wednesday.",
+              "uncertain": false
+            },
+            {
+              "n": 99,
+              "question": "What is the speaker offering to provide for an event?",
+              "choices": {
+                "A": "The transportation",
+                "B": "The refreshments",
+                "C": "The venue",
+                "D": "The decorations"
+              },
+              "answer": "C",
+              "explanation": "Resort muốn làm địa điểm cho buổi ra mắt dòng sản phẩm mới, tức cung cấp venue.",
+              "uncertain": false
+            },
+            {
+              "n": 100,
+              "question": "Why should the listener visit a Web site?",
+              "choices": {
+                "A": "To obtain a coupon",
+                "B": "To watch a video",
+                "C": "To join a mailing list",
+                "D": "To make a tour reservation"
+              },
+              "answer": "B",
+              "explanation": "Người nói bảo website vừa có video tour cơ sở vật chất.",
+              "uncertain": false
+            }
+          ],
+          "audio": {
+            "start": 2683,
+            "end": 2771
+          },
+          "img": "assets/img/custom/zalo-test-4-listening/block-q98.jpg",
+          "ptype": "listening snapshot",
+          "text": "",
+          "transcript": "Questions ninety-eight through one hundred refer to the following telephone message and weather forecast. Hi, Norman. This is Jackie from Sea Deck Resort. I know that we were planning to meet this week so I could show you our outdoor terrace, but the weather forecast said it's supposed to rain that day. You'll appreciate the terrace's pleasant atmosphere much more if you come on a sunny a day, so I'd like to reschedule. Please know that we're still very interested in being the site for the launch of your company's new line of tableware. I'll call you again tomorrow, but in the meantime, you should stop by our website. We just uploaded a video tour of our facilities. It'll give you a good sense of what we offer. Number ninety-eight. Look at the graphic. On what day was a meeting scheduled? Number ninety-nine. What is the speaker offering to provide for an event? Number one hundred. Why should the listener visit a website?",
+          "segs": [
+            {
+              "t": 2683.0,
+              "text": "Questions ninety-eight through one hundred refer to the following telephone message and weather forecast."
+            },
+            {
+              "t": 2689.0,
+              "text": "Hi, Norman. This is Jackie from Sea Deck Resort. I know that we were planning to meet this week so I could show you our outdoor terrace, but the weather forecast said it's supposed to rain that day."
+            },
+            {
+              "t": 2702.0,
+              "text": "You'll appreciate the terrace's pleasant atmosphere much more if you come on a sunny a day, so I'd like to reschedule."
+            },
+            {
+              "t": 2709.0,
+              "text": "Please know that we're still very interested in being the site for the launch of your company's new line of tableware. I'll call you again tomorrow, but in the meantime, you should stop by our website."
+            },
+            {
+              "t": 2721.0,
+              "text": "We just uploaded a video tour of our facilities. It'll give you a good sense of what we offer."
+            },
+            {
+              "t": 2728.0,
+              "text": "Number ninety-eight."
+            },
+            {
+              "t": 2731.0,
+              "text": "Look at the graphic. On what day was a meeting scheduled?"
+            },
+            {
+              "t": 2740.0,
+              "text": "Number ninety-nine."
+            },
+            {
+              "t": 2748.0,
+              "text": "What is the speaker offering to provide for an event?"
+            },
+            {
+              "t": 2759.0,
+              "text": "Number one hundred."
+            },
+            {
+              "t": 2761.0,
+              "text": "Why should the listener visit a website?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
