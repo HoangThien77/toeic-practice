@@ -2728,13 +2728,7 @@
     const hasMediaPane = unitHasMediaPane(unit);
     const needsSplitView = hasMediaPane || unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
     screen.classList.toggle("wide", needsSplitView);
-    const answered = allQuestions(t).filter(({ q }) => state.answers[q.n]).length;
-    const total = allQuestions(t).length;
-    const pct = total ? Math.round((answered / total) * 100) : 0;
     const title = `${esc(t.title)} — Luyện tập`;
-    const partTags = [...new Set(t.parts.map((p) => p.part))]
-      .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
-      .join("");
     screen.innerHTML = `
       <div class="exam-console ${hasMediaPane ? "" : "no-media"}">
         <div class="exam-console-top">
@@ -2747,13 +2741,6 @@
           <div class="practice-head-stat">
             <b>${idx + 1}/${units.length}</b>
             <span>${esc(unitLabel(unit))}</span>
-          </div>
-        </div>
-        <div class="practice-strip exam-strip">
-          <div class="part-tabs">${partTags}</div>
-          <div class="practice-progress">
-            <span>Đã trả lời ${answered}/${total}</span>
-            <div class="practice-meter"><i style="width:${pct}%"></i></div>
           </div>
         </div>
         ${renderPracticeControls(t, units, unit)}
@@ -2800,12 +2787,18 @@
     const nextBtn = !revealed && !last
       ? `<button class="btn" onclick="App.practiceNext()">Câu tiếp →</button>`
       : "";
+    const partTags = [...new Set(t.parts.map((p) => p.part))]
+      .map((n) => `<button class="part-tab ${n === unit.part ? "active" : ""}" onclick="App.jumpToPart(${n})">P${n}</button>`)
+      .join("");
     return `<div class="practice-controls">
-      <button class="btn" ${idx <= 0 ? "disabled" : ""} onclick="App.practicePrev()">← Câu trước</button>
-      <button class="btn" onclick="App.openQnavSheet()">${ICONS.grid}<span>Bảng câu hỏi</span></button>
-      ${primary}
-      ${nextBtn}
-      <button class="btn" onclick="App.trySubmit()">Nộp bài</button>
+      <div class="part-tabs practice-control-tabs">${partTags}</div>
+      <div class="practice-control-actions">
+        <button class="btn" ${idx <= 0 ? "disabled" : ""} onclick="App.practicePrev()">← Câu trước</button>
+        <button class="btn" onclick="App.openQnavSheet()">${ICONS.grid}<span>Bảng câu hỏi</span></button>
+        ${primary}
+        ${nextBtn}
+        <button class="btn" onclick="App.trySubmit()">Nộp bài</button>
+      </div>
     </div>`;
   }
 
