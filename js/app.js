@@ -155,7 +155,7 @@
       audioEl.currentTime = audioTime;
       audioEl.playbackRate = strictExam() ? 1 : state.rate;
       if (draft.audio && draft.audio.wasPlaying && state.mode === "exam") {
-        audioEl.play().catch(() => {});
+        requestAudioPlay();
       }
     }
     if (state.mode === "exam" && draft.timerSec != null) {
@@ -590,7 +590,7 @@
     state.lastSeg = { start, end: end || null };
     audioEl.currentTime = start;
     audioEl.playbackRate = state.rate;
-    audioEl.play();
+    requestAudioPlay();
     showDock(true);
   }
 
@@ -968,6 +968,10 @@
       audioEl.src = t.audioSrc;
     }
   }
+  function requestAudioPlay() {
+    const p = audioEl.play();
+    if (p && typeof p.catch === "function") p.catch(() => syncAudioControls());
+  }
   function strictExam() {
     // đang thi (chưa nộp): không đổi tốc độ, không lặp, không tua
     return state.mode === "exam" && !state.finished;
@@ -978,7 +982,7 @@
     state.lastSeg = { start, end: end || null };
     audioEl.currentTime = start;
     audioEl.playbackRate = strictExam() ? 1 : state.rate;
-    audioEl.play();
+    requestAudioPlay();
     showDock(true);
     syncAudioControls();
   }
@@ -994,7 +998,7 @@
     const segStart = Number(start || 0);
     const segEnd = end == null ? null : Number(end);
     if (strictExam()) {
-      if (audioEl.paused) audioEl.play();
+      if (audioEl.paused) requestAudioPlay();
       syncAudioControls();
       return;
     }
@@ -1004,7 +1008,7 @@
       state.segEnd = segEnd;
       if (audioEl.paused) {
         audioEl.playbackRate = strictExam() ? 1 : state.rate;
-        audioEl.play();
+        requestAudioPlay();
       } else {
         audioEl.pause();
       }
@@ -1108,7 +1112,7 @@
   audioEl.addEventListener("ended", () => {
     if (state.loop && !strictExam() && state.lastSeg) {
       audioEl.currentTime = state.lastSeg.start;
-      audioEl.play();
+      requestAudioPlay();
     }
   });
   audioEl.addEventListener("play", () => {
@@ -1126,7 +1130,7 @@
     const t = test();
     // thi thật: không được tạm dừng audio; riêng sau khi refresh thì cho bấm phát tiếp nếu audio đang dừng.
     if (t && t.sessionCfg && t.sessionCfg.real && state.mode === "exam" && !state.finished && !audioEl.paused) return;
-    if (audioEl.paused) audioEl.play(); else audioEl.pause();
+    if (audioEl.paused) requestAudioPlay(); else audioEl.pause();
   }
   function initDock() {
     setInterval(() => {
@@ -2644,6 +2648,10 @@
 
   function unitAudio(unit) {
     if (!unit) return null;
+    const t = test();
+    const continuous = t && t.audioSrc && !state.finished
+      && (state.mode === "exam" || (t.sessionCfg && t.sessionCfg.listeningMode === "continuous"));
+    if (continuous) return audioSpan(t) || { start: 0, end: null };
     return unit.item.audio || (unit.questions && unit.questions.length === 1 ? unit.questions[0].audio : null);
   }
 
@@ -2668,7 +2676,10 @@
       const h = 18 + ((i * 17) % 30);
       return `<i style="height:${h}px"></i>`;
     }).join("");
-    const label = unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này";
+    const t = test();
+    const continuous = t && t.audioSrc && !state.finished
+      && (state.mode === "exam" || (t.sessionCfg && t.sessionCfg.listeningMode === "continuous"));
+    const label = continuous ? "Nghe bài nghe" : unit.questions.length > 1 ? "Nghe đoạn này" : "Nghe câu này";
     return `<div class="inline-audio" data-start="${Number(seg.start || 0)}" data-end="${seg.end != null ? Number(seg.end) : ""}">
       <button class="inline-audio-play" onclick="App.toggleInlineSeg(${audioArgs(seg)})" title="${label}">▶</button>
       <button class="inline-track" onclick="App.seekInlineAudio(event)" title="Tua trong đoạn đang nghe">
