@@ -3235,7 +3235,9 @@
   function renderQuestion(t, p, q, parent) {
     const reveal = state.finished || state.revealed[q.n];
     const user = state.answers[q.n];
-    const letters = Object.keys(q.choices || {}).filter((L) => q.choices[L] != null);
+    const choiceSource = q.choices || (q.spoken && q.spoken.choices) || {};
+    const letters = Object.keys(choiceSource).filter((L) => choiceSource[L] != null);
+    const audioOnlyChoice = p && p.part <= 2 && (q.audio || q.spoken || (t && t.kind === "listening"));
     const choices = letters.map((L) => {
       let cls = "choice";
       if (!reveal) { if (user === L) cls += " selected"; }
@@ -3245,7 +3247,9 @@
         else cls += " dim";
       }
       const spokenChoice = q.spoken && q.spoken.choices && q.spoken.choices[L];
-      const label = q.choices[L]
+      const label = audioOnlyChoice
+        ? "<i style='color:var(--muted)'>(nghe audio)</i>"
+        : q.choices && q.choices[L]
         ? esc(q.choices[L])
         : reveal && spokenChoice
           ? esc(spokenChoice)
