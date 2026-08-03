@@ -323,7 +323,10 @@
   }
 
   function practicePlayerActive() {
-    return state.view === "runner" && state.mode === "practice" && !state.finished && !state.keyOnly;
+    return state.view === "runner"
+      && (state.mode === "practice" || state.mode === "exam")
+      && !state.finished
+      && !state.keyOnly;
   }
 
   function clampFocusIndex(t) {
@@ -990,6 +993,11 @@
     ensureAudio();
     const segStart = Number(start || 0);
     const segEnd = end == null ? null : Number(end);
+    if (strictExam()) {
+      if (audioEl.paused) audioEl.play();
+      syncAudioControls();
+      return;
+    }
     const current = audioEl.currentTime || 0;
     const inRange = current >= segStart && (segEnd == null || current <= segEnd);
     if (sameAudioSegment(segStart, segEnd) && inRange) {
@@ -2728,7 +2736,8 @@
     const hasMediaPane = unitHasMediaPane(unit);
     const needsSplitView = hasMediaPane || unit.part >= 6 || ((unit.part === 3 || unit.part === 4) && unit.item.img && unit.item.questions);
     screen.classList.toggle("wide", needsSplitView);
-    const title = `${esc(t.title)} — Luyện tập`;
+    const titleSuffix = state.mode === "exam" ? (t.sessionCfg && t.sessionCfg.real ? "Thi thật" : "Thi thử") : "Luyện tập";
+    const title = `${esc(t.title)} — ${titleSuffix}`;
     screen.innerHTML = `
       <div class="exam-console ${hasMediaPane ? "" : "no-media"}">
         <div class="exam-console-top">
@@ -2779,12 +2788,17 @@
     const last = idx >= units.length - 1;
     const answered = unitAnswered(unit);
     const revealed = unitRevealed(unit);
-    const primary = !revealed
+    const examMode = state.mode === "exam";
+    const primary = examMode
+      ? (last
+        ? `<button class="btn btn-primary" onclick="App.trySubmit()">Nộp bài</button>`
+        : `<button class="btn btn-primary" onclick="App.practiceNext()">Câu tiếp →</button>`)
+      : !revealed
       ? `<button class="btn btn-primary" ${answered ? "" : "disabled"} onclick="App.checkCurrentUnit()">Kiểm tra</button>`
       : last
         ? `<button class="btn btn-primary" onclick="App.trySubmit()">Hoàn thành</button>`
         : `<button class="btn btn-primary" onclick="App.practiceNext()">Câu tiếp →</button>`;
-    const nextBtn = !revealed && !last
+    const nextBtn = !examMode && !revealed && !last
       ? `<button class="btn" onclick="App.practiceNext()">Câu tiếp →</button>`
       : "";
     const partTags = [...new Set(t.parts.map((p) => p.part))]
