@@ -1,0 +1,1115 @@
+{
+  "id": "reading-700-test-10-reading",
+  "kind": "reading",
+  "title": "Reading 700 Test 10 - Reading",
+  "desc": "Part 5-7, câu 101-175 (75 câu - PDF scan gốc chỉ có tới câu 175, thiếu 176-200). Có đáp án và giải thích tiếng Việt.",
+  "timerMin": 56,
+  "custom": true,
+  "parts": [
+    {
+      "part": 5,
+      "directions": "Chọn từ/cụm từ đúng nhất để hoàn thành câu.",
+      "items": [
+        {
+          "n": 101,
+          "question": "The passenger was asked to place ------- luggage in the overhead compartments after boarding the plane.",
+          "choices": {
+            "A": "her",
+            "B": "she",
+            "C": "hers",
+            "D": "herself"
+          },
+          "answer": "A",
+          "explanation": "Trước danh từ “luggage” cần tính từ sở hữu. “Her luggage” nghĩa là hành lý của cô ấy.",
+          "uncertain": false
+        },
+        {
+          "n": 102,
+          "question": "------- the initial prototype and the final model of the keyboard featured customizable media keys.",
+          "choices": {
+            "A": "None",
+            "B": "Either",
+            "C": "Both",
+            "D": "That"
+          },
+          "answer": "C",
+          "explanation": "Cấu trúc “both A and B” dùng để nói cả hai mẫu đều có đặc điểm được nêu.",
+          "uncertain": false
+        },
+        {
+          "n": 103,
+          "question": "Executives at the Cedal Corporation ------- negotiations for the acquisition of Nevix Industries two months ago.",
+          "choices": {
+            "A": "begins",
+            "B": "began",
+            "C": "beginning",
+            "D": "will begin"
+          },
+          "answer": "B",
+          "explanation": "“Two months ago” là mốc quá khứ rõ ràng, nên động từ chính dùng quá khứ đơn: “began”.",
+          "uncertain": false
+        },
+        {
+          "n": 104,
+          "question": "Our associates searched the file cabinet for nearly an hour and finally found the missing receipts ------- some travel documents.",
+          "choices": {
+            "A": "at",
+            "B": "onto",
+            "C": "during",
+            "D": "among"
+          },
+          "answer": "D",
+          "explanation": "“Among some travel documents” nghĩa là nằm lẫn trong một số tài liệu du lịch; các giới từ khác không đúng ngữ cảnh.",
+          "uncertain": false
+        },
+        {
+          "n": 105,
+          "question": "The fund for maintaining the community's public parks will run out ------- if the city council does not make it a top priority.",
+          "choices": {
+            "A": "entire",
+            "B": "entirety",
+            "C": "entireness",
+            "D": "entirely"
+          },
+          "answer": "D",
+          "explanation": "Sau cụm động từ “run out” cần trạng từ bổ nghĩa mức độ; “entirely” nghĩa là hoàn toàn.",
+          "uncertain": false
+        },
+        {
+          "n": 106,
+          "question": "------- hotels charge a fee for cancellation within 24 hours of check-in, but the Renora Inn does not.",
+          "choices": {
+            "A": "Other",
+            "B": "Each",
+            "C": "Which",
+            "D": "Another"
+          },
+          "answer": "A",
+          "explanation": "“Hotels” là danh từ số nhiều, nên dùng “other hotels”. “Another/each” đi với danh từ số ít.",
+          "uncertain": false
+        },
+        {
+          "n": 107,
+          "question": "A legitimate ------- of residency in the city can be proven via a valid apartment rental lease.",
+          "choices": {
+            "A": "is claiming",
+            "B": "claimed",
+            "C": "claim",
+            "D": "claims"
+          },
+          "answer": "C",
+          "explanation": "Sau mạo từ “A” cần danh từ số ít. “A legitimate claim of residency” là cách nói đúng.",
+          "uncertain": false
+        },
+        {
+          "n": 108,
+          "question": "Please ------- the sources for all of the statistics included in your report.",
+          "choices": {
+            "A": "base",
+            "B": "direct",
+            "C": "fulfill",
+            "D": "cite"
+          },
+          "answer": "D",
+          "explanation": "“Cite the sources” nghĩa là trích dẫn/nêu nguồn, phù hợp với “statistics included in your report”.",
+          "uncertain": false
+        },
+        {
+          "n": 109,
+          "question": "The candidate had already won a majority by a large margin, but election officials counted the rest of the votes -------.",
+          "choices": {
+            "A": "otherwise",
+            "B": "ever",
+            "C": "nonetheless",
+            "D": "rather"
+          },
+          "answer": "C",
+          "explanation": "Vế trước nói kết quả gần như chắc chắn, nhưng quan chức vẫn đếm phiếu còn lại; “nonetheless” nghĩa là dù vậy.",
+          "uncertain": false
+        },
+        {
+          "n": 110,
+          "question": "Even when the drone unexpectedly encountered a storm, its operator remained in ------- and kept the machine on course.",
+          "choices": {
+            "A": "control",
+            "B": "shape",
+            "C": "force",
+            "D": "order"
+          },
+          "answer": "A",
+          "explanation": "Cụm “remain in control” nghĩa là vẫn kiểm soát được tình hình/máy móc.",
+          "uncertain": false
+        },
+        {
+          "n": 111,
+          "question": "Many construction firms delegate portions of their work to ------- who can complete the job more cost-effectively.",
+          "choices": {
+            "A": "contractually",
+            "B": "contractors",
+            "C": "contractual",
+            "D": "contracts"
+          },
+          "answer": "B",
+          "explanation": "Sau “to” cần danh từ chỉ người nhận việc. “Contractors” là nhà thầu, phù hợp với ngữ cảnh xây dựng.",
+          "uncertain": false
+        },
+        {
+          "n": 112,
+          "question": "The branch manager called for an emergency meeting to tell staff ------- the change in government policy.",
+          "choices": {
+            "A": "for",
+            "B": "through",
+            "C": "behind",
+            "D": "about"
+          },
+          "answer": "D",
+          "explanation": "Cấu trúc đúng là “tell someone about something”: nói cho ai biết về điều gì.",
+          "uncertain": false
+        },
+        {
+          "n": 113,
+          "question": "Fortunately, the inventory taken by the aid organization found that the shelter had ------- levels of reserve supplies.",
+          "choices": {
+            "A": "willing",
+            "B": "acceptable",
+            "C": "skillful",
+            "D": "rapid"
+          },
+          "answer": "B",
+          "explanation": "“Acceptable levels” nghĩa là mức dự trữ chấp nhận được, hợp nghĩa với việc kiểm kê nguồn cung.",
+          "uncertain": false
+        },
+        {
+          "n": 114,
+          "question": "Owing to strong competition in the industry, the new smartphone designed by Vamiant Electronics must be marketed -------.",
+          "choices": {
+            "A": "consecutively",
+            "B": "recently",
+            "C": "strictly",
+            "D": "aggressively"
+          },
+          "answer": "D",
+          "explanation": "Vì cạnh tranh mạnh, sản phẩm cần được tiếp thị mạnh mẽ/tích cực; “aggressively” hợp ngữ cảnh nhất.",
+          "uncertain": false
+        },
+        {
+          "n": 115,
+          "question": "The natural history museum's VIP members are ------- to enter the workshop and see the curators in action.",
+          "choices": {
+            "A": "permitted",
+            "B": "permitting",
+            "C": "permits",
+            "D": "permit"
+          },
+          "answer": "A",
+          "explanation": "Cấu trúc bị động “be permitted to do something” nghĩa là được phép làm gì.",
+          "uncertain": false
+        },
+        {
+          "n": 116,
+          "question": "Roonelot Manufacturing installed solar panels on its rooftops ------- it could generate some of its own energy on site.",
+          "choices": {
+            "A": "such as",
+            "B": "regardless of",
+            "C": "no matter what",
+            "D": "so that"
+          },
+          "answer": "D",
+          "explanation": "“So that” diễn tả mục đích: lắp pin mặt trời để công ty có thể tự tạo một phần năng lượng.",
+          "uncertain": false
+        },
+        {
+          "n": 117,
+          "question": "Due to the prestigious nature of the award, even Ms. Donnelly's most ------- colleagues traveled to watch her accept it.",
+          "choices": {
+            "A": "distances",
+            "B": "distance",
+            "C": "distant",
+            "D": "distantly"
+          },
+          "answer": "C",
+          "explanation": "Trước danh từ “colleagues” cần tính từ; “distant colleagues” là đồng nghiệp ở xa/không thân thiết.",
+          "uncertain": false
+        },
+        {
+          "n": 118,
+          "question": "The owner of Hedley Tower may ------- the building if it does not pass the upcoming safety inspection.",
+          "choices": {
+            "A": "demolish",
+            "B": "demolishing",
+            "C": "demolished",
+            "D": "demolishes"
+          },
+          "answer": "A",
+          "explanation": "Sau động từ khuyết thiếu “may” dùng động từ nguyên mẫu: “may demolish”.",
+          "uncertain": false
+        },
+        {
+          "n": 119,
+          "question": "Despite the IT director ------- warning the company president of issues with the e-mail system, he did not allocate funds to fix it.",
+          "choices": {
+            "A": "repetition",
+            "B": "repetitive",
+            "C": "repeatedly",
+            "D": "repeating"
+          },
+          "answer": "C",
+          "explanation": "Cần trạng từ bổ nghĩa cho hành động “warning”; “repeatedly warning” nghĩa là nhiều lần cảnh báo.",
+          "uncertain": false
+        },
+        {
+          "n": 120,
+          "question": "By signing a sponsorship agreement with a highly respected athlete, Ferdan Sports was able to ------- its status.",
+          "choices": {
+            "A": "divide",
+            "B": "recruit",
+            "C": "attach",
+            "D": "elevate"
+          },
+          "answer": "D",
+          "explanation": "“Elevate its status” nghĩa là nâng cao vị thế/địa vị của công ty.",
+          "uncertain": false
+        },
+        {
+          "n": 121,
+          "question": "Most analysts agree that all three of the suggested tax measures offer ------- alternatives to the system that is currently in place.",
+          "choices": {
+            "A": "preferences",
+            "B": "preferring",
+            "C": "preferable",
+            "D": "prefer"
+          },
+          "answer": "C",
+          "explanation": "Trước danh từ “alternatives” cần tính từ; “preferable alternatives” nghĩa là các phương án tốt hơn/đáng chọn hơn.",
+          "uncertain": false
+        },
+        {
+          "n": 122,
+          "question": "The client complained that our technicians left ------- scratches on the glass in the process of transporting it.",
+          "choices": {
+            "A": "vital",
+            "B": "visible",
+            "C": "reduced",
+            "D": "accessible"
+          },
+          "answer": "B",
+          "explanation": "“Visible scratches” là các vết trầy nhìn thấy được, đúng với việc khách hàng phàn nàn về kính.",
+          "uncertain": false
+        },
+        {
+          "n": 123,
+          "question": "------- for the economic summit must have a professional certificate and be native speakers of the target language.",
+          "choices": {
+            "A": "Interpreting",
+            "B": "Interpretation",
+            "C": "Interprets",
+            "D": "Interpreters"
+          },
+          "answer": "D",
+          "explanation": "Chủ ngữ là người cần có chứng chỉ và là người bản xứ, nên dùng danh từ chỉ người số nhiều: “Interpreters”.",
+          "uncertain": false
+        },
+        {
+          "n": 124,
+          "question": "When opportunities for promotion at the university are insufficient, the rate of faculty ------- rises significantly.",
+          "choices": {
+            "A": "dissatisfying",
+            "B": "dissatisfaction",
+            "C": "dissatisfies",
+            "D": "dissatisfy"
+          },
+          "answer": "B",
+          "explanation": "Sau “faculty” cần danh từ chỉ trạng thái/sự việc. “Faculty dissatisfaction” là sự bất mãn của giảng viên.",
+          "uncertain": false
+        },
+        {
+          "n": 125,
+          "question": "Members of Parliament are expected to pass proposed ------- to conserve the natural habitat of a rare bird species in the southwest region.",
+          "choices": {
+            "A": "regulations",
+            "B": "transactions",
+            "C": "affiliations",
+            "D": "admissions"
+          },
+          "answer": "A",
+          "explanation": "Quốc hội thông qua “regulations” là các quy định; mục đích là bảo tồn môi trường sống.",
+          "uncertain": false
+        },
+        {
+          "n": 126,
+          "question": "If the grant for the project is not renewed by the Kogara Science Foundation, the lab's research will have to stop -------.",
+          "choices": {
+            "A": "lately",
+            "B": "altogether",
+            "C": "almost",
+            "D": "much"
+          },
+          "answer": "B",
+          "explanation": "“Stop altogether” nghĩa là dừng hoàn toàn, hợp với việc khoản tài trợ không được gia hạn.",
+          "uncertain": false
+        },
+        {
+          "n": 127,
+          "question": "Employees at the Soracune Corporation were encouraged ------- their cubicles to create a pleasant work environment.",
+          "choices": {
+            "A": "being personalized",
+            "B": "to personalize",
+            "C": "personalized",
+            "D": "personalizing"
+          },
+          "answer": "B",
+          "explanation": "Cấu trúc “encourage someone to do something” ở bị động là “were encouraged to personalize”.",
+          "uncertain": false
+        },
+        {
+          "n": 128,
+          "question": "In order to ensure that the participants are treated fairly by the judging panel, their identities are ------- until a winner has been selected.",
+          "choices": {
+            "A": "defined",
+            "B": "concealed",
+            "C": "verified",
+            "D": "prohibited"
+          },
+          "answer": "B",
+          "explanation": "Để đảm bảo công bằng, danh tính thí sinh được che giấu cho tới khi chọn người thắng cuộc.",
+          "uncertain": false
+        },
+        {
+          "n": 129,
+          "question": "More than half of older adults still have a landline phone in their home, ------- younger consumers depend solely on mobile technology.",
+          "choices": {
+            "A": "whereas",
+            "B": "instead of",
+            "C": "before",
+            "D": "so as to"
+          },
+          "answer": "A",
+          "explanation": "Hai nhóm được đem ra đối lập: người lớn tuổi còn dùng điện thoại bàn, trong khi người trẻ chỉ dùng di động. “Whereas” diễn tả sự tương phản.",
+          "uncertain": false
+        },
+        {
+          "n": 130,
+          "question": "Although Gassett Pharmaceuticals has experienced a great deal of success in the past few years, its revenues are predicted to ------- in the foreseeable future.",
+          "choices": {
+            "A": "criticize",
+            "B": "revolve",
+            "C": "shrink",
+            "D": "deduct"
+          },
+          "answer": "C",
+          "explanation": "“Revenues are predicted to shrink” nghĩa là doanh thu được dự đoán sẽ giảm/thu hẹp trong tương lai gần.",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "directions": "Đọc đoạn văn có 4 chỗ trống, chọn phương án phù hợp nhất cho mỗi chỗ trống.",
+      "items": [
+        {
+          "ptype": "letter",
+          "title": "Job Offer",
+          "text": "A job offer letter from Stanton Advisors to Mr. Cardoso. The hiring committee had been searching for a qualified candidate, praises his portfolios and recommendation, and asks him to review the contract before signing.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q131.jpg",
+          "questions": [
+            {
+              "n": 131,
+              "question": "",
+              "choices": {
+                "A": "will have searched",
+                "B": "had been searching",
+                "C": "were searched",
+                "D": "are searching"
+              },
+              "answer": "B",
+              "explanation": "Việc tìm kiếm ứng viên diễn ra trước thời điểm gửi thư và kéo dài trong quá khứ; “had been searching” phù hợp với bối cảnh đã tìm kiếm trước khi đưa ra lời mời.",
+              "uncertain": false
+            },
+            {
+              "n": 132,
+              "question": "",
+              "choices": {
+                "A": "The earning potential of the position is very attractive to job seekers.",
+                "B": "Similarly, we follow a strict ethics code to avoid potential issues.",
+                "C": "Please submit a copy of your résumé for our review.",
+                "D": "Furthermore, you have a deep understanding of market conditions."
+              },
+              "answer": "D",
+              "explanation": "Sau câu nói ứng viên vượt kỳ vọng, câu tiếp theo nên bổ sung thêm lý do khen ứng viên. “Furthermore...” nối ý hợp lý với các portfolio đầu tư được phát triển tốt.",
+              "uncertain": false
+            },
+            {
+              "n": 133,
+              "question": "",
+              "choices": {
+                "A": "their",
+                "B": "our",
+                "C": "its",
+                "D": "your"
+              },
+              "answer": "D",
+              "explanation": "Thư đang gửi cho Mr. Cardoso, nên “your former employer” là nhà tuyển dụng cũ của ông ấy.",
+              "uncertain": false
+            },
+            {
+              "n": 134,
+              "question": "",
+              "choices": {
+                "A": "Prior to",
+                "B": "Except for",
+                "C": "Because of",
+                "D": "Such as"
+              },
+              "answer": "A",
+              "explanation": "“Prior to signing it” nghĩa là trước khi ký hợp đồng; câu yêu cầu đọc kỹ hợp đồng trước khi ký.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "letter",
+          "title": "Frequent Flyer Program",
+          "text": "A welcome letter for Sinclair Airlines Frequent Flyer Program explaining rewards, partner companies, point earning options, and details in an enclosed brochure.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q135.jpg",
+          "questions": [
+            {
+              "n": 135,
+              "question": "",
+              "choices": {
+                "A": "has grown",
+                "B": "grown",
+                "C": "to grow",
+                "D": "growing"
+              },
+              "answer": "A",
+              "explanation": "Chủ ngữ “our business” cần động từ chính ở hiện tại hoàn thành để nói quá trình phát triển tới hiện tại: “has grown”.",
+              "uncertain": false
+            },
+            {
+              "n": 136,
+              "question": "",
+              "choices": {
+                "A": "those",
+                "B": "neither",
+                "C": "which",
+                "D": "few"
+              },
+              "answer": "D",
+              "explanation": "Câu so sánh với “most airlines” nhưng chỉ rất ít hãng có quyền lợi như họ cung cấp; “few have...” hợp nghĩa và đúng ngữ pháp.",
+              "uncertain": false
+            },
+            {
+              "n": 137,
+              "question": "",
+              "choices": {
+                "A": "subscribers",
+                "B": "affiliates",
+                "C": "passengers",
+                "D": "attendants"
+              },
+              "answer": "B",
+              "explanation": "Các đối tác như khách sạn và công ty thuê xe là “affiliates” trong chương trình tích điểm.",
+              "uncertain": false
+            },
+            {
+              "n": 138,
+              "question": "",
+              "choices": {
+                "A": "In fact, most of our members choose to do so.",
+                "B": "Therefore, comfort and convenience are our top priorities.",
+                "C": "Either way, you'll be enjoying a free flight in no time.",
+                "D": "As a result, our safety record is the best in the industry."
+              },
+              "answer": "C",
+              "explanation": "Trước đó nêu hai cách tích điểm: qua đối tác hoặc chỉ qua chuyến bay. “Either way...” nối đúng hai lựa chọn này.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "information",
+          "title": "Anaheim Sharpening Steel: How to Use",
+          "text": "Instructions for using a sharpening steel: hold it vertically, apply light pressure, alternate sides, and test sharpness after about fifteen strokes per side.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q139.jpg",
+          "questions": [
+            {
+              "n": 139,
+              "question": "",
+              "choices": {
+                "A": "tightening",
+                "B": "tightly",
+                "C": "tighten",
+                "D": "tightness"
+              },
+              "answer": "B",
+              "explanation": "Cần trạng từ bổ nghĩa cho động từ “hold”; “hold the handle tightly” nghĩa là giữ chặt tay cầm.",
+              "uncertain": false
+            },
+            {
+              "n": 140,
+              "question": "",
+              "choices": {
+                "A": "Relieve",
+                "B": "Force",
+                "C": "Withstand",
+                "D": "Apply"
+              },
+              "answer": "D",
+              "explanation": "Cụm tự nhiên là “apply light pressure”: dùng/tác động một lực nhẹ khi di chuyển lưỡi dao.",
+              "uncertain": false
+            },
+            {
+              "n": 141,
+              "question": "",
+              "choices": {
+                "A": "Sharp knives contribute to faster food preparation.",
+                "B": "This will maximize the effectiveness of the tool.",
+                "C": "A user manual is included with each item.",
+                "D": "If it is not hot enough, the process will not work."
+              },
+              "answer": "B",
+              "explanation": "Câu trước hướng dẫn giữ góc 20 độ; câu “This will maximize...” giải thích vì sao cách làm đó hiệu quả.",
+              "uncertain": false
+            },
+            {
+              "n": 142,
+              "question": "",
+              "choices": {
+                "A": "through",
+                "B": "into",
+                "C": "after",
+                "D": "since"
+              },
+              "answer": "C",
+              "explanation": "Cần kiểm tra độ sắc “after approximately fifteen strokes”: sau khoảng 15 lần mài mỗi bên.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Goldstein Dental Clinic Website",
+          "text": "Goldstein Dental Clinic announces a new website where patients can book appointments online and keep information readily available, while phone booking remains possible.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q143.jpg",
+          "questions": [
+            {
+              "n": 143,
+              "question": "",
+              "choices": {
+                "A": "can book",
+                "B": "have booked",
+                "C": "must book",
+                "D": "to book"
+              },
+              "answer": "A",
+              "explanation": "Thông báo giới thiệu chức năng mới của website: bệnh nhân có thể đặt lịch trực tuyến, nên “can book” đúng nghĩa.",
+              "uncertain": false
+            },
+            {
+              "n": 144,
+              "question": "",
+              "choices": {
+                "A": "We are sorry if the Web site crash caused any confusion.",
+                "B": "A new dentist will be joining our distinguished team next month.",
+                "C": "No special computer skills are needed to set up your account.",
+                "D": "Confirmation of your appointment is attached to this e-mail."
+              },
+              "answer": "C",
+              "explanation": "Sau đó là “Simply click here and fill out the text boxes”, nên câu phù hợp là không cần kỹ năng máy tính đặc biệt để tạo tài khoản.",
+              "uncertain": false
+            },
+            {
+              "n": 145,
+              "question": "",
+              "choices": {
+                "A": "noticeably",
+                "B": "widely",
+                "C": "primarily",
+                "D": "readily"
+              },
+              "answer": "D",
+              "explanation": "“Readily available” nghĩa là có sẵn/dễ truy cập, đúng với thông tin bệnh nhân trên hệ thống đặt lịch.",
+              "uncertain": false
+            },
+            {
+              "n": 146,
+              "question": "",
+              "choices": {
+                "A": "continuation",
+                "B": "interval",
+                "C": "automation",
+                "D": "stability"
+              },
+              "answer": "C",
+              "explanation": "Quy trình đặt lịch tự động giúp nhân viên lễ tân rảnh hơn; “automation of our booking process” là cụm đúng.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "directions": "Đọc đoạn văn và trả lời các câu hỏi.",
+      "items": [
+        {
+          "ptype": "advertisement",
+          "title": "Hillock Shopping Mall - Retail Spaces for Rent",
+          "text": "Hillock Shopping Mall advertises retail spaces with new fixtures, river views in some spaces, and a prime location between subway stations and next to a bus terminal.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q147.jpg",
+          "questions": [
+            {
+              "n": 147,
+              "question": "What is mentioned as an advantage of Hillock Shopping Mall?",
+              "choices": {
+                "A": "It contains a wide variety of affordable stores.",
+                "B": "Its business hours are longer than those of other malls.",
+                "C": "Some of its retail spaces have multiple floors.",
+                "D": "It has convenient access to public transportation."
+              },
+              "answer": "D",
+              "explanation": "Quảng cáo nói trung tâm nằm giữa hai ga tàu điện ngầm và cạnh bến xe buýt, tức thuận tiện đi lại bằng phương tiện công cộng.",
+              "uncertain": false
+            },
+            {
+              "n": 148,
+              "question": "Why are people encouraged to send an e-mail?",
+              "choices": {
+                "A": "To inquire about the mall's opening hours",
+                "B": "To request to hold an event at the mall",
+                "C": "To find out information about store discounts",
+                "D": "To arrange to see vacant retail spaces"
+              },
+              "answer": "D",
+              "explanation": "Quảng cáo yêu cầu liên hệ Barry Galloway qua e-mail để “schedule an evening viewing”, tức sắp lịch xem mặt bằng trống.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "sign",
+          "title": "Gallery Visitor Rules",
+          "text": "A gallery sign asks visitors to behave respectfully, throw away wrappers, avoid flash photography, speak quietly on tours, and not touch exhibits or lighting apparatus.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q149.jpg",
+          "questions": [
+            {
+              "n": 149,
+              "question": "What is the purpose of the sign?",
+              "choices": {
+                "A": "To give directions to an art gallery",
+                "B": "To provide guidelines for visitors",
+                "C": "To inform visitors about new exhibits",
+                "D": "To remind staff of job duties"
+              },
+              "answer": "B",
+              "explanation": "Biển nêu các quy định khi tham quan phòng trưng bày, nên mục đích là cung cấp hướng dẫn cho khách tham quan.",
+              "uncertain": false
+            },
+            {
+              "n": 150,
+              "question": "What activity is prohibited?",
+              "choices": {
+                "A": "Eating food",
+                "B": "Talking during tours",
+                "C": "Taking photographs",
+                "D": "Handling exhibits"
+              },
+              "answer": "D",
+              "explanation": "Biển ghi “Do not touch or pick up any exhibits”, nghĩa là không được chạm/cầm hiện vật.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "e-mail",
+          "title": "Oregon Independent Film Festival",
+          "text": "Lynne asks Vernon to check previous guest lists, send names of past film critics, and later prepare formal invitations for distribution by March 31.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q151.jpg",
+          "questions": [
+            {
+              "n": 151,
+              "question": "Why did Ms. Kozlowski send the e-mail?",
+              "choices": {
+                "A": "To change the dates of a festival",
+                "B": "To encourage Mr. Hogan to attend a festival",
+                "C": "To explain why the theater is holding a festival",
+                "D": "To seek assistance with organizing a festival"
+              },
+              "answer": "D",
+              "explanation": "Cô ấy nhờ Vernon kiểm tra danh sách khách cũ và chuẩn bị thư mời, tức nhờ hỗ trợ tổ chức lễ hội phim.",
+              "uncertain": false
+            },
+            {
+              "n": 152,
+              "question": "What does the e-mail suggest Ms. Kozlowski has already done to prepare for the festival?",
+              "choices": {
+                "A": "Selected films to show on the opening night",
+                "B": "Sent invitations to special guests",
+                "C": "Communicated with a theater owner",
+                "D": "Compiled a list of attending film critics"
+              },
+              "answer": "C",
+              "explanation": "E-mail nói chủ rạp (“the proprietor”) đã yêu cầu gửi danh sách khách, cho thấy cô ấy đã trao đổi với chủ rạp.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "text-message chain",
+          "title": "Training Workshop Delay",
+          "text": "Andy is delayed because a tire blew out. He asks Megan to lead the workshop, but she is not comfortable and lacks the handouts, so she will only give an introductory talk.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q153.jpg",
+          "questions": [
+            {
+              "n": 153,
+              "question": "What can be inferred about Mr. Pohler?",
+              "choices": {
+                "A": "He wants to reschedule the workshop.",
+                "B": "He offered to give Ms. Davies a ride to work.",
+                "C": "He went to the wrong location.",
+                "D": "He had trouble with his vehicle."
+              },
+              "answer": "D",
+              "explanation": "Andy nói một lốp xe bị nổ trên đường tới văn phòng và phải gọi thợ máy, nên ông gặp sự cố xe cộ.",
+              "uncertain": false
+            },
+            {
+              "n": 154,
+              "question": "At 8:56 A.M., what does Ms. Davies mean when she writes, “It's not exactly my specialty”?",
+              "choices": {
+                "A": "She feels that she requires more training.",
+                "B": "She is unable to offer Mr. Pohler any advice.",
+                "C": "She is reluctant to fill in for Mr. Pohler.",
+                "D": "She does not know how to create a manual."
+              },
+              "answer": "C",
+              "explanation": "Megan nói đó không phải chuyên môn của mình và nhắc rằng Andy giữ tài liệu, nên cô không muốn thay Andy dẫn workshop.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "notice",
+          "title": "Infotec Development Institute",
+          "text": "The institute offers monthly courses for legal professionals. Some courses are online and others in person. Membership includes a gift, tutor e-mail, course discounts, but airport transportation has been discontinued.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q155.jpg",
+          "questions": [
+            {
+              "n": 155,
+              "question": "What is indicated about the educational courses?",
+              "choices": {
+                "A": "They can all be accessed remotely through a Web site.",
+                "B": "They are targeted at medical professionals.",
+                "C": "They are delivered several times a year.",
+                "D": "Course materials must be purchased additionally."
+              },
+              "answer": "C",
+              "explanation": "Bài đọc nói mỗi khóa trong 10 khóa diễn ra mỗi tháng một lần, nên các khóa được tổ chức nhiều lần trong năm.",
+              "uncertain": false
+            },
+            {
+              "n": 156,
+              "question": "What is NOT mentioned as a benefit of Infotec membership?",
+              "choices": {
+                "A": "A staff member's contact details",
+                "B": "Discounted tuition fees",
+                "C": "A free gift",
+                "D": "A complimentary shuttle service"
+              },
+              "answer": "D",
+              "explanation": "Hội viên có quà, e-mail tutor và giảm giá khóa học. Dịch vụ đưa đón sân bay đã bị ngừng, không phải quyền lợi miễn phí.",
+              "uncertain": false
+            },
+            {
+              "n": 157,
+              "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “These will be provided to you upon arrival at the institute.”",
+              "choices": {
+                "A": "[1]",
+                "B": "[2]",
+                "C": "[3]",
+                "D": "[4]"
+              },
+              "answer": "B",
+              "explanation": "“These” chỉ “handouts and training packs” ở câu ngay trước vị trí [2], nên câu này đặt ở [2] là hợp lý.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "advertisement",
+          "title": "Eat-Sleep-Play",
+          "text": "A new monthly publication about restaurants, hotels, and local activities in Hartsville offers an 18-month subscription and a promo code for a free coffee mug.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q158.jpg",
+          "questions": [
+            {
+              "n": 158,
+              "question": "What is the main purpose of the advertisement?",
+              "choices": {
+                "A": "To announce a company's expansion",
+                "B": "To promote a new publication",
+                "C": "To recommend businesses in Hartsville",
+                "D": "To seek new employees for a business"
+              },
+              "answer": "B",
+              "explanation": "Quảng cáo giới thiệu tạp chí mới Eat-Sleep-Play, ngày ra số đầu và gói đăng ký, nên mục đích chính là quảng bá ấn phẩm mới.",
+              "uncertain": false
+            },
+            {
+              "n": 159,
+              "question": "What is suggested about Hartsville?",
+              "choices": {
+                "A": "It is home to several laser tag facilities.",
+                "B": "Its restaurant scene is increasingly competitive.",
+                "C": "It has a convenient public transportation system.",
+                "D": "It has been experiencing a rise in tourism."
+              },
+              "answer": "D",
+              "explanation": "Bài đọc nói số lượng du khách đến Hartsville đang tăng mạnh (“soaring number of tourists”).",
+              "uncertain": false
+            },
+            {
+              "n": 160,
+              "question": "How can someone receive a complimentary gift?",
+              "choices": {
+                "A": "By visiting a Web site",
+                "B": "By subscribing by a specific date",
+                "C": "By entering a special code",
+                "D": "By signing up for a one-year subscription"
+              },
+              "answer": "C",
+              "explanation": "Khi đăng ký qua e-mail, người đọc nhập mã khuyến mãi ESP111 trong tiêu đề để nhận cốc miễn phí.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "letter",
+          "title": "Restaurant Customer Feedback",
+          "text": "Mr. Corolla thanks Ms. Yurawat for praising Alice Lee's service, says Lee is new and will be thanked, and encloses a voucher for fifty percent off a future visit.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q161.jpg",
+          "questions": [
+            {
+              "n": 161,
+              "question": "What is the purpose of the letter?",
+              "choices": {
+                "A": "To express gratitude to a customer for providing feedback",
+                "B": "To address a customer's complaint about unsatisfactory service",
+                "C": "To approve a customer's request to hold a party at a business",
+                "D": "To answer a question from a customer about menu changes"
+              },
+              "answer": "A",
+              "explanation": "Ông Corolla cảm ơn khách hàng vì đã gửi thư nhận xét tích cực về nhân viên phục vụ.",
+              "uncertain": false
+            },
+            {
+              "n": 162,
+              "question": "What can be inferred about Ms. Lee?",
+              "choices": {
+                "A": "She prepared food for Ms. Yurawat.",
+                "B": "She will be awarded a bonus.",
+                "C": "She is the manager of a restaurant.",
+                "D": "She is a relatively new employee."
+              },
+              "answer": "D",
+              "explanation": "Bài đọc nói Ms. Lee “has not been with us long”, nghĩa là cô ấy mới làm ở nhà hàng chưa lâu.",
+              "uncertain": false
+            },
+            {
+              "n": 163,
+              "question": "What has Mr. Corolla enclosed with the letter?",
+              "choices": {
+                "A": "A revised bill",
+                "B": "A partial refund",
+                "C": "A sample menu",
+                "D": "A discount voucher"
+              },
+              "answer": "D",
+              "explanation": "Ông nói đã gửi kèm voucher để lần sau khách được giảm 50% tổng hóa đơn.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "online chat",
+          "title": "Presentation Handouts",
+          "text": "Rachel is at a convention hall but lacks printed handouts. The local printer is broken, Brad cannot deliver them in time, so they decide to e-mail the handout instead.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q164.jpg",
+          "questions": [
+            {
+              "n": 164,
+              "question": "Why did Ms. Beckett contact Mr. Naval?",
+              "choices": {
+                "A": "To tell him she is stuck in traffic",
+                "B": "To check the address of a venue",
+                "C": "To request that he deliver some documents",
+                "D": "To request a computer login code"
+              },
+              "answer": "C",
+              "explanation": "Rachel nhờ Brad in handouts và mang tới trước 12:30, tức yêu cầu giao tài liệu.",
+              "uncertain": false
+            },
+            {
+              "n": 165,
+              "question": "At 11:17 A.M., what does Mr. Naval mean when he writes, “It's a bit last minute”?",
+              "choices": {
+                "A": "He is telling Ms. Beckett to hold on a moment.",
+                "B": "It is too late to do as Ms. Beckett asks.",
+                "C": "It will be a quick task to carry out.",
+                "D": "He is asking Ms. Beckett what time it is."
+              },
+              "answer": "B",
+              "explanation": "Brad nói yêu cầu quá gấp và sau đó nói không thể đến kịp, nên ý là đã quá muộn để làm theo yêu cầu.",
+              "uncertain": false
+            },
+            {
+              "n": 166,
+              "question": "What problem does Ms. Beckett mention?",
+              "choices": {
+                "A": "She has forgotten her e-mail password.",
+                "B": "Some presentation materials contain errors.",
+                "C": "Some machinery is out of order.",
+                "D": "Audience members have not arrived yet."
+              },
+              "answer": "C",
+              "explanation": "Rachel nói máy in ở đó đang bị lỗi và chờ kỹ sư sửa, tức có thiết bị/máy móc hỏng.",
+              "uncertain": false
+            },
+            {
+              "n": 167,
+              "question": "What does Mr. Naval suggest?",
+              "choices": {
+                "A": "Postponing the event",
+                "B": "Going to a different lecture room",
+                "C": "Meeting at the office",
+                "D": "Sending a document electronically"
+              },
+              "answer": "D",
+              "explanation": "Brad đề nghị e-mail handout cho mọi người thay vì in ra, tức gửi tài liệu bằng phương thức điện tử.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "letter",
+          "title": "Complaint to Econobuild",
+          "text": "Paul Gravel, a long-term Econobuild customer, complains about late express delivery, rude customer service, and extra invoice charges, while noting the parts were high quality.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q168.jpg",
+          "questions": [
+            {
+              "n": 168,
+              "question": "What is suggested about Mr. Gravel?",
+              "choices": {
+                "A": "He is currently unemployed.",
+                "B": "He works as a plumber.",
+                "C": "He is late in paying an invoice.",
+                "D": "He would like to apply for a job at Econobuild."
+              },
+              "answer": "B",
+              "explanation": "Ông thường mua linh kiện để sửa bồn rửa và bồn cầu, nên có thể suy ra ông làm nghề liên quan đến sửa ống nước.",
+              "uncertain": false
+            },
+            {
+              "n": 169,
+              "question": "What issue does Mr. Gravel NOT make a complaint about?",
+              "choices": {
+                "A": "The conduct of a staff member",
+                "B": "The contents of an invoice",
+                "C": "The quality of some products",
+                "D": "The time taken to deliver some items"
+              },
+              "answer": "C",
+              "explanation": "Ông phàn nàn giao trễ, nhân viên thô lỗ và hóa đơn bị tính sai, nhưng nói linh kiện vẫn có chất lượng tốt như thường lệ.",
+              "uncertain": false
+            },
+            {
+              "n": 170,
+              "question": "What is indicated about Econobuild?",
+              "choices": {
+                "A": "It offers an online service to members.",
+                "B": "It has branches in several countries.",
+                "C": "Its complaints department is unstaffed.",
+                "D": "It is advertising for more delivery drivers."
+              },
+              "answer": "A",
+              "explanation": "Ông Gravel đăng nhập vào khu vực thành viên trên website để kiểm tra số dư, cho thấy công ty có dịch vụ trực tuyến cho hội viên.",
+              "uncertain": false
+            },
+            {
+              "n": 171,
+              "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? “I'd appreciate it if you would see to it that this is amended immediately.”",
+              "choices": {
+                "A": "[1]",
+                "B": "[2]",
+                "C": "[3]",
+                "D": "[4]"
+              },
+              "answer": "D",
+              "explanation": "“This is amended” phù hợp nhất với lỗi hóa đơn ở ngay trước vị trí [4], tức ông muốn khoản tính sai được sửa ngay.",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "ptype": "announcement",
+          "title": "Munro Mountain Firefly Festival",
+          "text": "An announcement gives festival time, closed trail sections, parking pass lottery rules, visitor center arrangements, and ticket purchase locations.",
+          "img": "assets/img/custom/reading-700-test-10-reading/passage-q172.jpg",
+          "questions": [
+            {
+              "n": 172,
+              "question": "For whom is the notice mainly intended?",
+              "choices": {
+                "A": "Park employees",
+                "B": "Event attendees",
+                "C": "Parking lot attendants",
+                "D": "Festival organizers"
+              },
+              "answer": "B",
+              "explanation": "Thông báo cung cấp thông tin cho những người muốn tham dự Firefly Festival: đường mòn, bãi đậu xe và vé.",
+              "uncertain": false
+            },
+            {
+              "n": 173,
+              "question": "What is NOT suggested about parking passes?",
+              "choices": {
+                "A": "The lottery can be entered free of charge.",
+                "B": "The passes may only be used on June 13.",
+                "C": "The successful applicants will be notified by e-mail.",
+                "D": "The passes are only good for specific types of vehicles."
+              },
+              "answer": "D",
+              "explanation": "Bài đọc nói bốc thăm miễn phí, kết quả qua e-mail và vé đậu xe chỉ dùng đúng ngày sự kiện; không nói vé chỉ áp dụng cho loại xe cụ thể.",
+              "uncertain": false
+            },
+            {
+              "n": 174,
+              "question": "What is indicated about the Visitor Center?",
+              "choices": {
+                "A": "It has several different parking areas.",
+                "B": "It will be closed during the event.",
+                "C": "It can provide maps of the park.",
+                "D": "It is located next to a campground."
+              },
+              "answer": "B",
+              "explanation": "Thông báo nói tòa nhà Visitor Center sẽ không mở cửa vào tối hôm đó.",
+              "uncertain": false
+            },
+            {
+              "n": 175,
+              "question": "What is true about event tickets?",
+              "choices": {
+                "A": "They will be mailed to recipients.",
+                "B": "They can be reserved via a Web site.",
+                "C": "They must be paid for by credit card.",
+                "D": "They can be purchased at various locations."
+              },
+              "answer": "D",
+              "explanation": "Vé có thể lấy/mua ở Visitor Center, văn phòng Parks and Recreation tại city hall và thư viện công cộng.",
+              "uncertain": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
